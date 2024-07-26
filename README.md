@@ -1,6 +1,6 @@
 This is an effort to map out and visualise elite endurance athletes' race (and training) performances in the lead up to the Paris Olympics.
 
-# [Simple] ()
+# [Simple] (https://github.com/danielcwq/elite-endurance-viz/tree/main/simple)
 
 - Exploratory Data Analysis of all male endurance athletes that have achieved a score of >= [1100 IAAF points] (https://worldathletics.org/news/news/scoring-tables-2022).
 - 1100 IAAF points has been arbitrarily defined but times at this level is a good separator between elite / pro performances.
