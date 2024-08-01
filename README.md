@@ -17,7 +17,7 @@ This is an effort to map out and visualise elite endurance athletes' race (and t
 - simple_viz.jpg is a representation of countries with the highest distribution of elite athletes who have achieved race performances of >= 1100 points. Kenya ranks the highest with 422 counts, followed by Japan (336) and USA (252). Not many surprises here.
   ![](https://github.com/danielcwq/elite-endurance-viz/blob/main/simple_viz.jpg)
 
-# [Complex]()
+# [Complex](https://github.com/danielcwq/elite-endurance-viz/tree/main/complex)
 
 - Following up from simple, the objective of complex is to aggregate all performances of an athlete which has scored >= 1100 points.
 - All indoor performances were stripped since that's usually considered by sports commentators to be too early in the season to count substantially to outdoor performances.
