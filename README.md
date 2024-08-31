@@ -30,6 +30,7 @@ This is an effort to map out and visualise elite endurance athletes' race (and t
 - Differences between world rankings (retrieved 23 Jul 2024) and actual results were computed, against a separate model (exponential decay from fastest time ran).
 - Between all distance events ran, IAAF rankings predicted 3k Women's SC the best and the men's marathon the worst. 
 
+![](https://github.com/danielcwq/elite-endurance-viz/blob/main/finalresults.png)
 
 # Next Steps
 - After completing complex, map out elite athlete's training history using Strava (for athletes that post all workouts there). Can aggregate data from other sources like YouTube (TRACK: All-Access, SweatElite, etc.)
