@@ -24,7 +24,12 @@ This is an effort to map out and visualise elite endurance athletes' race (and t
 - Experiment 1 used exponential loss decay to predict an OLY athlete's _racing_ form, not his overall fitness. This was done by calculating the time from the time the athlete had last raced to 01 Aug 24 (aggregated to the start of OLY distance events). Fitness is hard to predict, especially if elites mask / don't upload workouts closer to big races.
 - To cross check against intuition, most of the top ranked athletes in sorted_df_exponential.csv corroborate with [Citius Mag's](https://citiusmag.beehiiv.com/p/paris-olympics-2024-mens-distance-preview) breakdown of OLY distance events.
 
-# Next steps:
+# [Complete Analaysis]()
 
-- Proceed to complex, which aggregates ALL performances of an athlete >= 1100 points. Separate into indoor / outdoor season using regex, and predict form leading up to Olympics.
+- Analysed results from 2024 Olympics and used simple statistical methods (RMSE) to quantify how well IAAF's world rankings predicted placement in the Olympics. 
+- Differences between world rankings (retrieved 23 Jul 2024) and actual results were computed, against a separate model (exponential decay from fastest time ran).
+- Between all distance events ran, IAAF rankings predicted 3k Women's SC the best and the men's marathon the worst. 
+
+
+# Next Steps
 - After completing complex, map out elite athlete's training history using Strava (for athletes that post all workouts there). Can aggregate data from other sources like YouTube (TRACK: All-Access, SweatElite, etc.)
