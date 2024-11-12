@@ -1,0 +1,1597 @@
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+0,16448458,Sam Gilman,10475347412,Lunch Run,Keep the main thing the main thing.,2024-01-01 17:02:57+00:00,3968,Run,"Beavercreek, USA",9.02,6.75,1h 0m
+1,16448458,Sam Gilman,10559201234,Morning Run,,2024-01-14 16:21:00+00:00,5782,Run,"Coconino National Forest, USA",15.0,6.23,1h 33m
+2,16448458,Sam Gilman,10553488134,Afternoon Run,😮‍💨,2024-01-13 22:25:13+00:00,3320,Run,"Coconino National Forest, USA",8.01,6.82,54m 34s
+3,16448458,Sam Gilman,10546737265,6xK,,2024-01-12 22:20:02+00:00,5526,Run,"Cottonwood, USA",9.31,7.45,1h 9m
+4,16448458,Sam Gilman,10538758627,Blizzard,,2024-01-11 16:44:14+00:00,3869,Run,"Coconino National Forest, USA",8.96,7.03,1h 2m
+5,16448458,Sam Gilman,10534474032,Afternoon Run,,2024-01-10 23:07:41+00:00,3277,Run,"Flagstaff, USA",8.01,6.78,54m 23s
+6,16448458,Sam Gilman,10603503947,Morning Run,,2024-01-21 16:43:04+00:00,6263,Run,"Coconino National Forest, USA",16.04,6.4,1h 42m
+7,16448458,Sam Gilman,10596381073,Imagine if Ninja got a low taper fade,,2024-01-20 16:53:55+00:00,3496,Run,"Flagstaff, USA",8.08,7.18,58m 5s
+8,16448458,Sam Gilman,10589802971,"1200, 1.5, 1200, 1.5, 1200, mile",,2024-01-19 16:48:50+00:00,6674,Run,"Camp Verde, USA",11.48,7.13,1h 21m
+9,16448458,Sam Gilman,10585735171,Afternoon Run,,2024-01-18 23:31:06+00:00,1843,Run,"Flagstaff, USA",3.93,7.67,30m 11s
+10,16448458,Sam Gilman,10583658441,Morning Run,,2024-01-18 16:44:49+00:00,4843,Run,"Coconino National Forest, USA",10.22,6.87,1h 10m
+11,16448458,Sam Gilman,10579727297,Afternoon Run,Slog with D dawg,2024-01-18 00:56:47+00:00,1178,Run,"Flagstaff, USA",2.46,7.93,19m 35s
+12,16448458,Sam Gilman,10577324268,Morning Run,,2024-01-17 16:42:55+00:00,4454,Run,"Coconino National Forest, USA",10.05,7.1,1h 11m
+13,16448458,Sam Gilman,10571036890,Verde,"2x(2 mile, 1 mile)
+9:57, 4:47, 9:57, 4:39",2024-01-16 16:24:31+00:00,6660,Run,"Camp Verde, USA",11.05,6.85,1h 15m
+14,16448458,Sam Gilman,10564485819,Morning Run,,2024-01-15 16:46:48+00:00,4492,Run,"Coconino National Forest, USA",9.49,7.1,1h 7m
+15,16448458,Sam Gilman,10650477125,Nasty weather,Espresso set up complete 🙏,2024-01-28 20:06:15+00:00,6700,Run,"Beavercreek, USA",16.27,6.48,1h 45m
+16,16448458,Sam Gilman,10643309040,Pacework,Pacing at a local meet in Ohio. 3:06 thru 1200 for the mile and 5:30 thru 2k of the 3k,2024-01-27 23:03:45+00:00,4200,Run,,11.0,6.37,1h 10m
+17,16448458,Sam Gilman,10634088326,Last run in flag,,2024-01-26 16:03:18+00:00,2743,Run,"Flagstaff, USA",6.02,7.38,44m 28s
+18,16448458,Sam Gilman,10630387443,Dublin,,2024-01-25 23:50:20+00:00,1935,Run,"Flagstaff, USA",4.16,7.35,30m 36s
+19,16448458,Sam Gilman,10628075200,Morning Run,,2024-01-25 16:11:44+00:00,4472,Run,"Flagstaff, USA",9.2,7.33,1h 7m
+20,16448458,Sam Gilman,10622345678,Morning Run,,2024-01-24 16:45:14+00:00,4292,Run,"Coconino National Forest, USA",10.02,6.98,1h 9m
+21,16448458,Sam Gilman,10617526473,3x10 mins,"5:05-4:45
+
+Durag or no durag?",2024-01-23 22:31:32+00:00,5663,Run,,9.78,7.93,1h 17m
+22,16448458,Sam Gilman,10614679042,❄️,,2024-01-23 16:25:09+00:00,1379,Run,"Flagstaff, USA",3.02,7.4,22m 25s
+23,16448458,Sam Gilman,10610689810,Afternoon Run,,2024-01-22 23:44:42+00:00,1832,Run,"Flagstaff, USA",4.08,7.28,29m 46s
+24,16448458,Sam Gilman,10608554785,Morning Run,,2024-01-22 16:42:09+00:00,4700,Run,"Coconino National Forest, USA",9.64,7.2,1h 9m
+25,16448458,Sam Gilman,10697916963,Afternoon Run,,2024-02-04 20:49:11+00:00,3546,Run,"Beavercreek, USA",8.0,7.12,56m 56s
+26,16448458,Sam Gilman,10696422884,Morning Run,,2024-02-04 14:51:08+00:00,1788,Run,"Beavercreek, USA",4.14,7.2,29m 48s
+27,16448458,Sam Gilman,10689877179,Easy Long,,2024-02-03 17:31:05+00:00,7007,Run,"Beavercreek, USA",16.53,6.7,1h 50m
+28,16448458,Sam Gilman,10683332001,Speed,"2x1600(1’) @ 5:00-4:50
+500(2’)-300(2’)-100(2’) @ MP
+2400(3’) @ 5:00-4:50
+400(2’)-300(2’)-200(2’) @ MP
+600(1’)-200 GMP
+
+7200m total",2024-02-02 20:01:29+00:00,6472,Run,"Springfield, USA",11.28,7.47,1h 24m
+29,16448458,Sam Gilman,10678136813,60+RD,Frosh Woodway,2024-02-01 21:31:00+00:00,3960,Run,,9.5,6.95,1h 6m
+30,16448458,Sam Gilman,10670563685,Afternoon Run,,2024-01-31 20:35:47+00:00,4317,Run,"Beavercreek, USA",10.01,6.77,1h 7m
+31,16448458,Sam Gilman,10664284371,6xmile,Meh,2024-01-30 22:55:18+00:00,3960,Run,,11.0,6.0,1h 6m
+32,16448458,Sam Gilman,10661203737,Morning Run,,2024-01-30 15:47:49+00:00,1325,Run,"Beavercreek, USA",3.06,7.18,22m 1s
+33,16448458,Sam Gilman,10657297267,Afternoon Run,,2024-01-29 19:51:17+00:00,3757,Run,"Beavercreek, USA",8.09,6.85,55m 31s
+34,16448458,Sam Gilman,10655438850,Air Force Fitness Test,Easy max 😪,2024-01-29 18:38:27+00:00,602,Run,"Bath Township, USA",1.6,5.77,9m 15s
+35,16448458,Sam Gilman,10744500418,Missed mileage from racing/pacing,,2024-02-11 23:32:05+00:00,7200,Run,,20.0,6.0,2h 0m
+36,16448458,Sam Gilman,10743974723,Easy 50,,2024-02-11 21:19:13+00:00,3093,Run,"Beavercreek, USA",7.02,7.12,50m 0s
+37,16448458,Sam Gilman,10737579589,Afternoon Run,,2024-02-10 21:57:11+00:00,2288,Run,"Chicago, USA",5.26,7.22,37m 56s
+38,16448458,Sam Gilman,10730762301,Windy City Mile,"First race of 2024, first bit of momentum. Didn’t set the world on fire but nice to have a small positive. Gonna keep stacking it. Excited to watch Linds run the 3k!",2024-02-10 02:06:41+00:00,239,Run,,1.0,3.98,3m 59s
+39,16448458,Sam Gilman,10729987004,Afternoon Run,,2024-02-09 19:58:37+00:00,1187,Run,"Chicago, USA",1.62,7.82,12m 42s
+40,16448458,Sam Gilman,10724200696,Afternoon Run,,2024-02-08 21:45:08+00:00,3829,Run,"Chicago, USA",5.4,7.27,39m 15s
+41,16448458,Sam Gilman,10718516670,Evening Run,Looking for Sailor Holstege,2024-02-08 00:39:46+00:00,1461,Run,"Chicago, USA",3.01,7.7,23m 10s
+42,16448458,Sam Gilman,10715491974,Morning Run,,2024-02-07 14:53:26+00:00,4476,Run,"Beavercreek, USA",11.0,6.67,1h 13m
+43,16448458,Sam Gilman,10711663359,Afternoon Run,,2024-02-06 22:58:30+00:00,3505,Run,"Beavercreek, USA",8.0,7.15,57m 18s
+44,16448458,Sam Gilman,10704409342,Afternoon Run,,2024-02-05 21:51:48+00:00,5923,Run,,10.17,7.62,1h 17m
+45,16448458,Sam Gilman,10701470889,Morning Run,,2024-02-05 13:36:20+00:00,1313,Run,"Beavercreek, USA",3.02,7.22,21m 50s
+46,16448458,Sam Gilman,10788839275,Home away from home,,2024-02-18 14:52:23+00:00,7039,Run,"North Valley, USA",17.13,6.43,1h 50m
+47,16448458,Sam Gilman,10782081291,Morning Run,With Maria!,2024-02-17 17:18:43+00:00,3410,Run,"North Valley, USA",8.41,6.75,56m 46s
+48,16448458,Sam Gilman,10777026874,USA 3K,Good enough for 7th. Thought I raced smart and didn’t make any unnecessary moves. Probably could have moved a lap earlier but glad to be moving forward. Let’s keep stacking this thing !!,2024-02-17 04:44:14+00:00,480,Run,,1.86,4.28,8m 0s
+49,16448458,Sam Gilman,10768538760,🥩,,2024-02-15 17:40:29+00:00,3133,Run,"Albuquerque, USA",4.5,7.83,35m 16s
+50,16448458,Sam Gilman,10764170805,Afternoon Run,,2024-02-14 23:08:39+00:00,3934,Run,"Albuquerque, USA",7.65,7.37,56m 26s
+51,16448458,Sam Gilman,10754355260,USAs Premeet,"Nice to see and run with Chubs. Can’t believe he turns 75 next month!
+
+3000 on deck at USAs this Friday!",2024-02-13 14:36:32+00:00,4926,Run,"Fairborn, USA",8.66,7.77,1h 7m
+52,16448458,Sam Gilman,10750261208,Afternoon Run,,2024-02-12 21:33:41+00:00,4647,Run,"Beavercreek, USA",10.27,6.83,1h 10m
+53,16448458,Sam Gilman,10836396086,Lunch Run,Nasty work. 🤮,2024-02-25 16:22:00+00:00,7534,Run,"Prairie Township, USA",18.14,6.28,1h 54m
+54,16448458,Sam Gilman,10829989216,Coffee and encouragement,,2024-02-24 21:09:48+00:00,3034,Run,"Beavercreek, USA",7.0,7.22,50m 31s
+55,16448458,Sam Gilman,10823051357,Fartlek,"3x(3’,2’,1’) on 1’ 
+1 mile fast-smooth
+4x15” stride
+
+Good overall, would have liked more from the mile on the end.",2024-02-23 21:22:36+00:00,6547,Run,"Beavercreek, USA",15.02,6.23,1h 33m
+56,16448458,Sam Gilman,10820327086,Lock in.,,2024-02-23 13:28:17+00:00,1241,Run,"Beavercreek, USA",3.01,6.83,20m 38s
+57,16448458,Sam Gilman,10817469151,8RD,🌧️,2024-02-22 23:22:38+00:00,4200,Run,,10.0,7.0,1h 10m
+58,16448458,Sam Gilman,10814036877,Morning Run,,2024-02-22 13:24:03+00:00,1312,Run,"Beavercreek, USA",3.01,7.25,21m 52s
+59,16448458,Sam Gilman,10810836822,Afternoon Run,Hump day mid-long,2024-02-21 21:34:58+00:00,5221,Run,"Beavercreek, USA",12.02,6.88,1h 22m
+60,16448458,Sam Gilman,10803890481,Get out the door !,,2024-02-20 21:21:11+00:00,3969,Run,"Beavercreek, USA",9.0,6.83,1h 1m
+61,16448458,Sam Gilman,10797243199,Evening Run,,2024-02-19 23:24:28+00:00,1748,Run,"Beavercreek, USA",4.01,7.25,29m 5s
+62,16448458,Sam Gilman,10796169186,Lunch Run,,2024-02-19 17:42:03+00:00,3744,Run,"Beavercreek, USA",9.21,6.77,1h 2m
+63,16448458,Sam Gilman,10882603960,Morning Run,,2024-03-03 14:20:16+00:00,7051,Run,"Beavercreek Township, USA",18.03,6.27,1h 53m
+64,16448458,Sam Gilman,10877617977,oHio,,2024-03-02 23:59:05+00:00,1761,Run,"Beavercreek, USA",4.05,7.18,29m 6s
+65,16448458,Sam Gilman,10876041590,Morning Run,,2024-03-02 15:14:26+00:00,3441,Run,"Beavercreek, USA",8.09,7.07,57m 17s
+66,16448458,Sam Gilman,10870572301,Afternoon Run,"4x600/200, 5x400/200, 6x200/200
+600/200: 1:38/41, 1:39/41, 1:39/42, 1:39/39
+4’ rest
+400/200: 62/41, 62/42, 64/42, 63/44, 63/39
+4’ rest
+200/200: 29/43, 31/41, 30/42, 29/43, 29/43, 29/39
+5’ rest
+4x150: fast/smooth",2024-03-01 21:53:44+00:00,7426,Run,,11.97,7.75,1h 32m
+67,16448458,Sam Gilman,10864067768,Unit PT,,2024-02-29 20:16:17+00:00,3326,Run,"Beavercreek, USA",7.03,6.78,47m 40s
+68,16448458,Sam Gilman,10861415035,Morning Run,,2024-02-29 13:27:53+00:00,2874,Run,"Beavercreek, USA",7.08,6.73,47m 47s
+69,16448458,Sam Gilman,10857885945,Afternoon Run,FI run with Kyle Eller,2024-02-28 21:28:23+00:00,5166,Run,"Beavercreek, USA",12.01,6.98,1h 23m
+70,16448458,Sam Gilman,10851384950,Afternoon Run,+Lift,2024-02-27 22:20:24+00:00,1745,Run,"Bath Township, USA",4.01,7.22,29m 0s
+71,16448458,Sam Gilman,10848696186,It’s a Process,"Woodway work:
+
+2400(2’) @ 5:10
+2000(1:30’) @ 5:00
+1600(1’) @ 4:50
+1200(:45’) @ 4:48 1.5 incline
+1600(1’) @ 4:48 1.0 incline
+2000(2’) @ 4:50
+2400 @ 5:00",2024-02-27 16:35:48+00:00,2700,Run,,8.3,5.42,45m 0s
+72,16448458,Sam Gilman,10848795735,WU/CD,,2024-02-27 14:03:00+00:00,1800,Run,,4.0,7.5,30m 0s
+73,16448458,Sam Gilman,10843787269,Afternoon Run,,2024-02-26 21:29:13+00:00,4986,Run,"Beavercreek, USA",11.03,6.75,1h 14m
+74,16448458,Sam Gilman,10933806492,Afternoon Run,,2024-03-10 21:24:35+00:00,2969,Run,"Beavercreek, USA",7.07,7.0,49m 29s
+75,16448458,Sam Gilman,10925120589,Morning Run,,2024-03-09 16:36:08+00:00,6921,Run,"Davis County, USA",17.0,6.43,1h 49m
+76,16448458,Sam Gilman,10918330486,Lunch Run,"5x(600, 400, 200)
+1st set: (1:34, 64, 30) 3’
+2nd set: (1:34, 62, 30) 3’
+3rd set: (1:35, 62, 30) 4’
+Spike up
+4th set: (1:34, 61, 29) 4’
+5th set: (1:32, 60, 27)
+
+Bonus:
+4x600 @2:00 with 100 jog",2024-03-08 18:05:47+00:00,5235,Run,"Salt Lake City, USA",9.77,7.33,1h 11m
+77,16448458,Sam Gilman,10918330498,Morning Run,,2024-03-08 17:29:39+00:00,1210,Run,"Salt Lake City, USA",2.86,6.97,19m 59s
+78,16448458,Sam Gilman,10913568213,3RD,,2024-03-08 00:16:49+00:00,2501,Run,"Salt Lake City, USA",5.05,6.75,34m 9s
+79,16448458,Sam Gilman,10911384919,Morning Run,Anyone hungry?,2024-03-07 17:15:56+00:00,3619,Run,"Salt Lake City, USA",9.01,6.67,1h 0m
+80,16448458,Sam Gilman,10899807108,Evening Run,Run with Denver. It was great to be back with him,2024-03-06 01:22:47+00:00,1680,Run,,4.0,7.0,28m 0s
+81,16448458,Sam Gilman,10898260633,"20x(1’on,1’off)",Good.,2024-03-05 19:43:02+00:00,2427,Run,"Salt Lake City, USA",7.74,5.22,40m 24s
+82,16448458,Sam Gilman,10898428656,Lunch Run,WU/CD,2024-03-05 19:12:00+00:00,2280,Run,,5.3,7.17,38m 0s
+83,16448458,Sam Gilman,10889791360,Morning Run,,2024-03-04 17:08:40+00:00,3331,Run,"Salt Lake City, USA",8.0,6.83,54m 42s
+84,16448458,Sam Gilman,10979969857,Morning Run,,2024-03-17 12:57:26+00:00,7249,Run,"Pleasant Township, USA",18.25,6.37,1h 56m
+85,16448458,Sam Gilman,10974777666,Afternoon Run,😀😃😄😁,2024-03-16 21:08:38+00:00,1736,Run,"Bath Township, USA",4.0,7.18,28m 47s
+86,16448458,Sam Gilman,10972401685,Morning Run,Run with the DDP guys!,2024-03-16 13:15:00+00:00,4140,Run,,10.0,6.9,1h 9m
+87,16448458,Sam Gilman,10968000341,Afternoon Run,"3x mile 
+600, 400, 400, 200",2024-03-15 20:57:12+00:00,4380,Run,,11.0,6.63,1h 13m
+88,16448458,Sam Gilman,10961178824,Afternoon Run,,2024-03-14 20:48:10+00:00,4760,Run,"Beavercreek Township, USA",9.33,6.98,1h 5m
+89,16448458,Sam Gilman,10957709803,0 energy,,2024-03-14 12:20:58+00:00,1733,Run,"Beavercreek, USA",4.0,7.2,28m 53s
+90,16448458,Sam Gilman,10953404556,MWLR,"Ballin, straight swaggin.",2024-03-13 18:59:15+00:00,4711,Run,"Beavercreek, USA",12.0,6.48,1h 17m
+91,16448458,Sam Gilman,10946466481,9xmile (1’),5:00-4:45,2024-03-12 20:23:58+00:00,4500,Run,,13.0,5.77,1h 15m
+92,16448458,Sam Gilman,10939383356,Afternoon Run,,2024-03-11 20:05:24+00:00,5023,Run,"Beavercreek, USA",11.01,6.72,1h 14m
+93,16448458,Sam Gilman,11031442391,Afternoon Run,,2024-03-24 20:13:01+00:00,3447,Run,"Bath Township, USA",8.04,7.08,57m 0s
+94,16448458,Sam Gilman,11022817997,Lunch Run,,2024-03-23 15:18:51+00:00,5924,Run,"Beavercreek Township, USA",13.01,6.85,1h 29m
+95,16448458,Sam Gilman,11017564639,Afternoon Run,,2024-03-22 21:59:02+00:00,1813,Run,"Beavercreek Township, USA",4.16,7.2,30m 1s
+96,16448458,Sam Gilman,11015464918,Lunch Run,,2024-03-22 15:19:57+00:00,4261,Run,"Beavercreek, USA",10.31,6.87,1h 10m
+97,16448458,Sam Gilman,11008637206,Lunch Run,WU/CD,2024-03-21 15:50:48+00:00,2160,Run,,5.0,7.2,36m 0s
+98,16448458,Sam Gilman,11008595203,"4 mile tempo, 2x800, 3x400",,2024-03-21 15:15:16+00:00,2458,Run,"Beavercreek, USA",6.27,5.97,37m 27s
+99,16448458,Sam Gilman,11003904353,Afternoon Run,8RD,2024-03-20 21:10:03+00:00,3600,Run,,9.0,6.67,1h 0m
+100,16448458,Sam Gilman,11000153317,Morning Run,,2024-03-20 11:47:39+00:00,1324,Run,"Beavercreek, USA",3.01,7.3,22m 1s
+101,16448458,Sam Gilman,10997143905,Woodway 9,Thanks Frosh!,2024-03-19 23:17:54+00:00,3720,Run,,9.0,6.88,1h 2m
+102,16448458,Sam Gilman,10989067049,Afternoon Run,❄️,2024-03-18 20:45:12+00:00,5042,Run,"Beavercreek, USA",11.0,6.85,1h 15m
+103,16448458,Sam Gilman,11078219255,#Prayedup,Post Easter service LR,2024-03-31 15:14:12+00:00,7014,Run,"Beavercreek, USA",18.28,6.27,1h 54m
+104,16448458,Sam Gilman,11072075923,Afternoon Run,,2024-03-30 17:06:19+00:00,3364,Run,"Anderson Township, USA",8.0,6.87,54m 58s
+105,16448458,Sam Gilman,11063498494,Morning Run,,2024-03-29 13:40:26+00:00,3058,Run,"Raleigh, USA",7.0,7.25,50m 46s
+106,16448458,Sam Gilman,11058876142,Afternoon Run,,2024-03-28 21:58:34+00:00,3864,Run,"Raleigh, USA",7.67,6.27,48m 2s
+107,16448458,Sam Gilman,11058882431,Raleigh Relays 1500,I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it I luv it,2024-03-28 21:30:00+00:00,219,Run,,0.93,3.92,3m 39s
+108,16448458,Sam Gilman,11058876073,Afternoon Run,,2024-03-28 20:47:10+00:00,800,Run,"Raleigh, USA",2.04,6.48,13m 17s
+109,16448458,Sam Gilman,11055574673,Morning Run,,2024-03-28 13:16:05+00:00,1160,Run,"Raleigh, USA",1.6,8.35,13m 25s
+110,16448458,Sam Gilman,11051100695,Afternoon Run,,2024-03-27 18:56:22+00:00,3463,Run,"Raleigh, USA",5.67,7.1,40m 18s
+111,16448458,Sam Gilman,11046054754,Lunch Elliptical,,2024-03-26 15:30:07+00:00,2792,Elliptical,,46.0,,148 bpm
+112,16448458,Sam Gilman,11036516459,Lunch Run,,2024-03-25 16:45:16+00:00,5477,Run,"Fairborn, USA",11.18,6.33,1h 10m
+113,16448458,Sam Gilman,11131073554,Afternoon Run,Huit octobre 1971 beat type day,2024-04-07 20:43:31+00:00,4963,Run,"Beavercreek, USA",11.03,6.88,1h 15m
+114,16448458,Sam Gilman,11121783477,Afternoon Run,,2024-04-06 17:42:44+00:00,6169,Run,"Beavercreek, USA",15.0,6.6,1h 38m
+115,16448458,Sam Gilman,11114825978,EZ,,2024-04-05 22:30:35+00:00,1745,Run,"Beavercreek, USA",4.0,7.23,28m 56s
+116,16448458,Sam Gilman,11112677318,"8xK, 2xbroken K",,2024-04-05 14:21:43+00:00,6687,Run,"Fairborn, USA",11.82,7.88,1h 33m
+117,16448458,Sam Gilman,11108187737,Afternoon Run,,2024-04-04 20:57:17+00:00,4658,Run,"Beavercreek, USA",10.0,6.68,1h 6m
+118,16448458,Sam Gilman,11099509873,PMR,,2024-04-03 15:55:15+00:00,4230,Run,"Beavercreek, USA",10.03,6.92,1h 9m
+119,16448458,Sam Gilman,11092602827,Threshold work !,,2024-04-02 16:49:26+00:00,5400,Run,,13.0,6.92,1h 30m
+120,16448458,Sam Gilman,11086607846,4RD,,2024-04-01 20:17:38+00:00,2585,Run,"Beavercreek, USA",5.19,7.0,36m 19s
+121,16448458,Sam Gilman,11083043798,Easy AM,Just hit TH15. What a ride…,2024-04-01 11:30:00+00:00,3000,Run,,7.0,7.15,50m 0s
+122,16448458,Sam Gilman,11173410397,Bryan Clay 5k,Closer than it seems. Made a lot of strong moves early to work through the pack. Didn’t have the legs the last K. Moving forward. It will come!!,2024-04-13 04:45:37+00:00,814,Run,,3.1,4.37,13m 34s
+123,16448458,Sam Gilman,11166588372,Morning Run,,2024-04-12 17:15:56+00:00,1333,Run,"Baldwin Park, USA",1.91,7.92,15m 10s
+124,16448458,Sam Gilman,11161511284,A day for it,,2024-04-12 01:23:45+00:00,2740,Run,"Los Angeles County, USA",5.2,7.3,37m 59s
+125,16448458,Sam Gilman,11153876752,Afternoon Run,,2024-04-11 00:03:56+00:00,3977,Run,"Azusa, USA",8.0,7.05,56m 23s
+126,16448458,Sam Gilman,11150732475,Morning Run,,2024-04-10 16:02:30+00:00,1759,Run,"Baldwin Park, USA",4.0,7.02,28m 6s
+127,16448458,Sam Gilman,11143414416,Lunch Run,Missed my flight !😫😭,2024-04-09 16:11:24+00:00,3311,Run,"Anderson Township, USA",8.0,6.85,54m 46s
+128,16448458,Sam Gilman,11136385313,Lunch Run,,2024-04-08 16:59:54+00:00,4062,Run,"Fairborn, USA",6.91,7.65,52m 51s
+129,16448458,Sam Gilman,11293782619,Morning Run,,2024-04-28 16:17:17+00:00,7336,Run,"Coconino County, USA",18.01,6.65,1h 59m
+130,16448458,Sam Gilman,11340678304,Morning Run,,2024-05-05 16:14:09+00:00,6396,Run,"Coconino National Forest, USA",16.01,6.43,1h 42m
+131,16448458,Sam Gilman,11332593479,Morning Run,,2024-05-04 17:57:08+00:00,3076,Run,"Flagstaff, USA",7.0,7.22,50m 32s
+132,16448458,Sam Gilman,11326341532,Afternoon Run,Get after it type day,2024-05-03 23:18:36+00:00,7711,Run,"Sedona, USA",11.89,8.53,1h 41m
+133,16448458,Sam Gilman,11326341234,Morning Run,,2024-05-03 16:36:50+00:00,1800,Run,"Flagstaff, USA",3.98,7.07,28m 8s
+134,16448458,Sam Gilman,11319251375,Afternoon Run,,2024-05-02 23:25:20+00:00,4067,Run,"Flagstaff, USA",6.68,7.33,49m 5s
+135,16448458,Sam Gilman,11317687213,Morning Run,,2024-05-02 15:28:04+00:00,3679,Run,"Flagstaff, USA",9.01,6.8,1h 1m
+136,16448458,Sam Gilman,11310522362,Morning Run,,2024-05-01 16:34:36+00:00,5081,Run,"Coconino National Forest, USA",12.0,6.88,1h 22m
+137,16448458,Sam Gilman,11294767338,Morning Run,,2024-04-29 16:44:58+00:00,5747,Run,"Flagstaff, USA",10.44,7.67,1h 20m
+138,16448458,Sam Gilman,11381068009,Afternoon Run,,2024-05-10 23:18:49+00:00,5728,Run,"Cottonwood, USA",9.35,9.67,1h 30m
+139,16448458,Sam Gilman,11365602537,Afternoon Run,,2024-05-08 22:12:06+00:00,4417,Run,"Flagstaff, USA",10.48,6.87,1h 11m
+140,16448458,Sam Gilman,11451019422,Afternoon Run,,2024-05-19 19:40:07+00:00,5168,Run,"Beavercreek, USA",13.52,6.05,1h 21m
+141,16448458,Sam Gilman,11428568773,Pre,,2024-05-16 23:40:00+00:00,3632,Run,"Los Angeles, USA",4.73,7.6,35m 55s
+142,16448458,Sam Gilman,11417191485,Morning Run,,2024-05-15 14:35:17+00:00,3144,Run,"Flagstaff, USA",7.0,7.03,49m 13s
+143,16448458,Sam Gilman,11410961497,Morning Run,,2024-05-14 16:19:26+00:00,6347,Run,"Flagstaff, USA",7.24,12.9,1h 33m
+144,16448458,Sam Gilman,11404820439,Double Threshold,,2024-05-14 00:12:51+00:00,1725,Run,"Flagstaff, USA",4.01,7.15,28m 42s
+145,16448458,Sam Gilman,11503470474,Morning Run,If you know anyone in the Dayton area that has good camera work and is passionate about the sport tell em to hit me up,2024-05-26 14:06:45+00:00,6756,Run,"Beavercreek, USA",16.01,6.68,1h 46m
+146,16448458,Sam Gilman,11497805881,Evening Run,,2024-05-25 23:44:08+00:00,879,Run,"Beavercreek Township, USA",2.0,7.28,14m 36s
+147,16448458,Sam Gilman,11497435369,Evening Run,,2024-05-25 22:10:41+00:00,4060,Run,"Beavercreek Township, USA",7.23,7.8,56m 24s
+148,16448458,Sam Gilman,11494608339,Morning Run,,2024-05-25 14:30:58+00:00,1645,Run,"Beavercreek, USA",4.01,6.82,27m 22s
+149,16448458,Sam Gilman,11490128998,Evening Run,,2024-05-25 00:15:22+00:00,1702,Run,"Beavercreek, USA",4.0,7.02,28m 7s
+150,16448458,Sam Gilman,11488541005,9RD,"5x200
+29, 30, 28, 26, 26",2024-05-24 17:15:24+00:00,5148,Run,"Beavercreek Township, USA",11.01,6.75,1h 14m
+151,16448458,Sam Gilman,11483123199,Afternoon Run,Kyleage,2024-05-23 21:54:06+00:00,4438,Run,"Beavercreek, USA",10.03,6.95,1h 9m
+152,16448458,Sam Gilman,11474841547,Afternoon Run,Not great. Legs still coming around. Windy!,2024-05-22 20:52:44+00:00,6688,Run,"Bath Township, USA",9.85,6.62,1h 5m
+153,16448458,Sam Gilman,11464256612,Lunch Run,,2024-05-21 15:03:17+00:00,3688,Run,"Beavercreek, USA",9.02,6.65,1h 0m
+154,16448458,Sam Gilman,11459194502,Afternoon Run,,2024-05-20 21:57:20+00:00,3327,Run,"Beavercreek, USA",8.01,6.72,53m 48s
+155,16448458,Sam Gilman,11454660008,Morning Run,,2024-05-20 11:38:54+00:00,1677,Run,"Beavercreek, USA",4.02,6.93,27m 54s
+156,16448458,Sam Gilman,11559625132,Afternoon Run,,2024-06-02 20:47:38+00:00,6178,Run,"Louisville, USA",16.09,6.22,1h 40m
+157,16448458,Sam Gilman,11551876143,Music city 1500,Nice lil PR. Feels good to feel good. Wanted to win.,2024-06-02 01:44:15+00:00,218,Run,,0.93,3.9,3m 38s
+158,16448458,Sam Gilman,11551829601,Evening Run,,2024-06-01 23:21:01+00:00,5365,Run,"Murfreesboro, USA",4.43,7.32,32m 23s
+159,16448458,Sam Gilman,11549859070,Lunch Run,Save me the rain,2024-06-01 17:29:17+00:00,1457,Run,"Murfreesboro, USA",2.44,7.35,18m 0s
+160,16448458,Sam Gilman,11543410822,Morning Run,,2024-05-31 14:09:48+00:00,2941,Run,"Beavercreek, USA",6.07,6.9,41m 57s
+161,16448458,Sam Gilman,11543410778,Afternoon Run,,2024-05-30 20:43:16+00:00,3732,Run,"Beavercreek, USA",9.01,6.77,1h 1m
+162,16448458,Sam Gilman,11528746065,Afternoon Run,,2024-05-29 21:59:54+00:00,2740,Run,"Beavercreek, USA",6.0,7.2,43m 15s
+163,16448458,Sam Gilman,11520434585,"4x800, 16x400",,2024-05-28 20:28:45+00:00,6391,Run,"Beavercreek Township, USA",13.02,6.48,1h 24m
+164,16448458,Sam Gilman,11508954243,Morning Run,,2024-05-27 12:04:36+00:00,4370,Run,"Riverside, USA",10.15,7.12,1h 12m
+165,16448458,Sam Gilman,11613783138,"3xK, 600, 500, 300",,2024-06-09 14:57:41+00:00,2738,Run,,4.6,8.03,37m 0s
+166,16448458,Sam Gilman,11613783180,Morning Run,,2024-06-09 14:21:26+00:00,2170,Run,"Brookline, USA",3.27,6.65,21m 46s
+167,16448458,Sam Gilman,11607592902,Concord 1500,Wanted this one. Olympic Trials auto qualifier. Let’s keep this going.,2024-06-09 00:33:33+00:00,216,Run,,0.93,3.87,3m 36s
+168,16448458,Sam Gilman,11613782897,Evening Run,,2024-06-08 23:35:06+00:00,1860,Run,"Concord, USA",3.95,7.82,30m 53s
+169,16448458,Sam Gilman,11613782521,Evening Run,,2024-06-08 22:13:30+00:00,942,Run,"Concord, USA",2.32,6.75,15m 42s
+170,16448458,Sam Gilman,11613782293,Lunch Run,,2024-06-08 16:44:38+00:00,1082,Run,"Boston, USA",1.71,8.02,13m 46s
+171,16448458,Sam Gilman,11596845878,Morning Run,,2024-06-07 14:28:27+00:00,3425,Run,"Boston, USA",5.31,7.8,41m 30s
+172,16448458,Sam Gilman,11591577892,Afternoon Run,,2024-06-06 21:00:49+00:00,4770,Run,"Boston, USA",9.18,7.07,1h 4m
+173,16448458,Sam Gilman,11584478953,Afternoon Run,9 miles**,2024-06-05 20:42:21+00:00,3746,Run,"Beavercreek, USA",8.6,6.85,58m 54s
+174,16448458,Sam Gilman,11584478990,Morning Run,,2024-06-05 14:05:58+00:00,1687,Run,"Beavercreek, USA",4.0,6.93,27m 45s
+175,16448458,Sam Gilman,11571582598,"2 mi, 1 mi, 2x800, 3x400, 2x200",Body a lil beat from travel,2024-06-04 12:50:51+00:00,4875,Run,"Beavercreek Township, USA",10.13,6.75,1h 8m
+176,16448458,Sam Gilman,11566839591,Afternoon Run,,2024-06-03 20:30:42+00:00,4476,Run,"Beavercreek, USA",9.45,6.98,1h 6m
+177,16448458,Sam Gilman,11669293395,Afternoon Run,Is somebody gonna match my freak?,2024-06-16 21:08:46+00:00,1265,Run,"Beavercreek, USA",3.01,6.98,21m 5s
+178,16448458,Sam Gilman,11667084743,Morning Run,,2024-06-16 13:49:24+00:00,4736,Run,"Beavercreek, USA",10.0,6.8,1h 8m
+179,16448458,Sam Gilman,11659242304,Morning Run,Last frosh run 🥲,2024-06-15 14:42:50+00:00,3513,Run,"Riverside, USA",8.01,7.08,56m 44s
+180,16448458,Sam Gilman,11659242179,Night Run,,2024-06-15 01:22:49+00:00,956,Run,"Beavercreek Township, USA",2.01,7.7,15m 32s
+181,16448458,Sam Gilman,11654147658,Evening Run,"2x200, 800, 500, 500, 3x120
+
+Next to a race car track. Heard cars racing. Gave me that extra fire.",2024-06-15 00:10:04+00:00,3504,Run,"Beavercreek Township, USA",5.44,8.52,46m 20s
+182,16448458,Sam Gilman,11646755455,8+200s,,2024-06-13 21:14:47+00:00,4120,Run,,8.89,7.48,1h 6m
+183,16448458,Sam Gilman,11634902140,Modified LR with uptempo,So mid lolol,2024-06-12 11:34:54+00:00,5266,Run,"Beavercreek, USA",13.0,6.43,1h 23m
+184,16448458,Sam Gilman,11630947676,Evening Run,4 miles. Forgot to restart watch :(,2024-06-11 22:16:07+00:00,1719,Run,"Beavercreek, USA",3.61,7.22,26m 4s
+185,16448458,Sam Gilman,11627774067,Morning Run,,2024-06-11 14:39:00+00:00,4058,Run,"Beavercreek, USA",9.21,6.78,1h 2m
+186,16448458,Sam Gilman,11622317594,Afternoon Run,,2024-06-10 20:26:07+00:00,3641,Run,"Beavercreek, USA",8.56,7.0,1h 0m
+187,16448458,Sam Gilman,11724080951,Shaking out the legs,Not too bad actually,2024-06-23 20:40:07+00:00,2712,Run,"Eugene, USA",6.39,7.07,45m 9s
+188,16448458,Sam Gilman,11713959737,1500 semifinal today 🇺🇸,Derek Johnson said it best: Playing with house money now.,2024-06-22 16:47:40+00:00,1266,Run,"Eugene, USA",2.23,7.37,16m 29s
+189,16448458,Sam Gilman,11700229247,Morning Run,,2024-06-20 17:47:16+00:00,3630,Run,"Eugene, USA",5.32,7.35,39m 10s
+190,16448458,Sam Gilman,11692639113,Morning Run,,2024-06-19 17:04:59+00:00,3974,Run,"Eugene, USA",7.44,7.28,54m 13s
+191,16448458,Sam Gilman,11686280078,Evening Run,,2024-06-19 01:35:04+00:00,2418,Run,"Eugene, USA",5.23,7.58,39m 38s
+192,16448458,Sam Gilman,11674352996,Morning Run,"1600, 800, 2x400, 4x200
+
+Hays in the barn",2024-06-17 14:59:52+00:00,4882,Run,"Beavercreek Township, USA",7.12,7.67,54m 38s
+193,16448458,Sam Gilman,11776297510,Morning Run,,2024-06-30 13:59:53+00:00,6143,Run,"Beavercreek, USA",15.0,6.53,1h 37m
+194,16448458,Sam Gilman,11769011889,7x2k,Faith driving us like a Rolls Royce,2024-06-29 15:11:44+00:00,6647,Run,,11.81,7.5,1h 28m
+195,16448458,Sam Gilman,11762879099,Afternoon Run,This girl is on fire,2024-06-28 21:46:30+00:00,3756,Run,"Beavercreek, USA",9.15,6.83,1h 2m
+196,16448458,Sam Gilman,11762879062,Lunch Run,,2024-06-28 15:23:39+00:00,1216,Run,"Beavercreek, USA",3.01,6.63,20m 0s
+197,16448458,Sam Gilman,11748609921,Afternoon Run,,2024-06-26 23:56:29+00:00,3223,Run,"Eugene, USA",8.02,6.68,53m 38s
+198,16448458,Sam Gilman,11747584673,Morning Run,,2024-06-26 17:51:17+00:00,3604,Run,"Eugene, USA",4.86,7.52,36m 33s
+199,16448458,Sam Gilman,11738032379,Morning Run,,2024-06-25 17:10:33+00:00,2523,Run,"Eugene, USA",6.0,6.98,41m 58s
+200,16448458,Sam Gilman,11730522861,Lunch Run,Hanging around for the next couple days to see if there are a couple scratches in the 5k. I am 4 spots out right now.,2024-06-24 18:40:27+00:00,4007,Run,"Eugene, USA",8.98,6.78,1h 0m
+201,16448458,Sam Gilman,11833688229,Afternoon Run,,2024-07-07 21:45:16+00:00,1705,Run,"Beavercreek, USA",4.0,7.03,28m 11s
+202,16448458,Sam Gilman,11830398264,Morning Run,Linked up with some quality guys,2024-07-07 13:10:01+00:00,3315,Run,"Beavercreek, USA",8.11,6.8,55m 13s
+203,16448458,Sam Gilman,11823416971,Morning Run,Got hit by a car :(,2024-07-06 14:46:39+00:00,4895,Run,"Beavercreek, USA",11.99,6.58,1h 18m
+204,16448458,Sam Gilman,11817640884,Evening Run,,2024-07-05 23:03:07+00:00,899,Run,"Beavercreek Township, USA",1.95,7.62,14m 55s
+205,16448458,Sam Gilman,11817640917,Afternoon Run,"K, 200, 2x400, 800, 3x300",2024-07-05 21:48:18+00:00,3720,Run,"Beavercreek Township, USA",5.74,8.57,49m 11s
+206,16448458,Sam Gilman,11807753980,Morning Run,,2024-07-04 14:44:17+00:00,4522,Run,"Beavercreek, USA",10.0,6.75,1h 7m
+207,16448458,Sam Gilman,11802698198,Easy 4,,2024-07-03 23:34:25+00:00,1680,Run,,4.0,7.0,28m 0s
+208,16448458,Sam Gilman,11798830565,Morning Run,,2024-07-03 13:11:47+00:00,4457,Run,"Beavercreek, USA",10.01,7.0,1h 10m
+209,16448458,Sam Gilman,11794390123,Afternoon Run,"4 mile tempo (5:00, 4:58, 4:55, 4:50)
+400, 300, 200: 55, 38, 25",2024-07-02 21:47:56+00:00,6146,Run,"Beavercreek Township, USA",10.2,6.97,1h 11m
+210,16448458,Sam Gilman,11782906383,Morning Run,,2024-07-01 11:29:43+00:00,3003,Run,"Beavercreek, USA",7.17,6.97,50m 1s
+211,16448458,Sam Gilman,11881699037,Evening Run,Road mile. Got cooked. Terrible.,2024-07-13 23:14:21+00:00,770,Run,"Memphis, USA",1.62,7.92,12m 50s
+212,16448458,Sam Gilman,11873992009,Ed Murphy 1500,Finding my way. Love you guys.,2024-07-13 01:51:00+00:00,215,Run,,0.93,3.85,3m 35s
+213,16448458,Sam Gilman,11873986441,Evening Run,,2024-07-12 23:59:27+00:00,5803,Run,"Memphis, USA",4.96,7.93,39m 23s
+214,16448458,Sam Gilman,11871906007,Lunch Run,,2024-07-12 17:35:09+00:00,1334,Run,"Memphis, USA",1.33,8.58,11m 27s
+215,16448458,Sam Gilman,11863175532,Morning Run,,2024-07-11 14:12:36+00:00,2470,Run,"Beavercreek, USA",5.13,6.93,35m 35s
+216,16448458,Sam Gilman,11857509638,7&strides,Memphis tomorrow,2024-07-10 19:41:28+00:00,3864,Run,"Riverside, USA",8.07,6.95,56m 4s
+217,16448458,Sam Gilman,11848097331,Lunch Break,,2024-07-09 16:43:36+00:00,3856,Run,"Beavercreek, USA",9.0,6.92,1h 2m
+218,16448458,Sam Gilman,11840701417,Easy 4,,2024-07-08 19:38:18+00:00,1710,Run,,4.0,7.12,28m 30s
+219,16448458,Sam Gilman,11837335255,12x400,light threshold before racing this weekend!,2024-07-08 11:22:58+00:00,4239,Run,"Fairborn, USA",8.64,6.28,54m 22s
+220,16448458,Sam Gilman,11944762157,Morning Run,,2024-07-21 13:09:54+00:00,6194,Run,"Lowell, USA",15.0,6.33,1h 35m
+221,16448458,Sam Gilman,11937161810,Lunch Run,,2024-07-20 15:06:35+00:00,3388,Run,"Caledonia Charter Township, USA",8.0,7.0,56m 3s
+222,16448458,Sam Gilman,11930455538,Afternoon Run,"2x (K, 500, 300, 200)
+1st set: 2:38, 73, 42, 27
+*spike up*
+2nd set: 2:39, 70, 39, 25
+
+Lindsey said I looked tight on my last 200. She was not happy…",2024-07-19 20:05:22+00:00,5405,Run,"Caledonia, USA",8.16,7.98,1h 5m
+223,16448458,Sam Gilman,11924094369,Evening Run,Run with Lindsey Peters and Willie,2024-07-19 00:30:54+00:00,1781,Run,"Caledonia Charter Township, USA",4.0,7.1,28m 27s
+224,16448458,Sam Gilman,11920510561,Lunch Run,,2024-07-18 15:11:39+00:00,5214,Run,"Beavercreek, USA",9.11,6.77,1h 1m
+225,16448458,Sam Gilman,11915458726,😾,,2024-07-18 00:49:13+00:00,1722,Run,"Beavercreek, USA",4.01,7.13,28m 37s
+226,16448458,Sam Gilman,11910053165,Morning Run,Easy miles with Alex. Took the body 9 miles to wake up,2024-07-17 11:04:11+00:00,4296,Run,"Beavercreek, USA",10.04,7.12,1h 11m
+227,16448458,Sam Gilman,11905691503,Thresh miles,"3 mile WU, 7xmile (5:05-4:50) 2 mile CD",2024-07-16 20:37:20+00:00,4320,Run,,12.0,6.0,1h 12m
+228,16448458,Sam Gilman,11897133726,Rain,Couldn’t fathom running 9 on the tread today so was left to my own devices in the rain,2024-07-15 20:43:11+00:00,3762,Run,"Beavercreek, USA",9.01,6.63,59m 44s
+229,16448458,Sam Gilman,11998305210,SAM UR AN IDIOT,"Guardian mile: legs felt great at 800 so I took off. Silly mistake and got swallowed at 400 to go. Ran like an idiot and amateur but taking the lesson with me for the next one.
+
+10 minute tempo and 5x3’ afterwards",2024-07-27 23:19:01+00:00,8518,Run,"Cleveland, USA",11.08,6.57,1h 12m
+230,16448458,Sam Gilman,11987024077,Morning Run,,2024-07-26 13:13:58+00:00,3060,Run,"Caledonia Charter Township, USA",5.85,6.92,40m 29s
+231,16448458,Sam Gilman,11978623590,Morning Run,,2024-07-25 14:41:08+00:00,3724,Run,"Caledonia Charter Township, USA",7.83,6.92,54m 11s
+232,16448458,Sam Gilman,11972820973,Afternoon Run,,2024-07-24 20:09:03+00:00,4173,Run,"Irving Township, USA",10.01,6.87,1h 8m
+233,16448458,Sam Gilman,11961226602,Morning Run,"6x400, 300
+58, 59, 56, 57, 56, 56, 39
+
+Mid",2024-07-23 13:54:54+00:00,4698,Run,"East Grand Rapids, USA",7.87,8.53,1h 7m
+234,16448458,Sam Gilman,11955456430,4RD,,2024-07-22 21:01:23+00:00,2809,Run,"Caledonia Charter Township, USA",5.68,7.07,40m 11s
+235,16448458,Sam Gilman,11952139520,Morning Run,,2024-07-22 12:34:15+00:00,3864,Run,"Caledonia Charter Township, USA",9.0,7.02,1h 3m
+236,16448458,Sam Gilman,12061900664,Morning Run,,2024-08-04 14:01:40+00:00,6575,Run,"Beavercreek, USA",16.12,6.4,1h 43m
+237,16448458,Sam Gilman,12052275214,Morning Run,,2024-08-03 12:40:40+00:00,3016,Run,"Chatham County, USA",7.06,7.1,50m 11s
+238,16448458,Sam Gilman,12048183109,Night Run,,2024-08-03 02:03:42+00:00,1381,Run,"Raleigh, USA",2.7,8.13,21m 59s
+239,16448458,Sam Gilman,12048151101,Sir Walter Mile,A lot of fun today. Wanted to win badly with the race being so close to home. Still growing !,2024-08-03 01:30:00+00:00,232,Run,,1.0,3.87,3m 52s
+240,16448458,Sam Gilman,12048183360,Evening Run,,2024-08-03 00:38:34+00:00,821,Run,"Raleigh, USA",2.01,6.77,13m 39s
+241,16448458,Sam Gilman,12038133126,Lunch Run,Premeet,2024-08-01 15:32:09+00:00,2946,Run,"Raleigh, USA",4.67,8.0,37m 26s
+242,16448458,Sam Gilman,12027915161,Morning Run,,2024-07-31 14:01:47+00:00,2753,Run,"Tinicum Township, USA",7.0,6.55,45m 50s
+243,16448458,Sam Gilman,12022677938,"2x800, 5x200",Just sum light to spin the legs before racing Sir Walter on friday,2024-07-30 21:22:55+00:00,3733,Run,"Swarthmore, USA",6.48,7.23,46m 55s
+244,16448458,Sam Gilman,12013636830,Afternoon Run,,2024-07-29 20:37:13+00:00,3371,Run,"Tinicum Township, USA",8.0,6.85,54m 51s
+245,16448458,Sam Gilman,12120643634,Tour of Dayton,With the UD guys. Great vibes today,2024-08-11 12:44:17+00:00,6149,Run,"Dayton, USA",15.0,6.65,1h 39m
+246,16448458,Sam Gilman,12114869380,Motion is lotion?,Lift,2024-08-10 21:26:06+00:00,1782,Run,"Bath Township, USA",4.0,7.4,29m 38s
+247,16448458,Sam Gilman,12114369126,CD,,2024-08-10 16:30:34+00:00,904,Run,"Beavercreek Township, USA",1.98,7.55,15m 0s
+248,16448458,Sam Gilman,12112788940,Lunch Run,"800, 4x400, 800, 4x400, 800, 4x400",2024-08-10 15:12:45+00:00,3796,Run,"Beavercreek Township, USA",8.61,5.92,50m 58s
+249,16448458,Sam Gilman,12106349303,Afternoon Run,,2024-08-09 20:32:49+00:00,3481,Run,"Beavercreek, USA",8.0,7.02,56m 5s
+250,16448458,Sam Gilman,12099052438,Evening Run,Strides over the highway,2024-08-08 22:31:14+00:00,2466,Run,"Beavercreek, USA",5.0,7.17,35m 53s
+251,16448458,Sam Gilman,12094451220,GET OUT THE DOOR,,2024-08-08 10:54:01+00:00,3363,Run,"Riverside, USA",8.0,6.9,55m 17s
+252,16448458,Sam Gilman,12090275247,Afternoon Run,,2024-08-07 20:14:08+00:00,4310,Run,"Beavercreek, USA",10.0,6.88,1h 8m
+253,16448458,Sam Gilman,12081532757,5x2k,5:10-5:00,2024-08-06 21:26:47+00:00,4080,Run,,11.0,6.18,1h 8m
+254,16448458,Sam Gilman,12072228280,Afternoon Run,,2024-08-05 21:13:40+00:00,2268,Run,"Beavercreek, USA",4.55,7.02,31m 59s
+255,16448458,Sam Gilman,12067886796,Morning Run,Going to attack the day. #chasingthebag,2024-08-05 11:10:47+00:00,3325,Run,"Beavercreek, USA",8.0,6.88,55m 8s
+256,16448458,Sam Gilman,12180529450,Dragons have gold,Last long run of the build. Time to go low.,2024-08-18 13:54:26+00:00,5649,Run,"Beavercreek, USA",14.0,6.43,1h 30m
+257,16448458,Sam Gilman,12173221076,Afternoon Run,,2024-08-17 17:12:36+00:00,3458,Run,"Beavercreek, USA",8.25,6.95,57m 20s
+258,16448458,Sam Gilman,12165067416,UC workout,"1k: 3:02 200:29
+5x300: 44, 44, 45, 45, 44
+500: 66 (52-53 thru 400)
+200 jog
+200: 25
+
+Brought Doug along.",2024-08-16 18:10:08+00:00,4671,Run,"Cincinnati, USA",6.97,7.42,51m 45s
+259,16448458,Sam Gilman,12158287357,Evening Run,,2024-08-15 22:02:14+00:00,788,Run,"Beavercreek, USA",1.37,7.38,10m 11s
+260,16448458,Sam Gilman,12158287410,Afternoon Run,,2024-08-15 21:03:45+00:00,2917,Run,"Beavercreek, USA",7.0,6.88,48m 14s
+261,16448458,Sam Gilman,12144778559,Morning Run,,2024-08-14 10:48:21+00:00,3424,Run,"Beavercreek, USA",8.0,7.07,56m 32s
+262,16448458,Sam Gilman,12140616131,💩,"K: 2:57
+200: 30
+3x400: 58, 57, 57
+800: 1:57
+3x200: 25, 25, 25
+
+Legs weren’t having it today. Rough session, but got a bit of turnover on the end.",2024-08-13 20:34:25+00:00,4906,Run,"Beavercreek Township, USA",7.99,8.18,1h 5m
+263,16448458,Sam Gilman,12137482180,Smileage,,2024-08-13 14:18:31+00:00,1281,Run,"Beavercreek, USA",3.0,7.08,21m 17s
+264,16448458,Sam Gilman,12131802480,8&Strides,,2024-08-12 20:19:07+00:00,4569,Run,"Beavercreek, USA",9.36,6.92,1h 4m
+265,16448458,Sam Gilman,12231675201,Poland 🔜,"2x800: 2:15, 2:12
+4x300: 46, 44, 43, 43
+4x200: 28, 27, 27, 27",2024-08-24 14:44:45+00:00,4235,Run,"Beavercreek Township, USA",7.98,7.32,58m 25s
+266,16448458,Sam Gilman,12225287307,Afternoon Run,,2024-08-23 21:31:04+00:00,4416,Run,"Beavercreek, USA",9.91,6.55,1h 4m
+267,16448458,Sam Gilman,12217622767,Evening Run,Post pleasant park slaughter fest,2024-08-22 22:34:33+00:00,1247,Run,"Beavercreek, USA",3.01,6.88,20m 44s
+268,16448458,Sam Gilman,12212717396,Morning Run,Garang loop,2024-08-22 10:37:57+00:00,3445,Run,"Dayton, USA",8.01,7.12,57m 2s
+269,16448458,Sam Gilman,12209027925,Afternoon Run,Saw Noah Schaub and got fired up,2024-08-21 20:40:02+00:00,3508,Run,"Beavercreek, USA",8.0,6.9,55m 14s
+270,16448458,Sam Gilman,12200030822,Afternoon Run,,2024-08-20 21:44:00+00:00,1738,Run,"Beavercreek, USA",4.07,7.08,28m 53s
+271,16448458,Sam Gilman,12196977911,Keep it simple stupid!,"2xmile 
+4x800
+4x1’on1’off
+3x30”on30”off
+
+Nothing crazy here, just an honest days work.",2024-08-20 14:24:23+00:00,5214,Run,"Beavercreek, USA",12.07,6.15,1h 14m
+272,16448458,Sam Gilman,12190981984,9RD,,2024-08-19 20:41:14+00:00,5330,Run,"Beavercreek, USA",10.78,6.9,1h 14m
+273,16448458,Sam Gilman,12298841940,Kö Road Mile,Unbelievably cooked. Can’t figure out the roads for whatever reason. Not sure what my time was but it wasn’t good. Moving on. 5k or mile in Copenhagen on Tuesday.,2024-09-01 10:33:42+00:00,5208,Run,"Stadtbezirk 1, Germany",4.46,7.53,33m 38s
+274,16448458,Sam Gilman,12287722499,Lunch Run,City tour with Ethan Marshall,2024-08-31 09:21:42+00:00,2750,Run,"Stadtbezirk 3, Germany",5.72,7.23,41m 26s
+275,16448458,Sam Gilman,12279511890,Morning Run,,2024-08-30 08:18:43+00:00,3865,Run,"Stadtbezirk 3, Germany",8.22,7.13,58m 39s
+276,16448458,Sam Gilman,12270577221,😵‍💫,,2024-08-29 05:34:37+00:00,2366,Run,"Szczecin, Poland",5.0,7.63,38m 12s
+277,16448458,Sam Gilman,12266206011,Szczecin 1500,Got boxed like a fish with 400 to go. Did a lot of work toward the end to finish the way I needed to. Still learning and getting better. Road mile in 2 days.,2024-08-28 17:39:42+00:00,216,Run,,0.93,3.87,3m 36s
+278,16448458,Sam Gilman,12256600756,Afternoon Run,,2024-08-27 14:48:10+00:00,3109,Run,"Szczecin, Poland",4.98,6.93,34m 35s
+279,16448458,Sam Gilman,12246355877,Loosening up,Body not too bad from travel. Feels like I just had the ultimate rest day.,2024-08-26 11:48:29+00:00,4085,Run,"Szczecin, Poland",8.0,7.4,59m 13s
+280,16448458,Sam Gilman,12352632710,Morning Run,,2024-09-07 13:43:42+00:00,2771,Run,"Manhattan, USA",5.18,7.07,36m 42s
+281,16448458,Sam Gilman,12343957542,Lunch Run,,2024-09-06 15:50:52+00:00,3509,Run,"Manhattan, USA",7.05,7.2,50m 46s
+282,16448458,Sam Gilman,12334369903,The Windy City,,2024-09-05 16:07:22+00:00,3911,Run,"Manhattan, USA",8.67,6.92,1h 0m
+283,16448458,Sam Gilman,12322437801,City tour,,2024-09-04 06:54:16+00:00,2349,Run,"Copenhagen Municipality, Denmark",3.77,8.38,31m 38s
+284,16448458,Sam Gilman,12318798444,Copenhagen Mile,"Strap in because it’s going to be a long one:
+
+A bit tired today with all the recent racing but gave it all I had. Was attached until 200 to go but the legs were pretty much gone, probably shouldn’t have ran that road mile 2 days ago 😅. Thought I got out well and competed my ass off, what else can you ask for?
+
+Looking back on the summer of racing and feeling blessed. Used to dream I’d become the man I am today, been wanting this all my life. Couldn’t help but smile on the start line thinking how I have the opportunity to fly halfway around the world to put on tiny shorts and rip a mile around the track as people clap. As Paul Ryan  would say: God is always good. Wondering what high school Sam would say if he saw me living out his dreams around the world. Man I’m so thankful. 
+
+One day here soon I’m going to win these races and see 3:32 and 3:49 on the clock. I thought it might happen this summer but it will have to wait for 2025. Can’t wait to keep going for it next year. Will be great to get in a couple 3Ks and 5Ks.
+
+A special thanks to Coach Cole, Mark Coogan, and AJ Kedge . Wouldn’t have been possible without those guys.
+
+If you read it this far it means a lot. I fully expect all the boys to clown me for this long ass essay on strava: have at it fellas. ♥️",2024-09-03 20:52:42+00:00,234,Run,,1.0,3.9,3m 54s
+285,16448458,Sam Gilman,12313905572,Lunch Run,Got my legs today. Mile tonight let’s get it,2024-09-03 10:51:10+00:00,1467,Run,"Copenhagen Municipality, Denmark",2.24,7.67,17m 12s
+286,16448458,Sam Gilman,12307194033,Premeet,5k or mile tomorrow,2024-09-02 14:39:51+00:00,2447,Run,"Copenhagen Municipality, Denmark",3.51,7.67,27m 0s
+287,16448458,Sam Gilman,12395587653,AR,,2024-09-12 21:47:32+00:00,2051,Ride,"Beavercreek, USA",9.78,,32m 27s
+288,16448458,Sam Gilman,12378746680,Afternoon Run,Active recovery,2024-09-10 21:33:25+00:00,1576,Run,"Beavercreek, USA",3.32,7.87,26m 12s
+289,16448458,Sam Gilman,12369868431,Back in the creek,Biking with plop !,2024-09-09 20:38:39+00:00,4858,Ride,"Beavercreek, USA",11.86,,1h 16m
+290,16448458,Sam Gilman,12462657833,Afternoon Run,,2024-09-20 20:20:24+00:00,1503,Run,"Fairborn, USA",3.0,8.15,24m 27s
+291,16448458,Sam Gilman,12535007552,Lunch Ride,,2024-09-29 16:55:46+00:00,3638,Ride,,1.0,,146 bpm
+292,16448458,Sam Gilman,12527469884,Lowes,,2024-09-28 21:54:22+00:00,3651,Run,"Beavercreek, USA",7.0,7.25,50m 46s
+293,16448458,Sam Gilman,12518621638,Hurricane weather,Tanner Lindhal making me want to run through a wall.,2024-09-27 20:12:41+00:00,3521,Run,"Beavercreek, USA",8.08,7.07,57m 5s
+294,16448458,Sam Gilman,12496160364,Afternoon Run,Forgot how much I hate running after lifting,2024-09-24 21:13:56+00:00,2469,Run,"Beavercreek, USA",5.64,7.1,40m 2s
+295,16448458,Sam Gilman,12487077007,Starting over,Picked up a little sickness this past weekend and still getting over it. Glad to be back in the swings of things,2024-09-23 20:43:08+00:00,3022,Run,"Beavercreek, USA",7.11,6.95,49m 30s
+296,16448458,Sam Gilman,12582510532,Why did the strawberry cry?,"His parents were in a jam.
+
+My best attempt at a Keira D'Amato joke !",2024-10-05 14:08:40+00:00,6201,Run,"Orem, USA",14.01,6.58,1h 32m
+297,16448458,Sam Gilman,12575475536,Walmsley,,2024-10-04 20:20:05+00:00,4260,Run,"Uinta-Wasatch-Cache National Forest, USA",7.12,8.43,1h 0m
+298,16448458,Sam Gilman,12568992563,Evening Run,Dub with Linda,2024-10-04 00:00:45+00:00,1930,Run,"Salt Lake City, USA",4.0,7.73,31m 0s
+299,16448458,Sam Gilman,12566784208,Morning Run,"Fresh out the oven, got the batch cooling",2024-10-03 16:54:50+00:00,4175,Run,"Salt Lake City, USA",9.0,6.92,1h 2m
+300,16448458,Sam Gilman,12559750018,Afternoon Run,,2024-10-02 19:43:20+00:00,3461,Run,"Salt Lake City, USA",8.01,7.02,56m 11s
+301,16448458,Sam Gilman,12549429298,Lunch Run,On the hunt for perfect but decent is what I’ve been on,2024-10-01 15:12:51+00:00,3847,Run,"Beavercreek, USA",8.11,6.72,54m 27s
+302,16448458,Sam Gilman,12543215045,Afternoon Run,Yapping with Garang Madut,2024-09-30 20:34:12+00:00,3364,Run,"Riverside, USA",7.94,7.02,55m 43s
+303,16448458,Sam Gilman,12645638378,I’m in the thick of it,Everybody knows…,2024-10-13 11:21:58+00:00,6192,Run,"Hilton Head Island, USA",13.21,6.95,1h 31m
+304,16448458,Sam Gilman,12638990162,Lunch Run,,2024-10-12 16:39:10+00:00,936,Run,"Hilton Head Island, USA",2.11,7.35,15m 31s
+305,16448458,Sam Gilman,12638989923,Reg run prog,6:30-5:00,2024-10-12 15:44:32+00:00,2938,Run,,8.12,6.03,48m 58s
+306,16448458,Sam Gilman,12632630639,Home 🤌,Fueled by a great performance from punkin,2024-10-11 22:21:40+00:00,3440,Run,"Hilton Head Island, USA",8.0,6.93,55m 32s
+307,16448458,Sam Gilman,12624631588,Lunch Run,,2024-10-10 16:14:23+00:00,4144,Run,"Beavercreek, USA",9.53,6.63,1h 3m
+308,16448458,Sam Gilman,12617685698,Afternoon Run,,2024-10-09 21:44:04+00:00,3455,Run,"Vandalia, USA",8.0,7.05,56m 26s
+309,16448458,Sam Gilman,12610049426,Afternoon Run,,2024-10-08 20:47:18+00:00,3601,Run,"Beavercreek, USA",9.02,6.63,59m 55s
+310,16448458,Sam Gilman,12601557879,Summer Reign,,2024-10-07 22:12:21+00:00,1762,Run,"Beavercreek, USA",4.08,7.13,29m 10s
+311,16448458,Sam Gilman,12596645782,It’s Monday…,.. A great day to get this work,2024-10-07 10:33:20+00:00,3294,Run,"Beavercreek, USA",8.17,6.67,54m 29s
+312,16448458,Sam Gilman,12702788810,Morning Run,Capping off the 80 mile week with 16 today. Was one of those runs where it felt like an eternity but got it in. Need to figure this hamstring out !,2024-10-20 14:25:43+00:00,6144,Run,"Beavercreek, USA",16.02,6.23,1h 40m
+313,16448458,Sam Gilman,12696603056,Be a champion,Post church dub,2024-10-19 23:07:00+00:00,1766,Run,"Beavercreek, USA",4.15,7.08,29m 24s
+314,16448458,Sam Gilman,12694443953,Lunch Run,Can’t seem to catch up on sleep,2024-10-19 15:35:47+00:00,3719,Run,"Beavercreek, USA",9.01,6.73,1h 0m
+315,16448458,Sam Gilman,12688326848,15x1’on1’off,Tired after a busy week so ran smart today. Got the work in and the intention of the session. Slowly but surely I’m comin,2024-10-18 21:44:58+00:00,5034,Run,"Beavercreek, USA",11.01,6.1,1h 7m
+316,16448458,Sam Gilman,12681259188,Please please please,,2024-10-17 21:39:36+00:00,5058,Run,"Vandalia, USA",11.01,7.07,1h 17m
+317,16448458,Sam Gilman,12673361556,Afternoon Run,With Plop,2024-10-16 21:22:38+00:00,4243,Run,"Beavercreek, USA",10.01,7.0,1h 10m
+318,16448458,Sam Gilman,12665016783,Afternoon Run,,2024-10-15 20:58:28+00:00,5110,Run,"Beavercreek, USA",11.02,6.88,1h 15m
+319,16448458,Sam Gilman,12653304556,Morning Run,Back to the Creek,2024-10-14 13:20:28+00:00,3296,Run,"Hilton Head Island, USA",8.0,6.8,54m 23s
+320,16448458,Sam Gilman,12757874481,Tour of the creek,Showing Reagan around,2024-10-27 11:54:48+00:00,6961,Run,"Beavercreek, USA",17.01,6.45,1h 49m
+321,16448458,Sam Gilman,12750659109,Gym Loop,,2024-10-26 15:31:36+00:00,3474,Run,"Beavercreek, USA",8.0,7.12,56m 56s
+322,16448458,Sam Gilman,12744496422,Afternoon Run,,2024-10-25 21:56:42+00:00,4007,Run,"Fairborn, USA",7.19,7.3,52m 33s
+323,16448458,Sam Gilman,12729094026,Afternoon Run,,2024-10-23 19:41:26+00:00,5619,Run,"Beavercreek, USA",13.0,6.98,1h 30m
+324,16448458,Sam Gilman,12712478928,Afternoon Run,,2024-10-21 21:13:56+00:00,3730,Run,"Beavercreek, USA",8.0,7.13,57m 4s
+325,16448458,Sam Gilman,12817523200,Afternoon Run,,2024-11-03 22:38:00+00:00,6192,Run,"Beavercreek, USA",16.01,6.35,1h 41m
+326,16448458,Sam Gilman,12806805907,Morning Run,With Sid and Plop,2024-11-02 16:24:11+00:00,3395,Run,"Monument, USA",8.01,6.92,55m 25s
+327,16448458,Sam Gilman,12800375705,Afternoon Run,,2024-11-01 21:54:16+00:00,3838,Run,"Colorado Springs, USA",6.41,,46m 3s
+328,16448458,Sam Gilman,12797383046,Morning Run,,2024-11-01 13:29:29+00:00,1717,Run,,4.06,7.05,28m 37s
+329,16448458,Sam Gilman,12793795798,Evening Run,Feels good 2 be back,2024-11-01 02:09:20+00:00,1723,Run,"Monument, USA",4.01,7.13,28m 40s
+330,16448458,Sam Gilman,12790467327,Morning Run,Fighting fires,2024-10-31 14:31:10+00:00,3592,Run,"Beavercreek, USA",8.0,7.0,56m 3s
+331,16448458,Sam Gilman,12772532511,Afternoon Run,,2024-10-28 21:02:39+00:00,3623,Run,"Centerville, USA",8.0,7.07,56m 30s
+332,16448458,Sam Gilman,12869527568,Morning Run,First 13 with Alex. Last 4 tempo (5:15),2024-11-10 14:16:26+00:00,7072,Run,"Yellow Springs, USA",17.52,6.12,1h 47m
+333,16448458,Sam Gilman,12861832275,Lunch Run,On track,2024-11-09 17:01:17+00:00,3565,Run,"Beavercreek Township, USA",8.0,6.88,55m 9s
+334,16448458,Sam Gilman,12855236125,Afternoon Run,,2024-11-08 22:01:26+00:00,3727,Run,"Fairborn, USA",6.01,,44m 50s
+335,16448458,Sam Gilman,12853352840,Lunch Run,,2024-11-08 16:16:45+00:00,2182,Run,,4.24,8.57,36m 22s
+336,16448458,Sam Gilman,12848155715,Who Dey 🙏,,2024-11-07 21:30:10+00:00,3957,Run,"Beavercreek, USA",8.0,6.87,54m 55s
+337,16448458,Sam Gilman,12844702713,Morning Run,Imma get it right,2024-11-07 12:41:15+00:00,1721,Run,"Beavercreek, USA",4.0,7.15,28m 41s
+338,16448458,Sam Gilman,12840829195,Solitude,,2024-11-06 22:01:34+00:00,5155,Run,"Beavercreek, USA",12.0,6.9,1h 22m
+339,16448458,Sam Gilman,12832718037,Afternoon Run,,2024-11-05 22:45:25+00:00,688,Run,"Cedarville, USA",1.47,7.7,11m 23s
+340,16448458,Sam Gilman,12828849079,Morning Run,🖐️ mile tempo,2024-11-05 13:22:20+00:00,1529,Run,,3.61,7.05,25m 29s
+341,16448458,Sam Gilman,12828801621,Tele Tuesday,,2024-11-05 12:45:16+00:00,902,Run,"Bath Township, USA",2.2,6.8,15m 0s
+342,16448458,Sam Gilman,12824958539,Afternoon Run,,2024-11-04 21:23:11+00:00,3582,Run,"Centerville, USA",8.0,6.93,55m 30s
+343,23078070,Savannah Berry,10689487291,Morning Run,,2024-02-03 15:20:02+00:00,8959,Run,"Orlando, USA",26.58,5.62,2h 29m
+344,23078070,Savannah Berry,10689483651,Morning Run,,2024-02-03 14:33:47+00:00,707,Run,"Orlando, USA",1.18,7.7,9m 6s
+345,23078070,Savannah Berry,10680861205,Morning Run,,2024-02-02 13:37:05+00:00,2099,Run,"Orlando, USA",3.64,8.05,29m 20s
+346,23078070,Savannah Berry,10677211295,Afternoon Run,,2024-02-01 20:55:27+00:00,2709,Run,"Orlando, USA",5.02,8.25,41m 28s
+347,23078070,Savannah Berry,10667800385,Morning Run,,2024-01-31 13:45:22+00:00,3256,Run,"Orem, USA",7.25,6.97,50m 31s
+348,23078070,Savannah Berry,10660803251,Morning Run,,2024-01-30 14:06:27+00:00,3571,Run,"Orem, USA",7.11,7.92,56m 20s
+349,23078070,Savannah Berry,10653778855,Morning Run,,2024-01-29 13:33:39+00:00,4332,Run,"Orem, USA",8.16,8.32,1h 7m
+350,23078070,Savannah Berry,10734110746,Morning Run,,2024-02-10 13:51:51+00:00,2311,Run,,4.57,7.65,35m 1s
+351,23078070,Savannah Berry,10727801259,Morning Run,,2024-02-09 14:45:06+00:00,2059,Run,"Orem, USA",3.57,8.47,30m 18s
+352,23078070,Savannah Berry,10721778752,Morning Ride,,2024-02-08 15:09:09+00:00,2101,Ride,,35.0,,125 bpm
+353,23078070,Savannah Berry,10715444762,Morning Ride,,2024-02-07 14:35:48+00:00,2768,Ride,,46.0,,115 bpm
+354,23078070,Savannah Berry,10785760027,Didn’t get satellite 📡 😅,"Apparently my watch made up its own route of Seville! One minute 7 min pace the next 5 min. pace… lesson learned, leave ample time to get connection before the race 😂😂",2024-02-18 07:30:28+00:00,9958,Run,"Seville, Spain",27.38,6.03,2h 45m
+355,23078070,Savannah Berry,10785748452,Morning Run,,2024-02-17 07:46:50+00:00,1751,Run,"Seville, Spain",3.3,8.58,28m 19s
+356,23078070,Savannah Berry,10786501875,Morning Run,,2024-02-16 08:34:26+00:00,2290,Run,"Seville, Spain",4.12,8.63,35m 36s
+357,23078070,Savannah Berry,10785737464,Morning Run,,2024-02-14 09:56:06+00:00,3441,Run,"Seville, Spain",6.05,8.4,50m 51s
+358,23078070,Savannah Berry,10786501792,Lunch Run,,2024-02-12 10:42:27+00:00,11649,Run,"Seville, Spain",6.38,9.12,58m 15s
+359,23078070,Savannah Berry,10830081617,Afternoon Weight Training,,2024-02-24 22:12:51+00:00,2101,WeightTraining,,35.0,,101 Cal
+360,23078070,Savannah Berry,10828563874,Morning Run,,2024-02-24 17:05:11+00:00,951,Run,"Orem, USA",2.02,7.85,15m 51s
+361,23078070,Savannah Berry,10828563094,Morning Run,,2024-02-24 15:17:26+00:00,5754,Run,"Utah County, USA",7.0,,1h 8m
+362,23078070,Savannah Berry,10820687996,Morning Ride,,2024-02-23 14:46:26+00:00,1801,Ride,,30.0,,119 bpm
+363,23078070,Savannah Berry,10820499121,Morning Run,,2024-02-23 13:48:50+00:00,3098,Run,"Orem, USA",6.51,7.93,51m 38s
+364,23078070,Savannah Berry,10814463884,Morning Weight Training,,2024-02-22 14:44:44+00:00,2053,WeightTraining,,34.0,,121 Cal
+365,23078070,Savannah Berry,10814216177,Morning Run,,2024-02-22 13:46:36+00:00,2436,Run,"Orem, USA",4.51,8.33,37m 36s
+366,23078070,Savannah Berry,10807707501,Morning Run,,2024-02-21 13:48:32+00:00,3275,Run,"Orem, USA",7.07,7.68,54m 19s
+367,23078070,Savannah Berry,10802146147,Morning Run,,2024-02-20 13:59:00+00:00,2214,Run,"Orem, USA",4.54,8.12,36m 54s
+368,23078070,Savannah Berry,10981784273,Lunch Run,,2024-03-17 17:32:33+00:00,4963,Run,"Pleasant Grove, USA",8.16,,1h 13m
+369,23078070,Savannah Berry,10967803778,The Mountains 🏔 🙌🏽,Sooooo windy this morning… thank God for the mountains blocking it most of the time! Fun to meet up with some friends that make the miles go by a lot quicker :),2024-03-15 12:23:09+00:00,7237,Run,"Orem, USA",16.1,6.97,1h 52m
+370,23078070,Savannah Berry,10967801889,Morning Run,,2024-03-14 13:02:14+00:00,4378,Run,"Orem, USA",9.04,7.75,1h 10m
+371,23078070,Savannah Berry,10950973964,Morning Weight Training,,2024-03-13 14:11:32+00:00,2416,WeightTraining,,40.0,,125 Cal
+372,23078070,Savannah Berry,10950644624,Morning Run,,2024-03-13 12:38:37+00:00,4548,Run,"Orem, USA",10.06,7.07,1h 11m
+373,23078070,Savannah Berry,10943302478,Morning Run,,2024-03-12 12:48:09+00:00,4264,Run,"Orem, USA",9.02,7.77,1h 10m
+374,23078070,Savannah Berry,10936928760,Morning Weight Training,,2024-03-11 14:57:28+00:00,2326,WeightTraining,,38.0,,141 Cal
+375,23078070,Savannah Berry,10936928906,Morning Run,,2024-03-11 13:06:41+00:00,4823,Run,"Orem, USA",10.11,7.28,1h 13m
+376,23078070,Savannah Berry,11030268390,Morning Ride,,2024-03-24 16:57:12+00:00,2401,Ride,,40.0,,107 bpm
+377,23078070,Savannah Berry,11022890591,Morning Run,,2024-03-23 16:07:27+00:00,4882,Run,"Pleasant Grove, USA",8.3,,1h 14m
+378,23078070,Savannah Berry,11014666615,Morning Run,,2024-03-22 12:08:40+00:00,7935,Run,"Provo, USA",18.51,6.68,2h 3m
+379,23078070,Savannah Berry,11007922513,Morning Run,,2024-03-21 12:55:22+00:00,4726,Run,"Orem, USA",9.5,8.02,1h 16m
+380,23078070,Savannah Berry,11007449600,Morning Weight Training,,2024-03-21 12:41:16+00:00,604,WeightTraining,,10.0,,33 Cal
+381,23078070,Savannah Berry,11000728946,Morning Weight Training,,2024-03-20 13:55:39+00:00,2455,WeightTraining,,40.0,,130 Cal
+382,23078070,Savannah Berry,11000337034,Fast friends= fast workouts ☺️🙌🏽,Definitely needed some help getting into pace this morning…. Feeling up from last week. 5x1 mile 2’ rest.,2024-03-20 12:05:40+00:00,5132,Run,"Orem, USA",12.2,6.73,1h 22m
+383,23078070,Savannah Berry,10993077497,Morning Run,,2024-03-19 12:59:43+00:00,4486,Run,"Orem, USA",9.51,7.75,1h 13m
+384,23078070,Savannah Berry,10986186026,Morning Weight Training,,2024-03-18 14:18:30+00:00,1827,WeightTraining,,30.0,,166 Cal
+385,23078070,Savannah Berry,10985872375,Morning Run,,2024-03-18 12:35:19+00:00,4426,Run,"Orem, USA",9.53,7.72,1h 13m
+386,23078070,Savannah Berry,11079482285,Afternoon Ride,,2024-03-31 21:10:00+00:00,2426,Ride,,40.0,,119 bpm
+387,23078070,Savannah Berry,11070605003,Morning Run,,2024-03-30 15:56:32+00:00,2164,Run,"Riverton, USA",4.55,7.92,36m 4s
+388,23078070,Savannah Berry,11070087377,Morning Run,,2024-03-30 13:58:35+00:00,3550,Run,"Riverton, USA",6.5,9.05,58m 55s
+389,23078070,Savannah Berry,11062169857,Morning Run,,2024-03-29 12:04:42+00:00,7418,Run,"Orem, USA",17.04,6.85,1h 56m
+390,23078070,Savannah Berry,11055352273,Morning Run,,2024-03-28 12:45:26+00:00,5121,Run,"Orem, USA",10.11,8.05,1h 21m
+391,23078070,Savannah Berry,11048950212,Morning Weight Training,,2024-03-27 14:14:30+00:00,1915,WeightTraining,,31.0,,93 Cal
+392,23078070,Savannah Berry,11048684922,Morning Run,,2024-03-27 12:05:45+00:00,6358,Run,"Provo, USA",13.15,6.9,1h 30m
+393,23078070,Savannah Berry,11041772191,Morning Run,,2024-03-26 12:46:37+00:00,5268,Run,"Orem, USA",10.05,8.32,1h 23m
+394,23078070,Savannah Berry,11038818667,Evening Weight Training,,2024-03-26 01:30:46+00:00,1550,WeightTraining,,25.0,,65 Cal
+395,23078070,Savannah Berry,11034785181,Morning Run,,2024-03-25 12:37:59+00:00,4897,Run,"Orem, USA",10.11,8.03,1h 21m
+396,23078070,Savannah Berry,11184404487,Afternoon Ride,,2024-04-14 22:14:58+00:00,2702,Ride,"Orem, USA",10.05,,45m 2s
+397,23078070,Savannah Berry,11174645787,Lunch Weight Training,,2024-04-13 17:59:15+00:00,3000,WeightTraining,,50.0,,94 Cal
+398,23078070,Savannah Berry,11172995690,Morning Run,,2024-04-13 12:34:51+00:00,8673,Run,"Orem, USA",19.03,6.97,2h 12m
+399,23078070,Savannah Berry,11164499884,Morning Run,,2024-04-12 12:47:48+00:00,4947,Run,"Orem, USA",10.21,7.85,1h 20m
+400,23078070,Savannah Berry,11161580021,Morning Run,,2024-04-11 12:46:43+00:00,4898,Run,"Orem, USA",10.17,7.87,1h 20m
+401,23078070,Savannah Berry,11149941465,Morning Weight Training,,2024-04-10 14:20:41+00:00,1897,WeightTraining,,31.0,,90 Cal
+402,23078070,Savannah Berry,11149612377,Morning Run,,2024-04-10 12:18:29+00:00,6099,Run,"Provo, USA",13.01,6.97,1h 30m
+403,23078070,Savannah Berry,11141965007,Morning Run,,2024-04-09 12:42:32+00:00,5348,Run,"Orem, USA",10.56,8.05,1h 25m
+404,23078070,Savannah Berry,11134683469,Morning Run,,2024-04-08 12:46:06+00:00,5700,Run,"Orem, USA",10.13,7.92,1h 20m
+405,23078070,Savannah Berry,11285697681,Morning Ride,,2024-04-28 16:27:05+00:00,2713,Ride,"Orem, USA",10.07,,45m 13s
+406,23078070,Savannah Berry,11276214799,Morning Run,,2024-04-27 13:06:17+00:00,6401,Run,"Orem, USA",13.2,7.5,1h 39m
+407,23078070,Savannah Berry,11269066871,Morning Run,,2024-04-26 15:27:22+00:00,871,Run,,1.74,7.98,13m 56s
+408,23078070,Savannah Berry,11268439337,Morning Run,,2024-04-26 12:52:36+00:00,4078,Run,"Orem, USA",8.01,8.23,1h 5m
+409,23078070,Savannah Berry,11261561824,Morning Weight Training,,2024-04-25 14:12:41+00:00,1587,WeightTraining,,26.0,,82 Cal
+410,23078070,Savannah Berry,11261292720,Morning Run,,2024-04-25 12:06:20+00:00,6469,Run,"Orem, USA",15.13,6.73,1h 41m
+411,23078070,Savannah Berry,11253879659,Morning Run,,2024-04-24 12:49:27+00:00,4643,Run,"Orem, USA",10.02,7.65,1h 16m
+412,23078070,Savannah Berry,11246531346,Morning Weight Training,,2024-04-23 14:20:36+00:00,2214,WeightTraining,,36.0,,109 Cal
+413,23078070,Savannah Berry,11246133245,Morning Run,,2024-04-23 12:07:05+00:00,6166,Run,"Highland, USA",13.1,7.05,1h 32m
+414,23078070,Savannah Berry,11238742616,Morning Run,,2024-04-22 12:37:10+00:00,5081,Run,"Orem, USA",10.6,7.72,1h 21m
+415,23078070,Savannah Berry,11505662508,Afternoon Ride,,2024-05-26 21:48:28+00:00,3126,Ride,"Orem, USA",11.81,,51m 27s
+416,23078070,Savannah Berry,11497014004,Afternoon Weight Training,,2024-05-25 20:25:58+00:00,2989,WeightTraining,,49.0,,99 Cal
+417,23078070,Savannah Berry,11495972465,The little 😈on my shoulder saying… but your so close to 80,,2024-05-25 13:38:35+00:00,7198,Run,"Pleasant Grove, USA",13.01,7.47,1h 37m
+418,23078070,Savannah Berry,11486486745,Morning Run,,2024-05-24 12:05:10+00:00,7600,Run,"Provo, USA",17.53,6.67,1h 57m
+419,23078070,Savannah Berry,11482243043,Afternoon Run,,2024-05-23 21:33:48+00:00,1695,Run,"Vineyard, USA",3.51,8.05,28m 15s
+420,23078070,Savannah Berry,11479092515,Morning Run,,2024-05-23 13:22:10+00:00,3693,Run,"Orem, USA",7.51,8.18,1h 1m
+421,23078070,Savannah Berry,11478527051,Evening Run,,2024-05-23 02:35:37+00:00,1948,Run,"Woods Cross, USA",4.52,6.62,30m 0s
+422,23078070,Savannah Berry,11478525995,Evening Run,,2024-05-23 01:35:40+00:00,1900,Run,,3.61,6.42,23m 15s
+423,23078070,Savannah Berry,11478524715,Evening Run,,2024-05-23 00:49:49+00:00,2250,Run,,0.98,13.57,13m 25s
+424,23078070,Savannah Berry,11478523721,Evening Run,,2024-05-23 00:32:09+00:00,718,Run,,2.22,5.35,11m 54s
+425,23078070,Savannah Berry,11478522924,Evening Run,,2024-05-23 00:03:30+00:00,1152,Run,"Woods Cross, USA",2.01,8.17,16m 27s
+426,23078070,Savannah Berry,11470966965,Morning Run,,2024-05-22 12:57:34+00:00,1628,Run,"Orem, USA",3.27,8.08,26m 28s
+427,23078070,Savannah Berry,11467370496,Afternoon Weight Training,,2024-05-21 23:10:24+00:00,2845,WeightTraining,,47.0,,111 Cal
+428,23078070,Savannah Berry,11463428129,Morning Run,,2024-05-21 12:35:31+00:00,5075,Run,"Orem, USA",10.5,7.48,1h 18m
+429,23078070,Savannah Berry,11455598875,Morning Run,,2024-05-20 12:33:44+00:00,5902,Run,"Orem, USA",11.51,7.9,1h 30m
+430,23078070,Savannah Berry,11559645002,Afternoon Ride,,2024-06-02 21:54:24+00:00,2740,Ride,"Orem, USA",10.44,,45m 40s
+431,23078070,Savannah Berry,11548264761,Morning Run,,2024-06-01 12:24:15+00:00,8324,Run,"Orem, USA",12.5,7.63,1h 35m
+432,23078070,Savannah Berry,11540416495,Morning Run,,2024-05-31 12:20:38+00:00,8058,Run,"Orem, USA",18.33,7.08,2h 9m
+433,23078070,Savannah Berry,11533034172,Morning Weight Training,,2024-05-30 13:58:10+00:00,2325,WeightTraining,,38.0,,133 Cal
+434,23078070,Savannah Berry,11532708542,Morning Run,,2024-05-30 12:20:15+00:00,5270,Run,"Orem, USA",12.04,6.62,1h 19m
+435,23078070,Savannah Berry,11524850101,Morning Run,,2024-05-29 12:33:38+00:00,5134,Run,"Orem, USA",11.0,7.5,1h 22m
+436,23078070,Savannah Berry,11517116502,Morning Weight Training,,2024-05-28 14:14:22+00:00,1612,WeightTraining,,26.0,,115 Cal
+437,23078070,Savannah Berry,11516851609,Morning Run,,2024-05-28 12:10:21+00:00,6441,Run,"Provo, USA",13.1,7.15,1h 33m
+438,23078070,Savannah Berry,11509800285,Morning Run,,2024-05-27 13:36:13+00:00,6092,Run,"Deer Creek State Park, USA",13.21,7.55,1h 39m
+439,23078070,Savannah Berry,11612415899,Morning Ride,,2024-06-09 13:38:20+00:00,2971,Ride,,49.0,,116 bpm
+440,23078070,Savannah Berry,11606158751,Lunch Weight Training,,2024-06-08 18:14:54+00:00,2369,WeightTraining,,39.0,,104 Cal
+441,23078070,Savannah Berry,11604372309,Morning Run,,2024-06-08 12:38:21+00:00,8391,Run,"Deer Creek State Park, USA",18.04,7.3,2h 11m
+442,23078070,Savannah Berry,11595804503,Morning Run,,2024-06-07 12:34:20+00:00,4753,Run,"Orem, USA",10.06,7.73,1h 17m
+443,23078070,Savannah Berry,11591489389,Afternoon Run,,2024-06-06 21:32:08+00:00,1813,Run,"Orem, USA",4.11,7.33,30m 13s
+444,23078070,Savannah Berry,11588037403,Morning Run,,2024-06-06 12:39:07+00:00,4561,Run,"Orem, USA",9.51,7.9,1h 15m
+445,23078070,Savannah Berry,11584759359,Evening Weight Training,,2024-06-06 01:45:35+00:00,2734,WeightTraining,,45.0,,77 Cal
+446,23078070,Savannah Berry,11579781535,Morning Run,,2024-06-05 12:21:42+00:00,5576,Run,"Orem, USA",12.51,6.63,1h 23m
+447,23078070,Savannah Berry,11571353787,Morning Run,,2024-06-04 12:25:35+00:00,5421,Run,"Orem, USA",11.03,7.82,1h 26m
+448,23078070,Savannah Berry,11563288388,Morning Run,,2024-06-03 12:19:28+00:00,5307,Run,"Orem, USA",11.0,7.68,1h 24m
+449,23078070,Savannah Berry,11720918416,Morning Ride,,2024-06-23 13:51:49+00:00,3573,Ride,"Orem, USA",13.16,,57m 47s
+450,23078070,Savannah Berry,11713246684,Morning Run,,2024-06-22 13:26:43+00:00,8565,Run,"Orem, USA",19.04,7.28,2h 18m
+451,23078070,Savannah Berry,11704948042,Morning Run,,2024-06-21 12:42:42+00:00,5121,Run,"Orem, USA",11.25,7.55,1h 25m
+452,23078070,Savannah Berry,11697940622,Morning Weight Training,,2024-06-20 14:27:50+00:00,1983,WeightTraining,,33.0,,100 Cal
+453,23078070,Savannah Berry,11697526821,Morning Run,,2024-06-20 12:32:56+00:00,5315,Run,"Orem, USA",12.03,6.82,1h 22m
+454,23078070,Savannah Berry,11689502627,Morning Run,,2024-06-19 12:46:38+00:00,4746,Run,"Orem, USA",10.02,7.63,1h 16m
+455,23078070,Savannah Berry,11684091535,Lunch Weight Training,,2024-06-18 19:16:35+00:00,2026,WeightTraining,,33.0,,79 Cal
+456,23078070,Savannah Berry,11682479812,Morning Run,,2024-06-18 14:13:02+00:00,5804,Run,"Bakersfield, USA",13.1,6.82,1h 29m
+457,23078070,Savannah Berry,11682476144,Afternoon Run,,2024-06-17 20:40:15+00:00,2279,Run,"Bakersfield, USA",4.53,8.17,37m 0s
+458,23078070,Savannah Berry,11674094238,Morning Run,,2024-06-17 14:49:53+00:00,4989,Run,"Bakersfield, USA",10.53,7.68,1h 21m
+459,23078070,Savannah Berry,11776332947,Morning Run,,2024-06-30 14:34:24+00:00,4760,Run,"Orem, USA",10.1,7.68,1h 17m
+460,23078070,Savannah Berry,11760112629,Morning Weight Training,,2024-06-28 14:14:36+00:00,1993,WeightTraining,,33.0,,88 Cal
+461,23078070,Savannah Berry,11759844399,Morning Run,,2024-06-28 12:10:25+00:00,6949,Run,"Orem, USA",17.03,6.57,1h 51m
+462,23078070,Savannah Berry,11752279131,Morning Run,,2024-06-27 12:29:52+00:00,5323,Run,"Orem, USA",11.01,7.85,1h 26m
+463,23078070,Savannah Berry,11744347808,Morning Run,,2024-06-26 12:19:54+00:00,5128,Run,"Orem, USA",11.01,7.58,1h 23m
+464,23078070,Savannah Berry,11736369349,Morning Weight Training,,2024-06-25 14:17:40+00:00,2344,WeightTraining,,39.0,,100 Cal
+465,23078070,Savannah Berry,11735920004,Morning Run,,2024-06-25 12:09:21+00:00,5888,Run,"Lehi, USA",12.07,6.88,1h 23m
+466,23078070,Savannah Berry,11727562554,Morning Run,,2024-06-24 12:22:02+00:00,4665,Run,"Orem, USA",10.01,7.65,1h 16m
+467,23078070,Savannah Berry,11887453144,Morning Ride,,2024-07-14 14:43:21+00:00,2927,Ride,"Orem, USA",12.05,,48m 47s
+468,23078070,Savannah Berry,11878536904,Sunrise stroll 🌅,Murdock brings the group out! 😁🏆,2024-07-13 12:35:50+00:00,7858,Run,"Orem, USA",18.61,6.65,2h 3m
+469,23078070,Savannah Berry,11870307798,Morning Run,,2024-07-12 12:32:33+00:00,5697,Run,"Orem, USA",12.05,7.67,1h 32m
+470,23078070,Savannah Berry,11862857203,Morning Weight Training,,2024-07-11 14:18:26+00:00,1804,WeightTraining,,30.0,,82 Cal
+471,23078070,Savannah Berry,11862437986,Morning Run,,2024-07-11 12:36:17+00:00,4713,Run,"Orem, USA",11.01,6.72,1h 14m
+472,23078070,Savannah Berry,11858198929,Afternoon Run,,2024-07-10 22:50:16+00:00,1969,Run,,4.01,7.63,30m 38s
+473,23078070,Savannah Berry,11854347392,Morning Run,,2024-07-10 12:40:01+00:00,4364,Run,"Orem, USA",9.05,7.73,1h 10m
+474,23078070,Savannah Berry,11846525628,Morning Weight Training,,2024-07-09 14:10:47+00:00,2269,WeightTraining,,37.0,,80 Cal
+475,23078070,Savannah Berry,11846050521,Morning Run,,2024-07-09 11:48:21+00:00,6889,Run,"American Fork, USA",14.02,7.0,1h 38m
+476,23078070,Savannah Berry,11837760458,Morning Run,,2024-07-08 12:30:31+00:00,5565,Run,"Orem, USA",11.55,7.82,1h 30m
+477,23078070,Savannah Berry,11948020927,Afternoon Ride,,2024-07-21 22:27:30+00:00,3846,Ride,"Orem, USA",12.51,,1h 2m
+478,23078070,Savannah Berry,11937303223,Morning Run,,2024-07-20 16:55:55+00:00,306,Run,"Park City, USA",0.51,9.17,4m 45s
+479,23078070,Savannah Berry,11937155546,Morning Run,,2024-07-20 14:00:01+00:00,8565,Run,"Park City, USA",17.38,,2h 22m
+480,23078070,Savannah Berry,11937147445,Morning Run,,2024-07-20 13:20:42+00:00,1294,Run,"Park City, USA",1.83,,19m 36s
+481,23078070,Savannah Berry,11927595284,Morning Run,,2024-07-19 13:01:53+00:00,3331,Run,"Orem, USA",7.02,7.83,55m 4s
+482,23078070,Savannah Berry,11919269163,Morning Run,,2024-07-18 12:38:01+00:00,4208,Run,"Orem, USA",9.11,7.68,1h 10m
+483,23078070,Savannah Berry,11910787474,Morning Run,,2024-07-17 12:29:16+00:00,4898,Run,"Orem, USA",10.56,7.58,1h 20m
+484,23078070,Savannah Berry,11902529047,Morning Weight Training,,2024-07-16 14:27:51+00:00,1953,WeightTraining,,32.0,,107 Cal
+485,23078070,Savannah Berry,11902142560,Morning Run,,2024-07-16 12:22:13+00:00,6215,Run,"Provo, USA",13.26,6.53,1h 26m
+486,23078070,Savannah Berry,11893736937,Morning Run,,2024-07-15 12:19:26+00:00,4740,Run,"Orem, USA",10.52,7.45,1h 18m
+487,23078070,Savannah Berry,12004903858,Lunch Ride,,2024-07-28 17:09:28+00:00,4517,Ride,"Orem, USA",17.13,,1h 13m
+488,23078070,Savannah Berry,11996436088,Lunch Weight Training,,2024-07-27 18:08:42+00:00,2176,WeightTraining,,36.0,,135 Cal
+489,23078070,Savannah Berry,11994970650,Both the Hunter🏹 and the Hunted 🦌,Showed up at the wrong time 😑… decided to take my thoughts for a stroll 🧐,2024-07-27 13:16:18+00:00,7932,Run,"Orem, USA",20.5,6.45,2h 12m
+490,23078070,Savannah Berry,11989976719,Evening Ride,,2024-07-27 01:18:05+00:00,1802,Ride,,30.0,,108 bpm
+491,23078070,Savannah Berry,11986068179,Morning Run,,2024-07-26 12:39:33+00:00,5463,Run,"Orem, USA",11.01,7.98,1h 27m
+492,23078070,Savannah Berry,11981420146,Afternoon Run,,2024-07-25 21:46:41+00:00,2001,Run,"Orem, USA",4.02,8.07,32m 30s
+493,23078070,Savannah Berry,11977749724,Morning Run,,2024-07-25 12:34:47+00:00,4352,Run,"Orem, USA",9.1,7.85,1h 11m
+494,23078070,Savannah Berry,11973183573,Afternoon Weight Training,,2024-07-24 21:43:24+00:00,3199,WeightTraining,,53.0,,135 Cal
+495,23078070,Savannah Berry,11970618326,Morning Run,,2024-07-24 13:46:18+00:00,1582,Run,"Salt Lake City, USA",2.03,8.3,16m 53s
+496,23078070,Savannah Berry,11970616858,Morning Run,,2024-07-24 12:47:59+00:00,967,Run,"Salt Lake City, USA",2.02,7.8,15m 47s
+497,23078070,Savannah Berry,11970615787,Morning Run,,2024-07-24 12:05:01+00:00,1941,Run,"Salt Lake City, USA",6.24,5.18,32m 21s
+498,23078070,Savannah Berry,11970614343,Morning Run,,2024-07-24 11:29:04+00:00,1770,Run,"Salt Lake City, USA",2.07,8.73,18m 6s
+499,23078070,Savannah Berry,11960365866,Morning Run,,2024-07-23 12:49:47+00:00,3169,Run,"Orem, USA",7.01,7.52,52m 45s
+500,23078070,Savannah Berry,11951936957,Morning Run,,2024-07-22 12:51:28+00:00,4955,Run,"Orem, USA",10.02,7.88,1h 19m
+501,23078070,Savannah Berry,12064973517,Evening Ride,,2024-08-05 00:40:24+00:00,3373,Ride,"Orem, USA",13.06,,54m 52s
+502,23078070,Savannah Berry,12053306448,Morning Run,,2024-08-03 15:11:07+00:00,2575,Run,"Santa Monica, USA",5.04,7.77,39m 8s
+503,23078070,Savannah Berry,12053304837,Morning Run,,2024-08-03 14:30:12+00:00,2154,Run,"Santa Monica, USA",6.27,5.72,35m 50s
+504,23078070,Savannah Berry,12053303061,Morning Run,,2024-08-03 13:58:17+00:00,1687,Run,"Santa Monica, USA",2.14,7.35,15m 46s
+505,23078070,Savannah Berry,12044040836,Morning Run,,2024-08-02 12:36:35+00:00,5644,Run,"Orem, USA",12.01,7.62,1h 31m
+506,23078070,Savannah Berry,12040662929,Afternoon Weight Training,,2024-08-01 22:40:43+00:00,1651,WeightTraining,,27.0,,85 Cal
+507,23078070,Savannah Berry,12036627998,Morning Run,,2024-08-01 12:51:04+00:00,9603,Run,"Provo, USA",18.07,7.12,2h 8m
+508,23078070,Savannah Berry,12027486146,Morning Run,,2024-07-31 12:31:33+00:00,4694,Run,"Orem, USA",10.01,7.82,1h 18m
+509,23078070,Savannah Berry,12019213639,Morning Weight Training,,2024-07-30 14:11:06+00:00,2151,WeightTraining,,35.0,,73 Cal
+510,23078070,Savannah Berry,12018784844,Morning Run,,2024-07-30 12:20:20+00:00,5315,Run,"Orem, USA",13.02,6.6,1h 25m
+511,23078070,Savannah Berry,12014245282,Afternoon Run,,2024-07-29 22:51:51+00:00,1923,Run,"Orem, USA",4.01,7.78,31m 12s
+512,23078070,Savannah Berry,12010226102,Morning Run,,2024-07-29 12:27:13+00:00,4902,Run,"Orem, USA",10.03,7.8,1h 18m
+513,23078070,Savannah Berry,12121100440,Treadmill version of zwift… ft. Women’s Olympic Marathon,,2024-08-11 14:31:22+00:00,3406,Run,,7.0,7.72,54m 0s
+514,23078070,Savannah Berry,12112728792,"Not the week I wanted, but maybe the week I needed",,2024-08-10 14:26:46+00:00,6291,Run,"Orem, USA",13.1,7.8,1h 42m
+515,23078070,Savannah Berry,12103543418,Morning Run,,2024-08-09 13:18:30+00:00,4009,Run,"Orem, USA",8.0,8.33,1h 6m
+516,23078070,Savannah Berry,12095399945,Morning Run,,2024-08-08 13:12:02+00:00,3985,Run,"Orem, USA",8.01,8.13,1h 5m
+517,23078070,Savannah Berry,12091627875,Afternoon Run,,2024-08-07 22:46:10+00:00,2021,Run,,4.0,7.67,30m 45s
+518,23078070,Savannah Berry,12086610935,Morning Run,,2024-08-07 12:55:33+00:00,4410,Run,"Orem, USA",9.01,8.08,1h 12m
+519,23078070,Savannah Berry,12080491664,Afternoon Weight Training,,2024-08-06 19:01:26+00:00,2077,WeightTraining,,34.0,,182 Cal
+520,23078070,Savannah Berry,12080119635,Lunch Run,,2024-08-06 17:43:20+00:00,4213,Run,"Orem, USA",8.76,6.92,1h 0m
+521,23078070,Savannah Berry,12077291045,Morning Run,,2024-08-06 12:19:37+00:00,4511,Run,"Orem, USA",10.14,6.68,1h 7m
+522,23078070,Savannah Berry,12068657203,Morning Run,,2024-08-05 12:46:45+00:00,5331,Run,"Orem, USA",11.15,7.58,1h 24m
+523,23078070,Savannah Berry,12315560558,Morning Run,,2024-09-01 13:04:11+00:00,2461,Run,"New Haven, USA",4.76,8.18,39m 1s
+524,23078070,Savannah Berry,12281337618,Morning Run,,2024-08-30 12:44:19+00:00,4517,Run,"Orem, USA",10.02,7.12,1h 11m
+525,23078070,Savannah Berry,12273201606,Morning Run,,2024-08-29 12:58:08+00:00,4516,Run,"Orem, USA",9.54,7.87,1h 15m
+526,23078070,Savannah Berry,12264649132,Morning Run,,2024-08-28 12:37:35+00:00,6467,Run,"Orem, USA",15.01,7.03,1h 45m
+527,23078070,Savannah Berry,12255383885,Morning Run,,2024-08-27 12:33:50+00:00,4917,Run,"Orem, USA",10.01,8.0,1h 20m
+528,23078070,Savannah Berry,12246901549,Morning Run,,2024-08-26 12:26:10+00:00,6742,Run,"Orem, USA",15.04,6.93,1h 44m
+529,23078070,Savannah Berry,12360832426,Morning Weight Training,,2024-09-08 16:43:10+00:00,2603,WeightTraining,,43.0,,244 Cal
+530,23078070,Savannah Berry,12350633166,Morning Run,,2024-09-07 13:15:39+00:00,8357,Run,"Orem, USA",17.15,6.6,1h 53m
+531,23078070,Savannah Berry,12341168718,Morning Run,,2024-09-06 12:49:28+00:00,4666,Run,"Orem, USA",9.52,8.13,1h 17m
+532,23078070,Savannah Berry,12333308229,Morning Weight Training,,2024-09-05 14:26:32+00:00,2244,WeightTraining,,37.0,,99 Cal
+533,23078070,Savannah Berry,12333005294,Morning Run,,2024-09-05 12:37:08+00:00,5453,Run,"Orem, USA",12.13,6.92,1h 23m
+534,23078070,Savannah Berry,12324322592,Morning Run,,2024-09-04 12:47:37+00:00,4862,Run,"Orem, USA",10.13,7.73,1h 18m
+535,23078070,Savannah Berry,12315561378,Morning Run,,2024-09-03 13:46:31+00:00,4337,Run,"Orem, USA",9.05,7.98,1h 12m
+536,23078070,Savannah Berry,12315560886,Morning Run,,2024-09-02 14:09:38+00:00,2444,Run,"New Haven, USA",4.09,6.68,27m 22s
+537,23078070,Savannah Berry,12315561141,Morning Run,,2024-09-02 12:30:01+00:00,4026,Run,"New Haven, USA",12.41,5.4,1h 6m
+538,23078070,Savannah Berry,12315561156,Morning Run,,2024-09-02 11:44:55+00:00,844,Run,"New Haven, USA",1.57,8.83,13m 56s
+539,23078070,Savannah Berry,12409167736,Thee…Longest Long Run 🙌🏽😁,"Tired legs, tired week, but strong finish… gotta get fit for NY. 💪🏽 
+Strong group this morning ft. 
+Keira D'Amato Makena Morley Mica Rivera Wood",2024-09-14 13:03:57+00:00,10866,Run,"Provo, USA",24.01,6.45,2h 35m
+540,23078070,Savannah Berry,12400365777,Morning Run,,2024-09-13 14:58:26+00:00,1058,Run,"Orem, USA",1.5,8.03,12m 4s
+541,23078070,Savannah Berry,12399981119,Morning Run,,2024-09-13 13:18:08+00:00,3861,Run,"Orem, USA",8.51,7.53,1h 4m
+542,23078070,Savannah Berry,12392410544,Morning Weight Training,,2024-09-12 14:34:20+00:00,1729,WeightTraining,,28.0,,125 Cal
+543,23078070,Savannah Berry,12392101239,Morning Run,,2024-09-12 12:33:25+00:00,6189,Run,"Provo, USA",13.02,6.92,1h 30m
+544,23078070,Savannah Berry,12387551961,Afternoon Run,,2024-09-11 22:19:29+00:00,1949,Run,"Orem, USA",4.0,8.1,32m 29s
+545,23078070,Savannah Berry,12383737202,Morning Run,,2024-09-11 12:47:18+00:00,4639,Run,"Orem, USA",9.51,7.98,1h 15m
+546,23078070,Savannah Berry,12375404138,Morning Weight Training,,2024-09-10 14:19:31+00:00,2612,WeightTraining,,43.0,,112 Cal
+547,23078070,Savannah Berry,12374792818,Morning Run,,2024-09-10 11:48:31+00:00,6487,Run,"Lehi, USA",13.25,6.8,1h 30m
+548,23078070,Savannah Berry,12370988172,Evening Run,,2024-09-10 01:09:48+00:00,1867,Run,"Orem, USA",3.51,8.85,31m 7s
+549,23078070,Savannah Berry,12366370973,Morning Run,,2024-09-09 12:42:13+00:00,4937,Run,"Orem, USA",10.06,7.85,1h 19m
+550,23078070,Savannah Berry,12479680122,Afternoon Ride,,2024-09-22 20:40:43+00:00,4735,Ride,"Orem, USA",15.4,,1h 17m
+551,23078070,Savannah Berry,12468149992,Morning Run,,2024-09-21 12:46:58+00:00,8945,Run,"Orem, USA",20.1,6.77,2h 16m
+552,23078070,Savannah Berry,12462641068,Evening Run,,2024-09-21 00:15:09+00:00,1906,Run,"Orem, USA",4.03,7.87,31m 46s
+553,23078070,Savannah Berry,12459080066,Morning Run,,2024-09-20 13:18:11+00:00,4359,Run,"Orem, USA",9.25,7.6,1h 10m
+554,23078070,Savannah Berry,12459080083,Morning Run,,2024-09-20 13:02:33+00:00,547,Run,,1.08,8.37,9m 7s
+555,23078070,Savannah Berry,12451016589,Morning Weight Training,,2024-09-19 14:30:27+00:00,1778,WeightTraining,,29.0,,132 Cal
+556,23078070,Savannah Berry,12450741005,Morning Run,,2024-09-19 12:32:17+00:00,6588,Run,"Orem, USA",14.02,7.28,1h 42m
+557,23078070,Savannah Berry,12446461497,Afternoon Run,,2024-09-18 23:27:41+00:00,2134,Run,"Orem, USA",4.5,7.9,35m 34s
+558,23078070,Savannah Berry,12441963600,Morning Run,,2024-09-18 12:48:24+00:00,4995,Run,"Orem, USA",10.01,8.12,1h 21m
+559,23078070,Savannah Berry,12433365556,Morning Weight Training,,2024-09-17 14:24:19+00:00,2289,WeightTraining,,38.0,,96 Cal
+560,23078070,Savannah Berry,12432959317,Morning Run,,2024-09-17 11:47:33+00:00,6985,Run,"Lehi, USA",14.1,7.18,1h 41m
+561,23078070,Savannah Berry,12428578646,Afternoon Run,,2024-09-16 23:06:24+00:00,2231,Run,"Orem, USA",4.03,8.32,33m 31s
+562,23078070,Savannah Berry,12424120718,Morning Run,,2024-09-16 11:53:17+00:00,4766,Run,"Orem, USA",9.03,7.95,1h 11m
+563,23078070,Savannah Berry,12524690207,Morning Run,,2024-09-28 13:19:43+00:00,6783,Run,"Orem, USA",16.3,6.77,1h 50m
+564,23078070,Savannah Berry,12516299296,Morning Run,,2024-09-27 13:16:23+00:00,5116,Run,"Orem, USA",11.01,7.67,1h 24m
+565,23078070,Savannah Berry,12508968182,Morning Weight Training,,2024-09-26 14:14:14+00:00,2071,WeightTraining,,34.0,,97 Cal
+566,23078070,Savannah Berry,12508634711,Morning Run,,2024-09-26 12:04:17+00:00,6567,Run,"Provo, USA",14.01,6.93,1h 37m
+567,23078070,Savannah Berry,12500803411,Morning Run,,2024-09-25 12:33:29+00:00,5454,Run,"Orem, USA",11.01,8.08,1h 29m
+568,23078070,Savannah Berry,12492561765,Morning Weight Training,,2024-09-24 14:09:40+00:00,2549,WeightTraining,,42.0,,137 Cal
+569,23078070,Savannah Berry,12492119281,Morning Run,,2024-09-24 12:03:22+00:00,6223,Run,"Orem, USA",14.07,6.97,1h 38m
+570,23078070,Savannah Berry,12487807961,Afternoon Run,,2024-09-23 23:05:23+00:00,2072,Run,"Orem, USA",4.26,8.0,34m 9s
+571,23078070,Savannah Berry,12483731157,Morning Run,,2024-09-23 12:37:23+00:00,4689,Run,"Orem, USA",9.51,8.08,1h 17m
+572,23078070,Savannah Berry,12694630734,Morning Weight Training,,2024-10-19 16:28:39+00:00,2176,WeightTraining,,36.0,,93 Cal
+573,23078070,Savannah Berry,12694193909,Morning Run,,2024-10-19 13:41:44+00:00,8815,Run,"Orem, USA",21.01,6.9,2h 24m
+574,23078070,Savannah Berry,12685371324,Morning Run,,2024-10-18 13:55:51+00:00,2503,Run,,5.0,7.8,39m 2s
+575,23078070,Savannah Berry,12685047273,Morning Run,,2024-10-18 12:49:52+00:00,3542,Run,"Orem, USA",6.18,8.53,52m 44s
+576,23078070,Savannah Berry,12681688262,Evening Run,,2024-10-18 00:01:40+00:00,2501,Run,,5.02,7.73,38m 51s
+577,23078070,Savannah Berry,12677527337,Morning Run,,2024-10-17 12:34:37+00:00,4846,Run,"Orem, USA",10.14,7.8,1h 19m
+578,23078070,Savannah Berry,12669906439,Morning Weight Training,,2024-10-16 14:12:26+00:00,2121,WeightTraining,,35.0,,74 Cal
+579,23078070,Savannah Berry,12669615650,Morning Run,,2024-10-16 12:18:57+00:00,5803,Run,"Orem, USA",13.52,6.82,1h 32m
+580,23078070,Savannah Berry,12661318072,Morning Run,,2024-10-15 12:39:30+00:00,5158,Run,"Orem, USA",10.52,7.93,1h 23m
+581,23078070,Savannah Berry,12657465354,Afternoon Run,,2024-10-14 23:55:55+00:00,2316,Run,"Orem, USA",4.6,8.38,38m 36s
+582,23078070,Savannah Berry,12653181406,Morning Run,,2024-10-14 12:42:52+00:00,4701,Run,"Orem, USA",9.5,7.88,1h 15m
+583,23078070,Savannah Berry,12812933893,Morning Run,,2024-11-03 12:41:43+00:00,264,Run,,0.35,10.98,3m 55s
+584,23078070,Savannah Berry,12804698597,Morning Run,,2024-11-02 12:40:27+00:00,3198,Run,"Manhattan, USA",4.01,9.38,37m 41s
+585,23078070,Savannah Berry,12789329972,Morning Run,,2024-10-31 12:34:22+00:00,3047,Run,"Orem, USA",6.1,7.83,47m 45s
+586,23078070,Savannah Berry,12781669288,Morning Run,,2024-10-30 13:04:01+00:00,3386,Run,"Orem, USA",7.53,6.77,51m 1s
+587,23078070,Savannah Berry,12773438063,Morning Run,,2024-10-29 12:56:46+00:00,4122,Run,,8.5,7.9,1h 7m
+588,23078070,Savannah Berry,12765277132,Morning Run,,2024-10-28 12:41:48+00:00,4820,Run,"Orem, USA",9.5,8.12,1h 17m
+589,23078070,Savannah Berry,12869349828,Morning Ride,,2024-11-10 15:39:40+00:00,1232,Ride,,20.0,,125 bpm
+590,23078070,Savannah Berry,12864239085,Evening Ride,,2024-11-10 02:33:56+00:00,1802,Ride,,30.0,,106 bpm
+591,23078070,Savannah Berry,12860490368,Morning Run,,2024-11-09 14:33:43+00:00,2656,Run,"South Jordan, USA",4.33,9.38,40m 38s
+592,23078070,Savannah Berry,12852422552,Morning Weight Training,,2024-11-08 14:31:50+00:00,1267,WeightTraining,,21.0,,74 Cal
+593,23078070,Savannah Berry,12852286081,Morning Ride,,2024-11-08 13:53:04+00:00,2221,Ride,,37.0,,127 bpm
+594,23078070,Savannah Berry,12845082608,Morning Ride,,2024-11-07 14:16:37+00:00,2702,Ride,,45.0,,131 bpm
+595,23078070,Savannah Berry,12837426093,Morning Ride,,2024-11-06 14:52:30+00:00,1920,Ride,,32.0,,121 bpm
+596,26841392,Olin Hacker,10553198756,Afternoon Run,,2024-01-07 22:06:02+00:00,3555,Run,,7.69,7.68,59m 7s
+597,26841392,Olin Hacker,10553198132,Morning Run,,2024-01-06 14:37:27+00:00,6539,Run,"Scottsdale, USA",12.73,7.48,1h 35m
+598,26841392,Olin Hacker,10500799375,Morning Run,,2024-01-05 17:37:43+00:00,7859,Run,"Tempe, USA",13.11,7.83,1h 42m
+599,26841392,Olin Hacker,10500798213,Afternoon Run,,2024-01-04 22:16:07+00:00,4579,Run,"Scottsdale, USA",10.07,7.0,1h 10m
+600,26841392,Olin Hacker,10500797065,Afternoon Run,,2024-01-03 22:26:35+00:00,2399,Run,"Flagstaff, USA",4.37,8.03,35m 9s
+601,26841392,Olin Hacker,10500796448,Lunch Run,,2024-01-03 18:31:13+00:00,2100,Run,"Flagstaff, USA",4.03,7.5,30m 15s
+602,26841392,Olin Hacker,10500795821,Afternoon Run,,2024-01-02 22:37:48+00:00,5375,Run,"Flagstaff, USA",9.98,6.65,1h 6m
+603,26841392,Olin Hacker,10500793919,Morning Run,,2024-01-02 16:40:17+00:00,6143,Run,"Coconino County, USA",10.76,6.53,1h 10m
+604,26841392,Olin Hacker,10477075051,Morning Run,,2024-01-01 17:28:55+00:00,7102,Run,"Flagstaff, USA",9.77,10.53,1h 42m
+605,26841392,Olin Hacker,10566295819,Lunch Run,,2024-01-14 19:25:13+00:00,2772,Run,"Tucson, USA",4.97,8.0,39m 50s
+606,26841392,Olin Hacker,10553205072,Lunch Run,,2024-01-13 18:39:58+00:00,6966,Run,"Coronado National Forest, USA",15.31,6.23,1h 35m
+607,26841392,Olin Hacker,10553203885,Lunch Run,,2024-01-12 19:18:40+00:00,5871,Run,"Tucson, USA",8.89,7.65,1h 8m
+608,26841392,Olin Hacker,10553203054,Afternoon Run,,2024-01-11 23:23:36+00:00,4581,Run,"Ironwood Forest National Monument, USA",8.6,6.82,58m 41s
+609,26841392,Olin Hacker,10553202361,Lunch Run,,2024-01-11 19:36:34+00:00,2820,Run,"Tucson, USA",5.0,7.67,38m 22s
+610,26841392,Olin Hacker,10553201761,Afternoon Run,,2024-01-10 23:06:58+00:00,4664,Run,"Pinal County, USA",8.16,7.12,58m 7s
+611,26841392,Olin Hacker,10553200950,Afternoon Run,,2024-01-09 23:45:54+00:00,2544,Run,"Flagstaff, USA",4.87,7.5,36m 37s
+612,26841392,Olin Hacker,10553200497,Morning Run,,2024-01-09 17:01:54+00:00,7769,Run,"Camp Verde, USA",13.71,6.15,1h 24m
+613,26841392,Olin Hacker,10553199391,Morning Run,,2024-01-08 16:36:07+00:00,4554,Run,,9.88,7.47,1h 13m
+614,26841392,Olin Hacker,10605191982,Lunch Run,,2024-01-21 18:14:14+00:00,2683,Run,"Flagstaff, USA",4.38,7.9,34m 37s
+615,26841392,Olin Hacker,10605191678,Morning Run,,2024-01-20 16:36:53+00:00,6089,Run,"Coconino National Forest, USA",13.92,7.12,1h 39m
+616,26841392,Olin Hacker,10605191180,Afternoon Run,,2024-01-19 22:35:28+00:00,4839,Run,"Flagstaff, USA",6.49,7.77,50m 24s
+617,26841392,Olin Hacker,10605190776,Morning Run,,2024-01-19 16:39:57+00:00,5704,Run,"Coconino National Forest, USA",10.6,6.5,1h 9m
+618,26841392,Olin Hacker,10605189751,Morning Run,,2024-01-18 16:41:35+00:00,4432,Run,"Flagstaff, USA",10.01,7.28,1h 12m
+619,26841392,Olin Hacker,10605187325,Morning Run,,2024-01-17 16:22:41+00:00,3749,Run,"Coconino National Forest, USA",8.04,7.68,1h 1m
+620,26841392,Olin Hacker,10605184961,Afternoon Run,,2024-01-16 21:08:25+00:00,7604,Run,"Cottonwood, USA",10.76,6.77,1h 12m
+621,26841392,Olin Hacker,10566298040,Morning Run,,2024-01-15 17:35:35+00:00,6445,Run,"Pima County, USA",10.39,8.28,1h 26m
+622,26841392,Olin Hacker,10710537453,Afternoon Run,,2024-01-29 00:47:28+00:00,2443,Run,"Flagstaff, USA",4.29,7.8,33m 31s
+623,26841392,Olin Hacker,10710536919,Lunch Run,,2024-01-27 16:28:32+00:00,5652,Run,"Cambridge, USA",11.96,7.43,1h 28m
+624,26841392,Olin Hacker,10710535513,Evening Run,,2024-01-27 01:38:50+00:00,1628,Run,"Boston, USA",2.32,8.68,20m 9s
+625,26841392,Olin Hacker,10710535020,Evening Run,,2024-01-26 23:47:27+00:00,1777,Run,"Boston, USA",3.15,7.17,22m 36s
+626,26841392,Olin Hacker,10710534414,Afternoon Run,,2024-01-26 19:33:58+00:00,980,Run,"Cambridge, USA",1.58,9.33,14m 47s
+627,26841392,Olin Hacker,10710535081,Afternoon Run,,2024-01-25 22:35:58+00:00,6653,Run,"Cambridge, USA",6.64,8.45,56m 9s
+628,26841392,Olin Hacker,10710532955,Lunch Run,,2024-01-24 18:03:48+00:00,3603,Run,"Flagstaff, USA",7.68,7.23,55m 33s
+629,26841392,Olin Hacker,10710531654,Afternoon Run,,2024-01-23 21:39:40+00:00,5564,Run,"Cottonwood, USA",8.23,7.68,1h 3m
+630,26841392,Olin Hacker,10710530036,Morning Run,,2024-01-22 16:08:27+00:00,5993,Run,"Flagstaff, USA",10.52,7.75,1h 21m
+631,26841392,Olin Hacker,10710545527,Lunch Run,,2024-02-04 19:07:04+00:00,2236,Run,"Flagstaff, USA",4.98,6.93,34m 34s
+632,26841392,Olin Hacker,10710544971,Lunch Run,,2024-02-03 18:56:55+00:00,6581,Run,"Coconino National Forest, USA",15.18,7.02,1h 46m
+633,26841392,Olin Hacker,10710543672,Afternoon Run,,2024-02-02 22:02:46+00:00,6245,Run,"Yavapai County, USA",9.84,7.6,1h 14m
+634,26841392,Olin Hacker,10710542222,Lunch Run,,2024-02-01 18:28:19+00:00,4861,Run,"Flagstaff, USA",9.58,7.37,1h 10m
+635,26841392,Olin Hacker,10710540911,Lunch Run,,2024-01-31 18:26:52+00:00,5192,Run,"Flagstaff, USA",9.92,7.72,1h 16m
+636,26841392,Olin Hacker,10710539716,Morning Run,,2024-01-30 16:07:29+00:00,5668,Run,"Coconino National Forest, USA",11.64,6.5,1h 15m
+637,26841392,Olin Hacker,10710538514,Lunch Run,,2024-01-29 18:34:20+00:00,5472,Run,"Flagstaff, USA",9.73,8.35,1h 21m
+638,26841392,Olin Hacker,10795363012,Afternoon Run,,2024-02-11 20:18:36+00:00,100711,Run,"Flagstaff, USA",5.05,7.23,36m 34s
+639,26841392,Olin Hacker,10737087362,Morning Run,,2024-02-10 17:27:27+00:00,6384,Run,"Coconino National Forest, USA",14.3,7.25,1h 43m
+640,26841392,Olin Hacker,10737086139,Afternoon Run,,2024-02-09 23:03:52+00:00,7298,Run,,10.65,7.7,1h 22m
+641,26841392,Olin Hacker,10737085452,Morning Run,,2024-02-08 17:01:54+00:00,4737,Run,,9.42,7.78,1h 13m
+642,26841392,Olin Hacker,10737084868,Afternoon Run,,2024-02-07 21:25:06+00:00,4125,Run,,8.75,7.73,1h 7m
+643,26841392,Olin Hacker,10712062379,Afternoon Run,,2024-02-07 00:40:35+00:00,6800,Run,"Flagstaff, USA",4.47,23.42,1h 44m
+644,26841392,Olin Hacker,10712060663,Morning Run,,2024-02-06 16:57:17+00:00,6362,Run,"Camp Verde, USA",10.18,6.68,1h 8m
+645,26841392,Olin Hacker,10710546697,Morning Run,,2024-02-05 16:33:58+00:00,5722,Run,"Flagstaff, USA",10.51,8.18,1h 26m
+646,26841392,Olin Hacker,10795373505,Lunch Run,,2024-02-18 18:25:25+00:00,1811,Run,"Albuquerque, USA",3.75,7.85,29m 27s
+647,26841392,Olin Hacker,10795372658,Lunch Run,,2024-02-17 19:22:56+00:00,5143,Run,"Bernalillo County, USA",11.93,7.03,1h 23m
+648,26841392,Olin Hacker,10795371138,Evening Run,,2024-02-17 02:01:13+00:00,2065,Run,"Albuquerque, USA",3.66,7.68,28m 10s
+649,26841392,Olin Hacker,10795370169,Afternoon Run,,2024-02-16 22:49:17+00:00,616,Run,"Albuquerque, USA",1.35,7.37,10m 0s
+650,26841392,Olin Hacker,10795369684,Afternoon Run,,2024-02-15 23:08:30+00:00,5420,Run,"Albuquerque, USA",5.79,7.63,44m 15s
+651,26841392,Olin Hacker,10795368852,Morning Run,,2024-02-14 16:38:38+00:00,3541,Run,"Coconino National Forest, USA",7.99,7.25,58m 0s
+652,26841392,Olin Hacker,10795367047,Lunch Run,,2024-02-13 18:01:58+00:00,4404,Run,"Flagstaff, USA",9.29,7.28,1h 7m
+653,26841392,Olin Hacker,10795364220,Afternoon Run,,2024-02-13 00:17:35+00:00,5745,Run,,8.41,8.13,1h 8m
+654,26841392,Olin Hacker,11025247279,Morning Run,,2024-02-24 16:36:50+00:00,6120,Run,"Coconino County, USA",13.62,7.25,1h 38m
+655,26841392,Olin Hacker,11025246918,Afternoon Run,,2024-02-23 23:36:00+00:00,3627,Run,,6.9,8.68,59m 59s
+656,26841392,Olin Hacker,11025246602,Afternoon Run,,2024-02-23 22:48:42+00:00,1433,Run,"Cottonwood, USA",3.08,7.67,23m 40s
+657,26841392,Olin Hacker,11025246460,Afternoon Run,,2024-02-23 00:08:20+00:00,2704,Run,"Flagstaff, USA",4.79,8.6,41m 16s
+658,26841392,Olin Hacker,11025246210,Morning Run,,2024-02-22 17:53:23+00:00,3626,Run,"Flagstaff, USA",7.87,7.25,57m 11s
+659,26841392,Olin Hacker,11025245865,Morning Run,,2024-02-21 16:50:10+00:00,4301,Run,"Coconino National Forest, USA",10.01,7.13,1h 11m
+660,26841392,Olin Hacker,11025245538,Morning Run,,2024-02-20 16:37:13+00:00,5986,Run,"Coconino National Forest, USA",11.16,6.48,1h 12m
+661,26841392,Olin Hacker,11025244951,Afternoon Run,,2024-02-20 00:03:54+00:00,3442,Run,,1.53,7.22,11m 2s
+662,26841392,Olin Hacker,10795374978,Morning Run,,2024-02-19 17:48:09+00:00,4118,Run,"Flagstaff, USA",8.86,7.07,1h 2m
+663,26841392,Olin Hacker,11025248034,Lunch Run,,2024-03-02 19:32:55+00:00,1250,Run,,2.88,7.17,20m 41s
+664,26841392,Olin Hacker,11025248016,Morning Run,,2024-03-02 13:57:12+00:00,739,Run,,1.66,7.42,12m 19s
+665,26841392,Olin Hacker,11025248354,Morning Run,,2024-03-01 17:01:35+00:00,329,Run,,0.77,7.03,5m 29s
+666,26841392,Olin Hacker,11025248038,Morning Run,,2024-03-01 16:01:18+00:00,3419,Run,,5.43,7.88,42m 50s
+667,26841392,Olin Hacker,11025248026,Morning Run,,2024-02-29 12:39:48+00:00,2979,Run,,7.05,6.88,48m 28s
+668,26841392,Olin Hacker,11025248325,Afternoon Run,,2024-02-28 20:09:34+00:00,1500,Run,,3.2,7.78,25m 0s
+669,26841392,Olin Hacker,11025247660,Morning Run,,2024-02-27 16:40:08+00:00,5315,Run,"Flagstaff, USA",8.62,8.1,1h 9m
+670,26841392,Olin Hacker,11025247375,Afternoon Run,,2024-02-26 23:29:35+00:00,1807,Run,,3.95,7.02,27m 46s
+671,26841392,Olin Hacker,11025249157,Lunch Run,,2024-03-10 18:43:18+00:00,2682,Run,"Flagstaff, USA",4.45,8.52,37m 53s
+672,26841392,Olin Hacker,11025248977,Morning Run,,2024-03-09 16:35:27+00:00,2819,Run,"Flagstaff, USA",6.06,7.4,44m 52s
+673,26841392,Olin Hacker,11025248273,Afternoon Run,,2024-03-06 23:09:13+00:00,2097,Run,"Flagstaff, USA",3.31,7.88,26m 6s
+674,26841392,Olin Hacker,12877418067,Morning Run,"142 Training Load.
+-- from COROS",2024-11-11 16:02:31+00:00,7451,Run,"Flagstaff, USA",10.27,7.9,1h 21m
+675,26841392,Olin Hacker,11036441909,Lunch Run,,2024-03-24 18:49:30+00:00,2914,Run,"Coconino National Forest, USA",6.06,7.68,46m 38s
+676,26841392,Olin Hacker,11025253020,Morning Run,,2024-03-23 16:09:02+00:00,6931,Run,"Coconino National Forest, USA",14.99,7.33,1h 50m
+677,26841392,Olin Hacker,11025252578,Afternoon Run,,2024-03-22 20:48:06+00:00,7103,Run,"Cottonwood, USA",11.12,7.63,1h 24m
+678,26841392,Olin Hacker,11025252132,Morning Run,,2024-03-21 17:49:43+00:00,5015,Run,"Flagstaff, USA",9.5,7.38,1h 10m
+679,26841392,Olin Hacker,11025251690,Morning Run,,2024-03-20 16:38:40+00:00,3508,Run,"Coconino National Forest, USA",7.99,7.17,57m 14s
+680,26841392,Olin Hacker,11025251360,Morning Run,,2024-03-19 16:38:10+00:00,5287,Run,"Coconino National Forest, USA",10.44,6.25,1h 5m
+681,26841392,Olin Hacker,11025251052,Morning Run,,2024-03-18 16:40:09+00:00,6451,Run,"Flagstaff, USA",8.63,7.9,1h 8m
+682,26841392,Olin Hacker,11080313193,Afternoon Run,,2024-03-31 20:13:00+00:00,2038,Run,"Flagstaff, USA",3.79,7.82,29m 39s
+683,26841392,Olin Hacker,11073524230,Morning Run,,2024-03-30 15:10:39+00:00,6348,Run,"Coconino National Forest, USA",16.11,6.47,1h 44m
+684,26841392,Olin Hacker,11073523634,Morning Run,,2024-03-29 16:11:55+00:00,3449,Run,"Coconino National Forest, USA",8.01,6.97,55m 51s
+685,26841392,Olin Hacker,11073523254,Afternoon Run,,2024-03-28 23:28:01+00:00,1531,Run,"Flagstaff, USA",3.03,7.95,24m 4s
+686,26841392,Olin Hacker,11073522568,Morning Run,,2024-03-28 16:38:45+00:00,6387,Run,"Flagstaff, USA",8.66,8.6,1h 14m
+687,26841392,Olin Hacker,11073521386,Lunch Run,,2024-03-27 19:34:34+00:00,3901,Run,"Flagstaff, USA",7.88,7.38,58m 13s
+688,26841392,Olin Hacker,11052734988,Afternoon Run,,2024-03-26 22:38:26+00:00,4689,Run,"Flagstaff, USA",8.16,6.68,54m 37s
+689,26841392,Olin Hacker,11052734377,Morning Run,,2024-03-26 16:09:31+00:00,5601,Run,"Coconino National Forest, USA",10.49,6.58,1h 9m
+690,26841392,Olin Hacker,11036443337,Morning Run,,2024-03-25 16:09:34+00:00,6666,Run,"Coconino National Forest, USA",9.05,8.0,1h 12m
+691,26841392,Olin Hacker,11160967383,Lunch Run,,2024-04-07 19:10:18+00:00,2892,Run,"Flagstaff, USA",5.32,7.72,41m 5s
+692,26841392,Olin Hacker,11122314715,Morning Run,,2024-04-06 16:58:58+00:00,6770,Run,"Coconino National Forest, USA",14.98,7.35,1h 50m
+693,26841392,Olin Hacker,11122313334,Afternoon Run,,2024-04-05 22:50:26+00:00,6831,Run,"Cottonwood, USA",10.76,7.3,1h 18m
+694,26841392,Olin Hacker,11108894750,Afternoon Run,,2024-04-05 00:44:14+00:00,2242,Run,"Flagstaff, USA",4.16,7.42,30m 52s
+695,26841392,Olin Hacker,11108881106,Afternoon Run,,2024-04-05 00:41:06+00:00,151,Run,"Flagstaff, USA",0.29,8.5,2m 31s
+696,26841392,Olin Hacker,11107099926,New trials lead to old trails,,2024-04-04 17:49:46+00:00,3512,Run,"Flagstaff, USA",8.09,6.92,55m 56s
+697,26841392,Olin Hacker,11107098225,Lunch Run,,2024-04-03 19:01:03+00:00,3489,Run,"Flagstaff, USA",8.03,7.0,56m 13s
+698,26841392,Olin Hacker,11094745840,Afternoon Run,,2024-04-03 00:22:13+00:00,1957,Run,"Flagstaff, USA",4.03,7.78,31m 26s
+699,26841392,Olin Hacker,11094745162,Morning Run,,2024-04-02 16:09:24+00:00,6992,Run,"Coconino National Forest, USA",13.19,6.58,1h 26m
+700,26841392,Olin Hacker,11094743688,Morning Run,,2024-04-01 16:35:09+00:00,7355,Run,"Flagstaff, USA",9.95,7.43,1h 14m
+701,26841392,Olin Hacker,11190133512,Stopped my watch at halfway opps,,2024-04-14 20:15:02+00:00,1584,Run,"Flagstaff, USA",2.99,7.63,22m 51s
+702,26841392,Olin Hacker,11190132539,Lunch Run,,2024-04-14 19:46:41+00:00,1427,Run,"Flagstaff, USA",2.99,7.62,22m 50s
+703,26841392,Olin Hacker,11182876426,"Long run,last 6 progression",,2024-04-13 16:08:20+00:00,6299,Run,"Flagstaff, USA",15.86,6.4,1h 41m
+704,26841392,Olin Hacker,11168096426,Skunk canyon,,2024-04-12 19:07:13+00:00,4497,Run,"Flagstaff, USA",9.99,7.07,1h 10m
+705,26841392,Olin Hacker,11160973767,Would you consider 134 m elevation gain hilly over 4 miles?,I know someone who would,2024-04-11 23:22:54+00:00,2029,Run,"Flagstaff, USA",4.01,7.5,30m 3s
+706,26841392,Olin Hacker,11160973431,Morning Run,,2024-04-11 16:06:05+00:00,5612,Run,"Flagstaff, USA",9.03,7.2,1h 5m
+707,26841392,Olin Hacker,11160972209,Morning Run,,2024-04-10 16:06:25+00:00,4307,Run,"Flagstaff, USA",9.93,7.17,1h 11m
+708,26841392,Olin Hacker,11160971119,Afternoon Run,,2024-04-09 22:40:08+00:00,5305,Run,"Flagstaff, USA",10.0,6.5,1h 4m
+709,26841392,Olin Hacker,11160969668,Morning Run,,2024-04-09 16:07:55+00:00,6198,Run,"Coconino National Forest, USA",10.06,6.58,1h 6m
+710,26841392,Olin Hacker,11160968380,Morning Run,,2024-04-08 16:27:10+00:00,7048,Run,"Flagstaff, USA",10.29,7.97,1h 21m
+711,26841392,Olin Hacker,11270859234,Morning Run,,2024-04-20 17:48:23+00:00,7319,Run,"Apache-Sitgreaves National Forests, USA",14.98,6.77,1h 41m
+712,26841392,Olin Hacker,11270857903,Morning Run,,2024-04-19 15:12:06+00:00,7226,Run,"Flagstaff, USA",13.01,6.57,1h 25m
+713,26841392,Olin Hacker,11270856088,Afternoon Run,,2024-04-19 00:38:23+00:00,1714,Run,"Flagstaff, USA",4.02,6.9,27m 45s
+714,26841392,Olin Hacker,11270855037,Morning Run,,2024-04-18 17:22:47+00:00,3700,Run,"Flagstaff, USA",8.19,6.97,57m 4s
+715,26841392,Olin Hacker,11212090867,Morning Run,,2024-04-17 16:12:26+00:00,3876,Run,"Coconino County, USA",8.23,7.67,1h 3m
+716,26841392,Olin Hacker,11212089131,Afternoon Run,,2024-04-16 23:47:19+00:00,7235,Run,"Cottonwood, USA",10.89,7.53,1h 22m
+717,26841392,Olin Hacker,11212086610,Morning Run,,2024-04-16 17:43:58+00:00,1769,Run,"Flagstaff, USA",4.05,6.98,28m 19s
+718,26841392,Olin Hacker,11190166553,Morning Run,,2024-04-15 16:19:58+00:00,7518,Run,"Flagstaff, USA",10.24,7.77,1h 19m
+719,26841392,Olin Hacker,11317624888,Afternoon Run,,2024-04-28 21:52:16+00:00,2147,Run,"Flagstaff, USA",4.87,7.0,34m 5s
+720,26841392,Olin Hacker,11317623983,Morning Run,,2024-04-27 16:42:04+00:00,104984,Run,"Coconino National Forest, USA",13.96,7.33,1h 42m
+721,26841392,Olin Hacker,11271092172,Morning Run,,2024-04-26 14:31:49+00:00,7680,Run,"Phoenix, USA",11.83,7.87,1h 33m
+722,26841392,Olin Hacker,11270864304,Lunch Run,,2024-04-25 18:13:19+00:00,4596,Run,"Flagstaff, USA",10.14,7.05,1h 11m
+723,26841392,Olin Hacker,11270863363,Lunch Run,,2024-04-24 18:38:10+00:00,4417,Run,"Flagstaff, USA",9.11,7.33,1h 6m
+724,26841392,Olin Hacker,11270862619,Afternoon Run,,2024-04-23 22:35:50+00:00,5535,Run,"Flagstaff, USA",8.16,7.18,58m 45s
+725,26841392,Olin Hacker,11270861601,Morning Run,,2024-04-23 16:08:46+00:00,5920,Run,"Coconino County, USA",10.78,6.45,1h 9m
+726,26841392,Olin Hacker,11270860293,Morning Run,,2024-04-22 16:24:15+00:00,7872,Run,"Flagstaff, USA",10.04,8.12,1h 21m
+727,26841392,Olin Hacker,11519517077,Afternoon Run,,2024-05-12 21:56:47+00:00,2236,Run,"Flagstaff, USA",4.98,7.02,34m 58s
+728,26841392,Olin Hacker,11519516148,Morning Run,,2024-05-11 16:13:08+00:00,6066,Run,"Coconino National Forest, USA",14.2,6.9,1h 38m
+729,26841392,Olin Hacker,11519512947,Morning Run,,2024-05-10 16:18:02+00:00,5245,Run,"Coconino National Forest, USA",8.28,6.6,54m 42s
+730,26841392,Olin Hacker,11519511023,Lunch Run,,2024-05-09 19:34:02+00:00,4383,Run,"Flagstaff, USA",8.99,7.33,1h 6m
+731,26841392,Olin Hacker,11519509437,Lunch Run,,2024-05-08 19:33:02+00:00,4064,Run,"Flagstaff, USA",8.11,7.77,1h 2m
+732,26841392,Olin Hacker,11519507813,Evening Run,,2024-05-08 01:13:49+00:00,7216,Run,"Cottonwood, USA",10.87,7.83,1h 25m
+733,26841392,Olin Hacker,11519506734,Morning Run,,2024-05-06 16:26:26+00:00,7722,Run,"Flagstaff, USA",10.09,7.88,1h 19m
+734,26841392,Olin Hacker,11519527529,Morning Run,,2024-05-19 15:42:06+00:00,2693,Run,"Los Angeles, USA",5.63,7.45,42m 1s
+735,26841392,Olin Hacker,11519526563,Morning Run,,2024-05-18 16:58:18+00:00,5641,Run,"Los Angeles, USA",12.17,7.38,1h 29m
+736,26841392,Olin Hacker,11519524620,Night Run,,2024-05-18 04:43:24+00:00,1181,Run,"Los Angeles, USA",1.69,9.85,16m 43s
+737,26841392,Olin Hacker,11519525550,Evening Run,,2024-05-18 03:16:57+00:00,2065,Run,"Los Angeles, USA",2.94,7.43,21m 55s
+738,26841392,Olin Hacker,11519524944,Afternoon Run,,2024-05-17 23:22:27+00:00,744,Run,"Los Angeles, USA",1.54,7.12,11m 0s
+739,26841392,Olin Hacker,11519522370,Afternoon Run,,2024-05-17 00:42:54+00:00,3991,Run,"Los Angeles, USA",5.89,7.73,45m 38s
+740,26841392,Olin Hacker,11519521372,Morning Run,,2024-05-15 16:40:17+00:00,3471,Run,"Flagstaff, USA",7.97,7.07,56m 20s
+741,26841392,Olin Hacker,11519520207,Morning Run,,2024-05-14 16:08:21+00:00,5870,Run,"Flagstaff, USA",8.84,8.25,1h 12m
+742,26841392,Olin Hacker,11519518743,Morning Run,,2024-05-13 16:31:04+00:00,3547,Run,"Flagstaff, USA",8.23,7.15,58m 56s
+743,26841392,Olin Hacker,11519540261,Afternoon Run,,2024-05-26 20:59:02+00:00,2554,Run,"Coconino National Forest, USA",5.09,7.72,39m 21s
+744,26841392,Olin Hacker,11519538738,Morning Run,,2024-05-25 15:39:24+00:00,5950,Run,"Coconino National Forest, USA",14.2,6.87,1h 37m
+745,26841392,Olin Hacker,11519535827,Morning Run,,2024-05-24 16:09:35+00:00,6413,Run,"Flagstaff, USA",11.04,7.23,1h 19m
+746,26841392,Olin Hacker,11519533459,Lunch Run,,2024-05-23 18:26:07+00:00,3756,Run,"Flagstaff, USA",8.03,7.12,57m 12s
+747,26841392,Olin Hacker,11519532458,Morning Run,,2024-05-22 16:06:52+00:00,2979,Run,"Coconino National Forest, USA",7.05,7.03,49m 33s
+748,26841392,Olin Hacker,11519530597,Morning Run,,2024-05-21 16:56:55+00:00,3763,Run,"Flagstaff, USA",8.42,7.0,58m 58s
+749,26841392,Olin Hacker,11519528594,Morning Run,,2024-05-20 16:32:49+00:00,5810,Run,"Flagstaff, USA",6.8,8.27,56m 11s
+750,26841392,Olin Hacker,11616084509,Morning Run,,2024-06-02 17:46:54+00:00,3170,Run,"Flagstaff, USA",6.07,7.77,47m 10s
+751,26841392,Olin Hacker,11550374418,Morning Run,,2024-06-01 16:13:37+00:00,6166,Run,"Coconino National Forest, USA",15.0,6.45,1h 36m
+752,26841392,Olin Hacker,11550373466,Morning Run,,2024-05-31 14:24:48+00:00,4554,Run,"Brentwood, USA",7.16,8.37,59m 53s
+753,26841392,Olin Hacker,11550372606,Night Run,,2024-05-31 02:52:17+00:00,1639,Run,,3.11,5.85,18m 14s
+754,26841392,Olin Hacker,11550371773,Evening Run,,2024-05-31 01:33:00+00:00,1928,Run,"St. Louis, USA",3.11,7.0,21m 49s
+755,26841392,Olin Hacker,11550371183,Afternoon Run,,2024-05-30 20:46:35+00:00,773,Run,"Brentwood, USA",1.32,8.08,10m 42s
+756,26841392,Olin Hacker,11550370636,Afternoon Run,,2024-05-29 20:28:59+00:00,4431,Run,"St. Louis, USA",4.77,8.07,38m 32s
+757,26841392,Olin Hacker,11550369665,Afternoon Run,,2024-05-28 21:05:39+00:00,3857,Run,"St. Louis, USA",8.54,7.43,1h 3m
+758,26841392,Olin Hacker,11519541863,Morning Run,,2024-05-27 16:10:25+00:00,6070,Run,"Flagstaff, USA",9.93,7.12,1h 10m
+759,26841392,Olin Hacker,11616103944,Lunch Run,,2024-06-09 19:36:26+00:00,3346,Run,"Yavapai County, USA",4.07,9.07,36m 55s
+760,26841392,Olin Hacker,11616103414,Morning Run,,2024-06-08 15:12:01+00:00,6221,Run,"Coconino National Forest, USA",13.9,7.2,1h 40m
+761,26841392,Olin Hacker,11616102495,Morning Run,,2024-06-07 14:07:10+00:00,7056,Run,"Flagstaff, USA",11.06,8.05,1h 29m
+762,26841392,Olin Hacker,11616101862,Morning Run,,2024-06-06 16:27:15+00:00,4446,Run,"Flagstaff, USA",9.16,7.28,1h 6m
+763,26841392,Olin Hacker,11616086431,Morning Run,,2024-06-05 15:12:06+00:00,4081,Run,"Flagstaff, USA",4.84,8.52,41m 15s
+764,26841392,Olin Hacker,11616086285,Afternoon Run,,2024-06-04 22:36:32+00:00,4442,Run,"Flagstaff, USA",7.76,6.92,53m 40s
+765,26841392,Olin Hacker,11616085548,Morning Run,,2024-06-04 15:19:31+00:00,5505,Run,"Coconino National Forest, USA",9.82,6.42,1h 3m
+766,26841392,Olin Hacker,11616085076,Morning Run,,2024-06-03 16:02:38+00:00,7728,Run,"Flagstaff, USA",9.18,7.55,1h 9m
+767,26841392,Olin Hacker,11699319616,Morning Run,,2024-06-15 15:06:13+00:00,6019,Run,"Coconino National Forest, USA",13.95,7.02,1h 37m
+768,26841392,Olin Hacker,11652224579,Morning Run,,2024-06-14 15:11:16+00:00,6675,Run,"Flagstaff, USA",10.29,8.12,1h 23m
+769,26841392,Olin Hacker,11652222629,Morning Run,,2024-06-13 16:53:17+00:00,5066,Run,"Flagstaff, USA",9.58,7.9,1h 15m
+770,26841392,Olin Hacker,11652221211,Morning Run,,2024-06-12 17:50:07+00:00,586,Run,"Flagstaff, USA",1.4,6.83,9m 36s
+771,26841392,Olin Hacker,11652219798,Morning Run,,2024-06-12 16:56:05+00:00,3201,Run,"Flagstaff, USA",6.66,7.42,49m 27s
+772,26841392,Olin Hacker,11636255345,Afternoon Run,,2024-06-11 22:50:36+00:00,2287,Run,"Flagstaff, USA",4.04,7.43,30m 5s
+773,26841392,Olin Hacker,11636254316,Morning Run,,2024-06-11 15:05:51+00:00,6280,Run,"Coconino National Forest, USA",11.74,6.55,1h 16m
+774,26841392,Olin Hacker,11636252293,Morning Run,,2024-06-10 15:54:43+00:00,7326,Run,"Flagstaff, USA",10.42,8.02,1h 23m
+775,26841392,Olin Hacker,11794537186,Afternoon Run,,2024-06-23 23:10:35+00:00,2156,Run,"Flagstaff, USA",4.19,7.75,32m 32s
+776,26841392,Olin Hacker,11794536262,Morning Run,,2024-06-22 15:11:29+00:00,4534,Run,"Coconino National Forest, USA",10.07,7.37,1h 14m
+777,26841392,Olin Hacker,11794535628,Afternoon Run,,2024-06-21 22:06:35+00:00,5180,Run,"Flagstaff, USA",10.24,6.9,1h 10m
+778,26841392,Olin Hacker,11700350888,Lunch Run,,2024-06-20 18:28:31+00:00,5240,Run,"Flagstaff, USA",9.93,7.2,1h 11m
+779,26841392,Olin Hacker,11699326292,Morning Run,,2024-06-19 17:01:59+00:00,3442,Run,"Flagstaff, USA",7.21,7.22,52m 4s
+780,26841392,Olin Hacker,11699324814,Morning Run,,2024-06-18 14:11:44+00:00,6885,Run,"Cottonwood, USA",11.48,7.62,1h 27m
+781,26841392,Olin Hacker,11699322107,Morning Run,,2024-06-17 16:02:55+00:00,6431,Run,"Flagstaff, USA",8.86,7.6,1h 7m
+782,26841392,Olin Hacker,11794544383,Afternoon Run,,2024-07-01 00:17:25+00:00,1264,Run,"Eugene, USA",2.47,8.5,21m 4s
+783,26841392,Olin Hacker,11794543983,Afternoon Run,,2024-06-30 22:34:10+00:00,1842,Run,,3.23,7.07,22m 51s
+784,26841392,Olin Hacker,11794543640,Lunch Run,,2024-06-30 18:41:48+00:00,752,Run,"Eugene, USA",1.4,7.5,10m 34s
+785,26841392,Olin Hacker,11794543152,Lunch Run,,2024-06-29 18:41:05+00:00,1235,Run,"Eugene, USA",1.44,7.88,11m 22s
+786,26841392,Olin Hacker,11794542900,Morning Run,,2024-06-29 17:23:49+00:00,4053,Run,"Eugene, USA",5.3,8.98,47m 41s
+787,26841392,Olin Hacker,11794542000,Afternoon Run,,2024-06-29 00:02:05+00:00,1915,Run,"Eugene, USA",3.83,8.28,31m 45s
+788,26841392,Olin Hacker,11794541537,Lunch Run,,2024-06-28 19:09:30+00:00,1870,Run,"Eugene, USA",4.17,7.1,29m 42s
+789,26841392,Olin Hacker,11794541009,Evening Run,,2024-06-28 02:09:50+00:00,6909,Run,"Eugene, USA",4.93,6.98,34m 28s
+790,26841392,Olin Hacker,11794540281,Afternoon Run,,2024-06-27 22:25:10+00:00,667,Run,"Eugene, USA",1.66,6.7,11m 7s
+791,26841392,Olin Hacker,11794539803,Morning Run,,2024-06-26 17:15:32+00:00,4935,Run,"Eugene, USA",5.28,7.6,40m 9s
+792,26841392,Olin Hacker,11794539049,Afternoon Run,,2024-06-25 22:43:37+00:00,3256,Run,"Eugene, USA",5.35,7.47,40m 1s
+793,26841392,Olin Hacker,11794538546,Morning Run,,2024-06-24 15:08:07+00:00,5295,Run,"Flagstaff, USA",8.19,7.58,1h 2m
+794,26841392,Olin Hacker,11938320976,Evening Run,,2024-07-07 17:16:46+00:00,65629,Run,"Cork, Ireland",4.16,7.9,32m 54s
+795,26841392,Olin Hacker,11938320117,Morning Run,,2024-07-06 15:15:27+00:00,3165,Run,"Phoenix, USA",7.28,7.0,50m 55s
+796,26841392,Olin Hacker,11938320000,Morning Run,,2024-07-05 15:17:23+00:00,5694,Run,"Coconino County, USA",9.18,7.1,1h 5m
+797,26841392,Olin Hacker,11938315463,Morning Run,,2024-07-04 17:12:14+00:00,5423,Run,"Flagstaff, USA",10.39,7.23,1h 15m
+798,26841392,Olin Hacker,11938313033,Morning Run,,2024-07-03 15:07:58+00:00,3641,Run,"Coconino County, USA",8.01,7.48,59m 56s
+799,26841392,Olin Hacker,11799539136,Afternoon Run,,2024-07-02 22:13:45+00:00,2994,Run,"Flagstaff, USA",6.06,7.42,44m 58s
+800,26841392,Olin Hacker,11794545035,Morning Run,,2024-07-01 17:10:17+00:00,1467,Run,"Eugene, USA",3.24,7.32,23m 44s
+801,26841392,Olin Hacker,11938328467,Afternoon Run,,2024-07-14 12:25:12+00:00,3919,Run,"Bertem, Belgium",8.69,7.28,1h 3m
+802,26841392,Olin Hacker,11938327724,Night Run,,2024-07-13 19:38:25+00:00,827,Run,"Kortrijk, Belgium",0.3,29.4,8m 59s
+803,26841392,Olin Hacker,11938328633,Evening Run,,2024-07-13 18:23:29+00:00,1778,Run,"Kortrijk, Belgium",3.18,7.2,22m 55s
+804,26841392,Olin Hacker,11938326903,Afternoon Run,,2024-07-13 12:57:51+00:00,653,Run,"Leuven, Belgium",1.38,7.77,10m 43s
+805,26841392,Olin Hacker,11938326934,Afternoon Run,,2024-07-12 13:52:41+00:00,4010,Run,"Leuven, Belgium",5.72,8.35,47m 47s
+806,26841392,Olin Hacker,11938327822,Afternoon Run,,2024-07-11 13:51:54+00:00,4608,Run,"Leuven, Belgium",7.96,7.93,1h 3m
+807,26841392,Olin Hacker,11938324023,Afternoon Run,,2024-07-10 15:37:10+00:00,3458,Run,"Leuven, Belgium",6.96,7.65,53m 20s
+808,26841392,Olin Hacker,11938322876,Evening Run,,2024-07-09 19:37:05+00:00,951,Run,,1.95,8.12,15m 51s
+809,26841392,Olin Hacker,11938322378,Evening Run,,2024-07-09 18:01:31+00:00,1577,Run,"Cork, Ireland",3.3,7.48,24m 47s
+810,26841392,Olin Hacker,11938322250,Afternoon Run,,2024-07-09 13:06:27+00:00,1160,Run,"Cork, Ireland",2.39,7.4,17m 45s
+811,26841392,Olin Hacker,11938321116,Lunch Run,,2024-07-08 11:30:53+00:00,4471,Run,"Cork, Ireland",6.84,7.45,51m 0s
+812,26841392,Olin Hacker,11946812418,Lunch Run,,2024-07-21 18:17:58+00:00,2550,Run,"Flagstaff, USA",5.2,7.27,37m 50s
+813,26841392,Olin Hacker,11938335204,Morning Run,,2024-07-20 15:09:57+00:00,4985,Run,"Coconino National Forest, USA",12.29,6.57,1h 20m
+814,26841392,Olin Hacker,11938332003,Lunch Run,,2024-07-19 18:58:25+00:00,4049,Run,"Flagstaff, USA",8.61,7.17,1h 1m
+815,26841392,Olin Hacker,11938331003,Lunch Run,,2024-07-18 19:23:55+00:00,2998,Run,"Flagstaff, USA",6.71,6.83,45m 49s
+816,26841392,Olin Hacker,11938330461,Night Run,,2024-07-16 20:16:10+00:00,1202,Run,,1.84,9.58,17m 41s
+817,26841392,Olin Hacker,11938330006,Evening Run,,2024-07-16 18:56:49+00:00,2029,Run,"Kriens, Switzerland",3.19,7.12,22m 44s
+818,26841392,Olin Hacker,11938329369,Afternoon Run,,2024-07-16 13:35:17+00:00,1071,Run,"Lucerne, Switzerland",1.79,7.1,12m 42s
+819,26841392,Olin Hacker,11938329026,Lunch Run,,2024-07-15 09:25:02+00:00,4328,Run,"Leuven, Belgium",5.84,7.88,46m 4s
+820,26841392,Olin Hacker,12064924965,Morning Run,,2024-07-26 15:06:35+00:00,6473,Run,"Flagstaff, USA",10.13,7.32,1h 14m
+821,26841392,Olin Hacker,12064924164,Lunch Run,,2024-07-25 18:32:04+00:00,4922,Run,"Flagstaff, USA",9.64,7.33,1h 10m
+822,26841392,Olin Hacker,12064922056,Lunch Run,,2024-07-24 18:19:23+00:00,3985,Run,"Flagstaff, USA",7.99,7.17,57m 14s
+823,26841392,Olin Hacker,11962656847,Morning Run,,2024-07-23 16:33:06+00:00,1005,Run,"Coconino National Forest, USA",1.02,8.13,8m 22s
+824,26841392,Olin Hacker,11962654844,Morning Run,,2024-07-23 15:06:23+00:00,4554,Run,"Coconino National Forest, USA",9.21,6.23,57m 25s
+825,26841392,Olin Hacker,11962650106,Morning Run,,2024-07-22 16:14:35+00:00,7350,Run,"Flagstaff, USA",10.47,7.52,1h 18m
+826,26841392,Olin Hacker,12064925588,Morning Run,,2024-08-02 15:00:46+00:00,19154,Run,"Coconino National Forest, USA",9.23,,4h 46m
+827,26841392,Olin Hacker,12173914522,Morning Run,"237 Training Load.
+-- from COROS",2024-08-17 15:07:15+00:00,5181,Run,"Coconino National Forest, USA",12.1,6.98,1h 24m
+828,26841392,Olin Hacker,12164439482,Morning Run,"121 Training Load.
+-- from COROS",2024-08-16 15:06:56+00:00,2990,Run,"Flagstaff, USA",6.88,7.2,49m 33s
+829,26841392,Olin Hacker,12156777004,Airport woods to PT,"105 Training Load.
+-- from COROS",2024-08-15 16:45:57+00:00,3443,Run,"Flagstaff, USA",6.81,7.68,52m 18s
+830,26841392,Olin Hacker,12155035955,Lunch Run,"122 Training Load.
+-- from COROS",2024-08-14 18:47:49+00:00,3830,Run,"Flagstaff, USA",8.1,7.22,58m 30s
+831,26841392,Olin Hacker,12155035871,Afternoon Run,"70 Training Load.
+-- from COROS",2024-08-13 22:34:23+00:00,2922,Run,"Flagstaff, USA",5.08,7.83,39m 50s
+832,26841392,Olin Hacker,12130822026,Lunch Run,"46 Training Load.
+-- from COROS",2024-08-12 18:53:48+00:00,2928,Run,"Flagstaff, USA",6.9,6.97,48m 10s
+833,26841392,Olin Hacker,12240431912,Morning Run,"276 Training Load.
+-- from COROS",2024-08-25 14:56:59+00:00,5683,Run,"Wauwatosa, USA",14.16,6.02,1h 25m
+834,26841392,Olin Hacker,12227317009,Morning Run,"272 Training Load.
+-- from COROS",2024-08-23 15:16:48+00:00,4942,Run,"Coconino National Forest, USA",9.97,6.45,1h 4m
+835,26841392,Olin Hacker,12214925059,Morning Run,"129 Training Load.
+-- from COROS",2024-08-22 15:05:52+00:00,4956,Run,"Flagstaff, USA",9.87,7.77,1h 16m
+836,26841392,Olin Hacker,12207745008,Morning Run,"74 Training Load.
+-- from COROS",2024-08-21 17:50:31+00:00,4124,Run,"Flagstaff, USA",8.06,7.22,58m 11s
+837,26841392,Olin Hacker,12199048962,Morning Run,"353 Training Load.
+-- from COROS",2024-08-20 15:07:34+00:00,5827,Run,"Flagstaff, USA",10.09,7.08,1h 11m
+838,26841392,Olin Hacker,12188976812,Morning Run,"127 Training Load.
+-- from COROS",2024-08-19 15:36:12+00:00,5686,Run,"Flagstaff, USA",8.85,7.63,1h 7m
+839,26841392,Olin Hacker,12300984515,Lunch Run,"421 Training Load.
+-- from COROS",2024-09-01 16:49:12+00:00,5605,Run,"Wauwatosa, USA",14.99,5.95,1h 29m
+840,26841392,Olin Hacker,12291436645,Lunch Run,"60 Training Load.
+-- from COROS",2024-08-31 16:12:01+00:00,3208,Run,"Madison, USA",6.34,7.67,48m 40s
+841,26841392,Olin Hacker,12283332554,Lunch Run,"66 Training Load.
+-- from COROS",2024-08-30 16:33:24+00:00,3833,Run,"Madison, USA",8.13,7.62,1h 2m
+842,26841392,Olin Hacker,12274019297,Morning Run,"346 Training Load.
+-- from COROS",2024-08-29 14:16:47+00:00,6401,Run,"Madison, USA",10.24,8.15,1h 23m
+843,26841392,Olin Hacker,12265351338,Morning Run,"111 Training Load.
+-- from COROS",2024-08-28 14:42:57+00:00,3998,Run,"Madison, USA",9.33,6.98,1h 5m
+844,26841392,Olin Hacker,12259381561,Morning Run,"325 Training Load.
+-- from COROS",2024-08-27 13:53:02+00:00,4953,Run,"Wauwatosa, USA",10.03,6.48,1h 5m
+845,26841392,Olin Hacker,12247940169,Morning Run,"115 Training Load.
+-- from COROS",2024-08-26 14:41:50+00:00,6478,Run,"Wauwatosa, USA",10.61,8.2,1h 27m
+846,26841392,Olin Hacker,12363517674,Lunch Run,"44 Training Load.
+-- from COROS",2024-09-08 19:43:50+00:00,1814,Run,"Coconino National Forest, USA",4.08,7.08,28m 54s
+847,26841392,Olin Hacker,12360884571,Morning Run,"235 Training Load.
+-- from COROS",2024-09-07 15:11:40+00:00,6691,Run,"Coconino National Forest, USA",16.05,6.83,1h 49m
+848,26841392,Olin Hacker,12360884617,Morning Run,"452 Training Load.
+-- from COROS",2024-09-06 16:05:57+00:00,6470,Run,"Flagstaff, USA",11.62,7.03,1h 21m
+849,26841392,Olin Hacker,12360884190,Afternoon Run,"23 Training Load.
+-- from COROS",2024-09-05 23:07:18+00:00,1553,Run,"Flagstaff, USA",2.3,7.88,18m 9s
+850,26841392,Olin Hacker,12360884351,Morning Run,"63 Training Load.
+-- from COROS",2024-09-05 16:53:22+00:00,3864,Run,"Flagstaff, USA",8.17,7.45,1h 0m
+851,26841392,Olin Hacker,12326020363,Morning Run,"79 Training Load.
+-- from COROS",2024-09-04 16:30:23+00:00,3622,Run,"Flagstaff, USA",7.2,7.32,52m 45s
+852,26841392,Olin Hacker,12319590844,Morning Run,"220 Training Load.
+-- from COROS",2024-09-03 17:17:28+00:00,4676,Run,"Flagstaff, USA",10.63,6.17,1h 5m
+853,26841392,Olin Hacker,12310975097,Afternoon Run,"103 Training Load.
+-- from COROS",2024-09-02 23:23:31+00:00,3935,Run,"Flagstaff, USA",8.69,7.28,1h 3m
+854,26841392,Olin Hacker,12422074945,Morning Run,"142 Training Load.
+-- from COROS",2024-09-14 14:42:25+00:00,4606,Run,"Coconino National Forest, USA",10.19,6.87,1h 10m
+855,26841392,Olin Hacker,12422074939,Lunch Run,"70 Training Load.
+-- from COROS",2024-09-13 18:10:42+00:00,3757,Run,"Flagstaff, USA",8.06,7.2,58m 5s
+856,26841392,Olin Hacker,12393624251,Morning Run,"220 Training Load.
+-- from COROS",2024-09-12 15:53:49+00:00,5983,Run,"Flagstaff, USA",11.2,6.43,1h 12m
+857,26841392,Olin Hacker,12388395196,Afternoon Run,"46 Training Load.
+-- from COROS",2024-09-12 00:22:52+00:00,2202,Run,"Flagstaff, USA",4.4,7.67,33m 48s
+858,26841392,Olin Hacker,12386156494,Morning Run,"100 Training Load.
+-- from COROS",2024-09-11 17:44:25+00:00,3845,Run,"Flagstaff, USA",8.41,7.12,59m 50s
+859,26841392,Olin Hacker,12377954311,Morning Run,"159 Training Load.
+-- from COROS",2024-09-10 16:52:40+00:00,5889,Run,,10.0,7.55,1h 15m
+860,26841392,Olin Hacker,12370971533,Afternoon Run,"18 Training Load.
+-- from COROS",2024-09-09 23:44:08+00:00,4436,Run,"Coconino National Forest, USA",2.42,20.0,48m 32s
+861,26841392,Olin Hacker,12368299787,Morning Run,"84 Training Load.
+-- from COROS",2024-09-09 16:02:26+00:00,7222,Run,"Flagstaff, USA",7.33,7.38,54m 9s
+862,26841392,Olin Hacker,12480304592,Afternoon Ride,"71 Training Load.
+-- from COROS",2024-09-22 22:06:50+00:00,4597,Ride,"Flagstaff, USA",19.42,,1h 13m
+863,26841392,Olin Hacker,12470367140,I saw lots of yellow flowers!,"141 Training Load.
+-- from COROS",2024-09-21 18:01:19+00:00,10613,Ride,"Flagstaff, USA",38.68,,2h 30m
+864,26841392,Olin Hacker,12461737393,Afternoon Workout,,2024-09-20 20:34:57+00:00,3152,Workout,,52.0,,374 Cal
+865,26841392,Olin Hacker,12460994685,Morning Ride,"62 Training Load.
+-- from COROS",2024-09-20 17:40:43+00:00,4450,Ride,"Flagstaff, USA",17.28,,1h 9m
+866,26841392,Olin Hacker,12455898209,Afternoon Ride,"1 Training Load.
+-- from COROS",2024-09-19 21:27:54+00:00,183,Ride,"Coconino National Forest, USA",0.8,,3m 3s
+867,26841392,Olin Hacker,12455898210,Afternoon Ride,"1 Training Load.
+-- from COROS",2024-09-19 21:23:53+00:00,183,Ride,"Coconino National Forest, USA",0.7,,3m 3s
+868,26841392,Olin Hacker,12455898332,Lunch Ride,"67 Training Load.
+-- from COROS",2024-09-19 19:21:24+00:00,7056,Ride,"Flagstaff, USA",28.97,,1h 45m
+869,26841392,Olin Hacker,12455898245,Lunch Ride,"45 Training Load.
+-- from COROS",2024-09-18 18:37:00+00:00,3967,Ride,"Flagstaff, USA",16.97,,1h 3m
+870,26841392,Olin Hacker,12437912048,Afternoon Ride,"41 Training Load.
+-- from COROS",2024-09-17 23:48:34+00:00,4080,Ride,"Flagstaff, USA",17.4,,1h 5m
+871,26841392,Olin Hacker,12436540459,Lunch Workout,,2024-09-17 19:46:57+00:00,4670,Workout,,1.0,,521 Cal
+872,26841392,Olin Hacker,12434462506,Morning Ride,"108 Training Load.
+-- from COROS",2024-09-16 17:33:57+00:00,6306,Ride,"Flagstaff, USA",27.45,,1h 40m
+873,26841392,Olin Hacker,12535024813,Morning Ride,"38 Training Load.
+-- from COROS",2024-09-29 16:49:45+00:00,2805,Ride,,46.0,,127 bpm
+874,26841392,Olin Hacker,12527219669,Afternoon Ride,"36 Training Load.
+-- from COROS",2024-09-28 20:37:47+00:00,3751,Ride,,1.0,,117 bpm
+875,26841392,Olin Hacker,12524601911,Morning Ride,"23 Training Load.
+-- from COROS",2024-09-28 14:29:32+00:00,2101,Ride,,35.0,,120 bpm
+876,26841392,Olin Hacker,12524129415,Morning Run,"30 Training Load.
+-- from COROS",2024-09-28 13:53:51+00:00,1299,Run,"Boulder County, USA",2.91,7.4,21m 32s
+877,26841392,Olin Hacker,12519831216,Evening Ride,"22 Training Load.
+-- from COROS",2024-09-28 00:32:01+00:00,4784,Ride,,1.0,,100 bpm
+878,26841392,Olin Hacker,12510520632,Morning Ride,"31 Training Load.
+-- from COROS",2024-09-26 16:34:04+00:00,4245,Ride,"Flagstaff, USA",11.76,,41m 49s
+879,26841392,Olin Hacker,12509629664,Morning Run,"16 Training Load.
+-- from COROS",2024-09-26 15:48:03+00:00,2383,Run,"Flagstaff, USA",1.88,7.22,13m 34s
+880,26841392,Olin Hacker,12504523816,Afternoon Workout,,2024-09-25 22:02:43+00:00,3301,Workout,,55.0,,397 Cal
+881,26841392,Olin Hacker,12503066251,Morning Ride,"97 Training Load.
+-- from COROS",2024-09-25 17:26:30+00:00,4380,Ride,"Coconino County, USA",22.06,,1h 12m
+882,26841392,Olin Hacker,12496780907,Afternoon Workout,,2024-09-24 23:16:04+00:00,2833,Workout,,47.0,,324 Cal
+883,26841392,Olin Hacker,12495704075,Afternoon Ride,"57 Training Load.
+-- from COROS",2024-09-24 20:06:11+00:00,3477,Ride,"Flagstaff, USA",15.58,,57m 1s
+884,26841392,Olin Hacker,12494264023,Morning Run,"32 Training Load.
+-- from COROS",2024-09-24 17:23:17+00:00,1188,Run,"Flagstaff, USA",2.67,6.75,18m 2s
+885,26841392,Olin Hacker,12487070130,Morning Ride,"69 Training Load.
+-- from COROS",2024-09-23 17:14:00+00:00,5441,Ride,"Coconino National Forest, USA",22.31,,1h 20m
+886,26841392,Olin Hacker,12630126904,Morning Run,"101 Training Load.
+-- from COROS",2024-10-06 16:37:19+00:00,3651,Run,"Boulder County, USA",8.49,7.0,59m 30s
+887,26841392,Olin Hacker,12585178758,Afternoon Ride,"32 Training Load.
+-- from COROS",2024-10-05 22:16:31+00:00,4096,Ride,,0.0,,359 Cal
+888,26841392,Olin Hacker,12582017076,Morning Run,"45 Training Load.
+-- from COROS",2024-10-05 15:18:59+00:00,1713,Run,"Boulder County, USA",3.98,6.97,27m 45s
+889,26841392,Olin Hacker,12575754245,Afternoon Ride,"30 Training Load.
+-- from COROS",2024-10-04 21:28:39+00:00,3001,Ride,,50.0,,117 bpm
+890,26841392,Olin Hacker,12574567722,Morning Run,"109 Training Load.
+-- from COROS",2024-10-04 16:25:02+00:00,3673,Run,"Boulder County, USA",8.81,6.87,1h 0m
+891,26841392,Olin Hacker,12569012336,Evening Ride,"17 Training Load.
+-- from COROS",2024-10-04 00:08:44+00:00,1861,Ride,,31.0,,115 bpm
+892,26841392,Olin Hacker,12565455748,Morning Run,"84 Training Load.
+-- from COROS",2024-10-03 14:40:06+00:00,3446,Run,"Buena Vista, USA",7.35,7.22,53m 8s
+893,26841392,Olin Hacker,12558353579,Morning Workout,,2024-10-02 16:22:00+00:00,4286,Workout,,1.0,,526 Cal
+894,26841392,Olin Hacker,12557546601,Morning Run,"23 Training Load.
+-- from COROS",2024-10-02 15:48:23+00:00,987,Run,"Buena Vista, USA",1.91,7.13,13m 40s
+895,26841392,Olin Hacker,12550459991,Lunch Ride,"32 Training Load.
+-- from COROS",2024-10-01 17:19:09+00:00,3602,Ride,,1.0,,115 bpm
+896,26841392,Olin Hacker,12549767736,Morning Run,"62 Training Load.
+-- from COROS",2024-10-01 16:32:11+00:00,2277,Run,"Boulder County, USA",5.31,7.13,37m 54s
+897,26841392,Olin Hacker,12544021978,Afternoon Run,"37 Training Load.
+-- from COROS",2024-09-30 22:47:16+00:00,1962,Run,"Boulder County, USA",4.02,7.72,31m 3s
+898,26841392,Olin Hacker,12543331241,Afternoon Ride,"42 Training Load.
+-- from COROS",2024-09-30 20:40:32+00:00,3605,Ride,,1.0,,122 bpm
+899,26841392,Olin Hacker,12650541702,Lunch Run,"167 Training Load.
+-- from COROS",2024-10-13 18:17:56+00:00,5126,Run,"Littleton, USA",12.34,6.63,1h 21m
+900,26841392,Olin Hacker,12638874235,Morning Run,"81 Training Load.
+-- from COROS",2024-10-12 14:29:04+00:00,3571,Run,"Boulder, USA",7.42,7.62,56m 34s
+901,26841392,Olin Hacker,12631172323,Lunch Run,"55 Training Load.
+-- from COROS",2024-10-11 17:27:15+00:00,2923,Run,"Boulder County, USA",5.73,7.85,44m 57s
+902,26841392,Olin Hacker,12630133123,Afternoon Run,"34 Training Load.
+-- from COROS",2024-10-10 23:37:47+00:00,1998,Run,"Boulder County, USA",3.91,7.88,30m 51s
+903,26841392,Olin Hacker,12630133177,Morning Run,"105 Training Load.
+-- from COROS",2024-10-08 16:43:22+00:00,3823,Run,"Boulder County, USA",8.64,6.9,59m 38s
+904,26841392,Olin Hacker,12630126895,Afternoon Ride,"36 Training Load.
+-- from COROS",2024-10-07 22:25:55+00:00,3746,Ride,,1.0,,117 bpm
+905,26841392,Olin Hacker,12630126813,Morning Run,"39 Training Load.
+-- from COROS",2024-10-07 16:17:50+00:00,2037,Run,"Boulder County, USA",4.62,7.22,33m 23s
+906,26841392,Olin Hacker,12703417690,Morning Run,"98 Training Load.
+-- from COROS",2024-10-20 16:12:44+00:00,2995,Run,"Coconino National Forest, USA",7.22,6.9,49m 51s
+907,26841392,Olin Hacker,12697076324,Afternoon Workout,,2024-10-19 21:03:34+00:00,3602,Workout,,1.0,,443 Cal
+908,26841392,Olin Hacker,12686557011,Morning Run,"291 Training Load.
+-- from COROS",2024-10-18 15:33:37+00:00,6269,Run,"Camp Verde, USA",10.89,6.47,1h 10m
+909,26841392,Olin Hacker,12680066929,Morning Run,"160 Training Load.
+-- from COROS",2024-10-17 17:39:12+00:00,4768,Run,"Flagstaff, USA",10.35,7.12,1h 13m
+910,26841392,Olin Hacker,12671749684,Morning Run,"82 Training Load.
+-- from COROS",2024-10-16 17:16:30+00:00,3624,Run,"Flagstaff, USA",8.04,7.05,56m 46s
+911,26841392,Olin Hacker,12663821130,Morning Run,"161 Training Load.
+-- from COROS",2024-10-15 17:37:45+00:00,4738,Run,"Flagstaff, USA",10.1,7.1,1h 11m
+912,26841392,Olin Hacker,12653398115,Morning Run,"27 Training Load.
+-- from COROS",2024-10-14 14:11:56+00:00,1317,Run,"Boulder County, USA",2.99,7.13,21m 22s
+913,26841392,Olin Hacker,12762503389,Morning Run,"221 Training Load.
+-- from COROS",2024-10-27 15:13:12+00:00,6880,Run,"Coconino National Forest, USA",15.93,6.6,1h 45m
+914,26841392,Olin Hacker,12755577391,Afternoon Run,"60 Training Load.
+-- from COROS",2024-10-26 22:36:56+00:00,2692,Run,"Flagstaff, USA",5.42,7.32,39m 40s
+915,26841392,Olin Hacker,12748016735,Lunch Run,"59 Training Load.
+-- from COROS",2024-10-25 18:37:47+00:00,4079,Run,"Flagstaff, USA",8.16,7.38,1h 0m
+916,26841392,Olin Hacker,12740142840,Morning Run,"302 Training Load.
+-- from COROS",2024-10-24 16:12:08+00:00,5962,Run,"Flagstaff, USA",11.49,6.38,1h 13m
+917,26841392,Olin Hacker,12727514474,Morning Run,"110 Training Load.
+-- from COROS",2024-10-23 16:14:11+00:00,4270,Run,"Flagstaff, USA",9.68,7.1,1h 8m
+918,26841392,Olin Hacker,12719920201,Morning Run,"253 Training Load.
+-- from COROS",2024-10-22 16:09:50+00:00,5807,Run,"Coconino National Forest, USA",10.93,6.67,1h 12m
+919,26841392,Olin Hacker,12712999512,Afternoon Workout,,2024-10-21 22:50:57+00:00,2701,Workout,,45.0,,314 Cal
+920,26841392,Olin Hacker,12710887730,Morning Run,"105 Training Load.
+-- from COROS",2024-10-21 16:09:20+00:00,7122,Run,"Flagstaff, USA",8.82,7.77,1h 8m
+921,26841392,Olin Hacker,12818307531,Morning Run,"237 Training Load.
+-- from COROS",2024-11-03 16:49:17+00:00,6651,Run,"Coconino National Forest, USA",16.0,6.7,1h 47m
+922,26841392,Olin Hacker,12809695876,Afternoon Run,"79 Training Load.
+-- from COROS",2024-11-02 20:33:06+00:00,2643,Run,"Flagstaff, USA",6.14,7.02,43m 7s
+923,26841392,Olin Hacker,12802923500,Morning Run,"399 Training Load.
+-- from COROS",2024-11-01 16:06:26+00:00,6889,Run,"Coconino National Forest, USA",13.47,6.73,1h 30m
+924,26841392,Olin Hacker,12793399834,Lunch Run,"164 Training Load.
+-- from COROS",2024-10-31 18:32:47+00:00,4588,Run,"Flagstaff, USA",10.05,7.08,1h 11m
+925,26841392,Olin Hacker,12786076178,Morning Run,"104 Training Load.
+-- from COROS",2024-10-30 16:08:22+00:00,3842,Run,"Flagstaff, USA",8.94,7.02,1h 2m
+926,26841392,Olin Hacker,12778727982,Morning Run,"179 Training Load.
+-- from COROS",2024-10-29 16:08:43+00:00,6428,Run,"Coconino County, USA",10.1,6.78,1h 8m
+927,26841392,Olin Hacker,12767058814,Morning Run,"144 Training Load.
+-- from COROS",2024-10-28 15:56:50+00:00,8082,Run,"Flagstaff, USA",10.9,7.7,1h 23m
+928,26841392,Olin Hacker,12872177917,Afternoon Run,"68 Training Load.
+-- from COROS",2024-11-10 23:52:04+00:00,2890,Run,"Flagstaff, USA",6.19,7.43,46m 3s
+929,26841392,Olin Hacker,12861828073,Morning Run,"255 Training Load.
+-- from COROS",2024-11-09 16:13:49+00:00,5988,Run,"Coconino National Forest, USA",15.04,6.37,1h 35m
+930,26841392,Olin Hacker,12853488561,Morning Run,"116 Training Load.
+-- from COROS",2024-11-08 16:09:37+00:00,4569,Run,"Flagstaff, USA",9.22,7.82,1h 12m
+931,26841392,Olin Hacker,12846941920,Morning Run,"377 Training Load.
+-- from COROS",2024-11-07 17:05:58+00:00,6966,Run,"Camp Verde, USA",12.09,6.68,1h 20m
+932,26841392,Olin Hacker,12838566052,Morning Run,"89 Training Load.
+-- from COROS",2024-11-06 16:54:25+00:00,3649,Run,"Flagstaff, USA",8.02,7.25,58m 13s
+933,26841392,Olin Hacker,12833141977,Afternoon Run,"54 Training Load.
+-- from COROS",2024-11-05 23:47:11+00:00,1649,Run,"Flagstaff, USA",4.01,6.67,26m 43s
+934,26841392,Olin Hacker,12830416919,Morning Run,"375 Training Load.
+-- from COROS",2024-11-05 16:08:29+00:00,6267,Run,"Coconino National Forest, USA",12.91,6.45,1h 23m
+935,26841392,Olin Hacker,12823877403,Lunch Run,"141 Training Load.
+-- from COROS",2024-11-04 18:59:26+00:00,6157,Run,"Flagstaff, USA",10.74,7.67,1h 22m
+936,29394594,Abdurrahman Gediklioğlu,10504905284,Lunch Run,,2024-01-06 08:26:39+00:00,2633,Run,"Atakent Mahallesi, Turkey",6.21,6.97,43m 21s
+937,29394594,Abdurrahman Gediklioğlu,10500768843,Evening Run,,2024-01-05 16:41:02+00:00,451,Run,,1.02,6.72,6m 51s
+938,29394594,Abdurrahman Gediklioğlu,10500768240,Evening Run,,2024-01-05 15:59:13+00:00,2021,Run,"Ziya Gökalp Mahallesi, Turkey",4.3,7.68,33m 4s
+939,29394594,Abdurrahman Gediklioğlu,10500765549,Evening Run,,2024-01-05 15:18:46+00:00,1205,Run,,2.64,7.58,20m 5s
+940,29394594,Abdurrahman Gediklioğlu,10498776661,Afternoon Run,,2024-01-05 10:03:55+00:00,694,Run,,1.25,9.2,11m 34s
+941,29394594,Abdurrahman Gediklioğlu,10498776000,Lunch Run,,2024-01-05 09:26:51+00:00,2083,Run,,6.18,5.6,34m 39s
+942,29394594,Abdurrahman Gediklioğlu,10498773497,Lunch Run,,2024-01-05 08:42:08+00:00,1191,Run,,2.69,7.33,19m 47s
+943,29394594,Abdurrahman Gediklioğlu,10492901064,Morning Run,,2024-01-04 07:58:55+00:00,3464,Run,"Altay Mahallesi, Turkey",9.33,5.83,54m 31s
+944,29394594,Abdurrahman Gediklioğlu,10486493470,Evening Run,,2024-01-03 15:38:50+00:00,651,Run,,1.24,8.72,10m 51s
+945,29394594,Abdurrahman Gediklioğlu,10486492968,Afternoon Run,,2024-01-03 14:56:20+00:00,2432,Run,,6.32,6.0,37m 59s
+946,29394594,Abdurrahman Gediklioğlu,10486490139,Afternoon Run,,2024-01-03 14:20:47+00:00,1093,Run,,2.49,7.3,18m 13s
+947,29394594,Abdurrahman Gediklioğlu,10480456763,Afternoon Run,,2024-01-02 13:27:58+00:00,3631,Run,,9.32,6.38,59m 33s
+948,29394594,Abdurrahman Gediklioğlu,10476970877,Evening Run,,2024-01-01 17:01:06+00:00,661,Run,,1.01,10.82,11m 1s
+949,29394594,Abdurrahman Gediklioğlu,10476970554,Evening Run,,2024-01-01 16:47:29+00:00,465,Run,,1.17,6.57,7m 45s
+950,29394594,Abdurrahman Gediklioğlu,10476970413,Evening Run,,2024-01-01 16:14:57+00:00,1537,Run,,5.17,4.95,25m 37s
+951,29394594,Abdurrahman Gediklioğlu,10476969870,Night Run,,2024-01-01 00:49:22+00:00,1459,Run,,3.27,7.42,24m 19s
+952,29394594,Abdurrahman Gediklioğlu,10519026691,Morning Run,,2024-01-08 07:36:52+00:00,2565,Run,,6.41,,42m 45s
+953,29394594,Abdurrahman Gediklioğlu,12058277221,Morning Run,"85 Training Load.
+-- from COROS",2024-08-04 06:38:30+00:00,5558,Run,"Kaklıç Mahallesi, Turkey",14.92,6.17,1h 31m
+954,29394594,Abdurrahman Gediklioğlu,12055123838,Evening Run,"7 Training Load.
+-- from COROS",2024-08-03 17:51:03+00:00,797,Run,,1.2,11.03,13m 17s
+955,29394594,Abdurrahman Gediklioğlu,12055123858,Evening Run,"48 Training Load.
+-- from COROS",2024-08-03 17:25:22+00:00,1297,Run,,3.51,5.65,19m 54s
+956,29394594,Abdurrahman Gediklioğlu,12055123856,Evening Run,"241 Training Load.
+-- from COROS",2024-08-03 16:58:26+00:00,1147,Run,,2.08,8.83,18m 25s
+957,29394594,Abdurrahman Gediklioğlu,12055123861,Evening Run,"18 Training Load.
+-- from COROS",2024-08-03 16:13:39+00:00,1547,Run,,3.11,7.73,24m 6s
+958,29394594,Abdurrahman Gediklioğlu,12055066050,Lunch Run,"4 Training Load.
+-- from COROS",2024-08-03 09:15:57+00:00,406,Run,"Mersinli Mahallesi, Turkey",0.62,10.9,6m 46s
+959,29394594,Abdurrahman Gediklioğlu,12055066043,Lunch Run,"80 Training Load.
+-- from COROS",2024-08-03 09:05:53+00:00,298,Run,"Mersinli Mahallesi, Turkey",0.65,7.2,4m 42s
+960,29394594,Abdurrahman Gediklioğlu,12055066047,Lunch Run,"47 Training Load.
+-- from COROS",2024-08-03 08:33:45+00:00,1505,Run,,2.33,10.73,25m 5s
+961,29394594,Abdurrahman Gediklioğlu,12055066070,Morning Run,"16 Training Load.
+-- from COROS",2024-08-03 07:53:44+00:00,1304,Run,"Mersinli Mahallesi, Turkey",3.11,6.98,21m 44s
+962,29394594,Abdurrahman Gediklioğlu,12122457617,Evening Run,"55 Training Load.
+-- from COROS",2024-08-11 16:37:13+00:00,3101,Run,,7.46,6.85,51m 7s
+963,29394594,Abdurrahman Gediklioğlu,12113439294,Evening Run,"12 Training Load.
+-- from COROS",2024-08-10 17:27:02+00:00,795,Run,,1.24,10.63,13m 15s
+964,29394594,Abdurrahman Gediklioğlu,12113439502,Evening Run,"220 Training Load.
+-- from COROS",2024-08-10 17:06:20+00:00,938,Run,,1.58,8.2,13m 0s
+965,29394594,Abdurrahman Gediklioğlu,12113439581,Evening Run,"18 Training Load.
+-- from COROS",2024-08-10 16:19:17+00:00,1425,Run,,3.11,7.63,23m 45s
+966,29394594,Abdurrahman Gediklioğlu,12113439415,Lunch Run,"40 Training Load.
+-- from COROS",2024-08-10 08:26:04+00:00,2777,Run,"Mimar Sinan Neighbourhood, Turkey",6.21,7.45,46m 17s
+967,29394594,Abdurrahman Gediklioğlu,12113439580,Evening Run,"60 Training Load.
+-- from COROS",2024-08-09 16:06:55+00:00,3075,Run,,7.51,6.72,50m 28s
+968,29394594,Abdurrahman Gediklioğlu,12097014611,Evening Run,"170 Training Load.
+-- from COROS",2024-08-08 17:03:23+00:00,1477,Run,,4.27,5.73,24m 29s
+969,29394594,Abdurrahman Gediklioğlu,12097014571,Evening Run,"21 Training Load.
+-- from COROS",2024-08-08 16:14:49+00:00,1363,Run,,3.11,7.3,22m 43s
+970,29394594,Abdurrahman Gediklioğlu,12093712452,Lunch Run,"9 Training Load.
+-- from COROS",2024-08-08 09:48:26+00:00,635,Run,"Mimar Sinan Neighbourhood, Turkey",1.24,8.43,10m 31s
+971,29394594,Abdurrahman Gediklioğlu,12093712500,Lunch Run,"66 Training Load.
+-- from COROS",2024-08-08 09:10:06+00:00,1599,Run,"Mimar Sinan Neighbourhood, Turkey",4.97,5.35,26m 39s
+972,29394594,Abdurrahman Gediklioğlu,12093712493,Lunch Run,"16 Training Load.
+-- from COROS",2024-08-08 08:29:00+00:00,1672,Run,"Mimar Sinan Neighbourhood, Turkey",3.35,7.78,26m 9s
+973,29394594,Abdurrahman Gediklioğlu,12093712550,Evening Run,"64 Training Load.
+-- from COROS",2024-08-07 16:28:25+00:00,3421,Run,,9.32,6.05,56m 27s
+974,29394594,Abdurrahman Gediklioğlu,12093712463,Evening Run,"4 Training Load.
+-- from COROS",2024-08-06 17:51:03+00:00,448,Run,,0.67,11.08,7m 28s
+975,29394594,Abdurrahman Gediklioğlu,12093712911,Evening Run,"271 Training Load.
+-- from COROS",2024-08-06 17:11:57+00:00,2147,Run,,4.38,7.42,32m 31s
+976,29394594,Abdurrahman Gediklioğlu,12093712312,Evening Run,"23 Training Load.
+-- from COROS",2024-08-06 16:55:59+00:00,756,Run,,2.4,5.2,12m 31s
+977,29394594,Abdurrahman Gediklioğlu,12093712893,Evening Run,"22 Training Load.
+-- from COROS",2024-08-06 16:12:36+00:00,1285,Run,,3.1,6.88,21m 25s
+978,29394594,Abdurrahman Gediklioğlu,12093712540,Lunch Run,"46 Training Load.
+-- from COROS",2024-08-06 08:24:28+00:00,2715,Run,"Mimar Sinan Neighbourhood, Turkey",6.22,7.08,44m 7s
+979,29394594,Abdurrahman Gediklioğlu,12093712391,Evening Run,"30 Training Load.
+-- from COROS",2024-08-05 16:22:52+00:00,2422,Run,"Mersinli Mahallesi, Turkey",6.23,6.47,40m 22s
+980,29394594,Abdurrahman Gediklioğlu,12067246904,Lunch Run,"36 Training Load.
+-- from COROS",2024-08-05 08:11:24+00:00,3280,Run,"Mimar Sinan Neighbourhood, Turkey",7.46,7.22,53m 53s
+981,29394594,Abdurrahman Gediklioğlu,12172995084,Evening Run,"11 Training Load.
+-- from COROS",2024-08-17 16:58:54+00:00,2827,Run,,2.43,19.4,47m 7s
+982,29394594,Abdurrahman Gediklioğlu,12164162677,Evening Run,"102 Training Load.
+-- from COROS",2024-08-16 16:07:17+00:00,3380,Run,"Altay Mahallesi, Turkey",8.09,6.88,55m 41s
+983,29394594,Abdurrahman Gediklioğlu,12161124978,Lunch Run,,2024-08-16 09:29:33+00:00,457,Run,,0.75,10.13,7m 37s
+984,29394594,Abdurrahman Gediklioğlu,12161124983,Lunch Run,"51 Training Load.
+-- from COROS",2024-08-16 08:59:08+00:00,1526,Run,,5.56,4.57,25m 26s
+985,29394594,Abdurrahman Gediklioğlu,12161125144,Lunch Run,"14 Training Load.
+-- from COROS",2024-08-16 08:24:08+00:00,1780,Run,,3.22,9.2,29m 40s
+986,29394594,Abdurrahman Gediklioğlu,12161124998,Evening Run,"11 Training Load.
+-- from COROS",2024-08-15 17:03:41+00:00,907,Run,"Altay Mahallesi, Turkey",2.05,7.37,15m 7s
+987,29394594,Abdurrahman Gediklioğlu,12161125173,Evening Run,"20 Training Load.
+-- from COROS",2024-08-15 16:23:45+00:00,1387,Run,,3.11,7.43,23m 7s
+988,29394594,Abdurrahman Gediklioğlu,12147280986,Evening Run,"59 Training Load.
+-- from COROS",2024-08-14 16:09:48+00:00,3453,Run,,8.7,6.2,54m 1s
+989,29394594,Abdurrahman Gediklioğlu,12139614167,Evening Run,"8 Training Load.
+-- from COROS",2024-08-13 17:53:54+00:00,705,Run,,1.11,10.58,11m 45s
+990,29394594,Abdurrahman Gediklioğlu,12138829780,Evening Run,"326 Training Load.
+-- from COROS",2024-08-13 17:22:05+00:00,1546,Run,,3.28,7.52,24m 42s
+991,29394594,Abdurrahman Gediklioğlu,12138467192,Evening Run,"19 Training Load.
+-- from COROS",2024-08-13 17:02:42+00:00,653,Run,,2.03,5.35,10m 53s
+992,29394594,Abdurrahman Gediklioğlu,12138236610,Evening Run,"19 Training Load.
+-- from COROS",2024-08-13 16:21:32+00:00,1275,Run,,3.11,6.83,21m 15s
+993,29394594,Abdurrahman Gediklioğlu,12134801776,Lunch Run,"37 Training Load.
+-- from COROS",2024-08-13 08:21:07+00:00,2596,Run,"Mimar Sinan Neighbourhood, Turkey",6.22,6.93,43m 10s
+994,29394594,Abdurrahman Gediklioğlu,12129814423,Evening Run,"53 Training Load.
+-- from COROS",2024-08-12 16:15:31+00:00,2325,Run,"Mersinli Mahallesi, Turkey",6.21,6.23,38m 45s
+995,29394594,Abdurrahman Gediklioğlu,12129814365,Evening Run,"48 Training Load.
+-- from COROS",2024-08-12 17:02:28+00:00,349,Run,"Mersinli Mahallesi, Turkey",0.75,7.7,5m 49s
+996,29394594,Abdurrahman Gediklioğlu,12129814358,Lunch Run,"61 Training Load.
+-- from COROS",2024-08-12 08:22:21+00:00,3002,Run,,1.54,32.43,50m 2s
+997,29394594,Abdurrahman Gediklioğlu,12239328329,Afternoon Run,"21 Training Load.
+-- from COROS",2024-08-25 14:13:10+00:00,883,Run,,1.87,7.85,14m 43s
+998,29394594,Abdurrahman Gediklioğlu,12231556664,Evening Run,"7 Training Load.
+-- from COROS",2024-08-24 16:03:13+00:00,719,Run,,1.14,10.47,11m 59s
+999,29394594,Abdurrahman Gediklioğlu,12231541321,Evening Run,"83 Training Load.
+-- from COROS",2024-08-24 15:43:13+00:00,239,Run,,0.99,4.0,3m 59s
+1000,29394594,Abdurrahman Gediklioğlu,12230914431,Afternoon Run,"12 Training Load.
+-- from COROS",2024-08-24 14:46:35+00:00,836,Run,,1.77,7.83,13m 56s
+1001,29394594,Abdurrahman Gediklioğlu,12228180643,Evening Run,"17 Training Load.
+-- from COROS",2024-08-23 15:38:34+00:00,272,Run,,0.95,4.73,4m 32s
+1002,29394594,Abdurrahman Gediklioğlu,12228068305,Evening Run,"47 Training Load.
+-- from COROS",2024-08-23 15:30:13+00:00,458,Run,,0.8,7.67,6m 12s
+1003,29394594,Abdurrahman Gediklioğlu,12222566205,Afternoon Run,"32 Training Load.
+-- from COROS",2024-08-23 14:55:00+00:00,1192,Run,,3.18,6.2,19m 46s
+1004,29394594,Abdurrahman Gediklioğlu,12221776595,Evening Run,"28 Training Load.
+-- from COROS",2024-08-22 17:02:20+00:00,2174,Run,,4.35,7.32,31m 52s
+1005,29394594,Abdurrahman Gediklioğlu,12221776798,Evening Run,"48 Training Load.
+-- from COROS",2024-08-21 16:22:03+00:00,3122,Run,"Zübeyde Hanım Mahallesi, Turkey",6.99,7.32,51m 6s
+1006,29394594,Abdurrahman Gediklioğlu,12221778324,Evening Run,"18 Training Load.
+-- from COROS",2024-08-20 17:28:56+00:00,223,Run,,0.73,5.07,3m 43s
+1007,29394594,Abdurrahman Gediklioğlu,12221777424,Evening Run,"35 Training Load.
+-- from COROS",2024-08-20 16:44:50+00:00,2101,Run,,4.97,6.98,34m 42s
+1008,29394594,Abdurrahman Gediklioğlu,12274907079,Evening Run,"36 Training Load.
+-- from COROS",2024-08-29 15:46:37+00:00,2777,Run,"Altay Mahallesi, Turkey",6.21,7.3,45m 21s
+1009,29394594,Abdurrahman Gediklioğlu,12356338947,Lunch Run,Sports for health😂,2024-09-08 08:26:48+00:00,4986,Run,"Gölbaşı, Turkey",13.12,6.12,1h 20m
+1010,29394594,Abdurrahman Gediklioğlu,12351547139,Evening Run,"5 Training Load.
+-- from COROS",2024-09-07 16:45:41+00:00,687,Run,,1.24,9.17,11m 27s
+1011,29394594,Abdurrahman Gediklioğlu,12351280691,Evening Run,"70 Training Load.
+-- from COROS",2024-09-07 16:04:56+00:00,2106,Run,,6.21,5.65,35m 6s
+1012,29394594,Abdurrahman Gediklioğlu,12351280451,Evening Run,,2024-09-07 16:04:00+00:00,1,Run,,1.0,,
+1013,29394594,Abdurrahman Gediklioğlu,12350866886,Evening Run,"27 Training Load.
+-- from COROS",2024-09-07 15:29:12+00:00,1634,Run,"Altay Mahallesi, Turkey",3.84,7.08,27m 14s
+1014,29394594,Abdurrahman Gediklioğlu,12341909338,Afternoon Run,"149 Training Load.
+-- from COROS",2024-09-06 14:44:25+00:00,3982,Run,"Altay Mahallesi, Turkey",10.12,6.5,1h 5m
+1015,29394594,Abdurrahman Gediklioğlu,12334252948,Afternoon Run,"139 Training Load.
+-- from COROS",2024-09-05 14:57:42+00:00,3725,Run,"Altay Mahallesi, Turkey",9.32,6.58,1h 1m
+1016,29394594,Abdurrahman Gediklioğlu,12321777004,Morning Run,"152 Training Load.
+-- from COROS",2024-09-04 06:39:43+00:00,3902,Run,"Altay Mahallesi, Turkey",9.94,6.48,1h 4m
+1017,29394594,Abdurrahman Gediklioğlu,12321405132,Morning Run,"15 Training Load.
+-- from COROS",2024-09-03 07:07:13+00:00,2402,Run,,3.64,10.03,36m 32s
+1018,29394594,Abdurrahman Gediklioğlu,12304053250,Morning Run,"146 Training Load.
+-- from COROS",2024-09-02 06:35:17+00:00,3846,Run,"Adnan Menderes Mahallesi, Turkey",7.48,8.57,1h 4m
+1019,29394594,Abdurrahman Gediklioğlu,12424273937,Evening Run,Holiday running,2024-09-15 16:04:28+00:00,5620,Run,"Aydın, Turkey",14.92,6.12,1h 31m
+1020,29394594,Abdurrahman Gediklioğlu,12409849041,Evening Run,"86 Training Load.
+-- from COROS",2024-09-14 16:11:32+00:00,3627,Run,"Aydın, Turkey",9.35,6.43,1h 0m
+1021,29394594,Abdurrahman Gediklioğlu,12393332086,Evening Run,"7 Training Load.
+-- from COROS",2024-09-12 16:50:01+00:00,608,Run,"Altay Mahallesi, Turkey",1.24,8.03,10m 1s
+1022,29394594,Abdurrahman Gediklioğlu,12393126449,Evening Run,Base endurance not: Abdurrahman It begins,2024-09-12 16:10:19+00:00,2003,Run,"Altay Mahallesi, Turkey",5.89,5.58,32m 55s
+1023,29394594,Abdurrahman Gediklioğlu,12392752829,Evening Run,"26 Training Load.
+-- from COROS",2024-09-12 15:32:50+00:00,1598,Run,"Altay Mahallesi, Turkey",3.73,7.13,26m 38s
+1024,29394594,Abdurrahman Gediklioğlu,12385348210,Evening Run,"139 Training Load.
+-- from COROS",2024-09-11 15:18:04+00:00,3897,Run,"Altay Mahallesi, Turkey",9.32,6.58,1h 1m
+1025,29394594,Abdurrahman Gediklioğlu,12376032156,Evening Run,"4 Training Load.
+-- from COROS",2024-09-10 16:13:22+00:00,358,Run,,0.62,9.37,5m 51s
+1026,29394594,Abdurrahman Gediklioğlu,12376030187,Evening Run,"10x400m 
+
+I'm starting slowly",2024-09-10 15:53:39+00:00,1042,Run,,3.03,5.73,17m 22s
+1027,29394594,Abdurrahman Gediklioğlu,12376029948,Evening Run,"23 Training Load.
+-- from COROS",2024-09-10 15:22:58+00:00,1318,Run,"Altay Mahallesi, Turkey",3.11,7.07,21m 58s
+1028,29394594,Abdurrahman Gediklioğlu,12372948154,Lunch Run,"4 Training Load.
+-- from COROS",2024-09-10 09:35:53+00:00,340,Run,"Altay Mahallesi, Turkey",0.67,8.37,5m 40s
+1029,29394594,Abdurrahman Gediklioğlu,12372796096,Lunch Run,"77 Training Load.
+-- from COROS",2024-09-10 08:54:56+00:00,2014,Run,,6.21,5.4,33m 34s
+1030,29394594,Abdurrahman Gediklioğlu,12372578468,Lunch Run,"29 Training Load.
+-- from COROS",2024-09-10 08:19:00+00:00,1566,Run,"Altay Mahallesi, Turkey",3.81,6.85,26m 6s
+1031,29394594,Abdurrahman Gediklioğlu,12367747441,Evening Run,"122 Training Load.
+-- from COROS",2024-09-09 15:53:21+00:00,4055,Run,"Şehit Osman Avcı Mahallesi, Turkey",9.55,7.03,1h 7m
+1032,29394594,Abdurrahman Gediklioğlu,12473461173,Morning Run,"7x7x10 km
+Easy running",2024-09-22 07:57:41+00:00,5312,Run,,14.91,5.88,1h 27m
+1033,29394594,Abdurrahman Gediklioğlu,12473462757,Evening Run,"39 Training Load.
+-- from COROS",2024-09-21 15:59:25+00:00,287,Run,,0.59,7.95,4m 43s
+1034,29394594,Abdurrahman Gediklioğlu,12473462665,Afternoon Run,"26 Training Load.
+-- from COROS",2024-09-21 14:57:19+00:00,2061,Run,,4.98,6.9,34m 21s
+1035,29394594,Abdurrahman Gediklioğlu,12464194697,Morning Run,"53 Training Load.
+-- from COROS",2024-09-21 07:05:05+00:00,3384,Run,,8.75,6.45,56m 24s
+1036,29394594,Abdurrahman Gediklioğlu,12460027937,Evening Run,"7 Training Load.
+-- from COROS",2024-09-20 16:24:39+00:00,634,Run,,1.24,8.25,10m 16s
+1037,29394594,Abdurrahman Gediklioğlu,12460027968,Evening Run,Soldier mode 😎🙃,2024-09-20 15:42:45+00:00,2303,Run,,6.99,5.45,38m 7s
+1038,29394594,Abdurrahman Gediklioğlu,12460028112,Evening Run,"18 Training Load.
+-- from COROS",2024-09-20 15:10:32+00:00,1263,Run,,3.13,6.72,21m 3s
+1039,29394594,Abdurrahman Gediklioğlu,12456767300,Lunch Run,"10 Training Load.
+-- from COROS",2024-09-20 08:17:48+00:00,1397,Run,,0.42,55.1,23m 17s
+1040,29394594,Abdurrahman Gediklioğlu,12451461227,Evening Run,"24 Training Load.
+-- from COROS",2024-09-19 15:18:23+00:00,1827,Run,,4.42,6.88,30m 27s
+1041,29394594,Abdurrahman Gediklioğlu,12450905541,Lunch Run,"241 Training Load.
+-- from COROS",2024-09-19 08:27:20+00:00,3817,Run,"Limanreis Mahallesi, Turkey",9.33,6.78,1h 3m
+1042,29394594,Abdurrahman Gediklioğlu,12447819608,Lunch Run,"8 Training Load.
+-- from COROS",2024-09-18 08:09:06+00:00,575,Run,,1.24,7.68,9m 35s
+1043,29394594,Abdurrahman Gediklioğlu,12447820747,Morning Run,"154 Training Load.
+-- from COROS",2024-09-18 07:14:57+00:00,2441,Run,,6.27,6.4,40m 9s
+1044,29394594,Abdurrahman Gediklioğlu,12447821778,Morning Run,"16 Training Load.
+-- from COROS",2024-09-18 06:38:41+00:00,1327,Run,,3.16,6.98,22m 7s
+1045,29394594,Abdurrahman Gediklioğlu,12430826145,Morning Run,"68 Training Load.
+-- from COROS",2024-09-17 07:46:01+00:00,3716,Run,"Mimar Sinan Neighbourhood, Turkey",9.33,6.55,1h 1m
+1046,29394594,Abdurrahman Gediklioğlu,12425392740,Evening Run,"60 Training Load.
+-- from COROS",2024-09-16 15:31:46+00:00,2741,Run,"Mersinli Mahallesi, Turkey",7.46,6.12,45m 41s
+1047,29394594,Abdurrahman Gediklioğlu,12529718461,Morning Run,Long runing 😇 3x7 km,2024-09-29 07:20:51+00:00,4707,Run,,13.05,6.0,1h 18m
+1048,29394594,Abdurrahman Gediklioğlu,12525020806,Afternoon Run,"106 Training Load.
+-- from COROS",2024-09-28 14:37:55+00:00,4200,Run,,8.1,8.63,1h 10m
+1049,29394594,Abdurrahman Gediklioğlu,12525020799,Evening Run,"5 Training Load.
+-- from COROS",2024-09-27 15:39:59+00:00,731,Run,,1.32,9.12,12m 4s
+1050,29394594,Abdurrahman Gediklioğlu,12525020596,Evening Run,"45 Training Load.
+-- from COROS",2024-09-27 15:03:36+00:00,1707,Run,,3.25,8.75,28m 27s
+1051,29394594,Abdurrahman Gediklioğlu,12525020756,Afternoon Run,"13 Training Load.
+-- from COROS",2024-09-27 14:35:03+00:00,1697,Run,,2.69,10.52,28m 17s
+1052,29394594,Abdurrahman Gediklioğlu,12514250522,Lunch Run,"6 Training Load.
+-- from COROS",2024-09-27 08:49:12+00:00,657,Run,,1.24,8.68,10m 50s
+1053,29394594,Abdurrahman Gediklioğlu,12514156772,Lunch Run,"99 Training Load.
+-- from COROS",2024-09-27 08:01:39+00:00,2190,Run,,6.58,5.45,35m 52s
+1054,29394594,Abdurrahman Gediklioğlu,12514000155,Morning Run,"17 Training Load.
+-- from COROS",2024-09-27 07:17:51+00:00,1288,Run,,3.17,6.75,21m 28s
+1055,29394594,Abdurrahman Gediklioğlu,12509137002,Afternoon Run,Base endurance 🐝,2024-09-26 14:13:03+00:00,3610,Run,,9.96,6.03,1h 0m
+1056,29394594,Abdurrahman Gediklioğlu,12498517076,Morning Run,Easy long run 17.5 speed,2024-09-25 07:06:43+00:00,3603,Run,,10.59,5.67,1h 0m
+1057,29394594,Abdurrahman Gediklioğlu,12493194118,Evening Run,"7 Training Load.
+-- from COROS",2024-09-24 15:55:55+00:00,602,Run,,1.24,8.05,10m 2s
+1058,29394594,Abdurrahman Gediklioğlu,12493194167,Evening Run,"36 Training Load.
+-- from COROS",2024-09-24 15:30:16+00:00,1331,Run,,4.18,5.3,22m 11s
+1059,29394594,Abdurrahman Gediklioğlu,12493194169,Afternoon Run,"17 Training Load.
+-- from COROS",2024-09-24 14:59:23+00:00,1248,Run,,3.11,6.65,20m 44s
+1060,29394594,Abdurrahman Gediklioğlu,12489964768,Lunch Run,"9 Training Load.
+-- from COROS",2024-09-24 08:39:56+00:00,521,Run,,1.25,6.95,8m 41s
+1061,29394594,Abdurrahman Gediklioğlu,12489912505,Morning Run,"5x400
+2000
+5x300
+1500
+5x300
+1000
+5x200",2024-09-24 07:49:17+00:00,2417,Run,,6.94,5.7,39m 33s
+1062,29394594,Abdurrahman Gediklioğlu,12489912471,Morning Run,"20 Training Load.
+-- from COROS",2024-09-24 07:13:30+00:00,1249,Run,,3.16,6.53,20m 39s
+1063,29394594,Abdurrahman Gediklioğlu,12489912477,Afternoon Run,"27 Training Load.
+-- from COROS",2024-09-23 14:45:57+00:00,1647,Run,,3.86,7.12,27m 27s
+1064,29394594,Abdurrahman Gediklioğlu,12481901645,Lunch Run,"409 Training Load.
+-- from COROS",2024-09-23 08:03:23+00:00,3150,Run,"Limanreis Mahallesi, Turkey",7.46,,52m 30s
+1065,29394594,Abdurrahman Gediklioğlu,12587115789,Morning Run,,2024-10-06 07:42:39+00:00,1063,Run,"Skopje, Macedonia",0.62,14.87,9m 15s
+1066,29394594,Abdurrahman Gediklioğlu,12587107999,Morning Run,"201 Training Load.
+-- from COROS",2024-10-06 06:09:23+00:00,5368,Run,"Skopje, Macedonia",13.18,5.6,1h 13m
+1067,29394594,Abdurrahman Gediklioğlu,12587110185,Morning Run,"15 Training Load.
+-- from COROS",2024-10-06 05:15:49+00:00,1162,Run,"Skopje, Macedonia",2.48,7.8,19m 22s
+1068,29394594,Abdurrahman Gediklioğlu,12581388152,Afternoon Run,"12 Training Load.
+-- from COROS",2024-10-05 14:53:02+00:00,184,Run,"Skopje, Macedonia",0.62,4.88,3m 4s
+1069,29394594,Abdurrahman Gediklioğlu,12581388285,Afternoon Run,"31 Training Load.
+-- from COROS",2024-10-05 14:07:57+00:00,2036,Run,"Skopje, Macedonia",4.68,7.25,33m 56s
+1070,29394594,Abdurrahman Gediklioğlu,12567829225,Evening Run,"6 Training Load.
+-- from COROS",2024-10-03 15:32:57+00:00,644,Run,,1.25,8.57,10m 44s
+1071,29394594,Abdurrahman Gediklioğlu,12567836461,Evening Run,"67 Training Load.
+-- from COROS",2024-10-03 15:09:58+00:00,905,Run,,2.37,6.22,14m 45s
+1072,29394594,Abdurrahman Gediklioğlu,12567829384,Afternoon Run,"26 Training Load.
+-- from COROS",2024-10-03 14:27:28+00:00,1626,Run,,3.89,6.97,27m 6s
+1073,29394594,Abdurrahman Gediklioğlu,12554570682,Morning Run,"59 Training Load.
+-- from COROS",2024-10-02 07:38:44+00:00,3179,Run,,7.47,6.9,51m 31s
+1074,29394594,Abdurrahman Gediklioğlu,12548626983,Lunch Run,"6 Training Load.
+-- from COROS",2024-10-01 09:21:10+00:00,627,Run,,1.21,8.63,10m 27s
+1075,29394594,Abdurrahman Gediklioğlu,12548626949,Lunch Run,"42 Training Load.
+-- from COROS",2024-10-01 09:09:53+00:00,232,Run,,0.46,7.82,3m 36s
+1076,29394594,Abdurrahman Gediklioğlu,12546171946,Lunch Run,"3x1000
+8 x 500 
+🫀🫁🧠",2024-10-01 08:38:44+00:00,1628,Run,,4.93,5.43,26m 48s
+1077,29394594,Abdurrahman Gediklioğlu,12546171948,Morning Run,"15 Training Load.
+-- from COROS",2024-10-01 07:56:24+00:00,1528,Run,,3.74,6.8,25m 28s
+1078,29394594,Abdurrahman Gediklioğlu,12546171905,Afternoon Run,"35 Training Load.
+-- from COROS",2024-09-30 14:15:30+00:00,2397,Run,,6.23,6.4,39m 57s
+1079,29394594,Abdurrahman Gediklioğlu,12538187506,Lunch Run,"237 Training Load.
+-- from COROS",2024-09-30 08:05:46+00:00,2531,Run,"Maltepe Mahallesi, Turkey",5.92,,42m 11s
+1080,29394594,Abdurrahman Gediklioğlu,12538014706,Morning Run,"89 Training Load.
+-- from COROS",2024-09-30 07:39:54+00:00,1234,Run,"Maltepe Mahallesi, Turkey",1.89,,14m 48s
+1081,29394594,Abdurrahman Gediklioğlu,12643118165,Morning Run,"370 Training Load.
+-- from COROS",2024-10-13 07:28:03+00:00,6262,Run,"Güvendik Mahallesi, Turkey",15.53,6.65,1h 43m
+1082,29394594,Abdurrahman Gediklioğlu,12637639197,Afternoon Run,"27 Training Load.
+-- from COROS",2024-10-12 14:04:26+00:00,1630,Run,,1.1,24.57,27m 10s
+1083,29394594,Abdurrahman Gediklioğlu,12637638760,Afternoon Run,,2024-10-12 14:02:13+00:00,112,Run,,0.02,,1m 52s
+1084,29394594,Abdurrahman Gediklioğlu,12634554925,Morning Run,"135 Training Load.
+-- from COROS",2024-10-12 07:04:02+00:00,4144,Run,"Güvendik Mahallesi, Turkey",9.06,7.58,1h 8m
+1085,29394594,Abdurrahman Gediklioğlu,12629663382,Afternoon Run,"56 Training Load.
+-- from COROS",2024-10-11 14:00:57+00:00,3015,Run,,5.31,9.32,49m 28s
+1086,29394594,Abdurrahman Gediklioğlu,12627442155,Lunch Run,"6 Training Load.
+-- from COROS",2024-10-11 08:56:00+00:00,602,Run,,1.31,7.62,10m 2s
+1087,29394594,Abdurrahman Gediklioğlu,12627373765,Lunch Run,"48 Training Load.
+-- from COROS",2024-10-11 08:21:05+00:00,1854,Run,,6.15,5.02,30m 54s
+1088,29394594,Abdurrahman Gediklioğlu,12627164502,Morning Run,"14 Training Load.
+-- from COROS",2024-10-11 07:35:55+00:00,1447,Run,,3.12,7.72,24m 7s
+1089,29394594,Abdurrahman Gediklioğlu,12622113404,Afternoon Run,"249 Training Load.
+-- from COROS",2024-10-10 13:56:35+00:00,3633,Run,"Güvendik Mahallesi, Turkey",8.72,6.83,59m 36s
+1090,29394594,Abdurrahman Gediklioğlu,12619798441,Morning Run,"40 Training Load.
+-- from COROS",2024-10-10 07:34:40+00:00,2402,Run,,1.08,36.82,40m 2s
+1091,29394594,Abdurrahman Gediklioğlu,12614388235,Afternoon Run,"49 Training Load.
+-- from COROS",2024-10-09 14:54:02+00:00,363,Run,,0.89,6.52,5m 51s
+1092,29394594,Abdurrahman Gediklioğlu,12614388315,Afternoon Run,"72 Training Load.
+-- from COROS",2024-10-09 14:07:19+00:00,2482,Run,"Güvendik Mahallesi, Turkey",6.21,6.65,41m 22s
+1093,29394594,Abdurrahman Gediklioğlu,12612795198,Lunch Run,"5 Training Load.
+-- from COROS",2024-10-09 09:54:40+00:00,506,Run,,1.24,6.78,8m 26s
+1094,29394594,Abdurrahman Gediklioğlu,12612795182,Lunch Run,"18 Training Load.
+-- from COROS",2024-10-09 09:41:03+00:00,674,Run,,2.33,4.8,11m 14s
+1095,29394594,Abdurrahman Gediklioğlu,12612795213,Lunch Run,"38 Training Load.
+-- from COROS",2024-10-09 09:10:09+00:00,1723,Run,,5.31,4.87,25m 51s
+1096,29394594,Abdurrahman Gediklioğlu,12612795222,Lunch Run,"11 Training Load.
+-- from COROS",2024-10-09 08:38:18+00:00,1281,Run,,3.1,6.88,21m 21s
+1097,29394594,Abdurrahman Gediklioğlu,12612795360,Morning Run,"79 Training Load.
+-- from COROS",2024-10-08 07:05:32+00:00,3601,Run,,9.37,6.4,1h 0m
+1098,29394594,Abdurrahman Gediklioğlu,12700596802,Morning Run,"301 Training Load.
+-- from COROS",2024-10-20 07:40:30+00:00,6139,Run,"Güvendik Mahallesi, Turkey",14.92,6.75,1h 40m
+1099,29394594,Abdurrahman Gediklioğlu,12690545600,Lunch Run,"8 Training Load.
+-- from COROS",2024-10-19 08:49:02+00:00,1292,Run,,1.19,18.05,21m 32s
+1100,29394594,Abdurrahman Gediklioğlu,12690545607,Lunch Run,"16 Training Load.
+-- from COROS",2024-10-19 08:36:48+00:00,399,Run,,0.98,6.75,6m 39s
+1101,29394594,Abdurrahman Gediklioğlu,12690545477,Lunch Run,"76 Training Load.
+-- from COROS",2024-10-19 08:07:57+00:00,1575,Run,,3.36,7.8,26m 15s
+1102,29394594,Abdurrahman Gediklioğlu,12690545505,Morning Run,"22 Training Load.
+-- from COROS",2024-10-19 07:34:33+00:00,1454,Run,,375.99,,24m 14s
+1103,29394594,Abdurrahman Gediklioğlu,12684507468,Morning Run,"154 Training Load.
+-- from COROS",2024-10-18 07:10:21+00:00,3367,Run,"Güvendik Mahallesi, Turkey",8.03,6.82,54m 46s
+1104,29394594,Abdurrahman Gediklioğlu,12678082147,Evening Run,"3 Training Load.
+-- from COROS",2024-10-17 15:10:55+00:00,566,Run,,1.24,7.58,9m 26s
+1105,29394594,Abdurrahman Gediklioğlu,12677988054,Afternoon Run,"45 Training Load.
+-- from COROS",2024-10-17 14:38:48+00:00,1636,Run,,5.23,5.22,27m 16s
+1106,29394594,Abdurrahman Gediklioğlu,12677732209,Afternoon Run,"12 Training Load.
+-- from COROS",2024-10-17 13:54:38+00:00,1389,Run,,2.55,9.07,23m 9s
+1107,29394594,Abdurrahman Gediklioğlu,12675860872,Lunch Run,"7 Training Load.
+-- from COROS",2024-10-17 09:08:36+00:00,591,Run,,1.25,7.85,9m 51s
+1108,29394594,Abdurrahman Gediklioğlu,12675860866,Lunch Run,"12 Training Load.
+-- from COROS",2024-10-17 08:53:01+00:00,485,Run,,1.06,7.57,8m 5s
+1109,29394594,Abdurrahman Gediklioğlu,12675860883,Lunch Run,"39 Training Load.
+-- from COROS",2024-10-17 08:22:37+00:00,1733,Run,,4.12,7.0,28m 53s
+1110,29394594,Abdurrahman Gediklioğlu,12675860861,Lunch Run,"1 Training Load.
+-- from COROS",2024-10-17 08:18:42+00:00,136,Run,,0.19,11.43,2m 16s
+1111,29394594,Abdurrahman Gediklioğlu,12675860885,Morning Run,"15 Training Load.
+-- from COROS",2024-10-17 07:27:02+00:00,1964,Run,,3.87,8.45,32m 44s
+1112,29394594,Abdurrahman Gediklioğlu,12667528067,Morning Run,"133 Training Load.
+-- from COROS",2024-10-16 07:21:42+00:00,3948,Run,"Güvendik Mahallesi, Turkey",8.84,7.37,1h 5m
+1113,29394594,Abdurrahman Gediklioğlu,12661579230,Afternoon Run,"89 Training Load.
+-- from COROS",2024-10-15 13:51:52+00:00,2908,Run,,7.56,6.38,48m 18s
+1114,29394594,Abdurrahman Gediklioğlu,12659669206,Lunch Run,"7 Training Load.
+-- from COROS",2024-10-15 09:48:11+00:00,577,Run,,1.25,7.68,9m 37s
+1115,29394594,Abdurrahman Gediklioğlu,12659669276,Lunch Run,Interval day😎,2024-10-15 09:09:53+00:00,2132,Run,,6.41,5.45,34m 56s
+1116,29394594,Abdurrahman Gediklioğlu,12659669237,Lunch Run,"25 Training Load.
+-- from COROS",2024-10-15 08:26:10+00:00,1462,Run,,3.72,6.53,24m 22s
+1117,29394594,Abdurrahman Gediklioğlu,12653493575,Afternoon Run,"58 Training Load.
+-- from COROS",2024-10-14 13:50:29+00:00,3304,Run,,0.66,,53m 44s
+1118,29394594,Abdurrahman Gediklioğlu,12651348397,Morning Run,"Indoor bike
+220",2024-10-14 07:45:26+00:00,3002,Run,,12.83,3.9,50m 2s
+1119,29394594,Abdurrahman Gediklioğlu,12755440229,Morning Run,"232 Training Load.
+-- from COROS",2024-10-27 07:41:56+00:00,5905,Run,"Güvendik Mahallesi, Turkey",14.92,6.57,1h 38m
+1120,29394594,Abdurrahman Gediklioğlu,12751516700,Afternoon Run,"50 Training Load.
+-- from COROS",2024-10-26 13:40:56+00:00,3158,Run,"Güvendik Mahallesi, Turkey",7.46,6.93,51m 47s
+1121,29394594,Abdurrahman Gediklioğlu,12746766326,Lunch Run,"3 Training Load.
+-- from COROS",2024-10-26 08:57:22+00:00,602,Run,,1.24,8.07,10m 2s
+1122,29394594,Abdurrahman Gediklioğlu,12746766434,Lunch Run,"4x4
+10x40sc
+4 min",2024-10-26 08:11:52+00:00,2369,Run,,5.5,7.17,39m 29s
+1123,29394594,Abdurrahman Gediklioğlu,12746766334,Morning Run,"15 Training Load.
+-- from COROS",2024-10-26 07:31:33+00:00,1306,Run,,3.1,7.0,21m 46s
+1124,29394594,Abdurrahman Gediklioğlu,12739401650,Morning Run,"188 Training Load.
+-- from COROS",2024-10-25 07:19:03+00:00,3580,Run,"Güvendik Mahallesi, Turkey",8.7,6.8,59m 9s
+1125,29394594,Abdurrahman Gediklioğlu,12735159984,Evening Run,"39 Training Load.
+-- from COROS",2024-10-24 16:16:39+00:00,2512,Run,,6.27,6.68,41m 52s
+1126,29394594,Abdurrahman Gediklioğlu,12732721034,Afternoon Run,"6 Training Load.
+-- from COROS",2024-10-24 10:54:32+00:00,707,Run,,1.27,9.23,11m 47s
+1127,29394594,Abdurrahman Gediklioğlu,12732341777,Lunch Run,"198 Training Load.
+-- from COROS",2024-10-24 09:53:08+00:00,2682,Run,,7.7,5.58,43m 0s
+1128,29394594,Abdurrahman Gediklioğlu,12732029016,Lunch Run,"25 Training Load.
+-- from COROS",2024-10-24 09:13:59+00:00,1246,Run,,3.11,6.67,20m 46s
+1129,29394594,Abdurrahman Gediklioğlu,12723650957,Morning Run,"142 Training Load.
+-- from COROS",2024-10-23 07:10:37+00:00,3525,Run,"Güvendik Mahallesi, Turkey",8.71,6.67,58m 6s
+1130,29394594,Abdurrahman Gediklioğlu,12718789208,Evening Run,"17 Training Load.
+-- from COROS",2024-10-22 17:02:33+00:00,933,Run,,1.53,10.13,15m 33s
+1131,29394594,Abdurrahman Gediklioğlu,12718589340,Evening Run,,2024-10-22 16:59:16+00:00,9,Run,,0.0,,9s
+1132,29394594,Abdurrahman Gediklioğlu,12718589440,Evening Run,"66 Training Load.
+-- from COROS",2024-10-22 16:23:35+00:00,2012,Run,,4.58,7.32,33m 32s
+1133,29394594,Abdurrahman Gediklioğlu,12718112693,Evening Run,"15 Training Load.
+-- from COROS",2024-10-22 15:54:50+00:00,993,Run,,2.1,7.85,16m 33s
+1134,29394594,Abdurrahman Gediklioğlu,12715142044,Lunch Run,"6 Training Load.
+-- from COROS",2024-10-22 08:57:46+00:00,636,Run,,1.25,8.43,10m 36s
+1135,29394594,Abdurrahman Gediklioğlu,12714910653,Lunch Run,"30 Training Load.
+-- from COROS",2024-10-22 08:38:22+00:00,294,Run,,0.82,5.93,4m 54s
+1136,29394594,Abdurrahman Gediklioğlu,12714909792,Lunch Run,"138 Training Load.
+-- from COROS",2024-10-22 08:14:45+00:00,1174,Run,,3.28,5.82,19m 8s
+1137,29394594,Abdurrahman Gediklioğlu,12714909787,Morning Run,"26 Training Load.
+-- from COROS",2024-10-22 07:19:57+00:00,1212,Run,,3.11,6.48,20m 12s
+1138,29394594,Abdurrahman Gediklioğlu,12709080679,Afternoon Run,"105 Training Load.
+-- from COROS",2024-10-21 14:03:38+00:00,2674,Run,"Güvendik Mahallesi, Turkey",6.42,6.83,43m 55s
+1139,29394594,Abdurrahman Gediklioğlu,12706724159,Morning Run,"29 Training Load.
+-- from COROS",2024-10-21 07:21:50+00:00,2988,Run,,5.65,8.8,49m 46s
+1140,29394594,Abdurrahman Gediklioğlu,12810856506,Lunch Run,"238 Training Load.
+-- from COROS",2024-11-03 08:00:36+00:00,6758,Run,"Güvendik Mahallesi, Turkey",16.3,6.82,1h 51m
+1141,29394594,Abdurrahman Gediklioğlu,12806448966,Evening Run,"31 Training Load.
+-- from COROS",2024-11-02 15:57:21+00:00,1946,Run,,1.11,28.03,31m 21s
+1142,29394594,Abdurrahman Gediklioğlu,12802223687,Lunch Run,"7 Training Load.
+-- from COROS",2024-11-02 08:50:56+00:00,606,Run,,1.4,7.2,10m 6s
+1143,29394594,Abdurrahman Gediklioğlu,12802108995,Lunch Run,"93 Training Load.
+-- from COROS",2024-11-02 08:12:01+00:00,2013,Run,,4.47,7.48,33m 33s
+1144,29394594,Abdurrahman Gediklioğlu,12801852029,Morning Run,"18 Training Load.
+-- from COROS",2024-11-02 07:24:01+00:00,1646,Run,,3.8,7.2,27m 26s
+1145,29394594,Abdurrahman Gediklioğlu,12797514540,Afternoon Run,"52 Training Load.
+-- from COROS",2024-11-01 14:00:30+00:00,3573,Run,"Güvendik Mahallesi, Turkey",3.89,6.9,26m 56s
+1146,29394594,Abdurrahman Gediklioğlu,12794544077,Morning Run,"64 Training Load.
+-- from COROS",2024-11-01 07:15:08+00:00,3002,Run,,13.06,3.73,48m 45s
+1147,29394594,Abdurrahman Gediklioğlu,12791057112,Evening Run,"15 Training Load.
+-- from COROS",2024-10-31 17:16:44+00:00,1312,Run,,1.79,5.58,10m 3s
+1148,29394594,Abdurrahman Gediklioğlu,12790873184,Evening Run,"50 Training Load.
+-- from COROS",2024-10-31 16:32:19+00:00,2020,Run,,5.84,5.75,33m 40s
+1149,29394594,Abdurrahman Gediklioğlu,12790554425,Evening Run,"14 Training Load.
+-- from COROS",2024-10-31 16:00:53+00:00,1381,Run,,3.1,7.42,23m 1s
+1150,29394594,Abdurrahman Gediklioğlu,12787794654,Lunch Run,"5 Training Load.
+-- from COROS",2024-10-31 09:39:53+00:00,784,Run,,1.25,9.9,12m 22s
+1151,29394594,Abdurrahman Gediklioğlu,12787697828,Lunch Run,Non stop ⚖️,2024-10-31 08:59:49+00:00,1924,Run,,5.5,5.55,30m 32s
+1152,29394594,Abdurrahman Gediklioğlu,12787697815,Lunch Run,"18 Training Load.
+-- from COROS",2024-10-31 08:18:59+00:00,1265,Run,,3.11,6.78,21m 5s
+1153,29394594,Abdurrahman Gediklioğlu,12779560015,Morning Run,"68 Training Load.
+-- from COROS",2024-10-30 07:37:36+00:00,4320,Run,"Güvendik Mahallesi, Turkey",10.27,6.97,1h 11m
+1154,29394594,Abdurrahman Gediklioğlu,12773919867,Evening Run,"16 Training Load.
+-- from COROS",2024-10-29 15:01:52+00:00,560,Run,"Güvendik Mahallesi, Turkey",1.36,6.85,9m 20s
+1155,29394594,Abdurrahman Gediklioğlu,12773919837,Afternoon Run,"10 Training Load.
+-- from COROS",2024-10-29 14:58:56+00:00,17,Run,,0.08,3.4,17s
+1156,29394594,Abdurrahman Gediklioğlu,12773919911,Afternoon Run,"119 Training Load.
+-- from COROS",2024-10-29 14:31:04+00:00,1590,Run,"Güvendik Mahallesi, Turkey",4.36,5.78,25m 14s
+1157,29394594,Abdurrahman Gediklioğlu,12773919884,Afternoon Run,"53 Training Load.
+-- from COROS",2024-10-29 14:03:39+00:00,1096,Run,"Güvendik Mahallesi, Turkey",2.6,,18m 16s
+1158,29394594,Abdurrahman Gediklioğlu,12771629891,Lunch Run,"6 Training Load.
+-- from COROS",2024-10-29 09:54:15+00:00,601,Run,,1.33,7.5,10m 1s
+1159,29394594,Abdurrahman Gediklioğlu,12771516468,Lunch Run,"57 Training Load.
+-- from COROS",2024-10-29 09:11:51+00:00,1941,Run,,6.22,5.2,32m 21s
+1160,29394594,Abdurrahman Gediklioğlu,12771516453,Lunch Run,"15 Training Load.
+-- from COROS",2024-10-29 08:35:47+00:00,1398,Run,,3.11,7.47,23m 18s
+1161,29394594,Abdurrahman Gediklioğlu,12765493785,Afternoon Run,"61 Training Load.
+-- from COROS",2024-10-28 13:49:25+00:00,3002,Run,,10.47,4.78,50m 2s
+1162,29394594,Abdurrahman Gediklioğlu,12763128891,Morning Run,"52 Training Load.
+-- from COROS",2024-10-28 07:21:48+00:00,2942,Run,,12.39,3.95,49m 2s
+1163,29394594,Abdurrahman Gediklioğlu,12868407651,Afternoon Run,"28 Training Load.
+-- from COROS",2024-11-10 13:50:32+00:00,1734,Run,,4.12,7.0,28m 54s
+1164,29394594,Abdurrahman Gediklioğlu,12865004534,Morning Run,"50 Training Load.
+-- from COROS",2024-11-10 07:39:07+00:00,2441,Run,,6.21,6.55,40m 41s
+1165,29394594,Abdurrahman Gediklioğlu,12860321834,Evening Run,"1 Training Load.
+-- from COROS",2024-11-09 15:02:27+00:00,78,Run,,0.17,7.4,1m 18s
+1166,29394594,Abdurrahman Gediklioğlu,12860234786,Afternoon Run,"102 Training Load.
+-- from COROS",2024-11-09 14:22:56+00:00,1832,Run,,5.8,4.9,28m 26s
+1167,29394594,Abdurrahman Gediklioğlu,12859923682,Afternoon Run,"13 Training Load.
+-- from COROS",2024-11-09 13:57:40+00:00,1115,Run,,2.42,6.93,16m 49s
+1168,29394594,Abdurrahman Gediklioğlu,12857891908,Lunch Run,"16 Training Load.
+-- from COROS",2024-11-09 09:12:20+00:00,602,Run,,1.28,7.83,10m 2s
+1169,29394594,Abdurrahman Gediklioğlu,12857891732,Lunch Run,"68 Training Load.
+-- from COROS",2024-11-09 08:36:23+00:00,1841,Run,,5.57,5.5,30m 41s
+1170,29394594,Abdurrahman Gediklioğlu,12857891730,Morning Run,"18 Training Load.
+-- from COROS",2024-11-09 07:45:20+00:00,1833,Run,,3.72,7.47,27m 49s
+1171,29394594,Abdurrahman Gediklioğlu,12845171408,Afternoon Run,"52 Training Load.
+-- from COROS",2024-11-07 14:23:49+00:00,3001,Run,,0.48,,50m 1s
+1172,29394594,Abdurrahman Gediklioğlu,12842926364,Lunch Run,,2024-11-07 08:49:37+00:00,849,Run,,0.74,18.98,14m 9s
+1173,29394594,Abdurrahman Gediklioğlu,12842926360,Lunch Run,"74 Training Load.
+-- from COROS",2024-11-07 08:05:29+00:00,2049,Run,,6.35,5.37,34m 9s
+1174,29394594,Abdurrahman Gediklioğlu,12842574040,Morning Run,"16 Training Load.
+-- from COROS",2024-11-07 07:25:03+00:00,1387,Run,,3.75,6.17,23m 7s
+1175,29394594,Abdurrahman Gediklioğlu,12836774295,Afternoon Run,"63 Training Load.
+-- from COROS",2024-11-06 12:34:13+00:00,4121,Run,"Güvendik Mahallesi, Turkey",9.56,7.03,1h 7m
+1176,29394594,Abdurrahman Gediklioğlu,12831167230,Evening Run,"83 Training Load.
+-- from COROS",2024-11-05 16:03:46+00:00,3096,Run,,6.26,8.23,51m 36s
+1177,29394594,Abdurrahman Gediklioğlu,12827207070,Afternoon Run,"6 Training Load.
+-- from COROS",2024-11-05 10:15:53+00:00,687,Run,,1.26,9.08,11m 27s
+1178,29394594,Abdurrahman Gediklioğlu,12827207254,Lunch Run,"219 Training Load.
+-- from COROS",2024-11-05 09:28:28+00:00,2552,Run,,7.03,5.68,40m 2s
+1179,29394594,Abdurrahman Gediklioğlu,12826763968,Lunch Run,"17 Training Load.
+-- from COROS",2024-11-05 08:47:42+00:00,1285,Run,,3.11,6.87,21m 25s
+1180,29394594,Abdurrahman Gediklioğlu,12821157829,Afternoon Run,"53 Training Load.
+-- from COROS",2024-11-04 14:11:44+00:00,3042,Run,,8.79,5.77,50m 42s
+1181,29394594,Abdurrahman Gediklioğlu,12818897124,Morning Run,"58 Training Load.
+-- from COROS",2024-11-04 07:17:17+00:00,3002,Run,,0.24,,50m 2s
