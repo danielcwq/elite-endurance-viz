@@ -365,7 +365,7 @@ Olympics 👀⏳",2024-05-01 01:01:32+00:00,498,Run,,1.86,4.45,8m 18s
 281,105366367,JOHN KORIR,10824218527,Morning Run,,2024-02-21 03:52:20+00:00,2921,Run,"Uasin Gishu County, Kenya",6.23,7.8,48m 41s
 282,105366367,JOHN KORIR,10824217835,Morning Run,,2024-02-20 04:49:29+00:00,3046,Run,,8.86,5.73,50m 46s
 283,105366367,JOHN KORIR,10824216955,Morning Run,,2024-02-20 03:59:02+00:00,1001,Run,,2.04,8.15,16m 41s
-284,105366367,JOHN KORIR,10793483584,Afternoon Walk,,2024-02-19 11:57:34+00:00,7778,Walk,"Uasin Gishu County, Kenya",5.35,,2h 3m
+284,105366367,JOHN KORIR,10793483584,Afternoon Walk,,2024-02-19 11:57:34+00:00,7778,Walk,"Elgeyo-Marakwet County, Kenya",5.35,,2h 3m
 285,105366367,JOHN KORIR,10791346937,Morning Run,,2024-02-19 03:56:55+00:00,4086,Run,"Uasin Gishu County, Kenya",9.01,7.55,1h 8m
 286,105366367,JOHN KORIR,10871426531,Morning Run,,2024-03-02 02:59:33+00:00,7927,Run,"Uasin Gishu County, Kenya",23.65,5.58,2h 11m
 287,105366367,JOHN KORIR,10859040143,Morning Run,,2024-02-29 05:22:55+00:00,421,Run,"Uasin Gishu County, Kenya",0.8,8.73,7m 1s
@@ -1260,10 +1260,10 @@ A mile repeat for every Carib consumed yesterday. 😂",2024-07-20 13:40:38+00:0
 1109,54176296,Sam Parsons,11905745735,PM Island volume 🇻🇬,"18 x 400m ( 70 ) ~ 30 sec rest. 
 One way up / one way down. 2.1 ( #10) 2.6mmols  (#14) Good day for some heat training! Glad I had Fabian Fatsellera helping with the cross winds.",2024-07-16 20:32:30+00:00,3199,Run,"Virgin Gorda, British Virgin Islands",6.9,6.15,42m 30s
 1110,54176296,Sam Parsons,11905745656,Treadmill w/u,time to get used to some humidity,2024-07-16 20:04:29+00:00,1592,Run,,3.0,6.97,20m 56s
-1111,54176296,Sam Parsons,11902350538,Little Dix Bay cooldown,Might do a PM workout outside we will see.,2024-07-16 14:20:29+00:00,706,Run,"Virgin Gorda, British Virgin Islands",1.64,6.93,11m 23s
+1111,54176296,Sam Parsons,11902350538,Little Dix Bay cooldown,Might do a PM workout outside we will see.,2024-07-16 14:20:29+00:00,706,Run,British Virgin Islands,1.64,6.93,11m 23s
 1112,54176296,Sam Parsons,11902350530,Morning volume 🇻🇬,"3 x 8min ( 5:10 ) ~ 90 sec Rest 
 + 4min clean Threshold",2024-07-16 13:06:15+00:00,4428,Run,,10.17,6.0,1h 1m
-1113,54176296,Sam Parsons,11895865545,Afternoon Stand Up Paddling 🇻🇬,Saw a couple of sea turtles!,2024-07-15 17:47:59+00:00,1576,StandUpPaddling,"Virgin Gorda, British Virgin Islands",1.06,,26m 16s
+1113,54176296,Sam Parsons,11895865545,Afternoon Stand Up Paddling 🇻🇬,Saw a couple of sea turtles!,2024-07-15 17:47:59+00:00,1576,StandUpPaddling,British Virgin Islands,1.06,,26m 16s
 1114,54176296,Sam Parsons,11894250486,Recovery day 🇻🇬,Made it to BVI! Easy day before volume day tomorrow.,2024-07-15 13:32:46+00:00,2702,Run,,6.09,7.38,45m 2s
 1115,54176296,Sam Parsons,12006775060,After hours,Got back from wedding weekend late but had to get it in. 80 mile week.,2024-07-29 00:47:39+00:00,2753,Run,,6.19,7.42,45m 53s
 1116,54176296,Sam Parsons,11995950014,Moderate Long in Bend!,Alex Giacco wedding day! Nice run with Sam Lewis & Sandy Brown,2024-07-27 15:53:48+00:00,5891,Run,"Bend, USA",12.26,7.4,1h 30m
@@ -1430,7 +1430,7 @@ Last full day in Italy! 1500’m in Ostrava on deck.
 1169,54176296,Sam Parsons,12389907487,Englischer Garten mit Richie 🇩🇪,"Had to get in a run to wash some of beer away from last night & to good excuse to catch-up with the king of Munich. 
 
 63 Training Load.
--- from COROS",2024-09-12 07:40:48+00:00,3083,Run,"Altstadt-Lehel, Germany",6.47,6.62,42m 52s
+-- from COROS",2024-09-12 07:40:48+00:00,3083,Run,"Maxvorstadt, Germany",6.47,6.62,42m 52s
 1170,54176296,Sam Parsons,12375027677,Fckityfckshitfck,3:40 1500m in Ostrava. Tried to make the race something and pushed after 800m & some dreadful pacing we passed him at 600m in so it just wasn’t gonna happen today. Felt great and thought I had a chance to win but then everyone had the great idea to run fast the last 100m. 😂 oh well season over.,2024-09-10 13:50:39+00:00,1146,Run,"Ostrava, Czechia",2.6,6.5,16m 58s
 1171,54176296,Sam Parsons,12374246579,Ostrava pre meet,"1500m last one! 
 
@@ -2030,6 +2030,53 @@ First lap flat second over hurdles",2024-07-04 16:12:15+00:00,5834,Run,"St. Loui
 1654,46128288,Jack Lunn,12215385832,Afternoon Run,,2024-08-22 07:47:33+00:00,5265,Run,"Melbourne, Australia",8.76,8.4,1h 13m
 1655,46128288,Jack Lunn,12202147156,Afternoon Run,,2024-08-21 05:19:04+00:00,4394,Run,"Melbourne, Australia",7.98,6.9,55m 7s
 1656,46128288,Jack Lunn,12193918150,Afternoon Run,,2024-08-20 07:49:20+00:00,5812,Run,"Melbourne, Australia",7.14,11.02,1h 18m
-1657,46128288,Jack Lunn,12919049239,Sunday 6pm jog’s biggest advocate,,2024-11-17 07:24:12+00:00,3834,Run,"Melbourne, Australia",8.79,6.8,59m 45s
-1658,46128288,Jack Lunn,12897770799,Morning Run,,2024-11-14 01:58:38+00:00,3344,Run,"Ubud, Indonesia",5.36,8.4,45m 5s
-1659,46128288,Jack Lunn,12881623462,Bit of a different 8x500,,2024-11-12 08:10:19+00:00,3489,Run,"Ubud, Indonesia",6.32,8.0,50m 37s
+1657,46128288,Jack Lunn,12295677940,Evening Run,,2024-09-01 08:03:58+00:00,3664,Run,"Melbourne, Australia",9.14,6.62,1h 0m
+1658,46128288,Jack Lunn,12274679124,Afternoon Run,,2024-08-29 07:49:02+00:00,5619,Run,"Melbourne, Australia",8.52,,1h 9m
+1659,46128288,Jack Lunn,12261750753,Lunch Run,,2024-08-28 02:01:31+00:00,4139,Run,"Melbourne, Australia",7.75,7.18,55m 43s
+1660,46128288,Jack Lunn,12257004852,Afternoon Run,,2024-08-27 07:43:04+00:00,5158,Run,"Melbourne, Australia",8.92,9.03,1h 20m
+1661,46128288,Jack Lunn,12242989468,Morning Run,,2024-08-25 23:27:16+00:00,3647,Run,"Melbourne, Australia",8.64,6.77,58m 31s
+1662,46128288,Jack Lunn,12355775764,Lunch Run,,2024-09-08 02:40:28+00:00,3293,Run,"Melbourne, Australia",5.67,6.85,38m 52s
+1663,46128288,Jack Lunn,12345108827,Morning Run,,2024-09-06 23:38:54+00:00,5551,Run,"Melbourne, Australia",7.41,11.65,1h 26m
+1664,46128288,Jack Lunn,12330979078,Afternoon Run,,2024-09-05 07:52:23+00:00,5404,Run,"Melbourne, Australia",7.47,8.27,1h 1m
+1665,46128288,Jack Lunn,12320752343,Lunch Run,,2024-09-04 02:21:45+00:00,4261,Run,"Melbourne, Australia",8.08,7.07,57m 5s
+1666,46128288,Jack Lunn,12313142962,Afternoon Run,,2024-09-03 07:49:49+00:00,6478,Run,"Melbourne, Australia",8.36,11.3,1h 34m
+1667,46128288,Jack Lunn,12413372576,Afternoon Run,,2024-09-15 07:05:34+00:00,4000,Run,"Melbourne, Australia",8.53,6.83,58m 16s
+1668,46128288,Jack Lunn,12403110615,Morning Run,,2024-09-13 23:00:03+00:00,1076,Run,"Melbourne, Australia",2.51,5.3,13m 19s
+1669,46128288,Jack Lunn,12402896069,Morning Run,,2024-09-13 22:22:01+00:00,361,Run,"Melbourne, Australia",0.76,7.28,5m 32s
+1670,46128288,Jack Lunn,12390126801,Afternoon Run,,2024-09-12 07:52:02+00:00,4902,Run,"Melbourne, Australia",7.54,8.77,1h 6m
+1671,46128288,Jack Lunn,12380484530,Afternoon Run,,2024-09-11 04:07:16+00:00,2372,Run,"Melbourne, Australia",4.51,8.58,38m 45s
+1672,46128288,Jack Lunn,12372972818,Evening Run,,2024-09-10 08:23:10+00:00,3908,Run,"Melbourne, Australia",5.36,10.78,57m 49s
+1673,46128288,Jack Lunn,12470625309,Run Prix,,2024-09-21 20:58:57+00:00,1844,Run,"Melbourne, Australia",6.24,4.92,30m 44s
+1674,46128288,Jack Lunn,12463601806,Afternoon Run,,2024-09-21 05:43:58+00:00,2799,Run,"Melbourne, Australia",3.42,11.27,38m 34s
+1675,46128288,Jack Lunn,12564037268,Morning Run,,2024-09-20 00:16:31+00:00,2158,Run,"Melbourne, Australia",3.1,11.57,35m 58s
+1676,46128288,Jack Lunn,12448547431,Afternoon Run,,2024-09-19 07:49:28+00:00,5334,Run,"Melbourne, Australia",7.79,7.82,1h 0m
+1677,46128288,Jack Lunn,12439654252,Afternoon Run,,2024-09-18 07:29:58+00:00,4167,Run,"Melbourne, Australia",8.63,7.05,1h 0m
+1678,46128288,Jack Lunn,12564036222,Afternoon Run,,2024-09-18 07:32:16+00:00,2161,Run,"Melbourne, Australia",3.09,11.63,36m 0s
+1679,46128288,Jack Lunn,12430934378,Evening Run,,2024-09-17 08:28:52+00:00,2896,Run,,5.69,,43m 9s
+1680,46128288,Jack Lunn,12529438181,Afternoon Run,,2024-09-29 06:51:52+00:00,3895,Run,"Melbourne, Australia",8.64,6.95,1h 0m
+1681,46128288,Jack Lunn,12522798193,Morning Run,,2024-09-27 22:09:32+00:00,5324,Run,"Melbourne, Australia",6.27,11.23,1h 10m
+1682,46128288,Jack Lunn,12506902725,Afternoon Run,,2024-09-26 07:54:42+00:00,4875,Run,"Melbourne, Australia",7.32,8.98,1h 5m
+1683,46128288,Jack Lunn,12498349214,Afternoon Run,,2024-09-25 06:16:52+00:00,4206,Run,"Melbourne, Australia",8.56,6.95,59m 27s
+1684,46128288,Jack Lunn,12490133893,Afternoon Run,,2024-09-24 07:48:45+00:00,5567,Run,"Melbourne, Australia",7.24,12.65,1h 31m
+1685,46128288,Jack Lunn,12584949121,Morning Run,,2024-10-05 21:24:48+00:00,3873,Run,"Melbourne, Australia",8.59,7.0,1h 0m
+1686,46128288,Jack Lunn,12576955032,Morning Run,,2024-10-04 23:12:26+00:00,6742,Run,"Melbourne, Australia",6.72,13.82,1h 32m
+1687,46128288,Jack Lunn,12564040272,Evening Run,,2024-10-03 08:00:36+00:00,5074,Run,"Melbourne, Australia",7.45,9.2,1h 8m
+1688,46128288,Jack Lunn,12554078390,Afternoon Run,,2024-10-02 04:35:25+00:00,4955,Run,"Melbourne, Australia",8.73,6.93,1h 0m
+1689,46128288,Jack Lunn,12552706796,Afternoon Run,,2024-10-01 07:48:44+00:00,8834,Run,"Melbourne, Australia",7.03,17.5,2h 3m
+1690,46128288,Jack Lunn,12619610240,Afternoon Run,,2024-10-10 06:50:11+00:00,5243,Run,"Melbourne, Australia",8.55,9.48,1h 21m
+1691,46128288,Jack Lunn,12619121340,Afternoon Run,,2024-10-09 05:10:21+00:00,4207,Run,"Melbourne, Australia",8.67,6.82,59m 12s
+1692,46128288,Jack Lunn,12603542763,Afternoon Run,,2024-10-08 06:51:25+00:00,5895,Run,"Melbourne, Australia",7.74,,1h 17m
+1693,46128288,Jack Lunn,12697807045,Afternoon Run,,2024-10-20 05:36:27+00:00,4224,Run,"Melbourne, Australia",8.6,6.95,59m 50s
+1694,46128288,Jack Lunn,12688612267,Morning Run,,2024-10-18 22:09:45+00:00,7265,Run,"Melbourne, Australia",8.09,12.98,1h 45m
+1695,46128288,Jack Lunn,12675448779,Afternoon Run,,2024-10-17 06:50:20+00:00,5342,Run,"Melbourne, Australia",9.27,8.0,1h 14m
+1696,46128288,Jack Lunn,12665378273,Morning Run,,2024-10-15 22:28:46+00:00,3439,Run,"Melbourne, Australia",6.35,7.1,45m 8s
+1697,46128288,Jack Lunn,12659093512,Evening Run,,2024-10-15 07:00:48+00:00,4994,Run,"Melbourne, Australia",4.94,13.18,1h 5m
+1698,46128288,Jack Lunn,12744987260,Morning Run,,2024-10-25 22:40:31+00:00,5176,Run,"Melbourne, Australia",4.05,11.13,45m 10s
+1699,46128288,Jack Lunn,12731895551,Afternoon Run,,2024-10-24 06:48:55+00:00,5969,Run,"Melbourne, Australia",9.09,8.9,1h 20m
+1700,46128288,Jack Lunn,12723376419,Evening Run,,2024-10-23 07:05:32+00:00,3849,Run,"Melbourne, Australia",8.45,6.8,57m 26s
+1701,46128288,Jack Lunn,12714839334,Evening Run,,2024-10-22 07:04:29+00:00,4964,Run,"Melbourne, Australia",5.96,13.7,1h 21m
+1702,46128288,Jack Lunn,12768581173,Evening Run,,2024-10-28 07:26:46+00:00,3180,Run,"Melbourne, Australia",6.54,6.9,45m 7s
+1703,46128288,Jack Lunn,12864452455,Afternoon Run,,2024-11-09 08:30:44+00:00,2581,Run,,0.43,,42m 25s
+1704,46128288,Jack Lunn,12833945384,Lunch Run,,2024-11-06 03:35:44+00:00,2469,Run,,3.65,11.27,41m 7s
+1705,46128288,Jack Lunn,12826415034,Afternoon Run,,2024-11-05 06:43:45+00:00,3431,Run,,6.82,7.82,53m 21s
+1706,46128288,Jack Lunn,12824470404,Lunch Run,,2024-11-04 04:54:26+00:00,2538,Run,,0.59,,35m 43s

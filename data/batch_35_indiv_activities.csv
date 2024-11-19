@@ -1,0 +1,1476 @@
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+0,81506583,victor kimutai,10507980605,Afternoon Run,,2024-01-06 21:02:54+00:00,4540,Run,"Lewiston, USA",10.0,7.42,1h 14m
+1,81506583,victor kimutai,10501001424,Afternoon Run,"Starting to feel good, enjoyed being in the zone. Ran without thinking about running or my  previous few runs have been awful in terms of my legs and also mentally.",2024-01-05 19:53:00+00:00,5631,Run,"Lewiston, USA",12.17,6.9,1h 24m
+2,81506583,victor kimutai,10494190752,Lunch Run,,2024-01-04 16:37:41+00:00,4144,Run,"Lewiston, USA",10.01,6.42,1h 4m
+3,81506583,victor kimutai,10488655748,Afternoon Run,,2024-01-03 20:25:05+00:00,5394,Run,"Lewiston, USA",10.08,7.33,1h 13m
+4,81506583,victor kimutai,10481951269,Afternoon Run,,2024-01-02 20:02:12+00:00,5192,Run,"Lewiston, USA",10.4,7.58,1h 18m
+5,81506583,victor kimutai,10474888785,Morning Run,,2024-01-01 15:40:41+00:00,6126,Run,"Cohasset, USA",15.0,6.5,1h 37m
+6,81506583,victor kimutai,10558633233,Morning Run,,2024-01-14 14:53:57+00:00,6468,Run,"Lewiston, USA",17.01,6.28,1h 46m
+7,81506583,victor kimutai,10561126555,Afternoon Run,,2024-01-12 19:40:04+00:00,4146,Run,"New Gloucester, USA",9.0,7.53,1h 7m
+8,81506583,victor kimutai,10540772585,Afternoon Run,,2024-01-11 22:50:32+00:00,714,Run,,1.59,7.47,11m 54s
+9,81506583,victor kimutai,10540772384,Afternoon Run,,2024-01-11 21:35:34+00:00,3973,Run,,9.04,7.32,1h 6m
+10,81506583,victor kimutai,10540771799,Afternoon Run,,2024-01-11 20:48:49+00:00,1571,Run,"Lewiston, USA",3.38,7.28,24m 38s
+11,81506583,victor kimutai,10533694814,Afternoon Run,,2024-01-10 20:10:22+00:00,4732,Run,"Lewiston, USA",10.14,7.53,1h 16m
+12,81506583,victor kimutai,10525557481,Lunch Run,,2024-01-09 16:07:19+00:00,4259,Run,"Lewiston, USA",9.06,7.62,1h 8m
+13,81506583,victor kimutai,10519757040,Lunch Run,,2024-01-08 16:13:32+00:00,5685,Run,"Lewiston, USA",13.01,6.98,1h 30m
+14,81506583,victor kimutai,10650237305,Raceday,,2024-01-20 20:14:23+00:00,4090,Run,,10.0,6.82,1h 8m
+15,81506583,victor kimutai,10609710720,Afternoon Run,,2024-01-19 20:50:34+00:00,3190,Run,"Lewiston, USA",7.04,7.42,52m 15s
+16,81506583,victor kimutai,10609709633,Afternoon Run,,2024-01-18 21:26:10+00:00,4268,Run,"Lewiston, USA",8.85,7.95,1h 10m
+17,81506583,victor kimutai,10578750263,Afternoon Run,,2024-01-17 20:06:05+00:00,5497,Run,"Lewiston, USA",12.02,6.55,1h 18m
+18,81506583,victor kimutai,10650178974,Lunch Run,,2024-01-16 16:11:49+00:00,3943,Run,"Lewiston, USA",9.02,7.22,1h 5m
+19,81506583,victor kimutai,10565901250,Afternoon Run,,2024-01-15 19:17:33+00:00,5700,Run,"New Gloucester, USA",13.0,7.05,1h 31m
+20,81506583,victor kimutai,10649592253,Afternoon Run,,2024-01-28 18:13:59+00:00,2655,Run,"Boston, USA",4.96,8.0,39m 40s
+21,81506583,victor kimutai,10649590948,Lunch Run,,2024-01-28 16:43:13+00:00,940,Run,,2.99,5.23,15m 40s
+22,81506583,victor kimutai,10648488029,Morning Run,,2024-01-28 15:50:30+00:00,914,Run,,1.95,7.8,15m 13s
+23,81506583,victor kimutai,10645825510,Morning Run,,2024-01-28 11:04:40+00:00,952,Run,"Lewiston, USA",2.02,7.73,15m 39s
+24,81506583,victor kimutai,10650175578,Pre race day,,2024-01-27 20:00:17+00:00,2639,Run,,5.5,8.0,43m 59s
+25,81506583,victor kimutai,10645823372,Afternoon Run,,2024-01-26 20:07:03+00:00,989,Run,,2.13,7.37,15m 45s
+26,81506583,victor kimutai,10645821452,Afternoon Run,,2024-01-26 19:51:39+00:00,776,Run,,1.98,6.52,12m 56s
+27,81506583,victor kimutai,10645818029,Afternoon Run,,2024-01-26 19:14:55+00:00,2184,Run,,4.08,7.53,30m 45s
+28,81506583,victor kimutai,10629621555,Afternoon Run,,2024-01-25 21:23:55+00:00,2344,Run,"Lewiston, USA",5.01,7.73,38m 46s
+29,81506583,victor kimutai,10628615220,Lunch Run,,2024-01-25 17:21:42+00:00,6324,Run,"Lewiston, USA",9.99,7.38,1h 13m
+30,81506583,victor kimutai,10623672405,Evening Run,,2024-01-24 23:14:00+00:00,1226,Run,,3.19,6.4,20m 26s
+31,81506583,victor kimutai,10623672002,Afternoon Run,,2024-01-24 22:33:45+00:00,1807,Run,,4.69,6.42,30m 7s
+32,81506583,victor kimutai,10623298460,Afternoon Run,,2024-01-24 21:51:16+00:00,1624,Run,"Lewiston, USA",3.17,7.58,24m 4s
+33,81506583,victor kimutai,10620394512,Afternoon Run,,2024-01-23 21:29:22+00:00,1372,Run,"Lewiston, USA",3.01,7.42,22m 20s
+34,81506583,victor kimutai,10615160399,Lunch Run,,2024-01-23 17:03:54+00:00,4682,Run,"Lewiston, USA",10.0,7.45,1h 14m
+35,81506583,victor kimutai,10609712252,Morning Run,,2024-01-22 14:23:30+00:00,5011,Run,"Lewiston, USA",12.1,6.83,1h 22m
+36,81506583,victor kimutai,10689860373,Afternoon Run,,2024-02-03 18:54:07+00:00,2013,Run,"Gorham, USA",4.1,8.08,33m 11s
+37,81506583,victor kimutai,10689419466,Lunch Run,,2024-02-03 17:49:45+00:00,937,Run,,2.77,5.63,15m 37s
+38,81506583,victor kimutai,10689166122,Lunch Run,,2024-02-03 17:04:39+00:00,842,Run,"Gorham, USA",2.0,7.0,14m 2s
+39,81506583,victor kimutai,10687196460,Morning Run,,2024-02-03 12:50:16+00:00,1027,Run,"Lewiston, USA",2.07,7.98,16m 35s
+40,81506583,victor kimutai,10683536319,Afternoon Run,,2024-02-02 21:40:01+00:00,4244,Run,"Lewiston, USA",9.02,7.42,1h 6m
+41,81506583,victor kimutai,10677274967,Afternoon Run,,2024-02-01 21:27:08+00:00,2065,Run,"Lewiston, USA",4.14,7.87,32m 37s
+42,81506583,victor kimutai,10676211279,Lunch Run,,2024-02-01 17:22:10+00:00,6486,Run,"Lewiston, USA",10.99,7.3,1h 20m
+43,81506583,victor kimutai,10670668806,Afternoon Run,,2024-01-31 20:42:49+00:00,5455,Run,"Lewiston, USA",12.05,6.68,1h 20m
+44,81506583,victor kimutai,10664391786,Watch died,,2024-01-30 22:23:07+00:00,307,Run,,0.7,7.32,5m 7s
+45,81506583,victor kimutai,10664379108,Afternoon Run,,2024-01-30 21:47:16+00:00,1816,Run,"Lewiston, USA",3.72,7.62,28m 22s
+46,81506583,victor kimutai,10661899187,Lunch Run,,2024-01-30 16:28:50+00:00,4973,Run,"Lewiston, USA",10.2,7.22,1h 13m
+47,81506583,victor kimutai,10656847727,Afternoon Run,,2024-01-29 21:29:47+00:00,5030,Run,"Lewiston, USA",11.13,7.42,1h 22m
+48,81506583,victor kimutai,10737043096,Afternoon Run,,2024-02-10 19:32:44+00:00,2425,Run,"Brunswick, USA",5.01,7.33,36m 49s
+49,81506583,victor kimutai,10737042355,Afternoon Run,,2024-02-10 19:16:56+00:00,100,Run,,0.28,5.8,1m 40s
+50,81506583,victor kimutai,10737042217,Afternoon Run,,2024-02-10 18:19:51+00:00,952,Run,"Brunswick, USA",2.02,7.8,15m 45s
+51,81506583,victor kimutai,10737137365,5k,,2024-02-10 17:10:11+00:00,911,Run,,3.1,4.88,15m 11s
+52,81506583,victor kimutai,10737060489,Lunch Run,,2024-02-10 16:30:46+00:00,915,Run,"Brunswick, USA",2.09,7.27,15m 15s
+53,81506583,victor kimutai,10737041561,Morning Run,,2024-02-10 13:03:41+00:00,923,Run,"Lewiston, USA",2.0,7.57,15m 9s
+54,81506583,victor kimutai,10729918276,Afternoon Run,,2024-02-09 21:24:28+00:00,3706,Run,"Lewiston, USA",7.08,7.17,50m 48s
+55,81506583,victor kimutai,10723050551,Lunch Run,,2024-02-08 17:28:06+00:00,5384,Run,"Lewiston, USA",11.02,7.48,1h 22m
+56,81506583,victor kimutai,10718192066,Work out,,2024-02-07 22:05:45+00:00,3989,Run,,9.5,7.0,1h 6m
+57,81506583,victor kimutai,10710992829,Afternoon Run,,2024-02-06 21:25:03+00:00,2234,Run,"Lewiston, USA",4.39,7.62,33m 31s
+58,81506583,victor kimutai,10709122080,Lunch Run,,2024-02-06 16:21:41+00:00,5018,Run,"Lewiston, USA",10.73,7.58,1h 21m
+59,81506583,victor kimutai,10701429408,Morning Run,,2024-02-05 13:22:25+00:00,6795,Run,"Lewiston, USA",16.56,6.77,1h 51m
+60,81506583,victor kimutai,10779951434,Morning Run,,2024-02-17 13:01:40+00:00,706,Run,,1.64,6.53,10m 46s
+61,81506583,victor kimutai,10779951006,Morning Run,,2024-02-17 12:55:34+00:00,298,Run,,0.75,6.62,4m 58s
+62,81506583,victor kimutai,10779950628,Morning Run,,2024-02-17 11:57:16+00:00,3439,Run,,9.04,6.33,57m 19s
+63,81506583,victor kimutai,10775140545,Afternoon Run,,2024-02-16 18:23:43+00:00,4314,Run,"Lewiston, USA",10.0,7.15,1h 11m
+64,81506583,victor kimutai,10769915536,Afternoon Run,,2024-02-15 21:25:01+00:00,5827,Run,"Lewiston, USA",12.11,7.63,1h 32m
+65,81506583,victor kimutai,10764531369,Cool down+,,2024-02-14 23:01:41+00:00,378,Run,,0.9,7.0,6m 18s
+66,81506583,victor kimutai,10764526915,Afternoon Run,,2024-02-14 22:27:11+00:00,1676,Run,,3.87,7.18,27m 53s
+67,81506583,victor kimutai,10764526798,Afternoon Run,,2024-02-14 22:03:51+00:00,1029,Run,,1.67,10.23,17m 9s
+68,81506583,victor kimutai,10764526688,Afternoon Run,,2024-02-14 21:21:54+00:00,1500,Run,,3.53,7.08,25m 0s
+69,81506583,victor kimutai,10756740349,Afternoon Run,,2024-02-13 21:27:18+00:00,1507,Run,"Lewiston, USA",3.46,6.9,23m 54s
+70,81506583,victor kimutai,10755144617,Lunch Run,,2024-02-13 16:34:59+00:00,5132,Run,"Lewiston, USA",11.1,7.52,1h 23m
+71,81506583,victor kimutai,10749423368,Afternoon Run,,2024-02-12 18:35:30+00:00,7249,Run,"Lewiston, USA",17.03,6.9,1h 57m
+72,81506583,victor kimutai,10837707768,Morning Run,,2024-02-25 15:21:31+00:00,2111,Run,"Boston, USA",4.21,8.23,34m 45s
+73,81506583,victor kimutai,10837707429,Morning Run,,2024-02-25 14:44:52+00:00,900,Run,,2.95,5.08,15m 0s
+74,81506583,victor kimutai,10837707126,Morning Run,,2024-02-25 13:58:01+00:00,958,Run,"Boston, USA",2.01,7.85,15m 51s
+75,81506583,victor kimutai,10837707655,Morning Run,,2024-02-25 10:46:25+00:00,956,Run,"Newton, USA",1.84,8.65,15m 56s
+76,81506583,victor kimutai,10830091412,Lunch Run,,2024-02-24 17:24:32+00:00,255,Run,,0.41,6.5,2m 43s
+77,81506583,victor kimutai,10830091311,Lunch Run,,2024-02-24 16:38:01+00:00,2450,Run,"Lewiston, USA",5.5,7.3,40m 12s
+78,81506583,victor kimutai,10822527785,Afternoon Run,,2024-02-23 20:04:37+00:00,3933,Run,"Lewiston, USA",9.0,7.25,1h 5m
+79,81506583,victor kimutai,10816618391,Afternoon Run,,2024-02-22 20:07:58+00:00,4199,Run,"Lewiston, USA",9.01,7.62,1h 8m
+80,81506583,victor kimutai,10810527640,Afternoon Run,,2024-02-21 21:25:16+00:00,1684,Run,"Lewiston, USA",3.25,7.97,25m 56s
+81,81506583,victor kimutai,10810527091,Afternoon Run,,2024-02-21 20:55:22+00:00,1087,Run,,2.42,7.48,18m 7s
+82,81506583,victor kimutai,10810526518,Afternoon Run,,2024-02-21 20:21:45+00:00,1332,Run,"Lewiston, USA",3.05,6.83,20m 51s
+83,81506583,victor kimutai,10837720952,Evening Run,,2024-02-20 22:00:19+00:00,4300,Run,,10.0,7.17,1h 11m
+84,81506583,victor kimutai,10793830372,Morning Run,,2024-02-19 13:34:41+00:00,6118,Run,"Lewiston, USA",14.02,7.02,1h 38m
+85,81506583,victor kimutai,10876379241,Friday run,,2024-03-01 21:29:16+00:00,4185,Run,,9.0,7.75,1h 9m
+86,81506583,victor kimutai,10864372376,Afternoon Run,,2024-02-29 22:05:13+00:00,2390,Run,,5.06,6.58,33m 21s
+87,81506583,victor kimutai,10864371377,Afternoon Run,,2024-02-29 21:24:03+00:00,2255,Run,,5.1,7.37,37m 35s
+88,81506583,victor kimutai,10864370341,Afternoon Run,,2024-02-29 21:22:22+00:00,81,Run,,0.18,7.33,1m 21s
+89,81506583,victor kimutai,10858173300,Afternoon Run,,2024-02-28 21:51:09+00:00,3380,Run,"Lewiston, USA",7.19,7.37,52m 56s
+90,81506583,victor kimutai,10850887724,Afternoon Run,,2024-02-27 21:47:32+00:00,2383,Run,"Lewiston, USA",5.0,7.73,38m 43s
+91,81506583,victor kimutai,10924282276,Morning Run,,2024-03-09 15:50:10+00:00,1677,Run,"Lewiston, USA",3.11,8.53,26m 33s
+92,81506583,victor kimutai,10924281427,Morning Run,,2024-03-09 14:56:09+00:00,2604,Run,,6.84,6.12,41m 49s
+93,81506583,victor kimutai,10924279284,Morning Run,,2024-03-09 14:08:22+00:00,2558,Run,"Lewiston, USA",3.65,7.62,27m 49s
+94,81506583,victor kimutai,10919217556,Afternoon Run,,2024-03-08 22:24:25+00:00,2294,Run,"Lewiston, USA",2.64,7.7,20m 22s
+95,81506583,victor kimutai,10919217146,Afternoon Run,,2024-03-08 21:25:25+00:00,3157,Run,"Lewiston, USA",7.01,7.3,51m 8s
+96,81506583,victor kimutai,10914136947,Afternoon Run,,2024-03-07 20:17:33+00:00,5777,Run,"Lewiston, USA",12.03,7.05,1h 24m
+97,81506583,victor kimutai,10906438374,Evening Run,,2024-03-06 23:19:00+00:00,1581,Run,"Lewiston, USA",3.04,7.95,24m 11s
+98,81506583,victor kimutai,10906438062,Afternoon Run,,2024-03-06 22:19:42+00:00,3099,Run,"Lewiston, USA",7.73,5.95,46m 5s
+99,81506583,victor kimutai,10906436863,Afternoon Run,,2024-03-06 21:38:12+00:00,1584,Run,"Lewiston, USA",3.5,7.47,26m 11s
+100,81506583,victor kimutai,10898735544,Afternoon Run,,2024-03-05 20:06:39+00:00,6538,Run,"Lewiston, USA",13.11,7.2,1h 34m
+101,81506583,victor kimutai,10891834805,Afternoon Run,,2024-03-04 21:44:00+00:00,7000,Run,"Lewiston, USA",15.03,7.23,1h 48m
+102,81506583,victor kimutai,10961977331,Afternoon Run,,2024-03-14 19:29:05+00:00,3906,Run,"Charlottesville, USA",8.75,6.93,1h 0m
+103,81506583,victor kimutai,10950744037,Morning Run,,2024-03-13 12:48:24+00:00,4982,Run,"Lewiston, USA",10.0,7.63,1h 16m
+104,81506583,victor kimutai,10946783870,Afternoon Run,,2024-03-12 20:25:42+00:00,5129,Run,"Lewiston, USA",10.73,7.7,1h 22m
+105,81506583,victor kimutai,10939647957,Afternoon Run,,2024-03-11 20:45:09+00:00,6681,Run,"Lewiston, USA",17.0,6.42,1h 49m
+106,81506583,victor kimutai,11021937444,Lunch Run,,2024-03-23 15:03:07+00:00,946,Run,,2.0,7.73,15m 28s
+107,81506583,victor kimutai,11021798620,Morning Run,,2024-03-23 14:34:25+00:00,1497,Run,,2.59,9.6,24m 57s
+108,81506583,victor kimutai,11021519638,Morning Run,,2024-03-23 13:39:32+00:00,2622,Run,,5.0,7.58,37m 58s
+109,81506583,victor kimutai,11017616147,Afternoon run,,2024-03-22 23:52:22+00:00,4550,Run,,10.0,7.58,1h 15m
+110,81506583,victor kimutai,11010707344,Afternoon Run,,2024-03-21 19:10:17+00:00,6373,Run,"Lewiston, USA",13.51,7.6,1h 42m
+111,81506583,victor kimutai,11004090955,Afternoon Run,,2024-03-20 20:53:50+00:00,1519,Run,"Lewiston, USA",3.0,7.93,23m 48s
+112,81506583,victor kimutai,11004090280,Afternoon Run,,2024-03-20 20:05:32+00:00,2035,Run,,5.26,5.18,27m 17s
+113,81506583,victor kimutai,11004089025,Afternoon Run,,2024-03-20 19:18:18+00:00,2227,Run,"Lewiston, USA",3.73,7.33,27m 24s
+114,81506583,victor kimutai,11004088032,Afternoon Run,,2024-03-19 20:25:23+00:00,1809,Run,"Lewiston, USA",4.0,7.27,29m 4s
+115,81506583,victor kimutai,10995072392,Afternoon Run,,2024-03-19 17:37:35+00:00,4237,Run,"Lewiston, USA",9.0,7.67,1h 9m
+116,81506583,victor kimutai,10989117104,Afternoon Run,Not an easy one,2024-03-18 20:32:31+00:00,6676,Run,"Lewiston, USA",14.05,7.2,1h 41m
+117,81506583,victor kimutai,11203050007,Afternoon Run,,2024-03-26 20:35:26+00:00,2668,Run,"Lewiston, USA",6.15,6.23,38m 23s
+118,81506583,victor kimutai,11203036962,Afternoon Run,,2024-03-26 19:49:38+00:00,1381,Run,,3.03,7.58,23m 1s
+119,81506583,victor kimutai,11034966625,Morning Run,,2024-03-25 12:12:54+00:00,7876,Run,"Lewiston, USA",15.0,7.27,1h 49m
+120,81506583,victor kimutai,11203432486,Afternoon Run,,2024-04-09 21:51:56+00:00,2715,Run,"Lewiston, USA",5.58,7.85,43m 55s
+121,81506583,victor kimutai,11203427894,Afternoon Run,,2024-04-09 21:22:04+00:00,1358,Run,,2.26,5.23,11m 50s
+122,81506583,victor kimutai,11203424495,Afternoon Run,,2024-04-09 20:44:10+00:00,1996,Run,"Lewiston, USA",4.23,7.38,31m 16s
+123,81506583,victor kimutai,11203420188,Lunch Run,,2024-04-08 16:06:42+00:00,6405,Run,"Lewiston, USA",13.0,7.33,1h 35m
+124,81506583,victor kimutai,11203437299,Morning Run,,2024-04-17 13:37:33+00:00,4758,Run,"Lewiston, USA",6.0,9.15,54m 58s
+125,81506583,victor kimutai,11332869604,Lunch Run,,2024-05-03 15:42:32+00:00,3703,Run,"Lewiston, USA",7.86,7.4,58m 15s
+126,81506583,victor kimutai,11317817933,Afternoon Run,,2024-05-02 19:29:41+00:00,900,Run,,2.13,7.0,14m 56s
+127,81506583,victor kimutai,11317817528,Afternoon Run,,2024-05-02 19:01:46+00:00,1471,Run,,3.85,6.28,24m 16s
+128,81506583,victor kimutai,11317816805,Afternoon Run,,2024-05-02 18:24:38+00:00,2119,Run,,3.0,7.45,22m 24s
+129,81506583,victor kimutai,11464103271,Evening Run,,2024-05-10 22:41:03+00:00,855,Run,,2.03,7.02,14m 15s
+130,81506583,victor kimutai,11464102396,Afternoon Run,,2024-05-10 18:49:42+00:00,607,Run,"Chelmsford, USA",1.29,7.42,9m 37s
+131,81506583,victor kimutai,11371697075,Afternoon Run,,2024-05-09 17:29:22+00:00,3316,Run,"Lewiston, USA",6.03,7.17,43m 14s
+132,81506583,victor kimutai,11364378451,Afternoon Run,,2024-05-08 20:26:00+00:00,3517,Run,"Lewiston, USA",8.07,7.0,56m 34s
+133,81506583,victor kimutai,11355500968,Afternoon Run,,2024-05-07 17:57:29+00:00,4041,Run,"Lewiston, USA",9.01,6.78,1h 1m
+134,81506583,victor kimutai,11347907138,Afternoon Run,,2024-05-06 18:25:48+00:00,4631,Run,"Lewiston, USA",11.0,6.95,1h 16m
+135,81506583,victor kimutai,11548781320,Afternoon Run,,2024-06-01 14:42:35+00:00,3284,Run,"Uasin Gishu County, Kenya",6.29,7.1,44m 44s
+136,81506583,victor kimutai,11533425257,First run of the summer,,2024-05-30 14:42:12+00:00,2391,Run,"Uasin Gishu County, Kenya",5.01,7.23,36m 14s
+137,81506583,victor kimutai,11612696990,Afternoon Run,,2024-06-09 13:57:29+00:00,16,Run,,0.01,17.02,16s
+138,81506583,victor kimutai,11597452690,Afternoon Run,,2024-06-07 14:29:32+00:00,4011,Run,"Uasin Gishu County, Kenya",9.1,7.12,1h 4m
+139,81506583,victor kimutai,11590960578,Afternoon Run,,2024-06-06 14:22:19+00:00,3729,Run,"Uasin Gishu County, Kenya",8.3,7.35,1h 1m
+140,81506583,victor kimutai,11580442458,Afternoon Run,,2024-06-05 14:25:44+00:00,3245,Run,"Uasin Gishu County, Kenya",6.5,7.5,48m 48s
+141,81506583,victor kimutai,11641224757,Morning Run,,2024-06-13 05:55:45+00:00,2747,Run,"Uasin Gishu County, Kenya",6.38,6.92,44m 13s
+142,81506583,victor kimutai,11632568191,Morning Run,,2024-06-12 04:40:14+00:00,4778,Run,"Uasin Gishu County, Kenya",10.54,7.2,1h 16m
+143,81506583,victor kimutai,11624161687,Morning Run,,2024-06-11 04:15:49+00:00,4544,Run,"Uasin Gishu County, Kenya",10.84,6.95,1h 15m
+144,81506583,victor kimutai,11948908232,Morning Run,,2024-07-22 03:47:23+00:00,5228,Run,"Uasin Gishu County, Kenya",11.3,7.18,1h 21m
+145,81506583,victor kimutai,11940710245,Morning Run,,2024-07-21 06:20:10+00:00,1374,Run,"Uasin Gishu County, Kenya",3.02,6.8,20m 31s
+146,81506583,victor kimutai,11932800748,Morning Run,,2024-07-20 07:21:16+00:00,2426,Run,"Uasin Gishu County, Kenya",5.02,7.18,36m 2s
+147,81506583,victor kimutai,11925249122,Morning Run,,2024-07-19 06:21:00+00:00,4690,Run,"Uasin Gishu County, Kenya",10.0,7.82,1h 18m
+148,81506583,victor kimutai,11916655737,Morning Run,,2024-07-18 05:50:15+00:00,3375,Run,"Uasin Gishu County, Kenya",7.4,7.53,55m 48s
+149,81506583,victor kimutai,11907939295,Morning Run,,2024-07-17 05:36:34+00:00,3568,Run,"Uasin Gishu County, Kenya",7.05,7.98,56m 17s
+150,81506583,victor kimutai,11900083738,Lunch Run,,2024-07-16 08:09:10+00:00,4553,Run,"Uasin Gishu County, Kenya",9.0,7.45,1h 7m
+151,81506583,victor kimutai,11894528488,Afternoon Run,,2024-07-15 14:19:23+00:00,2627,Run,"Uasin Gishu County, Kenya",5.0,7.43,37m 13s
+152,81506583,victor kimutai,11998898579,Afternoon Run,,2024-07-27 13:45:28+00:00,2915,Run,"Uasin Gishu County, Kenya",6.01,7.97,47m 55s
+153,81506583,victor kimutai,11982885987,Morning Run,,2024-07-26 03:20:05+00:00,4622,Run,"Uasin Gishu County, Kenya",10.02,7.02,1h 10m
+154,81506583,victor kimutai,11974730746,Morning Run,,2024-07-25 04:37:37+00:00,3594,Run,"Uasin Gishu County, Kenya",7.0,7.82,54m 43s
+155,81506583,victor kimutai,11966751426,Morning Run,,2024-07-24 06:03:07+00:00,4973,Run,"Uasin Gishu County, Kenya",11.01,7.28,1h 20m
+156,81506583,victor kimutai,11959256888,Morning Run,,2024-07-23 07:04:47+00:00,3830,Run,"Uasin Gishu County, Kenya",8.13,7.28,59m 14s
+157,81506583,victor kimutai,12053185704,Afternoon Run,,2024-08-03 10:14:18+00:00,4542,Run,"Uasin Gishu County, Kenya",10.04,7.17,1h 11m
+158,81506583,victor kimutai,12034502754,Lunch Run,,2024-08-01 08:45:26+00:00,4319,Run,"Uasin Gishu County, Kenya",9.0,7.63,1h 8m
+159,81506583,victor kimutai,12025653098,Lunch Run,,2024-07-31 08:22:04+00:00,4454,Run,"Uasin Gishu County, Kenya",9.4,7.48,1h 10m
+160,81506583,victor kimutai,12017250763,Lunch Run,,2024-07-30 08:56:23+00:00,5963,Run,"Uasin Gishu County, Kenya",12.5,7.47,1h 33m
+161,81506583,victor kimutai,12007990425,Morning Run,,2024-07-29 05:54:43+00:00,4680,Run,"Uasin Gishu County, Kenya",10.0,7.3,1h 12m
+162,81506583,victor kimutai,12114484690,Afternoon Run,,2024-08-10 19:43:17+00:00,3013,Run,"Arlington, USA",7.4,6.75,50m 2s
+163,81506583,victor kimutai,12106410289,Afternoon Run,,2024-08-09 21:01:23+00:00,5121,Run,"Edgartown, USA",11.99,7.03,1h 24m
+164,81506583,victor kimutai,12098835730,Afternoon Run,,2024-08-08 21:37:39+00:00,3485,Run,"Edgartown, USA",8.01,7.13,57m 6s
+165,81506583,victor kimutai,12180850689,Morning Run,,2024-08-18 13:59:12+00:00,8166,Run,"Albemarle County, USA",13.46,7.62,1h 42m
+166,81506583,victor kimutai,12166315341,Evening Run,,2024-08-16 23:20:34+00:00,3339,Run,"Albemarle County, USA",7.09,7.35,52m 10s
+167,81506583,victor kimutai,12157712880,Afternoon Run,,2024-08-15 21:01:02+00:00,2857,Run,"Albemarle County, USA",6.02,7.4,44m 36s
+168,81506583,victor kimutai,12136775248,Morning Run,,2024-08-13 12:58:52+00:00,2496,Run,"Somerville, USA",5.04,7.5,37m 50s
+169,81506583,victor kimutai,12128794301,Morning Run,,2024-08-12 13:10:36+00:00,5723,Run,"Somerville, USA",12.01,7.6,1h 31m
+170,81506583,victor kimutai,12233646209,Afternoon Run,,2024-08-24 21:49:40+00:00,1915,Run,,5.01,6.32,31m 41s
+171,81506583,victor kimutai,12233646074,Afternoon Run,,2024-08-24 20:55:19+00:00,3027,Run,"Albemarle County, USA",5.26,9.17,48m 15s
+172,81506583,victor kimutai,12225644725,Afternoon Run,,2024-08-23 19:54:47+00:00,7597,Run,"Albemarle County, USA",12.5,7.45,1h 33m
+173,81506583,victor kimutai,12217891036,Evening Run,,2024-08-22 22:08:55+00:00,5012,Run,"Albemarle County, USA",10.01,7.3,1h 13m
+174,81506583,victor kimutai,12209184442,Evening Run,,2024-08-21 22:13:50+00:00,2963,Run,"Albemarle County, USA",6.0,7.83,47m 5s
+175,81506583,victor kimutai,12200287767,Afternoon Run,,2024-08-20 21:42:08+00:00,4808,Run,"Albemarle County, USA",10.0,7.4,1h 14m
+176,81506583,victor kimutai,12191498048,Evening Run,,2024-08-19 22:52:08+00:00,3260,Run,,8.01,6.57,52m 37s
+177,81506583,victor kimutai,12291343036,Morning Run,,2024-08-31 14:44:28+00:00,6476,Run,"Albemarle County, USA",14.05,7.47,1h 44m
+178,81506583,victor kimutai,12275670632,Morning Run,,2024-08-29 13:20:24+00:00,4816,Run,"Albemarle County, USA",10.0,7.63,1h 16m
+179,81506583,victor kimutai,12268213474,Afternoon Run,,2024-08-28 20:33:12+00:00,5831,Run,"Albemarle County, USA",10.06,7.13,1h 11m
+180,81506583,victor kimutai,12259431702,Afternoon Run,,2024-08-27 20:26:10+00:00,6739,Run,"Charlottesville, USA",10.01,7.25,1h 12m
+181,81506583,victor kimutai,12250980099,Evening Run,,2024-08-26 22:10:21+00:00,5317,Run,"Charlottesville, USA",10.32,7.72,1h 19m
+182,81506583,victor kimutai,12350668339,Morning Run,,2024-09-07 13:05:55+00:00,4353,Run,"Albemarle County, USA",11.04,6.57,1h 12m
+183,81506583,victor kimutai,12344333528,Afternoon Run,,2024-09-06 21:03:23+00:00,5187,Run,"Albemarle County, USA",10.14,7.25,1h 13m
+184,81506583,victor kimutai,12337309504,Evening Run,,2024-09-05 22:12:37+00:00,1142,Run,"Albemarle County, USA",2.19,7.38,16m 11s
+185,81506583,victor kimutai,12337301785,Afternoon Run,,2024-09-05 21:36:01+00:00,2081,Run,,6.15,5.63,34m 41s
+186,81506583,victor kimutai,12337298808,Afternoon Run,,2024-09-05 20:46:24+00:00,2510,Run,"Albemarle County, USA",4.0,7.4,29m 40s
+187,81506583,victor kimutai,12328159268,Afternoon Run,,2024-09-04 20:43:49+00:00,5567,Run,"Albemarle County, USA",11.02,6.98,1h 16m
+188,81506583,victor kimutai,12319252211,Afternoon Run,,2024-09-03 20:53:40+00:00,5186,Run,"Charlottesville, USA",10.0,7.12,1h 11m
+189,81506583,victor kimutai,12310634818,Afternoon Run,,2024-09-02 21:42:47+00:00,5631,Run,"Albemarle County, USA",11.04,7.48,1h 22m
+190,81506583,victor kimutai,12408297318,Morning Run,,2024-09-14 12:59:16+00:00,5360,Run,"Louisa County, USA",14.01,6.35,1h 28m
+191,81506583,victor kimutai,12402869540,Afternoon Run,,2024-09-13 21:06:03+00:00,5170,Run,"Charlottesville, USA",10.71,7.48,1h 20m
+192,81506583,victor kimutai,12395561186,Afternoon Run,,2024-09-12 21:01:53+00:00,6010,Run,"Albemarle County, USA",11.3,6.47,1h 13m
+193,81506583,victor kimutai,12387398462,Afternoon Run,,2024-09-11 20:58:11+00:00,4963,Run,"Albemarle County, USA",10.0,7.17,1h 11m
+194,81506583,victor kimutai,12378893267,Afternoon Run,,2024-09-10 20:50:06+00:00,5797,Run,"Albemarle County, USA",12.03,7.18,1h 26m
+195,81506583,victor kimutai,12370152486,Afternoon Run,,2024-09-09 21:43:56+00:00,4247,Run,"Albemarle County, USA",10.0,6.72,1h 7m
+196,81506583,victor kimutai,12524543227,Morning Run,,2024-09-28 13:01:58+00:00,5247,Run,"Albemarle County, USA",13.01,6.62,1h 26m
+197,81506583,victor kimutai,12515406931,Morning Run,,2024-09-27 10:42:45+00:00,5582,Run,"Albemarle County, USA",10.28,7.98,1h 22m
+198,81506583,victor kimutai,12512417647,Evening Run,,2024-09-26 22:28:15+00:00,775,Run,"Albemarle County, USA",1.56,7.62,11m 54s
+199,81506583,victor kimutai,12512417652,Afternoon Run,,2024-09-26 21:42:15+00:00,2434,Run,,5.95,,36m 26s
+200,81506583,victor kimutai,12512418044,Afternoon Run,,2024-09-26 21:04:06+00:00,1586,Run,"Albemarle County, USA",2.39,7.42,17m 43s
+201,81506583,victor kimutai,12504517286,Afternoon Run,,2024-09-25 20:57:41+00:00,5850,Run,"Albemarle County, USA",12.01,7.12,1h 25m
+202,81506583,victor kimutai,12496206883,Afternoon Run,,2024-09-24 21:04:26+00:00,6043,Run,"Charlottesville, USA",12.11,7.2,1h 27m
+203,81506583,victor kimutai,12487593492,Afternoon Run,,2024-09-23 21:01:51+00:00,7147,Run,"Albemarle County, USA",13.0,6.87,1h 29m
+204,81506583,victor kimutai,12584854760,Afternoon Run,,2024-10-05 20:31:08+00:00,5706,Run,"Albemarle County, USA",12.02,7.4,1h 28m
+205,81506583,victor kimutai,12575599252,Afternoon Run,,2024-10-04 21:07:11+00:00,5446,Run,"Albemarle County, USA",10.3,7.38,1h 15m
+206,81506583,victor kimutai,12568606359,Afternoon Run,,2024-10-03 21:04:17+00:00,6040,Run,"Albemarle County, USA",12.26,7.25,1h 28m
+207,81506583,victor kimutai,12560363066,Evening Run,,2024-10-02 22:27:31+00:00,1326,Run,"Albemarle County, USA",2.48,8.02,19m 57s
+208,81506583,victor kimutai,12560363091,Afternoon Run,,2024-10-02 21:35:30+00:00,2989,Run,,7.77,6.4,49m 47s
+209,81506583,victor kimutai,12560361666,Afternoon Run,,2024-10-02 20:54:24+00:00,1914,Run,"Albemarle County, USA",3.45,7.22,24m 59s
+210,81506583,victor kimutai,12551978008,Afternoon Run,,2024-10-01 20:51:56+00:00,5262,Run,"Albemarle County, USA",11.0,7.17,1h 18m
+211,81506583,victor kimutai,12543528011,Afternoon Run,,2024-09-30 20:58:45+00:00,5192,Run,"Albemarle County, USA",11.01,7.03,1h 17m
+212,81506583,victor kimutai,12641474307,Afternoon Run,,2024-10-12 21:09:06+00:00,4834,Run,"Albemarle County, USA",10.05,7.13,1h 11m
+213,81506583,victor kimutai,12631833008,Afternoon Run,,2024-10-11 19:27:27+00:00,4245,Run,"Albemarle County, USA",9.11,7.2,1h 5m
+214,81506583,victor kimutai,12624707872,Afternoon Run,,2024-10-10 19:24:28+00:00,6524,Run,"Charlottesville, USA",11.02,6.92,1h 16m
+215,81506583,victor kimutai,12617410072,Afternoon Run,,2024-10-09 21:02:10+00:00,5308,Run,"Albemarle County, USA",11.35,7.17,1h 21m
+216,81506583,victor kimutai,12609849713,Afternoon Run,,2024-10-08 20:56:47+00:00,5621,Run,"Albemarle County, USA",12.01,7.1,1h 25m
+217,81506583,victor kimutai,12601259145,Afternoon Run,,2024-10-07 21:01:02+00:00,6299,Run,"Albemarle County, USA",12.41,7.03,1h 27m
+218,81506583,victor kimutai,12665157986,Afternoon Run,,2024-10-15 21:16:36+00:00,4104,Run,"Albemarle County, USA",9.2,6.97,1h 4m
+219,81506583,victor kimutai,12656878445,Afternoon Run,,2024-10-14 21:16:37+00:00,5152,Run,"Albemarle County, USA",11.0,7.15,1h 18m
+220,110408620,Derek Holdsworth,10514350942,Easy long run,11 then .5 of strides,2024-01-07 18:32:53+00:00,5313,Run,"Seattle, USA",11.51,6.25,1h 11m
+221,110408620,Derek Holdsworth,10507207260,Morning Run,,2024-01-06 18:10:15+00:00,3782,Run,"Seattle, USA",8.14,6.55,53m 21s
+222,110408620,Derek Holdsworth,10500621638,Morning Run,"1x1200 50-50s 70-70-70
+1x200 28.2
+1x1k 2:02 jk stopped at 800.
+1xbroken 6 28-37-28
+3x250 sprint float sprint 35 35 33 
+Not the best workout honestly. Calf is annoyed.",2024-01-05 17:57:53+00:00,3680,Run,"Shoreline, USA",3.08,4.97,15m 17s
+223,110408620,Derek Holdsworth,10500621640,Morning Run,,2024-01-05 17:14:33+00:00,2103,Run,"Shoreline, USA",3.26,7.1,23m 8s
+224,110408620,Derek Holdsworth,10500621942,Lunch Run,,2024-01-04 19:38:03+00:00,805,Run,"Seattle, USA",0.81,8.48,6m 56s
+225,110408620,Derek Holdsworth,10500622000,Morning Run,,2024-01-04 18:55:30+00:00,1871,Run,"Seattle, USA",4.38,6.4,28m 3s
+226,110408620,Derek Holdsworth,10488342608,Lunch Run,,2024-01-03 19:04:41+00:00,492,Run,"Seattle, USA",0.49,5.02,2m 29s
+227,110408620,Derek Holdsworth,10488333221,Morning Run,,2024-01-03 17:48:06+00:00,4313,Run,"Seattle, USA",8.3,7.15,59m 19s
+228,110408620,Derek Holdsworth,10481990854,Coooool down,,2024-01-02 18:53:15+00:00,1190,Run,"Shoreline, USA",2.05,7.57,15m 34s
+229,110408620,Derek Holdsworth,10481990853,Usual broken Day,"Curt came thru so that was sick 
+200 27.5
+2xbroken 6 30-39-30 30-38-29 
+1k broken 31-36-31-36-29
+2xbroken 6 30-40-28 30-38-25
+4 mins rest 
+Standing start 200 24.4",2024-01-02 18:04:30+00:00,2100,Run,"Shoreline, USA",3.12,5.65,17m 40s
+230,110408620,Derek Holdsworth,10481997578,Morning Run,,2024-01-02 17:07:08+00:00,2245,Run,"Shoreline, USA",3.37,7.18,24m 17s
+231,110408620,Derek Holdsworth,10476010729,Afternoon Run,,2024-01-01 21:11:08+00:00,1113,Run,"Seattle, USA",1.29,7.48,9m 41s
+232,110408620,Derek Holdsworth,10476005541,Lunch Run,+1.25 that I missed,2024-01-01 20:19:47+00:00,2600,Run,"Seattle, USA",4.08,6.12,25m 2s
+233,110408620,Derek Holdsworth,10560540401,Afternoon Run,,2024-01-14 22:43:21+00:00,4880,Run,"Seattle, USA",11.0,6.2,1h 8m
+234,110408620,Derek Holdsworth,10553774901,Afternoon Run,,2024-01-14 00:40:20+00:00,3213,Run,"Seattle, USA",7.1,6.63,47m 5s
+235,110408620,Derek Holdsworth,10553774848,Afternoon Run,,2024-01-14 01:39:04+00:00,807,Run,"Seattle, USA",0.54,4.9,2m 39s
+236,110408620,Derek Holdsworth,10546048768,Afternoon Run,Cool down,2024-01-12 21:47:30+00:00,645,Run,,1.52,7.05,10m 45s
+237,110408620,Derek Holdsworth,10545983495,Afternoon Run,4x150 @22,2024-01-12 21:37:03+00:00,390,Run,,0.28,7.52,2m 6s
+238,110408620,Derek Holdsworth,10545945857,Thank god for indoor,"200 @25
+3x300 38.0 37.9 36.6 
+4x200 30 29 29 30",2024-01-12 20:32:06+00:00,3008,Run,,0.9,7.13,6m 27s
+239,110408620,Derek Holdsworth,10545615737,Lunch Run,,2024-01-12 19:50:29+00:00,1317,Run,,3.29,6.67,21m 57s
+240,110408620,Derek Holdsworth,10541441366,Lunch Run,,2024-01-11 19:28:55+00:00,2174,Run,"Seattle, USA",5.0,6.15,30m 49s
+241,110408620,Derek Holdsworth,10532915599,Morning Run,,2024-01-10 18:38:05+00:00,623,Run,"Seattle, USA",0.32,6.18,2m 2s
+242,110408620,Derek Holdsworth,10532653804,Morning Run,,2024-01-10 17:42:16+00:00,2474,Run,"Seattle, USA",4.76,6.38,30m 26s
+243,110408620,Derek Holdsworth,10526562866,Cooldown yog,,2024-01-09 19:04:40+00:00,301,Run,"Shoreline, USA",0.58,8.65,5m 1s
+244,110408620,Derek Holdsworth,10526562886,Werk,"5x100 shift at 80
+2x200 fluid 27.2 26.4
+4x3 155s jog recovery 3-4 mins between sets 
+1x200 fluid 28.2
+Good to have Tristan Heinicke drop me the whole time 🫠",2024-01-09 17:47:24+00:00,3921,Run,"Shoreline, USA",2.16,5.3,11m 28s
+245,110408620,Derek Holdsworth,10526577357,Morning Run,,2024-01-09 17:07:19+00:00,1717,Run,"Shoreline, USA",3.43,6.72,23m 6s
+246,110408620,Derek Holdsworth,10526562844,Morning Run,,2024-01-08 18:04:11+00:00,477,Run,"Seattle, USA",0.71,4.87,3m 28s
+247,110408620,Derek Holdsworth,10526562927,Morning Run,,2024-01-08 17:22:57+00:00,2127,Run,"Seattle, USA",4.46,6.2,27m 41s
+248,110408620,Derek Holdsworth,10604838554,Afternoon Run,,2024-01-21 23:28:14+00:00,4846,Run,"Seattle, USA",10.67,6.35,1h 7m
+249,110408620,Derek Holdsworth,10596566351,Morning Run,Joined Zay at about half way,2024-01-20 17:21:00+00:00,3784,Run,"Seattle, USA",8.0,6.47,51m 47s
+250,110408620,Derek Holdsworth,10590061553,Cool down,,2024-01-19 19:28:09+00:00,945,Run,"Shoreline, USA",2.1,7.4,15m 34s
+251,110408620,Derek Holdsworth,10590061559,Morning Run,"200 27 
+2 laps of 50-50s 2:12
+1 lap of 50-50s 65
+3x3 300 with 100 walk 42-43-42 44 42 42 42 42 40",2024-01-19 18:09:10+00:00,2558,Run,"Shoreline, USA",2.75,4.7,12m 55s
+252,110408620,Derek Holdsworth,10589500334,Morning Run,,2024-01-19 17:13:41+00:00,1956,Run,"Shoreline, USA",3.19,7.13,22m 46s
+253,110408620,Derek Holdsworth,10584035893,Morning Run,,2024-01-18 18:18:52+00:00,3409,Run,"Seattle, USA",8.0,6.95,55m 34s
+254,110408620,Derek Holdsworth,10577736117,Morning Run,,2024-01-17 17:56:44+00:00,3088,Run,"Seattle, USA",6.0,5.95,35m 46s
+255,110408620,Derek Holdsworth,10571525175,Longer cool down,Glad I had a decent end to a mess of a workout 🙃,2024-01-16 19:07:03+00:00,878,Run,"Shoreline, USA",1.94,7.5,14m 38s
+256,110408620,Derek Holdsworth,10571525139,8x100,8x100 with 45 rest,2024-01-16 18:49:54+00:00,438,Run,"Shoreline, USA",0.68,10.57,7m 15s
+257,110408620,Derek Holdsworth,10571525143,Morning Run,"1x1200 50-50s 
+Drills 
+1x800 50-50s 
+4x200 at 28-29 with walk 100",2024-01-16 18:04:09+00:00,1450,Run,"Shoreline, USA",1.82,4.95,9m 1s
+258,110408620,Derek Holdsworth,10570838534,Morning Run,,2024-01-16 17:26:34+00:00,1461,Run,"Shoreline, USA",2.81,7.23,20m 21s
+259,110408620,Derek Holdsworth,10570838506,Morning Run,,2024-01-16 17:10:15+00:00,227,Run,"Shoreline, USA",0.51,7.42,3m 47s
+260,110408620,Derek Holdsworth,10564381687,Morning Run,,2024-01-15 17:19:32+00:00,868,Run,"Seattle, USA",1.49,6.7,10m 2s
+261,110408620,Derek Holdsworth,10647942260,Longish run,"Some stop and go navigating some blocks 
+Met a runner who help me grind some sub 6s in the middle before we parted ways pretty cool guy!",2024-01-28 14:05:04+00:00,3950,Run,"Manhattan, USA",10.0,6.3,1h 3m
+262,110408620,Derek Holdsworth,10641973473,Indoor 8 PR,"Post 1:47.5 
+Tempo with the boys",2024-01-27 17:53:45+00:00,2729,Run,"Manhattan, USA",5.42,6.58,35m 44s
+263,110408620,Derek Holdsworth,10641171907,Lunch Run,,2024-01-27 16:29:24+00:00,620,Run,"Manhattan, USA",0.84,8.88,7m 28s
+264,110408620,Derek Holdsworth,10639528149,Morning Run,,2024-01-27 13:20:21+00:00,430,Run,"Manhattan, USA",0.7,7.33,5m 12s
+265,110408620,Derek Holdsworth,10634532631,Lunch Run,,2024-01-26 16:36:23+00:00,2311,Run,,1.55,4.45,6m 55s
+266,110408620,Derek Holdsworth,10634035538,Morning Run,,2024-01-26 15:56:22+00:00,1389,Run,"Manhattan, USA",2.7,8.07,21m 50s
+267,110408620,Derek Holdsworth,10630553473,Central Park is cool!,"Running there is not 😂
+I also ran a little over 32 mins and somehow didn’t have 5 miles recorded 🥲",2024-01-25 23:44:03+00:00,2735,Run,"Manhattan, USA",3.99,6.62,26m 25s
+268,110408620,Derek Holdsworth,10624186523,Morning Run,Really 7 miles with jump rope strides,2024-01-24 17:54:58+00:00,3479,Run,"Seattle, USA",6.67,6.4,42m 39s
+269,110408620,Derek Holdsworth,10615363739,Shuffle,"1200 
+20 min run 
+120s 
+200 26
+3xbroken 6 29-36-28 30-36-27 29-37-27
+200 26
+2 mile cool down",2024-01-23 17:09:24+00:00,5720,Run,"Shoreline, USA",7.0,7.03,49m 16s
+270,110408620,Derek Holdsworth,10609616478,Morning Run,,2024-01-22 18:22:19+00:00,978,Run,"Shoreline, USA",2.0,6.48,12m 59s
+271,110408620,Derek Holdsworth,10609616395,Morning Run,,2024-01-22 17:39:09+00:00,2465,Run,"Shoreline, USA",1.65,4.35,7m 12s
+272,110408620,Derek Holdsworth,10608396187,Morning Run,,2024-01-22 17:02:22+00:00,1869,Run,"Shoreline, USA",3.53,6.58,23m 15s
+273,110408620,Derek Holdsworth,10695982494,This sport is corny,,2024-02-04 15:31:07+00:00,1610,Run,"Boston, USA",2.99,6.82,20m 26s
+274,110408620,Derek Holdsworth,10690013103,Pace,"Didn’t catch 600 split 
+1:04.65 at 500 pretty evenly 
+Off to Boston 🫠",2024-02-03 20:09:22+00:00,78,Run,,0.4,3.25,1m 18s
+275,110408620,Derek Holdsworth,10689822856,Afternoon Run,,2024-02-03 19:15:55+00:00,789,Run,"Ames, USA",1.97,6.65,13m 9s
+276,110408620,Derek Holdsworth,10689541733,Lunch Run,,2024-02-03 17:58:43+00:00,927,Run,"Ames, USA",0.88,7.38,6m 32s
+277,110408620,Derek Holdsworth,10688413372,Morning Run,,2024-02-03 15:36:43+00:00,656,Run,"Ames, USA",1.57,6.72,10m 36s
+278,110408620,Derek Holdsworth,10683616882,Longer cooldown,1.5 indoors,2024-02-02 22:59:31+00:00,660,Run,,1.5,7.33,11m 0s
+279,110408620,Derek Holdsworth,10683614410,Lunch Run,,2024-02-02 18:51:24+00:00,261,Run,,0.64,6.8,4m 21s
+280,110408620,Derek Holdsworth,10683614322,Lunch Run,,2024-02-02 18:22:37+00:00,1022,Run,,0.55,3.4,1m 53s
+281,110408620,Derek Holdsworth,10683614371,Lunch Run,,2024-02-02 17:38:42+00:00,1302,Run,"Ames, USA",2.95,6.77,19m 59s
+282,110408620,Derek Holdsworth,10683614321,Lunch Run,,2024-02-02 17:16:13+00:00,602,Run,,1.53,6.55,10m 2s
+283,110408620,Derek Holdsworth,10683613708,Evening Run,,2024-02-02 00:24:36+00:00,2040,Run,"Ames, USA",4.48,6.58,29m 31s
+284,110408620,Derek Holdsworth,10669712790,Morning Run,,2024-01-31 18:18:55+00:00,249,Run,"Seattle, USA",0.37,4.97,1m 51s
+285,110408620,Derek Holdsworth,10668932707,Morning Run,,2024-01-31 16:47:46+00:00,2833,Run,"Seattle, USA",5.12,6.62,33m 51s
+286,110408620,Derek Holdsworth,10664549275,Double,Nothing like running to the car shop to pick up your car 🙃,2024-01-30 23:47:33+00:00,1670,Run,"Seattle, USA",4.15,6.32,26m 17s
+287,110408620,Derek Holdsworth,10662196812,Fun lil thing,"1x200 
+28.2 
+3x400 push 100 1:10s with 300 recovery",2024-01-30 18:00:06+00:00,1338,Run,"Shoreline, USA",1.14,5.0,5m 44s
+288,110408620,Derek Holdsworth,10662198393,Morning Run,,2024-01-30 17:08:50+00:00,2948,Run,"Shoreline, USA",3.24,7.15,23m 13s
+289,110408620,Derek Holdsworth,10654668984,Morning Run,,2024-01-29 16:40:14+00:00,2414,Run,"Seattle, USA",5.35,6.17,33m 2s
+290,110408620,Derek Holdsworth,10743539931,Post pace session,"8x200 with 200 jog walk 100 every 3rd one 
+2x200 in 25 with 3 mins rest",2024-02-11 20:02:29+00:00,1690,Run,,2.0,6.15,12m 21s
+291,110408620,Derek Holdsworth,10742967802,Afternoon Run,,2024-02-11 18:48:11+00:00,608,Run,"Manhattan, USA",1.04,7.12,7m 27s
+292,110408620,Derek Holdsworth,10741354936,GPS hates New York,Shake out before WR pace,2024-02-11 14:54:48+00:00,421,Run,"Manhattan, USA",1.11,5.22,5m 49s
+293,110408620,Derek Holdsworth,10736594229,Afternoon Run,,2024-02-10 21:11:44+00:00,1282,Run,,0.62,6.0,3m 44s
+294,110408620,Derek Holdsworth,10736594245,Afternoon Run,,2024-02-10 20:52:07+00:00,910,Run,"Manhattan, USA",1.67,7.18,12m 2s
+295,110408620,Derek Holdsworth,10736594221,Afternoon Run,,2024-02-10 20:30:31+00:00,773,Run,,1.59,6.33,10m 5s
+296,110408620,Derek Holdsworth,10730858493,Morning Run,,2024-02-09 17:50:27+00:00,3553,Run,"Seattle, USA",8.0,6.25,49m 59s
+297,110408620,Derek Holdsworth,10723250089,Actually 7.1,Watch was trippin,2024-02-08 18:57:38+00:00,2944,Run,"Seattle, USA",6.81,6.53,44m 33s
+298,110408620,Derek Holdsworth,10716822941,No more food poisoning 🙌🏽,"500 1:10 
+2x4x200 
+30-29-28-27
+28-28-26-26",2024-02-07 18:29:45+00:00,2125,Run,"Shoreline, USA",1.86,4.88,9m 6s
+299,110408620,Derek Holdsworth,10716231278,Morning Run,,2024-02-07 17:44:54+00:00,1721,Run,"Shoreline, USA",1.99,6.57,13m 6s
+300,110408620,Derek Holdsworth,10782151468,Morning Run,,2024-02-17 18:15:20+00:00,1924,Run,"Seattle, USA",5.0,6.18,30m 57s
+301,110408620,Derek Holdsworth,10775208275,Cool down,,2024-02-16 19:05:54+00:00,1369,Run,"Shoreline, USA",3.0,7.2,21m 38s
+302,110408620,Derek Holdsworth,10775208264,Light session compared to usual,"2x2 27.2 28.8 
+600 28-38-29 
+1k 30-39-30-39-29
+600 28-38-26
+2x2 1 standing start 1 jog in 24.2 23.8 idk how I roll up Gabriel Kary and he gets the CR 😭😂",2024-02-16 18:10:17+00:00,2204,Run,"Shoreline, USA",2.42,5.4,13m 4s
+303,110408620,Derek Holdsworth,10775214265,Warm up,,2024-02-16 17:08:50+00:00,1755,Run,"Shoreline, USA",2.92,7.03,20m 34s
+304,110408620,Derek Holdsworth,10768534111,Morning Run,,2024-02-15 17:56:02+00:00,3111,Run,"Seattle, USA",8.0,6.25,50m 3s
+305,110408620,Derek Holdsworth,10762215604,Run and circuit,"3x7-9-11s 
+200 jump rope 
+400 jog",2024-02-14 17:58:03+00:00,2700,Run,"Seattle, USA",5.07,6.35,32m 16s
+306,110408620,Derek Holdsworth,10755781039,Booldown,,2024-02-13 18:59:41+00:00,1412,Run,"Shoreline, USA",3.01,7.62,22m 57s
+307,110408620,Derek Holdsworth,10755551847,Sheesh,"thought I’d feel like trash after travel 
+400 @ 56.2 
+3x150 sprint float sprint 19.2 18.8 18.4
+3x500,300 1:15 41 1:15 41 1:14 42 
+1x300 fluid 37.2",2024-02-13 17:58:00+00:00,3314,Run,"Shoreline, USA",2.59,4.15,10m 46s
+308,110408620,Derek Holdsworth,10754987268,Warm up activities,,2024-02-13 17:07:59+00:00,2003,Run,"Shoreline, USA",3.37,7.53,25m 25s
+309,110408620,Derek Holdsworth,10747079882,Concrete jungle,Happy with how this went. Body has been unhappy since coming back from sickness.,2024-02-12 13:41:20+00:00,3715,Run,"Manhattan, USA",10.0,6.07,1h 0m
+310,110408620,Derek Holdsworth,10836890753,Cappin off the week,Windiest run I’ve had in a longgggg time thanks Tristan Heinicke and Gabriel Kary for dropping me 😭,2024-02-25 18:08:30+00:00,5428,Run,"Seattle, USA",12.75,6.12,1h 18m
+311,110408620,Derek Holdsworth,10829144632,Rest from workouts this week,,2024-02-24 18:37:51+00:00,1680,Run,,3.5,8.0,28m 0s
+312,110408620,Derek Holdsworth,10829096377,Morning Run,,2024-02-24 17:54:10+00:00,3414,Run,"Seattle, USA",8.01,6.85,54m 51s
+313,110408620,Derek Holdsworth,10829096872,Evening Run,,2024-02-24 03:52:30+00:00,876,Run,,2.57,5.67,14m 36s
+314,110408620,Derek Holdsworth,10829096307,Evening Run,,2024-02-24 02:15:56+00:00,1893,Run,"Seattle, USA",1.22,3.95,4m 49s
+315,110408620,Derek Holdsworth,10829096310,Afternoon Run,,2024-02-24 00:54:29+00:00,761,Run,"Seattle, USA",1.09,7.62,8m 18s
+316,110408620,Derek Holdsworth,10829096320,Lunch Run,,2024-02-23 20:55:10+00:00,602,Run,"Seattle, USA",1.56,6.43,10m 2s
+317,110408620,Derek Holdsworth,10815844723,Most discombobulated pre meet ever,What are we even doing??,2024-02-22 19:00:52+00:00,509,Run,"Shoreline, USA",0.47,3.97,1m 53s
+318,110408620,Derek Holdsworth,10815844864,Morning Run,,2024-02-22 18:06:23+00:00,2141,Run,"Shoreline, USA",2.89,6.82,19m 46s
+319,110408620,Derek Holdsworth,10809064451,Morning Run,,2024-02-21 17:35:01+00:00,1954,Run,"Seattle, USA",4.22,6.53,27m 35s
+320,110408620,Derek Holdsworth,10802775287,Lunch Run,,2024-02-20 19:11:31+00:00,1347,Run,"Shoreline, USA",3.0,7.47,22m 27s
+321,110408620,Derek Holdsworth,10802775226,Morning Run,"3x150 20s 
+1x150 18.6 
+300 sprint float sprint 13-14-13 
+2xbroken 6 28-38-29 29-38-28
+1k broken 31-36-31-39-30 
+400 51.8",2024-02-20 18:09:50+00:00,2197,Run,"Shoreline, USA",2.18,4.35,9m 29s
+322,110408620,Derek Holdsworth,10802775288,Morning Run,,2024-02-20 17:10:23+00:00,2062,Run,"Shoreline, USA",3.46,7.53,26m 4s
+323,110408620,Derek Holdsworth,10795179256,Morning Run,"3x3 38.2 38.6 38.2 
+3x150 sprint float sprint 19.2 18.8 18.3",2024-02-19 18:00:15+00:00,1838,Run,"Shoreline, USA",0.94,3.67,3m 28s
+324,110408620,Derek Holdsworth,10795166980,Morning Run,,2024-02-19 17:09:05+00:00,1816,Run,"Shoreline, USA",2.88,6.68,19m 16s
+325,110408620,Derek Holdsworth,10884295535,Lunch Run,,2024-03-03 19:07:57+00:00,4166,Run,"Seattle, USA",9.32,6.3,58m 44s
+326,110408620,Derek Holdsworth,10876153452,Morning Run,Had to throw down on the dude jogging in alphaflys,2024-03-02 17:33:29+00:00,3699,Run,"Seattle, USA",8.62,6.05,52m 10s
+327,110408620,Derek Holdsworth,10869448149,Last easy day session,"300 14-17-15 
+1k 30-40-31-40-30
+300 14-17-15
+1k 30-39-30-39-29
+300 13-15-13",2024-03-01 18:50:48+00:00,1189,Run,"Shoreline, USA",2.03,5.02,10m 12s
+328,110408620,Derek Holdsworth,10869117907,Morning Run,,2024-03-01 17:55:30+00:00,1615,Run,"Shoreline, USA",2.91,6.72,19m 35s
+329,110408620,Derek Holdsworth,10863539284,Lunch Run,,2024-02-29 19:31:39+00:00,1948,Run,"Seattle, USA",5.08,6.23,31m 42s
+330,110408620,Derek Holdsworth,10856903319,Lunch Run,,2024-02-28 19:12:20+00:00,1947,Run,"Seattle, USA",5.01,6.32,31m 41s
+331,110408620,Derek Holdsworth,10849597941,Morning Run,,2024-02-27 18:49:31+00:00,1062,Run,"Shoreline, USA",1.62,7.37,11m 57s
+332,110408620,Derek Holdsworth,10849588925,Morning Run,,2024-02-27 17:59:47+00:00,2770,Run,"Shoreline, USA",3.11,5.02,15m 38s
+333,110408620,Derek Holdsworth,10849588852,Morning Run,,2024-02-27 17:11:36+00:00,2805,Run,"Shoreline, USA",3.34,7.0,23m 23s
+334,110408620,Derek Holdsworth,10842192408,Morning Run,,2024-02-26 17:51:18+00:00,2550,Run,"Seattle, USA",6.27,6.67,41m 49s
+335,110408620,Derek Holdsworth,10933138263,Drizzle drizzle,Thank you Tristan Heinicke for getting me to the end of that run and the Dave’s hot chicken,2024-03-10 19:36:48+00:00,4748,Run,"Seattle, USA",11.06,6.57,1h 12m
+336,110408620,Derek Holdsworth,10925025865,Morning Run,,2024-03-09 17:47:58+00:00,1973,Run,"Seattle, USA",5.01,6.22,31m 9s
+337,110408620,Derek Holdsworth,10919576824,Wowwww,"3 laps 
+Drills 
+1 lap and out on the course and back 
+7-9-11s
+1x200 in 26.1 
+5xbroken 6 30-36-30 31-38-30 30-38-30 30-38-29 29-38-26 
+5xhill 
+1x200 “23.8” 
+1 mile cool down",2024-03-08 18:15:08+00:00,3714,Run,"Seattle, USA",3.82,5.7,21m 47s
+338,110408620,Derek Holdsworth,10919576812,Morning Run,,2024-03-08 17:16:02+00:00,1710,Run,"Seattle, USA",2.36,7.3,17m 16s
+339,110408620,Derek Holdsworth,10912003948,Easy miles,Nice run with Sam and Mitch Rees-Jones,2024-03-07 18:51:04+00:00,3417,Run,"Seattle, USA",7.1,6.78,48m 11s
+340,110408620,Derek Holdsworth,10904525553,Morning Run,"3 lap warm up 
+recovery run
+Hill Strides",2024-03-06 17:03:06+00:00,4538,Run,"Seattle, USA",8.05,6.4,51m 31s
+341,110408620,Derek Holdsworth,10898372379,Lunch Run,"3x200 standing start at first 200 of 8 feel 
+600 split 60-26
+500 split 45-26
+250 31",2024-03-05 19:36:28+00:00,3250,Run,"Shoreline, USA",1.8,4.35,7m 51s
+342,110408620,Derek Holdsworth,10898381446,Morning Run,,2024-03-05 18:57:20+00:00,1699,Run,"Shoreline, USA",2.85,7.42,21m 11s
+343,110408620,Derek Holdsworth,10889549938,Morning Run,,2024-03-04 17:18:47+00:00,1968,Run,"Seattle, USA",5.15,6.37,32m 48s
+344,110408620,Derek Holdsworth,10980332325,Missing a mile,Sinus infection cut this long run short. Thank god it’s now and not two weeks from now,2024-03-17 15:02:28+00:00,2308,Run,"Buenos Aires, Argentina",4.23,6.93,29m 24s
+345,110408620,Derek Holdsworth,10967534368,Recovery/double,So many people working out around here it was sick to see,2024-03-15 22:03:59+00:00,2231,Run,"Buenos Aires, Argentina",5.76,5.88,33m 53s
+346,110408620,Derek Holdsworth,10965655564,Lots of straight 220s,"Really interesting running on a single lane track 
+12x220 with 220 jog",2024-03-15 15:39:02+00:00,3577,Run,"Buenos Aires, Argentina",3.02,5.12,15m 30s
+347,110408620,Derek Holdsworth,10961282310,Plus 1 .25 mile warm up there 1.25 mile back,8 very long 1 mile loops and strides,2024-03-14 15:02:05+00:00,3841,Run,"Buenos Aires, Argentina",8.64,5.97,51m 38s
+348,110408620,Derek Holdsworth,10943971903,Morning Run,,2024-03-12 15:38:40+00:00,1532,Run,"Seattle, USA",3.0,6.37,19m 7s
+349,110408620,Derek Holdsworth,10937628013,L workout day,"Still tired from springing forward and it showed
+1x200 at 27
+5x300 200-100 31-13 30-13 30-13 29-13 28-13 
+2x100 13.3 12.8",2024-03-11 16:29:20+00:00,1567,Run,"Shoreline, USA",1.32,4.03,5m 21s
+350,110408620,Derek Holdsworth,10937121344,Yikes,Half assed attempt of 50-50s,2024-03-11 16:09:39+00:00,251,Run,"Shoreline, USA",0.56,5.65,3m 12s
+351,110408620,Derek Holdsworth,10937089627,Morning Run,,2024-03-11 15:17:56+00:00,2978,Run,"Shoreline, USA",2.83,6.78,19m 15s
+352,110408620,Derek Holdsworth,11031440583,☀️,An amazing day for a long run,2024-03-24 19:46:32+00:00,5147,Run,"Seattle, USA",12.0,6.18,1h 14m
+353,110408620,Derek Holdsworth,11022999258,Rain rain go away please god don’t come back another day 🎶🎵,Drowning on this recovery run,2024-03-23 16:45:40+00:00,3207,Run,"Seattle, USA",8.0,6.3,50m 27s
+354,110408620,Derek Holdsworth,11017498858,Morning Run,"2 laps of 50-50s 
+Accelerations 
+2x300 in 38
+1x1k 31-40-30-40-28
+1x800 61.3/55.6 1:56.9
+3x150 21 20 20",2024-03-22 17:02:16+00:00,6214,Run,"Shoreline, USA",2.34,4.38,10m 16s
+355,110408620,Derek Holdsworth,11017498982,Warm up,,2024-03-22 16:19:56+00:00,2445,Run,"Shoreline, USA",3.26,10.17,33m 13s
+356,110408620,Derek Holdsworth,11009552965,Morning Run,No real witty caption today,2024-03-21 17:30:38+00:00,3190,Run,"Seattle, USA",6.49,6.73,43m 48s
+357,110408620,Derek Holdsworth,11005153048,Hanging on to Caroline,,2024-03-21 02:18:37+00:00,1972,Run,"Seattle, USA",4.77,6.85,32m 44s
+358,110408620,Derek Holdsworth,11002443563,Morning Run,"71 Training Load.
+-- from COROS",2024-03-20 17:54:12+00:00,2104,Run,"Seattle, USA",3.71,6.12,22m 44s
+359,110408620,Derek Holdsworth,11078345934,Last day at the jock 🙌🏽🙌🏽🙌🏽,,2024-03-31 16:30:30+00:00,3153,Run,"Seattle, USA",8.12,6.23,50m 40s
+360,110408620,Derek Holdsworth,11072233689,Big recovery day,Fun stuff on the way,2024-03-30 20:37:46+00:00,1806,Run,"Seattle, USA",4.27,6.18,26m 28s
+361,110408620,Derek Holdsworth,11065555476,Double with will,,2024-03-29 23:58:41+00:00,2840,Run,"Seattle, USA",5.03,6.72,33m 49s
+362,110408620,Derek Holdsworth,11064769357,The wrath of Johnson,"2 laps of 50-50s 69-67 
+Lots of accelerations 
+2x300 37.9 38.0
+2x500 thru in 58 then close in 13 and 12 
+2x300 cutdown 17-15-12x2 😬
+3x100 cool down strides 
+
+Idk what it was about this workout but Johnson was on one and decided to absolutely cook us every single step of the way.
+
+Featured is a photo of me fighting for my life",2024-03-29 17:17:31+00:00,5471,Run,"Shoreline, USA",2.12,4.32,9m 9s
+363,110408620,Derek Holdsworth,11063342971,Pre heating the oven,Moments before Johnson unleashed his wrath on Tristan Heinicke and I,2024-03-29 16:40:38+00:00,1937,Run,"Shoreline, USA",3.26,7.07,23m 4s
+364,110408620,Derek Holdsworth,11056656503,"Note to Seattle drivers, PAY ATTENTION!!!!!",The amount of times cars have pulled out in front of me and I’ve run into them is insane. Especially around blind corners. I think I’m at 12 of these since January. Maybe I’m the problem maybe drivers are too busy on their damn phones or just don’t care. Literally got railed by a car two feet from my house 😐😐😐,2024-03-28 17:14:25+00:00,2700,Run,"Seattle, USA",6.11,6.48,39m 37s
+365,110408620,Derek Holdsworth,11050351877,Circuit stuff,,2024-03-27 16:59:58+00:00,4696,Run,"Seattle, USA",4.87,6.63,32m 20s
+366,110408620,Derek Holdsworth,11043556187,Cool down,,2024-03-26 18:15:10+00:00,1309,Run,"Shoreline, USA",3.0,7.23,21m 45s
+367,110408620,Derek Holdsworth,11043319577,Morning Run,"2 laps of 50s
+Accelerations 
+5xbroken 6 30-40-30 thru mosr then 29-36-26 last one 
+3x200 27 26 25 
+1xhelp Caroline Alcorta with last reps which was big fun",2024-03-26 16:51:16+00:00,4258,Run,"Shoreline, USA",3.21,4.6,14m 48s
+368,110408620,Derek Holdsworth,11043318234,Warm up,Can’t wait for 65 degrees!,2024-03-26 16:06:22+00:00,2319,Run,"Shoreline, USA",3.16,7.18,22m 45s
+369,110408620,Derek Holdsworth,11035813819,Morning Run,"53 Training Load.
+-- from COROS",2024-03-25 16:26:15+00:00,2038,Run,"Seattle, USA",4.13,6.58,27m 12s
+370,110408620,Derek Holdsworth,11129861735,Morning Run,"115 Training Load.
+-- from COROS",2024-04-07 17:35:05+00:00,3230,Run,"Seattle, USA",8.09,6.4,51m 47s
+371,110408620,Derek Holdsworth,11121476413,Shady with the boys,"Thanks to Sawyer Heckard and Zachary Holloway for getting me out of bed and taking me on one of my favorite runs
+
++6x150 at 20",2024-04-06 16:44:01+00:00,5353,Run,"Monmouth, USA",10.07,6.42,1h 4m
+372,110408620,Derek Holdsworth,11115621857,John Knight 800,"Got the meet record tonight in 1:49 which was cool. Especially since I have nothing here at WOU😂
+Cold rainy run but much happier than last time I ran 1:49. Last year I was sulking and questioning fitness. Waaaaaay different fitness and headspace today.",2024-04-06 03:30:49+00:00,109,Run,,0.5,3.63,1m 49s
+373,110408620,Derek Holdsworth,11115585932,Baby cool down,,2024-04-06 02:32:15+00:00,618,Run,"Monmouth, USA",1.15,8.88,10m 18s
+374,110408620,Derek Holdsworth,11115464201,15 pace,"Fun to pace Bailey Smith
+Good to see the town again",2024-04-06 02:09:04+00:00,174,Run,"Monmouth, USA",0.66,4.28,2m 51s
+375,110408620,Derek Holdsworth,11115321816,Evening Run,"12 Training Load.
+-- from COROS",2024-04-06 01:15:42+00:00,581,Run,"Monmouth, USA",1.26,7.68,9m 41s
+376,110408620,Derek Holdsworth,11114948875,Afternoon Run,"10 Training Load.
+-- from COROS",2024-04-05 23:31:55+00:00,661,Run,"Monmouth, USA",0.9,7.18,6m 31s
+377,110408620,Derek Holdsworth,11113805209,Morning shakeout,,2024-04-05 18:54:42+00:00,602,Run,"Independence, USA",1.48,6.77,10m 2s
+378,110408620,Derek Holdsworth,11109086013,Pre meet,"9 Training Load is crazy 
+
+300-200-150 39.6 26.8 19.1",2024-04-05 01:12:09+00:00,1288,Run,"Monmouth, USA",0.93,6.17,5m 45s
+379,110408620,Derek Holdsworth,11108738090,Afternoon Run,"41 Training Load.
+-- from COROS",2024-04-05 00:04:45+00:00,2129,Run,"Monmouth, USA",3.14,6.42,20m 11s
+380,110408620,Derek Holdsworth,11100259866,Morning Run,"84 Training Load.
+-- from COROS",2024-04-03 17:42:34+00:00,5319,Run,"Seattle, USA",6.0,6.48,38m 56s
+381,110408620,Derek Holdsworth,11093506397,Light workout day,"2 laps of 50-50s 2:09.69 65.69-64.00 
+Lots and I mean lots of accelerations 
+1x200 in 28.2 
+1x pace 520 at 1:27 effort for 600 29-29-14 
+3x3-2-1 with walk 50 jog 50 then walk a lap
+39.9 27.1 12.8 
+40.1 27.1 13.0 
+38.8 26.6 12.8 
+Wind went crazy today funny how the effort stayed the same but the wind didn’t 😂",2024-04-02 19:05:31+00:00,5498,Run,"Shoreline, USA",2.18,4.2,9m 11s
+382,110408620,Derek Holdsworth,11093506442,Warm up yog with the goat,Not featured 4 lap jog before,2024-04-02 18:42:57+00:00,1131,Run,"Shoreline, USA",2.51,7.22,18m 9s
+383,110408620,Derek Holdsworth,11085629485,Morning Run,"2 laps 
+Drills 
+2.5 miles 
+Accelerations 
+4x200 stride with 200 jog 
+30 31 29 28 
+Jog mile",2024-04-01 17:20:15+00:00,4011,Run,"Shoreline, USA",4.94,6.13,30m 19s
+384,110408620,Derek Holdsworth,11176597651,Evening Run,"6 Training Load.
+-- from COROS",2024-04-14 02:51:26+00:00,326,Run,"Azusa, USA",0.68,7.73,5m 16s
+385,110408620,Derek Holdsworth,11176433270,Evening Run,"12 Training Load.
+-- from COROS",2024-04-14 02:23:37+00:00,1026,Run,"Azusa, USA",1.19,7.62,9m 4s
+386,110408620,Derek Holdsworth,11174745772,Lunch Run,"26 Training Load.
+-- from COROS",2024-04-13 18:55:12+00:00,772,Run,"West Covina, USA",1.78,6.68,11m 56s
+387,110408620,Derek Holdsworth,11167447415,Pre meet,"Accelerations 
+3x300 with 3 mins rest 
+42.2 44.4 42.7 
+Couple laps on turf 
+
+Hoping this goes well!",2024-04-12 22:18:57+00:00,1441,Run,"La Verne, USA",1.87,5.32,9m 58s
+388,110408620,Derek Holdsworth,11167447525,Afternoon Run,"42 Training Load.
+-- from COROS",2024-04-12 21:48:09+00:00,1240,Run,"La Verne, USA",3.1,6.5,20m 9s
+389,110408620,Derek Holdsworth,11161674687,Evening Run,"34 Training Load.
+-- from COROS",2024-04-12 03:41:23+00:00,1262,Run,"West Covina, USA",2.22,6.55,14m 34s
+390,110408620,Derek Holdsworth,11159672299,Wanted to see what the HR band said for these,Just some 7-9-11s,2024-04-11 17:25:13+00:00,358,Run,"Shoreline, USA",0.45,13.08,5m 57s
+391,110408620,Derek Holdsworth,11159665724,Morning Run,"78 Training Load.
+-- from COROS",2024-04-11 16:41:34+00:00,2287,Run,"Shoreline, USA",4.0,6.53,26m 10s
+392,110408620,Derek Holdsworth,11153913617,Shake out,,2024-04-11 01:05:44+00:00,838,Run,"Seattle, USA",2.02,6.47,13m 6s
+393,110408620,Derek Holdsworth,11152620628,Lunch Run,"87 Training Load.
+-- from COROS",2024-04-10 19:26:09+00:00,4407,Run,"Seattle, USA",5.16,6.35,32m 49s
+394,110408620,Derek Holdsworth,11144358811,Light session,"2 laps 
+Drills 
+15 min run 
+3x laps of 50-50s 72-70-68 
+150 22.1
+3x500 1:17 1:14 1:12
+6x100 easy",2024-04-09 16:36:18+00:00,5593,Run,"Shoreline, USA",5.49,6.05,33m 13s
+395,110408620,Derek Holdsworth,11138837411,Afternoon Run,"10 mins 
+Drills 
+5x60 
+Whatever run Will took me on 
+5x200 alternate pace with 100 walk 30-27-29-27-29 
+3x120 from 15 start 
+2 lap cool down",2024-04-09 00:31:05+00:00,5739,Run,"Seattle, USA",7.75,6.65,51m 35s
+396,110408620,Derek Holdsworth,11227318482,Afternoon Run,"11 Training Load.
+-- from COROS",2024-04-20 22:34:18+00:00,625,Run,"Walnut, USA",0.96,6.97,6m 44s
+397,110408620,Derek Holdsworth,11226060881,Morning Run,"22 Training Load.
+-- from COROS",2024-04-20 17:57:35+00:00,606,Run,"Covina, USA",1.46,6.88,10m 6s
+398,110408620,Derek Holdsworth,11220069316,Afternoon Run,"3 Training Load.
+-- from COROS",2024-04-20 00:12:47+00:00,801,Run,"La Verne, USA",0.28,7.32,2m 5s
+399,110408620,Derek Holdsworth,11219988920,Afternoon Run,"8 Training Load.
+-- from COROS",2024-04-19 23:54:02+00:00,829,Run,"La Verne, USA",0.53,3.82,2m 3s
+400,110408620,Derek Holdsworth,11219989069,Afternoon Run,"49 Training Load.
+-- from COROS",2024-04-19 23:11:02+00:00,2061,Run,"La Verne, USA",3.3,6.53,21m 35s
+401,110408620,Derek Holdsworth,11218809192,Evening Run,"64 Training Load.
+-- from COROS",2024-04-19 02:28:52+00:00,933,Run,"La Verne, USA",0.82,4.55,3m 45s
+402,110408620,Derek Holdsworth,11218809321,Evening Run,"52 Training Load.
+-- from COROS",2024-04-19 01:53:26+00:00,1913,Run,"La Verne, USA",3.84,6.65,25m 36s
+403,110408620,Derek Holdsworth,11206994922,Trying to catch my DoorDash,,2024-04-18 02:03:16+00:00,1937,Run,"Covina, USA",4.38,6.25,27m 23s
+404,110408620,Derek Holdsworth,11197556654,Needed coffee to finish the cool down,,2024-04-16 18:24:09+00:00,1277,Run,"Shoreline, USA",3.01,7.05,21m 17s
+405,110408620,Derek Holdsworth,11197556463,Saw God today,"2 laps of 50s in 2:17 
+3x60 
+1x500 standing start in 1:04.3
+2x300 1 at 38.3 1 at 40.6 going 14.3-26.3 
+3x150 19.2 18.8 18.6",2024-04-16 17:23:16+00:00,2971,Run,"Shoreline, USA",1.55,4.27,6m 38s
+406,110408620,Derek Holdsworth,11197556485,Morning Run,"37 Training Load.
+-- from COROS",2024-04-16 16:35:57+00:00,2766,Run,"Shoreline, USA",2.75,7.17,19m 43s
+407,110408620,Derek Holdsworth,11190133098,Lunch Run,"49 Training Load.
+-- from COROS",2024-04-15 19:30:00+00:00,1416,Run,"Shoreline, USA",1.27,4.95,6m 19s
+408,110408620,Derek Holdsworth,11190142040,Lunch Run,"61 Training Load.
+-- from COROS",2024-04-15 18:39:30+00:00,2247,Run,"Shoreline, USA",4.24,6.67,28m 17s
+409,110408620,Derek Holdsworth,11286041392,Getting blasted by the wind,"1200 50-50s 68-72-69
+7-9-11s
+2x4x300 supposed to be cut downs but the wind didn’t allow for that. 40-44-43-41 42-42-42-40 
+1x300 cutdown 14.5-13.3-12.2",2024-04-28 17:16:10+00:00,3508,Run,"Shoreline, USA",2.48,4.28,10m 40s
+410,110408620,Derek Holdsworth,11286050700,Warm up slog,,2024-04-28 16:37:50+00:00,1991,Run,"Shoreline, USA",2.92,6.98,20m 23s
+411,110408620,Derek Holdsworth,11277726270,Morning Run,"87 Training Load.
+-- from COROS",2024-04-27 17:10:20+00:00,3143,Run,"Seattle, USA",7.0,6.77,47m 20s
+412,110408620,Derek Holdsworth,11270178406,Took me to the pearly gates,"Warm up 
+3x120 jump rope 
+4x80 
+2x200 26.5 27(had to go to lane 8 to not run over the old ladies)
+1x600 at 1:20.2 horrendous last 130.
+2x300 kick last 100 41.2 41.2 
+Went to do one more but got ran off the track which is a common theme in Seattle for me 
+Ended up being about 150ish in about 18.3
+6x100 cool down strides",2024-04-26 16:07:32+00:00,6696,Run,"Shoreline, USA",4.76,6.22,29m 37s
+413,110408620,Derek Holdsworth,11263536331,Lunch Run,"68 Training Load.
+-- from COROS",2024-04-25 19:11:29+00:00,2001,Run,"Seattle, USA",4.91,6.42,31m 31s
+414,110408620,Derek Holdsworth,11256700538,Afternoon Run,"13 Training Load.
+-- from COROS",2024-04-24 20:42:24+00:00,330,Run,"Seattle, USA",0.27,4.55,1m 16s
+415,110408620,Derek Holdsworth,11256568967,Lunch Run,"51 Training Load.
+-- from COROS",2024-04-24 19:42:13+00:00,2562,Run,"Seattle, USA",3.77,6.45,24m 18s
+416,110408620,Derek Holdsworth,11256568878,Morning Run,"200 in 26 mid 
+2x150 18.6 18.2
+300 in 36.2
+3x200 28.2 27.6 26.1
+1x200 24.2",2024-04-23 17:22:12+00:00,2592,Run,"Shoreline, USA",1.01,3.92,3m 59s
+417,110408620,Derek Holdsworth,11256568909,Morning Run,"5 Training Load.
+-- from COROS",2024-04-23 16:59:34+00:00,207,Run,"Shoreline, USA",0.5,6.78,3m 27s
+418,110408620,Derek Holdsworth,11240890368,Morning Run,"2x250 sprint float sprint in 31.8 31.7
+1x3-2-1 36.6 24.7 12.2",2024-04-22 17:55:36+00:00,2407,Run,"Shoreline, USA",3.06,5.93,18m 10s
+419,110408620,Derek Holdsworth,11240202871,Morning Run,"33 Training Load.
+-- from COROS",2024-04-22 17:13:23+00:00,1525,Run,"Shoreline, USA",2.8,7.13,20m 0s
+420,110408620,Derek Holdsworth,11341429052,Afternoon Run,"15 Training Load.
+-- from COROS",2024-05-05 20:23:11+00:00,397,Run,"Seattle, USA",0.28,4.8,1m 23s
+421,110408620,Derek Holdsworth,11341383634,Rage run/gut check,"Overcoming severe anxiety is tough. I’ve let it get the best of me the past few races, not letting that shit get the best of me anymore",2024-05-05 19:41:34+00:00,2211,Run,"Seattle, USA",6.47,5.68,36m 51s
+422,110408620,Derek Holdsworth,11341198984,Lunch Run,"8 Training Load.
+-- from COROS",2024-05-05 19:33:24+00:00,323,Run,"Seattle, USA",0.73,7.33,5m 23s
+423,110408620,Derek Holdsworth,11341019957,Lunch Run,"21 Training Load.
+-- from COROS",2024-05-04 19:00:20+00:00,971,Run,"Portland, USA",1.79,7.57,13m 34s
+424,110408620,Derek Holdsworth,11326126142,Afternoon Run,"3x80 jump rope 
+3x7-9-11
+2x300 in 41.7-41.2
+Jog 2 laps",2024-05-04 00:51:31+00:00,644,Run,"Portland, USA",0.98,5.15,5m 3s
+425,110408620,Derek Holdsworth,11325983190,Afternoon Run,"36 Training Load.
+-- from COROS",2024-05-03 23:56:09+00:00,1460,Run,"Portland, USA",2.84,7.05,20m 1s
+426,110408620,Derek Holdsworth,11324129235,Morning Run,"9 Training Load.
+-- from COROS",2024-05-03 17:40:31+00:00,307,Run,"Seattle, USA",0.69,7.13,4m 57s
+427,110408620,Derek Holdsworth,11318258019,"Dear coaches, athletes and parents","Stop walking in the inside lanes when people are trying to run fast
+
+* I know I’m not entitled to lane one it’s just nice to not have to worry if I’m gonna run into someone or not",2024-05-02 21:14:14+00:00,419,Run,"Shoreline, USA",0.46,4.05,1m 52s
+428,110408620,Derek Holdsworth,11318207150,Afternoon Run,"82 Training Load.
+-- from COROS",2024-05-02 20:17:34+00:00,2707,Run,"Shoreline, USA",5.08,6.57,33m 22s
+429,110408620,Derek Holdsworth,11310874716,Afternoon Run,"89 Training Load.
+-- from COROS",2024-05-01 20:29:36+00:00,2535,Run,"Seattle, USA",6.41,6.47,41m 29s
+430,110408620,Derek Holdsworth,11310874615,Afternoon Run,"6 Training Load.
+-- from COROS",2024-05-01 20:11:55+00:00,208,Run,"Seattle, USA",0.5,6.75,3m 25s
+431,110408620,Derek Holdsworth,11301066895,Lunch Run,"14 Training Load.
+-- from COROS",2024-04-30 18:24:46+00:00,689,Run,"Shoreline, USA",1.48,7.65,11m 22s
+432,110408620,Derek Holdsworth,11300773772,Morning Run,"3 laps of 50s 70-69-67
+3x150 19 19 18 
+4x80 8.6 8.3 8.5 8.3 
+2x5 47-26 48-26",2024-04-30 17:21:05+00:00,3016,Run,"Shoreline, USA",2.08,4.42,9m 12s
+433,110408620,Derek Holdsworth,11300773872,Morning Run,"30 Training Load.
+-- from COROS",2024-04-30 16:40:07+00:00,1986,Run,"Shoreline, USA",3.13,7.7,24m 9s
+434,110408620,Derek Holdsworth,11292736398,3x200,Always a good sign when 30 and 29s feel like 22.0,2024-04-29 17:56:11+00:00,290,Run,"Seattle, USA",0.41,4.25,1m 46s
+435,110408620,Derek Holdsworth,11292736530,Morning Run,Easy run into 90 on 2 off x2 at the end,2024-04-29 16:47:31+00:00,3626,Run,"Seattle, USA",7.65,6.4,49m 0s
+436,110408620,Derek Holdsworth,11396079714,Lunch Run,"117 Training Load.
+-- from COROS",2024-05-12 18:13:14+00:00,2607,Run,"Seattle, USA",7.0,6.13,42m 58s
+437,110408620,Derek Holdsworth,11388087560,Lunch Run,"117 Training Load.
+-- from COROS",2024-05-11 18:55:09+00:00,2977,Run,"Seattle, USA",7.0,6.37,44m 37s
+438,110408620,Derek Holdsworth,11381859748,Pace,"Bunch of strides 
+2:03ish thru 800 went 1k 
+Few laps cool down",2024-05-11 04:17:07+00:00,1814,Run,"Mercer Island, USA",1.18,5.57,6m 36s
+439,110408620,Derek Holdsworth,11380671949,Afternoon Weight Training,Missing a whole 20 mins here haha,2024-05-10 23:16:47+00:00,865,WeightTraining,,14.0,,73 Cal
+440,110408620,Derek Holdsworth,11379530376,Lunch Run,"14 Training Load.
+-- from COROS",2024-05-10 18:21:03+00:00,678,Run,"Shoreline, USA",1.48,7.62,11m 18s
+441,110408620,Derek Holdsworth,11379536731,A weird one but the right one,"2x120 
+1x200 25.60
+4x450 150-150-150 (17.52 30.63 19.71 300 = 37.23 ) (17.67 29.76 19.52 300 = 37.19) (17.82 31.50 19.33 300= 37.15) (17.79 31.81 18.85 300= 36.64) basically some 300 sandwiches
+1x200 at 25.2",2024-05-10 17:16:06+00:00,3135,Run,"Shoreline, USA",1.62,4.12,6m 41s
+442,110408620,Derek Holdsworth,11379530437,Morning Run,"32 Training Load.
+-- from COROS",2024-05-10 16:34:17+00:00,1853,Run,"Shoreline, USA",2.93,7.18,21m 3s
+443,110408620,Derek Holdsworth,11379530444,Afternoon Run,"58 Training Load.
+-- from COROS",2024-05-09 20:40:15+00:00,1750,Run,"Seattle, USA",4.02,6.22,25m 0s
+444,110408620,Derek Holdsworth,11379530422,Afternoon Run,"107 Training Load.
+-- from COROS",2024-05-08 22:37:49+00:00,3900,Run,"Seattle, USA",4.71,6.53,30m 51s
+445,110408620,Derek Holdsworth,11379530284,Not a weird one,"1x200 26.2 
+3x600 broken 30-36-30 30-37-28 30-36-28 
+3x200 shift each 50 26.5 26.3 26.0 
+1x200 22.82 
+1x100 11.47",2024-05-07 16:57:32+00:00,2763,Run,"Shoreline, USA",1.93,4.6,8m 52s
+446,110408620,Derek Holdsworth,11354180202,Morning Run,"32 Training Load.
+-- from COROS",2024-05-07 16:10:31+00:00,2080,Run,"Shoreline, USA",3.25,7.35,23m 57s
+447,110408620,Derek Holdsworth,11348446892,Afternoon Run,"400 float sprint float sprint 57.97 
+300 acceleration 13.8 13.3 12.1 
+200 acceleration 13.5 11.7",2024-05-06 21:24:04+00:00,605,Run,"Shoreline, USA",0.63,3.65,2m 19s
+448,110408620,Derek Holdsworth,11348292785,Afternoon Run,"41 Training Load.
+-- from COROS",2024-05-06 20:36:49+00:00,1664,Run,"Shoreline, USA",3.12,6.63,20m 44s
+449,110408620,Derek Holdsworth,11347700008,Lunch Run,"13 Training Load.
+-- from COROS",2024-05-06 18:42:28+00:00,482,Run,"Shoreline, USA",1.03,6.83,7m 3s
+450,110408620,Derek Holdsworth,11504354719,Morning Run,"77 Training Load.
+-- from COROS",2024-05-26 17:24:11+00:00,2280,Run,"Seattle, USA",5.49,6.38,35m 2s
+451,110408620,Derek Holdsworth,11495704697,Morning Run,"2 Training Load.
+-- from COROS",2024-05-25 17:13:53+00:00,103,Run,"Eugene, USA",0.22,7.53,1m 43s
+452,110408620,Derek Holdsworth,11495676441,Morning Run,"28 Training Load.
+-- from COROS",2024-05-25 16:55:27+00:00,913,Run,"Eugene, USA",0.52,4.28,2m 16s
+453,110408620,Derek Holdsworth,11495536993,Morning Run,"79 Training Load.
+-- from COROS",2024-05-25 16:08:10+00:00,2433,Run,"Eugene, USA",5.63,6.37,35m 53s
+454,110408620,Derek Holdsworth,11487987117,Morning Run,"119 Training Load.
+-- from COROS",2024-05-24 17:17:59+00:00,2227,Run,"Shoreline, USA",1.56,4.18,6m 32s
+455,110408620,Derek Holdsworth,11487675757,Morning Run,"50 Training Load.
+-- from COROS",2024-05-24 16:47:54+00:00,1577,Run,"Shoreline, USA",2.93,6.68,19m 37s
+456,110408620,Derek Holdsworth,11481522802,Lunch Run,"31 Training Load.
+-- from COROS",2024-05-23 19:23:07+00:00,1170,Run,"Seattle, USA",0.48,5.03,2m 26s
+457,110408620,Derek Holdsworth,11481338303,Lunch Run,"43 Training Load.
+-- from COROS",2024-05-23 18:55:05+00:00,1246,Run,"Seattle, USA",3.23,6.37,20m 35s
+458,110408620,Derek Holdsworth,11475826167,Evening Run,"27 Training Load.
+-- from COROS",2024-05-23 02:32:33+00:00,1059,Run,"Shoreline, USA",2.54,6.95,17m 39s
+459,110408620,Derek Holdsworth,11474528640,Afternoon Run,"48 Training Load.
+-- from COROS",2024-05-22 21:25:32+00:00,1887,Run,"Seattle, USA",3.67,6.48,23m 50s
+460,110408620,Derek Holdsworth,11464965914,Wind/rain/cold/fun,"2x250 sprint float sprint 36.88 37.66 
+Moved to 8x200s with shift at 100 
+27.7 27.6 27.2 27.2 27.1 27.1 27.1 25.7 
+15-12 for everything but the last one 
+13-12 for that",2024-05-21 17:07:26+00:00,1522,Run,"Shoreline, USA",1.51,3.93,5m 57s
+461,110408620,Derek Holdsworth,11464548875,Morning Run,"15 Training Load.
+-- from COROS",2024-05-21 16:37:46+00:00,624,Run,"Shoreline, USA",1.49,6.97,10m 24s
+462,110408620,Derek Holdsworth,11457000633,Sprint work,"3x120 at 17ish 
+3x7-9-11 
+3x80 at 80 from blocks 
+3x150 from blocks push the first 30 then chill 18.8 18.5 18.1 
+1x200 from blocks simulate 4 start in 23.14",2024-05-20 16:40:40+00:00,350,Run,"Seattle, USA",0.27,,1m 7s
+463,110408620,Derek Holdsworth,11457000563,😪,"Getting really good at not starting my watch again
+Warm up run before light sprint stuff",2024-05-20 16:00:31+00:00,2045,Run,"Seattle, USA",1.11,6.9,7m 42s
+464,110408620,Derek Holdsworth,11564755122,Lunch Run,"40 Training Load.
+-- from COROS",2024-06-02 18:56:48+00:00,1375,Run,"Seattle, USA",2.83,6.9,19m 33s
+465,110408620,Derek Holdsworth,11542216741,Morning Run,"200 26.45 
+600 1:18.28 
+500 1:07.59 
+3x200 25.91 25.42 25.18",2024-05-31 17:50:40+00:00,3039,Run,"Shoreline, USA",1.27,4.1,5m 14s
+466,110408620,Derek Holdsworth,11542216784,Morning Run,"31 Training Load.
+-- from COROS",2024-05-31 16:37:56+00:00,1931,Run,"Shoreline, USA",3.19,7.6,24m 16s
+467,110408620,Derek Holdsworth,11536080915,Afternoon Run,Easy run plus 4x200 strides at the track,2024-05-30 21:02:09+00:00,3031,Run,"Seattle, USA",6.87,6.18,42m 28s
+468,110408620,Derek Holdsworth,11529987401,Cool down shenanigans,Jog walk with Tristan Heinicke,2024-05-30 05:00:01+00:00,454,Run,"Shoreline, USA",0.56,13.05,7m 20s
+469,110408620,Derek Holdsworth,11529862654,Fun night,"First open 400 since I tore my hamstring and 2nd 400 ever from blocks😂 49.42 win  from heat one. Somehow managed to enter the race with no seed time even tho I put 50.5 as my seed 😂😂 
+
+Took about 7 mins rest then did 1 200 at 26 then hopped into the 4x4 and ran 51ish followed by 5x200 at 25/26 with Tristan Heinicke 
+
+All of this is super good considering it was cold windy and rainy (kinda) most of the night! 
+
+No real anxiety towards racing today either which was a massive win. Just have to keep being me and not worrying about what everyone else is doing.",2024-05-30 04:22:04+00:00,2009,Run,"Shoreline, USA",1.04,3.97,4m 9s
+470,110408620,Derek Holdsworth,11529636114,Evening Run,"10 Training Load.
+-- from COROS",2024-05-30 02:47:47+00:00,762,Run,"Shoreline, USA",1.09,7.58,8m 20s
+471,110408620,Derek Holdsworth,11528276623,lil shakeout,"21 Training Load.
+-- from COROS",2024-05-29 21:38:51+00:00,676,Run,"Seattle, USA",1.54,6.53,10m 6s
+472,110408620,Derek Holdsworth,11518524737,Pre make a fool outta myself meet,"2x120 accelerations standing start 
+1x120 running start 
+1x100 running start 
+1x200 standing start push 120 relax 80 in 24.1",2024-05-28 17:31:32+00:00,146,Run,"Shoreline, USA",0.18,3.83,42s
+473,110408620,Derek Holdsworth,11518197975,Morning Run,"32 Training Load.
+-- from COROS",2024-05-28 16:32:25+00:00,1842,Run,"Shoreline, USA",2.97,7.18,21m 22s
+474,110408620,Derek Holdsworth,11512898075,Afternoon Run,"9 Training Load.
+-- from COROS",2024-05-27 22:46:17+00:00,184,Run,"Shoreline, USA",0.53,5.78,3m 4s
+475,110408620,Derek Holdsworth,11512854935,Running fast is fun idk why more people don’t do it,"No blocks today 😔
+Standing starts from various start lines. 
+3x150 run into it on the odds 18.0 16.71 standing start 17.38 (lol) 
+1x100 standing start 11.87",2024-05-27 22:26:41+00:00,778,Run,"Shoreline, USA",0.39,4.4,1m 44s
+476,110408620,Derek Holdsworth,11512658544,Afternoon Run,"21 Training Load.
+-- from COROS",2024-05-27 21:34:31+00:00,1106,Run,"Shoreline, USA",1.67,6.52,10m 54s
+477,110408620,Derek Holdsworth,11701736960,Lunch Run,,2024-06-09 18:42:08+00:00,1055,Run,"Portland, USA",1.43,6.95,10m 0s
+478,110408620,Derek Holdsworth,11701737036,Afternoon Run,,2024-06-08 23:59:42+00:00,2395,Run,"Troutdale, USA",1.46,5.03,7m 23s
+479,110408620,Derek Holdsworth,11701737078,Evening Run,,2024-06-08 03:01:09+00:00,3750,Run,"Portland, USA",2.64,6.6,17m 27s
+480,110408620,Derek Holdsworth,11591726578,Most fun I’ve had in a while,"3 laps of 50-50s 67-69-68 
+3x60 
+1x500 42/26 
+2x300 22/18
+2x150 19.2 19.3 
+2x150 accelerations from 1500 pace 18.8 17.7",2024-06-06 21:55:55+00:00,3412,Run,"Shoreline, USA",2.06,4.23,8m 44s
+481,110408620,Derek Holdsworth,11591726677,Afternoon Run,"37 Training Load.
+-- from COROS",2024-06-06 21:23:14+00:00,1478,Run,"Shoreline, USA",2.85,6.9,19m 42s
+482,110408620,Derek Holdsworth,11583589825,Afternoon Run,"110 Training Load.
+-- from COROS",2024-06-05 21:29:30+00:00,2686,Run,"Seattle, USA",6.0,6.23,37m 24s
+483,110408620,Derek Holdsworth,11576478538,Evening Run,"72 Training Load.
+-- from COROS",2024-06-05 02:19:23+00:00,2625,Run,"Seattle, USA",5.29,6.47,34m 16s
+484,110408620,Derek Holdsworth,11576566714,Evening Run,"6x try to race Tristan Heinicke 
+3x float sprint float 300s 42.6 42.1 40.8",2024-06-05 03:09:04+00:00,1606,Run,"Seattle, USA",1.12,4.08,4m 37s
+485,110408620,Derek Holdsworth,11565745726,Lunch Run,"19 Training Load.
+-- from COROS",2024-06-03 18:32:28+00:00,1930,Run,"Shoreline, USA",1.96,7.48,14m 43s
+486,110408620,Derek Holdsworth,11565404703,Morning Run,"12x200 at 25-26
+Last 2 standing start",2024-06-03 17:39:19+00:00,2666,Run,"Shoreline, USA",1.67,4.02,6m 45s
+487,110408620,Derek Holdsworth,11564754962,Morning Run,"33 Training Load.
+-- from COROS",2024-06-03 16:36:43+00:00,2195,Run,"Shoreline, USA",3.29,7.37,24m 16s
+488,110408620,Derek Holdsworth,11701737089,Afternoon Run,,2024-06-16 20:40:09+00:00,3106,Run,"Seattle, USA",7.0,6.4,44m 52s
+489,110408620,Derek Holdsworth,11701736935,Evening Run,,2024-06-16 02:14:53+00:00,410,Run,"Burnaby, Canada",0.61,7.72,4m 44s
+490,110408620,Derek Holdsworth,11701737024,Afternoon Run,,2024-06-16 00:48:11+00:00,603,Run,"Burnaby, Canada",0.61,8.7,5m 21s
+491,110408620,Derek Holdsworth,11701737046,Lunch Run,,2024-06-15 18:42:15+00:00,639,Run,,1.15,8.87,10m 12s
+492,110408620,Derek Holdsworth,11701737067,Afternoon Run,,2024-06-15 00:37:23+00:00,3583,Run,"Burnaby, Canada",3.07,6.98,21m 26s
+493,110408620,Derek Holdsworth,11701737099,Afternoon Run,,2024-06-13 21:42:05+00:00,2037,Run,"Seattle, USA",3.71,7.25,26m 58s
+494,110408620,Derek Holdsworth,11701737043,Lunch Run,,2024-06-12 19:05:31+00:00,2081,Run,"Shoreline, USA",1.48,4.07,6m 2s
+495,110408620,Derek Holdsworth,11701737068,Lunch Run,,2024-06-12 18:15:14+00:00,1949,Run,"Shoreline, USA",3.23,6.87,22m 12s
+496,110408620,Derek Holdsworth,11701737060,Morning Run,,2024-06-11 16:35:38+00:00,2025,Run,"Shoreline, USA",3.18,7.32,23m 17s
+497,110408620,Derek Holdsworth,11701737032,Morning Run,,2024-06-11 17:15:38+00:00,1634,Run,"Shoreline, USA",1.3,4.47,5m 51s
+498,110408620,Derek Holdsworth,11701736957,Evening Run,,2024-06-10 03:52:26+00:00,1891,Run,"Portland, USA",1.24,7.23,8m 59s
+499,110408620,Derek Holdsworth,11701737057,Evening Run,,2024-06-10 02:05:02+00:00,523,Run,"Portland, USA",0.89,7.33,6m 32s
+500,110408620,Derek Holdsworth,11722298965,Afternoon Run,"50 Training Load.
+-- from COROS",2024-06-22 23:23:57+00:00,1897,Run,"Seattle, USA",4.09,6.67,27m 19s
+501,110408620,Derek Holdsworth,11706615130,Lunch Run,"34 Training Load.
+-- from COROS",2024-06-21 18:03:30+00:00,1866,Run,"Shoreline, USA",3.22,7.27,23m 25s
+502,110408620,Derek Holdsworth,11707157597,Yikes,"2 laps of 50s in 2:05 62-63 
+Strides and accelerations 
+Supposed to do tiger work but tweaked something in my hip on the first rep. Still ran 24.6 shutting it down 50m out. Hoping it’s just a bad cramp/tweak",2024-06-21 18:45:25+00:00,1586,Run,"Shoreline, USA",0.99,4.38,4m 22s
+503,110408620,Derek Holdsworth,11701736947,‘Twas good,"1x400 
+56
+3x300-200-100 
+43 28 12 
+41 27 12 
+39 26 12",2024-06-21 00:54:32+00:00,2106,Run,"Seattle, USA",1.6,3.93,6m 18s
+504,110408620,Derek Holdsworth,11701737063,Afternoon Run,,2024-06-20 23:58:55+00:00,2160,Run,"Seattle, USA",3.05,7.33,22m 23s
+505,110408620,Derek Holdsworth,11701742192,Lunch Run,"62 Training Load.
+-- from COROS",2024-06-19 18:08:04+00:00,2412,Run,"Seattle, USA",5.05,6.73,33m 58s
+506,110408620,Derek Holdsworth,11701737083,Morning Run,,2024-06-18 16:41:19+00:00,5440,Run,"Shoreline, USA",4.02,6.38,25m 41s
+507,110408620,Derek Holdsworth,11701737062,Afternoon Run,,2024-06-17 21:41:15+00:00,1351,Run,"Shoreline, USA",1.35,4.77,6m 28s
+508,110408620,Derek Holdsworth,11701736970,Afternoon Run,,2024-06-17 21:06:23+00:00,1310,Run,"Shoreline, USA",2.9,6.68,19m 26s
+509,110408620,Derek Holdsworth,11755844050,Afternoon Run,"11 Training Load.
+-- from COROS",2024-06-27 22:31:07+00:00,592,Run,"Eugene, USA",0.99,6.9,6m 53s
+510,110408620,Derek Holdsworth,11754033995,Morning Run,"7 Training Load.
+-- from COROS",2024-06-27 17:49:19+00:00,753,Run,"Eugene, USA",0.95,10.87,10m 24s
+511,110408620,Derek Holdsworth,11747054417,Lunch Run,"44 Training Load.
+-- from COROS",2024-06-26 18:16:08+00:00,3759,Run,"Eugene, USA",2.0,6.4,12m 49s
+512,110408620,Derek Holdsworth,11732619864,Evening Run,"104 Training Load.
+-- from COROS",2024-06-25 03:13:39+00:00,2526,Run,"Eugene, USA",3.67,6.0,22m 0s
+513,110408620,Derek Holdsworth,11724485488,Evening Run,"32 Training Load.
+-- from COROS",2024-06-24 02:03:25+00:00,418,Run,"Shoreline, USA",0.45,4.33,1m 58s
+514,110408620,Derek Holdsworth,11724484988,Evening Run,"39 Training Load.
+-- from COROS",2024-06-24 01:27:41+00:00,1263,Run,"Shoreline, USA",2.91,6.53,19m 4s
+515,110408620,Derek Holdsworth,11815138149,Mid pre meet,Ground contact was really good but feels like I’m swinging my hip and running uncomfortably. Weird cause yesterday was the total opposite,2024-07-05 14:29:19+00:00,2497,Run,"Maisons-Laffitte, France",1.55,7.8,12m 8s
+516,110408620,Derek Holdsworth,11808611286,Good news!,"Hip is about 85%! Longest run and fastest 200 I’ve run since last week. 
+
+Ran to the track the long way then did 4x100 in 15-14 then 5x200 in 32-33-31-29-30 nice and easy. Still feel tension in the hip but it doesn’t hurt to run anymore.
+
+I thought it was Sad that we don’t have more mondo tracks in the US, then I remembered how much people trash things 😪. I guess this is where team GB is staying",2024-07-04 16:40:11+00:00,3632,Run,"Saint-Germain-en-Laye, France",6.44,6.3,40m 36s
+517,110408620,Derek Holdsworth,11805181614,Exploring,"Had to take a long walk while I waited for my hotel to be ready. Glad I did it cause man it was cool seeing parts of the city 
+
+Still so far from the Eiffel tower 😭",2024-07-04 08:27:56+00:00,8040,Walk,"Saint-Germain-en-Laye, France",5.22,,1h 44m
+518,110408620,Derek Holdsworth,11799390873,Afternoon Run,"49 Training Load.
+-- from COROS",2024-07-03 15:12:05+00:00,2190,Run,"Orly, France",3.38,6.95,23m 32s
+519,110408620,Derek Holdsworth,11948249513,Fake 3x400 hills,Not really 400 and didn’t have the best incline. Jog back walk back recovery,2024-07-21 23:18:01+00:00,721,Run,"Shoreline, USA",1.27,,7m 52s
+520,110408620,Derek Holdsworth,11948249541,Easy session,"800 jog 
+Warm up drills 
+800 jog 
+More drills 
+800 jog+3x100 strides 
+800-1200-1600 (72-75) (78-76-75) (81-79-75-70) all with 400 jog",2024-07-21 22:26:20+00:00,2516,Run,"Shoreline, USA",4.35,6.1,26m 32s
+521,110408620,Derek Holdsworth,11940046700,Big L,Had to bike home from a pick up shift after the long bike ride this morning. Stopped at 7-11 cause I was bonking hard got a slurpee got two sips and dropped it. Easily the worst L of 2024,2024-07-21 02:10:29+00:00,1386,Ride,"Seattle, USA",3.67,,19m 21s
+522,110408620,Derek Holdsworth,11939948569,Pm run,Would not have made it without Will Laird,2024-07-21 01:14:35+00:00,2748,Run,"Seattle, USA",6.04,6.72,40m 36s
+523,110408620,Derek Holdsworth,11936890539,I’m absolutely cooked,"I really don’t wanna double later
+Thanks Tristan Heinicke for getting me out of bed",2024-07-20 14:20:03+00:00,6640,Ride,"Seattle, USA",21.42,,1h 33m
+524,110408620,Derek Holdsworth,11931684926,Survived day 1 of SOVA training,"Same as this morning 
+3x100 hills 
+6x80 form strides 
+I will be cooked after tomorrow mornings cross training session",2024-07-20 01:41:43+00:00,3269,Run,"Seattle, USA",4.8,6.15,29m 35s
+525,110408620,Derek Holdsworth,11929181282,Am run,"800 warm up 
+Activation 
+800 jog into 3 mile run cutdown last half
+Rinse and repeat tonight",2024-07-19 17:04:31+00:00,2597,Run,"Seattle, USA",4.25,6.35,27m 2s
+526,110408620,Derek Holdsworth,11923655235,Last run before I get fit 🙃,Twas a hard one. Haven’t been running very far or fast so this was highly uncomfortable but that’s how it goes when you take time off,2024-07-18 23:39:20+00:00,2424,Run,"Seattle, USA",5.0,6.57,32m 51s
+527,110408620,Derek Holdsworth,11923656262,Evening Run,"74 Training Load.
+-- from COROS",2024-07-18 03:59:10+00:00,580,Run,"Shoreline, USA",0.79,4.72,3m 46s
+528,110408620,Derek Holdsworth,11923656268,Evening Run,"6 Training Load.
+-- from COROS",2024-07-18 03:30:13+00:00,213,Run,"Shoreline, USA",0.5,6.88,3m 28s
+529,110408620,Derek Holdsworth,11907403492,Evening Run,"12 Training Load.
+-- from COROS",2024-07-17 03:39:25+00:00,597,Run,"Seattle, USA",0.93,7.0,6m 32s
+530,110408620,Derek Holdsworth,11897987550,Easy day,Return to run with chill 200s and a 400 fluid no clue what I ran cause I used my phone since my watch imploded,2024-07-16 00:21:50+00:00,1109,Run,"Santa Monica, USA",1.3,4.35,5m 41s
+531,110408620,Derek Holdsworth,12005177258,Lunch Swim,Swim cut short due to sharing a lane with 6 people 😪 one dude wasn’t even switching sides 😂,2024-07-28 18:35:25+00:00,1677,Swim,,1.0,,2:37 /100yd
+532,110408620,Derek Holdsworth,11998646957,Evening Run,"96 Training Load.
+-- from COROS",2024-07-28 03:10:58+00:00,2849,Run,"Seattle, USA",4.77,6.07,28m 56s
+533,110408620,Derek Holdsworth,11996061980,Morning Run,"800 warm up
+Drills 
+800 
+5k with last half 6:10-5:40)",2024-07-27 17:10:54+00:00,2249,Run,"Seattle, USA",4.24,6.42,27m 12s
+534,110408620,Derek Holdsworth,11989229967,Recovery walk,Easy day doubled back to hit some hills but didn’t really do as many as I thought I would,2024-07-26 21:08:21+00:00,6647,Walk,"Seattle, USA",5.5,,1h 44m
+535,110408620,Derek Holdsworth,11982523468,Evening Run,"6 Training Load.
+-- from COROS",2024-07-26 01:41:24+00:00,264,Run,"Shoreline, USA",0.49,8.88,4m 24s
+536,110408620,Derek Holdsworth,11982523418,Fun session,Lane 8 T,2024-07-26 01:28:36+00:00,443,Run,"Shoreline, USA",1.4,5.27,7m 23s
+537,110408620,Derek Holdsworth,11982523404,Evening Run,"15 Training Load.
+-- from COROS",2024-07-26 01:19:27+00:00,402,Run,"Shoreline, USA",0.79,,5m 49s
+538,110408620,Derek Holdsworth,11982523435,Afternoon Run,"800 drills 800 drills 
+6x100 12.6 12.5 12.2 12.3 12.2 12.3 
+5x150@ 20.2 20.1 20.1 20.2 20.5 with 100 at 20 100 at 30 and walk 50
+Jog 400 
+3x100 hill jog 400 
+Go into lane 8 T",2024-07-26 00:22:20+00:00,3394,Run,"Shoreline, USA",3.21,6.95,22m 19s
+539,110408620,Derek Holdsworth,11982523441,am run,"Weird morning. Went to get imaging on my hip since it’s still bothering me got told I had FAI and that’s what caused the sports hernia prior to the trials. Now I get to do treatment for a possible torn labrum 🙌🏽
+
+Didn’t get told I couldn’t run tho soooooo still gonna train as long as I don’t have pain above a 6.",2024-07-25 17:30:41+00:00,1237,Run,"Seattle, USA",3.15,6.33,20m 1s
+540,110408620,Derek Holdsworth,11982523455,Afternoon Run,"115 Training Load.
+-- from COROS",2024-07-25 00:50:23+00:00,2684,Run,"Seattle, USA",6.36,6.52,41m 27s
+541,110408620,Derek Holdsworth,11972033796,Switched to swim,"First swim back is always tough
+I apologize to Maddy Morgado Madison Johnson and Connor Wick for writing 60mins + in the pool for workouts",2024-07-24 18:16:24+00:00,3614,Swim,,2.0,,2:35 /100yd
+542,110408620,Derek Holdsworth,11972033699,Don’t use the mid bikes at a gym,Failed 2 hour attempt on a non spin bike haha,2024-07-24 17:37:35+00:00,1810,Ride,,30.0,,122 bpm
+543,110408620,Derek Holdsworth,11964764374,Run day,"800 warm up drills 800 jog drills 800 jog into 4 miles with light pick ups 
+Core after",2024-07-23 22:28:11+00:00,3415,Run,"Seattle, USA",6.36,6.12,38m 57s
+544,110408620,Derek Holdsworth,12063376001,Lunch Run,"Felt cooked at the end
+Probably just the stress of moving and finals
+800 jog amwp 
+800 jog 
+1k loop into green lake loop 
+5:56-5:52 pick up miles",2024-08-04 18:16:21+00:00,2457,Run,"Seattle, USA",5.15,6.4,32m 57s
+545,110408620,Derek Holdsworth,12045135906,King of the fumble,"2 mins on at 4:50 pace 2 mins at 7 min pace for 6k 
+Jog a mile 
+Go do hills 
+Saw Idubz when I was trying to do hills and absolutely fumbled the bag on saying hi 
+Jogged a mile",2024-08-02 15:56:59+00:00,2787,Run,"Seattle, USA",5.88,6.25,36m 44s
+546,110408620,Derek Holdsworth,12045135828,Morning Run,"800 warm up awmp 
+800 jog drills 3x100 
+800 jog switch shoes before tempo",2024-08-02 15:30:11+00:00,1194,Run,"Seattle, USA",1.77,6.53,11m 37s
+547,110408620,Derek Holdsworth,12040759445,Afternoon Run,"87 Training Load.
+-- from COROS",2024-08-02 00:13:34+00:00,2943,Run,"Seattle, USA",6.0,6.93,41m 41s
+548,110408620,Derek Holdsworth,12036735430,Morning Swim,"Watch is bugging swam waaaaay more than that
+Also missing 6 mins",2024-08-01 14:51:10+00:00,3508,Swim,,1.0,,2:42 /100yd
+549,110408620,Derek Holdsworth,12030455120,Lunch Run,"8 jog drills 8 jog more drills 
+1k loop into 4 miles with the last half pick up 
+3x100 hills 
+3x100 15 14 13",2024-07-31 19:07:16+00:00,3694,Run,"Seattle, USA",6.42,6.27,40m 15s
+550,110408620,Derek Holdsworth,12015127081,Evening Ride,6.6 miles. Supposed to be 20 on bike 20 in the pool but the pool randomly closes at the gym. Gg,2024-07-30 03:09:24+00:00,1067,Ride,,17.0,,145 bpm
+551,110408620,Derek Holdsworth,12013139777,Long session,"800 warm up drills 
+1 mile easy 
+1 mile with 20 seconds at 3k pace then 30 off (8:10 pace) 5:25 
+1 mile easy 
+2 miles cutdown each 8 (5:21 5:14) 10:35
+1 mile easy at 7:00 pace 
+1 mile cutdown each 8 5:12
+1 mile easy at 7:00 pace 
+1 mile cutdown each 8 4:59
+1.5 mile cool down 
+
+Did the workout wrong. Was meant to cutdown to 5:25 5:15 and 5:05 not start there. Either way pretty good day regardless. Nap time then double later",2024-07-29 18:33:46+00:00,5319,Run,"Seattle, USA",11.07,6.28,1h 9m
+552,110408620,Derek Holdsworth,12115582946,Lane 8 t,"Start at 84 and cut down 
+5 laps in 7:19",2024-08-11 00:40:52+00:00,439,Run,"Shoreline, USA",1.37,5.33,7m 19s
+553,110408620,Derek Holdsworth,12115582106,Watch hates off track activity,400 jog 3x100 hill 400 jog back before lane 8 T,2024-08-11 00:26:54+00:00,687,Run,"Shoreline, USA",0.97,7.15,6m 58s
+554,110408620,Derek Holdsworth,12115582185,Track stuff,"8 drills 
+8 more drills 
+6x100 accelerate last 20 12.7 12.9 12.7 12.4 12.9 
+3x150 at 21 20 20 jog 100 jog 100 slower then walk 50 with each one",2024-08-10 23:43:58+00:00,2384,Run,"Shoreline, USA",2.17,6.48,14m 7s
+555,110408620,Derek Holdsworth,12113568521,Shake out cs,Should have not slept in,2024-08-10 17:37:48+00:00,1314,Run,"Seattle, USA",3.02,6.63,20m 4s
+556,110408620,Derek Holdsworth,12107547497,Cooked double,Doubling is tough haha,2024-08-10 02:11:11+00:00,3538,Run,"Seattle, USA",7.19,6.25,44m 57s
+557,110408620,Derek Holdsworth,12105731774,Good morning workout,Wore my USC shirt for good luck to Rai! Man looked phenomenal in the 400h. Watching the 10k really helped me get through the hardest part of biking,2024-08-09 17:48:33+00:00,7332,Ride,,2.0,,142 bpm
+558,110408620,Derek Holdsworth,12098625013,Afternoon Run,"Easiest CS so far 
+6:05 5:57 5:46 5:37",2024-08-08 21:05:11+00:00,2824,Run,"Seattle, USA",5.79,6.15,35m 38s
+559,110408620,Derek Holdsworth,12081748741,Afternoon Run,"Jog to hill 
+3x100+ hills 
+Jog back",2024-08-06 22:51:09+00:00,1109,Run,"Shoreline, USA",1.61,7.22,11m 38s
+560,110408620,Derek Holdsworth,12081749036,Cole inspired workout,"Crazy to think I’ll be training with an Olympic gold medalist soon. Time to shift mentality. 
+800 jog drills 
+800 more drills 
+800 3x100 then 
+800 (78 78) 1200 (77 75 74) 1600 (78 75 74 71) 800 (77 73) 1200 (78 75 73) 1600 (79 74  72 67) all 400 jog",2024-08-06 22:08:45+00:00,2288,Run,"Shoreline, USA",5.8,6.33,36m 45s
+561,110408620,Derek Holdsworth,12081748839,Afternoon Run,"32 Training Load.
+-- from COROS",2024-08-06 21:26:37+00:00,2022,Run,"Shoreline, USA",1.88,6.53,12m 18s
+562,110408620,Derek Holdsworth,12073426866,Thank God for Caroline,"VA goat helping me through another one Caroline Alcorta 
+Was a lot easier to get through this time",2024-08-06 01:03:11+00:00,3660,Run,"Seattle, USA",7.52,6.65,50m 2s
+563,110408620,Derek Holdsworth,12070249611,I’m toast,Was going to swim but didn’t want to deal with battling for a lane so 2 hours on the bike is what I got,2024-08-05 15:28:13+00:00,7433,Ride,,49.2,,23.8 mi/h
+564,110408620,Derek Holdsworth,12065094196,Evening Run,"Somehow was easier than this morning 
+800 drills 
+Forgot to run 800 jog so just did it in the run 
+5:52 pick up mile
+3x100 hills quick 
+6x80 quick",2024-08-05 01:35:11+00:00,3108,Run,"Seattle, USA",5.01,6.18,31m 0s
+565,110408620,Derek Holdsworth,12183275443,Evening Run,"126 Training Load.
+-- from COROS",2024-08-18 22:02:19+00:00,3444,Run,"Blacksburg, USA",5.15,6.48,33m 28s
+566,110408620,Derek Holdsworth,12174731483,Let’s see how many days it takes me to recover 😤😤,Idk why I was thinking I’d feel better on this double 😂,2024-08-17 23:05:29+00:00,2503,Run,"Blacksburg, USA",5.0,6.63,33m 11s
+567,110408620,Derek Holdsworth,12171868034,Welp,It’s gonna take about 3 days to a week to recover from that drive. I don’t think I’ve felt that bad since my first ever cross country practice😂 not even 60 seconds in I got stung by a horsefly. I took it as a welcome home 🙌🏽,2024-08-17 14:43:21+00:00,2151,Run,"Blacksburg, USA",4.01,6.62,26m 35s
+568,110408620,Derek Holdsworth,12147098067,Lunch Run,"Hips and Achilles feel fried 
+I’ll arrive in Blacksburg tonight 3 days of driving kills 🙃",2024-08-14 16:29:43+00:00,1179,Run,"Cedar Falls, USA",2.24,7.3,16m 21s
+569,110408620,Derek Holdsworth,12128527797,Morning Run,"100 Training Load.
+-- from COROS",2024-08-12 13:50:22+00:00,3654,Run,"Seattle, USA",7.62,7.08,54m 4s
+570,110408620,Derek Holdsworth,12242786417,Morning Run,"13 Training Load.
+-- from COROS",2024-08-25 14:30:18+00:00,884,Run,"Blacksburg, USA",1.0,8.6,8m 36s
+571,110408620,Derek Holdsworth,12242787147,Morning Run,"800 awmp 
+Mile easy
+1 mile at 3k pace 20 seconds 30 seconds off 
+5:11 
+1 mile easy 
+2 mile pick up each 8 (5:36-5:19, I went out in 80 the first 400 so I have no clue how it was 5:36 the first mile.) 
+Mile easy 
+1 mile pick up each 8 5:11 
+1 mile easy 
+1 mile 79-79-68-68 4:54
+Jog 1 mile easy",2024-08-25 13:11:15+00:00,4474,Run,"Blacksburg, USA",9.26,6.45,59m 46s
+572,110408620,Derek Holdsworth,12233737324,Afternoon Ride,+40 mins from biking to and from work,2024-08-24 21:35:10+00:00,4592,Ride,,1.0,,121 bpm
+573,110408620,Derek Holdsworth,12224793537,Afternoon Run,"110 Training Load.
+-- from COROS",2024-08-23 20:26:44+00:00,2286,Run,"Blacksburg, USA",3.82,6.15,23m 31s
+574,110408620,Derek Holdsworth,12222059016,Morning Run,"71 Training Load.
+-- from COROS",2024-08-23 13:43:49+00:00,1321,Run,"Blacksburg, USA",2.69,6.73,18m 7s
+575,110408620,Derek Holdsworth,12218036536,Evening Ride,Legs are actually dead from biking to rector and work every day. Took forever to get through this one,2024-08-22 22:07:50+00:00,7567,Ride,,2.0,,127 bpm
+576,110408620,Derek Holdsworth,12209291456,Evening Run,"Lane 8 steady work
++4 laps on the grass",2024-08-21 22:28:10+00:00,867,Run,"Blacksburg, USA",2.24,5.48,12m 19s
+577,110408620,Derek Holdsworth,12209292742,Afternoon Run,"800
+Awmp 
+800
+Drills 
+6x100 accelerations 
+5x150 100 jog 100 slower 50 walk. 
+3x100 hills",2024-08-21 21:23:00+00:00,3791,Run,"Blacksburg, USA",3.73,6.67,24m 53s
+578,110408620,Derek Holdsworth,12204988197,Morning Run,"103 Training Load.
+-- from COROS",2024-08-21 12:43:31+00:00,2099,Run,"Blacksburg, USA",5.04,6.87,34m 37s
+579,110408620,Derek Holdsworth,12195872570,Easy day,Ironically running 7.57 miles being from the 757 🙃,2024-08-20 12:14:41+00:00,3903,Run,"Jefferson National Forest, USA",7.57,7.73,58m 34s
+580,110408620,Derek Holdsworth,12191373796,Afternoon Ride,"135 Training Load.
+-- from COROS",2024-08-19 21:52:34+00:00,5492,Ride,,1.0,,145 bpm
+581,110408620,Derek Holdsworth,12302772138,Evening Ride,"108 Training Load.
+-- from COROS",2024-09-01 23:03:48+00:00,7497,Ride,,2.0,,129 bpm
+582,110408620,Derek Holdsworth,12293714785,CS actually stands for cooked shift,Pitch black run after a 9 hour shift to go pick up my bike from the store after it stormed for 2 hours.,2024-09-01 00:04:34+00:00,1219,Run,"Blacksburg, USA",3.0,6.47,19m 25s
+583,110408620,Derek Holdsworth,12289129082,Morning cs,,2024-08-31 12:34:12+00:00,1219,Run,"Blacksburg, USA",3.0,6.38,19m 12s
+584,110408620,Derek Holdsworth,12273378397,Morning Run,"1.5 indoors warm ups and drills 
+3x100 strides 
+800 jog down to course 
+2 on 2 off til about 17 mins 
+Jogged back to campus 
+
+Was not great as being lost on the course and not being able to put power down made things way harder than it needed to be.",2024-08-29 13:49:40+00:00,2989,Run,"Blacksburg, USA",4.7,7.3,34m 24s
+585,110408620,Derek Holdsworth,12268437012,Afternoon Run,"136 Training Load.
+-- from COROS",2024-08-28 21:49:42+00:00,3819,Run,"Jefferson National Forest, USA",8.05,7.82,1h 2m
+586,110408620,Derek Holdsworth,12264559176,Morning Swim,"Swim mixed with aqua jog/ subs +7 mins
+Was fun til I blasted my shin on the wall 😂",2024-08-28 12:51:58+00:00,2754,Swim,,1.0,,2:49 /100yd
+587,110408620,Derek Holdsworth,12258987225,Afternoon Run,"1.5 indoors with drills in between each 8 
+4 CS 
+3x100 hill 
+3x100 14 14 13
+
+Weights after was pretty fun especially the punching bag",2024-08-27 19:41:21+00:00,4256,Run,"Blacksburg, USA",6.04,6.88,41m 35s
+588,110408620,Derek Holdsworth,12361173244,Wow,"Started off as I want to see if I can get to 20 mins with stopping and quickly turned into just finish an hour without stopping. Probably one of the coolest things I feel like I’ve ever done.
+
+Reading through splits and calories burned there’s some weird number jumps. It was taking me about 1:01-1:05 depending on how fast I could turn around (I can’t flip turn) so splits are all over the place. Likely to be 2-3 seconds slower than what each split actually says",2024-09-08 17:10:36+00:00,3645,Swim,,6.0,,57s /100yd
+589,110408620,Derek Holdsworth,12353475903,Evening Run,"Maybe starting your run uphill ain’t the way to do it
+Back half cs",2024-09-07 22:55:54+00:00,1233,Run,"Blacksburg, USA",3.05,6.57,20m 2s
+590,110408620,Derek Holdsworth,12349118799,Morning Run,"Not featured
+800 drills 800 drills 
+6x100 accelerations 13s 
+5x150 cont 21-20 
+3x100 hill 
+5 laps retro T 7:21
+2 lap barefoot jog",2024-09-07 12:08:06+00:00,3247,Run,"Blacksburg, USA",4.22,5.83,24m 39s
+591,110408620,Derek Holdsworth,12344651095,Afternoon Run,"141 Training Load.
+-- from COROS",2024-09-06 21:04:03+00:00,8053,Run,"Blacksburg, USA",7.0,7.72,54m 5s
+592,110408620,Derek Holdsworth,12342468894,Lunch Swim,"Hour swim 
+Last 13 straight 
+Pools 50m not 25 thanks coros 😂 does this mean I swam double the distance? I have no clue",2024-09-06 15:31:28+00:00,3769,Swim,,2.0,,1:50 /100yd
+593,110408620,Derek Holdsworth,12342468950,Afternoon Ride,"9 Training Load.
+-- from COROS",2024-09-05 20:12:44+00:00,672,Ride,"Blacksburg, USA",2.73,,11m 12s
+594,110408620,Derek Holdsworth,12342469034,Morning Run,"103 Training Load.
+-- from COROS",2024-09-05 11:40:45+00:00,3535,Run,"Blacksburg, USA",5.4,8.0,43m 18s
+595,110408620,Derek Holdsworth,12315198473,Morning Run,"8 drills 8 drills 8 + 3 100s 
+8-12-16 backwards 
+8-12-16 forwards 
+Jog walk 4
+3x400 hills
+Jog walk 8",2024-09-03 12:48:27+00:00,3570,Run,"Blacksburg, USA",6.53,6.48,42m 20s
+596,110408620,Derek Holdsworth,12315210616,Morning Run,"14 Training Load.
+-- from COROS",2024-09-03 12:16:02+00:00,1449,Run,,1.51,7.85,11m 52s
+597,110408620,Derek Holdsworth,12310529792,Afternoon Run,Run plus 6x100 1x200,2024-09-02 21:17:01+00:00,5966,Run,"Blacksburg, USA",8.37,7.18,1h 0m
+598,110408620,Derek Holdsworth,12417932654,Morning Run,"800 active 8 drills 
+8 with strides 8 jog 
+2 on 2 off for 7k 
+6x100 hills 
+2.6 cool down",2024-09-15 13:22:11+00:00,5667,Run,"Giles County, USA",10.58,6.9,1h 13m
+599,110408620,Derek Holdsworth,12411420137,Afternoon Run,"129 Training Load.
+-- from COROS",2024-09-14 21:12:24+00:00,5453,Run,"Blacksburg, USA",8.0,7.75,1h 2m
+600,110408620,Derek Holdsworth,12404123295,Morning Run,"154 Training Load.
+-- from COROS",2024-09-13 11:49:46+00:00,4349,Run,"Blacksburg, USA",6.56,7.1,46m 37s
+601,110408620,Derek Holdsworth,12383652344,Cool down,Didn’t mean to finish the workout segment so I started this for the cool down,2024-09-11 13:27:50+00:00,917,Run,"Giles County, USA",1.91,7.38,14m 7s
+602,110408620,Derek Holdsworth,12383653974,Morning Run,"800 warm up drills 
+1 mile easy 
+1 mile 20 on 30 off 
+1 mile easy 
+2 mile on 
+1 mile easy 
+1.5 on 
+1 mile easy 
+1 mile on",2024-09-11 12:09:00+00:00,4680,Run,"Giles County, USA",10.04,6.62,1h 6m
+603,110408620,Derek Holdsworth,12381009145,Afternoon Run,"94 Training Load.
+-- from COROS",2024-09-10 21:48:36+00:00,2917,Run,"Blacksburg, USA",6.14,7.55,46m 27s
+604,110408620,Derek Holdsworth,12375391037,Wanted to get to 6k!,"Swimming with a buoy so I just pull
+Apparently this is about 7-10 seconds faster per 100. So checks out with paces
+
+Harsh reality is learning I had the wrong watch setting on the past two swims 🥲",2024-09-10 13:54:21+00:00,3617,Swim,,6.0,,54s /100yd
+605,110408620,Derek Holdsworth,12369841550,Afternoon Run,"8 
+Hurdle drills 
+5 mile back half cs 
+3x100 strides 
+Not featured 6x80 form strides 
+Weights",2024-09-09 21:15:04+00:00,3116,Run,"Blacksburg, USA",5.57,7.25,40m 23s
+606,110408620,Derek Holdsworth,12366289141,Morning Run,"8 drills 8 
+2.25 out 2.25 cs",2024-09-09 13:03:48+00:00,2675,Run,"Blacksburg, USA",5.51,7.15,39m 23s
+607,110408620,Derek Holdsworth,12478858368,Afternoon Run,"169 Training Load.
+-- from COROS",2024-09-22 17:54:12+00:00,3901,Run,"Blacksburg, USA",5.62,7.25,40m 50s
+608,110408620,Derek Holdsworth,12462165478,Afternoon Run,"Usual 8-12 mile workout 
+2nd set I felt like I was bonking so I didn’t do the mile. Ran the 3 hills jogged back to the track and ran a 4. 
+Heel hurts but hopefully it’s a one off lots of standing at work the past two days.",2024-09-20 20:49:14+00:00,5263,Run,"Blacksburg, USA",8.23,6.32,52m 2s
+609,110408620,Derek Holdsworth,12454783419,Indoor warm up,,2024-09-19 23:38:16+00:00,480,Run,,1.0,8.0,8m 0s
+610,110408620,Derek Holdsworth,12462164386,Afternoon Run,"77 Training Load.
+-- from COROS",2024-09-19 21:50:04+00:00,3535,Run,"Blacksburg, USA",6.78,8.02,54m 22s
+611,110408620,Derek Holdsworth,12462164801,Morning Swim,,2024-09-19 13:46:19+00:00,3602,Swim,,3.0,,1:47 /100yd
+612,110408620,Derek Holdsworth,12446599546,Cs double and weights,,2024-09-18 23:43:36+00:00,3360,Run,,8.0,7.0,56m 0s
+613,110408620,Derek Holdsworth,12441874093,Indoor warm up,,2024-09-18 13:53:57+00:00,480,Run,,1.0,8.0,8m 0s
+614,110408620,Derek Holdsworth,12441766859,Morning Run,"129 Training Load.
+-- from COROS",2024-09-18 13:09:49+00:00,2034,Run,"Blacksburg, USA",5.0,6.63,33m 10s
+615,110408620,Derek Holdsworth,12424790532,Morning Swim,,2024-09-16 13:56:07+00:00,3563,Swim,,3.0,,1:47 /100yd
+616,110408620,Derek Holdsworth,12518701231,Afternoon Run,"52 Training Load.
+-- from COROS",2024-09-27 20:36:17+00:00,2324,Run,"Blacksburg, USA",4.21,8.18,34m 29s
+617,110408620,Derek Holdsworth,12515963674,Idk what’s up,HR is still way too high when i swim and it feels like I’m all out from the start. Tried taking more rest and it just didn’t help.,2024-09-27 13:33:34+00:00,842,Swim,,547.0,,1:38 /100yd
+618,110408620,Derek Holdsworth,12515861045,Afternoon Run,"125 Training Load.
+-- from COROS",2024-09-26 21:10:11+00:00,4170,Run,"Blacksburg, USA",6.6,7.37,48m 39s
+619,110408620,Derek Holdsworth,12515860210,Morning Run,"128 Training Load.
+-- from COROS",2024-09-26 12:41:05+00:00,3409,Run,"Blacksburg, USA",6.33,7.32,46m 23s
+620,110408620,Derek Holdsworth,12503622561,Afternoon Ride,"82 Training Load.
+-- from COROS",2024-09-25 18:35:55+00:00,4928,Ride,"Blacksburg, USA",16.29,,1h 0m
+621,110408620,Derek Holdsworth,12501968717,Lunch Walk,,2024-09-25 15:11:56+00:00,3530,Walk,"Blacksburg, USA",1.79,,33m 58s
+622,110408620,Derek Holdsworth,12500735928,Afternoon Run,"72 Training Load.
+-- from COROS",2024-09-24 21:37:50+00:00,2988,Run,,3.44,8.28,28m 32s
+623,110408620,Derek Holdsworth,12500736089,Afternoon Run,"8 Training Load.
+-- from COROS",2024-09-24 21:16:27+00:00,712,Run,,0.79,9.33,7m 27s
+624,110408620,Derek Holdsworth,12492280634,Morning cs,"Felt better this morning 
+HR still a little too high for my liking",2024-09-24 13:39:18+00:00,1876,Run,"Blacksburg, USA",4.01,6.53,26m 15s
+625,110408620,Derek Holdsworth,12484468280,Morning Swim,Stopped at 15 cause HR was way too high might be getting sick or something we will see,2024-09-23 14:35:57+00:00,917,Swim,,574.0,,1:54 /100yd
+626,110408620,Derek Holdsworth,12601905051,Evening Walk,,2024-10-05 23:16:50+00:00,9059,Walk,"James City County, USA",3.78,,1h 5m
+627,110408620,Derek Holdsworth,12601904124,Lunch Swim,,2024-10-05 16:15:09+00:00,1523,Swim,,1.0,,1:37 /100yd
+628,110408620,Derek Holdsworth,12572940772,Recovery run,Ran with Orion,2024-10-04 13:00:41+00:00,4385,Run,"James City County, USA",7.3,6.82,49m 46s
+629,110408620,Derek Holdsworth,12564764808,Morning Run,"110 Training Load.
+-- from COROS",2024-10-03 12:43:43+00:00,3495,Run,"Blacksburg, USA",6.24,7.63,47m 39s
+630,110408620,Derek Holdsworth,12556929625,Best tempo effort so far,2 on 2 off for 8kplus warm up and hills after,2024-10-02 13:07:38+00:00,4930,Run,"Blacksburg, USA",8.12,7.02,57m 3s
+631,110408620,Derek Holdsworth,12552233874,Afternoon Run,"94 Training Load.
+-- from COROS",2024-10-01 20:44:26+00:00,6270,Run,"Blacksburg, USA",7.65,8.25,1h 3m
+632,110408620,Derek Holdsworth,12548324984,Shakeout,Lungs still feel cooked but HR wasn’t very high which was nice. Wish whatever this is would hurry up and go away,2024-10-01 13:53:21+00:00,1300,Run,"Blacksburg, USA",3.04,7.12,21m 40s
+633,110408620,Derek Holdsworth,12640557489,Can’t wait to have clips 🙃,"I love biking but sometimes I wonder if it loves me back 😂
+
+The amount of squirrels I almost took out was quite astonishing",2024-10-12 20:15:17+00:00,7753,Ride,"Blacksburg, USA",31.87,,1h 54m
+634,110408620,Derek Holdsworth,12632618992,Long workout post work is tough,Wish I felt a little better doing this but I got the workout done 🤷🏽‍♂️,2024-10-11 21:13:53+00:00,5721,Run,"Pulaski, USA",12.13,6.55,1h 19m
+635,110408620,Derek Holdsworth,12631911876,Evening CS,"1 mile warm up 
+Drills 
+3 mile cs
+6 circuit strides 
+Weights",2024-10-10 21:08:33+00:00,3010,Run,"Blacksburg, USA",4.52,6.2,28m 4s
+636,110408620,Derek Holdsworth,12621596329,Morning Run,"actually 6 
+Cs with some hills",2024-10-10 12:36:41+00:00,4248,Run,"Blacksburg, USA",5.86,7.05,41m 18s
+637,110408620,Derek Holdsworth,12617528533,Afternoon Run,Actually 9,2024-10-09 21:07:36+00:00,6481,Run,"Blacksburg, USA",8.65,8.08,1h 10m
+638,110408620,Derek Holdsworth,12605793832,Workout day,"Whole lot of everything 
+Not featured 1.5 arm up indoors 
+Jog to course 
+2x1k with walk steep down then go 
+Jog back to track 3x800/700 
+Jog one lap 
+4x150 continuous 100-100-50
+Jog 2 miles",2024-10-08 12:49:01+00:00,4964,Run,"Blacksburg, USA",8.94,6.78,1h 0m
+639,110408620,Derek Holdsworth,12605792858,Morning Run,"1 Training Load.
+-- from COROS",2024-10-08 12:12:24+00:00,2171,Run,"Blacksburg, USA",0.2,18.82,3m 53s
+640,110408620,Derek Holdsworth,12604632577,Yesterdays comfy steady,"Mile warm up 
+Drills 
+5 miles+cs 
+2 circuit strides (6)",2024-10-08 10:31:22+00:00,2760,Run,,7.0,6.57,46m 0s
+641,110408620,Derek Holdsworth,12601904039,Afternoon Run,"39 Training Load.
+-- from COROS",2024-10-07 21:06:28+00:00,1982,Run,"Blacksburg, USA",3.21,8.13,26m 8s
+642,110408620,Derek Holdsworth,12694497880,Cool down and strides,"47 Training Load.
+-- from COROS",2024-10-19 16:13:02+00:00,1685,Run,"Roanoke County, USA",3.15,8.4,26m 27s
+643,110408620,Derek Holdsworth,12694497877,Actually 8k,"Stopped at 6k to stretch my calf cause it was blowing up bad. Took about 30 seconds 🙃 annoying cause aerobically it felt great.  25:45 which is still a pr😂
+
+2:57.5
+2:57.5
+2k
+6:11.0
+3:13.5
+3k
+9:10.1
+2:59.1
+4k
+12:30.2
+3:20.1
+5k
+15:41.3
+3:11.1
+6k
+19:10.7
+3:29.4
+7k
+22:37.9",2024-10-19 15:30:49+00:00,1544,Run,"Roanoke County, USA",3.63,5.12,18m 33s
+644,110408620,Derek Holdsworth,12694497854,Morning Run,"31 Training Load.
+-- from COROS",2024-10-19 14:42:36+00:00,1266,Run,"Roanoke County, USA",2.08,7.5,15m 37s
+645,110408620,Derek Holdsworth,12694497751,Afternoon Run,"52 Training Load.
+-- from COROS",2024-10-18 20:33:38+00:00,2158,Run,"Blacksburg, USA",3.33,7.38,24m 36s
+646,110408620,Derek Holdsworth,12680095707,Afternoon Run,Warm up,2024-10-17 19:28:04+00:00,548,Run,"Blacksburg, USA",1.32,6.88,9m 8s
+647,110408620,Derek Holdsworth,12677729209,Morning Run,"79 Training Load.
+-- from COROS",2024-10-17 12:48:56+00:00,3800,Run,"Blacksburg, USA",6.41,8.17,52m 26s
+648,110408620,Derek Holdsworth,12673438118,Afternoon Run,"141 Training Load.
+-- from COROS",2024-10-16 21:45:45+00:00,4527,Run,"Blacksburg, USA",7.07,7.08,50m 11s
+649,110408620,Derek Holdsworth,12661345412,Ouch pt 500,"1.5 miles and drills 
+2x8-12-16 with 400 jog between each on the turf in pegs 
+4x400 at 68 67 66 and 61 with 60 seconds rest",2024-10-15 11:45:18+00:00,6826,Run,"Blacksburg, USA",8.75,7.33,1h 4m
+650,110408620,Derek Holdsworth,12656364613,Afternoon Run,"29 Training Load.
+-- from COROS",2024-10-14 20:00:23+00:00,1113,Run,"Blacksburg, USA",1.94,7.42,14m 28s
+651,110408620,Derek Holdsworth,12653409525,HR was not having it this morning,We finally have fall weather with a lot of wind 🥶,2024-10-14 13:47:44+00:00,2891,Run,"Blacksburg, USA",5.17,6.2,32m 5s
+652,110408620,Derek Holdsworth,12653407941,Morning Run,"7 Training Load.
+-- from COROS",2024-10-14 13:30:23+00:00,1024,Run,"Blacksburg, USA",0.54,13.95,7m 37s
+653,110408620,Derek Holdsworth,12750904810,Morning Ride,"117 Training Load.
+-- from COROS",2024-10-26 14:51:46+00:00,8174,Ride,"Jefferson National Forest, USA",35.78,,2h 4m
+654,110408620,Derek Holdsworth,12744556251,🫠,Better than last time,2024-10-25 21:31:41+00:00,6098,Run,"Pulaski, USA",12.64,6.52,1h 22m
+655,110408620,Derek Holdsworth,12736814306,Afternoon Run,"133 Training Load.
+-- from COROS",2024-10-24 20:02:09+00:00,3340,Run,"Blacksburg, USA",7.29,6.88,50m 8s
+656,110408620,Derek Holdsworth,12729598903,Evening Run,"82 Training Load.
+-- from COROS",2024-10-23 22:18:27+00:00,2756,Run,"Blacksburg, USA",6.12,7.35,45m 1s
+657,110408620,Derek Holdsworth,12729598858,Afternoon Ride,"17 Training Load.
+-- from COROS",2024-10-23 21:56:38+00:00,1202,Ride,,20.0,,128 bpm
+658,110408620,Derek Holdsworth,12729598783,Afternoon Run,"6 Training Load.
+-- from COROS",2024-10-23 21:10:21+00:00,759,Run,"Blacksburg, USA",0.64,13.23,8m 32s
+659,110408620,Derek Holdsworth,12721205810,Everything day,"Warm up 
+3x1k hills 
+4x800/700s 
+4x150 cont 
+Cool down laps 
+Probably the best I’ve felt doing full volume. Legs are still sore from needling/race.",2024-10-22 21:06:38+00:00,6337,Run,"Blacksburg, USA",10.32,6.82,1h 10m
+660,110408620,Derek Holdsworth,12716829450,Morning Run,"21 Training Load.
+-- from COROS",2024-10-22 13:10:00+00:00,615,Run,"Blacksburg, USA",1.35,7.55,10m 12s
+661,110408620,Derek Holdsworth,12712456472,Afternoon Walk,,2024-10-21 21:39:06+00:00,3356,Walk,"Blacksburg, USA",1.92,,44m 1s
+662,110408620,Derek Holdsworth,12808180770,Afternoon Run,"55 Training Load.
+-- from COROS",2024-11-02 21:01:03+00:00,2939,Run,"Blacksburg, USA",5.19,7.87,40m 51s
+663,110408620,Derek Holdsworth,12805272557,Morning Ride,"Didn’t know Trump Tower was in Blacksburg VA🤢.  Easy bike session with the group. 
+
+Make sure to vote!",2024-11-02 12:26:33+00:00,7677,Ride,"Jefferson National Forest, USA",32.57,,1h 59m
+664,110408620,Derek Holdsworth,12799410845,Massive shakeout,,2024-11-01 19:51:07+00:00,671,Run,"Blacksburg, USA",1.59,7.02,11m 11s
+665,110408620,Derek Holdsworth,12796708746,Pretty good day,"Just trying to build it every time I do this workout. Survived it had a pretty good day. Cloudboom echo 3s are goated
+Usual warm up 
+3x1k hill
+Steady 
+3x800/700
+4x150
+2 mile cool down",2024-11-01 11:11:55+00:00,6433,Run,"Blacksburg, USA",11.14,6.93,1h 17m
+666,110408620,Derek Holdsworth,12793123857,Easy 7,,2024-10-31 22:35:24+00:00,3290,Run,,7.0,7.83,54m 50s
+667,110408620,Derek Holdsworth,12789412148,Pre meet but I’m not racing 😂,"800 drills 800 strides 
+3x100 3x200
+2 miles 
+Weights
+
+Jk I read the workout for tomorrow I’m racing 🙃",2024-10-31 12:08:28+00:00,3599,Run,"Blacksburg, USA",3.24,8.7,28m 15s
+668,110408620,Derek Holdsworth,12784994355,Afternoon Run,"67 Training Load.
+-- from COROS",2024-10-30 20:29:35+00:00,4717,Run,"Blacksburg, USA",5.69,8.37,47m 40s
+669,110408620,Derek Holdsworth,12781279480,"Just saw God, looks a lot like Ben Thomas",Straight up died in the pool today,2024-10-30 12:15:13+00:00,2699,Swim,,1.0,,3:21 /100yd
+670,110408620,Derek Holdsworth,12773552531,Morning Run,"1.5 warm up and drlls 
+5 mile cs 
+3x1k with 200 jog 
+Cool down 
+Missing 2 miles here",2024-10-29 12:57:34+00:00,5126,Run,"Blacksburg, USA",8.61,6.48,55m 51s
+671,110408620,Derek Holdsworth,12768875209,Afternoon Run,"Light session 
+Warm up 
+5x250 
+Circuit strides 
+3 mile cool down 
+Weights",2024-10-28 21:07:11+00:00,3137,Run,"Blacksburg, USA",5.2,7.53,39m 15s
+672,110408620,Derek Holdsworth,12768875170,Afternoon Run,"19 Training Load.
+-- from COROS",2024-10-28 20:38:24+00:00,1370,Run,"Blacksburg, USA",1.59,7.32,11m 40s
+673,110408620,Derek Holdsworth,12765378942,Morning Run,"17 Training Load.
+-- from COROS",2024-10-28 14:10:15+00:00,581,Run,"Blacksburg, USA",1.32,7.32,9m 41s
+674,110408620,Derek Holdsworth,12863229644,Afternoon Run,Baby strides at 5,2024-11-09 21:27:09+00:00,4609,Run,"Arlington County, USA",7.78,6.65,51m 43s
+675,110408620,Derek Holdsworth,12860165582,Cycling is actually fun,"40 chill 
+60 up tempo",2024-11-09 12:44:37+00:00,7337,Ride,"Jefferson National Forest, USA",36.03,,2h 0m
+676,110408620,Derek Holdsworth,12852168338,“Do not redline”,Guess who redlined,2024-11-08 12:34:36+00:00,5458,Run,"Blacksburg, USA",9.03,6.5,58m 38s
+677,110408620,Derek Holdsworth,12851261081,Afternoon Run,"6 Training Load.
+-- from COROS",2024-11-07 21:34:13+00:00,182,Run,"Blacksburg, USA",0.47,6.38,3m 2s
+678,110408620,Derek Holdsworth,12851260935,Afternoon Run,"8 Training Load.
+-- from COROS",2024-11-07 21:04:10+00:00,1423,Run,"Blacksburg, USA",0.67,11.58,7m 49s
+679,110408620,Derek Holdsworth,12845154929,Morning Run,"89 Training Load.
+-- from COROS",2024-11-07 14:54:18+00:00,1475,Run,"Blacksburg, USA",3.54,6.92,24m 31s
+680,110408620,Derek Holdsworth,12840595490,Afternoon Run,"98 Training Load.
+-- from COROS",2024-11-06 21:06:30+00:00,5917,Run,"Blacksburg, USA",7.56,7.9,59m 41s
+681,110408620,Derek Holdsworth,12837102301,There’s a reason waterboarding is illegal,Survived another Coach Thomas drowning session,2024-11-06 13:01:37+00:00,3578,Swim,,1.0,,3:02 /100yd
+682,110408620,Derek Holdsworth,12832692393,Afternoon Run,"304 Training Load.
+-- from COROS",2024-11-05 21:19:50+00:00,5678,Run,"Blacksburg, USA",8.78,7.27,1h 3m
+683,110408620,Derek Holdsworth,12829170589,Morning Run,"21 Training Load.
+-- from COROS",2024-11-05 15:01:51+00:00,601,Run,"Blacksburg, USA",1.42,7.02,10m 1s
+684,110408620,Derek Holdsworth,12824027347,Afternoon Run,Afternoon cs and weights,2024-11-04 21:07:05+00:00,2268,Run,"Blacksburg, USA",4.48,6.77,30m 20s
+685,110408620,Derek Holdsworth,12821085381,Morning Run,"Plus ,8",2024-11-04 13:04:46+00:00,4534,Run,"Blacksburg, USA",6.61,7.37,48m 47s
+686,73380869,Zouhair Talbi,10560486624,Houston marathon,First place 🥇,2024-01-14 13:01:33+00:00,7572,Run,"Houston, USA",26.31,4.8,2h 6m
+687,73380869,Zouhair Talbi,10621456787,Morning Run,,2024-01-24 16:11:37+00:00,4347,Run,"El Paso County, USA",9.94,7.15,1h 11m
+688,73380869,Zouhair Talbi,11433408400,Track Workout,"- 3000m x 5 rest 3min
+- 5th lane in the track",2024-05-17 15:48:54+00:00,3507,Run,,9.96,5.57,55m 27s
+689,73380869,Zouhair Talbi,11777319109,Last 40k of the buildup. Switching the focus to sharpening for paris 👀,Last 5k in 15:45 💵,2024-06-30 13:51:07+00:00,8374,Run,"Fountain, USA",24.85,5.62,2h 19m
+690,73380869,Zouhair Talbi,12371374677,Morning Run,"170 Training Load.
+-- from COROS",2024-09-08 13:12:14+00:00,5838,Run,"Colorado Springs, USA",16.01,6.03,1h 36m
+691,73380869,Zouhair Talbi,12396212949,Gym day,,2024-09-13 00:07:25+00:00,2227,Run,"Colorado Springs, USA",4.66,7.85,36m 35s
+692,73380869,Zouhair Talbi,12392187671,Morning Run,"7 Training Load.
+-- from COROS",2024-09-12 13:46:12+00:00,842,Run,"El Paso County, USA",1.44,9.67,13m 59s
+693,73380869,Zouhair Talbi,12392187584,Morning Run,"157 Training Load.
+-- from COROS",2024-09-12 12:57:17+00:00,2708,Run,"Fountain, USA",9.32,4.85,45m 8s
+694,73380869,Zouhair Talbi,12391344690,Morning Run,"11 Training Load.
+-- from COROS",2024-09-12 12:01:13+00:00,1655,Run,"Fountain, USA",2.57,9.78,25m 11s
+695,73380869,Zouhair Talbi,12389407473,Morning Run,"86 Training Load.
+-- from COROS",2024-09-11 15:58:05+00:00,5452,Run,"El Paso County, USA",11.91,7.5,1h 29m
+696,73380869,Zouhair Talbi,12379889611,I hate going to pee and forget to resume the watch,9km Easy Run,2024-09-11 00:34:40+00:00,2678,Run,"Colorado Springs, USA",3.84,8.77,33m 44s
+697,73380869,Zouhair Talbi,12375351704,Morning Run,"12 Training Load.
+-- from COROS",2024-09-10 14:04:23+00:00,1762,Run,"Security-Widefield, USA",2.92,9.95,29m 9s
+698,73380869,Zouhair Talbi,12375351709,20 x 400m,,2024-09-10 12:58:07+00:00,2483,Run,,6.51,6.32,41m 11s
+699,73380869,Zouhair Talbi,12375351674,Morning Run,"17 Training Load.
+-- from COROS",2024-09-10 12:24:36+00:00,1982,Run,"Security-Widefield, USA",2.48,12.43,30m 52s
+700,73380869,Zouhair Talbi,12371374648,Evening Run,"38 Training Load.
+-- from COROS",2024-09-10 00:41:58+00:00,2316,Run,"Colorado Springs, USA",5.06,7.48,37m 52s
+701,73380869,Zouhair Talbi,12371416529,Watch died before finishing the run,,2024-09-09 16:02:00+00:00,661,Run,,1.67,6.58,11m 1s
+702,73380869,Zouhair Talbi,12371374665,17km easy Run ( watch died ),"61 Training Load.
+-- from COROS",2024-09-09 14:50:07+00:00,3772,Run,"Colorado Springs, USA",8.67,7.08,1h 1m
+703,10513706,joe ewing,12006333575,SLR,Hunting fitness (and sushi) in the city,2024-07-28 12:14:47+00:00,5214,Run,"Manhattan, USA",14.02,6.03,1h 24m
+704,10513706,joe ewing,12584718796,Paul Short XC,P24 individual and P2 as a team. 6 second spread from 1-5. Big step forward for the team. Wheels keep turning.,2024-10-05 21:21:52+00:00,1438,Run,,4.97,4.82,23m 58s
+705,60508941,Boniface Kibiwott,10598684726,Morning Run,,2024-01-21 03:59:15+00:00,4493,Run,"Elgeyo-Marakwet County, Kenya",12.44,6.02,1h 14m
+706,60508941,Boniface Kibiwott,10598684880,Morning Run,,2024-01-20 03:54:24+00:00,2932,Run,"Uasin Gishu County, Kenya",9.36,5.18,48m 28s
+707,60508941,Boniface Kibiwott,10598685052,Morning Run,,2024-01-20 03:15:22+00:00,1504,Run,"Uasin Gishu County, Kenya",2.6,6.97,18m 9s
+708,60508941,Boniface Kibiwott,10598685335,Afternoon Run,,2024-01-19 12:41:57+00:00,3485,Run,"Elgeyo-Marakwet County, Kenya",5.48,8.37,45m 54s
+709,60508941,Boniface Kibiwott,10598545848,Morning Run,,2024-01-19 03:22:07+00:00,4418,Run,"Elgeyo-Marakwet County, Kenya",11.23,6.5,1h 13m
+710,60508941,Boniface Kibiwott,10598545911,Morning Run,,2024-01-17 03:26:29+00:00,3704,Run,"Elgeyo-Marakwet County, Kenya",7.72,7.9,1h 1m
+711,60508941,Boniface Kibiwott,10651423890,Morning Run,,2024-01-25 03:26:29+00:00,3571,Run,"Elgeyo-Marakwet County, Kenya",9.96,5.95,59m 12s
+712,60508941,Boniface Kibiwott,10651423908,Morning Run,,2024-01-22 03:25:54+00:00,3571,Run,"Elgeyo-Marakwet County, Kenya",9.96,5.97,59m 24s
+713,60508941,Boniface Kibiwott,12243955955,Morning Run,,2024-06-15 03:31:02+00:00,4844,Run,"Uasin Gishu County, Kenya",15.54,5.17,1h 20m
+714,60508941,Boniface Kibiwott,12243956356,Morning Run,,2024-06-14 03:25:25+00:00,4107,Run,"Elgeyo-Marakwet County, Kenya",11.18,6.12,1h 8m
+715,60508941,Boniface Kibiwott,12243956704,Afternoon Run,,2024-06-13 12:43:17+00:00,2805,Run,"Elgeyo-Marakwet County, Kenya",6.22,7.5,46m 38s
+716,60508941,Boniface Kibiwott,12243957035,Morning Run,,2024-06-13 04:43:58+00:00,1207,Run,"Elgeyo-Marakwet County, Kenya",3.28,5.9,19m 20s
+717,60508941,Boniface Kibiwott,12243957356,Morning Run,,2024-06-13 03:59:39+00:00,2085,Run,"Elgeyo-Marakwet County, Kenya",3.71,,31m 53s
+718,60508941,Boniface Kibiwott,12243957511,Morning Run,,2024-06-13 03:40:25+00:00,932,Run,"Elgeyo-Marakwet County, Kenya",1.69,7.72,13m 3s
+719,60508941,Boniface Kibiwott,12243957876,Afternoon Run,,2024-06-12 12:44:28+00:00,2816,Run,"Elgeyo-Marakwet County, Kenya",6.38,7.28,46m 34s
+720,60508941,Boniface Kibiwott,12243958437,Morning Run,,2024-06-12 03:26:59+00:00,4461,Run,"Elgeyo-Marakwet County, Kenya",11.81,6.25,1h 13m
+721,60508941,Boniface Kibiwott,12243958696,Afternoon Run,,2024-06-11 12:43:32+00:00,3032,Run,"Elgeyo-Marakwet County, Kenya",5.32,8.53,45m 27s
+722,60508941,Boniface Kibiwott,12243958944,Morning Run,,2024-06-11 04:23:28+00:00,2116,Run,"Uasin Gishu County, Kenya",3.69,7.08,26m 13s
+723,60508941,Boniface Kibiwott,12243959375,Morning Run,,2024-06-11 03:39:43+00:00,1259,Run,"Uasin Gishu County, Kenya",2.36,8.43,19m 53s
+724,60508941,Boniface Kibiwott,12243952868,Morning Run,,2024-06-22 04:06:24+00:00,1838,Run,"Uasin Gishu County, Kenya",6.23,4.92,30m 38s
+725,60508941,Boniface Kibiwott,12243953067,Morning Run,,2024-06-22 03:27:07+00:00,1206,Run,"Uasin Gishu County, Kenya",2.79,7.18,20m 3s
+726,60508941,Boniface Kibiwott,12243953626,Morning Run,,2024-06-20 06:08:05+00:00,3623,Run,"Elgeyo-Marakwet County, Kenya",9.8,6.13,1h 0m
+727,60508941,Boniface Kibiwott,12243953943,Morning Run,,2024-06-20 03:28:51+00:00,3426,Run,"Elgeyo-Marakwet County, Kenya",9.38,6.08,57m 6s
+728,60508941,Boniface Kibiwott,12243954232,Afternoon Run,,2024-06-18 12:39:24+00:00,1931,Run,"Elgeyo-Marakwet County, Kenya",3.58,8.92,31m 59s
+729,60508941,Boniface Kibiwott,12243954629,Morning Run,,2024-06-18 03:52:38+00:00,4092,Run,"Uasin Gishu County, Kenya",11.4,5.68,1h 4m
+730,60508941,Boniface Kibiwott,12243955006,Afternoon Run,,2024-06-17 12:41:54+00:00,2991,Run,"Elgeyo-Marakwet County, Kenya",6.41,7.72,49m 28s
+731,60508941,Boniface Kibiwott,12243955484,Morning Run,,2024-06-17 03:25:50+00:00,4171,Run,"Elgeyo-Marakwet County, Kenya",11.46,6.03,1h 9m
+732,60508941,Boniface Kibiwott,12243949324,Afternoon Run,,2024-06-29 12:38:16+00:00,2496,Run,"Elgeyo-Marakwet County, Kenya",5.01,8.22,41m 15s
+733,60508941,Boniface Kibiwott,12243949651,Morning Run,,2024-06-29 03:30:28+00:00,2106,Run,"Uasin Gishu County, Kenya",6.68,5.2,34m 45s
+734,60508941,Boniface Kibiwott,12243949872,Morning Run,,2024-06-29 02:57:47+00:00,738,Run,"Uasin Gishu County, Kenya",1.34,9.15,12m 18s
+735,60508941,Boniface Kibiwott,12243950467,Morning Run,,2024-06-28 03:27:02+00:00,4297,Run,"Elgeyo-Marakwet County, Kenya",11.27,6.32,1h 11m
+736,60508941,Boniface Kibiwott,12243950861,Morning Run,,2024-06-27 03:33:56+00:00,2956,Run,"Uasin Gishu County, Kenya",9.34,5.27,49m 16s
+737,60508941,Boniface Kibiwott,12243951188,Afternoon Run,,2024-06-26 12:36:53+00:00,2881,Run,"Elgeyo-Marakwet County, Kenya",7.46,6.42,47m 58s
+738,60508941,Boniface Kibiwott,12243951428,Morning Run,,2024-06-25 04:25:45+00:00,804,Run,"Elgeyo-Marakwet County, Kenya",1.54,6.65,10m 17s
+739,60508941,Boniface Kibiwott,12243951652,Morning Run,,2024-06-25 04:09:23+00:00,289,Run,"Elgeyo-Marakwet County, Kenya",0.63,5.02,3m 10s
+740,60508941,Boniface Kibiwott,12243951958,Morning Run,,2024-06-25 03:38:12+00:00,1694,Run,"Elgeyo-Marakwet County, Kenya",1.83,9.4,17m 15s
+741,60508941,Boniface Kibiwott,12243952274,Afternoon Run,,2024-06-24 12:43:55+00:00,2822,Run,"Elgeyo-Marakwet County, Kenya",6.42,7.3,46m 58s
+742,60508941,Boniface Kibiwott,12243952767,Morning Run,,2024-06-24 03:26:27+00:00,4404,Run,"Elgeyo-Marakwet County, Kenya",11.22,6.5,1h 13m
+743,60508941,Boniface Kibiwott,12243946594,Lunch Run,,2024-07-07 17:41:39+00:00,2244,Run,"Black Forest Section 16, USA",4.02,9.27,37m 19s
+744,60508941,Boniface Kibiwott,12243946853,Night Run,,2024-07-07 06:44:59+00:00,979,Run,"El Paso County, USA",2.14,7.55,16m 10s
+745,60508941,Boniface Kibiwott,12243947412,Night Run,,2024-07-07 06:00:23+00:00,2344,Run,"El Paso County, USA",7.14,5.47,39m 4s
+746,60508941,Boniface Kibiwott,12243947657,Night Run,,2024-07-07 05:34:32+00:00,1232,Run,"El Paso County, USA",2.0,9.88,19m 51s
+747,60508941,Boniface Kibiwott,12243948078,Night Run,,2024-07-05 03:59:29+00:00,1710,Run,"Atlanta, USA",6.35,4.48,28m 30s
+748,60508941,Boniface Kibiwott,12243948336,Night Run,,2024-07-05 03:08:54+00:00,1405,Run,"Atlanta, USA",1.95,8.93,17m 27s
+749,60508941,Boniface Kibiwott,12243948671,Night Run,,2024-07-04 04:16:58+00:00,2197,Run,"Chattahoochee River National Recreation Area, USA",4.42,7.95,35m 12s
+750,60508941,Boniface Kibiwott,12243949024,Morning Run,,2024-07-01 03:27:46+00:00,2536,Run,"Elgeyo-Marakwet County, Kenya",6.06,6.98,42m 16s
+751,60508941,Boniface Kibiwott,12243943747,Night Run,,2024-07-12 04:48:55+00:00,3721,Run,"Colorado Springs, USA",7.85,7.75,1h 0m
+752,60508941,Boniface Kibiwott,12243944224,Night Run,,2024-07-11 04:45:57+00:00,4939,Run,"Colorado Springs, USA",10.01,8.17,1h 21m
+753,60508941,Boniface Kibiwott,12243944464,Night Run,,2024-07-10 06:44:50+00:00,1249,Run,"Security-Widefield, USA",2.85,7.1,20m 19s
+754,60508941,Boniface Kibiwott,12243944593,Night Run,,2024-07-10 06:42:17+00:00,74,Run,"Security-Widefield, USA",0.27,4.32,1m 11s
+755,60508941,Boniface Kibiwott,12243944807,Night Run,,2024-07-10 06:29:27+00:00,52,Run,"Security-Widefield, USA",0.14,4.42,37s
+756,60508941,Boniface Kibiwott,12243945149,Night Run,,2024-07-10 05:40:32+00:00,1576,Run,"Security-Widefield, USA",3.11,8.33,25m 55s
+757,60508941,Boniface Kibiwott,12243945846,Night Run,,2024-07-09 05:35:16+00:00,5142,Run,"Colorado Springs, USA",12.07,7.02,1h 24m
+758,60508941,Boniface Kibiwott,12243946286,Night Run,,2024-07-08 06:17:00+00:00,4301,Run,"Falcon, USA",10.06,7.07,1h 11m
+759,60508941,Boniface Kibiwott,12243940928,Morning Run,,2024-07-27 03:03:54+00:00,4345,Run,"Nandi County, Kenya",9.96,7.18,1h 11m
+760,60508941,Boniface Kibiwott,12243941408,Morning Run,,2024-07-26 03:03:30+00:00,4812,Run,"Nandi County, Kenya",10.57,7.55,1h 19m
+761,60508941,Boniface Kibiwott,12243941787,Morning Run,,2024-07-25 03:24:46+00:00,4068,Run,"Elgeyo-Marakwet County, Kenya",9.52,7.08,1h 7m
+762,60508941,Boniface Kibiwott,12243942071,Afternoon Run,,2024-07-24 12:40:25+00:00,3163,Run,"Elgeyo-Marakwet County, Kenya",7.22,7.3,52m 43s
+763,60508941,Boniface Kibiwott,12243942578,Morning Run,,2024-07-24 03:25:10+00:00,4654,Run,"Elgeyo-Marakwet County, Kenya",11.83,6.55,1h 17m
+764,60508941,Boniface Kibiwott,12243937129,Morning Run,,2024-08-03 05:40:57+00:00,746,Run,"Elgeyo-Marakwet County, Kenya",2.0,5.95,11m 54s
+765,60508941,Boniface Kibiwott,12243937686,Morning Run,,2024-08-03 04:45:30+00:00,3248,Run,"Elgeyo-Marakwet County, Kenya",8.29,6.22,51m 32s
+766,60508941,Boniface Kibiwott,12243937922,Morning Run,,2024-08-03 04:04:45+00:00,1117,Run,"Elgeyo-Marakwet County, Kenya",2.66,6.85,18m 14s
+767,60508941,Boniface Kibiwott,12243938333,Afternoon Run,,2024-08-02 12:35:20+00:00,3148,Run,"Elgeyo-Marakwet County, Kenya",6.33,7.25,45m 55s
+768,60508941,Boniface Kibiwott,12243938940,Morning Run,,2024-08-02 03:23:51+00:00,4138,Run,"Elgeyo-Marakwet County, Kenya",11.2,6.15,1h 8m
+769,60508941,Boniface Kibiwott,12243939477,Morning Run,,2024-07-31 03:21:33+00:00,4647,Run,"Elgeyo-Marakwet County, Kenya",11.82,6.53,1h 17m
+770,60508941,Boniface Kibiwott,12243939605,Morning Run,,2024-07-30 04:37:00+00:00,1165,Run,"Uasin Gishu County, Kenya",0.61,9.15,5m 37s
+771,60508941,Boniface Kibiwott,12243939942,Morning Run,,2024-07-30 03:09:35+00:00,1999,Run,"Uasin Gishu County, Kenya",2.82,9.77,27m 34s
+772,60508941,Boniface Kibiwott,12243940492,Morning Run,,2024-07-29 03:21:29+00:00,4319,Run,"Elgeyo-Marakwet County, Kenya",11.43,6.27,1h 11m
+773,60508941,Boniface Kibiwott,12243932646,Morning Run,,2024-08-10 04:22:19+00:00,3203,Run,"Uasin Gishu County, Kenya",7.48,6.55,48m 58s
+774,60508941,Boniface Kibiwott,12243932872,Morning Run,,2024-08-10 03:39:07+00:00,1080,Run,"Uasin Gishu County, Kenya",2.4,7.43,17m 53s
+775,60508941,Boniface Kibiwott,12243933284,Afternoon Run,,2024-08-09 12:02:59+00:00,2957,Run,"Elgeyo-Marakwet County, Kenya",6.31,7.68,48m 34s
+776,60508941,Boniface Kibiwott,12243933781,Morning Run,,2024-08-09 03:23:02+00:00,4397,Run,"Elgeyo-Marakwet County, Kenya",11.2,6.47,1h 12m
+777,60508941,Boniface Kibiwott,12243934656,Morning Run,,2024-08-08 03:26:06+00:00,7355,Run,"Uasin Gishu County, Kenya",18.72,6.53,2h 2m
+778,60508941,Boniface Kibiwott,12243934807,Afternoon Run,,2024-08-07 12:39:40+00:00,2756,Run,"Elgeyo-Marakwet County, Kenya",6.27,7.25,45m 28s
+779,60508941,Boniface Kibiwott,12243935180,Morning Run,,2024-08-07 03:22:53+00:00,3884,Run,"Elgeyo-Marakwet County, Kenya",9.39,6.88,1h 4m
+780,60508941,Boniface Kibiwott,12243935479,Afternoon Run,,2024-08-06 12:32:13+00:00,2875,Run,"Elgeyo-Marakwet County, Kenya",6.22,7.62,47m 24s
+781,60508941,Boniface Kibiwott,12243935835,Morning Run,,2024-08-06 07:04:07+00:00,3556,Run,"Uasin Gishu County, Kenya",11.08,5.33,59m 13s
+782,60508941,Boniface Kibiwott,12243936051,Afternoon Run,,2024-08-05 13:15:01+00:00,1237,Run,"Elgeyo-Marakwet County, Kenya",1.66,,15m 46s
+783,60508941,Boniface Kibiwott,12243936375,Afternoon Run,,2024-08-05 12:36:58+00:00,2049,Run,"Elgeyo-Marakwet County, Kenya",4.58,7.45,34m 9s
+784,60508941,Boniface Kibiwott,12243936911,Morning Run,,2024-08-05 03:22:45+00:00,4121,Run,"Elgeyo-Marakwet County, Kenya",11.2,6.1,1h 8m
+785,60508941,Boniface Kibiwott,12243927874,Morning Run,,2024-08-17 03:57:24+00:00,2082,Run,"Uasin Gishu County, Kenya",6.11,5.67,34m 39s
+786,60508941,Boniface Kibiwott,12243928232,Morning Run,,2024-08-17 03:20:42+00:00,1430,Run,"Uasin Gishu County, Kenya",2.7,7.35,19m 52s
+787,60508941,Boniface Kibiwott,12243928902,Afternoon Run,,2024-08-16 12:00:39+00:00,2800,Run,"Elgeyo-Marakwet County, Kenya",6.22,7.28,45m 24s
+788,60508941,Boniface Kibiwott,12243929412,Morning Run,,2024-08-16 03:22:59+00:00,4330,Run,"Elgeyo-Marakwet County, Kenya",11.34,6.32,1h 11m
+789,60508941,Boniface Kibiwott,12243930112,Morning Run,,2024-08-15 03:29:20+00:00,6616,Run,"Elgeyo-Marakwet County, Kenya",18.71,5.87,1h 49m
+790,60508941,Boniface Kibiwott,12243930266,Morning Run,,2024-08-15 03:04:22+00:00,870,Run,"Elgeyo-Marakwet County, Kenya",1.02,10.05,10m 18s
+791,60508941,Boniface Kibiwott,12243930763,Afternoon Run,,2024-08-14 12:37:46+00:00,2880,Run,"Elgeyo-Marakwet County, Kenya",6.28,7.6,47m 47s
+792,60508941,Boniface Kibiwott,12243931274,Morning Run,,2024-08-14 06:06:03+00:00,3874,Run,"Elgeyo-Marakwet County, Kenya",9.32,6.93,1h 4m
+793,60508941,Boniface Kibiwott,12243931772,Afternoon Run,,2024-08-12 12:38:06+00:00,2820,Run,"Elgeyo-Marakwet County, Kenya",6.41,7.33,47m 0s
+794,60508941,Boniface Kibiwott,12243932225,Morning Run,,2024-08-12 03:22:27+00:00,4102,Run,"Elgeyo-Marakwet County, Kenya",11.22,6.07,1h 7m
+795,60508941,Boniface Kibiwott,12243925142,Morning Run,,2024-08-24 03:38:23+00:00,7616,Run,"Elgeyo-Marakwet County, Kenya",21.83,5.8,2h 6m
+796,60508941,Boniface Kibiwott,12243925364,Morning Run,,2024-08-22 03:22:15+00:00,4976,Run,"Elgeyo-Marakwet County, Kenya",11.22,7.32,1h 22m
+797,60508941,Boniface Kibiwott,12243925929,Morning Run,,2024-08-21 03:26:04+00:00,4094,Run,"Elgeyo-Marakwet County, Kenya",9.94,6.77,1h 7m
+798,60508941,Boniface Kibiwott,12243926729,Morning Run,,2024-08-20 06:03:18+00:00,4576,Run,"Elgeyo-Marakwet County, Kenya",11.22,6.75,1h 15m
+799,60508941,Boniface Kibiwott,12243927312,Morning Run,,2024-08-19 03:25:27+00:00,4115,Run,"Elgeyo-Marakwet County, Kenya",10.06,6.8,1h 8m
+800,60508941,Boniface Kibiwott,12303458948,Morning Run,,2024-08-31 04:36:16+00:00,4157,Run,"Uasin Gishu County, Kenya",10.18,6.08,1h 1m
+801,60508941,Boniface Kibiwott,12303459160,Morning Run,,2024-08-31 03:57:58+00:00,1123,Run,"Uasin Gishu County, Kenya",2.1,8.88,18m 39s
+802,60508941,Boniface Kibiwott,12303459504,Afternoon Run,,2024-08-30 13:39:51+00:00,1991,Run,"Uasin Gishu County, Kenya",6.26,5.28,33m 8s
+803,60508941,Boniface Kibiwott,12303459758,Afternoon Run,,2024-08-30 13:14:26+00:00,1135,Run,"Uasin Gishu County, Kenya",2.13,8.63,18m 25s
+804,60508941,Boniface Kibiwott,12303460083,Morning Run,,2024-08-30 04:31:35+00:00,1985,Run,"Uasin Gishu County, Kenya",6.28,5.27,33m 5s
+805,60508941,Boniface Kibiwott,12303460353,Morning Run,,2024-08-30 03:40:16+00:00,1432,Run,"Uasin Gishu County, Kenya",1.86,10.22,19m 2s
+806,60508941,Boniface Kibiwott,12303460902,Morning Run,,2024-08-29 03:28:32+00:00,4008,Run,"Elgeyo-Marakwet County, Kenya",9.22,7.25,1h 6m
+807,60508941,Boniface Kibiwott,12261246838,Morning Run,,2024-08-28 04:10:12+00:00,4181,Run,"Uasin Gishu County, Kenya",12.72,5.48,1h 9m
+808,60508941,Boniface Kibiwott,12261246965,Morning Run,,2024-08-28 03:33:04+00:00,956,Run,"Uasin Gishu County, Kenya",2.11,7.55,15m 56s
+809,60508941,Boniface Kibiwott,12261240297,Afternoon Run,,2024-08-27 12:39:35+00:00,2966,Run,"Elgeyo-Marakwet County, Kenya",6.62,7.47,49m 26s
+810,60508941,Boniface Kibiwott,12261248141,Morning Run,,2024-08-27 03:21:56+00:00,4574,Run,"Elgeyo-Marakwet County, Kenya",11.87,6.42,1h 16m
+811,60508941,Boniface Kibiwott,12243924405,Morning Run,,2024-08-26 04:43:05+00:00,4019,Run,"Uasin Gishu County, Kenya",12.43,5.38,1h 6m
+812,60508941,Boniface Kibiwott,12243924608,Night Run,,2024-08-26 03:48:38+00:00,1461,Run,,3.11,7.8,24m 21s
+813,60508941,Boniface Kibiwott,12380651228,Morning Run,,2024-09-07 07:43:49+00:00,1317,Run,"Elgeyo-Marakwet County, Kenya",0.05,,46s
+814,60508941,Boniface Kibiwott,12346163973,Morning Run,,2024-09-07 04:14:00+00:00,7068,Run,"Uasin Gishu County, Kenya",22.6,5.22,1h 57m
+815,60508941,Boniface Kibiwott,12346164009,Morning Run,,2024-09-07 03:31:41+00:00,1998,Run,"Uasin Gishu County, Kenya",1.51,9.07,13m 41s
+816,60508941,Boniface Kibiwott,12346164643,Morning Run,,2024-09-06 03:23:20+00:00,4134,Run,"Elgeyo-Marakwet County, Kenya",10.1,6.77,1h 8m
+817,60508941,Boniface Kibiwott,12346213550,Afternoon Run,,2024-09-05 12:27:45+00:00,2440,Run,"Elgeyo-Marakwet County, Kenya",5.03,8.08,40m 40s
+818,60508941,Boniface Kibiwott,12346165684,Morning Run,,2024-09-05 03:22:03+00:00,5253,Run,"Elgeyo-Marakwet County, Kenya",13.05,6.67,1h 26m
+819,60508941,Boniface Kibiwott,12346165904,Afternoon Run,,2024-09-04 12:38:59+00:00,2677,Run,"Elgeyo-Marakwet County, Kenya",6.28,7.1,44m 37s
+820,60508941,Boniface Kibiwott,12346166600,Morning Run,,2024-09-04 03:23:25+00:00,4486,Run,"Elgeyo-Marakwet County, Kenya",11.9,6.27,1h 14m
+821,60508941,Boniface Kibiwott,12346166994,Afternoon Run,,2024-09-03 12:40:45+00:00,2946,Run,"Elgeyo-Marakwet County, Kenya",6.62,7.33,48m 35s
+822,60508941,Boniface Kibiwott,12346167655,Morning Run,,2024-09-03 03:25:05+00:00,5018,Run,"Elgeyo-Marakwet County, Kenya",12.61,6.57,1h 22m
+823,60508941,Boniface Kibiwott,12346167958,Afternoon Run,,2024-09-02 12:34:08+00:00,2773,Run,"Elgeyo-Marakwet County, Kenya",6.29,7.28,45m 51s
+824,60508941,Boniface Kibiwott,12303458121,Morning Run,,2024-09-02 03:28:06+00:00,4887,Run,"Elgeyo-Marakwet County, Kenya",13.06,6.22,1h 21m
+825,60508941,Boniface Kibiwott,12438779290,Morning Run,,2024-09-14 03:17:25+00:00,5297,Run,"Elgeyo-Marakwet County, Kenya",12.49,,1h 27m
+826,60508941,Boniface Kibiwott,12397054817,Morning Run,,2024-09-13 03:25:59+00:00,4708,Run,"Elgeyo-Marakwet County, Kenya",12.42,6.3,1h 18m
+827,60508941,Boniface Kibiwott,12397055081,Afternoon Run,,2024-09-12 12:30:55+00:00,2903,Run,"Elgeyo-Marakwet County, Kenya",6.23,7.75,48m 18s
+828,60508941,Boniface Kibiwott,12389367933,Morning Run,,2024-09-12 04:43:14+00:00,2895,Run,"Uasin Gishu County, Kenya",9.33,5.03,46m 58s
+829,60508941,Boniface Kibiwott,12389368428,Morning Run,,2024-09-12 03:42:07+00:00,1503,Run,"Uasin Gishu County, Kenya",2.46,8.48,20m 55s
+830,60508941,Boniface Kibiwott,12380648826,Morning Run,,2024-09-11 03:26:23+00:00,4378,Run,"Elgeyo-Marakwet County, Kenya",11.84,6.13,1h 12m
+831,60508941,Boniface Kibiwott,12380649067,Morning Run,,2024-09-10 05:48:46+00:00,2198,Run,"Uasin Gishu County, Kenya",6.3,5.82,36m 38s
+832,60508941,Boniface Kibiwott,12380649591,Morning Run,,2024-09-10 04:39:52+00:00,3704,Run,"Uasin Gishu County, Kenya",9.8,5.97,58m 34s
+833,60508941,Boniface Kibiwott,12380649838,Morning Run,,2024-09-10 03:54:33+00:00,1432,Run,"Uasin Gishu County, Kenya",2.5,7.8,19m 31s
+834,60508941,Boniface Kibiwott,12380650212,Afternoon Run,,2024-09-09 12:48:44+00:00,2746,Run,"Elgeyo-Marakwet County, Kenya",6.27,7.2,45m 15s
+835,60508941,Boniface Kibiwott,12380650837,Morning Run,,2024-09-09 03:25:45+00:00,4056,Run,"Elgeyo-Marakwet County, Kenya",11.21,6.03,1h 7m
+836,60508941,Boniface Kibiwott,12488998757,Morning Run,,2024-09-22 03:15:30+00:00,5870,Run,"Elgeyo-Marakwet County, Kenya",11.81,,1h 37m
+837,60508941,Boniface Kibiwott,12463451254,Morning Run,,2024-09-21 04:40:07+00:00,2745,Run,"Uasin Gishu County, Kenya",9.36,4.88,45m 45s
+838,60508941,Boniface Kibiwott,12463451478,Morning Run,,2024-09-21 03:48:00+00:00,1609,Run,"Uasin Gishu County, Kenya",2.48,9.38,23m 20s
+839,60508941,Boniface Kibiwott,12455945247,Morning Run,,2024-09-20 03:20:35+00:00,4653,Run,"Elgeyo-Marakwet County, Kenya",12.43,6.23,1h 17m
+840,60508941,Boniface Kibiwott,12455945611,Afternoon Run,,2024-09-19 12:31:19+00:00,3086,Run,"Elgeyo-Marakwet County, Kenya",5.05,8.67,43m 47s
+841,60508941,Boniface Kibiwott,12447994595,Morning Run,,2024-09-19 04:39:27+00:00,5603,Run,"Uasin Gishu County, Kenya",14.93,5.98,1h 29m
+842,60508941,Boniface Kibiwott,12447994747,Morning Run,,2024-09-19 03:51:53+00:00,1770,Run,"Uasin Gishu County, Kenya",1.7,11.22,19m 9s
+843,60508941,Boniface Kibiwott,12447995296,Afternoon Run,,2024-09-18 12:41:02+00:00,3291,Run,"Elgeyo-Marakwet County, Kenya",6.85,8.0,54m 51s
+844,60508941,Boniface Kibiwott,12438778309,Morning Run,,2024-09-18 03:22:13+00:00,4872,Run,"Elgeyo-Marakwet County, Kenya",12.43,6.53,1h 21m
+845,60508941,Boniface Kibiwott,12438778452,Morning Run,,2024-09-17 04:32:15+00:00,4665,Run,"Uasin Gishu County, Kenya",15.03,5.17,1h 17m
+846,60508941,Boniface Kibiwott,12438778573,Morning Run,,2024-09-17 03:42:35+00:00,1821,Run,"Uasin Gishu County, Kenya",2.56,9.13,23m 28s
+847,60508941,Boniface Kibiwott,12438778730,Afternoon Run,,2024-09-16 12:38:39+00:00,2727,Run,"Elgeyo-Marakwet County, Kenya",6.32,7.17,45m 21s
+848,60508941,Boniface Kibiwott,12438779032,Morning Run,,2024-09-16 03:22:26+00:00,4117,Run,"Elgeyo-Marakwet County, Kenya",11.26,6.07,1h 8m
+849,60508941,Boniface Kibiwott,12538417567,Morning Run,,2024-09-28 03:23:02+00:00,4828,Run,"Elgeyo-Marakwet County, Kenya",12.79,6.23,1h 19m
+850,60508941,Boniface Kibiwott,12514284485,Morning Run,,2024-09-27 05:35:53+00:00,1552,Run,"Elgeyo-Marakwet County, Kenya",3.12,8.28,25m 52s
+851,60508941,Boniface Kibiwott,12514285451,Morning Run,,2024-09-27 04:29:25+00:00,3604,Run,"Elgeyo-Marakwet County, Kenya",10.69,5.6,59m 54s
+852,60508941,Boniface Kibiwott,12514285629,Morning Run,,2024-09-27 03:27:39+00:00,1416,Run,"Elgeyo-Marakwet County, Kenya",2.39,9.02,21m 37s
+853,60508941,Boniface Kibiwott,12514286422,Afternoon Run,,2024-09-25 12:38:01+00:00,3750,Run,"Elgeyo-Marakwet County, Kenya",6.27,8.07,50m 39s
+854,60508941,Boniface Kibiwott,12514287119,Morning Run,,2024-09-25 03:20:46+00:00,4852,Run,"Elgeyo-Marakwet County, Kenya",12.43,6.47,1h 20m
+855,60508941,Boniface Kibiwott,12497351007,Afternoon Run,,2024-09-24 12:39:21+00:00,3116,Run,"Elgeyo-Marakwet County, Kenya",6.27,8.27,51m 52s
+856,60508941,Boniface Kibiwott,12488997259,Morning Run,,2024-09-24 03:27:13+00:00,5202,Run,"Elgeyo-Marakwet County, Kenya",11.08,7.78,1h 26m
+857,60508941,Boniface Kibiwott,12488997535,Afternoon Run,,2024-09-23 12:36:31+00:00,2701,Run,"Elgeyo-Marakwet County, Kenya",6.41,6.93,44m 27s
+858,60508941,Boniface Kibiwott,12488997972,Morning Run,,2024-09-23 05:14:38+00:00,3699,Run,"Uasin Gishu County, Kenya",8.36,6.72,56m 10s
+859,60508941,Boniface Kibiwott,12488998119,Morning Run,,2024-09-23 04:25:06+00:00,1120,Run,"Uasin Gishu County, Kenya",2.56,7.28,18m 40s
+860,60508941,Boniface Kibiwott,12594897284,Morning Run,,2024-10-06 03:20:08+00:00,5752,Run,"Elgeyo-Marakwet County, Kenya",12.83,7.43,1h 35m
+861,60508941,Boniface Kibiwott,12577141863,Morning Run,,2024-10-05 05:00:29+00:00,3930,Run,"Uasin Gishu County, Kenya",11.24,5.62,1h 3m
+862,60508941,Boniface Kibiwott,12577142093,Morning Run,,2024-10-05 03:59:14+00:00,1237,Run,"Uasin Gishu County, Kenya",2.23,8.85,19m 47s
+863,60508941,Boniface Kibiwott,12577142903,Morning Run,,2024-10-04 03:24:08+00:00,4307,Run,"Elgeyo-Marakwet County, Kenya",11.21,6.4,1h 11m
+864,60508941,Boniface Kibiwott,12577143124,Afternoon Run,,2024-10-03 12:35:40+00:00,3330,Run,"Elgeyo-Marakwet County, Kenya",6.28,8.77,55m 5s
+865,60508941,Boniface Kibiwott,12561784598,Morning Run,,2024-10-03 03:18:50+00:00,5823,Run,"Elgeyo-Marakwet County, Kenya",12.83,7.52,1h 36m
+866,60508941,Boniface Kibiwott,12553995262,Morning Run,,2024-10-02 04:42:07+00:00,5809,Run,"Uasin Gishu County, Kenya",18.71,5.17,1h 36m
+867,60508941,Boniface Kibiwott,12553995354,Morning Run,,2024-10-02 03:56:55+00:00,1665,Run,"Uasin Gishu County, Kenya",2.81,7.97,22m 24s
+868,60508941,Boniface Kibiwott,12553995899,Afternoon Run,,2024-10-01 12:39:12+00:00,2713,Run,"Elgeyo-Marakwet County, Kenya",6.29,7.18,45m 13s
+869,60508941,Boniface Kibiwott,12545060311,Morning Run,,2024-10-01 03:29:37+00:00,3283,Run,"Elgeyo-Marakwet County, Kenya",7.46,7.27,54m 12s
+870,60508941,Boniface Kibiwott,12545060533,Afternoon Run,,2024-09-30 12:36:07+00:00,2890,Run,"Elgeyo-Marakwet County, Kenya",6.26,7.63,47m 48s
+871,60508941,Boniface Kibiwott,12538417024,Morning Run,,2024-09-30 03:23:10+00:00,4403,Run,"Elgeyo-Marakwet County, Kenya",12.43,5.9,1h 13m
+872,60508941,Boniface Kibiwott,12675743564,Morning Run,,2024-10-12 04:19:58+00:00,3472,Run,"Uasin Gishu County, Kenya",11.19,5.13,57m 25s
+873,60508941,Boniface Kibiwott,12675743701,Morning Run,,2024-10-12 03:30:44+00:00,1372,Run,"Uasin Gishu County, Kenya",2.49,8.87,22m 4s
+874,60508941,Boniface Kibiwott,12675744148,Morning Run,,2024-10-11 03:22:55+00:00,4537,Run,"Elgeyo-Marakwet County, Kenya",11.97,6.32,1h 15m
+875,60508941,Boniface Kibiwott,12619389208,Morning Run,,2024-10-10 06:05:44+00:00,3002,Run,"Elgeyo-Marakwet County, Kenya",8.46,5.92,50m 2s
+876,60508941,Boniface Kibiwott,12619389589,Morning Run,,2024-10-10 05:21:59+00:00,1746,Run,"Elgeyo-Marakwet County, Kenya",3.73,7.77,28m 59s
+877,60508941,Boniface Kibiwott,12610983826,Morning Run,,2024-10-09 03:22:13+00:00,4747,Run,"Elgeyo-Marakwet County, Kenya",12.5,6.28,1h 18m
+878,60508941,Boniface Kibiwott,12606803536,Afternoon Run,,2024-10-08 12:42:11+00:00,2787,Run,"Elgeyo-Marakwet County, Kenya",6.27,7.33,46m 4s
+879,60508941,Boniface Kibiwott,12603798160,Morning Run,,2024-10-08 03:27:03+00:00,3524,Run,"Elgeyo-Marakwet County, Kenya",7.17,8.07,57m 54s
+880,60508941,Boniface Kibiwott,12603798704,Afternoon Run,,2024-10-07 12:40:35+00:00,2529,Run,"Elgeyo-Marakwet County, Kenya",5.34,7.83,41m 52s
+881,60508941,Boniface Kibiwott,12594896852,Morning Run,,2024-10-07 03:21:54+00:00,4102,Run,"Elgeyo-Marakwet County, Kenya",11.24,6.08,1h 8m
+882,60508941,Boniface Kibiwott,12700561802,Morning Run,,2024-10-20 07:00:01+00:00,7808,Run,"Amsterdam, Netherlands",26.34,4.9,2h 9m
+883,60508941,Boniface Kibiwott,12700561241,Morning Run,,2024-10-20 05:51:24+00:00,1289,Run,"Amsterdam, Netherlands",2.64,7.78,20m 35s
+884,60508941,Boniface Kibiwott,12689945027,Morning Run,,2024-10-19 05:08:35+00:00,1868,Run,"Amsterdam, Netherlands",3.28,9.37,30m 49s
+885,60508941,Boniface Kibiwott,12689945432,Morning Run,,2024-10-18 06:06:23+00:00,2699,Run,"Amsterdam, Netherlands",6.68,6.68,44m 37s
+886,60508941,Boniface Kibiwott,12675742379,Morning Run,,2024-10-15 04:26:57+00:00,2202,Run,"Uasin Gishu County, Kenya",4.73,6.9,32m 40s
+887,60508941,Boniface Kibiwott,12675742533,Morning Run,,2024-10-15 03:55:21+00:00,1308,Run,"Uasin Gishu County, Kenya",2.64,8.25,21m 48s
+888,60508941,Boniface Kibiwott,12675743160,Morning Run,,2024-10-14 03:23:11+00:00,3889,Run,"Elgeyo-Marakwet County, Kenya",9.52,6.78,1h 4m
+889,60508941,Boniface Kibiwott,12819462964,Morning Run,,2024-11-02 05:06:26+00:00,1108,Run,"Uasin Gishu County, Kenya",3.24,3.55,11m 33s
+890,60508941,Boniface Kibiwott,12819463808,Morning Run,,2024-11-02 04:01:18+00:00,3240,Run,"Uasin Gishu County, Kenya",10.18,5.3,54m 0s
+891,60508941,Boniface Kibiwott,12819464532,Morning Run,,2024-11-02 03:21:35+00:00,1163,Run,"Uasin Gishu County, Kenya",2.48,7.8,19m 23s
+892,60508941,Boniface Kibiwott,12798146780,Afternoon Run,,2024-11-01 12:40:38+00:00,2315,Run,"Elgeyo-Marakwet County, Kenya",5.04,7.62,38m 25s
+893,60508941,Boniface Kibiwott,12794040666,Morning Run,,2024-11-01 03:23:14+00:00,4293,Run,"Elgeyo-Marakwet County, Kenya",11.25,6.35,1h 11m
+894,60508941,Boniface Kibiwott,12794040758,Afternoon Run,,2024-10-31 12:37:34+00:00,2374,Run,"Elgeyo-Marakwet County, Kenya",4.98,7.83,39m 5s
+895,60508941,Boniface Kibiwott,12794040978,Morning Run,,2024-10-31 03:22:52+00:00,4123,Run,"Elgeyo-Marakwet County, Kenya",9.34,7.3,1h 8m
+896,60508941,Boniface Kibiwott,12783967454,Afternoon Run,,2024-10-30 12:23:28+00:00,2850,Run,"Elgeyo-Marakwet County, Kenya",6.29,7.48,47m 9s
+897,60508941,Boniface Kibiwott,12774869599,Afternoon Run,,2024-10-29 12:28:29+00:00,3254,Run,"Elgeyo-Marakwet County, Kenya",7.46,7.18,53m 42s
+898,60508941,Boniface Kibiwott,12770304836,Morning Run,,2024-10-29 03:19:12+00:00,3668,Run,"Elgeyo-Marakwet County, Kenya",7.48,8.1,1h 0m
+899,60508941,Boniface Kibiwott,12766776925,Afternoon Run,,2024-10-28 12:41:51+00:00,3088,Run,"Elgeyo-Marakwet County, Kenya",6.33,8.05,50m 56s
+900,60508941,Boniface Kibiwott,12762484074,Morning Run,,2024-10-28 03:22:49+00:00,3979,Run,"Elgeyo-Marakwet County, Kenya",9.32,7.08,1h 6m
+901,24660297,Brian Fay,11167896525,Wattle Park loop X3,21.44,2024-04-12 23:58:52+00:00,1304,Run,"Melbourne, Australia",4.4,,21m 44s
+902,24660297,Brian Fay,12640589234,Sunday long run,,2024-10-12 20:00:19+00:00,7456,Run,"Melbourne, Australia",22.38,5.55,2h 4m
