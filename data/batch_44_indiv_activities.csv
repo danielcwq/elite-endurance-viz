@@ -1,0 +1,1748 @@
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+0,28540939,Pieter Sisk,10514856409,Nachtloop,op karakter.,2024-01-07 21:42:23+00:00,1617,VirtualRun,,4.2,6.42,26m 57s
+1,28540939,Pieter Sisk,10509762679,Ochtendloop,8x 300m fito hill.,2024-01-07 08:22:17+00:00,4349,Run,"Leuven, Belgium",9.49,6.75,1h 4m
+2,28540939,Pieter Sisk,10507083921,Avondloop,,2024-01-06 18:16:38+00:00,1951,VirtualRun,,5.0,6.5,32m 31s
+3,28540939,Pieter Sisk,10499484836,Namiddagloop,,2024-01-05 14:46:31+00:00,3961,Run,"Leuven, Belgium",9.39,6.55,1h 1m
+4,28540939,Pieter Sisk,10501235420,indoor training louvain-la-neuve,"8x200m (australian) avg 26.2, rust=1'15jog (dubbel na 4de)",2024-01-04 10:05:25+00:00,677,Run,,2.11,5.33,11m 17s
+5,28540939,Pieter Sisk,10491827043,Ochtendloop,,2024-01-04 09:33:27+00:00,554,Run,"Ottignies-Louvain-la-Neuve, Belgium",1.14,6.83,7m 49s
+6,28540939,Pieter Sisk,10491794442,Ochtendloop,,2024-01-04 08:12:59+00:00,495,Run,"Leuven, Belgium",1.15,7.12,8m 15s
+7,28540939,Pieter Sisk,10514979168,GRIT functional fitness + strength,,2024-01-03 12:00:00+00:00,5400,WeightTraining,,1.0,,
+8,28540939,Pieter Sisk,10484144816,Ochtendloop,,2024-01-03 08:26:42+00:00,2024,Run,"Leuven, Belgium",5.0,6.32,31m 35s
+9,28540939,Pieter Sisk,10478361365,Ochtendloop,"5x 1200m 3'19 avg (2'46/km), r=2'30 jog",2024-01-02 09:18:30+00:00,4578,Run,"Leuven, Belgium",8.46,6.23,52m 43s
+10,28540939,Pieter Sisk,10476072961,Nachtloop,,2024-01-01 20:07:00+00:00,3828,VirtualRun,,10.0,6.38,1h 3m
+11,28540939,Pieter Sisk,10558893093,Namiddagloop,,2024-01-14 16:49:54+00:00,3000,VirtualRun,,8.0,6.25,50m 0s
+12,28540939,Pieter Sisk,10555869156,Ochtendloop,6x 500m 1'16 avg,2024-01-14 09:56:27+00:00,4877,Run,"Leuven, Belgium",8.42,6.57,55m 16s
+13,28540939,Pieter Sisk,10552608203,USC functional fitness + strength,,2024-01-13 15:00:00+00:00,5400,WeightTraining,,1.0,,
+14,28540939,Pieter Sisk,10550119103,Namiddagloop,,2024-01-13 12:44:36+00:00,3929,Run,"Leuven, Belgium",9.0,6.57,59m 9s
+15,28540939,Pieter Sisk,10546149009,Nachtloop,,2024-01-12 21:19:15+00:00,3752,VirtualRun,,10.0,6.25,1h 2m
+16,28540939,Pieter Sisk,10537086244,Middagloop,,2024-01-11 11:58:14+00:00,3243,Run,"Leuven, Belgium",8.17,5.85,47m 50s
+17,28540939,Pieter Sisk,10530146422,Middagloop,,2024-01-10 10:50:24+00:00,2712,Run,"Leuven, Belgium",6.22,6.43,40m 0s
+18,28540939,Pieter Sisk,10525215194,Namiddagloop,,2024-01-09 14:53:01+00:00,3006,Run,"Leuven, Belgium",6.15,7.3,44m 57s
+19,28540939,Pieter Sisk,10604146942,warm up / cool down,,2024-01-21 16:06:19+00:00,7993,Run,,2.21,8.88,19m 39s
+20,28540939,Pieter Sisk,10604137649,"1500m World Athletics indoor tour Luxemburg: 3.38.90, PB indoor, 2nd.",5de all time Belgie.,2024-01-21 17:09:42+00:00,218,Run,,0.93,3.9,3m 38s
+21,28540939,Pieter Sisk,10599894512,shake out pre race,,2024-01-21 10:03:32+00:00,738,Run,,1.27,6.87,8m 46s
+22,28540939,Pieter Sisk,10595845221,d-1 kick off indoor tour,1500m @cmcmindoormeeting 🇱🇺,2024-01-20 10:22:54+00:00,840,Run,,1.86,7.52,14m 0s
+23,28540939,Pieter Sisk,10587070265,Ochtendloop,loopband streak: dag 3,2024-01-19 09:23:50+00:00,1911,Run,,4.97,6.4,31m 51s
+24,28540939,Pieter Sisk,10582325292,Namiddagloop,8k @3'17/km avg,2024-01-18 13:15:00+00:00,2920,Run,,8.38,5.8,48m 40s
+25,28540939,Pieter Sisk,10575640946,Namiddagloop,,2024-01-17 12:00:14+00:00,2990,Run,,8.07,6.17,49m 50s
+26,28540939,Pieter Sisk,10570215848,Namiddagloop,,2024-01-16 15:25:00+00:00,1668,VirtualRun,,4.28,6.48,27m 48s
+27,28540939,Pieter Sisk,10568510038,indoor louvain la neuve,3x600m 1'26,2024-01-16 09:34:00+00:00,1800,Run,,3.72,8.05,30m 0s
+28,28540939,Pieter Sisk,10564819826,Namiddagloop,,2024-01-15 16:52:00+00:00,2403,VirtualRun,,6.21,6.45,40m 3s
+29,28540939,Pieter Sisk,10647875262,Namiddagloop,,2024-01-28 13:33:50+00:00,5412,Run,"Leuven, Belgium",9.49,6.53,1h 2m
+30,28540939,Pieter Sisk,10640012763,warm up / cool down,,2024-01-27 11:06:05+00:00,7225,Run,,1.96,8.8,17m 15s
+31,28540939,Pieter Sisk,10639909922,800m Apeldoorn: 1.46.10 / 3th all time België,0.1 van WK limiet 😤,2024-01-27 12:23:00+00:00,106,Run,,0.49,3.55,1m 46s
+32,28540939,Pieter Sisk,10637250032,shake out pre race,7u20 am 🥲,2024-01-27 06:20:34+00:00,728,Run,,1.21,7.18,8m 45s
+33,28540939,Pieter Sisk,10637249984,Namiddagloop,,2024-01-26 16:45:27+00:00,1100,Run,"Leuven, Belgium",1.75,7.18,12m 37s
+34,28540939,Pieter Sisk,10627781282,Namiddagloop,,2024-01-25 16:05:37+00:00,2657,Run,"Leuven, Belgium",5.9,6.33,37m 27s
+35,28540939,Pieter Sisk,10621152674,indoor louvain la neuve,4x 300m,2024-01-24 09:15:00+00:00,1320,Run,,2.73,8.05,22m 0s
+36,28540939,Pieter Sisk,10614056599,USC strength,,2024-01-23 14:20:00+00:00,3600,WeightTraining,,1.0,,
+37,28540939,Pieter Sisk,10613314272,Namiddagloop,"7,5k @3'26/km",2024-01-23 12:01:57+00:00,3829,Run,"Leuven, Belgium",8.92,5.95,53m 9s
+38,28540939,Pieter Sisk,10608543886,Avondloop,,2024-01-22 17:22:26+00:00,2698,VirtualRun,,7.0,6.42,44m 58s
+39,28540939,Pieter Sisk,10691205960,1000m indoor Gent: 2.17.17 BELGIAN RECORD !,Yeehah,2024-02-03 20:55:00+00:00,137,Run,,0.62,3.67,2m 17s
+40,28540939,Pieter Sisk,10701083651,warm up,,2024-02-03 20:00:00+00:00,540,Run,,1.38,6.5,9m 0s
+41,28540939,Pieter Sisk,10690808668,shake out pre race,+ 3 strides,2024-02-03 15:44:31+00:00,944,Run,,1.21,6.8,8m 14s
+42,28540939,Pieter Sisk,10690808376,Avondloop,,2024-02-02 17:00:50+00:00,985,Run,"Leuven, Belgium",1.51,7.32,11m 4s
+43,28540939,Pieter Sisk,10675555077,Namiddagloop,,2024-02-01 16:52:16+00:00,2668,Run,"Leuven, Belgium",6.19,6.37,39m 27s
+44,28540939,Pieter Sisk,10667696239,USC loopband,8k @3'19/km avg. feeling strong,2024-01-31 13:27:54+00:00,3180,Run,,9.01,5.88,53m 0s
+45,28540939,Pieter Sisk,10663211322,Avondloop,,2024-01-30 17:30:00+00:00,1894,VirtualRun,,5.0,6.32,31m 34s
+46,28540939,Pieter Sisk,10663207519,indoor louvain la neuve,500m-300m-300m: 66.5-39.9-38.9,2024-01-30 09:30:00+00:00,1530,Run,,3.16,8.05,25m 30s
+47,28540939,Pieter Sisk,10656506560,crosstrainer,op karakter,2024-01-29 20:45:00+00:00,3046,VirtualRun,,8.0,6.35,50m 46s
+48,28540939,Pieter Sisk,10656498506,GRIT strength,,2024-01-29 08:45:00+00:00,4500,WeightTraining,,1.0,,
+49,28540939,Pieter Sisk,10745486687,Avondloop,,2024-02-11 18:01:00+00:00,1777,VirtualRun,,4.66,6.35,29m 37s
+50,28540939,Pieter Sisk,10739440436,Ochtendloop,10x dennendreef hill,2024-02-11 09:15:47+00:00,6516,Run,"Leuven, Belgium",9.14,6.83,1h 2m
+51,28540939,Pieter Sisk,10735613953,Namiddagloop,,2024-02-10 16:58:59+00:00,3422,VirtualRun,,9.01,6.33,57m 2s
+52,28540939,Pieter Sisk,10728636137,Namiddagloop,,2024-02-09 16:58:25+00:00,2762,Run,"Leuven, Belgium",4.73,7.78,36m 48s
+53,28540939,Pieter Sisk,10728635605,Ochtendloop,9x150m,2024-02-09 09:37:31+00:00,4852,Run,"Leuven, Belgium",4.94,8.98,44m 25s
+54,28540939,Pieter Sisk,10728634524,Namiddagloop,,2024-02-08 14:12:14+00:00,2930,Run,"Leuven, Belgium",6.3,6.22,39m 11s
+55,28540939,Pieter Sisk,10728196512,Middagloop,6k @3'23/km,2024-02-07 11:30:00+00:00,2170,Run,,6.21,5.82,36m 10s
+56,28540939,Pieter Sisk,10790539878,belgisch kampioenschap indoor 800m: 1.46.9 / 2nd.,meer van verwacht. volgende week vrijdag: gold meeting Madrid 🇪🇸 (debuut world indoor tour 😎),2024-02-18 13:40:37+00:00,106,Run,,0.49,3.55,1m 46s
+57,28540939,Pieter Sisk,10790556858,warm up / cool down,,2024-02-18 12:30:59+00:00,1147,Run,,2.79,6.83,19m 7s
+58,28540939,Pieter Sisk,10790534229,pre race thuis,,2024-02-18 09:32:38+00:00,943,Run,,1.29,6.72,8m 41s
+59,28540939,Pieter Sisk,10781909519,Avondloop,,2024-02-17 17:44:02+00:00,888,Run,,1.53,7.07,10m 49s
+60,28540939,Pieter Sisk,10774439488,Namiddagloop,+ 3 strides.,2024-02-16 16:36:57+00:00,3159,Run,"Leuven, Belgium",6.0,6.27,37m 33s
+61,28540939,Pieter Sisk,10766806929,Namiddagloop,"7,5k @3'20/km",2024-02-15 13:15:12+00:00,3566,Run,"Leuven, Belgium",9.09,5.77,52m 32s
+62,28540939,Pieter Sisk,10760240479,indoor louvain la neuve,6x200 25.0 avg,2024-02-14 09:30:59+00:00,1890,Run,,3.91,8.05,31m 30s
+63,28540939,Pieter Sisk,10752439566,Ochtendloop,"3x 1000m 2'42-2'42-2'39, rust 2' jog",2024-02-13 09:23:48+00:00,6008,Run,"Leuven, Belgium",9.83,6.4,1h 2m
+64,28540939,Pieter Sisk,10752582111,Namiddagloop,,2024-02-12 15:15:00+00:00,475,VirtualRun,,1.24,6.37,7m 55s
+65,28540939,Pieter Sisk,10752578229,GRIT functional fitness + strength,,2024-02-12 13:45:48+00:00,5400,WeightTraining,,1.0,,
+66,28540939,Pieter Sisk,10745489566,Ochtendloop,,2024-02-12 08:43:35+00:00,2374,VirtualRun,,6.21,6.37,39m 34s
+67,28540939,Pieter Sisk,10832229287,"800m world indoor tour Madrid: 1.47.52, 6de.",,2024-02-23 18:55:50+00:00,107,Run,,0.49,3.58,1m 47s
+68,28540939,Pieter Sisk,10832241370,warm up,,2024-02-23 17:38:57+00:00,623,Run,,1.55,6.68,10m 23s
+69,28540939,Pieter Sisk,10832164670,pre race Madrid,,2024-02-23 14:27:37+00:00,778,Run,"Madrid, Spain",1.19,6.75,8m 6s
+70,28540939,Pieter Sisk,10832199273,Pista Cubierta Gallur,3km + 3 strides.,2024-02-22 17:08:00+00:00,840,Run,,2.17,6.43,14m 0s
+71,28540939,Pieter Sisk,10809528303,Middagloop,,2024-02-21 11:01:10+00:00,1245,Run,"Leuven, Belgium",3.0,6.83,20m 31s
+72,28540939,Pieter Sisk,10809535809,indoor louvain la neuve,2x 300m: 37.5 - 36.6,2024-02-20 09:45:00+00:00,1200,Run,,2.5,8.0,20m 0s
+73,28540939,Pieter Sisk,10793183092,Middagloop,,2024-02-19 11:37:00+00:00,1800,VirtualRun,,4.78,6.28,30m 0s
+74,28540939,Pieter Sisk,10879572702,Ochtendloop,,2024-03-03 09:24:01+00:00,3758,Run,"Leuven, Belgium",7.02,7.73,54m 17s
+75,28540939,Pieter Sisk,10875159333,Namiddagloop,,2024-03-02 15:24:29+00:00,2177,Run,"Leuven, Belgium",4.97,6.7,33m 22s
+76,28540939,Pieter Sisk,10867038945,back,,2024-03-01 11:29:46+00:00,2136,Run,"Leuven, Belgium",5.0,6.33,31m 41s
+77,28540939,Pieter Sisk,10980534758,Namiddagloop,,2024-03-17 15:41:59+00:00,1449,VirtualRun,,3.72,6.48,24m 9s
+78,28540939,Pieter Sisk,10977942645,Middagloop,,2024-03-17 11:01:01+00:00,243,Run,"Leuven, Belgium",0.51,7.73,4m 0s
+79,28540939,Pieter Sisk,10977942809,🔁🔁🔁,"14x 1230m aaneensluitend en afwisselend trager/sneller. gps correctie: 17,0km @3'23 avg.",2024-03-17 09:42:18+00:00,3463,Run,"Leuven, Belgium",10.12,5.7,57m 43s
+80,28540939,Pieter Sisk,10977942757,Ochtendloop,,2024-03-17 09:34:36+00:00,229,Run,"Leuven, Belgium",0.49,7.77,3m 49s
+81,28540939,Pieter Sisk,10972159818,Namiddagloop,,2024-03-16 14:18:20+00:00,1758,Run,"Leuven, Belgium",4.47,6.37,28m 29s
+82,28540939,Pieter Sisk,10971895147,8x 80m,,2024-03-16 14:12:24+00:00,240,Run,,0.49,8.05,4m 0s
+83,28540939,Pieter Sisk,10971889262,Namiddagloop,,2024-03-16 13:07:13+00:00,1768,Run,"Leuven, Belgium",4.37,6.23,27m 19s
+84,28540939,Pieter Sisk,10965425020,Namiddagloop,,2024-03-15 15:37:51+00:00,1600,VirtualRun,,4.22,6.32,26m 40s
+85,28540939,Pieter Sisk,10965101508,Middagloop,,2024-03-15 11:43:00+00:00,1450,VirtualRun,,3.72,6.48,24m 10s
+86,28540939,Pieter Sisk,10957471012,Namiddagloop,,2024-03-14 12:36:14+00:00,636,VirtualRun,,1.55,6.82,10m 36s
+87,28540939,Pieter Sisk,10956699561,Ochtendloop,5x 2000m progressief 7'05 -> 6'05,2024-03-14 09:28:57+00:00,4656,Run,"Leuven, Belgium",9.95,5.92,58m 58s
+88,28540939,Pieter Sisk,10950109346,abdij - arenberg - dijlepad - centrum - k lo,,2024-03-13 11:18:35+00:00,4083,Run,"Leuven, Belgium",9.95,6.25,1h 2m
+89,28540939,Pieter Sisk,10942839544,Middagloop,1400m reps,2024-03-12 11:31:25+00:00,4018,Run,"Leuven, Belgium",9.14,6.02,54m 56s
+90,28540939,Pieter Sisk,10937818477,Avondloop,,2024-03-11 17:43:54+00:00,958,VirtualRun,,2.48,6.42,15m 58s
+91,28540939,Pieter Sisk,10936773869,Middagloop,,2024-03-11 11:30:00+00:00,1234,VirtualRun,,3.1,6.62,20m 34s
+92,28540939,Pieter Sisk,10936770923,GRIT mobility/functional fitness,,2024-03-11 10:30:00+00:00,3600,WeightTraining,,1.0,,
+93,28540939,Pieter Sisk,11127692888,Namiddagloop,,2024-04-07 13:49:24+00:00,1500,VirtualRun,,3.72,6.7,25m 0s
+94,28540939,Pieter Sisk,11126256394,Namiddagloop,,2024-04-07 11:30:20+00:00,505,Run,"Leuven, Belgium",1.24,6.78,8m 25s
+95,28540939,Pieter Sisk,11125967387,Middagloop,5km @3'50/km - 5km @3'30/km - 5km @3'15/km,2024-04-07 10:12:28+00:00,3455,Run,"Leuven, Belgium",9.32,5.63,52m 36s
+96,28540939,Pieter Sisk,11120012120,Namiddagloop,,2024-04-06 14:55:57+00:00,1361,Run,"Leuven, Belgium",3.26,6.58,21m 30s
+97,28540939,Pieter Sisk,11117369579,track; 4x 300m: FAST !,double in namiddag.,2024-04-06 07:48:59+00:00,7940,Run,"Leuven, Belgium",6.76,6.68,45m 10s
+98,28540939,Pieter Sisk,11111649684,Namiddagloop,,2024-04-05 12:37:07+00:00,3300,VirtualRun,,8.54,6.43,55m 0s
+99,28540939,Pieter Sisk,11107026044,testing prof Olbrecht,,2024-04-04 16:26:16+00:00,7689,Run,"Leuven, Belgium",8.5,5.6,47m 32s
+100,28540939,Pieter Sisk,11104902107,warm up,met viktor.,2024-04-04 13:17:38+00:00,1298,Run,"Leuven, Belgium",3.11,6.88,21m 27s
+101,28540939,Pieter Sisk,11097432757,Namiddagloop,,2024-04-03 11:42:21+00:00,3611,Run,"Leuven, Belgium",9.34,6.08,56m 53s
+102,28540939,Pieter Sisk,11088890196,Ochtendloop,"4x 2,8k 9'",2024-04-02 07:59:04+00:00,4301,Run,"Leuven, Belgium",10.12,5.93,1h 0m
+103,28540939,Pieter Sisk,11081009734,Ochtendloop,,2024-04-01 06:22:55+00:00,1680,VirtualRun,,4.4,6.35,28m 0s
+104,28540939,Pieter Sisk,11183471845,Avondloop,640km op 6 weken.,2024-04-14 18:54:13+00:00,1680,VirtualRun,,4.35,6.43,28m 0s
+105,28540939,Pieter Sisk,11178998324,Middagloop,11km @3'15/km. dubbel in avond.,2024-04-14 09:48:19+00:00,3901,Run,"Leuven, Belgium",11.19,5.73,1h 4m
+106,28540939,Pieter Sisk,11171857855,Namiddagloop,10km warm up - 10x80m 90% r=45sec - 5km cooldown,2024-04-13 11:24:48+00:00,5926,Run,"Leuven, Belgium",10.66,6.35,1h 7m
+107,28540939,Pieter Sisk,11166874557,Nachtloop,,2024-04-12 19:42:24+00:00,2580,VirtualRun,,6.68,6.43,43m 0s
+108,28540939,Pieter Sisk,11166994545,GRIT: mobility - core - strength,,2024-04-12 13:00:00+00:00,5400,WeightTraining,,1.0,,
+109,28540939,Pieter Sisk,11155646899,aeroob vermogen: 6x 1100m,"1000m splits: 2'49 - 2'51 - 2'50 - 2'40 - 2'41 - 2'38 (+100m door) , r=2' jog",2024-04-11 08:24:01+00:00,4961,Run,"Leuven, Belgium",8.35,6.17,51m 31s
+110,28540939,Pieter Sisk,11148482906,Middagloop,onverwacht brabantse pijl meegepikt.,2024-04-10 09:37:37+00:00,4944,Run,"Leuven, Belgium",10.25,6.28,1h 4m
+111,28540939,Pieter Sisk,11140067076,Ochtendloop,6x 2000m,2024-04-09 07:25:45+00:00,5404,Run,"Leuven, Belgium",11.28,6.0,1h 7m
+112,28540939,Pieter Sisk,11134324015,mobilty - core - strength,GRIT,2024-04-08 12:18:59+00:00,4800,WeightTraining,,1.0,,
+113,28540939,Pieter Sisk,11133426267,Middagloop,,2024-04-08 10:36:07+00:00,2160,VirtualRun,,5.59,6.43,36m 0s
+114,28540939,Pieter Sisk,11449191742,Namiddagloop,Marie als gids 🤩,2024-05-19 14:33:47+00:00,3281,Run,"Kinrooi, Belgium",8.71,5.88,51m 19s
+115,28540939,Pieter Sisk,11443016367,warm up / cooldown,,2024-05-18 18:07:45+00:00,7725,Run,"Nijmegen, Netherlands",2.76,7.67,21m 13s
+116,28540939,Pieter Sisk,11443026228,"800m Next Generation Athletics, Nijmegen: 1.45.63 PB",sneller iedere week maar nog niet tevreden. nu 7de all time België op 800m & 1500m.,2024-05-18 19:15:37+00:00,105,Run,,0.49,3.52,1m 45s
+117,28540939,Pieter Sisk,11443015871,Namiddagloop,+ 2 strides.,2024-05-18 12:24:58+00:00,753,Run,,1.58,6.5,10m 19s
+118,28540939,Pieter Sisk,11433882464,Nachtloop,+ 2 strides.,2024-05-17 19:34:35+00:00,937,Run,,2.5,6.25,15m 37s
+119,28540939,Pieter Sisk,11426462420,Avondloop,,2024-05-16 16:30:00+00:00,1440,VirtualRun,,3.72,6.43,24m 0s
+120,28540939,Pieter Sisk,11420075756,300-300-200,36.7-36.2-23.7,2024-05-15 14:33:00+00:00,5454,Run,"Leuven, Belgium",5.4,6.75,36m 30s
+121,28540939,Pieter Sisk,11409455656,Namiddagloop,6x 600m,2024-05-14 14:37:24+00:00,4773,Run,"Leuven, Belgium",8.08,5.97,48m 11s
+122,28540939,Pieter Sisk,11465284338,GRIT strength,,2024-05-13 15:15:00+00:00,1800,WeightTraining,,30.0,,
+123,28540939,Pieter Sisk,11400896532,Namiddagloop,nieuwe week nieuwe kansen,2024-05-13 14:02:02+00:00,2870,Run,"Leuven, Belgium",7.76,6.03,46m 53s
+124,28540939,Pieter Sisk,11614378114,running / sightseeing,pantheon / forum romanum / colosseum,2024-06-09 16:27:49+00:00,7169,Run,"Rome, Italy",8.86,6.52,57m 43s
+125,28540939,Pieter Sisk,11612801860,Namiddagloop,loopband. (+ stretching / mobility),2024-06-08 15:00:00+00:00,660,Run,,1.86,5.9,11m 0s
+126,28540939,Pieter Sisk,11612827125,"European Championships Rome 2024, 800m heat: 1.45.8 (8th)",bad luck.,2024-06-07 10:47:00+00:00,105,Run,,0.49,3.52,1m 45s
+127,28540939,Pieter Sisk,11612821137,warm up,,2024-06-07 09:12:23+00:00,1347,Run,"Rome, Italy",1.5,,9m 37s
+128,28540939,Pieter Sisk,11593611550,shake out,+ 3 strides.,2024-06-07 06:24:38+00:00,512,Run,"Rome, Italy",1.22,6.95,8m 32s
+129,28540939,Pieter Sisk,11589332588,Avondloop,+ 3 strides.,2024-06-06 16:32:26+00:00,1169,Run,"Rome, Italy",1.85,6.52,12m 7s
+130,28540939,Pieter Sisk,11583670811,🇮🇹🇮🇹🇮🇹,"1km 4'/km - 1km 3'45/km - 0,5km 3'20/km - 0,5km 4'/km. (loopband)",2024-06-05 19:33:00+00:00,681,Run,,1.86,6.08,11m 21s
+131,28540939,Pieter Sisk,11583442323,Ochtendloop,incl 2 strides.,2024-06-05 08:18:53+00:00,882,Run,"Leuven, Belgium",1.99,6.05,12m 2s
+132,28540939,Pieter Sisk,11572185781,Namiddagloop,300-300-200-200,2024-06-04 14:29:42+00:00,5159,Run,"Leuven, Belgium",4.17,7.4,30m 56s
+133,28540939,Pieter Sisk,11570886331,Ochtendloop,,2024-06-04 08:16:04+00:00,1470,Run,"Leuven, Belgium",3.73,5.92,22m 6s
+134,28540939,Pieter Sisk,11564461365,Avondloop,,2024-06-03 16:06:38+00:00,2400,VirtualRun,,6.21,6.43,40m 0s
+135,28540939,Pieter Sisk,11841397016,warm up + cooldown,,2024-07-07 14:34:49+00:00,9171,Run,"Hengelo, Netherlands",2.77,6.35,17m 37s
+136,28540939,Pieter Sisk,11841416964,1000m World Athletics Gold Tour Hengelo: 2.15.52 / 2nd,0.02sec boven Belgisch Record 😤,2024-07-07 16:00:00+00:00,135,Run,,0.62,3.62,2m 15s
+137,28540939,Pieter Sisk,11828781257,Ochtendloop,incl. 3 strides.,2024-07-07 08:51:03+00:00,809,Run,,1.83,6.02,11m 2s
+138,28540939,Pieter Sisk,11824947044,Avondloop,incl 3 strides. FBK Games tmrw.,2024-07-06 17:29:47+00:00,989,Run,,1.85,6.2,11m 29s
+139,28540939,Pieter Sisk,11816102569,Avondloop,,2024-07-05 17:17:40+00:00,1662,Run,"Leuven, Belgium",3.73,5.97,22m 16s
+140,28540939,Pieter Sisk,11809870828,Namiddagloop,4x300m,2024-07-04 14:58:53+00:00,4630,Run,"Ottignies-Louvain-la-Neuve, Belgium",4.59,5.78,26m 34s
+141,28540939,Pieter Sisk,11801740421,Avondloop,,2024-07-03 17:54:53+00:00,1516,Run,"Leuven, Belgium",3.66,5.93,21m 46s
+142,28540939,Pieter Sisk,11796414473,Ochtendloop,double pm.,2024-07-03 07:29:09+00:00,2422,Run,"Leuven, Belgium",6.22,6.13,38m 8s
+143,28540939,Pieter Sisk,11788724456,Ochtendloop,6x 400m,2024-07-02 08:46:14+00:00,6323,Run,"Leuven, Belgium",7.21,6.75,48m 39s
+144,28540939,Pieter Sisk,11785127361,Nachtloop,,2024-07-01 20:00:02+00:00,1800,VirtualRun,,4.66,6.43,30m 0s
+145,28540939,Pieter Sisk,12063155181,Olympic Village,incl.  drills + 3 strides.,2024-08-04 17:30:16+00:00,2452,Run,"Saint-Ouen-sur-Seine, France",4.03,6.12,24m 40s
+146,28540939,Pieter Sisk,12050886810,warm up / cooldown,,2024-08-03 09:54:44+00:00,3763,Run,"Leuven, Belgium",1.91,8.12,15m 31s
+147,28540939,Pieter Sisk,12050898142,2x (4x 80m),,2024-08-03 10:15:32+00:00,84,Run,,0.43,3.22,1m 24s
+148,28540939,Pieter Sisk,12044258867,Namiddagloop,,2024-08-02 13:57:06+00:00,1389,Run,"Leuven, Belgium",3.39,6.38,21m 41s
+149,28540939,Pieter Sisk,12035154642,Namiddagloop,,2024-08-01 11:36:51+00:00,2299,Run,"Leuven, Belgium",5.28,6.22,32m 53s
+150,28540939,Pieter Sisk,12026142943,last one before OS,600m (28.2-51.3 = 1.19.5) + 400m (28.2-24.4 = 52.6). work is done !,2024-07-31 09:15:57+00:00,4675,Run,"Leuven, Belgium",2.53,5.52,13m 58s
+151,28540939,Pieter Sisk,12019038745,Namiddagloop,+ 2 strides.,2024-07-30 13:02:17+00:00,3173,Run,"Leuven, Belgium",7.46,6.1,45m 33s
+152,28540939,Pieter Sisk,12012010025,Avondloop,,2024-07-29 17:24:56+00:00,1680,VirtualRun,,4.35,6.43,28m 0s
+153,28540939,Pieter Sisk,12134257405,warm up,,2024-08-08 08:32:38+00:00,10305,Run,"Saint-Denis, France",3.03,40.35,2h 2m
+154,28540939,Pieter Sisk,12158115329,Olympic Games 800m repechage: 3th / 1.45.49,,2024-08-08 10:08:50+00:00,105,Run,,0.49,3.52,1m 45s
+155,28540939,Pieter Sisk,12134255662,Ochtendloop,,2024-08-08 06:01:55+00:00,421,Run,"Saint-Ouen-sur-Seine, France",0.89,6.62,5m 55s
+156,28540939,Pieter Sisk,12134255405,warm up + cooldown,,2024-08-07 08:28:15+00:00,9291,Run,"Saint-Denis, France",2.62,7.03,18m 27s
+157,28540939,Pieter Sisk,12158105406,Olympic Games 800m round 1: 6th / 1.46.60,,2024-08-07 10:19:00+00:00,106,Run,,0.49,3.55,1m 46s
+158,28540939,Pieter Sisk,12134254528,Ochtendloop,,2024-08-07 05:59:19+00:00,488,Run,"Saint-Ouen-sur-Seine, France",0.84,6.45,5m 26s
+159,28540939,Pieter Sisk,12080585062,Namiddagloop,+ drills + 3 strides. Ready.,2024-08-06 11:54:40+00:00,1508,Run,"Saint-Ouen-sur-Seine, France",1.29,6.73,8m 45s
+160,28540939,Pieter Sisk,12067974413,Olympic Village 2.0,incl. drills & 3 strides.,2024-08-05 11:09:18+00:00,2012,Run,"Saint-Ouen-sur-Seine, France",2.37,6.73,16m 0s
+161,28540939,Pieter Sisk,12253609506,Ochtendloop,,2024-08-27 08:26:00+00:00,5398,Run,"Leuven, Belgium",8.03,5.92,47m 32s
+162,28540939,Pieter Sisk,12248457461,Avondloop,,2024-08-26 16:58:56+00:00,1517,Run,"Leuven, Belgium",3.9,6.27,24m 28s
+163,28540939,Pieter Sisk,12244063034,Ochtendloop,,2024-08-26 06:12:35+00:00,1727,Run,"Katowice, Poland",3.73,6.68,24m 55s
+164,28540939,Pieter Sisk,12406864147,Namiddagloop,,2024-09-14 11:08:43+00:00,2901,Run,"Leuven, Belgium",6.99,6.37,44m 32s
+165,28540939,Pieter Sisk,12397937252,Ochtendloop,,2024-09-13 08:15:43+00:00,2784,Run,"Leuven, Belgium",6.22,6.22,38m 44s
+166,28540939,Pieter Sisk,12392906991,Namiddagloop,,2024-09-12 15:16:26+00:00,2981,Run,"Leuven, Belgium",6.76,6.4,43m 19s
+167,28540939,Pieter Sisk,12373038099,Middagloop,,2024-09-10 09:38:13+00:00,1574,Run,"Leuven, Belgium",3.73,6.7,25m 1s
+168,28540939,Pieter Sisk,12367102395,back: start up season 2024-2025,,2024-09-09 15:17:58+00:00,2024,Run,"Leuven, Belgium",4.26,6.57,28m 1s
+169,28540939,Pieter Sisk,12592137537,Avondloop,,2024-10-06 16:20:00+00:00,2040,VirtualRun,,5.28,6.43,34m 0s
+170,28540939,Pieter Sisk,12591149899,Namiddagloop,,2024-10-06 12:05:59+00:00,2170,VirtualRun,,5.61,6.43,36m 10s
+171,28540939,Pieter Sisk,12582798857,Avondloop,,2024-10-05 17:07:18+00:00,2000,VirtualRun,,5.17,6.43,33m 20s
+172,28540939,Pieter Sisk,12580196143,Namiddagloop,,2024-10-05 12:18:55+00:00,2547,Run,"Leuven, Belgium",5.6,7.05,39m 31s
+173,28540939,Pieter Sisk,12574420657,Avondloop,,2024-10-04 17:34:12+00:00,2308,Run,"Leuven, Belgium",4.97,6.43,32m 1s
+174,28540939,Pieter Sisk,12570988370,Middagloop,,2024-10-04 09:42:31+00:00,1410,VirtualRun,,3.65,6.43,23m 30s
+175,28540939,Pieter Sisk,12563969128,Namiddagloop,,2024-10-03 11:26:49+00:00,2425,VirtualRun,,6.21,6.5,40m 25s
+176,28540939,Pieter Sisk,12559905835,Namiddagloop,,2024-10-02 13:40:00+00:00,1500,VirtualRun,,3.88,6.43,25m 0s
+177,28540939,Pieter Sisk,12556105116,Namiddagloop,,2024-10-02 12:03:41+00:00,1497,Run,"Leuven, Belgium",3.72,6.4,23m 53s
+178,28540939,Pieter Sisk,12559901330,Avondloop,,2024-10-01 17:35:00+00:00,1800,VirtualRun,,4.66,6.43,30m 0s
+179,28540939,Pieter Sisk,12542917512,Namiddagloop,,2024-09-30 15:00:42+00:00,982,Run,"Leuven, Belgium",2.49,6.57,16m 22s
+180,28540939,Pieter Sisk,12539227864,Namiddagloop,,2024-09-30 11:21:09+00:00,1800,VirtualRun,,4.66,6.43,30m 0s
+181,28540939,Pieter Sisk,12648294558,Avondloop,,2024-10-13 17:34:28+00:00,2520,VirtualRun,,6.52,6.43,42m 0s
+182,28540939,Pieter Sisk,12644687697,Middagloop,,2024-10-13 10:48:33+00:00,2688,Run,"Leuven, Belgium",6.84,6.35,43m 23s
+183,28540939,Pieter Sisk,12639682436,Avondloop,,2024-10-12 17:10:00+00:00,1680,VirtualRun,,4.35,6.43,28m 0s
+184,28540939,Pieter Sisk,12638775059,Namiddagloop,,2024-10-12 13:14:00+00:00,1680,VirtualRun,,4.35,6.43,28m 0s
+185,28540939,Pieter Sisk,12627271641,Ochtendloop,3x2k,2024-10-11 07:33:48+00:00,2871,Run,"Leuven, Belgium",6.83,6.03,41m 15s
+186,28540939,Pieter Sisk,12622944291,Namiddagloop,,2024-10-10 15:40:00+00:00,596,VirtualRun,,1.55,6.4,9m 56s
+187,28540939,Pieter Sisk,12622954340,GRIT,,2024-10-10 13:50:00+00:00,6300,WeightTraining,,1.0,,
+188,28540939,Pieter Sisk,12620851077,Namiddagloop,,2024-10-10 11:11:28+00:00,2662,Run,"Leuven, Belgium",6.22,6.4,39m 48s
+189,28540939,Pieter Sisk,12615742874,Namiddagloop,,2024-10-09 15:59:00+00:00,1920,VirtualRun,,4.97,6.43,32m 0s
+190,28540939,Pieter Sisk,12603593191,Ochtendloop,progressief 4'30 -> 3'00/km. elke km sneller. zie stats voor satisfying tempo overzicht.,2024-10-08 07:55:44+00:00,2527,Run,"Leuven, Belgium",6.22,6.13,38m 9s
+191,28540939,Pieter Sisk,12597892100,Namiddagloop,,2024-10-07 14:27:24+00:00,1013,VirtualRun,,2.48,6.8,16m 53s
+192,28540939,Pieter Sisk,12597895041,GRIT,,2024-10-07 12:45:00+00:00,5400,WeightTraining,,1.0,,
+193,28540939,Pieter Sisk,12596218923,Middagloop,,2024-10-07 09:52:46+00:00,2216,Run,"Leuven, Belgium",5.6,6.32,35m 24s
+194,28540939,Pieter Sisk,12703432121,Avondloop,,2024-10-20 16:58:02+00:00,1680,VirtualRun,,4.35,6.43,28m 0s
+195,28540939,Pieter Sisk,12701757406,Namiddagloop,,2024-10-20 13:25:14+00:00,3406,Run,"Leuven, Belgium",8.74,6.38,55m 49s
+196,28540939,Pieter Sisk,12693514543,Namiddagloop,,2024-10-19 14:38:16+00:00,1500,VirtualRun,,3.88,6.43,25m 0s
+197,28540939,Pieter Sisk,12691775819,Middagloop,,2024-10-19 10:45:33+00:00,3290,Run,"Leuven, Belgium",8.08,6.08,49m 9s
+198,28540939,Pieter Sisk,12687739623,Avondloop,,2024-10-18 17:35:00+00:00,1440,VirtualRun,,3.72,6.43,24m 0s
+199,28540939,Pieter Sisk,12687744439,Namiddagloop,,2024-10-17 13:45:00+00:00,833,VirtualRun,,2.17,6.38,13m 53s
+200,28540939,Pieter Sisk,12687742128,GRIT strength,,2024-10-17 12:30:00+00:00,4500,WeightTraining,,1.0,,
+201,28540939,Pieter Sisk,12675523534,Ochtendloop,15' 4'15/km - 10' 4'/km - 10' 3'45/km - 10' 3'25/km,2024-10-17 07:50:58+00:00,2745,Run,"Leuven, Belgium",7.26,6.2,45m 2s
+202,28540939,Pieter Sisk,12668105598,Middagloop,,2024-10-16 09:40:36+00:00,3099,Run,"Leuven, Belgium",7.45,6.5,48m 31s
+203,28540939,Pieter Sisk,12659565165,Ochtendloop,,2024-10-15 08:57:23+00:00,2276,Run,"Leuven, Belgium",6.21,5.98,37m 12s
+204,28540939,Pieter Sisk,12655814484,Namiddagloop,,2024-10-14 14:00:00+00:00,593,VirtualRun,,1.55,6.37,9m 53s
+205,28540939,Pieter Sisk,12655811720,GRIT,mobility - core - strength,2024-10-14 12:30:00+00:00,5400,WeightTraining,,1.0,,
+206,28540939,Pieter Sisk,12651975547,Middagloop,,2024-10-14 10:33:25+00:00,960,VirtualRun,,2.48,6.43,16m 0s
+207,28540939,Pieter Sisk,12870086454,Avondloop,,2024-11-10 17:03:31+00:00,1478,VirtualRun,,3.82,6.43,24m 38s
+208,28540939,Pieter Sisk,12866574055,Ochtendloop,,2024-11-10 09:22:12+00:00,5300,Run,"Leuven, Belgium",10.64,6.1,1h 5m
+209,28540939,Pieter Sisk,12861303337,Namiddagloop,,2024-11-09 16:18:50+00:00,1798,Run,"Leuven, Belgium",4.38,6.37,27m 55s
+210,28540939,Pieter Sisk,12859486799,Ochtendloop,,2024-11-09 09:58:57+00:00,6720,Run,"Leuven, Belgium",5.57,6.37,35m 29s
+211,28540939,Pieter Sisk,12851552390,Middagloop,,2024-11-08 11:08:30+00:00,5133,Run,"Leuven, Belgium",9.94,6.45,1h 4m
+212,28540939,Pieter Sisk,12848479177,Ochtendloop,,2024-11-07 08:48:00+00:00,1500,VirtualRun,,3.88,6.43,25m 0s
+213,28540939,Pieter Sisk,12841056783,GRIT strength.,,2024-11-06 16:00:00+00:00,4200,WeightTraining,,1.0,,
+214,28540939,Pieter Sisk,12836004882,Middagloop,,2024-11-06 10:35:35+00:00,3250,Run,"Leuven, Belgium",9.36,5.78,54m 10s
+215,28540939,Pieter Sisk,12836003418,Middagloop,,2024-11-06 10:28:02+00:00,248,Run,"Leuven, Belgium",0.54,6.73,3m 40s
+216,28540939,Pieter Sisk,12829373317,Middagloop,,2024-11-05 11:54:59+00:00,4200,Run,"Leuven, Belgium",9.32,6.32,58m 56s
+217,28540939,Pieter Sisk,12823323311,USC strength,,2024-11-04 17:05:00+00:00,3600,WeightTraining,,1.0,,
+218,28540939,Pieter Sisk,12823318886,Namiddagloop,,2024-11-04 15:40:00+00:00,1800,VirtualRun,,4.66,6.43,30m 0s
+219,47414877,Robin Oester,10516357494,MDL: 3x12‘ TP: 3‘,,2024-01-08 07:18:45+00:00,2700,Run,"Steffisburg, Switzerland",7.33,6.13,44m 57s
+220,47414877,Robin Oester,10509555599,Lauf am Morgen,,2024-01-07 07:49:03+00:00,3737,Run,"Villmergen, Switzerland",7.46,8.25,1h 1m
+221,47414877,Robin Oester,10506334112,Lauf am Nachmittag,,2024-01-06 12:56:20+00:00,27,Run,,0.0,,27s
+222,47414877,Robin Oester,10506333870,Lauf am Nachmittag,,2024-01-06 12:07:45+00:00,2082,Run,,2.01,17.18,34m 42s
+223,47414877,Robin Oester,10506333060,Lauf am Nachmittag,,2024-01-05 16:10:02+00:00,2701,Run,"Steffisburg, Switzerland",6.36,7.07,45m 1s
+224,47414877,Robin Oester,10506331264,Lauf am Nachmittag,,2024-01-03 13:56:24+00:00,2921,Run,,2.88,16.85,48m 41s
+225,47414877,Robin Oester,10477824269,Lauf am Morgen,,2024-01-02 08:22:25+00:00,2701,Run,"Steffisburg, Switzerland",6.34,7.1,45m 1s
+226,47414877,Robin Oester,10471997730,Lauf am Morgen,,2024-01-01 08:22:52+00:00,2997,Run,"Steffisburg, Switzerland",6.21,8.03,49m 54s
+227,47414877,Robin Oester,10581089060,Lauf am Morgen,,2024-01-15 07:39:32+00:00,2687,Run,"Steffisburg, Switzerland",6.41,6.97,44m 42s
+228,47414877,Robin Oester,10581088243,Lauf am Morgen,,2024-01-14 08:47:46+00:00,3269,Run,"Steffisburg, Switzerland",7.46,7.15,53m 22s
+229,47414877,Robin Oester,10581087238,Lauf am Morgen,,2024-01-13 08:18:30+00:00,2636,Run,"Dietikon, Switzerland",4.69,7.62,35m 46s
+230,47414877,Robin Oester,10545443822,Abendlauf,,2024-01-12 18:40:18+00:00,3240,Run,,2.5,21.6,54m 0s
+231,47414877,Robin Oester,10532663759,Abendlauf,,2024-01-10 18:09:33+00:00,2074,Run,"Regensdorf, Switzerland",2.99,7.65,22m 53s
+232,47414877,Robin Oester,10522657092,Lauf am Morgen,,2024-01-09 07:32:50+00:00,2748,Run,"Steffisburg, Switzerland",6.24,7.33,45m 48s
+233,47414877,Robin Oester,10599309820,Lauf am Morgen,,2024-01-21 08:41:48+00:00,3744,Run,"Steffisburg, Switzerland",8.15,7.35,1h 0m
+234,47414877,Robin Oester,10595408807,Lauf am Nachmittag,,2024-01-20 15:10:01+00:00,2137,Run,,1.29,27.45,35m 37s
+235,47414877,Robin Oester,10588393331,Lauf am Nachmittag,,2024-01-19 13:34:58+00:00,2622,Run,"Steffisburg, Switzerland",6.41,6.82,43m 39s
+236,47414877,Robin Oester,10581089651,Abendlauf,,2024-01-17 18:45:16+00:00,2310,Run,,1.69,22.75,38m 30s
+237,47414877,Robin Oester,10662844544,Lauf am Nachmittag,,2024-01-26 16:26:01+00:00,1903,Run,"Steffisburg, Switzerland",4.01,7.23,29m 6s
+238,47414877,Robin Oester,10662839306,Abendlauf,,2024-01-24 18:11:00+00:00,987,Run,"Regensdorf, Switzerland",0.97,10.48,10m 16s
+239,47414877,Robin Oester,10669236410,Abendlauf,,2024-01-31 18:12:38+00:00,522,Run,"Regensdorf, Switzerland",0.75,7.33,5m 33s
+240,47414877,Robin Oester,10802451829,Mittagslauf,,2024-02-10 10:06:45+00:00,1126,Run,"Regensdorf, Switzerland",1.86,7.13,13m 19s
+241,47414877,Robin Oester,10835386923,Lauf am Nachmittag,,2024-02-25 15:10:31+00:00,2814,Run,"Steffisburg, Switzerland",6.48,7.2,46m 38s
+242,47414877,Robin Oester,10809424124,Abendlauf,,2024-02-21 18:16:57+00:00,1308,Run,"Thun, Switzerland",3.84,5.67,21m 48s
+243,47414877,Robin Oester,10809422820,Abendlauf,,2024-02-21 18:09:01+00:00,440,Run,"Thun, Switzerland",1.29,5.68,7m 20s
+244,47414877,Robin Oester,10984008855,Lauf am Morgen,,2024-03-18 06:52:28+00:00,2041,Run,"Thun, Switzerland",5.44,6.17,33m 34s
+245,47414877,Robin Oester,10979576777,Lauf am Nachmittag,,2024-03-17 13:01:54+00:00,3664,Run,"Steffisburg, Switzerland",8.08,7.27,58m 46s
+246,47414877,Robin Oester,10970220460,Mittagslauf,,2024-03-16 10:08:40+00:00,604,Run,"Unterengstringen, Switzerland",0.94,,8m 18s
+247,47414877,Robin Oester,10970219442,Lauf am Morgen,,2024-03-16 09:56:09+00:00,540,Run,"Unterengstringen, Switzerland",0.77,,7m 12s
+248,47414877,Robin Oester,10970218108,Lauf am Morgen,,2024-03-16 09:46:09+00:00,335,Run,"Unterengstringen, Switzerland",0.55,,4m 59s
+249,47414877,Robin Oester,10966173516,Lauf am Nachmittag,,2024-03-15 16:59:36+00:00,2706,Run,"Heimberg, Switzerland",6.26,7.2,45m 6s
+250,47414877,Robin Oester,10953330801,Abendlauf,,2024-03-13 18:09:58+00:00,2036,Run,"Regensdorf, Switzerland",3.71,7.08,26m 15s
+251,47414877,Robin Oester,10934811249,Lauf am Morgen,,2024-03-11 07:26:21+00:00,1922,Run,"Steffisburg, Switzerland",5.13,6.25,32m 2s
+252,47414877,Robin Oester,11020139058,Mittagslauf,,2024-03-23 10:12:54+00:00,2066,Run,"Zurich, Switzerland",3.29,7.73,25m 30s
+253,47414877,Robin Oester,11001787888,Lauf am Nachmittag,,2024-03-20 16:36:11+00:00,2245,Run,"Thun, Switzerland",3.64,7.22,26m 16s
+254,47414877,Robin Oester,10991127750,Lauf am Morgen,,2024-03-19 07:59:45+00:00,2809,Run,"Steffisburg, Switzerland",6.21,7.53,46m 49s
+255,47414877,Robin Oester,11100723638,Mittagslauf,,2024-03-31 10:31:58+00:00,2002,Run,"Loulé, Portugal",1.09,,9m 7s
+256,47414877,Robin Oester,11071271829,Lauf am Nachmittag,,2024-03-30 17:04:54+00:00,2270,Run,"Albufeira, Portugal",3.94,8.35,32m 56s
+257,47414877,Robin Oester,11129586768,Abendlauf,,2024-04-07 17:09:40+00:00,2464,Run,"Albufeira, Portugal",0.02,,0h 0m
+258,47414877,Robin Oester,11121201341,Lauf am Morgen,,2024-04-06 08:04:57+00:00,2486,Run,"Albufeira, Portugal",5.51,7.28,40m 10s
+259,47414877,Robin Oester,11121199529,Lauf am Morgen,,2024-04-05 09:39:04+00:00,2182,Run,"Loulé, Portugal",2.36,7.52,17m 47s
+260,47414877,Robin Oester,11106436354,Lauf am Nachmittag,,2024-04-04 16:34:03+00:00,2545,Run,"Albufeira, Portugal",5.59,7.58,42m 25s
+261,47414877,Robin Oester,11100727512,Lauf am Nachmittag,,2024-04-03 15:39:01+00:00,2703,Run,"Albufeira, Portugal",6.22,7.0,43m 38s
+262,47414877,Robin Oester,11100726277,Lauf am Morgen,,2024-04-02 09:59:49+00:00,2121,Run,"Loulé, Portugal",2.82,7.27,20m 30s
+263,47414877,Robin Oester,11100725136,Lauf am Morgen,,2024-04-01 09:08:15+00:00,3798,Run,"Albufeira, Portugal",8.53,7.3,1h 2m
+264,47414877,Robin Oester,11207467579,Lauf am Morgen,,2024-04-13 05:52:36+00:00,1818,Run,"Albufeira, Portugal",2.58,8.97,23m 10s
+265,47414877,Robin Oester,11207467036,Mittagslauf,,2024-04-12 10:22:19+00:00,1211,Run,"Albufeira, Portugal",1.26,9.7,12m 14s
+266,47414877,Robin Oester,11207466542,Mittagslauf,,2024-04-12 10:07:54+00:00,117,Run,"Albufeira, Portugal",0.53,3.65,1m 57s
+267,47414877,Robin Oester,11207466219,Lauf am Nachmittag,,2024-04-11 16:11:26+00:00,1810,Run,"Albufeira, Portugal",3.83,7.83,30m 0s
+268,47414877,Robin Oester,11207465904,Lauf am Nachmittag,,2024-04-10 16:19:11+00:00,3004,Run,"Loulé, Portugal",7.05,7.1,50m 4s
+269,47414877,Robin Oester,11207465142,Lauf am Morgen,,2024-04-09 09:47:20+00:00,1688,Run,"Albufeira, Portugal",2.4,7.88,18m 58s
+270,47414877,Robin Oester,11133142865,Lauf am Morgen,,2024-04-08 09:09:44+00:00,3696,Run,"Albufeira, Portugal",8.21,7.5,1h 1m
+271,47414877,Robin Oester,11232603910,Lauf am Morgen,,2024-04-21 06:58:03+00:00,3173,Run,"Buchs (ZH), Switzerland",7.45,7.08,52m 50s
+272,47414877,Robin Oester,11232601710,Lauf am Morgen,,2024-04-20 08:54:50+00:00,1966,Run,"Zurich, Switzerland",2.79,8.03,22m 30s
+273,47414877,Robin Oester,11207469189,Abendlauf,,2024-04-17 17:12:27+00:00,2265,Run,"Regensdorf, Switzerland",4.01,5.97,23m 54s
+274,47414877,Robin Oester,11207467844,Abendlauf,,2024-04-15 16:10:43+00:00,1903,Run,"Thun, Switzerland",4.19,7.5,31m 29s
+275,47414877,Robin Oester,11286125536,Lauf am Nachmittag,,2024-04-28 15:48:49+00:00,2472,Run,"Dietikon, Switzerland",2.85,8.7,24m 47s
+276,47414877,Robin Oester,11277580934,Lauf am Morgen,,2024-04-27 06:35:47+00:00,3168,Run,"Steffisburg, Switzerland",6.21,8.47,52m 41s
+277,47414877,Robin Oester,11277578537,Abendlauf,,2024-04-26 16:22:27+00:00,2469,Run,"Uetendorf, Switzerland",5.1,7.83,39m 59s
+278,47414877,Robin Oester,11255528929,Abendlauf,,2024-04-24 17:15:29+00:00,2093,Run,"Regensdorf, Switzerland",2.94,6.8,19m 59s
+279,47414877,Robin Oester,11238657330,Lauf am Nachmittag,,2024-04-22 13:07:35+00:00,1638,Run,"Thun, Switzerland",1.38,,16m 13s
+280,47414877,Robin Oester,11547436748,Lauf am Nachmittag,,2024-05-05 12:23:39+00:00,928,Run,"Pliezhausen, Germany",1.89,7.92,15m 1s
+281,47414877,Robin Oester,11547435843,Lauf am Nachmittag,,2024-05-04 13:30:12+00:00,1502,Run,"Steffisburg, Switzerland",3.27,7.65,25m 1s
+282,47414877,Robin Oester,11547434122,Abendlauf,,2024-05-02 16:46:01+00:00,2524,Run,"Thun, Switzerland",5.21,7.48,39m 3s
+283,47414877,Robin Oester,11547431837,Lauf am Nachmittag,,2024-05-01 14:09:31+00:00,1341,Run,"Regensdorf, Switzerland",1.14,9.0,10m 20s
+284,47414877,Robin Oester,11296372914,Lauf am Morgen,,2024-04-30 06:35:34+00:00,2153,Run,"Steffisburg, Switzerland",4.46,7.65,34m 9s
+285,47414877,Robin Oester,11547445076,Lauf am Morgen,,2024-05-13 05:42:37+00:00,1943,Run,"Thun, Switzerland",4.19,7.72,32m 23s
+286,47414877,Robin Oester,11547443355,Lauf am Morgen,,2024-05-12 07:16:05+00:00,2740,Run,"Buchs (ZH), Switzerland",5.2,8.48,44m 7s
+287,47414877,Robin Oester,11547441097,Abendlauf,,2024-05-11 16:38:53+00:00,900,Run,"Karlsruhe, Germany",1.84,7.98,14m 41s
+288,47414877,Robin Oester,11547439828,Lauf am Nachmittag,,2024-05-10 14:37:11+00:00,1539,Run,"Steffisburg, Switzerland",3.3,7.57,25m 0s
+289,47414877,Robin Oester,11547438216,Abendlauf,,2024-05-08 17:16:47+00:00,852,Run,"Regensdorf, Switzerland",1.35,5.65,7m 38s
+290,47414877,Robin Oester,11547450011,Lauf am Nachmittag,,2024-05-19 14:05:28+00:00,889,Run,"Rehlingen-Siersburg, Germany",1.84,8.05,14m 49s
+291,47414877,Robin Oester,11547448936,Abendlauf,,2024-05-16 16:44:40+00:00,2576,Run,"Thun, Switzerland",5.28,7.62,40m 15s
+292,47414877,Robin Oester,11547446984,Abendlauf,,2024-05-15 17:17:09+00:00,1531,Run,"Regensdorf, Switzerland",1.36,5.68,7m 47s
+293,47414877,Robin Oester,11547455837,Lauf am Nachmittag,,2024-05-26 13:34:02+00:00,3358,Run,"Steffisburg, Switzerland",6.78,7.65,51m 54s
+294,47414877,Robin Oester,11547452542,Abendlauf,,2024-05-25 17:21:50+00:00,908,Run,"Pfungstadt, Germany",1.83,8.25,15m 8s
+295,47414877,Robin Oester,11547451547,Abendlauf,,2024-05-22 17:17:55+00:00,1013,Run,"Regensdorf, Switzerland",1.24,7.57,9m 27s
+296,47414877,Robin Oester,11552825626,Lauf am Morgen,,2024-06-02 06:30:04+00:00,3613,Run,"Buchs (ZH), Switzerland",6.21,8.4,52m 13s
+297,47414877,Robin Oester,11548593786,Lauf am Nachmittag,,2024-06-01 14:43:19+00:00,1616,Run,"Regensdorf, Switzerland",1.75,9.8,17m 10s
+298,47414877,Robin Oester,11547462001,Lauf am Nachmittag,,2024-05-31 13:54:52+00:00,2635,Run,"Steffisburg, Switzerland",6.28,6.92,43m 26s
+299,47414877,Robin Oester,11547459412,Abendlauf,,2024-05-29 17:06:14+00:00,2198,Run,"Regensdorf, Switzerland",4.69,6.38,29m 57s
+300,47414877,Robin Oester,11601520503,Mittagslauf,,2024-06-08 09:08:35+00:00,1278,Run,"Dietikon, Switzerland",0.97,8.3,8m 6s
+301,47414877,Robin Oester,11597563878,Abendlauf,,2024-06-07 16:57:57+00:00,2805,Run,"Buchs (ZH), Switzerland",6.21,7.5,46m 37s
+302,47414877,Robin Oester,11581643076,Abendlauf,,2024-06-05 17:11:57+00:00,1817,Run,"Regensdorf, Switzerland",3.46,6.0,20m 46s
+303,47414877,Robin Oester,12470169600,Lauf am Morgen,,2024-06-15 08:14:39+00:00,1211,Run,"Buchs (ZH), Switzerland",2.59,7.75,20m 7s
+304,47414877,Robin Oester,12470169052,Abendlauf,,2024-06-12 16:19:44+00:00,2084,Run,"Steffisburg, Switzerland",4.44,7.72,34m 19s
+305,47414877,Robin Oester,12470168098,Abendlauf,,2024-06-11 18:34:52+00:00,114,Run,"Thun, Switzerland",0.51,3.68,1m 54s
+306,47414877,Robin Oester,12470167892,Abendlauf,,2024-06-11 16:29:01+00:00,682,Run,"Thun, Switzerland",1.39,8.13,11m 22s
+307,47414877,Robin Oester,11620740091,Abendlauf,,2024-06-10 17:19:08+00:00,1340,Run,"Steffisburg, Switzerland",2.79,7.95,22m 15s
+308,47414877,Robin Oester,12470186999,Mittagslauf,,2024-06-23 09:35:07+00:00,3341,Run,"Steffisburg, Switzerland",6.21,8.85,54m 59s
+309,47414877,Robin Oester,12470173080,Mittagslauf,,2024-06-22 09:29:50+00:00,487,Run,"Zurich, Switzerland",1.25,6.45,8m 4s
+310,47414877,Robin Oester,12470173249,Mittagslauf,,2024-06-22 09:14:43+00:00,497,Run,"Zurich, Switzerland",1.08,6.92,7m 28s
+311,47414877,Robin Oester,12470172576,Lauf am Morgen,,2024-06-22 08:59:29+00:00,874,Run,"Zurich, Switzerland",1.15,11.15,12m 55s
+312,47414877,Robin Oester,12470171122,Abendlauf,,2024-06-19 17:29:49+00:00,1064,Run,"Regensdorf, Switzerland",1.27,9.6,12m 15s
+313,47414877,Robin Oester,12470170446,Mittagslauf,,2024-06-18 09:08:23+00:00,2193,Run,"Steffisburg, Switzerland",4.39,7.97,35m 0s
+314,47414877,Robin Oester,12470190188,Lauf am Nachmittag,,2024-06-29 13:38:36+00:00,890,Run,"Winterthur, Switzerland",1.81,8.15,14m 46s
+315,47414877,Robin Oester,12470189998,Lauf am Nachmittag,,2024-06-28 15:31:07+00:00,762,Run,"Winterthur, Switzerland",1.6,7.92,12m 42s
+316,47414877,Robin Oester,12470189573,Lauf am Nachmittag,,2024-06-27 14:52:26+00:00,1505,Run,"Steffisburg, Switzerland",3.2,7.82,25m 5s
+317,47414877,Robin Oester,12470188783,Abendlauf,,2024-06-25 17:10:44+00:00,2572,Run,"Thun, Switzerland",5.32,7.52,40m 2s
+318,47414877,Robin Oester,12470187395,Abendlauf,,2024-06-24 17:28:37+00:00,645,Run,"Thun, Switzerland",0.97,8.75,8m 33s
+319,47414877,Robin Oester,12470197228,Lauf am Morgen,,2024-07-06 08:46:43+00:00,2650,Run,"Zurich, Switzerland",4.14,7.58,31m 24s
+320,47414877,Robin Oester,12470192684,Abendlauf,,2024-07-03 17:09:23+00:00,1505,Run,"Regensdorf, Switzerland",3.55,5.67,20m 10s
+321,47414877,Robin Oester,12470191345,Abendlauf,,2024-07-01 16:58:51+00:00,2612,Run,"Thun, Switzerland",5.3,7.63,40m 29s
+322,47414877,Robin Oester,12470198613,Lauf am Nachmittag,,2024-07-14 15:55:48+00:00,2144,Run,"Sankt Moritz, Switzerland",4.41,8.03,35m 28s
+323,47414877,Robin Oester,12470197995,Lauf am Nachmittag,,2024-07-13 15:00:30+00:00,2699,Run,"Sankt Moritz, Switzerland",4.08,8.57,35m 1s
+324,47414877,Robin Oester,12470197570,Abendlauf,,2024-07-10 17:19:58+00:00,1821,Run,"Regensdorf, Switzerland",2.5,7.77,19m 24s
+325,47414877,Robin Oester,12470208860,Lauf am Nachmittag,,2024-07-21 15:09:53+00:00,4223,Run,"Sankt Moritz, Switzerland",8.09,8.28,1h 7m
+326,47414877,Robin Oester,12470207185,Mittagslauf,,2024-07-20 09:01:53+00:00,1756,Run,"Sankt Moritz, Switzerland",2.73,6.47,17m 38s
+327,47414877,Robin Oester,12470205778,Lauf am Nachmittag,,2024-07-19 15:04:29+00:00,2133,Run,"Sankt Moritz, Switzerland",4.25,8.37,35m 33s
+328,47414877,Robin Oester,12470204770,Abendlauf,,2024-07-18 16:10:15+00:00,534,Run,"Sankt Moritz, Switzerland",0.78,,8m 25s
+329,47414877,Robin Oester,12470205090,Lauf am Nachmittag,,2024-07-18 15:39:10+00:00,1029,Run,"Sankt Moritz, Switzerland",2.22,,16m 53s
+330,47414877,Robin Oester,12470203078,Lauf am Nachmittag,,2024-07-17 14:03:28+00:00,3394,Run,"Sankt Moritz, Switzerland",6.21,8.38,52m 8s
+331,47414877,Robin Oester,12470201075,Mittagslauf,,2024-07-16 09:39:15+00:00,2038,Run,"Sankt Moritz, Switzerland",1.36,12.1,16m 29s
+332,47414877,Robin Oester,12470200257,Lauf am Nachmittag,,2024-07-15 15:05:35+00:00,3100,Run,"Sankt Moritz, Switzerland",6.37,7.75,49m 25s
+333,47414877,Robin Oester,12470213223,Lauf am Morgen,,2024-07-27 06:18:29+00:00,2025,Run,"Sankt Moritz, Switzerland",4.12,8.15,33m 39s
+334,47414877,Robin Oester,12470212518,Mittagslauf,,2024-07-26 09:44:40+00:00,2408,Run,"Sankt Moritz, Switzerland",1.94,8.72,16m 55s
+335,47414877,Robin Oester,12470211286,Lauf am Nachmittag,,2024-07-25 15:07:22+00:00,2194,Run,"Sankt Moritz, Switzerland",4.4,8.15,35m 56s
+336,47414877,Robin Oester,12470210122,Lauf am Morgen,,2024-07-24 08:37:59+00:00,2948,Run,"Sankt Moritz, Switzerland",6.45,7.6,49m 5s
+337,47414877,Robin Oester,12470217766,Lauf am Morgen,,2024-08-04 07:18:06+00:00,3701,Run,"Dällikon, Switzerland",6.35,8.65,55m 0s
+338,47414877,Robin Oester,12470216272,Mittagslauf,,2024-08-03 09:03:47+00:00,2346,Run,"Regensdorf, Switzerland",2.78,9.02,25m 7s
+339,47414877,Robin Oester,12470214885,Abendlauf,,2024-08-02 18:12:34+00:00,560,Run,"Regensdorf, Switzerland",1.06,8.7,9m 14s
+340,47414877,Robin Oester,12470214437,Abendlauf,,2024-08-02 16:11:46+00:00,623,Run,"Regensdorf, Switzerland",1.25,8.3,10m 23s
+341,47414877,Robin Oester,12470214009,Abendlauf,,2024-07-31 16:07:16+00:00,2984,Run,"Thun, Switzerland",6.06,7.43,45m 0s
+342,47414877,Robin Oester,12470221335,Lauf am Morgen,,2024-08-11 07:41:50+00:00,2484,Run,"Dällikon, Switzerland",4.97,8.32,41m 24s
+343,47414877,Robin Oester,12470220600,Lauf am Morgen,,2024-08-10 08:59:43+00:00,1150,Run,"Regensdorf, Switzerland",1.63,8.0,13m 5s
+344,47414877,Robin Oester,12470219830,Abendlauf,,2024-08-07 17:11:22+00:00,1300,Run,"Regensdorf, Switzerland",1.65,6.65,11m 0s
+345,47414877,Robin Oester,12470219041,Lauf am Morgen,,2024-08-06 08:04:29+00:00,2875,Run,"Steffisburg, Switzerland",6.29,7.6,47m 55s
+346,47414877,Robin Oester,12470224463,Lauf am Morgen,,2024-08-18 06:55:21+00:00,3124,Run,"Dällikon, Switzerland",6.25,8.32,52m 4s
+347,47414877,Robin Oester,12470223160,Lauf am Morgen,,2024-08-17 08:49:12+00:00,2698,Run,"Zurich, Switzerland",4.27,7.0,29m 56s
+348,47414877,Robin Oester,12470225134,Abendlauf,,2024-08-21 17:24:00+00:00,1006,Run,"Regensdorf, Switzerland",0.85,8.48,7m 15s
+349,47414877,Robin Oester,12470229627,Lauf am Morgen,,2024-09-01 08:00:11+00:00,3040,Run,"Steffisburg, Switzerland",6.47,7.57,48m 57s
+350,47414877,Robin Oester,12470229442,Mittagslauf,,2024-08-31 09:15:57+00:00,532,Run,"Zurich, Switzerland",0.77,8.25,6m 21s
+351,47414877,Robin Oester,12470229427,Mittagslauf,,2024-08-31 09:02:40+00:00,722,Run,"Zurich, Switzerland",1.03,10.63,11m 0s
+352,47414877,Robin Oester,12470227726,Lauf am Morgen,,2024-08-31 08:49:33+00:00,729,Run,"Zurich, Switzerland",0.99,11.27,11m 15s
+353,47414877,Robin Oester,12470227066,Abendlauf,,2024-08-28 17:10:28+00:00,2293,Run,"Regensdorf, Switzerland",2.6,6.6,17m 13s
+354,47414877,Robin Oester,12470234527,Lauf am Nachmittag,,2024-09-08 15:17:23+00:00,1619,Run,"Steffisburg, Switzerland",3.4,7.42,25m 14s
+355,47414877,Robin Oester,12470233790,Lauf am Nachmittag,,2024-09-06 14:44:56+00:00,2515,Run,"Thun, Switzerland",4.85,7.75,37m 37s
+356,47414877,Robin Oester,12470232627,Mittagslauf,,2024-09-05 09:02:07+00:00,476,Run,"Regensdorf, Switzerland",0.84,6.45,5m 25s
+357,47414877,Robin Oester,12470232002,Lauf am Morgen,,2024-09-04 08:22:22+00:00,2706,Run,"Steffisburg, Switzerland",6.08,7.4,45m 3s
+358,47414877,Robin Oester,12470230750,Abendlauf,,2024-09-02 17:14:19+00:00,1241,Run,"Thun, Switzerland",1.87,7.05,13m 12s
+359,47414877,Robin Oester,12470238426,Lauf am Morgen,,2024-09-14 08:53:49+00:00,895,Run,"Winterthur, Switzerland",1.96,7.58,14m 55s
+360,47414877,Robin Oester,12470235667,Abendlauf,,2024-09-11 17:16:44+00:00,755,Run,"Thun, Switzerland",1.15,7.3,8m 24s
+361,47414877,Robin Oester,12470235020,Abendlauf,,2024-09-09 17:49:54+00:00,938,Run,"Bellinzona, Switzerland",1.89,8.25,15m 35s
+362,47414877,Robin Oester,12470245593,Fahrt am Nachmittag,,2024-09-21 15:08:46+00:00,9039,Ride,"Ebikon, Switzerland",29.36,,1h 53m
+363,47414877,Robin Oester,12470242188,Fahrt am Nachmittag,,2024-09-21 12:56:49+00:00,6393,Ride,"Schüpfheim, Switzerland",19.12,,1h 17m
+364,47414877,Robin Oester,12470240058,Mittagsradfahrt,,2024-09-21 09:39:48+00:00,9297,Ride,"Steffisburg, Switzerland",34.27,,2h 13m
+365,47414877,Robin Oester,12578206328,Lauf am Morgen,,2024-10-05 08:11:32+00:00,2579,Run,"Thun, Switzerland",6.22,6.92,42m 59s
+366,47414877,Robin Oester,12573305871,Lauf am Nachmittag,,2024-10-04 15:24:54+00:00,1217,Run,"Thun, Switzerland",2.54,7.87,20m 3s
+367,47414877,Robin Oester,12558273823,Abendlauf,,2024-10-02 16:35:00+00:00,2967,Run,"Thun, Switzerland",5.82,7.73,45m 4s
+368,47414877,Robin Oester,12541317246,Abendlauf,,2024-09-30 16:20:43+00:00,2177,Run,"Thun, Switzerland",4.32,8.4,36m 17s
+369,47414877,Robin Oester,12643459398,Lauf am Nachmittag,,2024-10-12 14:50:31+00:00,3614,Run,"Steffisburg, Switzerland",8.16,7.35,1h 0m
+370,47414877,Robin Oester,12629893866,Lauf am Nachmittag,,2024-10-11 14:52:49+00:00,1896,Run,"Thun, Switzerland",4.16,7.6,31m 36s
+371,47414877,Robin Oester,12622792892,Abendlauf,,2024-10-10 16:24:20+00:00,1083,Run,"Thun, Switzerland",2.21,8.13,18m 3s
+372,47414877,Robin Oester,12615636001,Abendlauf,,2024-10-09 17:11:21+00:00,1620,Run,"Thun, Switzerland",2.57,8.98,23m 6s
+373,47414877,Robin Oester,12615187652,Abendlauf,,2024-10-09 16:22:17+00:00,1501,Run,"Thun, Switzerland",3.4,7.33,25m 1s
+374,47414877,Robin Oester,12759410561,Lauf am Nachmittag,,2024-10-27 15:18:51+00:00,3615,Run,"Steffisburg, Switzerland",8.17,7.33,1h 0m
+375,47414877,Robin Oester,12747135710,Lauf am Morgen,,2024-10-26 08:42:42+00:00,2364,Run,"Zurich, Switzerland",5.66,6.7,37m 55s
+376,47414877,Robin Oester,12731456149,Lauf am Morgen,,2024-10-24 07:04:09+00:00,2060,Run,"Steffisburg, Switzerland",4.35,7.87,34m 14s
+377,47414877,Robin Oester,12727556915,Abendlauf,,2024-10-23 17:09:33+00:00,1908,Run,"Regensdorf, Switzerland",4.42,5.73,25m 24s
+378,47414877,Robin Oester,12714623107,Lauf am Morgen,,2024-10-22 07:02:56+00:00,2193,Run,"Steffisburg, Switzerland",4.54,8.05,36m 33s
+379,47414877,Robin Oester,12706695018,Lauf am Morgen,,2024-10-21 07:19:54+00:00,2341,Run,"Steffisburg, Switzerland",5.92,6.58,39m 1s
+380,47414877,Robin Oester,12706693863,Lauf am Morgen,,2024-10-21 07:11:36+00:00,425,Run,"Steffisburg, Switzerland",0.87,8.12,7m 5s
+381,47414877,Robin Oester,12867191127,Mittagslauf,,2024-11-10 11:06:14+00:00,3748,Run,"Steffisburg, Switzerland",8.08,7.73,1h 2m
+382,47414877,Robin Oester,12858323786,Lauf am Morgen,,2024-11-09 09:42:08+00:00,3451,Run,"Unterengstringen, Switzerland",4.95,,49m 52s
+383,47414877,Robin Oester,12854251061,Abendlauf,,2024-11-08 19:19:56+00:00,1550,Run,"Uetendorf, Switzerland",3.11,7.95,24m 45s
+384,47414877,Robin Oester,12853345083,Lauf am Nachmittag,,2024-11-08 16:34:38+00:00,1606,Run,"Uetendorf, Switzerland",2.66,8.9,23m 42s
+385,47414877,Robin Oester,12842703519,Lauf am Morgen,,2024-11-07 07:56:12+00:00,2156,Run,"Steffisburg, Switzerland",4.41,7.88,34m 50s
+386,47414877,Robin Oester,12839365491,Abendlauf,,2024-11-06 18:05:24+00:00,1464,Run,"Regensdorf, Switzerland",3.54,5.67,20m 5s
+387,47414877,Robin Oester,12826629975,Lauf am Morgen,,2024-11-05 07:50:43+00:00,2865,Run,"Steffisburg, Switzerland",6.21,7.68,47m 45s
+388,10984855,Jonathan Mellor,11053439236,The Linked Hub - S an C - Barbell,"Warm Up
+
+4 x 4 Back Squats @80% 1RM with 3 sec pause. 
+
+4 x 6 No Contact Snatch @70% 1RM
+
+Complex x 4. @75% 1RM
+
+3 Snatch Grip High Pulls
+3 No contact snatch
+3 Snatch Balance 🤢
+
+Complex x 4
+
+6 x Snatch Grip Press
+12 x Snatch Grip Push Press
+
+Finish:
+
+4 x 6 @110% 1RM
+
+Snatch Grip Pulls
+
+1 x 6 @ 120% 1RM",2024-03-28 07:14:12+00:00,2916,WeightTraining,,48.0,,418 Cal
+389,10984855,Jonathan Mellor,11047569529,The Linked Hub - Legs.,"Assault bike and Back Squats is a piece of me… 
+
+Got down to 6 Cals and 6 back squats. 💪🏻
+
+Split squats? Not so much. 🤢",2024-03-27 09:59:16+00:00,3040,Crossfit,,50.0,,143 bpm
+390,10984855,Jonathan Mellor,11040516496,The Linked Hub - Team Tuesday,"Mitch: ‘Jon, you’ll have to work on your own…’
+Jon: ‘No worries, so just half the reps?’
+Mitch: ‘You’d think but no, not for you. You’re doing it as written…’
+Jon: ‘Thanks for that mate…’ 🤢🤮
+
+Managed to get the burpees done. 🥵",2024-03-26 10:00:53+00:00,2880,Crossfit,,48.0,,149 bpm
+391,10984855,Jonathan Mellor,11033861005,The Linked Hub - Upper Body,"85kg Lat pull down with 3 second pause in Isometric hold
+
+80kg Deadlift. Too easy - should have gone heavier quicker. 
+
+15kg DB for floor press. Super setting with Press Ups was killer. 🤢",2024-03-25 09:59:09+00:00,4435,Workout,,1.0,,518 Cal
+392,10984855,Jonathan Mellor,11110376177,The Linked Hub - Upper,Partnering with the coach is never going to end well for DOMS. 🤦🏻‍♂️,2024-04-05 09:01:15+00:00,2931,WeightTraining,,48.0,,305 Cal
+393,10984855,Jonathan Mellor,11169786281,The Linked Hub - Hub MRT,"20 minute AMRAP YGIG
+
+20 RFESS
+10 Jump/Push lunges
+
+20 minute Partner workout
+
+100 DB Step Up
+80 Reverse Lunges
+80 DB Step Up
+60 Reverse Lunges
+60 DB Step Up
+40 Reverse Lunges
+40 DB Step Up
+20 Reverse Lunges
+20 DB Step Up
+
+Well I’m not thinking about my groin strain anymore. 😖",2024-04-13 08:07:00+00:00,3517,Crossfit,,58.0,,133 bpm
+394,10984855,Jonathan Mellor,11166205076,The Linked Hub - Running Club,"I think the title is somewhat misleading. 
+
+At least I got to dust off the old Saucony trainers. 🥵",2024-04-12 17:23:14+00:00,2245,Run,"Leeds, United Kingdom",1.84,11.33,20m 52s
+395,10984855,Jonathan Mellor,11140300041,The Linked Hub - Partner Workout.,"Coach: Jon, glad you’re here. Can you partner with Kyle. He wants pushing hard - he’s just passed the entry course for the Royal Marines and needs someone to thrash him. 
+
+Me: You do know I’m 45 years old don’t you?
+
+Coach: Yep, but you’re also mad enough and competitive enough to give him a run for his money. 
+
+Me: I’m getting too old for all this! 😫",2024-04-09 09:01:42+00:00,3119,Crossfit,,51.0,,138 bpm
+396,10984855,Jonathan Mellor,11132957866,The Linked Hub - Upper,Did an additional round on Second workout. Felt like I was flying on the Ski ERG! 🥵,2024-04-08 09:01:24+00:00,2632,Crossfit,,43.0,,123 bpm
+397,10984855,Jonathan Mellor,11201132034,The Linked Hub - Lift,"Workout A:
+
+18 minute EMOM
+
+1. 40 second Assault Bike
+2. 40 second KB Swings @ 20kg
+3. Jump Lunges
+
+Workout B:
+
+Build to working weight if Glute Bridges
+
+Then:
+
+6 x 5 Glute Bridges @ working weight. 
+
+Smashing 110kg! 💪🏻",2024-04-17 09:09:44+00:00,2592,Crossfit,,43.0,,135 bpm
+398,10984855,Jonathan Mellor,11186327793,The Linked Hub - Upper Strength and my stuff,"Class work out. 
+
+10 x Deadlifts @ 80kg - easy! 😅
+
+Finished class into: 
+
+5, 10, 15, 10, 5
+
+Cals on Rower
+DB Snatch @22.5kg
+
+Flying. Fitness deffo on the up! 💪🏻",2024-04-15 09:01:08+00:00,3319,Crossfit,,55.0,,119 bpm
+399,10984855,Jonathan Mellor,11371256615,The Linked Hub - Core and Cardio,"20 Mins EMOM
+
+1. Ski ERG
+2. Assault Bike 
+3. Burpees
+4. Row
+5. Rest
+
+Go as hard as you can for 40 seconds
+
+Then:
+
+4 rounds:
+
+25 Leg Raises
+25 OH Plate Sit Ups
+25 Russian Twists
+25 Bicycle Crunch
+25 Crunch
+
+🥵",2024-05-09 16:36:53+00:00,2982,Crossfit,,49.0,,139 bpm
+400,10984855,Jonathan Mellor,11358768705,The Linked Hub - Burn,"30 min Time Cap:
+
+250m Row
+25 DB Box Walk Overs 
+x 4 🥵
+30 Cal Ski ERG
+12 x Thrusters
+x 4 🤢
+
+Then:
+
+15 minute EMOM
+1. 20 alt lunges
+2. 20 Goblet Squats
+3. 20 Plate Thrusters
+
+🤮
+
+And I think I’ve been talked into the Yorkshire Marathon/10 miler 😳 Best dust off the Saucony’s and write a training plan! 🫣",2024-05-08 06:06:03+00:00,5260,Workout,,1.0,,129 bpm
+401,10984855,Jonathan Mellor,11437066438,The Linked Hub - HIIT,"When your HRM packs up in the first 30 seconds after weeks of warning you the battery is low. 😭
+
+3RFT - 45 minute Time Cap:
+
+60 Reverse Lunges
+50 Cals Ass Bike
+40 Box Jumps
+30 Goblet Squats
+20 Burpees over DB
+10 SA Devil Press
+
+Finished with 1:27 to spare. Tough one! 🤢",2024-05-18 08:03:45+00:00,3265,Crossfit,,54.0,,383 Cal
+402,10984855,Jonathan Mellor,11410070299,The Linked Hub - Partner Workout 🥵,,2024-05-14 16:37:05+00:00,2567,Crossfit,,42.0,,154 bpm
+403,10984855,Jonathan Mellor,11399127479,The Linked Hub - Build,,2024-05-13 09:05:28+00:00,2483,WeightTraining,,41.0,,318 Cal
+404,10984855,Jonathan Mellor,11484188074,The Linked Hub - Burn 🥵,"Well that escalated quickly. 
+
+Would have been a right calorie burn had my HRM not broke! 😭",2024-05-24 06:10:40+00:00,3026,Crossfit,,50.0,,255 Cal
+405,10984855,Jonathan Mellor,11484185887,Morning Workout,,2024-05-24 06:04:56+00:00,313,Workout,,5.0,,24 Cal
+406,10984855,Jonathan Mellor,11469787849,Upper Push + Pull,The simplest Strength and Conditioning programmes give you maximum stimuli for minimum time. Short but effective. I will feel that in the morning!,2024-05-22 09:59:50+00:00,1730,WeightTraining,,28.0,,151 Cal
+407,10984855,Jonathan Mellor,11469554557,The Linked Hub - Build - Lower,"60kg RDL
+40 kg Back Squat
+
+Split squat definitely improving.",2024-05-22 09:09:43+00:00,2095,WeightTraining,,34.0,,227 Cal
+408,10984855,Jonathan Mellor,11461687880,The Linked Hub - Team Tuesday,Jam on toast is not an ideal pre-workout for a number of reasons. Not least because it doesn’t taste good second time around. 🤢,2024-05-21 09:05:23+00:00,2574,Crossfit,,42.0,,156 bpm
+409,10984855,Jonathan Mellor,11453995180,Strength Programme - Squat/DL/SL,"BB Back Squat:
+
+3 x 8 @50 kg 
+
+BB DL
+
+3 x 6 @60kg
+
+DB Lateral Lunges 😖
+
+3 x 6ES @2 x 7.5kg
+
+DB SL Calf raises
+
+3 x 10ES @7.5kg
+
+All RPE5",2024-05-20 09:46:12+00:00,3553,WeightTraining,,59.0,,318 Cal
+410,10984855,Jonathan Mellor,11453990337,The Linked Hub - Build - Pull,,2024-05-20 09:07:29+00:00,2283,WeightTraining,,38.0,,307 Cal
+411,10984855,Jonathan Mellor,11562872221,Morning Hike,,2024-06-03 09:16:19+00:00,2525,Hike,"arrondissement de Marrakech-Medina مراكش المدينة, Morocco",1.58,,38m 55s
+412,10984855,Jonathan Mellor,11814067077,Getting some steps in!,"Starting the running training with a steady walk and a visit to see Archie. 👼🏻🩵
+
+Now do I train for a marathon or the Fan Dance. 🫣",2024-07-05 12:00:48+00:00,3226,Hike,"Leeds, United Kingdom",2.85,,52m 3s
+413,10984855,Jonathan Mellor,11812139394,The Linked Hub - Burn,Worth getting out of bed for. 🫠🤢,2024-07-05 05:51:23+00:00,2380,Crossfit,,39.0,,289 Cal
+414,10984855,Jonathan Mellor,11804870342,The Linked Hub - Core and Cardio,,2024-07-04 09:02:14+00:00,2565,Crossfit,,42.0,,348 Cal
+415,10984855,Jonathan Mellor,11797343016,The Linked Hub - Lower - Lunge plus my own stuff!,,2024-07-03 09:08:59+00:00,7058,Crossfit,,1.0,,569 Cal
+416,10984855,Jonathan Mellor,11788530068,The Linked Hub - Team Tuesday,Well that escalated quickly. 🫠,2024-07-02 09:07:10+00:00,3084,Crossfit,,51.0,,382 Cal
+417,10984855,Jonathan Mellor,12050842445,The Linked Hub - Barbell Club,"12 RFT
+
+4 x Power Cleans @50kg
+22 x Wall Balls @8kg
+
+Yep, that really is 48 Cleans (2400kg accumulated weight that I’ve shifted)
+And 264 Wallballs. 🤢",2024-08-03 09:11:13+00:00,2921,Crossfit,,48.0,,387 Cal
+418,10984855,Jonathan Mellor,12035046692,Tribrid - Conditioning,"20 mins @RPE3. 
+
+Doing this whilst trying to coach a crossfitter to run is hard! 🫠",2024-08-01 11:42:18+00:00,1215,Run,"Leeds, United Kingdom",1.58,11.72,18m 33s
+419,10984855,Jonathan Mellor,12034730068,Tribrid Strength - Deadlift,"70kg DL
+2 x 10kg RFESS
+2 x 15kg for Flat Press and Single Arm Row",2024-08-01 10:20:45+00:00,3783,WeightTraining,,1.0,,210 Cal
+420,10984855,Jonathan Mellor,12021204844,Tribid Conditioning - Recovery Walk - 1 Hr,,2024-07-30 17:31:01+00:00,4749,Hike,"Leeds, United Kingdom",2.89,,1h 11m
+421,10984855,Jonathan Mellor,12009071982,Tribid Strength - Press,50kg Barbell,2024-07-29 10:02:04+00:00,3937,Workout,,1.0,,267 Cal
+422,10984855,Jonathan Mellor,12076060920,Speed Session - negative splits,"4 x 400 metres
+
+1. @RPE 4 then 3 minutes rest
+2. @RPE 5 then 3 minutes rest
+3. @RPE6 then 3 minutes rest
+4. @RPE7
+
+Trying to remind my body that I used to be a runner before I was a Crossfitter!!! 🫠",2024-08-06 10:04:06+00:00,1039,Run,"Leeds, United Kingdom",0.93,8.93,8m 21s
+423,10984855,Jonathan Mellor,12076059573,The Linked Hub - Team Tuesday,"Partner Workout
+
+5 + 5 min
+
+1:
+
+Person A - Max Thrusters
+Person B - Match Reps with Burpees
+
+Swap after 5 minutes
+
+2: 
+Person A - Max Devil’s Press
+Person B - Match reps with Cals on Ass. Bike
+
+Swap after 5 minutes
+
+3. 
+
+Person A: Max Cals on Ski ERG
+Person B: Match Reps with DB Snatch
+
+Swap after 5 minutes 
+
+4. 
+
+Person A: Max Press Ups
+Person B: Match reps with sit ups
+
+Swap after 5 minutes",2024-08-06 09:07:54+00:00,2663,Crossfit,,44.0,,309 Cal
+424,10984855,Jonathan Mellor,12069201116,Tribrid - Strength - Press,,2024-08-05 13:30:21+00:00,6868,WeightTraining,,1.0,,390 Cal
+425,10984855,Jonathan Mellor,12145287505,Tribrid Strength - Press Session,,2024-08-14 11:17:40+00:00,4467,WeightTraining,,1.0,,336 Cal
+426,10984855,Jonathan Mellor,12135242936,The Linked Hub - Team Tuesday Pt 2,Round 3,2024-08-13 09:36:05+00:00,583,Run,"Leeds, United Kingdom",0.7,10.55,7m 25s
+427,10984855,Jonathan Mellor,12135242941,The Linked Hub - Team Tuesday,"First two rounds!
+
+Didn’t enjoy any part of that!",2024-08-13 09:05:33+00:00,1805,Crossfit,,30.0,,296 Cal
+428,10984855,Jonathan Mellor,12348217595,The Linked Up - X-Fit and Tribrid Squat Session,Big double session. I now need a lot of food!!!,2024-09-07 09:01:38+00:00,8485,Crossfit,,2.0,,638 Cal
+429,10984855,Jonathan Mellor,12339827463,The Linked Hub - Upper and Tribrid Deadlift session,"Upper Session:
+
+Ladder - 15 - 5
+
+KB Single Arm Seated Press
+DB Press Up (Deficit - DB stood on end)
+Walkouts
+
+Into:
+
+Tempo AMRAP:
+
+4:1:40 Bench Press to failure
+
+4:1:4:0 Strict Press to failure",2024-09-06 09:05:54+00:00,6613,Workout,,1.0,,502 Cal
+430,10984855,Jonathan Mellor,12331993719,The Linked Hub - Core and Cardio,Awful!,2024-09-05 09:04:42+00:00,3915,Crossfit,,1.0,,320 Cal
+431,10984855,Jonathan Mellor,12316485458,Tribrid - 1 hour walk,2 mad Spaniels and a grumpy Chihuahua!,2024-09-03 15:37:15+00:00,4332,Hike,"Wakefield, United Kingdom",1.94,,1h 1m
+432,10984855,Jonathan Mellor,12305955366,The Linked Hub - Pull plus Tribrid Press session! 🤢,Smashing the cals on the Ski ERG!,2024-09-02 08:56:24+00:00,8060,Crossfit,,2.0,,540 Cal
+433,107990522,victor kiplimo,10541608816,Morning Run,,2024-01-12 03:38:46+00:00,5799,Run,"Kajiado County, Kenya",12.51,7.7,1h 36m
+434,107990522,victor kiplimo,10561093636,Morning Run,,2024-01-15 03:10:39+00:00,4150,Run,"Kajiado County, Kenya",10.33,6.67,1h 8m
+435,107990522,victor kiplimo,10679271105,Morning Run,,2024-02-02 02:51:29+00:00,8165,Run,"Nandi County, Kenya",15.77,8.53,2h 14m
+436,107990522,victor kiplimo,10672484410,Morning Run,,2024-02-01 02:29:51+00:00,8244,Run,"Nandi County, Kenya",14.44,8.95,2h 9m
+437,107990522,victor kiplimo,10672481350,Morning Run,,2024-01-31 02:35:06+00:00,4359,Run,"Nandi County, Kenya",9.73,7.47,1h 12m
+438,107990522,victor kiplimo,10731061631,Night Run,,2024-02-09 23:51:21+00:00,16195,Run,"Nandi County, Kenya",29.22,9.2,4h 28m
+439,107990522,victor kiplimo,10725331184,Morning Run,,2024-02-09 02:45:12+00:00,6657,Run,"Nandi County, Kenya",11.48,9.38,1h 47m
+440,107990522,victor kiplimo,10719656469,Morning Run,,2024-02-08 06:39:40+00:00,4473,Run,"Nandi County, Kenya",6.22,,1h 13m
+441,107990522,victor kiplimo,10716494364,Morning Run,,2024-02-07 02:33:40+00:00,8598,Run,"Nandi County, Kenya",14.31,9.47,2h 15m
+442,107990522,victor kiplimo,10715424310,Lunch Run,,2024-02-06 08:30:00+00:00,6644,Run,"Nandi County, Kenya",7.46,11.08,1h 22m
+443,107990522,victor kiplimo,10715422106,Morning Run,,2024-02-06 02:33:41+00:00,9027,Run,"Nandi County, Kenya",13.11,,2h 25m
+444,107990522,victor kiplimo,10784277459,Morning Run,,2024-02-18 03:36:11+00:00,5503,Run,,17.46,5.25,1h 31m
+445,107990522,victor kiplimo,10784276687,Morning Run,,2024-02-18 02:38:17+00:00,1967,Run,"Nandi County, Kenya",5.03,6.52,32m 47s
+446,107990522,victor kiplimo,10774403201,Lunch Run,,2024-02-16 08:36:34+00:00,4697,Run,"Nandi County, Kenya",6.84,11.42,1h 18m
+447,107990522,victor kiplimo,10774401848,Morning Run,,2024-02-16 05:31:35+00:00,1025,Run,"Nandi County, Kenya",1.86,9.15,17m 5s
+448,107990522,victor kiplimo,10774400625,Morning Run,,2024-02-16 05:07:32+00:00,67,Run,,0.26,4.25,1m 7s
+449,107990522,victor kiplimo,10774400830,Morning Run,,2024-02-16 05:05:13+00:00,67,Run,,0.25,4.32,1m 7s
+450,107990522,victor kiplimo,10774400461,Morning Run,,2024-02-16 05:02:48+00:00,67,Run,,0.25,4.37,1m 7s
+451,107990522,victor kiplimo,10774399672,Morning Run,,2024-02-16 05:00:20+00:00,67,Run,,0.26,4.28,1m 7s
+452,107990522,victor kiplimo,10774399544,Morning Run,,2024-02-16 04:51:56+00:00,142,Run,,0.51,4.58,2m 22s
+453,107990522,victor kiplimo,10774398843,Morning Run,,2024-02-16 04:48:07+00:00,143,Run,,0.51,4.6,2m 23s
+454,107990522,victor kiplimo,10774398664,Morning Run,,2024-02-16 04:44:34+00:00,140,Run,,0.52,4.47,2m 20s
+455,107990522,victor kiplimo,10774398172,Morning Run,,2024-02-16 04:39:50+00:00,174,Run,,0.64,4.48,2m 54s
+456,107990522,victor kiplimo,10774396640,Morning Run,,2024-02-16 04:35:07+00:00,173,Run,,0.64,4.47,2m 53s
+457,107990522,victor kiplimo,10774395794,Morning Run,,2024-02-16 04:30:19+00:00,172,Run,,0.63,4.5,2m 52s
+458,107990522,victor kiplimo,10774395038,Morning Run,,2024-02-16 04:25:05+00:00,177,Run,,0.64,4.55,2m 57s
+459,107990522,victor kiplimo,10774394348,Morning Run,,2024-02-16 04:18:26+00:00,209,Run,,0.76,4.55,3m 29s
+460,107990522,victor kiplimo,10774393769,Morning Run,,2024-02-16 04:12:55+00:00,212,Run,,0.76,4.6,3m 32s
+461,107990522,victor kiplimo,10774393194,Morning Run,,2024-02-16 04:07:31+00:00,213,Run,,0.77,4.6,3m 33s
+462,107990522,victor kiplimo,10774392483,Morning Run,,2024-02-16 04:01:43+00:00,223,Run,,0.74,4.92,3m 41s
+463,107990522,victor kiplimo,10774391759,Morning Run,,2024-02-16 02:45:43+00:00,2543,Run,"Nandi County, Kenya",4.36,8.57,37m 22s
+464,107990522,victor kiplimo,10765895814,Morning Run,,2024-02-15 02:31:37+00:00,9195,Run,"Nandi County, Kenya",18.05,8.3,2h 29m
+465,107990522,victor kiplimo,10752215984,Lunch Run,,2024-02-13 08:36:49+00:00,5728,Run,"Nandi County, Kenya",9.73,9.73,1h 34m
+466,107990522,victor kiplimo,10751175184,Morning Workout,,2024-02-13 04:57:44+00:00,1768,Workout,"Nandi County, Kenya",29.0,,180 Cal
+467,107990522,victor kiplimo,10751174904,Morning Workout,,2024-02-13 03:53:08+00:00,3054,Workout,"Nandi County, Kenya",50.0,,505 Cal
+468,107990522,victor kiplimo,10751174597,Morning Workout,,2024-02-13 03:10:05+00:00,1516,Workout,"Nandi County, Kenya",25.0,,207 Cal
+469,107990522,victor kiplimo,10744699446,Morning Workout,,2024-02-12 02:37:01+00:00,6873,Workout,"Nandi County, Kenya",1.0,,920 Cal
+470,107990522,victor kiplimo,10831228186,Morning Run,,2024-02-25 02:57:36+00:00,5127,Run,"Nandi County, Kenya",11.82,7.1,1h 23m
+471,107990522,victor kiplimo,10824741417,Morning Run,,2024-02-24 06:02:51+00:00,1110,Run,"Nandi County, Kenya",2.03,9.12,18m 30s
+472,107990522,victor kiplimo,10824740947,Morning Run,,2024-02-24 05:24:28+00:00,66,Run,,0.26,4.23,1m 6s
+473,107990522,victor kiplimo,10824740468,Morning Run,,2024-02-24 05:17:18+00:00,286,Run,,1.02,4.67,4m 46s
+474,107990522,victor kiplimo,10824740060,Morning Run,,2024-02-24 05:14:00+00:00,66,Run,,0.25,4.25,1m 6s
+475,107990522,victor kiplimo,10824739628,Morning Run,,2024-02-24 05:06:58+00:00,183,Run,,0.65,4.67,3m 3s
+476,107990522,victor kiplimo,10824739279,Morning Run,,2024-02-24 05:04:00+00:00,66,Run,,0.25,4.3,1m 6s
+477,107990522,victor kiplimo,10824738974,Morning Run,,2024-02-24 04:56:38+00:00,284,Run,,1.03,4.58,4m 44s
+478,107990522,victor kiplimo,10824738347,Morning Run,,2024-02-24 04:53:37+00:00,63,Run,,0.26,4.0,1m 3s
+479,107990522,victor kiplimo,10824737888,Morning Run,,2024-02-24 04:46:37+00:00,289,Run,,1.02,4.68,4m 49s
+480,107990522,victor kiplimo,10824737419,Morning Run,,2024-02-24 04:42:55+00:00,66,Run,,0.25,,1m 6s
+481,107990522,victor kiplimo,10824737007,Morning Run,,2024-02-24 04:36:05+00:00,285,Run,,1.02,4.62,4m 45s
+482,107990522,victor kiplimo,10824736578,Morning Run,,2024-02-24 04:33:03+00:00,64,Run,,0.25,4.15,1m 4s
+483,107990522,victor kiplimo,10824736300,Morning Run,,2024-02-24 04:26:04+00:00,284,Run,,1.02,4.63,4m 44s
+484,107990522,victor kiplimo,10824735471,Morning Run,,2024-02-24 04:23:10+00:00,67,Run,,0.26,4.28,1m 7s
+485,107990522,victor kiplimo,10824735055,Morning Run,,2024-02-24 04:13:54+00:00,284,Run,,1.03,4.58,4m 44s
+486,107990522,victor kiplimo,10824734520,Morning Run,,2024-02-24 03:07:56+00:00,1512,Run,"Nandi County, Kenya",2.72,8.97,24m 27s
+487,107990522,victor kiplimo,10820056531,Morning Run,,2024-02-23 02:35:38+00:00,7952,Run,"Nandi County, Kenya",13.67,8.98,2h 2m
+488,107990522,victor kiplimo,10820053333,Lunch Run,,2024-02-22 08:54:09+00:00,4102,Run,"Nandi County, Kenya",5.65,12.1,1h 8m
+489,107990522,victor kiplimo,10811904762,Morning Run,,2024-02-22 02:39:32+00:00,7420,Run,"Nandi County, Kenya",13.75,8.6,1h 58m
+490,107990522,victor kiplimo,10805233128,Morning Run,,2024-02-21 03:28:03+00:00,3819,Run,"Nandi County, Kenya",12.38,5.13,1h 3m
+491,107990522,victor kiplimo,10805232330,Morning Run,,2024-02-21 03:06:43+00:00,1017,Run,"Nandi County, Kenya",2.49,6.8,16m 57s
+492,107990522,victor kiplimo,10800282442,Morning Run,,2024-02-20 07:08:19+00:00,1389,Run,"Nandi County, Kenya",2.58,8.95,23m 9s
+493,107990522,victor kiplimo,10797930168,Morning Run,,2024-02-20 04:03:31+00:00,2465,Run,"Nandi County, Kenya",3.74,10.95,40m 58s
+494,107990522,victor kiplimo,10797929754,Morning Run,,2024-02-20 03:10:32+00:00,2204,Run,,5.11,6.1,31m 16s
+495,107990522,victor kiplimo,10797929354,Morning Run,,2024-02-20 02:32:49+00:00,2119,Run,"Nandi County, Kenya",3.0,10.0,30m 3s
+496,107990522,victor kiplimo,10796034051,Morning Run,,2024-02-19 02:34:21+00:00,60710,Run,"Nandi County, Kenya",13.05,9.67,2h 6m
+497,107990522,victor kiplimo,10865514005,Morning Run,,2024-03-01 02:28:56+00:00,9147,Run,"Nandi County, Kenya",15.54,9.17,2h 22m
+498,107990522,victor kiplimo,10859882433,Lunch Run,,2024-02-29 08:27:30+00:00,4096,Run,"Nandi County, Kenya",5.59,,48m 50s
+499,107990522,victor kiplimo,10859540687,Morning Run,,2024-02-29 04:59:34+00:00,2149,Run,"Nandi County, Kenya",3.1,10.62,32m 59s
+500,107990522,victor kiplimo,10859539739,Morning Run,,2024-02-29 03:59:10+00:00,2880,Run,"Nandi County, Kenya",9.4,5.1,48m 0s
+501,107990522,victor kiplimo,10859538627,Morning Run,,2024-02-29 03:08:43+00:00,1815,Run,"Nandi County, Kenya",4.07,,30m 9s
+502,107990522,victor kiplimo,10844905258,Morning Run,,2024-02-27 02:38:06+00:00,3893,Run,"Nandi County, Kenya",8.29,7.82,1h 4m
+503,107990522,victor kiplimo,10838679465,Morning Run,,2024-02-26 03:19:51+00:00,8041,Run,"Nandi County, Kenya",24.86,5.38,2h 14m
+504,107990522,victor kiplimo,10934457079,Morning Run,,2024-03-10 02:39:21+00:00,5142,Run,"Nandi County, Kenya",10.09,7.68,1h 17m
+505,107990522,victor kiplimo,10921833372,Afternoon Run,,2024-03-09 10:04:57+00:00,3734,Run,"Nandi County, Kenya",5.1,12.18,1h 2m
+506,107990522,victor kiplimo,10920274912,Morning Run,,2024-03-09 02:41:26+00:00,7632,Run,"Nandi County, Kenya",13.91,9.13,2h 7m
+507,107990522,victor kiplimo,10914341234,Morning Run,,2024-03-08 05:10:10+00:00,1236,Run,"Nandi County, Kenya",1.9,10.53,20m 7s
+508,107990522,victor kiplimo,10914340940,Morning Run,,2024-03-08 03:59:27+00:00,2886,Run,,9.7,4.95,48m 6s
+509,107990522,victor kiplimo,10914339746,Morning Run,,2024-03-08 03:17:00+00:00,1255,Run,"Nandi County, Kenya",2.68,7.8,20m 55s
+510,107990522,victor kiplimo,10910016765,Afternoon Run,,2024-03-07 13:48:13+00:00,3143,Run,"Nandi County, Kenya",6.21,,52m 23s
+511,107990522,victor kiplimo,10907315321,Morning Run,,2024-03-07 02:32:07+00:00,8727,Run,"Nandi County, Kenya",12.23,10.7,2h 10m
+512,107990522,victor kiplimo,10893125907,Morning Run,,2024-03-05 03:20:47+00:00,3470,Run,"Nandi County, Kenya",10.76,5.3,57m 5s
+513,107990522,victor kiplimo,10885810724,Morning Run,,2024-03-04 02:29:03+00:00,6637,Run,"Nandi County, Kenya",11.44,7.82,1h 29m
+514,107990522,victor kiplimo,10972622290,Morning Run,,2024-03-16 05:02:47+00:00,1878,Run,"Nandi County, Kenya",2.66,11.75,31m 18s
+515,107990522,victor kiplimo,10972620324,Morning Run,,2024-03-16 04:01:33+00:00,1557,Run,"Nandi County, Kenya",5.3,4.88,25m 57s
+516,107990522,victor kiplimo,10972618115,Morning Run,,2024-03-16 03:04:17+00:00,2001,Run,"Nandi County, Kenya",3.97,,32m 43s
+517,107990522,victor kiplimo,10972616073,Morning Run,,2024-03-15 07:47:25+00:00,4218,Run,"Nandi County, Kenya",7.69,9.13,1h 10m
+518,107990522,victor kiplimo,10972612916,Morning Run,,2024-03-15 02:37:12+00:00,6273,Run,"Nandi County, Kenya",8.78,11.03,1h 36m
+519,107990522,victor kiplimo,10958183778,Afternoon Run,,2024-03-14 13:30:10+00:00,3876,Run,"Nandi County, Kenya",7.46,8.6,1h 4m
+520,107990522,victor kiplimo,10955388715,Morning Run,,2024-03-14 02:30:31+00:00,7009,Run,"Nandi County, Kenya",11.37,9.47,1h 47m
+521,107990522,victor kiplimo,10949449390,Inner Shin Recovery,Prehab session to relieve soreness and reduce risk of injury.,2024-03-13 13:45:24+00:00,9,Workout,,9.0,,
+522,107990522,victor kiplimo,10948412911,Morning Run,,2024-03-13 03:29:01+00:00,7712,Run,"Nandi County, Kenya",24.86,5.17,2h 8m
+523,107990522,victor kiplimo,10948409731,Morning Run,,2024-03-13 02:37:00+00:00,1289,Run,"Nandi County, Kenya",1.62,10.97,17m 49s
+524,107990522,victor kiplimo,10945038126,Morning Run,,2024-03-12 02:47:36+00:00,6844,Run,"Nandi County, Kenya",12.48,9.0,1h 52m
+525,107990522,victor kiplimo,10936651104,Afternoon Run,,2024-03-11 13:21:16+00:00,3858,Run,"Nandi County, Kenya",7.51,8.55,1h 4m
+526,107990522,victor kiplimo,10934460044,Morning Run,,2024-03-11 05:29:14+00:00,1175,Run,"Nandi County, Kenya",2.05,9.45,19m 27s
+527,107990522,victor kiplimo,10934459824,Morning Run,,2024-03-11 05:07:52+00:00,167,Run,,0.64,4.35,2m 47s
+528,107990522,victor kiplimo,10934459655,Morning Run,,2024-03-11 05:02:48+00:00,175,Run,,0.63,4.58,2m 55s
+529,107990522,victor kiplimo,10934459418,Morning Run,,2024-03-11 04:58:24+00:00,171,Run,,0.63,4.47,2m 51s
+530,107990522,victor kiplimo,10934459259,Morning Run,,2024-03-11 04:53:30+00:00,175,Run,,0.64,4.55,2m 55s
+531,107990522,victor kiplimo,10934459042,Morning Run,,2024-03-11 04:49:02+00:00,172,Run,,0.64,4.48,2m 52s
+532,107990522,victor kiplimo,10934458856,Morning Run,,2024-03-11 04:42:18+00:00,213,Run,,0.76,4.63,3m 33s
+533,107990522,victor kiplimo,10934458709,Morning Run,,2024-03-11 04:37:05+00:00,209,Run,,0.77,4.52,3m 29s
+534,107990522,victor kiplimo,10934458443,Morning Run,,2024-03-11 04:31:43+00:00,212,Run,,0.76,4.6,3m 32s
+535,107990522,victor kiplimo,10934458237,Morning Run,,2024-03-11 04:26:28+00:00,213,Run,,0.77,4.6,3m 33s
+536,107990522,victor kiplimo,10934458027,Morning Run,,2024-03-11 04:19:22+00:00,283,Run,,1.01,4.63,4m 43s
+537,107990522,victor kiplimo,10934457803,Morning Run,,2024-03-11 04:12:05+00:00,287,Run,,1.03,4.63,4m 47s
+538,107990522,victor kiplimo,10934457619,Morning Run,,2024-03-11 04:04:37+00:00,287,Run,,1.01,4.72,4m 47s
+539,107990522,victor kiplimo,10934457401,Morning Run,,2024-03-11 03:12:21+00:00,1253,Run,"Nandi County, Kenya",2.95,6.93,20m 29s
+540,107990522,victor kiplimo,11029778977,Morning Run,,2024-03-24 03:16:47+00:00,3854,Run,"Makueni, Kenya",13.09,4.9,1h 4m
+541,107990522,victor kiplimo,11029774730,Morning Run,,2024-03-19 04:17:17+00:00,101,Run,,0.39,4.27,1m 41s
+542,107990522,victor kiplimo,11029774118,Morning Run,,2024-03-19 04:14:19+00:00,100,Run,,0.38,4.32,1m 40s
+543,107990522,victor kiplimo,11029773346,Morning Run,,2024-03-19 04:11:28+00:00,99,Run,,0.39,4.22,1m 39s
+544,107990522,victor kiplimo,11029772872,Morning Run,,2024-03-19 04:08:40+00:00,100,Run,,0.38,4.3,1m 40s
+545,107990522,victor kiplimo,11029772227,Morning Run,,2024-03-19 04:05:46+00:00,99,Run,,0.38,4.25,1m 39s
+546,107990522,victor kiplimo,11029771552,Morning Run,,2024-03-19 04:02:57+00:00,100,Run,,0.38,4.3,1m 40s
+547,107990522,victor kiplimo,11029770747,Morning Run,,2024-03-19 04:00:01+00:00,101,Run,,0.38,4.37,1m 41s
+548,107990522,victor kiplimo,11029768315,Morning Run,,2024-03-19 03:57:07+00:00,100,Run,,0.39,4.27,1m 40s
+549,107990522,victor kiplimo,11029767700,Morning Run,,2024-03-19 03:54:26+00:00,102,Run,,0.39,4.35,1m 42s
+550,107990522,victor kiplimo,11029766479,Morning Run,,2024-03-19 03:04:49+00:00,1413,Run,"Nandi County, Kenya",2.95,7.75,22m 54s
+551,107990522,victor kiplimo,10984535365,Morning Run,,2024-03-18 07:59:22+00:00,4477,Run,"Nandi County, Kenya",7.69,9.7,1h 14m
+552,107990522,victor kiplimo,10984534500,Morning Run,,2024-03-18 02:38:58+00:00,6740,Run,"Nandi County, Kenya",12.04,8.48,1h 42m
+553,107990522,victor kiplimo,11080638850,Morning Run,,2024-03-30 02:57:08+00:00,5336,Run,"Nandi County, Kenya",12.46,7.07,1h 28m
+554,107990522,victor kiplimo,11059414508,Morning Run,,2024-03-29 03:38:59+00:00,6795,Run,"Nandi County, Kenya",21.75,5.2,1h 53m
+555,107990522,victor kiplimo,11059412792,Morning Run,,2024-03-27 07:31:34+00:00,4589,Run,"Nandi County, Kenya",8.2,9.27,1h 15m
+556,107990522,victor kiplimo,11046258535,Morning Run,,2024-03-27 02:56:30+00:00,4980,Run,"Nandi County, Kenya",10.71,7.23,1h 17m
+557,107990522,victor kiplimo,11040128168,Lunch Run,,2024-03-26 08:00:32+00:00,5179,Run,"Nandi County, Kenya",11.18,7.3,1h 21m
+558,107990522,victor kiplimo,11081513878,Lunch Run,,2024-04-01 08:15:03+00:00,3543,Run,"Nandi County, Kenya",6.36,9.25,58m 51s
+559,107990522,victor kiplimo,11080640226,Morning Run,,2024-04-01 04:59:34+00:00,1426,Run,"Nandi County, Kenya",2.3,10.22,23m 34s
+560,107990522,victor kiplimo,11080639671,Morning Run,,2024-04-01 04:00:02+00:00,2880,Run,"Nandi County, Kenya",9.46,5.07,48m 0s
+561,107990522,victor kiplimo,11080639003,Morning Run,,2024-04-01 03:17:46+00:00,1471,Run,"Nandi County, Kenya",2.91,,23m 45s
+562,107990522,victor kiplimo,12221463561,Morning Run,,2024-04-14 07:05:15+00:00,7799,Run,"Hanover, Germany",26.28,4.95,2h 9m
+563,107990522,victor kiplimo,12221459014,Morning Run,,2024-04-13 08:08:46+00:00,3175,Run,"Hanover, Germany",6.22,8.18,50m 57s
+564,107990522,victor kiplimo,12221457737,Afternoon Run,,2024-04-12 15:07:30+00:00,2210,Run,"Hanover, Germany",4.08,8.73,35m 38s
+565,107990522,victor kiplimo,12221466144,Afternoon Run,,2024-04-18 13:02:51+00:00,2899,Run,"Kajiado County, Kenya",5.15,9.27,47m 43s
+566,107990522,victor kiplimo,12221465085,Morning Run,,2024-04-17 07:28:13+00:00,4492,Run,"Kajiado County, Kenya",8.24,9.03,1h 14m
+567,107990522,victor kiplimo,12221466914,Morning Workout,,2024-04-26 07:23:58+00:00,2878,Workout,"Nandi County, Kenya",47.0,,412 Cal
+568,107990522,victor kiplimo,12221471407,Morning Workout,,2024-05-02 07:07:11+00:00,6295,Workout,"Kajiado County, Kenya",1.0,,890 Cal
+569,107990522,victor kiplimo,12221469730,Afternoon Workout,,2024-05-01 13:59:12+00:00,3360,Workout,"Kajiado County, Kenya",56.0,,569 Cal
+570,107990522,victor kiplimo,12221468770,Morning Workout,,2024-04-30 03:07:40+00:00,4808,Workout,"Kajiado County, Kenya",1.0,,"1,023 Cal"
+571,107990522,victor kiplimo,12221474238,Morning Run,,2024-05-10 07:22:33+00:00,4640,Run,"Kajiado County, Kenya",11.21,6.77,1h 15m
+572,107990522,victor kiplimo,12221472376,Morning Run,,2024-05-09 03:18:34+00:00,2882,Run,"Kajiado County, Kenya",5.34,8.98,48m 2s
+573,107990522,victor kiplimo,12221477449,Morning Run,,2024-05-17 06:46:23+00:00,4366,Run,"Kajiado County, Kenya",11.21,6.45,1h 12m
+574,107990522,victor kiplimo,12221474838,Morning Run,,2024-05-13 07:23:27+00:00,142,Run,"Nairobi County, Kenya",0.27,8.08,2m 15s
+575,107990522,victor kiplimo,12221480283,Morning Run,,2024-05-26 08:03:52+00:00,3870,Run,"Ilidža Municipality, B&H",13.17,4.88,1h 4m
+576,107990522,victor kiplimo,12221479148,Morning Run,,2024-05-25 06:31:52+00:00,1781,Run,"Novi Grad Municipality, B&H",4.36,6.72,29m 20s
+577,107990522,victor kiplimo,12221483038,Lunch Run,,2024-06-10 08:37:23+00:00,3290,Run,"Nandi County, Kenya",5.59,,47m 39s
+578,107990522,victor kiplimo,12221491398,Night Run,,2024-06-20 23:40:08+00:00,16460,Run,"Nandi County, Kenya",29.27,9.3,4h 32m
+579,107990522,victor kiplimo,12221487674,Lunch Run,,2024-06-20 08:54:53+00:00,36142,Run,"Nandi County, Kenya",9.06,10.22,1h 32m
+580,107990522,victor kiplimo,12221484087,Morning Run,,2024-06-18 07:05:14+00:00,8171,Run,"Nandi County, Kenya",12.79,,2h 15m
+581,107990522,victor kiplimo,12221495997,Morning Run,,2024-06-25 02:48:06+00:00,5998,Run,"Nandi County, Kenya",8.51,,1h 28m
+582,107990522,victor kiplimo,12221494034,Morning Run,,2024-06-24 02:30:44+00:00,7587,Run,"Nandi County, Kenya",12.5,9.52,1h 59m
+583,107990522,victor kiplimo,12221497838,Morning Run,,2024-07-02 03:21:28+00:00,3794,Run,"Kajiado County, Kenya",9.47,6.68,1h 3m
+584,107990522,victor kiplimo,12221500271,Morning Run,,2024-07-21 02:41:18+00:00,7791,Run,"Nandi County, Kenya",12.43,9.7,2h 0m
+585,107990522,victor kiplimo,12221507776,Morning Run,,2024-07-27 02:51:22+00:00,7623,Run,"Nandi County, Kenya",12.89,9.43,2h 1m
+586,107990522,victor kiplimo,12221505164,Morning Run,,2024-07-26 02:50:08+00:00,9030,Run,"Nandi County, Kenya",15.54,9.57,2h 28m
+587,107990522,victor kiplimo,12221502268,Morning Run,,2024-07-22 02:44:56+00:00,7586,Run,"Nandi County, Kenya",11.97,10.2,2h 2m
+588,107990522,victor kiplimo,12221519920,Morning Run,,2024-08-02 02:51:28+00:00,6641,Run,"Nandi County, Kenya",12.51,8.63,1h 48m
+589,107990522,victor kiplimo,12221518388,Morning Run,,2024-08-01 02:50:25+00:00,6119,Run,"Nandi County, Kenya",9.79,8.35,1h 21m
+590,107990522,victor kiplimo,12221514249,Morning Run,,2024-07-31 07:42:43+00:00,5955,Run,"Nandi County, Kenya",8.08,,1h 34m
+591,107990522,victor kiplimo,12221512013,Morning Run,,2024-07-30 02:54:45+00:00,5290,Run,"Nandi County, Kenya",6.08,10.52,1h 4m
+592,107990522,victor kiplimo,12221510625,Morning Run,,2024-07-29 02:49:00+00:00,7504,Run,"Nandi County, Kenya",14.44,8.38,2h 1m
+593,107990522,victor kiplimo,12221543535,Morning Run,,2024-08-10 02:50:28+00:00,6865,Run,"Nandi County, Kenya",11.46,9.3,1h 46m
+594,107990522,victor kiplimo,12221540175,Morning Run,,2024-08-09 04:44:59+00:00,1653,Run,"Nandi County, Kenya",2.49,11.07,27m 33s
+595,107990522,victor kiplimo,12221540052,Morning Run,,2024-08-09 04:19:55+00:00,52,Run,,0.19,,52s
+596,107990522,victor kiplimo,12221538997,Morning Run,,2024-08-09 04:17:33+00:00,53,Run,,0.19,4.6,53s
+597,107990522,victor kiplimo,12221538080,Morning Run,,2024-08-09 04:15:06+00:00,53,Run,,0.19,4.52,53s
+598,107990522,victor kiplimo,12221537952,Morning Run,,2024-08-09 04:12:40+00:00,55,Run,,0.19,4.8,55s
+599,107990522,victor kiplimo,12221537583,Morning Run,,2024-08-09 04:06:41+00:00,200,Run,,0.64,5.18,3m 20s
+600,107990522,victor kiplimo,12221537563,Morning Run,,2024-08-09 04:00:29+00:00,208,Run,,0.64,5.4,3m 28s
+601,107990522,victor kiplimo,12221537726,Morning Run,,2024-08-09 03:54:49+00:00,213,Run,,0.63,5.58,3m 33s
+602,107990522,victor kiplimo,12221535209,Morning Run,,2024-08-09 03:49:10+00:00,211,Run,,0.63,5.53,3m 31s
+603,107990522,victor kiplimo,12221534222,Morning Run,,2024-08-09 03:43:25+00:00,217,Run,,0.63,5.67,3m 37s
+604,107990522,victor kiplimo,12221532942,Morning Run,,2024-08-09 03:37:29+00:00,222,Run,,0.63,5.78,3m 42s
+605,107990522,victor kiplimo,12221532267,Morning Run,,2024-08-09 03:00:01+00:00,1727,Run,"Nandi County, Kenya",2.78,10.25,28m 36s
+606,107990522,victor kiplimo,12221531116,Morning Run,,2024-08-08 03:05:25+00:00,7104,Run,"Nandi County, Kenya",13.3,8.88,1h 58m
+607,107990522,victor kiplimo,12221528276,Morning Run,,2024-08-06 02:47:19+00:00,8842,Run,"Nandi County, Kenya",14.81,9.68,2h 23m
+608,107990522,victor kiplimo,12221523594,Morning Run,,2024-08-05 02:59:32+00:00,6105,Run,"Nandi County, Kenya",11.2,8.92,1h 39m
+609,107990522,victor kiplimo,12221559836,Lunch Run,,2024-08-16 08:17:14+00:00,3216,Run,"Nandi County, Kenya",6.31,8.43,53m 18s
+610,107990522,victor kiplimo,12221558649,Morning Run,,2024-08-16 03:03:06+00:00,6433,Run,"Nandi County, Kenya",10.25,10.45,1h 47m
+611,107990522,victor kiplimo,12221554566,Morning Run,,2024-08-15 03:33:15+00:00,4947,Run,"Nandi County, Kenya",14.44,5.58,1h 20m
+612,107990522,victor kiplimo,12221550673,Lunch Run,,2024-08-14 08:41:24+00:00,3462,Run,"Nandi County, Kenya",8.7,6.63,57m 39s
+613,107990522,victor kiplimo,12221548992,Morning Run,,2024-08-13 02:55:14+00:00,6930,Run,"Nandi County, Kenya",10.15,9.02,1h 31m
+614,107990522,victor kiplimo,12221545481,Morning Run,,2024-08-12 03:34:30+00:00,2095,Run,"Nandi County, Kenya",3.11,,25m 44s
+615,107990522,victor kiplimo,12221544283,Morning Run,,2024-08-12 03:20:32+00:00,790,Run,"Nandi County, Kenya",1.67,7.77,13m 1s
+616,107990522,victor kiplimo,12246260832,Morning Run,,2024-08-25 02:56:53+00:00,7933,Run,"Nandi County, Kenya",10.75,,1h 57m
+617,107990522,victor kiplimo,12246255280,Morning Run,,2024-08-24 03:33:39+00:00,7018,Run,"Nandi County, Kenya",12.44,9.37,1h 56m
+618,107990522,victor kiplimo,12221611624,Morning Run,,2024-08-23 03:36:07+00:00,7057,Run,"Nandi County, Kenya",21.75,5.4,1h 57m
+619,107990522,victor kiplimo,12221607987,Morning Run,,2024-08-22 02:48:30+00:00,8713,Run,"Nandi County, Kenya",14.53,9.52,2h 18m
+620,107990522,victor kiplimo,12221604793,Morning Run,,2024-08-21 05:24:25+00:00,1118,Run,"Nandi County, Kenya",2.3,8.08,18m 38s
+621,107990522,victor kiplimo,12221603985,Morning Run,,2024-08-21 05:07:03+00:00,45,Run,,0.18,3.97,43s
+622,107990522,victor kiplimo,12221603653,Morning Run,,2024-08-21 05:03:11+00:00,49,Run,,0.18,4.38,49s
+623,107990522,victor kiplimo,12221603162,Morning Run,,2024-08-21 05:00:14+00:00,104,Run,,0.39,4.43,1m 44s
+624,107990522,victor kiplimo,12221603037,Morning Run,,2024-08-21 04:54:36+00:00,207,Run,,0.76,4.48,3m 27s
+625,107990522,victor kiplimo,12221569785,Morning Run,,2024-08-21 04:45:49+00:00,51,Run,,0.19,4.43,51s
+626,107990522,victor kiplimo,12221568072,Morning Run,,2024-08-21 04:42:46+00:00,102,Run,,0.38,4.45,1m 42s
+627,107990522,victor kiplimo,12221568644,Morning Run,,2024-08-21 04:37:16+00:00,216,Run,,0.77,4.68,3m 36s
+628,107990522,victor kiplimo,12221568108,Morning Run,,2024-08-21 04:31:45+00:00,209,Run,,0.76,4.53,3m 29s
+629,107990522,victor kiplimo,12221568065,Morning Run,,2024-08-21 04:28:08+00:00,50,Run,,0.19,4.33,50s
+630,107990522,victor kiplimo,12221567420,Morning Run,,2024-08-21 04:24:40+00:00,105,Run,,0.39,4.48,1m 45s
+631,107990522,victor kiplimo,12221567265,Morning Run,,2024-08-21 04:19:51+00:00,209,Run,,0.76,4.55,3m 29s
+632,107990522,victor kiplimo,12221564833,Morning Run,,2024-08-21 04:13:49+00:00,207,Run,,0.77,4.47,3m 27s
+633,107990522,victor kiplimo,12221564572,Morning Run,,2024-08-21 03:13:26+00:00,1869,Run,"Nandi County, Kenya",2.95,9.75,28m 47s
+634,107990522,victor kiplimo,12221563291,Morning Run,,2024-08-20 02:39:53+00:00,6577,Run,"Nandi County, Kenya",10.59,9.62,1h 41m
+635,107990522,victor kiplimo,12303367572,Morning Run,,2024-08-31 03:49:15+00:00,1359,Run,"Nandi County, Kenya",2.49,9.1,22m 39s
+636,107990522,victor kiplimo,12303367025,Morning Run,,2024-08-31 03:02:34+00:00,1934,Run,,5.38,5.9,31m 47s
+637,107990522,victor kiplimo,12303365954,Morning Run,,2024-08-31 02:35:06+00:00,1447,Run,"Nandi County, Kenya",2.88,8.15,23m 33s
+638,107990522,victor kiplimo,12303365419,Lunch Run,,2024-08-27 09:09:07+00:00,4810,Run,"Nandi County, Kenya",6.83,11.72,1h 20m
+639,107990522,victor kiplimo,12303364380,Morning Run,,2024-08-27 02:51:41+00:00,7084,Run,"Nandi County, Kenya",12.05,9.65,1h 56m
+640,107990522,victor kiplimo,12246269169,Morning Run,,2024-08-26 05:22:02+00:00,1656,Run,"Nandi County, Kenya",2.59,,27m 32s
+641,107990522,victor kiplimo,12246266547,Morning Run,,2024-08-26 04:10:30+00:00,2095,Run,"Nandi County, Kenya",7.0,4.98,34m 55s
+642,107990522,victor kiplimo,12246262870,Morning Run,,2024-08-26 03:01:45+00:00,2414,Run,"Nandi County, Kenya",4.35,,38m 19s
+643,107990522,victor kiplimo,12364103218,Morning Run,,2024-09-08 03:34:12+00:00,8101,Run,"Nandi County, Kenya",24.86,5.43,2h 14m
+644,107990522,victor kiplimo,12364099624,Morning Run,,2024-09-07 07:49:56+00:00,4831,Run,"Nandi County, Kenya",10.73,7.47,1h 20m
+645,107990522,victor kiplimo,12364095946,Lunch Run,,2024-09-06 09:10:53+00:00,5685,Run,"Nandi County, Kenya",11.19,8.18,1h 31m
+646,107990522,victor kiplimo,12364095308,Morning Run,,2024-09-06 04:42:00+00:00,68,Run,,0.25,4.38,1m 8s
+647,107990522,victor kiplimo,12364094181,Morning Run,,2024-09-06 04:39:52+00:00,69,Run,,0.26,4.42,1m 9s
+648,107990522,victor kiplimo,12364093230,Morning Run,,2024-09-06 04:37:52+00:00,64,Run,,0.25,4.13,1m 4s
+649,107990522,victor kiplimo,12364092877,Morning Run,,2024-09-06 04:33:50+00:00,67,Run,,0.25,4.37,1m 7s
+650,107990522,victor kiplimo,12364093290,Morning Run,,2024-09-06 04:31:07+00:00,63,Run,,0.25,,1m 3s
+651,107990522,victor kiplimo,12364093176,Morning Run,,2024-09-06 04:29:05+00:00,67,Run,,0.25,4.32,1m 7s
+652,107990522,victor kiplimo,12364092620,Morning Run,,2024-09-06 04:27:06+00:00,67,Run,,0.25,4.32,1m 7s
+653,107990522,victor kiplimo,12364093135,Morning Run,,2024-09-06 04:25:10+00:00,69,Run,,0.25,4.45,1m 9s
+654,107990522,victor kiplimo,12364092570,Morning Run,,2024-09-06 04:23:11+00:00,68,Run,,0.26,4.35,1m 8s
+655,107990522,victor kiplimo,12364092945,Morning Run,,2024-09-06 03:17:29+00:00,1451,Run,"Nandi County, Kenya",2.8,7.93,22m 15s
+656,107990522,victor kiplimo,12364090004,Lunch Run,,2024-09-05 08:38:00+00:00,4417,Run,"Nandi County, Kenya",6.23,,1h 12m
+657,107990522,victor kiplimo,12364089417,Morning Run,,2024-09-05 03:07:56+00:00,5353,Run,"Nandi County, Kenya",9.65,8.33,1h 20m
+658,107990522,victor kiplimo,12364089147,Lunch Run,,2024-09-04 08:26:48+00:00,4201,Run,"Nandi County, Kenya",6.11,11.35,1h 9m
+659,107990522,victor kiplimo,12321355546,Morning Run,,2024-09-04 03:01:14+00:00,6795,Run,"Nandi County, Kenya",13.17,8.53,1h 52m
+660,107990522,victor kiplimo,12321267549,Afternoon Run,,2024-09-03 13:33:19+00:00,3118,Run,"Nandi County, Kenya",6.24,8.27,51m 39s
+661,107990522,victor kiplimo,12312162052,Morning Run,,2024-09-03 03:33:38+00:00,4055,Run,"Nandi County, Kenya",13.06,5.17,1h 7m
+662,107990522,victor kiplimo,12312159802,Morning Run,,2024-09-03 02:31:58+00:00,1686,Run,"Nandi County, Kenya",2.34,9.97,23m 23s
+663,107990522,victor kiplimo,12312158904,Afternoon Run,,2024-09-02 13:26:12+00:00,3164,Run,"Nandi County, Kenya",6.25,8.43,52m 44s
+664,107990522,victor kiplimo,12303368782,Morning Run,,2024-09-02 03:02:37+00:00,6875,Run,"Nandi County, Kenya",10.39,9.47,1h 38m
+665,107990522,victor kiplimo,12417328835,Morning Run,,2024-09-15 03:33:37+00:00,6129,Run,"Nandi County, Kenya",19.89,5.13,1h 42m
+666,107990522,victor kiplimo,12417321931,Lunch Run,,2024-09-14 09:10:54+00:00,3838,Run,"Nandi County, Kenya",6.04,10.53,1h 3m
+667,107990522,victor kiplimo,12417319264,Morning Run,,2024-09-14 02:57:46+00:00,6730,Run,"Nandi County, Kenya",12.43,8.37,1h 43m
+668,107990522,victor kiplimo,12417341399,Afternoon Run,,2024-09-13 12:33:51+00:00,3905,Run,"Nandi County, Kenya",8.09,8.05,1h 5m
+669,107990522,victor kiplimo,12417353813,Morning Run,,2024-09-13 05:55:19+00:00,1431,Run,"Nandi County, Kenya",2.5,9.53,23m 51s
+670,107990522,victor kiplimo,12417336250,Morning Run,,2024-09-13 05:33:49+00:00,177,Run,,0.64,4.57,2m 57s
+671,107990522,victor kiplimo,12417333995,Morning Run,,2024-09-13 05:25:39+00:00,354,Run,,1.27,4.62,5m 54s
+672,107990522,victor kiplimo,12417343945,Morning Run,,2024-09-13 05:20:40+00:00,173,Run,,0.63,4.55,2m 53s
+673,107990522,victor kiplimo,12417330688,Morning Run,,2024-09-13 05:12:35+00:00,349,Run,,1.28,4.52,5m 49s
+674,107990522,victor kiplimo,12417329114,Morning Run,,2024-09-13 05:07:41+00:00,175,Run,,0.64,4.52,2m 55s
+675,107990522,victor kiplimo,12417339300,Morning Run,,2024-09-13 04:59:52+00:00,345,Run,,1.28,4.5,5m 45s
+676,107990522,victor kiplimo,12417321490,Morning Run,,2024-09-13 04:55:13+00:00,174,Run,,0.63,,2m 54s
+677,107990522,victor kiplimo,12417326372,Morning Run,,2024-09-13 04:47:23+00:00,349,Run,,1.26,4.58,5m 49s
+678,107990522,victor kiplimo,12417331183,Morning Run,,2024-09-13 04:42:43+00:00,173,Run,,0.63,4.55,2m 53s
+679,107990522,victor kiplimo,12417334193,Morning Run,,2024-09-13 04:32:38+00:00,352,Run,,1.26,4.63,5m 52s
+680,107990522,victor kiplimo,12417327587,Morning Run,,2024-09-13 03:54:18+00:00,1424,Run,"Nandi County, Kenya",2.49,7.98,19m 56s
+681,107990522,victor kiplimo,12417321012,Morning Run,,2024-09-12 02:37:28+00:00,8761,Run,"Nandi County, Kenya",18.93,7.55,2h 23m
+682,107990522,victor kiplimo,12417310118,Lunch Run,,2024-09-11 08:19:08+00:00,5139,Run,"Nandi County, Kenya",11.32,7.47,1h 24m
+683,107990522,victor kiplimo,12364752692,Lunch Run,,2024-09-09 08:50:29+00:00,4057,Run,"Nandi County, Kenya",5.6,11.97,1h 7m
+684,107990522,victor kiplimo,12364187080,Morning Run,,2024-09-09 02:58:59+00:00,6564,Run,"Nandi County, Kenya",10.88,9.77,1h 46m
+685,107990522,victor kiplimo,12488879824,Morning Run,,2024-09-22 02:47:45+00:00,6429,Run,"Nandi County, Kenya",11.25,9.23,1h 43m
+686,107990522,victor kiplimo,12488878858,Afternoon Run,,2024-09-21 10:10:49+00:00,4205,Run,"Nandi County, Kenya",6.21,,1h 9m
+687,107990522,victor kiplimo,12488878293,Morning Run,,2024-09-21 05:52:10+00:00,1490,Run,"Nandi County, Kenya",2.38,10.42,24m 50s
+688,107990522,victor kiplimo,12488877896,Morning Run,,2024-09-21 05:38:16+00:00,64,Run,,0.26,4.12,1m 4s
+689,107990522,victor kiplimo,12488877760,Morning Run,,2024-09-21 05:35:41+00:00,65,Run,,0.25,4.18,1m 5s
+690,107990522,victor kiplimo,12488877566,Morning Run,,2024-09-21 05:33:24+00:00,63,Run,,0.25,4.08,1m 3s
+691,107990522,victor kiplimo,12488877450,Morning Run,,2024-09-21 05:31:03+00:00,64,Run,,0.25,4.12,1m 4s
+692,107990522,victor kiplimo,12488877338,Morning Run,,2024-09-21 05:28:50+00:00,67,Run,,0.26,4.17,1m 7s
+693,107990522,victor kiplimo,12488877163,Morning Run,,2024-09-21 05:26:46+00:00,63,Run,,0.25,4.05,1m 3s
+694,107990522,victor kiplimo,12488876879,Morning Run,,2024-09-21 05:24:29+00:00,65,Run,,0.25,4.2,1m 5s
+695,107990522,victor kiplimo,12488876646,Morning Run,,2024-09-21 05:22:13+00:00,67,Run,,0.25,4.32,1m 7s
+696,107990522,victor kiplimo,12488876535,Morning Run,,2024-09-21 05:19:53+00:00,64,Run,,0.25,4.18,1m 4s
+697,107990522,victor kiplimo,12488876311,Morning Run,,2024-09-21 05:17:21+00:00,64,Run,,0.25,4.18,1m 4s
+698,107990522,victor kiplimo,12488875985,Morning Run,,2024-09-21 05:11:48+00:00,135,Run,,0.5,4.42,2m 15s
+699,107990522,victor kiplimo,12488875894,Morning Run,,2024-09-21 05:07:38+00:00,135,Run,,0.51,4.38,2m 15s
+700,107990522,victor kiplimo,12488875678,Morning Run,,2024-09-21 05:03:26+00:00,137,Run,,0.51,4.4,2m 17s
+701,107990522,victor kiplimo,12488875376,Morning Run,,2024-09-21 04:59:20+00:00,136,Run,,0.51,4.42,2m 16s
+702,107990522,victor kiplimo,12488875193,Morning Run,,2024-09-21 04:55:11+00:00,137,Run,,0.51,4.47,2m 17s
+703,107990522,victor kiplimo,12488874996,Morning Run,,2024-09-21 04:51:03+00:00,136,Run,,0.5,4.5,2m 16s
+704,107990522,victor kiplimo,12488874809,Morning Run,,2024-09-21 04:46:49+00:00,138,Run,,0.51,4.47,2m 18s
+705,107990522,victor kiplimo,12488874533,Morning Run,,2024-09-21 04:42:32+00:00,137,Run,,0.51,4.47,2m 17s
+706,107990522,victor kiplimo,12488874436,Morning Run,,2024-09-21 04:38:23+00:00,138,Run,,0.51,4.47,2m 18s
+707,107990522,victor kiplimo,12488874216,Morning Run,,2024-09-21 04:34:05+00:00,137,Run,,0.51,4.47,2m 17s
+708,107990522,victor kiplimo,12488873990,Morning Run,,2024-09-21 03:31:38+00:00,1202,Run,"Nandi County, Kenya",2.67,7.47,19m 55s
+709,107990522,victor kiplimo,12449078052,Lunch Run,,2024-09-19 08:51:08+00:00,3061,Run,"Nandi County, Kenya",6.22,8.2,51m 1s
+710,107990522,victor kiplimo,12449076582,Morning Run,,2024-09-19 03:08:08+00:00,6148,Run,"Nandi County, Kenya",15.54,6.58,1h 42m
+711,107990522,victor kiplimo,12449071831,Lunch Run,,2024-09-18 08:55:12+00:00,4376,Run,"Nandi County, Kenya",6.21,,1h 11m
+712,107990522,victor kiplimo,12449069757,Morning Run,,2024-09-18 05:22:49+00:00,1390,Run,"Nandi County, Kenya",2.08,,23m 10s
+713,107990522,victor kiplimo,12449068836,Morning Run,,2024-09-18 04:13:52+00:00,3309,Run,"Nandi County, Kenya",10.87,5.05,55m 1s
+714,107990522,victor kiplimo,12449065283,Morning Run,,2024-09-18 03:12:41+00:00,1873,Run,"Nandi County, Kenya",3.73,,31m 13s
+715,107990522,victor kiplimo,12449063843,Lunch Run,,2024-09-17 08:31:46+00:00,4106,Run,"Nandi County, Kenya",8.77,7.77,1h 8m
+716,107990522,victor kiplimo,12449061403,Morning Run,,2024-09-17 02:53:29+00:00,7667,Run,"Nandi County, Kenya",11.97,,1h 58m
+717,107990522,victor kiplimo,12449057438,Morning Run,,2024-09-16 02:53:06+00:00,7049,Run,"Nandi County, Kenya",12.43,8.67,1h 47m
+718,107990522,victor kiplimo,12538618570,Morning Run,,2024-09-29 03:29:08+00:00,1244,Run,"Nandi County, Kenya",2.71,7.45,20m 10s
+719,107990522,victor kiplimo,12527975898,Lunch Run,,2024-09-28 08:31:30+00:00,4118,Run,"Nandi County, Kenya",8.7,7.85,1h 8m
+720,107990522,victor kiplimo,12527974698,Morning Run,,2024-09-28 02:50:55+00:00,6871,Run,"Nandi County, Kenya",10.61,,1h 43m
+721,107990522,victor kiplimo,12527972344,Morning Run,,2024-09-27 03:05:25+00:00,7283,Run,"Nandi County, Kenya",13.72,8.78,2h 0m
+722,107990522,victor kiplimo,12527970572,Lunch Run,,2024-09-26 08:58:39+00:00,4596,Run,"Nandi County, Kenya",6.84,11.15,1h 16m
+723,107990522,victor kiplimo,12527968815,Morning Run,,2024-09-26 05:15:40+00:00,1899,Run,"Nandi County, Kenya",2.58,,31m 39s
+724,107990522,victor kiplimo,12527969008,Morning Run,,2024-09-26 04:08:29+00:00,3307,Run,"Nandi County, Kenya",10.88,5.05,55m 3s
+725,107990522,victor kiplimo,12527968822,Morning Run,,2024-09-26 03:08:21+00:00,1737,Run,"Nandi County, Kenya",3.73,,28m 53s
+726,107990522,victor kiplimo,12527968831,Morning Run,,2024-09-25 03:14:09+00:00,6234,Run,"Nandi County, Kenya",10.08,9.92,1h 40m
+727,107990522,victor kiplimo,12491672373,Afternoon Run,,2024-09-24 10:32:16+00:00,3583,Run,"Nandi County, Kenya",6.84,8.73,59m 43s
+728,107990522,victor kiplimo,12488882587,Morning Run,,2024-09-24 02:58:16+00:00,5296,Run,"Nandi County, Kenya",11.99,7.32,1h 27m
+729,107990522,victor kiplimo,12488881681,Morning Run,,2024-09-23 03:38:56+00:00,6738,Run,"Nandi County, Kenya",21.76,5.15,1h 52m
+730,107990522,victor kiplimo,12678268841,Morning Run,,2024-10-06 03:05:42+00:00,5845,Run,"Nandi County, Kenya",9.29,10.12,1h 34m
+731,107990522,victor kiplimo,12678265348,Afternoon Run,,2024-10-05 13:21:17+00:00,3108,Run,"Nandi County, Kenya",6.28,8.2,51m 30s
+732,107990522,victor kiplimo,12678263144,Morning Run,,2024-10-05 02:48:09+00:00,5963,Run,"Nandi County, Kenya",13.25,6.92,1h 31m
+733,107990522,victor kiplimo,12678259383,Afternoon Run,,2024-10-04 13:22:31+00:00,3152,Run,"Nandi County, Kenya",6.21,8.35,51m 57s
+734,107990522,victor kiplimo,12570397487,Morning Run,,2024-10-04 03:34:31+00:00,3791,Run,"Nandi County, Kenya",12.43,5.08,1h 3m
+735,107990522,victor kiplimo,12570392962,Morning Run,,2024-10-04 03:10:38+00:00,931,Run,"Nandi County, Kenya",1.8,,14m 50s
+736,107990522,victor kiplimo,12570393031,Morning Run,,2024-10-03 03:04:48+00:00,5150,Run,"Nandi County, Kenya",11.3,6.63,1h 15m
+737,107990522,victor kiplimo,12570391437,Lunch Run,,2024-10-01 09:13:07+00:00,3013,Run,"Nandi County, Kenya",6.21,7.98,49m 37s
+738,107990522,victor kiplimo,12570390307,Morning Run,,2024-10-01 02:57:33+00:00,7293,Run,"Nandi County, Kenya",14.4,8.3,1h 59m
+739,107990522,victor kiplimo,12538627282,Lunch Run,,2024-09-30 08:57:53+00:00,3576,Run,"Nandi County, Kenya",7.46,7.95,59m 18s
+740,107990522,victor kiplimo,12538625915,Morning Run,,2024-09-30 05:16:57+00:00,1524,Run,"Nandi County, Kenya",2.55,9.95,25m 24s
+741,107990522,victor kiplimo,12538626113,Morning Run,,2024-09-30 05:00:36+00:00,351,Run,,1.28,4.57,5m 51s
+742,107990522,victor kiplimo,12538623104,Morning Run,,2024-09-30 04:52:57+00:00,353,Run,,1.28,4.6,5m 53s
+743,107990522,victor kiplimo,12538622333,Morning Run,,2024-09-30 04:45:07+00:00,355,Run,,1.29,4.58,5m 55s
+744,107990522,victor kiplimo,12538621692,Morning Run,,2024-09-30 04:37:01+00:00,359,Run,,1.27,4.68,5m 59s
+745,107990522,victor kiplimo,12538620970,Morning Run,,2024-09-30 04:28:55+00:00,360,Run,,1.28,4.68,6m 0s
+746,107990522,victor kiplimo,12538620395,Morning Run,,2024-09-30 04:20:31+00:00,361,Run,,1.28,4.7,6m 1s
+747,107990522,victor kiplimo,12538619704,Morning Run,,2024-09-30 03:19:41+00:00,1531,Run,"Nandi County, Kenya",3.25,7.47,24m 15s
+748,107990522,victor kiplimo,12678303077,Morning Run,,2024-10-12 05:15:23+00:00,1743,Run,"Nandi County, Kenya",2.49,,29m 3s
+749,107990522,victor kiplimo,12678301950,Morning Run,,2024-10-12 04:10:04+00:00,2290,Run,"Nandi County, Kenya",7.56,5.05,38m 10s
+750,107990522,victor kiplimo,12678299496,Morning Run,,2024-10-12 02:59:26+00:00,1937,Run,"Nandi County, Kenya",3.78,,32m 8s
+751,107990522,victor kiplimo,12678297295,Morning Run,,2024-10-11 02:55:19+00:00,6950,Run,"Nandi County, Kenya",12.52,9.13,1h 54m
+752,107990522,victor kiplimo,12678294071,Morning Run,,2024-10-10 03:55:35+00:00,1649,Run,"Nandi County, Kenya",3.92,7.0,27m 29s
+753,107990522,victor kiplimo,12678292161,Morning Run,,2024-10-10 03:18:17+00:00,1837,Run,,5.28,5.8,30m 37s
+754,107990522,victor kiplimo,12678290614,Morning Run,,2024-10-10 02:49:48+00:00,1552,Run,"Nandi County, Kenya",3.05,7.68,23m 27s
+755,107990522,victor kiplimo,12678288549,Afternoon Run,,2024-10-09 12:42:10+00:00,3025,Run,"Nandi County, Kenya",6.22,7.97,49m 35s
+756,107990522,victor kiplimo,12678287172,Morning Run,,2024-10-09 04:36:29+00:00,304,Run,"Nandi County, Kenya",0.87,,5m 4s
+757,107990522,victor kiplimo,12678286598,Morning Run,,2024-10-09 03:07:29+00:00,5174,Run,"Nandi County, Kenya",9.57,,1h 19m
+758,107990522,victor kiplimo,12678283605,Morning Run,,2024-10-08 02:47:52+00:00,7286,Run,"Nandi County, Kenya",12.49,9.12,1h 53m
+759,107990522,victor kiplimo,12678279790,Lunch Run,,2024-10-07 09:16:40+00:00,3698,Run,"Nandi County, Kenya",7.45,8.17,1h 0m
+760,107990522,victor kiplimo,12678277518,Morning Run,,2024-10-07 05:45:12+00:00,1492,Run,"Nandi County, Kenya",2.49,9.98,24m 52s
+761,107990522,victor kiplimo,12678276299,Morning Run,,2024-10-07 05:09:11+00:00,166,Run,,0.64,4.28,2m 46s
+762,107990522,victor kiplimo,12678275997,Morning Run,,2024-10-07 05:04:30+00:00,170,Run,,0.63,4.45,2m 50s
+763,107990522,victor kiplimo,12678274922,Morning Run,,2024-10-07 04:59:48+00:00,171,Run,,0.64,4.45,2m 51s
+764,107990522,victor kiplimo,12678273822,Morning Run,,2024-10-07 04:55:06+00:00,170,Run,,0.64,4.42,2m 50s
+765,107990522,victor kiplimo,12678273257,Morning Run,,2024-10-07 04:50:28+00:00,172,Run,,0.64,4.45,2m 52s
+766,107990522,victor kiplimo,12678272677,Morning Run,,2024-10-07 04:45:46+00:00,173,Run,,0.63,4.52,2m 53s
+767,107990522,victor kiplimo,12678271992,Morning Run,,2024-10-07 04:40:59+00:00,173,Run,,0.64,4.48,2m 53s
+768,107990522,victor kiplimo,12678271304,Morning Run,,2024-10-07 04:36:07+00:00,173,Run,,0.65,4.43,2m 53s
+769,107990522,victor kiplimo,12678270842,Morning Run,,2024-10-07 04:31:26+00:00,174,Run,,0.64,4.52,2m 54s
+770,107990522,victor kiplimo,12678270623,Morning Run,,2024-10-07 04:26:22+00:00,170,Run,,0.64,4.4,2m 50s
+771,107990522,victor kiplimo,12678269674,Morning Run,,2024-10-07 03:22:14+00:00,1230,Run,"Nandi County, Kenya",2.69,7.48,20m 9s
+772,107990522,victor kiplimo,12697050070,Morning Run,,2024-10-18 23:00:01+00:00,7974,Run,"Hwangseong-dong, South Korea",26.27,5.05,2h 12m
+773,107990522,victor kiplimo,12697046740,Morning Run,,2024-10-18 22:16:23+00:00,1084,Run,,1.62,10.05,16m 21s
+774,107990522,victor kiplimo,12697046258,Morning Run,,2024-10-17 22:20:34+00:00,2401,Run,"Bulguk-dong, South Korea",4.01,,39m 42s
+775,107990522,victor kiplimo,12678309694,Morning Run,,2024-10-15 03:04:15+00:00,4337,Run,"Nandi County, Kenya",9.33,7.75,1h 12m
+776,107990522,victor kiplimo,12678306463,Morning Run,,2024-10-14 04:05:01+00:00,2414,Run,"Nandi County, Kenya",3.89,10.33,40m 14s
+777,107990522,victor kiplimo,12678305117,Morning Run,,2024-10-14 03:27:00+00:00,1217,Run,,3.74,5.42,20m 17s
+778,107990522,victor kiplimo,12678304159,Morning Run,,2024-10-14 02:50:05+00:00,1852,Run,"Nandi County, Kenya",2.91,9.1,26m 33s
+779,142181772,Esther Seeland,11870080168,Afternoon Walk,,2024-01-07 21:54:16+00:00,1961,Walk,"Albemarle County, USA",1.63,,32m 41s
+780,142181772,Esther Seeland,11870080392,Lunch Run,,2024-01-07 17:38:09+00:00,4000,Run,"Albemarle County, USA",10.0,6.37,1h 3m
+781,142181772,Esther Seeland,11870080080,Morning Run,,2024-01-05 13:07:31+00:00,4259,Run,,8.5,7.3,1h 2m
+782,142181772,Esther Seeland,11870079225,Afternoon Weight Training,,2024-01-04 21:55:17+00:00,1177,WeightTraining,,19.0,,
+783,142181772,Esther Seeland,11870079937,Morning Run,,2024-01-04 14:01:07+00:00,2877,Run,"State College, USA",7.01,6.48,45m 25s
+784,142181772,Esther Seeland,11870079992,Afternoon Weight Training,,2024-01-03 21:46:24+00:00,2489,WeightTraining,,41.0,,
+785,142181772,Esther Seeland,11870079509,Afternoon Run,,2024-01-03 19:54:10+00:00,3122,Run,"State College, USA",4.1,6.73,27m 39s
+786,142181772,Esther Seeland,11870080090,Morning Run,,2024-01-03 13:59:29+00:00,2907,Run,"Ferguson Township, USA",7.0,6.05,42m 20s
+787,142181772,Esther Seeland,11870079672,Morning Run,,2024-01-02 14:29:28+00:00,2806,Run,"State College, USA",7.0,6.45,45m 11s
+788,142181772,Esther Seeland,11870079441,Evening Weight Training,,2024-01-01 23:06:51+00:00,1118,WeightTraining,,18.0,,
+789,142181772,Esther Seeland,11870080246,Afternoon Run,,2024-01-01 21:00:10+00:00,5140,Run,"College Township, USA",8.0,7.23,57m 55s
+790,142181772,Esther Seeland,11870083105,Afternoon Walk,,2024-01-14 20:23:01+00:00,3676,Walk,"Charlottesville, USA",3.45,,1h 1m
+791,142181772,Esther Seeland,11870082483,Morning Run,,2024-01-14 12:38:49+00:00,850,Run,"Albemarle County, USA",2.0,6.95,13m 57s
+792,142181772,Esther Seeland,11870082461,Afternoon Walk,,2024-01-13 21:46:48+00:00,1804,Walk,"Albemarle County, USA",1.63,,30m 4s
+793,142181772,Esther Seeland,11870084518,Lunch Walk,,2024-01-13 17:39:56+00:00,1923,Walk,"Albemarle County, USA",1.63,,30m 43s
+794,142181772,Esther Seeland,11870085594,Morning Run,,2024-01-13 15:00:02+00:00,3934,Run,"Albemarle County, USA",10.01,6.28,1h 2m
+795,142181772,Esther Seeland,11870083396,Lunch Run,,2024-01-12 17:46:18+00:00,5354,Run,"Albemarle County, USA",7.2,7.27,52m 20s
+796,142181772,Esther Seeland,11870083753,Morning Run,,2024-01-12 13:04:47+00:00,888,Run,"Albemarle County, USA",2.0,6.68,13m 25s
+797,142181772,Esther Seeland,11870082671,Afternoon Run,,2024-01-11 19:48:29+00:00,2947,Run,"Albemarle County, USA",7.01,6.7,47m 3s
+798,142181772,Esther Seeland,11870082853,Afternoon Walk,,2024-01-11 18:31:07+00:00,1805,Walk,"Albemarle County, USA",1.65,,30m 5s
+799,142181772,Esther Seeland,11870083726,Lunch Weight Training,,2024-01-11 16:11:28+00:00,2821,WeightTraining,,47.0,,
+800,142181772,Esther Seeland,11870083744,Afternoon Weight Training,,2024-01-10 21:47:23+00:00,3301,WeightTraining,,55.0,,
+801,142181772,Esther Seeland,11870082956,Afternoon Run,,2024-01-10 19:50:02+00:00,5906,Run,"Albemarle County, USA",9.0,7.08,1h 3m
+802,142181772,Esther Seeland,11870083308,Lunch Walk,,2024-01-10 16:24:40+00:00,1812,Walk,"Albemarle County, USA",1.68,,30m 12s
+803,142181772,Esther Seeland,11870082587,Morning Run,,2024-01-10 13:27:13+00:00,851,Run,"Albemarle County, USA",2.01,6.58,13m 15s
+804,142181772,Esther Seeland,11870082482,Afternoon Run,,2024-01-09 18:05:47+00:00,2995,Run,,7.67,6.52,49m 55s
+805,142181772,Esther Seeland,11870079650,Afternoon Walk,,2024-01-08 22:39:55+00:00,1869,Walk,"Albemarle County, USA",1.64,,31m 9s
+806,142181772,Esther Seeland,11870080489,Afternoon Run,,2024-01-08 19:53:41+00:00,4702,Run,"Albemarle County, USA",8.01,6.62,52m 59s
+807,142181772,Esther Seeland,11870079345,Lunch Weight Training,,2024-01-08 16:22:15+00:00,2782,WeightTraining,,46.0,,
+808,142181772,Esther Seeland,11870083355,Afternoon Walk,,2024-01-21 18:57:51+00:00,4516,Walk,"Albemarle County, USA",4.15,,1h 13m
+809,142181772,Esther Seeland,11870082454,Evening Walk,,2024-01-21 00:28:21+00:00,966,Walk,"Albemarle County, USA",0.96,,16m 6s
+810,142181772,Esther Seeland,11870083826,Lunch Run,,2024-01-20 16:40:58+00:00,4126,Run,"Albemarle County, USA",10.01,6.65,1h 6m
+811,142181772,Esther Seeland,11870083622,Afternoon Walk,,2024-01-19 21:50:34+00:00,1025,Walk,"Albemarle County, USA",0.92,,17m 5s
+812,142181772,Esther Seeland,11870082623,Afternoon Run,,2024-01-19 20:11:52+00:00,3326,Run,"Albemarle County, USA",3.02,9.33,28m 12s
+813,142181772,Esther Seeland,11870083338,Afternoon Walk,,2024-01-19 18:09:09+00:00,2779,Walk,"Albemarle County, USA",2.43,,45m 50s
+814,142181772,Esther Seeland,11870084510,Morning Weight Training,,2024-01-19 15:55:00+00:00,2894,WeightTraining,,48.0,,
+815,142181772,Esther Seeland,11870082659,Morning Run,,2024-01-19 14:29:41+00:00,4271,Run,,8.01,6.97,55m 49s
+816,142181772,Esther Seeland,11870082868,Morning Run,,2024-01-18 14:06:42+00:00,2945,Run,"Albemarle County, USA",7.0,6.4,44m 48s
+817,142181772,Esther Seeland,11870083709,Afternoon Run,,2024-01-17 19:43:49+00:00,3384,Run,"Albemarle County, USA",8.0,6.57,52m 39s
+818,142181772,Esther Seeland,11870082648,Lunch Walk,,2024-01-17 17:37:38+00:00,1816,Walk,"Albemarle County, USA",1.64,,29m 55s
+819,142181772,Esther Seeland,11870082214,Morning Weight Training,,2024-01-17 14:33:20+00:00,3255,WeightTraining,,54.0,,
+820,142181772,Esther Seeland,11870083839,Morning Run,,2024-01-17 14:05:10+00:00,852,Run,,2.26,6.28,14m 12s
+821,142181772,Esther Seeland,11870082462,Afternoon Walk,,2024-01-16 21:12:14+00:00,3641,Walk,"Albemarle County, USA",3.15,,59m 27s
+822,142181772,Esther Seeland,11870083015,Lunch Run,,2024-01-16 17:07:54+00:00,6101,Run,,7.5,7.12,53m 26s
+823,142181772,Esther Seeland,11870082770,Afternoon Weight Training,,2024-01-15 21:48:47+00:00,3553,WeightTraining,,59.0,,
+824,142181772,Esther Seeland,11870083415,Afternoon Run,,2024-01-15 20:06:10+00:00,3970,Run,"Albemarle County, USA",8.0,6.58,52m 40s
+825,142181772,Esther Seeland,11870082455,Evening Walk,,2024-01-29 01:24:59+00:00,2018,Walk,"Albemarle County, USA",1.8,,33m 38s
+826,142181772,Esther Seeland,11870083563,Lunch Run,,2024-01-28 16:15:20+00:00,2745,Run,,7.5,6.1,45m 45s
+827,142181772,Esther Seeland,11870083431,Afternoon Run,,2024-01-27 20:09:50+00:00,1495,Run,"College Township, USA",3.0,7.78,23m 23s
+828,142181772,Esther Seeland,11870082775,Afternoon Run,,2024-01-27 18:37:24+00:00,955,Run,"College Township, USA",2.0,7.38,14m 48s
+829,142181772,Esther Seeland,11870084711,Morning Run,,2024-01-27 13:30:31+00:00,612,Run,"State College, USA",1.5,6.8,10m 12s
+830,142181772,Esther Seeland,11870082387,Evening Run,,2024-01-26 23:02:55+00:00,1158,Run,"College Township, USA",2.5,7.5,18m 45s
+831,142181772,Esther Seeland,11870083656,Afternoon Run,,2024-01-26 21:48:08+00:00,977,Run,"College Township, USA",2.02,7.42,15m 3s
+832,142181772,Esther Seeland,11870084877,Morning Run,,2024-01-26 12:39:57+00:00,641,Run,"State College, USA",1.5,7.08,10m 41s
+833,142181772,Esther Seeland,11870083698,Afternoon Run,,2024-01-25 21:33:18+00:00,4199,Run,"College Township, USA",5.0,7.58,37m 55s
+834,142181772,Esther Seeland,11870083235,Afternoon Run,,2024-01-24 22:01:53+00:00,881,Run,"State College, USA",2.01,6.83,13m 45s
+835,142181772,Esther Seeland,11870083331,Morning Weight Training,,2024-01-24 14:37:21+00:00,2952,WeightTraining,,49.0,,
+836,142181772,Esther Seeland,11870082647,Morning Run,,2024-01-24 13:25:04+00:00,2815,Run,"Albemarle County, USA",7.0,6.52,45m 40s
+837,142181772,Esther Seeland,11870083859,Afternoon Run,,2024-01-23 19:08:25+00:00,1177,Run,,3.01,6.52,19m 37s
+838,142181772,Esther Seeland,11870082946,Morning Run,,2024-01-23 13:31:41+00:00,4688,Run,"Albemarle County, USA",6.5,7.37,47m 55s
+839,142181772,Esther Seeland,11870083637,Afternoon Run,,2024-01-22 19:42:18+00:00,4552,Run,"Albemarle County, USA",8.0,6.5,51m 59s
+840,142181772,Esther Seeland,11870082836,Morning Weight Training,,2024-01-22 14:45:52+00:00,3872,WeightTraining,,1.0,,
+841,142181772,Esther Seeland,11870083391,Afternoon Walk,,2024-02-04 21:23:20+00:00,3622,Walk,"Albemarle County, USA",3.47,,59m 49s
+842,142181772,Esther Seeland,11870083636,Afternoon Walk,,2024-02-04 19:21:00+00:00,1876,Walk,"Albemarle County, USA",1.6,,29m 42s
+843,142181772,Esther Seeland,11870083240,Evening Walk,,2024-02-03 23:32:32+00:00,1811,Walk,"Albemarle County, USA",1.64,,29m 55s
+844,142181772,Esther Seeland,11870083607,Morning Run,,2024-02-03 15:42:07+00:00,4146,Run,"Louisa County, USA",10.01,6.65,1h 6m
+845,142181772,Esther Seeland,11870083543,Afternoon Weight Training,,2024-02-02 20:26:06+00:00,3081,WeightTraining,,51.0,,
+846,142181772,Esther Seeland,11870083298,Afternoon Run,,2024-02-02 18:04:17+00:00,5732,Run,"Albemarle County, USA",8.0,7.43,59m 36s
+847,142181772,Esther Seeland,11870083836,Lunch Walk,,2024-02-02 16:41:10+00:00,951,Walk,"Albemarle County, USA",0.94,,15m 51s
+848,142181772,Esther Seeland,11870082580,Morning Run,,2024-02-02 13:18:03+00:00,824,Run,"Albemarle County, USA",2.0,6.8,13m 38s
+849,142181772,Esther Seeland,11870083302,Afternoon Walk,,2024-02-01 18:07:49+00:00,1979,Walk,"Albemarle County, USA",1.66,,32m 19s
+850,142181772,Esther Seeland,11870082635,Morning Run,,2024-02-01 13:59:53+00:00,4040,Run,"Albemarle County, USA",8.01,6.33,50m 49s
+851,142181772,Esther Seeland,11870084475,Afternoon Run,,2024-01-31 19:33:42+00:00,3571,Run,"Albemarle County, USA",8.01,6.63,53m 11s
+852,142181772,Esther Seeland,11870083084,Morning Weight Training,,2024-01-31 13:54:45+00:00,1994,WeightTraining,,33.0,,
+853,142181772,Esther Seeland,11870082752,Afternoon Run,,2024-01-30 22:32:20+00:00,1194,Run,,3.0,6.62,19m 54s
+854,142181772,Esther Seeland,11870083696,Morning Run,,2024-01-30 14:49:36+00:00,5389,Run,"Albemarle County, USA",8.26,6.93,57m 20s
+855,142181772,Esther Seeland,11870084966,Afternoon Run,,2024-01-29 19:19:57+00:00,4050,Run,"Albemarle County, USA",8.02,6.58,52m 49s
+856,142181772,Esther Seeland,11870084656,Morning Weight Training,,2024-01-29 14:46:01+00:00,3754,WeightTraining,,1.0,,
+857,142181772,Esther Seeland,11870083641,Afternoon Walk,,2024-02-11 19:44:29+00:00,4741,Walk,"Albemarle County, USA",4.34,,1h 17m
+858,142181772,Esther Seeland,11870082843,Morning Run,,2024-02-10 13:03:37+00:00,422,Run,"Boston, USA",1.0,6.63,6m 41s
+859,142181772,Esther Seeland,11870083181,Morning Run,,2024-02-10 11:56:30+00:00,3960,Run,"Boston, USA",10.0,6.28,1h 2m
+860,142181772,Esther Seeland,11870082901,Afternoon Run,,2024-02-09 22:17:38+00:00,1538,Run,"Boston, USA",3.5,6.78,23m 47s
+861,142181772,Esther Seeland,11870083424,Afternoon Run,,2024-02-09 20:42:37+00:00,866,Run,"Boston, USA",2.01,7.17,14m 26s
+862,142181772,Esther Seeland,11870082773,Morning Run,,2024-02-09 13:20:20+00:00,737,Run,"Boston, USA",1.5,7.07,10m 38s
+863,142181772,Esther Seeland,11870083398,Afternoon Run,,2024-02-08 22:46:48+00:00,735,Run,"Boston, USA",1.55,6.82,10m 35s
+864,142181772,Esther Seeland,11870084446,Morning Run,,2024-02-08 12:25:09+00:00,2944,Run,"Albemarle County, USA",4.05,6.63,26m 51s
+865,142181772,Esther Seeland,11870084096,Afternoon Run,,2024-02-07 19:37:38+00:00,3191,Run,"Albemarle County, USA",7.0,6.88,48m 11s
+866,142181772,Esther Seeland,11870083325,Afternoon Walk,,2024-02-07 18:24:09+00:00,1945,Walk,"Albemarle County, USA",1.74,,32m 25s
+867,142181772,Esther Seeland,11870084299,Morning Weight Training,,2024-02-07 14:22:49+00:00,2779,WeightTraining,,46.0,,
+868,142181772,Esther Seeland,11870082306,Afternoon Run,,2024-02-06 18:14:31+00:00,5888,Run,"Albemarle County, USA",7.0,7.12,49m 50s
+869,142181772,Esther Seeland,11870083409,Lunch Walk,,2024-02-06 16:34:38+00:00,1245,Walk,"Albemarle County, USA",1.13,,20m 45s
+870,142181772,Esther Seeland,11870083686,Morning Run,,2024-02-06 12:36:24+00:00,1246,Run,"Albemarle County, USA",3.0,6.55,19m 43s
+871,142181772,Esther Seeland,11870083167,Afternoon Run,,2024-02-05 19:42:04+00:00,4485,Run,"Albemarle County, USA",8.01,6.78,54m 18s
+872,142181772,Esther Seeland,11870083096,Morning Weight Training,,2024-02-05 14:21:36+00:00,3920,WeightTraining,,1.0,,
+873,142181772,Esther Seeland,11870083098,Afternoon Weight Training,,2024-02-17 22:40:33+00:00,4076,WeightTraining,,1.0,,
+874,142181772,Esther Seeland,11870083780,Morning Run,,2024-02-17 15:15:13+00:00,5007,Run,"College Township, USA",11.0,7.18,1h 19m
+875,142181772,Esther Seeland,11870083363,Afternoon Run,,2024-02-16 22:46:04+00:00,1694,Run,"College Township, USA",4.01,6.82,27m 19s
+876,142181772,Esther Seeland,11870083977,Afternoon Run,,2024-02-16 22:21:32+00:00,497,Run,,0.7,11.4,8m 4s
+877,142181772,Esther Seeland,11870084092,Afternoon Run,,2024-02-16 20:59:25+00:00,861,Run,"College Township, USA",2.01,6.82,13m 43s
+878,142181772,Esther Seeland,11870082469,Morning Run,,2024-02-16 13:28:37+00:00,633,Run,"State College, USA",1.5,7.02,10m 33s
+879,142181772,Esther Seeland,11870082522,Afternoon Run,,2024-02-15 21:02:26+00:00,3740,Run,"College Township, USA",5.0,7.23,36m 13s
+880,142181772,Esther Seeland,11870083877,Afternoon Run,,2024-02-14 22:12:50+00:00,876,Run,"State College, USA",2.0,6.8,13m 40s
+881,142181772,Esther Seeland,11870085244,Morning Weight Training,,2024-02-14 14:37:49+00:00,3179,WeightTraining,,52.0,,
+882,142181772,Esther Seeland,11870083315,Morning Run,,2024-02-14 12:46:21+00:00,3670,Run,"Albemarle County, USA",7.01,6.7,46m 57s
+883,142181772,Esther Seeland,11870083760,Afternoon Run,,2024-02-13 22:24:46+00:00,1172,Run,,3.01,6.48,19m 32s
+884,142181772,Esther Seeland,11870084080,Lunch Run,,2024-02-13 17:21:24+00:00,6305,Run,"Albemarle County, USA",8.0,6.67,53m 19s
+885,142181772,Esther Seeland,11870084069,Morning Walk,,2024-02-13 14:34:54+00:00,1846,Walk,"Albemarle County, USA",1.64,,30m 46s
+886,142181772,Esther Seeland,11870082238,Afternoon Walk,,2024-02-12 22:58:55+00:00,1164,Walk,"Albemarle County, USA",1.04,,19m 24s
+887,142181772,Esther Seeland,11870083493,Afternoon Run,,2024-02-12 19:49:04+00:00,3791,Run,"Albemarle County, USA",8.0,6.65,53m 16s
+888,142181772,Esther Seeland,11870083834,Morning Weight Training,,2024-02-12 14:32:33+00:00,3747,WeightTraining,,1.0,,
+889,142181772,Esther Seeland,11870082457,Evening Walk,,2024-02-26 01:41:08+00:00,1092,Walk,"Albemarle County, USA",0.97,,18m 12s
+890,142181772,Esther Seeland,11870082688,Lunch Run,,2024-02-25 16:25:58+00:00,1984,Run,"Ferguson Township, USA",5.0,6.6,33m 4s
+891,142181772,Esther Seeland,11870083634,Morning Run,,2024-02-24 13:03:43+00:00,4827,Run,"State College, USA",12.0,6.48,1h 17m
+892,142181772,Esther Seeland,11870083991,Afternoon Weight Training,,2024-02-23 22:26:52+00:00,3790,WeightTraining,,1.0,,
+893,142181772,Esther Seeland,11870083310,Lunch Run,,2024-02-23 17:53:11+00:00,3926,Run,"State College, USA",7.0,7.78,54m 31s
+894,142181772,Esther Seeland,11870083420,Lunch Run,,2024-02-23 17:05:10+00:00,810,Run,"State College, USA",2.0,6.72,13m 27s
+895,142181772,Esther Seeland,11870083702,Morning Run,,2024-02-22 13:43:21+00:00,2866,Run,"State College, USA",7.0,6.47,45m 19s
+896,142181772,Esther Seeland,11870082784,Afternoon Run,,2024-02-21 21:56:51+00:00,854,Run,"State College, USA",2.0,6.72,13m 28s
+897,142181772,Esther Seeland,11870083850,Morning Weight Training,,2024-02-21 14:01:30+00:00,3117,WeightTraining,,51.0,,
+898,142181772,Esther Seeland,11870082954,Morning Run,,2024-02-21 12:31:10+00:00,3805,Run,"Albemarle County, USA",7.0,6.42,44m 58s
+899,142181772,Esther Seeland,11870083739,Afternoon Run,,2024-02-20 22:28:25+00:00,1225,Run,,3.02,6.32,19m 7s
+900,142181772,Esther Seeland,11870083068,Morning Run,,2024-02-20 13:32:02+00:00,5256,Run,"Albemarle County, USA",9.5,,58m 39s
+901,142181772,Esther Seeland,11870083833,Afternoon Run,,2024-02-19 19:34:51+00:00,4483,Run,"Albemarle County, USA",8.01,6.58,52m 42s
+902,142181772,Esther Seeland,11870083213,Lunch Walk,,2024-02-19 17:27:24+00:00,1874,Walk,"Albemarle County, USA",1.64,,30m 31s
+903,142181772,Esther Seeland,11870082110,Morning Weight Training,,2024-02-19 13:01:36+00:00,3613,WeightTraining,,1.0,,
+904,142181772,Esther Seeland,11870082865,Evening Walk,,2024-03-10 22:34:24+00:00,3659,Walk,"Albemarle County, USA",3.34,,1h 0m
+905,142181772,Esther Seeland,11870082844,Morning Run,,2024-03-09 14:19:25+00:00,4638,Run,"Benner Township, USA",12.01,6.43,1h 17m
+906,142181772,Esther Seeland,11870083538,Lunch Weight Training,,2024-03-08 16:55:02+00:00,3720,WeightTraining,,1.0,,
+907,142181772,Esther Seeland,11870083383,Morning Run,,2024-03-08 13:37:13+00:00,3180,Run,"State College, USA",8.0,6.48,51m 55s
+908,142181772,Esther Seeland,11870082658,Lunch Run,,2024-03-07 16:37:17+00:00,1671,Run,"Albemarle County, USA",3.01,6.72,20m 14s
+909,142181772,Esther Seeland,11870085225,Lunch Run,,2024-03-07 16:08:18+00:00,1683,Run,"Albemarle County, USA",5.01,5.6,28m 3s
+910,142181772,Esther Seeland,11870085408,Morning Run,,2024-03-07 15:38:48+00:00,878,Run,"Albemarle County, USA",2.01,7.13,14m 23s
+911,142181772,Esther Seeland,11870084399,Lunch Weight Training,,2024-03-06 17:03:21+00:00,3167,WeightTraining,,52.0,,
+912,142181772,Esther Seeland,11870083751,Morning Run,,2024-03-06 15:09:53+00:00,4196,Run,"Albemarle County, USA",8.01,6.67,53m 23s
+913,142181772,Esther Seeland,11870083389,Afternoon Run,,2024-03-05 22:14:49+00:00,1195,Run,,3.03,6.57,19m 55s
+914,142181772,Esther Seeland,11870083832,Morning Run,,2024-03-05 15:30:53+00:00,3315,Run,"Albemarle County, USA",8.0,6.82,54m 31s
+915,142181772,Esther Seeland,11870085502,Afternoon Run,,2024-03-04 21:36:49+00:00,1176,Run,,3.01,6.5,19m 36s
+916,142181772,Esther Seeland,11870082442,Lunch Weight Training,,2024-03-04 17:15:50+00:00,3833,WeightTraining,,1.0,,
+917,142181772,Esther Seeland,11870084104,Morning Run,,2024-03-04 15:05:23+00:00,6137,Run,"Albemarle County, USA",9.0,6.83,1h 1m
+918,142181772,Esther Seeland,11870083840,Morning Walk,,2024-03-17 13:07:46+00:00,1119,Walk,"Albemarle County, USA",0.95,,18m 39s
+919,142181772,Esther Seeland,11870083112,Morning Run,,2024-03-16 14:04:42+00:00,4907,Run,"Albemarle County, USA",12.0,6.55,1h 18m
+920,142181772,Esther Seeland,11870083169,Afternoon Run,,2024-03-15 18:34:49+00:00,5493,Run,"Albemarle County, USA",8.25,7.2,59m 26s
+921,142181772,Esther Seeland,11870083533,Morning Walk,,2024-03-15 13:17:46+00:00,2064,Walk,"Albemarle County, USA",1.71,,32m 14s
+922,142181772,Esther Seeland,11870083528,Evening Walk,,2024-03-15 00:58:41+00:00,1203,Walk,"Albemarle County, USA",1.04,,20m 3s
+923,142181772,Esther Seeland,11870085673,Afternoon Weight Training,,2024-03-14 18:04:18+00:00,3025,WeightTraining,,50.0,,
+924,142181772,Esther Seeland,11870082942,Morning Run,,2024-03-14 13:01:46+00:00,3112,Run,"Albemarle County, USA",7.0,6.83,47m 51s
+925,142181772,Esther Seeland,11870083257,Afternoon Run,,2024-03-13 18:43:44+00:00,4022,Run,"Albemarle County, USA",3.0,6.63,19m 57s
+926,142181772,Esther Seeland,11870083652,Morning Run,,2024-03-13 13:24:36+00:00,826,Run,"Charlottesville, USA",2.0,6.63,13m 19s
+927,142181772,Esther Seeland,11870083887,Morning Run,,2024-03-13 13:00:08+00:00,1396,Run,"Albemarle County, USA",4.1,5.67,23m 16s
+928,142181772,Esther Seeland,11870082998,Morning Run,,2024-03-13 12:30:03+00:00,833,Run,"Albemarle County, USA",2.0,6.82,13m 41s
+929,142181772,Esther Seeland,11870085236,Afternoon Run,,2024-03-12 21:15:59+00:00,1205,Run,,3.01,6.67,20m 5s
+930,142181772,Esther Seeland,11870082236,Morning Weight Training,,2024-03-12 14:04:58+00:00,2077,WeightTraining,,34.0,,
+931,142181772,Esther Seeland,11870083294,Morning Run,,2024-03-12 12:47:31+00:00,2917,Run,"Albemarle County, USA",7.0,6.43,45m 7s
+932,142181772,Esther Seeland,11870083507,Afternoon Run,,2024-03-11 18:36:11+00:00,4344,Run,"Albemarle County, USA",8.01,6.58,52m 44s
+933,142181772,Esther Seeland,11870083741,Morning Weight Training,,2024-03-11 13:27:06+00:00,2383,WeightTraining,,39.0,,
+934,142181772,Esther Seeland,11870084305,Afternoon Walk,,2024-03-24 18:32:36+00:00,3461,Walk,"Albemarle County, USA",3.14,,56m 27s
+935,142181772,Esther Seeland,11870085699,Evening Walk,,2024-03-24 00:35:19+00:00,2116,Walk,"Albemarle County, USA",1.79,,35m 16s
+936,142181772,Esther Seeland,11870083340,Afternoon Run,,2024-03-23 20:44:44+00:00,1414,Run,"Albemarle County, USA",3.01,7.1,21m 25s
+937,142181772,Esther Seeland,11870083644,Afternoon Run,,2024-03-23 19:27:30+00:00,870,Run,"Albemarle County, USA",2.0,7.18,14m 24s
+938,142181772,Esther Seeland,11870084521,Morning Run,,2024-03-23 12:26:29+00:00,645,Run,"Albemarle County, USA",1.49,7.1,10m 38s
+939,142181772,Esther Seeland,11870083368,Afternoon Run,,2024-03-22 18:37:17+00:00,4174,Run,"Albemarle County, USA",5.25,7.3,38m 21s
+940,142181772,Esther Seeland,11870085238,Morning Walk,,2024-03-22 14:06:05+00:00,1912,Walk,"Albemarle County, USA",1.74,,31m 52s
+941,142181772,Esther Seeland,11870083099,Evening Walk,,2024-03-21 23:46:57+00:00,1169,Walk,"Albemarle County, USA",1.0,,19m 29s
+942,142181772,Esther Seeland,11870082858,Afternoon Weight Training,,2024-03-21 17:57:23+00:00,3105,WeightTraining,,51.0,,
+943,142181772,Esther Seeland,11870082825,Morning Run,,2024-03-21 13:03:59+00:00,2915,Run,"Albemarle County, USA",7.0,6.58,46m 7s
+944,142181772,Esther Seeland,11870084153,Afternoon Run,,2024-03-20 18:35:49+00:00,5086,Run,"Albemarle County, USA",6.55,7.28,47m 41s
+945,142181772,Esther Seeland,11870085031,Lunch Walk,,2024-03-20 16:57:23+00:00,1815,Walk,"Albemarle County, USA",1.64,,30m 15s
+946,142181772,Esther Seeland,11870085113,Morning Run,,2024-03-20 11:54:44+00:00,1206,Run,"Albemarle County, USA",3.0,6.68,20m 6s
+947,142181772,Esther Seeland,11870085021,Afternoon Run,,2024-03-19 21:25:38+00:00,1176,Run,,3.01,6.52,19m 36s
+948,142181772,Esther Seeland,11870084281,Afternoon Weight Training,,2024-03-19 18:00:20+00:00,2656,WeightTraining,,44.0,,
+949,142181772,Esther Seeland,11870084085,Lunch Walk,,2024-03-19 16:32:18+00:00,1298,Walk,"Albemarle County, USA",1.12,,21m 38s
+950,142181772,Esther Seeland,11870084106,Morning Run,,2024-03-19 12:00:02+00:00,2901,Run,"Albemarle County, USA",7.0,6.48,45m 24s
+951,142181772,Esther Seeland,11870083849,Afternoon Run,,2024-03-18 18:33:11+00:00,6784,Run,"Albemarle County, USA",8.01,6.95,55m 40s
+952,142181772,Esther Seeland,11870083885,Morning Run,,2024-03-18 11:58:05+00:00,1232,Run,"Albemarle County, USA",3.0,6.7,20m 7s
+953,142181772,Esther Seeland,11870084307,Afternoon Walk,,2024-03-31 19:28:42+00:00,6668,Walk,"Charlottesville, USA",6.24,,1h 51m
+954,142181772,Esther Seeland,11870084321,Morning Run,,2024-03-30 14:03:52+00:00,5036,Run,"Raleigh, USA",12.0,6.55,1h 18m
+955,142181772,Esther Seeland,11870084352,Afternoon Run,,2024-03-29 21:34:20+00:00,1820,Run,"Raleigh, USA",4.0,6.72,26m 51s
+956,142181772,Esther Seeland,11870083114,Afternoon Run,,2024-03-29 20:16:08+00:00,854,Run,"Raleigh, USA",2.03,7.02,14m 14s
+957,142181772,Esther Seeland,11870082350,Morning Run,,2024-03-29 12:15:24+00:00,590,Run,"Raleigh, USA",1.51,6.5,9m 50s
+958,142181772,Esther Seeland,11870083755,Afternoon Run,,2024-03-28 21:10:27+00:00,635,Run,"Raleigh, USA",1.51,6.92,10m 29s
+959,142181772,Esther Seeland,11870083377,Morning Run,,2024-03-28 12:34:28+00:00,3155,Run,"Albemarle County, USA",5.5,7.13,39m 16s
+960,142181772,Esther Seeland,11870083049,Afternoon Run,,2024-03-27 18:35:19+00:00,3039,Run,"Albemarle County, USA",7.0,6.5,45m 31s
+961,142181772,Esther Seeland,11870082230,Morning Weight Training,,2024-03-27 13:38:27+00:00,3383,WeightTraining,,56.0,,
+962,142181772,Esther Seeland,11870084765,Afternoon Run,,2024-03-26 21:11:35+00:00,1200,Run,,3.0,6.65,20m 0s
+963,142181772,Esther Seeland,11870085472,Morning Run,,2024-03-26 14:15:00+00:00,4847,Run,"Albemarle County, USA",7.5,6.92,51m 55s
+964,142181772,Esther Seeland,11870083503,Afternoon Run,,2024-03-25 18:37:37+00:00,4286,Run,"Albemarle County, USA",8.0,7.37,58m 58s
+965,142181772,Esther Seeland,11870082968,Morning Weight Training,,2024-03-25 13:38:19+00:00,3348,WeightTraining,,55.0,,
+966,142181772,Esther Seeland,11870084554,Morning Run,,2024-03-25 12:55:57+00:00,1172,Run,"Albemarle County, USA",3.0,6.48,19m 29s
+967,142181772,Esther Seeland,11870083100,Afternoon Run,,2024-04-07 20:05:53+00:00,5857,Run,"Albemarle County, USA",7.5,7.22,54m 9s
+968,142181772,Esther Seeland,11870084400,Afternoon Walk,,2024-04-07 18:39:21+00:00,1208,Walk,"Albemarle County, USA",1.0,,19m 5s
+969,142181772,Esther Seeland,11870083553,Morning Run,,2024-04-07 12:49:09+00:00,824,Run,"Charlottesville, USA",2.01,6.63,13m 20s
+970,142181772,Esther Seeland,11870082973,Morning Walk,,2024-04-06 13:44:49+00:00,3576,Walk,"Albemarle County, USA",3.24,,57m 42s
+971,142181772,Esther Seeland,11870084302,Afternoon Run,,2024-04-05 18:36:28+00:00,4751,Run,"Albemarle County, USA",11.0,6.57,1h 12m
+972,142181772,Esther Seeland,11870082851,Morning Weight Training,,2024-04-05 13:36:18+00:00,2245,WeightTraining,,37.0,,
+973,142181772,Esther Seeland,11870082564,Evening Walk,,2024-04-05 00:18:04+00:00,1115,Walk,"Albemarle County, USA",1.0,,18m 35s
+974,142181772,Esther Seeland,11870082831,Afternoon Run,,2024-04-04 18:35:27+00:00,5755,Run,"Albemarle County, USA",7.5,7.58,56m 50s
+975,142181772,Esther Seeland,11870084181,Morning Walk,,2024-04-04 14:53:19+00:00,1905,Walk,"Albemarle County, USA",1.75,,31m 45s
+976,142181772,Esther Seeland,11870084921,Afternoon Run,,2024-04-03 18:14:13+00:00,3141,Run,"Albemarle County, USA",7.25,6.57,47m 37s
+977,142181772,Esther Seeland,11870084172,Morning Weight Training,,2024-04-03 13:34:55+00:00,3229,WeightTraining,,53.0,,
+978,142181772,Esther Seeland,11870084669,Morning Run,,2024-04-03 12:30:38+00:00,1161,Run,,3.01,6.42,19m 21s
+979,142181772,Esther Seeland,11870082672,Afternoon Run,,2024-04-02 21:03:00+00:00,5337,Run,"Albemarle County, USA",8.0,7.63,1h 1m
+980,142181772,Esther Seeland,11870083768,Morning Run,,2024-04-02 12:17:49+00:00,1341,Run,"Albemarle County, USA",3.75,5.7,21m 23s
+981,142181772,Esther Seeland,11870083421,Evening Walk,,2024-04-02 00:43:17+00:00,1129,Walk,"Albemarle County, USA",1.0,,18m 49s
+982,142181772,Esther Seeland,11870084269,Afternoon Run,,2024-04-01 18:44:10+00:00,4664,Run,"Albemarle County, USA",8.0,6.52,52m 8s
+983,142181772,Esther Seeland,11870084061,Morning Weight Training,,2024-04-01 13:34:57+00:00,3469,WeightTraining,,57.0,,
+984,142181772,Esther Seeland,11870080467,Morning Run,,2024-04-14 14:40:33+00:00,4269,Run,"Whittier Narrows, USA",10.01,6.87,1h 8m
+985,142181772,Esther Seeland,11870082504,Evening Run,,2024-04-14 03:35:00+00:00,1944,Run,"Azusa, USA",2.5,7.75,19m 24s
+986,142181772,Esther Seeland,11870081529,Evening Run,,2024-04-14 01:49:31+00:00,799,Run,"Azusa, USA",2.0,6.63,13m 19s
+987,142181772,Esther Seeland,11870080911,Morning Run,,2024-04-13 15:33:05+00:00,626,Run,"South San Gabriel, USA",1.51,6.9,10m 26s
+988,142181772,Esther Seeland,11870081584,Afternoon Run,,2024-04-12 22:47:02+00:00,3654,Run,"Los Angeles County, USA",5.01,6.95,34m 50s
+989,142181772,Esther Seeland,11870081504,Morning Run,,2024-04-11 17:05:29+00:00,3421,Run,"Los Angeles, USA",8.0,7.03,56m 21s
+990,142181772,Esther Seeland,11870081455,Morning Run,,2024-04-10 12:50:24+00:00,4988,Run,"Albemarle County, USA",7.25,7.03,51m 5s
+991,142181772,Esther Seeland,11870081503,Afternoon Run,,2024-04-09 18:00:37+00:00,1214,Run,,3.0,6.72,20m 14s
+992,142181772,Esther Seeland,11870080903,Morning Run,,2024-04-09 11:56:16+00:00,3474,Run,"Albemarle County, USA",8.0,6.65,53m 19s
+993,142181772,Esther Seeland,11870081072,Afternoon Walk,,2024-04-08 19:03:30+00:00,3505,Walk,"Albemarle County, USA",3.24,,58m 0s
+994,142181772,Esther Seeland,11870083296,Morning Weight Training,,2024-04-08 13:32:03+00:00,3401,WeightTraining,,56.0,,
+995,142181772,Esther Seeland,11870085644,Morning Run,,2024-04-08 11:42:20+00:00,4272,Run,"Albemarle County, USA",8.0,6.5,52m 0s
+996,142181772,Esther Seeland,11870081272,Afternoon Walk,,2024-04-21 17:19:54+00:00,7414,Walk,"Charlottesville, USA",7.0,,2h 3m
+997,142181772,Esther Seeland,11870080828,Morning Run,,2024-04-20 13:11:28+00:00,3850,Run,"Albemarle County, USA",10.25,6.27,1h 4m
+998,142181772,Esther Seeland,11870080790,Evening Run,,2024-04-19 23:12:50+00:00,1947,Run,"Albemarle County, USA",4.01,6.92,27m 45s
+999,142181772,Esther Seeland,11870080909,Afternoon Run,,2024-04-19 21:30:14+00:00,959,Run,"Albemarle County, USA",2.05,7.53,15m 28s
+1000,142181772,Esther Seeland,11870081647,Morning Run,,2024-04-19 12:33:22+00:00,644,Run,"Albemarle County, USA",1.5,6.82,10m 15s
+1001,142181772,Esther Seeland,11870080588,Afternoon Walk,,2024-04-18 18:17:15+00:00,1848,Walk,"Albemarle County, USA",1.64,,30m 48s
+1002,142181772,Esther Seeland,11870080436,Morning Run,,2024-04-18 13:04:13+00:00,3107,Run,"Albemarle County, USA",5.25,6.72,35m 18s
+1003,142181772,Esther Seeland,11870081171,Afternoon Run,,2024-04-17 18:39:25+00:00,2956,Run,"Albemarle County, USA",7.01,6.75,47m 18s
+1004,142181772,Esther Seeland,11870080915,Morning Weight Training,,2024-04-17 13:28:52+00:00,2734,WeightTraining,,45.0,,
+1005,142181772,Esther Seeland,11870082274,Morning Run,,2024-04-17 12:31:54+00:00,1229,Run,"Albemarle County, USA",3.0,6.62,19m 53s
+1006,142181772,Esther Seeland,11870081058,Afternoon Run,,2024-04-16 20:57:16+00:00,1200,Run,,3.01,6.63,20m 0s
+1007,142181772,Esther Seeland,11870081270,Morning Run,,2024-04-16 11:44:40+00:00,5508,Run,"Albemarle County, USA",9.0,6.88,1h 2m
+1008,142181772,Esther Seeland,11870081710,Afternoon Run,,2024-04-15 18:36:12+00:00,4370,Run,"Albemarle County, USA",8.0,6.3,50m 27s
+1009,142181772,Esther Seeland,11870081289,Morning Weight Training,,2024-04-15 13:22:02+00:00,3448,WeightTraining,,57.0,,
+1010,142181772,Esther Seeland,11870081305,Lunch Walk,,2024-05-05 15:30:45+00:00,4539,Walk,"Charlottesville, USA",4.25,,1h 15m
+1011,142181772,Esther Seeland,11870082465,Afternoon Walk,,2024-05-04 21:57:36+00:00,3594,Walk,"Albemarle County, USA",3.24,,57m 46s
+1012,142181772,Esther Seeland,11870080810,Lunch Run,,2024-05-04 15:32:43+00:00,3985,Run,"Albemarle County, USA",10.0,6.47,1h 4m
+1013,142181772,Esther Seeland,11870081905,Evening Run,,2024-05-04 00:02:05+00:00,5075,Run,"Albemarle County, USA",6.5,7.87,51m 9s
+1014,142181772,Esther Seeland,11870080273,Lunch Walk,,2024-05-03 16:15:58+00:00,1943,Walk,"Albemarle County, USA",1.64,,32m 6s
+1015,142181772,Esther Seeland,11870081655,Morning Run,,2024-05-03 11:54:35+00:00,1221,Run,"Albemarle County, USA",3.0,6.68,20m 5s
+1016,142181772,Esther Seeland,11870080825,Afternoon Walk,,2024-05-02 18:15:19+00:00,5596,Walk,"Albemarle County, USA",5.0,,1h 28m
+1017,142181772,Esther Seeland,11870082572,Morning Weight Training,,2024-05-02 14:21:18+00:00,2649,WeightTraining,,44.0,,
+1018,142181772,Esther Seeland,11870082650,Morning Run,,2024-05-02 12:47:00+00:00,3144,Run,"Albemarle County, USA",7.0,6.48,45m 28s
+1019,142181772,Esther Seeland,11870081747,Evening Walk,,2024-05-01 23:48:13+00:00,2711,Walk,"Albemarle County, USA",2.35,,45m 11s
+1020,142181772,Esther Seeland,11870081635,Afternoon Run,,2024-05-01 19:22:12+00:00,1147,Run,,3.01,6.35,19m 7s
+1021,142181772,Esther Seeland,11870081241,Lunch Weight Training,,2024-05-01 16:35:14+00:00,2228,WeightTraining,,37.0,,
+1022,142181772,Esther Seeland,11870081482,Morning Run,,2024-05-01 13:20:23+00:00,6540,Run,"Albemarle County, USA",8.5,6.77,57m 36s
+1023,142181772,Esther Seeland,11870080879,Afternoon Walk,,2024-04-30 21:39:25+00:00,3673,Walk,"Albemarle County, USA",3.5,,1h 1m
+1024,142181772,Esther Seeland,11870080833,Morning Run,,2024-04-30 12:00:22+00:00,3329,Run,"Albemarle County, USA",8.0,6.4,51m 18s
+1025,142181772,Esther Seeland,11870081705,Afternoon Run,,2024-04-29 18:41:46+00:00,4323,Run,"Albemarle County, USA",8.0,6.48,51m 58s
+1026,142181772,Esther Seeland,11870080751,Morning Weight Training,,2024-04-29 13:40:26+00:00,3231,WeightTraining,,53.0,,
+1027,142181772,Esther Seeland,11870081380,Afternoon Walk,,2024-05-12 19:54:07+00:00,4439,Walk,"Albemarle County, USA",4.0,,1h 13m
+1028,142181772,Esther Seeland,11870080473,Afternoon Run,,2024-05-12 17:13:02+00:00,1231,Run,"Albemarle County, USA",3.0,6.53,19m 38s
+1029,142181772,Esther Seeland,11870082113,Morning Run,,2024-05-11 12:27:01+00:00,4080,Run,"Atlanta, USA",10.0,6.4,1h 4m
+1030,142181772,Esther Seeland,11870080783,Evening Run,,2024-05-11 00:40:13+00:00,883,Run,"Atlanta, USA",2.0,7.33,14m 43s
+1031,142181772,Esther Seeland,11870081118,Evening Run,,2024-05-10 23:05:16+00:00,904,Run,"Atlanta, USA",2.0,7.5,15m 4s
+1032,142181772,Esther Seeland,11870082345,Morning Run,,2024-05-10 12:44:15+00:00,703,Run,"Atlanta, USA",1.5,6.98,10m 30s
+1033,142181772,Esther Seeland,11870080803,Afternoon Run,,2024-05-09 18:03:22+00:00,3534,Run,"Atlanta, USA",5.0,7.2,36m 6s
+1034,142181772,Esther Seeland,11870080849,Afternoon Run,,2024-05-08 18:57:32+00:00,3044,Run,"Atlanta, USA",7.0,6.8,47m 38s
+1035,142181772,Esther Seeland,11870080595,Night Run,,2024-05-08 01:09:18+00:00,795,Run,"Atlanta, USA",1.5,7.97,11m 59s
+1036,142181772,Esther Seeland,11870080599,Afternoon Walk,,2024-05-07 19:04:11+00:00,2023,Walk,"Albemarle County, USA",1.74,,33m 17s
+1037,142181772,Esther Seeland,11870080816,Lunch Run,,2024-05-07 15:01:15+00:00,5499,Run,"Albemarle County, USA",7.5,7.28,54m 39s
+1038,142181772,Esther Seeland,11870081606,Lunch Run,,2024-05-06 16:04:45+00:00,4412,Run,"Albemarle County, USA",8.0,6.4,51m 16s
+1039,142181772,Esther Seeland,11870080565,Morning Weight Training,,2024-05-06 12:07:08+00:00,3644,WeightTraining,,1.0,,
+1040,142181772,Esther Seeland,11870081894,Morning Run,,2024-05-26 14:57:52+00:00,2692,Run,"State College, USA",7.0,6.27,43m 56s
+1041,142181772,Esther Seeland,11870081563,Afternoon Run,,2024-05-25 21:55:01+00:00,945,Run,"Lexington, USA",2.0,6.8,13m 38s
+1042,142181772,Esther Seeland,11870081201,Afternoon Run,,2024-05-25 20:14:47+00:00,820,Run,"Lexington, USA",2.01,6.68,13m 25s
+1043,142181772,Esther Seeland,11870082354,Morning Run,,2024-05-25 13:47:50+00:00,1422,Run,"Lexington, USA",1.51,7.28,11m 3s
+1044,142181772,Esther Seeland,11870081137,Morning Run,,2024-05-24 12:28:03+00:00,2227,Run,"Lexington, USA",5.01,6.65,33m 19s
+1045,142181772,Esther Seeland,11870081094,Afternoon Run,,2024-05-23 20:13:00+00:00,1060,Run,"Lexington, USA",2.11,7.22,15m 18s
+1046,142181772,Esther Seeland,11870081776,Afternoon Run,,2024-05-23 18:39:50+00:00,933,Run,"Lexington, USA",2.01,7.12,14m 22s
+1047,142181772,Esther Seeland,11870081290,Morning Run,,2024-05-23 12:22:00+00:00,716,Run,"Lexington, USA",1.5,6.9,10m 22s
+1048,142181772,Esther Seeland,11870081321,Lunch Run,,2024-05-22 15:17:52+00:00,2921,Run,"Lexington, USA",5.0,6.87,34m 21s
+1049,142181772,Esther Seeland,11870081524,Evening Run,,2024-05-21 22:25:13+00:00,478,Run,"Lexington, USA",1.0,7.43,7m 30s
+1050,142181772,Esther Seeland,11870081323,Morning Run,,2024-05-21 11:55:12+00:00,2538,Run,"Albemarle County, USA",6.0,6.53,39m 13s
+1051,142181772,Esther Seeland,11870080865,Afternoon Walk,,2024-05-20 18:06:42+00:00,1800,Walk,"Albemarle County, USA",1.5,,27m 49s
+1052,142181772,Esther Seeland,11870081356,Lunch Weight Training,,2024-05-20 15:56:56+00:00,1894,WeightTraining,,31.0,,
+1053,142181772,Esther Seeland,11870080692,Morning Run,,2024-05-20 14:08:12+00:00,5169,Run,"Albemarle County, USA",7.5,6.82,51m 11s
+1054,142181772,Esther Seeland,11870081824,Evening Walk,,2024-06-03 00:28:20+00:00,1596,Walk,"State College, USA",1.5,,26m 36s
+1055,142181772,Esther Seeland,11870081198,Afternoon Walk,,2024-06-02 19:53:14+00:00,3711,Walk,"Potter Township, USA",2.61,,57m 13s
+1056,142181772,Esther Seeland,11870081950,Lunch Walk,,2024-06-01 16:54:02+00:00,1937,Walk,"Albemarle County, USA",1.75,,32m 17s
+1057,142181772,Esther Seeland,11870081908,Morning Run,,2024-06-01 13:28:20+00:00,3646,Run,"Albemarle County, USA",8.5,6.22,52m 51s
+1058,142181772,Esther Seeland,11870080410,Evening Walk,,2024-05-31 22:13:51+00:00,1929,Walk,"Albemarle County, USA",1.75,,32m 9s
+1059,142181772,Esther Seeland,11870081253,Morning Run,,2024-05-31 14:33:50+00:00,4045,Run,"Charlottesville, USA",10.0,6.47,1h 4m
+1060,142181772,Esther Seeland,11870080768,Evening Walk,,2024-05-31 00:08:15+00:00,1986,Walk,"Albemarle County, USA",1.74,,32m 49s
+1061,142181772,Esther Seeland,11870080578,Lunch Weight Training,,2024-05-30 15:00:31+00:00,1670,WeightTraining,,27.0,,
+1062,142181772,Esther Seeland,11870082450,Morning Run,,2024-05-30 13:55:40+00:00,3196,Run,"State College, USA",8.0,6.48,51m 58s
+1063,142181772,Esther Seeland,11870081625,Afternoon Weight Training,,2024-05-29 21:55:27+00:00,2540,WeightTraining,,42.0,,
+1064,142181772,Esther Seeland,11870082023,Morning Run,,2024-05-29 13:56:28+00:00,2957,Run,"State College, USA",7.5,6.38,47m 56s
+1065,142181772,Esther Seeland,11870080862,Evening Weight Training,,2024-05-28 22:10:07+00:00,2236,WeightTraining,,37.0,,
+1066,142181772,Esther Seeland,11870081355,Morning Run,,2024-05-28 14:29:45+00:00,3694,Run,"State College, USA",9.0,6.4,57m 41s
+1067,142181772,Esther Seeland,11870081506,Afternoon Weight Training,,2024-05-27 21:56:34+00:00,1741,WeightTraining,,29.0,,
+1068,142181772,Esther Seeland,11870081450,Lunch Run,,2024-05-27 15:33:39+00:00,3109,Run,"Ferguson Township, USA",8.0,6.15,49m 15s
+1069,142181772,Esther Seeland,11870080755,Afternoon Walk,,2024-06-09 21:58:59+00:00,3899,Walk,"State College, USA",3.5,,1h 2m
+1070,142181772,Esther Seeland,11870081978,Afternoon Row,,2024-06-09 21:22:13+00:00,1913,Rowing,,31.0,,28 rpm
+1071,142181772,Esther Seeland,11870080605,Morning Walk,,2024-06-09 12:41:53+00:00,1691,Walk,"State College, USA",1.5,,28m 11s
+1072,142181772,Esther Seeland,11870081731,Evening Weight Training,,2024-06-08 22:33:45+00:00,978,WeightTraining,,16.0,,
+1073,142181772,Esther Seeland,11870082771,Morning Run,,2024-06-08 13:32:36+00:00,3958,Run,"State College, USA",10.0,6.48,1h 4m
+1074,142181772,Esther Seeland,11870081055,Evening Walk,,2024-06-08 00:18:03+00:00,1119,Walk,"State College, USA",0.99,,18m 39s
+1075,142181772,Esther Seeland,11870082561,Afternoon Weight Training,,2024-06-07 21:12:55+00:00,3108,WeightTraining,,51.0,,
+1076,142181772,Esther Seeland,11870080664,Morning Run,,2024-06-07 13:27:30+00:00,3032,Run,"Benner Township, USA",8.26,6.12,50m 32s
+1077,142181772,Esther Seeland,11870080806,Evening Walk,,2024-06-06 23:45:39+00:00,3444,Walk,"State College, USA",3.0,,57m 24s
+1078,142181772,Esther Seeland,11870080875,Morning Run,,2024-06-06 12:32:32+00:00,2958,Run,"State College, USA",7.0,6.48,45m 23s
+1079,142181772,Esther Seeland,11870081977,Afternoon Weight Training,,2024-06-05 21:51:50+00:00,3544,WeightTraining,,59.0,,
+1080,142181772,Esther Seeland,11870081178,Morning Run,,2024-06-05 12:31:16+00:00,3736,Run,"State College, USA",9.0,6.58,59m 14s
+1081,142181772,Esther Seeland,11870080722,Evening Walk,,2024-06-04 23:26:35+00:00,1831,Walk,"State College, USA",1.49,,30m 31s
+1082,142181772,Esther Seeland,11870081372,Afternoon Weight Training,,2024-06-04 20:44:39+00:00,1956,WeightTraining,,32.0,,
+1083,142181772,Esther Seeland,11870081600,Morning Run,,2024-06-04 12:25:05+00:00,3164,Run,"State College, USA",8.01,6.33,50m 43s
+1084,142181772,Esther Seeland,11870081628,Evening Weight Training,,2024-06-03 22:36:53+00:00,2951,WeightTraining,,49.0,,
+1085,142181772,Esther Seeland,11870082205,Morning Run,,2024-06-03 14:13:23+00:00,3301,Run,"State College, USA",8.0,6.53,52m 16s
+1086,142181772,Esther Seeland,11870080840,Morning Run,,2024-06-15 12:50:25+00:00,3962,Run,"Benner Township, USA",10.0,6.3,1h 3m
+1087,142181772,Esther Seeland,11870081184,Afternoon Weight Training,,2024-06-14 20:46:00+00:00,3055,WeightTraining,,50.0,,
+1088,142181772,Esther Seeland,11870081832,Morning Run,,2024-06-14 13:05:30+00:00,3184,Run,"State College, USA",8.25,6.17,50m 55s
+1089,142181772,Esther Seeland,11870081083,Afternoon Weight Training,,2024-06-13 17:54:48+00:00,2546,WeightTraining,,42.0,,
+1090,142181772,Esther Seeland,11870081995,Morning Run,,2024-06-13 13:18:44+00:00,2820,Run,"Patton Township, USA",7.0,6.25,43m 45s
+1091,142181772,Esther Seeland,11870082053,Morning Run,,2024-06-12 12:04:43+00:00,3302,Run,"State College, USA",8.0,6.53,52m 20s
+1092,142181772,Esther Seeland,11870080905,Afternoon Walk,,2024-06-11 21:48:06+00:00,2857,Walk,"State College, USA",2.5,,47m 37s
+1093,142181772,Esther Seeland,11870081520,Afternoon Weight Training,,2024-06-11 20:07:44+00:00,3157,WeightTraining,,52.0,,
+1094,142181772,Esther Seeland,11870082043,Morning Run,,2024-06-11 14:30:15+00:00,3623,Run,"State College, USA",9.0,6.23,56m 10s
+1095,142181772,Esther Seeland,11870082208,Morning Run,,2024-06-10 11:59:57+00:00,3144,Run,"State College, USA",8.01,6.45,51m 43s
+1096,142181772,Esther Seeland,11870082072,Morning Run,,2024-06-22 12:21:37+00:00,4523,Run,"Ferguson Township, USA",12.0,6.18,1h 14m
+1097,142181772,Esther Seeland,11870080868,Evening Weight Training,,2024-06-21 22:28:39+00:00,3197,WeightTraining,,53.0,,
+1098,142181772,Esther Seeland,11870081248,Morning Run,,2024-06-21 10:35:56+00:00,3161,Run,"Cumberland County, USA",7.01,6.8,47m 39s
+1099,142181772,Esther Seeland,11870081715,Afternoon Weight Training,,2024-06-20 20:25:02+00:00,2596,WeightTraining,,43.0,,
+1100,142181772,Esther Seeland,11870082034,Morning Run,,2024-06-20 10:38:27+00:00,3012,Run,"Cumberland County, USA",7.0,6.72,47m 0s
+1101,142181772,Esther Seeland,11870081700,Morning Run,,2024-06-19 10:37:29+00:00,2624,Run,"Cumberland County, USA",6.0,6.78,40m 44s
+1102,142181772,Esther Seeland,11870081159,Afternoon Weight Training,,2024-06-18 20:29:03+00:00,2569,WeightTraining,,42.0,,
+1103,142181772,Esther Seeland,11870081249,Morning Run,,2024-06-18 10:36:00+00:00,2624,Run,"Cumberland County, USA",6.01,6.83,41m 3s
+1104,142181772,Esther Seeland,11870080988,Afternoon Run,,2024-06-17 20:15:50+00:00,1654,Run,"Monaghan Township, USA",3.01,7.03,21m 10s
+1105,142181772,Esther Seeland,11870081227,Morning Run,,2024-06-17 10:10:10+00:00,2674,Run,"Franklin Township, USA",7.0,6.37,44m 34s
+1106,142181772,Esther Seeland,11870081349,Morning Run,,2024-06-29 11:38:08+00:00,4059,Run,"George Washington National Forest, USA",10.0,6.57,1h 5m
+1107,142181772,Esther Seeland,11870080861,Morning Run,,2024-06-28 11:46:15+00:00,3100,Run,"George Washington National Forest, USA",8.01,6.33,50m 46s
+1108,142181772,Esther Seeland,11870081921,Morning Run,,2024-06-27 12:59:28+00:00,3235,Run,"State College, USA",8.0,6.53,52m 20s
+1109,142181772,Esther Seeland,11870080928,Afternoon Weight Training,,2024-06-26 19:15:43+00:00,2775,WeightTraining,,46.0,,
+1110,142181772,Esther Seeland,11870081932,Morning Run,,2024-06-26 12:06:54+00:00,3407,Run,"State College, USA",8.0,6.52,52m 8s
+1111,142181772,Esther Seeland,11870082217,Afternoon Weight Training,,2024-06-25 20:00:09+00:00,2339,WeightTraining,,38.0,,
+1112,142181772,Esther Seeland,11870081331,Morning Run,,2024-06-25 13:10:16+00:00,3300,Run,"Ferguson Township, USA",8.0,6.22,49m 45s
+1113,142181772,Esther Seeland,11870081803,Morning Run,,2024-06-24 13:06:27+00:00,3182,Run,"Baltimore-Washington International/Thurgood Marshall Airport, USA",8.0,6.28,50m 19s
+1114,142181772,Esther Seeland,11870081258,Afternoon Weight Training,,2024-07-06 19:21:23+00:00,3332,WeightTraining,,55.0,,
+1115,142181772,Esther Seeland,11870080567,Morning Run,,2024-07-06 12:53:45+00:00,3896,Run,"Ferguson Township, USA",10.01,6.48,1h 4m
+1116,142181772,Esther Seeland,11870081825,Afternoon Run,,2024-07-05 19:10:33+00:00,3719,Run,"Benner Township, USA",8.5,6.27,53m 15s
+1117,142181772,Esther Seeland,11870081163,Afternoon Weight Training,,2024-07-04 20:35:11+00:00,1750,WeightTraining,,29.0,,
+1118,142181772,Esther Seeland,11870081722,Morning Run,,2024-07-04 12:47:42+00:00,3450,Run,"State College, USA",8.0,6.57,52m 36s
+1119,142181772,Esther Seeland,11870080966,Morning Run,,2024-07-03 13:01:52+00:00,3266,Run,"Anne Arundel County, USA",8.01,6.43,51m 32s
+1120,142181772,Esther Seeland,11870081910,Morning Run,,2024-07-02 14:00:01+00:00,3098,Run,"Patapsco Valley State Park, USA",8.01,6.22,49m 49s
+1121,142181772,Esther Seeland,11870080799,Afternoon Weight Training,,2024-07-01 20:04:26+00:00,2355,WeightTraining,,39.0,,
+1122,142181772,Esther Seeland,11870081849,Morning Run,,2024-07-01 14:01:34+00:00,3144,Run,"Anne Arundel County, USA",8.01,6.43,51m 28s
+1123,142181772,Esther Seeland,11889843307,Afternoon Walk,,2024-07-14 20:42:02+00:00,3788,Walk,"State College, USA",3.5,,1h 3m
+1124,142181772,Esther Seeland,11878084929,Morning Run,,2024-07-13 12:42:23+00:00,3854,Run,"State College, USA",10.0,6.33,1h 3m
+1125,142181772,Esther Seeland,11873150668,Afternoon Weight Training,,2024-07-12 21:50:34+00:00,2524,WeightTraining,,42.0,,
+1126,142181772,Esther Seeland,11870078363,Morning Run,"Warm up, 4 sets 3-2-1 min on with 1 min rest between each rep, cool down until 8 miles.",2024-07-12 12:31:31+00:00,3306,Run,"State College, USA",8.01,6.17,49m 25s
+1127,142181772,Esther Seeland,11870078259,Morning Run,,2024-07-11 13:51:25+00:00,2449,Run,"State College, USA",6.0,6.5,39m 3s
+1128,142181772,Esther Seeland,11870078264,Afternoon Weight Training,,2024-07-10 20:46:44+00:00,3133,WeightTraining,,52.0,,
+1129,142181772,Esther Seeland,11870078350,Morning Run,,2024-07-10 12:27:26+00:00,2921,Run,"State College, USA",7.0,6.55,45m 51s
+1130,142181772,Esther Seeland,11870078405,Morning Run,,2024-07-09 12:36:59+00:00,3838,Run,"State College, USA",9.05,6.28,56m 52s
+1131,142181772,Esther Seeland,11870078516,Evening Walk,,2024-07-08 23:48:10+00:00,2442,Walk,"State College, USA",2.25,,40m 42s
+1132,142181772,Esther Seeland,11870078430,Afternoon Weight Training,,2024-07-08 20:08:45+00:00,3078,WeightTraining,,51.0,,
+1133,142181772,Esther Seeland,11870078491,Morning Run,,2024-07-08 12:17:12+00:00,2417,Run,"State College, USA",6.0,6.48,38m 59s
+1134,142181772,Esther Seeland,11943621984,Morning Run,,2024-07-21 12:00:57+00:00,2378,Run,"State College, USA",6.0,6.52,39m 12s
+1135,142181772,Esther Seeland,11935941357,Morning Run,long run alternating mile easier mile harder,2024-07-20 13:05:40+00:00,4287,Run,"Harris Township, USA",11.0,6.22,1h 8m
+1136,142181772,Esther Seeland,11930634512,Afternoon Weight Training,,2024-07-19 21:40:49+00:00,2595,WeightTraining,,43.0,,227 Cal
+1137,142181772,Esther Seeland,11927262038,Morning Run,,2024-07-19 12:06:30+00:00,3398,Run,"State College, USA",8.0,6.6,52m 54s
+1138,142181772,Esther Seeland,11922457619,Afternoon Weight Training,,2024-07-18 20:21:56+00:00,1000,WeightTraining,,16.0,,229 Cal
+1139,142181772,Esther Seeland,11919066144,Morning Run,,2024-07-18 12:32:11+00:00,2427,Run,"State College, USA",6.01,6.5,39m 2s
+1140,142181772,Esther Seeland,11919066050,Afternoon Weight Training,,2024-07-17 20:35:53+00:00,3583,WeightTraining,,59.0,,256 Cal
+1141,142181772,Esther Seeland,11911386078,Morning Run,,2024-07-17 14:30:25+00:00,2748,Run,"State College, USA",7.01,6.45,45m 10s
+1142,142181772,Esther Seeland,11901707201,Morning Run,,2024-07-16 12:00:32+00:00,3699,Run,"State College, USA",9.01,6.22,55m 59s
+1143,142181772,Esther Seeland,11897153161,Afternoon Weight Training,,2024-07-15 20:53:40+00:00,3184,WeightTraining,,53.0,,238 Cal
+1144,142181772,Esther Seeland,11895061712,Morning Walk,,2024-07-15 14:56:59+00:00,5298,Walk,"Benner Township, USA",4.0,,1h 22m
+1145,142181772,Esther Seeland,11893434474,Morning Run,,2024-07-15 12:08:16+00:00,2427,Run,"State College, USA",6.01,6.48,38m 59s
+1146,142181772,Esther Seeland,12005715235,Afternoon Walk,,2024-07-28 19:14:47+00:00,3523,Walk,"Jackson Township, USA",3.0,,58m 43s
+1147,142181772,Esther Seeland,11989718422,Evening Walk,,2024-07-26 23:53:01+00:00,2713,Walk,"State College, USA",2.5,,45m 13s
+1148,142181772,Esther Seeland,11987609586,Lunch Run,,2024-07-26 16:46:24+00:00,2376,Run,"State College, USA",6.0,6.53,39m 12s
+1149,142181772,Esther Seeland,11980772050,Afternoon Run,,2024-07-25 19:01:03+00:00,2610,Run,"College Township, USA",7.01,6.2,43m 30s
+1150,142181772,Esther Seeland,11978681867,Morning Walk,,2024-07-25 14:51:36+00:00,3865,Walk,"State College, USA",3.49,,1h 4m
+1151,142181772,Esther Seeland,11969220692,Morning Run,,2024-07-24 12:38:09+00:00,3426,Run,"Patton Township, USA",8.0,6.47,51m 47s
+1152,142181772,Esther Seeland,11964130033,Afternoon Run,,2024-07-23 20:42:15+00:00,2414,Run,"State College, USA",6.0,6.35,38m 10s
+1153,142181772,Esther Seeland,11955402979,Afternoon Run,,2024-07-22 21:24:39+00:00,1604,Run,"State College, USA",4.0,6.43,25m 47s
+1154,142181772,Esther Seeland,12064169319,Afternoon Weight Training,,2024-08-04 20:28:37+00:00,4032,WeightTraining,,1.0,,407 Cal
+1155,142181772,Esther Seeland,12052335169,Morning Run,,2024-08-03 13:02:58+00:00,4152,Run,"Patton Township, USA",10.0,6.45,1h 4m
+1156,142181772,Esther Seeland,12046803835,Afternoon Weight Training,,2024-08-02 21:01:30+00:00,2622,WeightTraining,,43.0,,231 Cal
+1157,142181772,Esther Seeland,12044583420,Morning Run,,2024-08-02 14:33:53+00:00,2810,Run,"State College, USA",7.01,6.52,45m 43s
+1158,142181772,Esther Seeland,12036174935,Morning Run,,2024-08-01 13:40:22+00:00,2393,Run,"Ferguson Township, USA",6.0,6.5,39m 0s
+1159,142181772,Esther Seeland,12031086934,Afternoon Weight Training,,2024-07-31 21:15:18+00:00,3362,WeightTraining,,56.0,,233 Cal
+1160,142181772,Esther Seeland,12027104194,Morning Run,,2024-07-31 12:12:32+00:00,2404,Run,"State College, USA",6.01,6.48,38m 57s
+1161,142181772,Esther Seeland,12018915421,Morning Run,,2024-07-30 13:07:34+00:00,3226,Run,"State College, USA",8.01,6.48,51m 54s
+1162,142181772,Esther Seeland,12013752832,Afternoon Weight Training,,2024-07-29 21:12:28+00:00,3230,WeightTraining,,53.0,,220 Cal
+1163,142181772,Esther Seeland,12010239714,Morning Run,,2024-07-29 13:01:42+00:00,2834,Run,"State College, USA",7.01,6.47,45m 23s
+1164,142181772,Esther Seeland,12123244001,Afternoon Weight Training,,2024-08-11 18:59:37+00:00,2707,WeightTraining,,45.0,,233 Cal
+1165,142181772,Esther Seeland,12119628812,Morning Run,,2024-08-11 11:16:56+00:00,3059,Run,"Worcester County, USA",8.01,6.27,50m 16s
+1166,142181772,Esther Seeland,12111101241,Morning Run,,2024-08-10 11:17:14+00:00,2395,Run,"Worcester County, USA",6.01,6.63,39m 55s
+1167,142181772,Esther Seeland,12102773846,Morning Run,,2024-08-09 11:45:32+00:00,2744,Run,"Worcester County, USA",7.0,6.53,45m 44s
+1168,142181772,Esther Seeland,12095341125,Morning Run,,2024-08-08 12:07:47+00:00,3870,Run,"Worcester County, USA",10.01,6.18,1h 1m
+1169,142181772,Esther Seeland,12095339543,Morning Run,,2024-08-07 11:36:58+00:00,2393,Run,"Worcester County, USA",6.01,6.53,39m 15s
+1170,142181772,Esther Seeland,12095338806,Morning Run,,2024-08-06 11:19:36+00:00,3205,Run,"Worcester County, USA",8.0,6.45,51m 41s
+1171,142181772,Esther Seeland,12068164947,Morning Run,,2024-08-05 11:59:40+00:00,3197,Run,"State College, USA",8.01,6.47,51m 51s
+1172,142181772,Esther Seeland,12187110661,Morning Run,,2024-08-18 11:22:48+00:00,2801,Run,"Myrtle Beach, USA",7.01,6.37,44m 41s
+1173,142181772,Esther Seeland,12169413300,Morning Run,,2024-08-17 09:58:24+00:00,3154,Run,"State College, USA",8.01,6.43,51m 33s
+1174,142181772,Esther Seeland,12169413290,Morning Run,,2024-08-16 09:45:17+00:00,3316,Run,"Anne Arundel County, USA",8.01,6.52,52m 10s
+1175,142181772,Esther Seeland,12169412721,Afternoon Weight Training,,2024-08-15 19:43:13+00:00,2918,WeightTraining,,48.0,,298 Cal
+1176,142181772,Esther Seeland,12169414467,Morning Run,,2024-08-15 09:47:37+00:00,3082,Run,"Anne Arundel County, USA",8.01,6.42,51m 22s
+1177,142181772,Esther Seeland,12169413144,Afternoon Weight Training,,2024-08-14 19:45:14+00:00,3011,WeightTraining,,50.0,,267 Cal
+1178,142181772,Esther Seeland,12144221392,Morning Run,,2024-08-14 09:49:47+00:00,2799,Run,"Anne Arundel County, USA",6.26,6.38,40m 0s
+1179,142181772,Esther Seeland,12135364832,Morning Run,,2024-08-13 09:50:11+00:00,3217,Run,"Anne Arundel County, USA",8.01,6.57,52m 39s
+1180,142181772,Esther Seeland,12131187721,Afternoon Weight Training,,2024-08-12 19:56:26+00:00,2706,WeightTraining,,45.0,,275 Cal
+1181,142181772,Esther Seeland,12126943741,Morning Run,,2024-08-12 09:55:16+00:00,2803,Run,"Anne Arundel County, USA",7.01,6.38,44m 48s
+1182,142181772,Esther Seeland,12246259226,Morning Run,,2024-08-24 10:14:29+00:00,2807,Run,"Myrtle Beach, USA",7.01,6.58,46m 10s
+1183,142181772,Esther Seeland,12246255935,Afternoon Weight Training,,2024-08-23 20:30:11+00:00,2234,WeightTraining,,37.0,,234 Cal
+1184,142181772,Esther Seeland,12246255449,Morning Run,,2024-08-23 11:40:56+00:00,2862,Run,"Myrtle Beach, USA",7.01,6.58,46m 8s
+1185,142181772,Esther Seeland,12213202588,Morning Run,finally ran the 13.1,2024-08-22 11:15:52+00:00,4956,Run,"Myrtle Beach, USA",13.15,6.28,1h 22m
+1186,142181772,Esther Seeland,12208522167,Afternoon Weight Training,,2024-08-21 20:12:46+00:00,2954,WeightTraining,,49.0,,257 Cal
+1187,142181772,Esther Seeland,12204484138,Morning Run,,2024-08-21 11:43:43+00:00,3153,Run,"Myrtle Beach, USA",8.01,6.45,51m 44s
+1188,142181772,Esther Seeland,12198250788,Morning Run,,2024-08-20 11:45:46+00:00,2423,Run,"Myrtle Beach, USA",6.0,6.62,39m 47s
+1189,142181772,Esther Seeland,12198247910,Afternoon Weight Training,,2024-08-19 19:10:44+00:00,2772,WeightTraining,,46.0,,267 Cal
+1190,142181772,Esther Seeland,12187111802,Morning Run,,2024-08-19 11:49:31+00:00,3940,Run,"Myrtle Beach, USA",10.01,6.42,1h 4m
+1191,142181772,Esther Seeland,12282172623,Morning Run,,2024-08-30 14:42:02+00:00,2859,Run,"Ferguson Township, USA",7.01,6.55,45m 53s
+1192,142181772,Esther Seeland,12272245833,Morning Run,,2024-08-29 10:42:58+00:00,4222,Run,"State College, USA",10.01,6.58,1h 5m
+1193,142181772,Esther Seeland,12268003469,Afternoon Weight Training,,2024-08-28 20:26:26+00:00,2603,WeightTraining,,43.0,,232 Cal
+1194,142181772,Esther Seeland,12263344018,Morning Run,,2024-08-28 10:36:13+00:00,3212,Run,"State College, USA",8.01,6.52,52m 10s
+1195,142181772,Esther Seeland,12254279878,Morning Run,,2024-08-27 10:37:59+00:00,2800,Run,"State College, USA",7.0,6.53,45m 48s
+1196,142181772,Esther Seeland,12250333884,Afternoon Weight Training,,2024-08-26 21:23:44+00:00,2350,WeightTraining,,39.0,,195 Cal
+1197,142181772,Esther Seeland,12246258449,Morning Run,,2024-08-26 11:47:55+00:00,3256,Run,"State College, USA",8.01,6.42,51m 28s
+1198,142181772,Esther Seeland,12350746173,Morning Run,,2024-09-07 14:30:52+00:00,4124,Run,"State College, USA",10.01,6.45,1h 4m
+1199,142181772,Esther Seeland,12344181189,Afternoon Weight Training,,2024-09-06 21:12:48+00:00,2790,WeightTraining,,46.0,,321 Cal
+1200,142181772,Esther Seeland,12342010443,Lunch Run,,2024-09-06 15:10:52+00:00,2873,Run,"State College, USA",7.01,6.5,45m 37s
+1201,142181772,Esther Seeland,12336724304,Evening Weight Training,,2024-09-05 22:32:16+00:00,1322,WeightTraining,,22.0,,105 Cal
+1202,142181772,Esther Seeland,12334073028,Lunch Run,,2024-09-05 15:16:36+00:00,2615,Run,"Benner Township, USA",6.01,6.52,39m 13s
+1203,142181772,Esther Seeland,12325768513,Lunch Run,,2024-09-04 16:13:55+00:00,2487,Run,"State College, USA",5.01,6.77,33m 56s
+1204,142181772,Esther Seeland,12315938470,Lunch Run,,2024-09-03 15:01:46+00:00,2147,Run,"State College, USA",5.01,6.82,34m 10s
+1205,142181772,Esther Seeland,12424416312,Morning Run,,2024-09-14 13:38:26+00:00,4302,Run,"Benner Township, USA",11.01,6.35,1h 9m
+1206,142181772,Esther Seeland,12402931367,Afternoon Weight Training,,2024-09-13 21:55:25+00:00,2787,WeightTraining,,46.0,,240 Cal
+1207,142181772,Esther Seeland,12400550814,Morning Run,,2024-09-13 14:51:04+00:00,2799,Run,"State College, USA",7.01,6.6,46m 16s
+1208,142181772,Esther Seeland,12391954432,Morning Run,,2024-09-12 12:45:12+00:00,3969,Run,"State College, USA",9.01,6.32,56m 57s
+1209,142181772,Esther Seeland,12387245132,Afternoon Weight Training,,2024-09-11 20:58:37+00:00,2867,WeightTraining,,47.0,,270 Cal
+1210,142181772,Esther Seeland,12383549228,Morning Run,,2024-09-11 12:35:43+00:00,3251,Run,"State College, USA",8.01,6.6,52m 54s
+1211,142181772,Esther Seeland,12375624942,Morning Run,,2024-09-10 14:29:39+00:00,3605,Run,"State College, USA",9.01,6.3,56m 49s
+1212,142181772,Esther Seeland,12369938942,Afternoon Weight Training,,2024-09-09 21:39:59+00:00,2452,WeightTraining,,40.0,,266 Cal
+1213,142181772,Esther Seeland,12367283946,Lunch Run,,2024-09-09 15:08:50+00:00,2877,Run,"State College, USA",7.01,6.68,46m 55s
+1214,142181772,Esther Seeland,12467699398,Morning Run,,2024-09-21 12:50:40+00:00,4958,Run,"State College, USA",12.01,6.58,1h 18m
+1215,142181772,Esther Seeland,12462024947,Afternoon Weight Training,,2024-09-20 21:16:00+00:00,3373,WeightTraining,,56.0,,253 Cal
+1216,142181772,Esther Seeland,12460147684,Lunch Run,,2024-09-20 15:16:56+00:00,3795,Run,"Benner Township, USA",9.0,6.2,55m 52s
+1217,142181772,Esther Seeland,12449342520,Morning Run,,2024-09-19 10:30:05+00:00,2409,Run,"State College, USA",6.01,6.55,39m 23s
+1218,142181772,Esther Seeland,12444860700,Afternoon Weight Training,,2024-09-18 18:42:21+00:00,3008,WeightTraining,,50.0,,307 Cal
+1219,142181772,Esther Seeland,12442396180,Morning Run,,2024-09-18 13:44:29+00:00,3351,Run,"State College, USA",8.0,6.62,53m 3s
+1220,142181772,Esther Seeland,12433606155,Morning Run,,2024-09-17 14:24:45+00:00,3745,Run,"State College, USA",9.01,6.33,57m 0s
+1221,142181772,Esther Seeland,12427070841,Afternoon Weight Training,,2024-09-16 18:24:30+00:00,3001,WeightTraining,,50.0,,290 Cal
+1222,142181772,Esther Seeland,12424414945,Morning Run,,2024-09-16 12:59:43+00:00,3172,Run,"State College, USA",8.01,6.52,52m 16s
+1223,142181772,Esther Seeland,12523782294,Morning Run,,2024-09-28 12:01:16+00:00,5475,Run,"State College, USA",13.01,6.58,1h 25m
+1224,142181772,Esther Seeland,12518715891,Afternoon Weight Training,,2024-09-27 21:18:33+00:00,2107,WeightTraining,,35.0,,217 Cal
+1225,142181772,Esther Seeland,12516449634,Morning Run,,2024-09-27 14:06:18+00:00,2977,Run,"State College, USA",7.0,6.65,46m 36s
+1226,142181772,Esther Seeland,12509124931,Morning Run,,2024-09-26 13:57:41+00:00,3908,Run,"State College, USA",9.1,6.27,56m 58s
+1227,142181772,Esther Seeland,12504078377,Afternoon Weight Training,,2024-09-25 20:51:13+00:00,2874,WeightTraining,,47.0,,252 Cal
+1228,142181772,Esther Seeland,12500553399,Morning Run,,2024-09-25 12:30:05+00:00,2882,Run,"State College, USA",7.01,6.72,47m 8s
+1229,142181772,Esther Seeland,12492571979,Morning Run,,2024-09-24 13:31:48+00:00,4074,Run,"State College, USA",10.01,6.3,1h 3m
+1230,142181772,Esther Seeland,12486293557,Afternoon Weight Training,,2024-09-23 18:30:33+00:00,2808,WeightTraining,,46.0,,244 Cal
+1231,142181772,Esther Seeland,12484188278,Morning Run,,2024-09-23 14:01:11+00:00,3258,Run,"State College, USA",8.01,6.58,52m 46s
+1232,142181772,Esther Seeland,12591641968,Lunch Run,,2024-10-06 15:20:42+00:00,2537,Run,"State College, USA",6.51,6.5,42m 17s
+1233,142181772,Esther Seeland,12572671887,Morning Run,longest run ever! picked up the last 3,2024-10-04 12:31:23+00:00,5691,Run,"State College, USA",14.01,6.5,1h 31m
+1234,142181772,Esther Seeland,12568385755,Evening Weight Training,,2024-10-03 22:14:57+00:00,2165,WeightTraining,,36.0,,170 Cal
+1235,142181772,Esther Seeland,12565226679,Morning Run,,2024-10-03 13:50:31+00:00,3944,Run,"State College, USA",9.01,6.12,55m 5s
+1236,142181772,Esther Seeland,12559939952,Afternoon Weight Training,,2024-10-02 20:45:33+00:00,3002,WeightTraining,,50.0,,219 Cal
+1237,142181772,Esther Seeland,12556666939,Morning Run,,2024-10-02 13:00:01+00:00,3268,Run,"State College, USA",8.0,6.55,52m 25s
+1238,142181772,Esther Seeland,12548922706,Morning Run,,2024-10-01 14:28:06+00:00,3962,Run,"State College, USA",10.01,6.23,1h 2m
+1239,142181772,Esther Seeland,12543236060,Afternoon Weight Training,,2024-09-30 20:46:03+00:00,3156,WeightTraining,,52.0,,201 Cal
+1240,142181772,Esther Seeland,12540652110,Morning Run,,2024-09-30 14:21:08+00:00,3298,Run,"State College, USA",8.01,6.63,53m 11s
+1241,142181772,Esther Seeland,12637769110,Morning Run,,2024-10-12 13:19:10+00:00,2736,Run,"Ferguson Township, USA",7.01,6.48,45m 25s
+1242,142181772,Esther Seeland,12631991289,Afternoon Weight Training,,2024-10-11 20:39:02+00:00,2141,WeightTraining,,35.0,,190 Cal
+1243,142181772,Esther Seeland,12629665483,Morning Run,9 miles + 2 miles picked up,2024-10-11 13:30:52+00:00,4219,Run,"State College, USA",11.01,6.35,1h 9m
+1244,142181772,Esther Seeland,12622058206,Morning Run,"2 mile WU, 4 mile tempo, 2 mile CD in the new shoes",2024-10-10 14:00:47+00:00,3498,Run,"State College, USA",8.01,6.2,49m 38s
+1245,142181772,Esther Seeland,12617335474,Afternoon Weight Training,,2024-10-09 21:32:38+00:00,3001,WeightTraining,,50.0,,193 Cal
+1246,142181772,Esther Seeland,12614493143,Morning Run,,2024-10-09 14:10:21+00:00,2808,Run,"State College, USA",7.01,6.47,45m 21s
+1247,142181772,Esther Seeland,12606194102,Morning Run,"WU, 3 x 1 mile with 3 min rest, CD
+pick ups felt harder than expected",2024-10-08 14:04:01+00:00,3664,Run,"State College, USA",9.02,6.32,56m 55s
+1248,142181772,Esther Seeland,12599944419,Afternoon Weight Training,,2024-10-07 18:04:35+00:00,2979,WeightTraining,,49.0,,229 Cal
+1249,142181772,Esther Seeland,12598072437,Morning Run,,2024-10-07 14:06:54+00:00,3157,Run,"State College, USA",8.01,6.48,51m 54s
+1250,142181772,Esther Seeland,12704707335,Afternoon Run,exploring the new homeland and trying to shake these tired legs out,2024-10-20 20:45:16+00:00,2063,Run,"Doylestown Township, USA",5.01,6.62,33m 11s
+1251,142181772,Esther Seeland,12694606202,Lunch Run,,2024-10-19 16:09:58+00:00,444,Run,"Baltimore, USA",1.0,7.33,7m 24s
+1252,142181772,Esther Seeland,12693884790,Oof,,2024-10-19 13:45:46+00:00,4627,Run,"Business and Government Historic District, USA",13.21,5.83,1h 17m
+1253,142181772,Esther Seeland,12693882059,Morning Run,,2024-10-19 12:59:29+00:00,430,Run,"Baltimore, USA",1.01,7.1,7m 10s
+1254,142181772,Esther Seeland,12684425996,Morning Run,,2024-10-18 11:45:12+00:00,1636,Run,"State College, USA",4.01,6.72,26m 57s
+1255,142181772,Esther Seeland,12678251312,Morning Run,,2024-10-17 14:54:10+00:00,1987,Run,"State College, USA",5.01,6.5,32m 36s
+1256,142181772,Esther Seeland,12672465198,Afternoon Weight Training,,2024-10-16 19:40:42+00:00,1803,WeightTraining,,30.0,,139 Cal
+1257,142181772,Esther Seeland,12669651605,Morning Run,,2024-10-16 13:26:45+00:00,2184,Run,"State College, USA",5.51,6.6,36m 24s
+1258,142181772,Esther Seeland,12662088436,Morning Run,with 4x400 pickups on 1 min rest,2024-10-15 14:59:31+00:00,2637,Run,"State College, USA",6.5,6.47,42m 3s
+1259,142181772,Esther Seeland,12656037244,Afternoon Weight Training,,2024-10-14 19:16:52+00:00,2739,WeightTraining,,45.0,,180 Cal
+1260,142181772,Esther Seeland,12654072926,Lunch Run,,2024-10-14 15:00:08+00:00,2827,Run,"State College, USA",6.02,6.45,38m 50s
+1261,142181772,Esther Seeland,12750334874,Morning Run,I have no idea where I’m going 😬,2024-10-26 14:36:45+00:00,4941,Run,"Hatfield Township, USA",12.01,6.38,1h 16m
+1262,142181772,Esther Seeland,12740181088,Morning Run,,2024-10-25 09:58:15+00:00,3326,Run,"Doylestown Township, USA",8.01,6.58,52m 44s
+1263,142181772,Esther Seeland,12732409320,Morning Run,,2024-10-24 09:58:30+00:00,2893,Run,"New Britain, USA",7.01,6.5,45m 38s
+1264,142181772,Esther Seeland,12724275383,Morning Run,,2024-10-23 09:55:34+00:00,3312,Run,"Doylestown Township, USA",8.0,6.58,52m 46s
+1265,142181772,Esther Seeland,12715558019,Morning Run,,2024-10-22 09:48:09+00:00,2850,Run,"New Britain, USA",7.01,6.58,46m 8s
+1266,142181772,Esther Seeland,12707693977,Morning Run,,2024-10-21 10:16:52+00:00,3299,Run,"Doylestown Township, USA",8.01,6.63,53m 9s
+1267,142181772,Esther Seeland,12804379923,Morning Run,,2024-11-02 11:40:24+00:00,4334,Run,"Doylestown Township, USA",11.01,6.38,1h 10m
+1268,142181772,Esther Seeland,12800137840,Afternoon Weight Training,,2024-11-01 21:39:57+00:00,2931,WeightTraining,,48.0,,260 Cal
+1269,142181772,Esther Seeland,12795597885,Morning Run,,2024-11-01 09:57:06+00:00,2900,Run,"New Britain, USA",7.01,6.45,45m 11s
+1270,142181772,Esther Seeland,12788192458,Morning Run,,2024-10-31 09:57:59+00:00,3116,Run,"New Britain, USA",8.01,6.43,51m 31s
+1271,142181772,Esther Seeland,12785508863,Evening Weight Training,,2024-10-30 22:28:56+00:00,2550,WeightTraining,,42.0,,198 Cal
+1272,142181772,Esther Seeland,12780287516,Morning Run,,2024-10-30 09:57:31+00:00,3250,Run,"Doylestown Township, USA",8.0,6.5,52m 1s
+1273,142181772,Esther Seeland,12771979219,Morning Run,,2024-10-29 09:56:24+00:00,3538,Run,"New Britain, USA",8.52,6.57,55m 59s
+1274,142181772,Esther Seeland,12769142211,Evening Weight Training,,2024-10-28 22:22:02+00:00,3188,WeightTraining,,53.0,,250 Cal
+1275,142181772,Esther Seeland,12764040806,Morning Run,my fingers 🥶,2024-10-28 09:58:17+00:00,3509,Run,"New Britain, USA",8.51,6.55,55m 46s
+1276,142181772,Esther Seeland,12861395772,Morning Run,"shorts and a long sleeve, sunshine and a nice path for a good long one ☺️",2024-11-09 15:35:16+00:00,4506,Run,"Solebury Township, USA",12.01,6.12,1h 13m
+1277,142181772,Esther Seeland,12855477232,Afternoon Weight Training,,2024-11-08 22:59:12+00:00,3075,WeightTraining,,51.0,,261 Cal
+1278,142181772,Esther Seeland,12851212123,Morning Run,,2024-11-08 10:59:21+00:00,2792,Run,"New Britain, USA",7.01,6.45,45m 15s
+1279,142181772,Esther Seeland,12843734981,Morning Run,,2024-11-07 10:57:12+00:00,2936,Run,"Doylestown Township, USA",7.51,6.35,47m 41s
+1280,142181772,Esther Seeland,12841114650,Evening Weight Training,,2024-11-06 23:19:20+00:00,3608,WeightTraining,,1.0,,228 Cal
+1281,142181772,Esther Seeland,12836019514,Morning Run,,2024-11-06 10:57:36+00:00,3352,Run,"New Britain, USA",8.01,6.4,51m 15s
+1282,142181772,Esther Seeland,12827773342,Morning Run,,2024-11-05 10:56:22+00:00,3541,Run,"New Britain, USA",9.01,6.28,56m 42s
+1283,142181772,Esther Seeland,12824859783,Evening Weight Training,,2024-11-04 23:14:55+00:00,3509,WeightTraining,,58.0,,264 Cal
+1284,142181772,Esther Seeland,12819945574,Morning Run,,2024-11-04 10:57:27+00:00,3534,Run,"Doylestown Township, USA",8.52,6.32,53m 50s
+1285,8841155,Derek Johnson,10515648000,WHOOP Pickleball → 17.5 Day Strain,This amounts to Strenuous cardiovascular exertion today.,2024-01-07 23:43:30+00:00,10799,Workout,,2.0,,"1,666 Cal"
+1286,8841155,Derek Johnson,10507033085,WHOOP Pickleball → 8.5 Day Strain,This amounts to Light cardiovascular exertion today.,2024-01-06 17:33:00+00:00,2699,Workout,,44.0,,252 Cal
+1287,8841155,Derek Johnson,10499648702,Morning Stand Up Paddling,,2024-01-05 15:48:06+00:00,3283,StandUpPaddling,"Florida Keys National Marine Sanctuary, USA",1.44,,54m 43s
+1288,8841155,Derek Johnson,10493837386,Lunch Row,,2024-01-04 16:27:29+00:00,4250,Rowing,"Florida Keys National Marine Sanctuary, USA",2.0,,33m 31s
+1289,8841155,Derek Johnson,11447757105,Morning Pickleball,14.6 Strain amounts to strenuous exertion today.,2024-05-19 11:07:30+00:00,8639,Pickleball,,2.0,,"1,143 Cal"
+1290,8841155,Derek Johnson,11433223811,Lunch Workout,8.2 Strain amounts to light exertion today.,2024-05-17 16:45:00+00:00,3059,Workout,,50.0,,322 Cal
+1291,8841155,Derek Johnson,11428139461,Evening Pickleball,12.2 Strain amounts to moderate exertion today.,2024-05-16 22:58:30+00:00,3779,Pickleball,,1.0,,576 Cal
+1292,8841155,Derek Johnson,11421071174,Evening Pickleball,9.9 Strain amounts to light exertion today.,2024-05-16 00:15:00+00:00,4499,Pickleball,,1.0,,464 Cal
+1293,8841155,Derek Johnson,11420621068,Evening Workout,11.8 Strain amounts to moderate exertion today.,2024-05-15 22:40:30+00:00,3820,Workout,,1.0,,532 Cal
+1294,8841155,Derek Johnson,11418031530,Lunch Pickleball,11.7 Strain amounts to moderate exertion today.,2024-05-15 15:52:30+00:00,3599,Pickleball,,59.0,,527 Cal
+1295,8841155,Derek Johnson,11410045901,Lunch Tennis,13.1 Strain amounts to moderate exertion today.,2024-05-14 16:13:30+00:00,3239,Tennis,,53.0,,590 Cal
+1296,8841155,Derek Johnson,11405187270,Night Pickleball,12.8 Strain amounts to moderate exertion today.,2024-05-14 01:01:30+00:00,4049,Pickleball,,1.0,,633 Cal
+1297,8841155,Derek Johnson,11404840938,Evening Pickleball,8.4 Strain amounts to light exertion today.,2024-05-14 00:03:00+00:00,1799,Pickleball,,29.0,,273 Cal
+1298,8841155,Derek Johnson,11404343863,Evening Ride,,2024-05-13 22:48:43+00:00,1116,Ride,"Beavercreek, USA",2.0,,17m 4s
+1299,8841155,Derek Johnson,11402110682,Lunch Pickleball,9.1 Strain amounts to light exertion today.,2024-05-13 16:21:00+00:00,3329,Pickleball,,55.0,,369 Cal
+1300,8841155,Derek Johnson,11724329753,Evening Pickleball,11.9 Strain amounts to moderate exertion today.,2024-06-23 23:28:30+00:00,5129,Pickleball,,1.0,,618 Cal
+1301,8841155,Derek Johnson,11723959184,Evening Kayaking,,2024-06-23 22:12:45+00:00,3233,WaterSport,"Cape Coral, USA",2.22,,53m 53s
+1302,8841155,Derek Johnson,11723989339,Evening Kayaking,4.6 Strain amounts to light exertion today.,2024-06-23 22:45:00+00:00,1169,Kayaking,,19.0,,104 bpm
+1303,8841155,Derek Johnson,11696499616,Morning Pickleball,9.6 Strain amounts to light exertion today.,2024-06-20 10:21:00+00:00,3599,Pickleball,,59.0,,428 Cal
+1304,8841155,Derek Johnson,11694132519,Evening Pickleball,7.2 Strain amounts to light exertion today.,2024-06-20 00:42:00+00:00,3509,Pickleball,,58.0,,264 Cal
+1305,8841155,Derek Johnson,11688360515,Morning Pickleball,10.6 Strain amounts to moderate exertion today.,2024-06-19 10:18:00+00:00,3419,Pickleball,,56.0,,484 Cal
+1306,8841155,Derek Johnson,11833320398,Afternoon Swim,,2024-07-07 19:45:26+00:00,1119,Swim,,250.0,,2:06 /100yd
+1307,8841155,Derek Johnson,11825475381,Afternoon Ride,11.0 Strain amounts to moderate exertion today.,2024-07-06 21:37:30+00:00,5309,Ride,,1.0,,122 bpm
+1308,8841155,Derek Johnson,11825403314,Afternoon Ride,,2024-07-06 21:36:21+00:00,5147,Ride,"Beavercreek, USA",15.79,,1h 11m
+1309,8841155,Derek Johnson,11823191381,Lunch Tennis,5.7 Strain amounts to light exertion today.,2024-07-06 15:04:30+00:00,2159,Tennis,,35.0,,149 Cal
+1310,8841155,Derek Johnson,11816091600,Morning Pickleball,16.6 Strain amounts to strenuous exertion today.,2024-07-05 13:33:00+00:00,14309,Pickleball,,3.0,,"1,783 Cal"
+1311,8841155,Derek Johnson,11806546952,Morning Pickleball,13.6 Strain amounts to moderate exertion today.,2024-07-04 11:12:00+00:00,8279,Pickleball,,2.0,,"1,009 Cal"
+1312,8841155,Derek Johnson,11800252629,Lunch Pickleball,10.8 Strain amounts to moderate exertion today.,2024-07-03 16:28:30+00:00,2789,Pickleball,,46.0,,442 Cal
+1313,8841155,Derek Johnson,11791934484,Lunch Pickleball,14.2 Strain amounts to strenuous exertion today.,2024-07-02 16:06:00+00:00,4049,Pickleball,,1.0,,722 Cal
+1314,8841155,Derek Johnson,11784025904,Lunch Pickleball,13.3 Strain amounts to moderate exertion today.,2024-07-01 16:34:30+00:00,4319,Pickleball,,1.0,,729 Cal
+1315,8841155,Derek Johnson,12241437943,Afternoon Ride,,2024-08-25 17:41:53+00:00,3070,Ride,"Beavercreek, USA",7.54,,51m 10s
+1316,8841155,Derek Johnson,12241516539,Afternoon Ride,5.5 Strain amounts to light exertion today.,2024-08-25 17:43:30+00:00,2609,Ride,,43.0,,105 bpm
+1317,8841155,Derek Johnson,12248101026,Lunch Walk,,2024-08-26 16:27:10+00:00,1302,Walk,"Beavercreek, USA",1.0,,21m 23s
+1318,8841155,Derek Johnson,12248236632,Lunch Walk,5.4 Strain amounts to light exertion today.,2024-08-26 16:28:30+00:00,1169,Walk,,19.0,,118 bpm
+1319,8841155,Derek Johnson,12512112609,Afternoon Workout,11.2 Strain amounts to moderate exertion today.,2024-09-26 21:46:30+00:00,4139,Workout,,1.0,,527 Cal
+1320,8841155,Derek Johnson,12501889923,Lunch Walk,,2024-09-25 16:10:17+00:00,1307,Walk,"Beavercreek, USA",1.0,,21m 10s
+1321,8841155,Derek Johnson,12501970693,Lunch Walk,5.1 Strain amounts to light exertion today.,2024-09-25 16:09:00+00:00,989,Walk,,16.0,,118 bpm
+1322,8841155,Derek Johnson,12593617198,Afternoon Walk,5.3 Strain amounts to light exertion today.,2024-10-06 20:33:00+00:00,1889,Walk,,31.0,,108 bpm
+1323,8841155,Derek Johnson,12593616768,Afternoon Walk,5.3 Strain amounts to light exertion today.,2024-10-06 18:42:00+00:00,1709,Walk,,28.0,,111 bpm
+1324,8841155,Derek Johnson,12560976305,Evening Pickleball,11.7 Strain amounts to moderate exertion today.,2024-10-02 23:37:30+00:00,3329,Pickleball,,55.0,,507 Cal
+1325,8841155,Derek Johnson,12556036246,Evening Pickleball,9.3 Strain amounts to light exertion today.,2024-10-01 23:54:00+00:00,2789,Pickleball,,46.0,,383 Cal
+1326,8841155,Derek Johnson,12544312349,Evening Walk,5.0 Strain amounts to light exertion today.,2024-09-30 23:13:30+00:00,1259,Walk,,20.0,,111 bpm
+1327,8841155,Derek Johnson,12543944192,Evening Walk,,2024-09-30 23:11:00+00:00,1409,Walk,"Beavercreek, USA",1.0,,22m 24s
+1328,8841155,Derek Johnson,12543236764,Afternoon Pickleball,13.9 Strain amounts to moderate exertion today.,2024-09-30 19:58:30+00:00,5219,Pickleball,,1.0,,816 Cal
+1329,49462685,Kate Mitchell,10511249072,Lunch Run,"4 miles without stopping
+5k time 32:12
+Aiming to bring that down this year to under 30",2024-01-07 11:41:31+00:00,2474,Run,,4.0,10.3,41m 14s
+1330,49462685,Kate Mitchell,10511247192,Clubbercise,,2024-01-03 19:02:09+00:00,2763,Workout,,46.0,,324 Cal
+1331,49462685,Kate Mitchell,10599943218,Morning Run,Started with Rich Green Hilary Somerville Maria Tennant Emma B and G Moseley then cut off home with Gemma through the thick mud 😆,2024-01-21 09:56:07+00:00,3738,Run,"Basingstoke and Deane, United Kingdom",3.67,14.17,52m 0s
+1332,49462685,Kate Mitchell,10599933235,Morning Run,,2024-01-21 09:49:52+00:00,265,Run,"Basingstoke and Deane, United Kingdom",0.34,12.08,4m 10s
+1333,49462685,Kate Mitchell,10599930304,Morning Run,,2024-01-21 09:39:40+00:00,574,Run,"Basingstoke and Deane, United Kingdom",0.73,12.27,8m 58s
+1334,49462685,Kate Mitchell,10578180708,Clubbercise,,2024-01-17 19:01:08+00:00,2825,Workout,,47.0,,324 Cal
+1335,49462685,Kate Mitchell,10565848999,Evening Pilates,,2024-01-15 20:33:56+00:00,3773,Pilates,,1.0,,207 Cal
+1336,49462685,Kate Mitchell,10645676794,9k (in total) with Hilary,Back home to see the daffodils are opening 🌼,2024-01-28 09:50:25+00:00,4464,Run,"Basingstoke and Deane, United Kingdom",5.13,12.13,1h 2m
+1337,49462685,Kate Mitchell,10645660866,Morning Run,,2024-01-28 09:45:32+00:00,272,Run,"Basingstoke and Deane, United Kingdom",0.42,10.47,4m 28s
+1338,49462685,Kate Mitchell,10609938738,Evening Pilates,,2024-01-22 20:31:12+00:00,3721,Pilates,,1.0,,206 Cal
+1339,49462685,Kate Mitchell,10692481271,"Morning run with Jo, Emma, Maria & Claire",Slipping and sliding,2024-02-04 08:06:15+00:00,3888,Run,"Basingstoke and Deane, United Kingdom",4.71,11.17,52m 38s
+1340,49462685,Kate Mitchell,10656307818,Evening Pilates,,2024-01-29 20:32:23+00:00,3677,Pilates,,1.0,,177 Cal
+1341,49462685,Kate Mitchell,10710168299,Evening Run with SPRC,"1km WU
+5x 1km effort
+With Claire Pickersgill pacing me 🥵",2024-02-06 19:07:12+00:00,3041,Run,"Basingstoke and Deane, United Kingdom",3.83,10.07,38m 35s
+1342,49462685,Kate Mitchell,10703842905,Evening Pilates,,2024-02-05 20:31:05+00:00,3651,Pilates,,1.0,,179 Cal
+1343,49462685,Kate Mitchell,10785335480,10k with Caroline,,2024-02-18 08:35:53+00:00,4970,Run,"Basingstoke and Deane, United Kingdom",6.26,11.45,1h 11m
+1344,49462685,Kate Mitchell,10773430961,Stand Up Paddleboarding,"First outing of 2024
+With Michelle Sitton",2024-02-16 12:55:05+00:00,6502,StandUpPaddling,"Hart, United Kingdom",4.28,,1h 48m
+1345,49462685,Kate Mitchell,10762597232,Clubbercise,,2024-02-14 19:02:19+00:00,2839,Workout,,47.0,,278 Cal
+1346,49462685,Kate Mitchell,10756144426,Intervals with SPRC,,2024-02-13 19:06:19+00:00,3484,Run,"Basingstoke and Deane, United Kingdom",4.13,9.97,41m 15s
+1347,49462685,Kate Mitchell,10832478306,"Morning trails with Gemma, Emma and Caroline",,2024-02-25 08:29:38+00:00,6579,Run,"Basingstoke and Deane, United Kingdom",7.7,13.35,1h 42m
+1348,49462685,Kate Mitchell,10816183050,Evening Pilates,,2024-02-22 19:02:10+00:00,3702,Pilates,,1.0,,177 Cal
+1349,49462685,Kate Mitchell,10802986944,25 minutes out and back with SPR,,2024-02-20 19:09:04+00:00,3005,Run,"Basingstoke and Deane, United Kingdom",4.87,10.25,50m 1s
+1350,49462685,Kate Mitchell,10881351284,Walk back from the village hall with James,Watch ran out of battery after the walk there!,2024-03-03 13:38:49+00:00,1733,Walk,"Basingstoke and Deane, United Kingdom",1.13,,24m 51s
+1351,49462685,Kate Mitchell,10882258383,Lunch Walk,,2024-03-03 11:58:17+00:00,3801,Walk,"Basingstoke and Deane, United Kingdom",1.6,,30m 35s
+1352,49462685,Kate Mitchell,10881421972,Walk to the village hall with James on his bike,Then a few laps of the track 🚴🏻,2024-03-03 12:00:19+00:00,2253,Walk,,1.6,,0 ft
+1353,49462685,Kate Mitchell,10881617012,Evening run with SPRC,"7mins easy
+7mins effort
+7mins tempo
+Repeat",2024-02-27 19:09:17+00:00,2923,Run,,4.41,11.05,48m 43s
+1354,49462685,Kate Mitchell,10843363165,Evening Pilates,,2024-02-26 20:33:24+00:00,3603,Pilates,,1.0,,184 Cal
+1355,49462685,Kate Mitchell,11031612955,Afternoon Walk,,2024-03-24 16:49:01+00:00,4536,Walk,"Basingstoke and Deane, United Kingdom",2.31,,43m 46s
+1356,49462685,Kate Mitchell,10995694523,SPRC club run,10 mins easy; 15 mins tempo; 3 mins recovery; 15 mins tempo; 10 mins easy,2024-03-19 19:08:31+00:00,3229,Run,"Basingstoke and Deane, United Kingdom",4.99,10.7,53m 27s
+1357,49462685,Kate Mitchell,10995686744,Evening Pilates,,2024-03-18 20:30:03+00:00,3872,Pilates,,1.0,,174 Cal
+1358,49462685,Kate Mitchell,11075633740,Lunch run with Karl,Feel a bit beetroot - it’s quite warm out there 🥵,2024-03-31 10:40:28+00:00,3004,Run,"Basingstoke and Deane, United Kingdom",5.0,9.93,49m 45s
+1359,49462685,Kate Mitchell,11044186493,SPRC evening run,That was a wet one 💦,2024-03-26 19:09:20+00:00,3132,Run,"Basingstoke and Deane, United Kingdom",4.42,11.27,49m 52s
+1360,49462685,Kate Mitchell,11037679779,Evening Pilates,,2024-03-25 20:30:35+00:00,3901,Pilates,,1.0,,203 Cal
+1361,49462685,Kate Mitchell,11129384213,Afternoon plod,,2024-04-07 16:32:08+00:00,2985,Run,"Basingstoke and Deane, United Kingdom",4.7,10.57,49m 38s
+1362,49462685,Kate Mitchell,11113565147,Evening Run with Karl,,2024-04-05 17:29:01+00:00,2816,Run,"Basingstoke and Deane, United Kingdom",4.52,10.25,46m 19s
+1363,49462685,Kate Mitchell,11113556048,Evening Workout,,2024-04-04 18:29:09+00:00,1515,Workout,,25.0,,77 bpm
+1364,49462685,Kate Mitchell,11113551994,Evening Workout,,2024-04-03 17:54:43+00:00,1519,Workout,,25.0,,72 bpm
+1365,49462685,Kate Mitchell,11092959128,SPRC pyramid run,"1 mile warm up
+1 min run 30s recovery
+2 min run 30s recovery
+3 min run 30s recovery
+4 min run 30s recovery
+5 min run 30s recovery
+4 min run 30s recovery
+3 min run 30s recovery
+2 min run 30s recovery
+1 min run 
+1 mile cool down",2024-04-02 18:06:13+00:00,3150,Run,"Basingstoke and Deane, United Kingdom",5.11,10.15,51m 53s
+1366,49462685,Kate Mitchell,11086061204,Evening Pilates,,2024-04-01 19:31:58+00:00,2009,Pilates,,33.0,,99 Cal
+1367,49462685,Kate Mitchell,11085388576,Afternoon Walk,,2024-04-01 16:38:44+00:00,4267,Walk,"Basingstoke and Deane, United Kingdom",2.37,,46m 9s
+1368,49462685,Kate Mitchell,11173322777,Fit Happens Broadway Boogie,,2024-04-13 15:15:51+00:00,2046,Workout,,34.0,,198 Cal
+1369,49462685,Kate Mitchell,11172877990,Fit Happens Ballet,,2024-04-13 14:29:28+00:00,1892,Workout,,31.0,,128 Cal
+1370,49462685,Kate Mitchell,11172437359,Fit Happens Fit Steps,,2024-04-13 13:47:11+00:00,1696,Workout,,28.0,,179 Cal
+1371,49462685,Kate Mitchell,11171420252,Fit Happens Yoga,,2024-04-13 11:42:43+00:00,2014,Yoga,,33.0,,120 Cal
+1372,49462685,Kate Mitchell,11171030708,Fit Happens Tap,,2024-04-13 11:05:54+00:00,1520,Workout,,25.0,,102 Cal
+1373,49462685,Kate Mitchell,11170755314,Fit Happens Zumba,,2024-04-13 10:19:36+00:00,2390,Workout,,39.0,,229 Cal
+1374,49462685,Kate Mitchell,11170349347,Fit Happens Clubbercise,,2024-04-13 09:34:42+00:00,1765,Workout,,29.0,,167 Cal
+1375,49462685,Kate Mitchell,11152389825,Evening Run,,2024-04-10 18:22:27+00:00,4766,Run,"Basingstoke and Deane, United Kingdom",6.36,10.55,1h 7m
+1376,49462685,Kate Mitchell,11197369941,Kenyan hills,With SPRC,2024-04-16 18:04:17+00:00,3144,Run,"Basingstoke and Deane, United Kingdom",4.25,11.15,47m 30s
+1377,49462685,Kate Mitchell,11197357529,Evening Pilates,,2024-04-15 19:32:29+00:00,3746,Pilates,,1.0,,176 Cal
+1378,49462685,Kate Mitchell,11300989169,1km intervals with SPRC,Shorter session due to club AGM,2024-04-30 18:04:31+00:00,2004,Run,"Basingstoke and Deane, United Kingdom",2.61,10.82,28m 17s
+1379,49462685,Kate Mitchell,11293830800,Evening Pilates,,2024-04-29 19:31:01+00:00,3736,Pilates,,1.0,,189 Cal
+1380,49462685,Kate Mitchell,11391897859,Morning Stand Up Paddling,With Wendy Collins,2024-05-12 08:10:05+00:00,5593,StandUpPaddling,"Hart, United Kingdom",2.79,,1h 33m
+1381,49462685,Kate Mitchell,11363618408,Clubbercise,,2024-05-08 18:00:41+00:00,2710,Workout,,45.0,,298 Cal
+1382,49462685,Kate Mitchell,11445009323,Morning Run part 2,With Alison Smith,2024-05-19 08:12:53+00:00,2420,Run,"Basingstoke and Deane, United Kingdom",2.82,11.58,32m 40s
+1383,49462685,Kate Mitchell,11444999315,Morning Run part 1,Managed to stop the activity on my watch 🤦🏻‍♀️,2024-05-19 07:38:58+00:00,1887,Run,"Basingstoke and Deane, United Kingdom",2.5,10.63,26m 40s
+1384,49462685,Kate Mitchell,11433574173,Evening Walk,,2024-05-17 17:45:18+00:00,2815,Walk,"Basingstoke and Deane, United Kingdom",2.42,,46m 55s
+1385,49462685,Kate Mitchell,11426032704,Evening Weight Training,,2024-05-16 17:41:18+00:00,1205,WeightTraining,,20.0,,120 Cal
+1386,49462685,Kate Mitchell,11418642827,Evening Walk,,2024-05-15 17:43:57+00:00,2057,Walk,"Basingstoke and Deane, United Kingdom",1.66,,33m 0s
+1387,49462685,Kate Mitchell,11411132599,Evening Run,,2024-05-14 18:14:53+00:00,2578,Run,"Basingstoke and Deane, United Kingdom",3.87,10.97,42m 30s
+1388,49462685,Kate Mitchell,11403563200,Evening Pilates,,2024-05-13 19:29:57+00:00,3852,Pilates,,1.0,,213 Cal
+1389,49462685,Kate Mitchell,11502169775,Afternoon Weight Training,,2024-05-26 13:15:33+00:00,1325,WeightTraining,,22.0,,97 Cal
+1390,49462685,Kate Mitchell,11501822876,Afternoon Yoga,,2024-05-26 12:24:10+00:00,1777,Yoga,,29.0,,53 Cal
+1391,49462685,Kate Mitchell,11488380610,Evening Walk,,2024-05-24 17:11:20+00:00,2872,Walk,"Basingstoke and Deane, United Kingdom",2.45,,47m 52s
+1392,49462685,Kate Mitchell,11473520297,Clubbercise,,2024-05-22 18:01:29+00:00,2756,Workout,,45.0,,290 Cal
+1393,49462685,Kate Mitchell,11465600327,Hills,With Sherfield Park Runners,2024-05-21 18:07:17+00:00,2213,Run,"Basingstoke and Deane, United Kingdom",3.15,10.02,31m 33s
+1394,49462685,Kate Mitchell,11458477807,Evening Pilates,,2024-05-20 19:30:35+00:00,3767,Pilates,,1.0,,204 Cal
+1395,49462685,Kate Mitchell,11558474139,Evening Walk,,2024-06-02 17:31:18+00:00,3707,Walk,"Basingstoke and Deane, United Kingdom",3.12,,1h 0m
+1396,49462685,Kate Mitchell,11535200908,SPRC Social,"In the pouring rain 💦
+Met the alpacas though ☺️",2024-05-30 18:08:28+00:00,3647,Run,"Hart, United Kingdom",3.63,11.32,41m 7s
+1397,49462685,Kate Mitchell,11534482654,WU jog to Claire’s,,2024-05-30 17:42:21+00:00,151,Run,,0.21,11.02,2m 23s
+1398,49462685,Kate Mitchell,11533884689,Afternoon Yoga,,2024-05-30 15:59:13+00:00,1642,Yoga,,27.0,,48 Cal
+1399,49462685,Kate Mitchell,11525820820,Afternoon Weight Training,,2024-05-29 15:56:05+00:00,1331,WeightTraining,,22.0,,112 Cal
+1400,49462685,Kate Mitchell,11525548899,Afternoon Yoga,,2024-05-29 15:12:24+00:00,1738,Yoga,,28.0,,85 Cal
+1401,49462685,Kate Mitchell,11519298852,7-7-7 session,"With Sherfield Park Runners 
+
+7 mins HM pace
+7 mins 10k pace
+7 mins 5k pace
+3 mins recovery
+Repeat
+
+In the pouring rain 💦💦",2024-05-28 18:12:29+00:00,2763,Run,"Basingstoke and Deane, United Kingdom",4.23,10.32,43m 43s
+1402,49462685,Kate Mitchell,11518183916,Afternoon Yoga,,2024-05-28 16:36:46+00:00,1503,Yoga,,25.0,,47 Cal
+1403,49462685,Kate Mitchell,11509775127,Afternoon Walk,,2024-05-27 14:31:08+00:00,2845,Walk,"Basingstoke and Deane, United Kingdom",2.44,,47m 25s
+1404,49462685,Kate Mitchell,11508957704,Afternoon Weight Training,,2024-05-27 12:47:10+00:00,1505,WeightTraining,,25.0,,103 Cal
+1405,49462685,Kate Mitchell,11508955603,Afternoon Yoga,,2024-05-27 12:17:48+00:00,1725,Yoga,,28.0,,47 Cal
+1406,49462685,Kate Mitchell,11605218953,Afternoon Walk,,2024-06-08 16:01:51+00:00,2155,Walk,"Basingstoke and Deane, United Kingdom",1.73,,35m 55s
+1407,49462685,Kate Mitchell,11604199856,Afternoon Walk,,2024-06-08 13:54:42+00:00,2489,Walk,"Basingstoke and Deane, United Kingdom",1.99,,37m 39s
+1408,49462685,Kate Mitchell,11598070507,Evening Weight Training,,2024-06-07 18:12:49+00:00,1240,WeightTraining,,20.0,,92 Cal
+1409,49462685,Kate Mitchell,11598070301,Evening Yoga,,2024-06-07 17:47:54+00:00,1373,Yoga,,22.0,,50 Cal
+1410,49462685,Kate Mitchell,11582308367,Clubbercise,,2024-06-05 18:02:38+00:00,2728,Workout,,45.0,,287 Cal
+1411,49462685,Kate Mitchell,11573964412,SPRC run,25 minutes out and back,2024-06-04 18:08:06+00:00,2922,Run,"Basingstoke and Deane, United Kingdom",4.68,10.38,48m 42s
+1412,49462685,Kate Mitchell,11565885095,Evening Yoga,,2024-06-03 18:19:21+00:00,3726,Yoga,,1.0,,112 Cal
+1413,49462685,Kate Mitchell,11667808226,Afternoon Run,"Tried to increase my pace each km to 5k then bring it back down each km to 8k 
+3rd km was an incline and 7th km was downhill though 😆",2024-06-16 16:11:59+00:00,3004,Run,"Basingstoke and Deane, United Kingdom",4.99,9.97,49m 49s
+1414,49462685,Kate Mitchell,11629550145,Pyramids with SPRC,Not run that fast in a jolly long time 💪🙌,2024-06-11 18:07:19+00:00,2927,Run,"Basingstoke and Deane, United Kingdom",3.61,9.3,33m 34s
+1415,49462685,Kate Mitchell,11622090312,Evening Pilates,,2024-06-10 19:32:20+00:00,3615,Pilates,,1.0,,181 Cal
+1416,49462685,Kate Mitchell,11683694683,SPRC intervals training,"Finally achieved the holy grail of negative splits 🙌
+And picked up my new club vest 💓",2024-06-18 18:13:51+00:00,2302,Run,"Basingstoke and Deane, United Kingdom",3.15,9.9,31m 18s
+1417,49462685,Kate Mitchell,11676163212,Evening Pilates,,2024-06-17 19:31:17+00:00,3639,Pilates,,1.0,,210 Cal
+1418,49462685,Kate Mitchell,11885896016,Lunch Stand Up Paddling,,2024-07-14 11:37:04+00:00,3732,StandUpPaddling,"Hart, United Kingdom",1.63,,1h 2m
+1419,49462685,Kate Mitchell,11885883439,Morning Stand Up Paddling,,2024-07-14 09:45:31+00:00,4073,StandUpPaddling,"Hart, United Kingdom",1.53,,1h 7m
+1420,49462685,Kate Mitchell,11848606936,Evening Club Run,"Kenyan hills
+Warm up run there
+3x 6 minute run + 3 minute cool down
+Run home",2024-07-09 18:04:52+00:00,2801,Run,"Basingstoke and Deane, United Kingdom",4.0,10.98,44m 0s
+1421,49462685,Kate Mitchell,11840971974,Evening Pilates,,2024-07-08 19:30:00+00:00,3600,Pilates,,1.0,,
+1422,49462685,Kate Mitchell,11908846054,Morning Walk,Back from the Year 6 leavers service because my 1:1 wanted to know ‘exactly’ how far they’d walked 😆☺️,2024-07-17 09:14:44+00:00,1496,Walk,"Basingstoke and Deane, United Kingdom",1.04,,21m 17s
+1423,49462685,Kate Mitchell,11904648203,Evening Run with SPRC,Fartlek session,2024-07-16 18:08:05+00:00,2616,Run,"Basingstoke and Deane, United Kingdom",3.58,9.95,35m 38s
+1424,49462685,Kate Mitchell,12036430038,Afternoon Swim,10 minutes while the boys threw themselves about at Aquadrome 💦,2024-08-01 14:09:05+00:00,1419,Swim,,547.0,,1:59 /100yd
+1425,49462685,Kate Mitchell,12026354922,Morning Stand Up Paddling,With Grace,2024-07-31 09:25:01+00:00,6942,StandUpPaddling,"Hart, United Kingdom",3.02,,1h 55m
+1426,49462685,Kate Mitchell,12021464397,Evening Run,SPRC abandoned the mile intervals due to the heat and opted for a 5 mile social 🥵☺️,2024-07-30 18:06:48+00:00,3619,Run,"Basingstoke and Deane, United Kingdom",4.78,12.22,58m 25s
+1427,49462685,Kate Mitchell,12013104574,Evening Stand Up Paddling,With Wendy Collins and Sam in the kayak,2024-07-29 17:48:52+00:00,5636,StandUpPaddling,"Hart, United Kingdom",2.91,,1h 33m
+1428,49462685,Kate Mitchell,12080505898,SPRC Tempo Run,"1 mile warm up
+8 minutes effort 2 minutes recovery x3
+Warm down",2024-08-06 18:05:49+00:00,2973,Run,"Basingstoke and Deane, United Kingdom",4.51,10.9,49m 14s
+1429,49462685,Kate Mitchell,12169996186,Afternoon Swim,,2024-08-17 11:40:01+00:00,837,Swim,,629.0,,2:12 /100yd
+1430,49462685,Kate Mitchell,12169994732,Walk to Bagna Regina Giovanna 💚,Walked there as well but my watch discarded the activity when we arrived 😫,2024-08-17 10:10:30+00:00,3465,Walk,"Sorrento, Italy",1.18,,31m 11s
+1431,49462685,Kate Mitchell,12161660777,Afternoon Swim,2 lengths with James 🏊‍♂️💦💪,2024-08-16 11:36:03+00:00,295,Swim,,55.0,,8:46 /100yd
+1432,49462685,Kate Mitchell,12161032436,Lunch Swim,,2024-08-16 09:32:48+00:00,922,Swim,,601.0,,2:30 /100yd
+1433,49462685,Kate Mitchell,12154183769,Archaeological park of Pompeii,,2024-08-15 12:13:23+00:00,4418,Walk,"Pompei, Italy",1.27,,39m 44s
+1434,49462685,Kate Mitchell,12152342117,Mount Vesuvius climb,To the crater,2024-08-15 07:54:40+00:00,5765,Walk,"Ercolano, Italy",2.0,,1h 1m
+1435,49462685,Kate Mitchell,12236563175,Morning Run part 2,With Caroline Buckley,2024-08-25 08:47:42+00:00,2052,Run,"Basingstoke and Deane, United Kingdom",2.52,12.43,31m 25s
+1436,49462685,Kate Mitchell,12236554430,Morning Run part 1,"With Caroline Buckley and Jo Willoughby 
+Watch stopped 😫",2024-08-25 08:11:21+00:00,2138,Run,"Basingstoke and Deane, United Kingdom",2.16,11.22,24m 17s
+1437,49462685,Kate Mitchell,12198588690,Afternoon Swim,,2024-08-20 15:30:42+00:00,1043,Swim,,547.0,,3:09 /100yd
+1438,49462685,Kate Mitchell,12185838623,Lunch Swim,,2024-08-19 09:49:41+00:00,2000,Swim,,1.0,,3:02 /100yd
+1439,49462685,Kate Mitchell,12289793273,Hampton Court Paddle,,2024-08-31 09:13:39+00:00,12131,WaterSport,"Elmbridge, United Kingdom",4.68,,3h 22m
+1440,49462685,Kate Mitchell,12266985150,Clubbercise,,2024-08-28 18:02:30+00:00,2741,Workout,,45.0,,281 Cal
+1441,49462685,Kate Mitchell,12258190154,Club run,Handicap pairs,2024-08-27 18:05:03+00:00,2700,Run,"Basingstoke and Deane, United Kingdom",4.13,10.67,44m 6s
+1442,49462685,Kate Mitchell,12356146057,Morning Run,,2024-09-08 08:39:52+00:00,2875,Run,"Basingstoke and Deane, United Kingdom",4.39,10.25,45m 4s
+1443,49462685,Kate Mitchell,12318021079,SPRC Intervals,,2024-09-03 18:14:02+00:00,2483,Run,"Basingstoke and Deane, United Kingdom",3.0,9.45,28m 22s
+1444,49462685,Kate Mitchell,12318011222,Evening Pilates,,2024-09-02 19:33:00+00:00,3649,Pilates,,1.0,,145 Cal
+1445,49462685,Kate Mitchell,12417338831,Afternoon Walk with James,,2024-09-15 14:05:21+00:00,1987,Walk,"Basingstoke and Deane, United Kingdom",1.0,,24m 53s
+1446,49462685,Kate Mitchell,12414377064,Run with Karl,,2024-09-15 09:06:36+00:00,3254,Run,"Basingstoke and Deane, United Kingdom",4.97,10.75,53m 25s
+1447,49462685,Kate Mitchell,12402342277,Sunset paddle,That was epic!,2024-09-13 17:20:39+00:00,9166,StandUpPaddling,"Surrey Heath, United Kingdom",2.75,,2h 32m
+1448,49462685,Kate Mitchell,12386139198,Clubbercise,,2024-09-11 18:03:12+00:00,2692,Workout,,44.0,,258 Cal
+1449,49462685,Kate Mitchell,12378061736,SPRC run,Ever decreasing circles 😵‍💫,2024-09-10 18:07:35+00:00,2467,Run,"Basingstoke and Deane, United Kingdom",3.65,11.22,41m 4s
+1450,49462685,Kate Mitchell,12377715763,Evening Pilates,,2024-09-09 19:34:16+00:00,3674,Pilates,,1.0,,153 Cal
+1451,49462685,Kate Mitchell,12474550430,Lunch Run,Soooo humid 🥵,2024-09-22 10:06:24+00:00,3313,Run,"Basingstoke and Deane, United Kingdom",5.0,10.77,53m 54s
+1452,49462685,Kate Mitchell,12435687090,SPRC run,"Tempo Hills
+WU jog there
+3 sets of 8 minutes effort with 3 minutes recovery between
+WD jog home",2024-09-17 18:01:27+00:00,3079,Run,"Basingstoke and Deane, United Kingdom",3.74,11.25,42m 11s
+1453,49462685,Kate Mitchell,12427403571,Evening Pilates,,2024-09-16 19:31:34+00:00,3638,Pilates,,1.0,,180 Cal
+1454,49462685,Kate Mitchell,12531456484,Lunch Walk with Karl & James,,2024-09-29 10:31:17+00:00,2890,Walk,"Basingstoke and Deane, United Kingdom",2.0,,42m 25s
+1455,49462685,Kate Mitchell,12494811271,SPRC social chatty run,With a few 30s strides thrown in for good measure,2024-09-24 18:04:20+00:00,2778,Run,"Basingstoke and Deane, United Kingdom",4.11,11.2,46m 8s
+1456,49462685,Kate Mitchell,12589155863,Chatty trails with Jo,,2024-10-06 10:42:24+00:00,3652,Run,"Basingstoke and Deane, United Kingdom",3.8,12.62,48m 1s
+1457,49462685,Kate Mitchell,12550782193,SPRC Fartlek session,,2024-10-01 18:07:48+00:00,3055,Run,"Basingstoke and Deane, United Kingdom",4.0,11.33,45m 18s
+1458,49462685,Kate Mitchell,12542945049,Evening Pilates,,2024-09-30 19:33:12+00:00,3803,Pilates,,1.0,,174 Cal
+1459,49462685,Kate Mitchell,12644159046,F.O.O.B.S Trail 10k,,2024-10-13 09:29:58+00:00,4477,Run,"Basingstoke and Deane, United Kingdom",6.54,11.3,1h 13m
+1460,49462685,Kate Mitchell,12638863927,Afternoon Walk,,2024-10-12 15:01:40+00:00,4220,Walk,"Basingstoke and Deane, United Kingdom",2.1,,47m 1s
+1461,49462685,Kate Mitchell,12616103889,Evening Run,"Out and back with Hilary, Emma and Caroline",2024-10-09 17:36:01+00:00,2750,Run,"Basingstoke and Deane, United Kingdom",3.2,10.13,32m 27s
+1462,49462685,Kate Mitchell,12616096946,Evening Pilates,,2024-10-07 19:30:55+00:00,3759,Pilates,,1.0,,175 Cal
+1463,49462685,Kate Mitchell,12664262144,SPRC meet and retreat,,2024-10-15 18:13:31+00:00,3153,Run,"Basingstoke and Deane, United Kingdom",3.8,10.73,40m 52s
+1464,49462685,Kate Mitchell,12656337822,Evening Pilates,,2024-10-14 19:32:47+00:00,3734,Pilates,,1.0,,181 Cal
+1465,49462685,Kate Mitchell,12719776212,SPRC Progression run,,2024-10-22 18:08:37+00:00,2502,Run,"Basingstoke and Deane, United Kingdom",3.26,10.85,35m 24s
+1466,49462685,Kate Mitchell,12711807126,Evening Pilates,,2024-10-21 19:31:42+00:00,3726,Pilates,,1.0,,153 Cal
+1467,49462685,Kate Mitchell,12812337393,Southern Cross Country League,with SPRC,2024-11-03 11:02:36+00:00,3632,Run,"Basingstoke and Deane, United Kingdom",5.15,11.65,1h 0m
+1468,49462685,Kate Mitchell,12810635270,Warm up before attempting my first cross country race,,2024-11-03 09:20:40+00:00,417,Run,"Basingstoke and Deane, United Kingdom",0.58,11.83,6m 53s
+1469,49462685,Kate Mitchell,12810633798,Morning Yoga,,2024-11-01 09:23:39+00:00,882,Yoga,,14.0,,37 Cal
+1470,49462685,Kate Mitchell,12780302416,Morning Yoga,,2024-10-30 10:41:09+00:00,902,Yoga,,15.0,,52 Cal
+1471,49462685,Kate Mitchell,12776235456,SPRC run,"Summit attack (hills)
+8 laps",2024-10-29 19:03:35+00:00,3590,Run,"Basingstoke and Deane, United Kingdom",4.69,10.62,49m 49s
+1472,49462685,Kate Mitchell,12771958648,Morning Yoga,,2024-10-29 09:31:35+00:00,1430,Yoga,,23.0,,40 Cal
+1473,49462685,Kate Mitchell,12763695554,Morning Yoga,,2024-10-28 09:47:12+00:00,951,Yoga,,15.0,,38 Cal
+1474,49462685,Kate Mitchell,12869777241,Afternoon Walk,The anti-cyclonic gloom has started to lift 🌥️,2024-11-10 15:51:01+00:00,3170,Walk,"Basingstoke and Deane, United Kingdom",1.7,,38m 42s
+1475,49462685,Kate Mitchell,12865695593,Morning Run with Caroline,Mix of trails and a bit of road,2024-11-10 08:35:19+00:00,3882,Run,"Basingstoke and Deane, United Kingdom",5.08,11.33,57m 37s
+1476,49462685,Kate Mitchell,12860837740,Afternoon Walk with Karl & James,,2024-11-09 15:02:25+00:00,3023,Walk,"Basingstoke and Deane, United Kingdom",1.0,,32m 15s
+1477,49462685,Kate Mitchell,12847244857,Evening Pilates,,2024-11-07 19:00:56+00:00,3603,Pilates,,1.0,,174 Cal
+1478,49462685,Kate Mitchell,12842440532,Morning Yoga,,2024-11-07 07:23:16+00:00,610,Yoga,,10.0,,35 Cal
+1479,49462685,Kate Mitchell,12834593817,Morning Weight Training,,2024-11-06 07:33:56+00:00,304,WeightTraining,,5.0,,33 Cal
+1480,49462685,Kate Mitchell,12834566836,Morning Yoga,,2024-11-06 07:28:09+00:00,302,Yoga,,5.0,,19 Cal
+1481,49462685,Kate Mitchell,12831658845,25 minutes out and back,"Aiming for constant pace
+With SPRC",2024-11-05 19:11:49+00:00,2979,Run,"Basingstoke and Deane, United Kingdom",4.59,10.82,49m 39s
+1482,49462685,Kate Mitchell,12826263029,Morning Weight Training,,2024-11-05 07:20:07+00:00,304,WeightTraining,,5.0,,28 Cal
+1483,49462685,Kate Mitchell,12826168089,Morning Yoga,,2024-11-05 06:54:08+00:00,602,Yoga,,10.0,,26 Cal
