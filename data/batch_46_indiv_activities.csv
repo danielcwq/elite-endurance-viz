@@ -1,0 +1,236 @@
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+0,36760710,Luke McCann,12592605162,Afternoon Run,,2024-10-06 15:45:04+00:00,2634,Run,"Sankt Moritz, Switzerland",6.28,6.82,42m 51s
+1,36760710,Luke McCann,12643582541,Morning Run,,2024-10-13 08:05:43+00:00,3928,Run,"Sankt Moritz, Switzerland",9.35,6.98,1h 5m
+2,36760710,Luke McCann,12635848612,Lunch Run,,2024-10-12 09:57:05+00:00,584,Run,"Celerina/Schlarigna, Switzerland",1.24,7.82,9m 44s
+3,36760710,Luke McCann,12635848346,Morning Run,,2024-10-12 08:58:18+00:00,1993,Run,"Celerina/Schlarigna, Switzerland",5.79,5.73,33m 12s
+4,36760710,Luke McCann,12635845380,Morning Run,,2024-10-12 08:20:44+00:00,863,Run,"Celerina/Schlarigna, Switzerland",1.89,7.57,14m 23s
+5,36760710,Luke McCann,12630804194,Evening Run,,2024-10-11 16:19:30+00:00,565,Run,"Sankt Moritz, Switzerland",1.24,7.57,9m 25s
+6,36760710,Luke McCann,12630803871,Evening Run,,2024-10-11 16:06:56+00:00,552,Run,"Sankt Moritz, Switzerland",0.88,10.1,8m 57s
+7,36760710,Luke McCann,12630803580,Afternoon Run,,2024-10-11 15:18:14+00:00,824,Run,"Sankt Moritz, Switzerland",1.87,7.33,13m 44s
+8,36760710,Luke McCann,12627262923,Morning Run,,2024-10-11 07:32:40+00:00,2137,Run,"Sankt Moritz, Switzerland",4.97,7.15,35m 37s
+9,36760710,Luke McCann,12623452177,Afternoon Elliptical,,2024-10-10 15:50:33+00:00,3600,Elliptical,,1.0,,
+10,36760710,Luke McCann,12620023402,Lunch Run,,2024-10-10 09:32:27+00:00,553,Run,,1.24,7.42,9m 13s
+11,36760710,Luke McCann,12620023134,Morning Run,,2024-10-10 08:56:54+00:00,1720,Run,,5.06,5.67,28m 40s
+12,36760710,Luke McCann,12620022480,Morning Run,,2024-10-10 08:34:23+00:00,831,Run,,1.86,7.43,13m 51s
+13,36760710,Luke McCann,12612853252,Lunch Elliptical,,2024-10-09 09:25:16+00:00,3607,Elliptical,,1.0,,134 bpm
+14,36760710,Luke McCann,12612853247,Morning Run,,2024-10-09 08:04:38+00:00,2789,Run,"Sankt Moritz, Switzerland",6.22,7.23,44m 58s
+15,36760710,Luke McCann,12608619692,Afternoon Swim,,2024-10-08 15:40:47+00:00,3215,Swim,,1.0,,1:55 /100yd
+16,36760710,Luke McCann,12605368797,Morning Run,,2024-10-08 08:04:15+00:00,2698,Run,"Sankt Moritz, Switzerland",6.21,7.15,44m 29s
+17,36760710,Luke McCann,12597289899,Morning Run,,2024-10-07 07:34:52+00:00,2603,Run,"Sankt Moritz, Switzerland",6.23,6.95,43m 17s
+18,36760710,Luke McCann,12698520009,Morning Run,,2024-10-20 07:33:08+00:00,4680,Run,"Sankt Moritz, Switzerland",11.18,6.8,1h 16m
+19,36760710,Luke McCann,12698517505,Evening Ride,,2024-10-19 16:17:36+00:00,3600,Ride,,1.0,,
+20,36760710,Luke McCann,12691958067,Afternoon Run,,2024-10-19 11:07:45+00:00,554,Run,,1.24,7.43,9m 14s
+21,36760710,Luke McCann,12691957881,Lunch Run,,2024-10-19 10:17:17+00:00,2498,Run,,6.43,6.47,41m 38s
+22,36760710,Luke McCann,12691957325,Lunch Run,,2024-10-19 09:35:32+00:00,831,Run,,1.86,7.43,13m 51s
+23,36760710,Luke McCann,12686080543,Afternoon Run,,2024-10-18 15:46:22+00:00,584,Run,"Sankt Moritz, Switzerland",1.24,7.83,9m 44s
+24,36760710,Luke McCann,12686079951,Afternoon Run,,2024-10-18 15:33:37+00:00,521,Run,"Sankt Moritz, Switzerland",0.9,8.97,8m 9s
+25,36760710,Luke McCann,12686079266,Afternoon Run,,2024-10-18 14:34:03+00:00,849,Run,"Sankt Moritz, Switzerland",1.9,7.42,14m 6s
+26,36760710,Luke McCann,12683127733,Morning Run,,2024-10-18 07:45:58+00:00,1649,Run,"Sankt Moritz, Switzerland",3.72,7.35,27m 23s
+27,36760710,Luke McCann,12679066922,Afternoon Swim,,2024-10-17 15:24:08+00:00,4692,Swim,,2.0,,2:00 /100yd
+28,36760710,Luke McCann,12676273107,Lunch Run,,2024-10-17 09:24:32+00:00,674,Run,"Sankt Moritz, Switzerland",1.34,8.35,11m 14s
+29,36760710,Luke McCann,12676273157,Morning Run,,2024-10-17 08:48:39+00:00,1338,Run,"Sankt Moritz, Switzerland",3.96,5.48,21m 44s
+30,36760710,Luke McCann,12676271796,Morning Run,,2024-10-17 08:07:35+00:00,844,Run,"Sankt Moritz, Switzerland",1.86,7.53,14m 4s
+31,36760710,Luke McCann,12671185444,Evening Elliptical,,2024-10-16 16:11:28+00:00,3601,Elliptical,,1.0,,
+32,36760710,Luke McCann,12667761885,Morning Run,,2024-10-16 07:33:57+00:00,2664,Run,"Sankt Moritz, Switzerland",6.23,7.12,44m 24s
+33,36760710,Luke McCann,12662332467,Evening Run,,2024-10-15 16:07:32+00:00,637,Run,"Celerina/Schlarigna, Switzerland",1.24,8.52,10m 37s
+34,36760710,Luke McCann,12662331606,Afternoon Run,,2024-10-15 15:05:50+00:00,2513,Run,"Celerina/Schlarigna, Switzerland",7.31,5.62,41m 7s
+35,36760710,Luke McCann,12662329572,Afternoon Run,,2024-10-15 14:32:10+00:00,835,Run,"Celerina/Schlarigna, Switzerland",1.87,7.42,13m 55s
+36,36760710,Luke McCann,12659374575,Morning Run,,2024-10-15 08:39:18+00:00,2082,Run,"Sankt Moritz, Switzerland",4.97,6.67,33m 11s
+37,36760710,Luke McCann,12654325535,Afternoon Run,,2024-10-14 15:02:47+00:00,2649,Run,"Sankt Moritz, Switzerland",6.21,7.08,44m 3s
+38,36760710,Luke McCann,12651618406,Morning Run,,2024-10-14 07:47:53+00:00,1600,Run,"Sankt Moritz, Switzerland",3.73,7.13,26m 40s
+39,36760710,Luke McCann,12812636683,Morning Run,,2024-11-03 09:41:46+00:00,5284,Run,"Dublin, Ireland",12.69,6.8,1h 26m
+40,36760710,Luke McCann,12807767496,Evening Run,,2024-11-02 19:43:02+00:00,2394,Run,"Dún Laoghaire-Rathdown, Ireland",6.21,6.18,38m 27s
+41,36760710,Luke McCann,12804662277,Lunch Run,,2024-11-02 12:49:57+00:00,640,Run,"Fingal, Ireland",1.48,7.18,10m 38s
+42,36760710,Luke McCann,12804662045,Lunch Run,,2024-11-02 11:55:36+00:00,2382,Run,"Fingal, Ireland",6.18,5.52,34m 7s
+43,36760710,Luke McCann,12804660728,Lunch Run,,2024-11-02 11:10:29+00:00,829,Run,"Fingal, Ireland",1.98,6.95,13m 49s
+44,36760710,Luke McCann,12799227797,Evening Run,,2024-11-01 19:06:40+00:00,734,Run,"Dún Laoghaire-Rathdown, Ireland",1.37,8.08,11m 5s
+45,36760710,Luke McCann,12799227460,Evening Run,,2024-11-01 18:48:15+00:00,756,Run,"Dún Laoghaire-Rathdown, Ireland",1.32,8.47,11m 14s
+46,36760710,Luke McCann,12799227046,Evening Run,,2024-11-01 18:27:05+00:00,761,Run,"Dún Laoghaire-Rathdown, Ireland",1.86,6.47,12m 5s
+47,36760710,Luke McCann,12797135091,Morning Run,,2024-11-01 09:07:20+00:00,1517,Run,"Dún Laoghaire-Rathdown, Ireland",3.91,6.27,24m 31s
+48,36760710,Luke McCann,12792029890,Evening Run,,2024-10-31 19:49:14+00:00,854,Run,"Dún Laoghaire-Rathdown, Ireland",1.86,7.62,14m 14s
+49,36760710,Luke McCann,12792029289,Evening Run,,2024-10-31 19:06:42+00:00,2021,Run,"Dún Laoghaire-Rathdown, Ireland",6.24,5.32,33m 8s
+50,36760710,Luke McCann,12792028291,Evening Run,,2024-10-31 18:30:29+00:00,819,Run,"Dún Laoghaire-Rathdown, Ireland",1.86,7.3,13m 37s
+51,36760710,Luke McCann,12789729637,Morning Run,,2024-10-31 10:35:53+00:00,525,Run,"Dún Laoghaire-Rathdown, Ireland",1.31,6.67,8m 45s
+52,36760710,Luke McCann,12789729087,Morning Run,,2024-10-31 10:00:51+00:00,1683,Run,"Dún Laoghaire-Rathdown, Ireland",5.14,5.38,27m 44s
+53,36760710,Luke McCann,12789729000,Morning Run,,2024-10-31 09:34:47+00:00,765,Run,"Dún Laoghaire-Rathdown, Ireland",1.86,6.82,12m 42s
+54,36760710,Luke McCann,12783627870,Lunch Elliptical,,2024-10-30 12:27:00+00:00,2701,Elliptical,,45.0,,
+55,36760710,Luke McCann,12783627724,Lunch Run,,2024-10-30 11:24:18+00:00,2910,Run,"Dún Laoghaire-Rathdown, Ireland",7.45,6.18,46m 5s
+56,36760710,Luke McCann,12776787413,Evening Elliptical,,2024-10-29 18:58:37+00:00,5400,Elliptical,,1.0,,
+57,36760710,Luke McCann,12773138479,Lunch Run,,2024-10-29 12:55:11+00:00,554,Run,,1.24,7.43,9m 14s
+58,36760710,Luke McCann,12773138092,Lunch Run,,2024-10-29 12:09:31+00:00,2173,Run,,6.46,5.6,36m 13s
+59,36760710,Luke McCann,12773137493,Lunch Run,,2024-10-29 11:49:36+00:00,831,Run,,1.86,7.43,13m 51s
+60,36760710,Luke McCann,12771716893,Evening Run,,2024-10-28 19:15:17+00:00,2653,Run,"Dún Laoghaire-Rathdown, Ireland",6.24,6.6,41m 14s
+61,36760710,Luke McCann,12765378921,Lunch Run,,2024-10-28 12:32:35+00:00,1502,Run,,3.72,6.72,25m 2s
+62,36760710,Luke McCann,12831648601,Evening Run,,2024-11-05 19:30:31+00:00,918,Run,"Dún Laoghaire-Rathdown, Ireland",1.55,8.42,13m 5s
+63,36760710,Luke McCann,12831647062,Evening Run,,2024-11-05 18:53:38+00:00,1471,Run,"Dún Laoghaire-Rathdown, Ireland",2.39,9.78,23m 27s
+64,36760710,Luke McCann,12831646103,Evening Run,,2024-11-05 18:17:26+00:00,797,Run,"Dún Laoghaire-Rathdown, Ireland",1.88,6.28,11m 50s
+65,36760710,Luke McCann,12829664989,Afternoon Run,,2024-11-05 13:03:19+00:00,555,Run,,1.24,7.45,9m 15s
+66,36760710,Luke McCann,12829664692,Lunch Run,,2024-11-05 12:28:03+00:00,1713,Run,,5.25,5.43,28m 33s
+67,36760710,Luke McCann,12829663796,Lunch Run,,2024-11-05 12:09:44+00:00,832,Run,,1.86,7.43,13m 52s
+68,36760710,Luke McCann,12823145545,Afternoon Run,,2024-11-04 17:59:44+00:00,2788,Run,"Dún Laoghaire-Rathdown, Ireland",6.22,7.03,43m 47s
+69,36760710,Luke McCann,12823144627,Lunch Run,,2024-11-04 12:56:15+00:00,1593,Run,"Dún Laoghaire-Rathdown, Ireland",3.88,6.47,25m 11s
+70,57348015,Jude Wheeler-Dee,10514030741,Lunch Run,,2024-01-07 16:04:37+00:00,6377,Run,"Toronto, Canada",13.29,7.52,1h 40m
+71,57348015,Jude Wheeler-Dee,10741739898,Morning Run,,2024-02-11 13:33:38+00:00,6129,Run,"Brookline, USA",11.87,7.58,1h 30m
+72,57348015,Jude Wheeler-Dee,11181133867,Morning Run,With 6x4 mins at tempo in the mid,2024-04-14 12:29:57+00:00,5985,Run,"Kingston, Canada",12.96,6.97,1h 30m
+73,57348015,Jude Wheeler-Dee,11165316462,Morning Run,20 tempo - last 14’ of Mona,2024-04-12 14:39:22+00:00,2089,Run,"Kingston, Canada",6.14,5.52,33m 55s
+74,57348015,Jude Wheeler-Dee,11217279810,Morning Run,,2024-04-19 13:45:53+00:00,3038,Run,"Kingston, Canada",6.84,5.88,40m 14s
+75,57348015,Jude Wheeler-Dee,11210339742,Morning Run,,2024-04-18 14:06:56+00:00,3846,Run,"Kingston, Canada",8.2,7.37,1h 0m
+76,57348015,Jude Wheeler-Dee,11206461777,Afternoon Run,,2024-04-17 18:58:36+00:00,3855,Run,"Kingston, Canada",8.3,7.23,1h 0m
+77,57348015,Jude Wheeler-Dee,11199058674,Evening Run,8x800 off 2-2:30,2024-04-16 22:02:04+00:00,2016,Run,"Kingston, Canada",4.59,4.97,22m 48s
+78,57348015,Jude Wheeler-Dee,11199059078,Afternoon Run,🐶🐄,2024-04-16 20:58:48+00:00,1867,Run,"Kingston, Canada",2.82,7.28,20m 33s
+79,57348015,Jude Wheeler-Dee,11187658114,Morning Run,,2024-04-15 12:55:17+00:00,3685,Run,"Kingston, Canada",7.93,7.63,1h 0m
+80,57348015,Jude Wheeler-Dee,11286179955,Lunch Run,,2024-04-28 16:06:27+00:00,7965,Run,"Kingston, Canada",16.49,7.28,2h 0m
+81,57348015,Jude Wheeler-Dee,11284937572,Afternoon Run,Tempo type work,2024-04-27 21:56:20+00:00,1382,Run,"Village of Canton, USA",3.47,5.97,20m 46s
+82,57348015,Jude Wheeler-Dee,11250074027,Evening Run,57’s,2024-04-23 22:03:51+00:00,1147,Run,"Kingston, Canada",3.52,5.43,19m 7s
+83,57348015,Jude Wheeler-Dee,11243120305,Afternoon Run,,2024-04-22 19:27:52+00:00,4309,Run,"Kingston, Canada",8.07,7.47,1h 0m
+84,57348015,Jude Wheeler-Dee,11349389648,Morning Run,with 🦆,2024-05-05 12:02:06+00:00,6018,Run,"Kingston, Canada",13.12,7.38,1h 36m
+85,57348015,Jude Wheeler-Dee,11331069236,Morning Run,300’s,2024-05-04 14:02:26+00:00,1346,Run,"Kingston, Canada",2.87,6.13,17m 40s
+86,57348015,Jude Wheeler-Dee,11325758252,Afternoon Run,🌻,2024-05-03 21:19:02+00:00,4510,Run,"Kingston, Canada",9.88,7.28,1h 12m
+87,57348015,Jude Wheeler-Dee,11318069094,Afternoon Run,,2024-05-02 19:25:58+00:00,4350,Run,"Kingston, Canada",11.02,6.35,1h 10m
+88,57348015,Jude Wheeler-Dee,11302687277,Evening Run,,2024-04-30 22:15:11+00:00,2405,Run,"Kingston, Canada",5.7,5.48,31m 16s
+89,57348015,Jude Wheeler-Dee,11373652183,Afternoon Run,,2024-05-09 21:44:32+00:00,7880,Run,"Kingston, Canada",11.4,6.5,1h 14m
+90,57348015,Jude Wheeler-Dee,11357524580,Evening Run,cop k’s,2024-05-07 22:35:05+00:00,5102,Run,"Kingston, Canada",7.74,6.78,52m 32s
+91,57348015,Jude Wheeler-Dee,11349389589,Evening Run,,2024-05-06 23:31:52+00:00,4212,Run,"Kingston, Canada",9.83,7.12,1h 10m
+92,57348015,Jude Wheeler-Dee,11439388648,Morning Run,,2024-05-18 12:10:11+00:00,4801,Run,"Kingston, Canada",10.91,7.33,1h 20m
+93,57348015,Jude Wheeler-Dee,11432331096,Morning Run,,2024-05-17 14:29:12+00:00,4117,Run,"Kingston, Canada",7.86,7.77,1h 1m
+94,57348015,Jude Wheeler-Dee,11427810088,Afternoon Run,,2024-05-16 21:12:33+00:00,6731,Run,"Kingston, Canada",11.59,6.43,1h 14m
+95,57348015,Jude Wheeler-Dee,11413154594,Evening Run,800’s,2024-05-14 22:39:17+00:00,4906,Run,"Kingston, Canada",6.83,7.27,49m 42s
+96,57348015,Jude Wheeler-Dee,11411919571,Afternoon Run,,2024-05-13 19:37:20+00:00,4302,Run,"Kingston, Canada",9.4,7.45,1h 10m
+97,57348015,Jude Wheeler-Dee,11467900937,Evening Run,,2024-05-21 22:36:53+00:00,7295,Run,"Kingston, Canada",8.67,7.12,1h 1m
+98,57348015,Jude Wheeler-Dee,11456059083,Morning Run,,2024-05-20 12:59:47+00:00,4257,Run,"Kingston, Canada",10.55,6.63,1h 10m
+99,57348015,Jude Wheeler-Dee,11540208143,Morning Run,,2024-05-31 12:30:13+00:00,5200,Run,"Kingston, Canada",8.75,6.88,1h 0m
+100,57348015,Jude Wheeler-Dee,11521213695,Evening Run,,2024-05-28 22:40:07+00:00,8034,Run,"Kingston, Canada",10.0,7.52,1h 15m
+101,57348015,Jude Wheeler-Dee,11591742356,Afternoon Run,Tempo,2024-06-06 21:17:14+00:00,5712,Run,"Kingston, Canada",10.89,6.73,1h 13m
+102,57348015,Jude Wheeler-Dee,11652799160,Afternoon Run,,2024-06-14 18:33:03+00:00,3651,Run,"Kingston, Canada",8.31,7.22,1h 0m
+103,57348015,Jude Wheeler-Dee,11652792644,Morning Run,,2024-06-14 13:29:59+00:00,1800,Run,"Hamilton, Canada",4.22,7.1,30m 0s
+104,57348015,Jude Wheeler-Dee,11631404317,Evening Run,,2024-06-11 22:40:12+00:00,6196,Run,"Kingston, Canada",7.9,7.6,1h 0m
+105,57348015,Jude Wheeler-Dee,11676239123,Afternoon Run,,2024-06-17 20:13:49+00:00,1844,Run,"Kingston, Canada",4.24,7.08,30m 2s
+106,57348015,Jude Wheeler-Dee,11673863670,Morning Run,"Tempo, 200s, 150s",2024-06-17 14:22:58+00:00,2329,Run,"Kingston, Canada",4.21,5.78,24m 25s
+107,57348015,Jude Wheeler-Dee,11824946867,Afternoon Run,,2024-07-06 20:26:09+00:00,1812,Run,"Kingston, Canada",4.4,6.8,30m 0s
+108,57348015,Jude Wheeler-Dee,11824770103,Morning Run,"Tempo, 2s, 90s, 60s, 30s",2024-07-06 12:45:49+00:00,7672,Run,"Kingston, Canada",10.83,7.35,1h 19m
+109,57348015,Jude Wheeler-Dee,11807508217,Morning Run,,2024-07-04 14:40:06+00:00,3691,Run,"Kingston, Canada",8.13,7.38,1h 0m
+110,57348015,Jude Wheeler-Dee,11865668600,Afternoon Run,Tempo,2024-07-11 19:54:52+00:00,5141,Run,"Kingston, Canada",10.1,7.2,1h 12m
+111,57348015,Jude Wheeler-Dee,11850428751,Evening Run,4x400,2024-07-09 22:02:39+00:00,6262,Run,"Kingston, Canada",6.69,8.62,57m 39s
+112,57348015,Jude Wheeler-Dee,12122723466,Morning Run,,2024-08-11 14:15:22+00:00,6005,Run,"Kingston, Canada",12.54,7.18,1h 30m
+113,57348015,Jude Wheeler-Dee,12112195600,Morning Run,,2024-08-10 13:28:57+00:00,5759,Run,"Kingston, Canada",8.55,7.12,1h 0m
+114,57348015,Jude Wheeler-Dee,12112195580,Morning Run,Heart rate heart rate heart rate,2024-08-09 13:26:09+00:00,4596,Run,"Kingston, Canada",8.68,7.0,1h 0m
+115,57348015,Jude Wheeler-Dee,12199629106,Lunch Run,,2024-08-18 15:40:47+00:00,6011,Run,"Kingston, Canada",12.12,7.53,1h 31m
+116,57348015,Jude Wheeler-Dee,12156302193,Morning Run,Hill,2024-08-15 14:38:59+00:00,6072,Run,"Kingston, Canada",10.57,7.42,1h 18m
+117,57348015,Jude Wheeler-Dee,12137217807,Morning Run,,2024-08-13 00:44:25+00:00,48256,Run,"Kingston, Canada",0.06,4.28,16s
+118,57348015,Jude Wheeler-Dee,12135678477,Morning Run,w 🦆,2024-08-13 10:30:28+00:00,1682,Run,"Kingston, Canada",4.83,5.8,28m 2s
+119,57348015,Jude Wheeler-Dee,12233228716,Afternoon Run,,2024-08-24 20:11:53+00:00,1806,Run,"Kingston, Canada",4.13,7.25,30m 0s
+120,57348015,Jude Wheeler-Dee,12225605521,Afternoon Run,Hill,2024-08-23 21:34:25+00:00,8299,Run,"Kingston, Canada",12.24,6.88,1h 24m
+121,57348015,Jude Wheeler-Dee,12216938798,Afternoon Run,,2024-08-22 20:06:31+00:00,2459,Run,"Kingston, Canada",5.54,7.22,40m 0s
+122,57348015,Jude Wheeler-Dee,12282068051,Morning Run,Hill,2024-08-30 13:11:40+00:00,8804,Run,"Kingston, Canada",13.22,7.03,1h 33m
+123,57348015,Jude Wheeler-Dee,12359286800,Morning Run,,2024-09-08 12:57:32+00:00,6539,Run,"Kingston, Canada",13.24,7.07,1h 33m
+124,57348015,Jude Wheeler-Dee,12344750790,Afternoon Run,Hill,2024-09-06 21:31:48+00:00,6526,Run,"Kingston, Canada",10.74,6.58,1h 10m
+125,57348015,Jude Wheeler-Dee,12319656566,Evening Run,2/2,2024-09-03 22:01:13+00:00,4454,Run,"Kingston, Canada",8.07,6.23,50m 21s
+126,57348015,Jude Wheeler-Dee,12316265344,Morning Run,1/2,2024-09-03 14:43:41+00:00,5070,Run,"Kingston, Canada",9.92,6.57,1h 5m
+127,57348015,Jude Wheeler-Dee,12396051753,Afternoon Run,,2024-09-12 18:35:48+00:00,5620,Run,"Kingston, Canada",9.58,6.8,1h 5m
+128,57348015,Jude Wheeler-Dee,12375750330,Morning Run,,2024-09-10 14:31:37+00:00,4782,Run,"Kingston, Canada",10.0,6.82,1h 8m
+129,57348015,Jude Wheeler-Dee,12437388292,Afternoon Run,,2024-09-17 21:23:49+00:00,7520,Run,"Kingston, Canada",14.16,6.62,1h 33m
+130,57348015,Jude Wheeler-Dee,12536695706,Morning Run,,2024-09-29 13:05:41+00:00,6511,Run,"Kingston, Canada",13.23,7.68,1h 41m
+131,57348015,Jude Wheeler-Dee,12504768710,Afternoon Run,,2024-09-25 21:47:52+00:00,6789,Run,"Kingston, Canada",10.8,7.4,1h 20m
+132,57348015,Jude Wheeler-Dee,12500657425,Morning Run,,2024-09-25 11:44:40+00:00,5665,Run,"Kingston, Canada",10.84,6.85,1h 14m
+133,57348015,Jude Wheeler-Dee,12552454245,Afternoon Run,Post run recovery,2024-10-01 21:20:14+00:00,8109,Run,"Kingston, Canada",11.43,7.42,1h 24m
+134,57348015,Jude Wheeler-Dee,12610345759,Afternoon Run,,2024-10-08 21:05:31+00:00,6959,Run,"Kingston, Canada",10.15,6.97,1h 10m
+135,57348015,Jude Wheeler-Dee,12694701989,Lunch Run,,2024-10-19 16:47:45+00:00,1491,Run,"Kingston, Canada",3.09,7.65,23m 40s
+136,57348015,Jude Wheeler-Dee,12694702031,Lunch Run,Mona,2024-10-19 15:06:10+00:00,4975,Run,"Kingston, Canada",7.15,6.35,45m 25s
+137,57348015,Jude Wheeler-Dee,12681063752,Afternoon Run,Tempo,2024-10-17 20:33:18+00:00,7700,Run,"Kingston, Canada",12.87,6.47,1h 23m
+138,57348015,Jude Wheeler-Dee,12664620279,Afternoon Run,,2024-10-15 19:02:36+00:00,7512,Run,"Kingston, Canada",12.32,6.85,1h 24m
+139,57348015,Jude Wheeler-Dee,12721143718,Afternoon Run,,2024-10-22 20:25:57+00:00,8090,Run,"Kingston, Canada",12.33,6.5,1h 20m
+140,57348015,Jude Wheeler-Dee,12712525356,Afternoon Run,,2024-10-21 19:58:54+00:00,1888,Run,"Kingston, Canada",4.4,6.85,30m 11s
+141,57348015,Jude Wheeler-Dee,12816945218,Lunch Run,,2024-11-03 16:01:20+00:00,4906,Run,"Kingston, Canada",11.7,6.52,1h 16m
+142,57348015,Jude Wheeler-Dee,12800125909,Afternoon Run,w.o,2024-11-01 20:19:48+00:00,7588,Run,"Kingston, Canada",11.51,6.65,1h 16m
+143,57348015,Jude Wheeler-Dee,12777116230,Afternoon Run,Mile,2024-10-29 20:59:57+00:00,4818,Run,"Kingston, Canada",9.9,6.92,1h 8m
+144,57348015,Jude Wheeler-Dee,12777116255,Afternoon Run,,2024-10-29 20:14:30+00:00,1245,Run,"Kingston, Canada",2.59,7.72,20m 1s
+145,57348015,Jude Wheeler-Dee,12833274720,Afternoon Run,,2024-11-05 22:05:16+00:00,6765,Run,"Kingston, Canada",9.97,7.2,1h 11m
+146,73487204,Kirami Collin Yego,12525358477,Chile Pepper 🥇,"Senior year 📈
+Back to back Chile pepper wins🔥",2024-09-28 15:28:59+00:00,1377,Run,"Fayetteville, USA",5.01,4.57,22m 54s
+147,73487204,Kirami Collin Yego,12609409468,Afternoon Workout 🏝️,10 (1000m) with 1 minute recovery ✅,2024-10-08 21:22:51+00:00,2291,Run,"Fayetteville, USA",6.33,4.58,29m 0s
+148,73487204,Kirami Collin Yego,12606055735,Tempo Tuesday ✅,,2024-10-08 14:32:09+00:00,1405,Run,"Fayetteville, USA",5.01,4.67,23m 25s
+149,26597694,kieran tuntivate,10585677721,Afternoon Run,,2024-01-19 00:13:34+00:00,2155,Run,"Coconino National Forest, USA",5.15,6.95,35m 50s
+150,26597694,kieran tuntivate,10882090264,Morning Run,,2024-03-03 13:26:48+00:00,5924,Run,"Manhattan, USA",13.69,6.65,1h 31m
+151,26597694,kieran tuntivate,10990234174,Evening Run,,2024-03-17 01:01:24+00:00,1527,Run,"San Juan Capistrano, USA",3.52,7.22,25m 24s
+152,26597694,kieran tuntivate,11023511374,Morning Run,,2024-03-23 16:47:42+00:00,6378,Run,"Lane County, USA",16.22,6.45,1h 44m
+153,26597694,kieran tuntivate,11036463094,Morning Run,,2024-03-25 17:38:06+00:00,1979,Run,"Eugene, USA",6.15,5.03,30m 56s
+154,26597694,kieran tuntivate,11129642645,Morning Run,,2024-04-07 17:03:44+00:00,3101,Run,"Eugene, USA",7.52,6.72,50m 29s
+155,26597694,kieran tuntivate,11137646008,Lunch Run,,2024-04-08 18:13:09+00:00,934,Run,"Eugene, USA",2.13,6.92,14m 46s
+156,26597694,kieran tuntivate,11428758524,Morning Run,,2024-05-17 01:58:05+00:00,3001,Run,"Hino, Japan",8.54,5.85,50m 1s
+157,26597694,kieran tuntivate,11559461733,Afternoon Run,Double and sauna,2024-06-02 20:49:49+00:00,2049,Run,"New Castle County, USA",5.09,6.67,34m 1s
+158,26597694,kieran tuntivate,11513269264,Afternoon Run,,2024-05-27 23:41:59+00:00,2335,Run,"Eugene, USA",5.31,6.6,35m 3s
+159,26597694,kieran tuntivate,11580393819,Morning Run,,2024-06-05 13:41:19+00:00,4287,Run,"New Castle County, USA",10.91,6.5,1h 11m
+160,26597694,kieran tuntivate,11571661619,Morning Run,,2024-06-04 13:26:05+00:00,4330,Run,"New Castle County, USA",10.65,6.57,1h 9m
+161,26597694,kieran tuntivate,11675953841,Lunch Run,,2024-06-16 19:08:45+00:00,3800,Run,"Burnaby, Canada",9.63,6.52,1h 2m
+162,26597694,kieran tuntivate,11629748928,Morning Run,,2024-06-11 16:30:44+00:00,4347,Run,"Eugene, USA",10.81,6.45,1h 9m
+163,26597694,kieran tuntivate,11729433728,Afternoon Run,,2024-06-23 12:36:23+00:00,4188,Run,"Vantaa, Finland",10.96,6.27,1h 8m
+164,26597694,kieran tuntivate,11751876927,Lunch Run,,2024-06-27 11:53:21+00:00,3386,Run,"Greater London, United Kingdom",8.24,6.62,54m 35s
+165,26597694,kieran tuntivate,11833188221,Morning Run,,2024-07-07 16:51:33+00:00,4342,Run,"Eugene, USA",11.03,6.35,1h 10m
+166,26597694,kieran tuntivate,11824462304,Morning Run,,2024-07-06 16:37:29+00:00,1560,Run,"Eugene, USA",3.72,6.78,25m 15s
+167,26597694,kieran tuntivate,11842380009,Afternoon Run,,2024-07-09 00:30:20+00:00,2101,Run,,5.94,5.88,35m 1s
+168,26597694,kieran tuntivate,11931275480,Afternoon Run,POV running pre meet to get the BeReal on time,2024-07-19 23:34:11+00:00,3889,Run,,6.11,7.82,47m 44s
+169,26597694,kieran tuntivate,12236803663,Morning Run,,2024-08-25 09:00:34+00:00,3754,Run,"Stirling, United Kingdom",8.86,6.8,1h 0m
+170,26597694,kieran tuntivate,12214587524,Afternoon Run,Pre meet,2024-08-22 14:38:41+00:00,3741,Run,"City of Edinburgh, United Kingdom",7.1,6.68,47m 30s
+171,26597694,kieran tuntivate,12295583099,Morning Run,,2024-09-01 08:04:17+00:00,3002,Run,"Hulst, Netherlands",7.75,6.45,50m 2s
+172,26597694,kieran tuntivate,12279351334,Morning Run,,2024-08-30 08:05:50+00:00,3002,Run,"Hulst, Netherlands",7.72,6.48,50m 2s
+173,26597694,kieran tuntivate,12272919690,Morning Run,,2024-08-29 08:01:42+00:00,3005,Run,"Hulst, Netherlands",7.75,6.45,49m 59s
+174,26597694,kieran tuntivate,12256649836,Afternoon Run,,2024-08-27 15:55:13+00:00,2106,Run,"Hulst, Netherlands",5.29,6.62,35m 0s
+175,26597694,kieran tuntivate,12253575156,Lunch Run,,2024-08-27 09:21:06+00:00,3028,Run,"Hulst, Netherlands",7.95,6.3,50m 4s
+176,26597694,kieran tuntivate,12247804846,Afternoon Run,,2024-08-26 15:22:55+00:00,3010,Run,"Hulst, Netherlands",7.69,6.52,50m 6s
+177,26597694,kieran tuntivate,12333664564,Afternoon Run,,2024-09-05 14:24:29+00:00,4286,Run,"City of Edinburgh, United Kingdom",8.95,6.88,1h 1m
+178,26597694,kieran tuntivate,12318375246,Night Run,,2024-09-03 19:37:53+00:00,903,Run,"Copenhagen Municipality, Denmark",1.88,8.0,15m 3s
+179,26597694,kieran tuntivate,12315446338,Afternoon Run,,2024-09-03 12:08:46+00:00,874,Run,"Copenhagen Municipality, Denmark",2.0,,13m 59s
+180,26597694,kieran tuntivate,12306833558,Afternoon Run,Pre meet and strides. Racing a 5000 tomorrow,2024-09-02 13:50:10+00:00,5837,Run,"Copenhagen Municipality, Denmark",6.8,7.92,53m 52s
+181,26597694,kieran tuntivate,12428905098,Morning Run,,2024-09-16 23:15:43+00:00,4463,Run,"Khlong Toei Subdistrict, Thailand",10.98,6.2,1h 8m
+182,26597694,kieran tuntivate,12605839910,Morning Run,,2024-10-08 13:45:44+00:00,1808,Run,"East Potomac Park, USA",6.1,4.87,29m 41s
+183,26597694,kieran tuntivate,12751423708,Morning Run,,2024-10-26 16:50:35+00:00,5831,Run,"Portland, USA",15.77,6.15,1h 36m
+184,26597694,kieran tuntivate,12798958786,Morning Run,,2024-11-01 17:13:07+00:00,4321,Run,"Eugene, USA",10.6,6.6,1h 10m
+185,26597694,kieran tuntivate,12862301219,Morning Run,Lane 8 long run to soothe the mind. Headphones died 40 min in 😔,2024-11-09 17:42:01+00:00,6300,Run,"Eugene, USA",18.03,5.82,1h 45m
+186,26886165,Kristel van den Berg,10498224670,Middagloop,"3 mile tempo
+3x2’
+3x1’ 
+Tamar van den Berg 🚴🏼‍♀️",2024-01-05 11:23:19+00:00,4058,Run,"Maassluis, Netherlands",8.24,7.08,58m 19s
+187,26886165,Kristel van den Berg,10543753642,Middagloop,"6x1000 off 90”
+4x400 off 90”",2024-01-12 10:51:49+00:00,2541,Run,"Vlaardingen, Netherlands",5.77,6.15,35m 32s
+188,26886165,Kristel van den Berg,10591628782,Bangkok🇹🇭🇹🇭🇹🇭,3 weeks in Thailand!! Feels like Oxford in August 🥵,2024-01-20 02:06:54+00:00,2190,Run,"Lumphini Subdistrict, Thailand",4.62,7.9,36m 30s
+189,26886165,Kristel van den Berg,10643810506,Ochtendloop,,2024-01-28 02:29:57+00:00,1901,Run,"Surat Thani Province, Thailand",4.01,7.83,31m 28s
+190,26886165,Kristel van den Berg,10624382206,Rainy morning run,Followed by breakfast with a view😎,2024-01-25 01:17:33+00:00,2464,Run,"Surat Thani Province, Thailand",4.84,8.0,38m 46s
+191,26886165,Kristel van den Berg,10666772129,Post food poisoning,Rough 48 hours but we’re back😂,2024-01-31 10:41:26+00:00,3803,Run,,7.76,7.73,1h 0m
+192,26886165,Kristel van den Berg,10781520932,Ochtendloop,,2024-02-17 15:04:20+00:00,4741,Run,"Abbeville, USA",10.29,7.28,1h 15m
+193,26886165,Kristel van den Berg,10828479512,Ochtendloop,,2024-02-24 15:18:09+00:00,5267,Run,"Lafayette County, USA",10.74,7.45,1h 20m
+194,26886165,Kristel van den Berg,10874958050,Ochtendloop,Longrun,2024-03-02 14:02:08+00:00,5476,Run,"Abbeville, USA",13.0,6.95,1h 30m
+195,26886165,Kristel van den Berg,10895704964,Holly Springs workout,"3x4’
+3x3’ 
+3x90” 
+3x30”",2024-03-05 12:47:47+00:00,5982,Run,"Holly Springs National Forest, USA",10.11,7.35,1h 14m
+196,26886165,Kristel van den Berg,10967341157,Track workout,"4x1000 (3:13->3:04)/600 (1:52->1:46)
+400/300/200 (68/50/31)",2024-03-15 20:25:27+00:00,4417,Run,"Lafayette County, USA",7.42,8.0,59m 27s
+197,26886165,Kristel van den Berg,11173918449,Longrun,Good group + good weather = good run,2024-04-13 13:06:20+00:00,5228,Run,"Abbeville, USA",11.29,7.53,1h 25m
+198,26886165,Kristel van den Berg,11164650567,5 mile tempo ☀️,Picking it up in the end,2024-04-12 13:04:43+00:00,1699,Run,"Lafayette County, USA",5.0,5.65,28m 19s
+199,26886165,Kristel van den Berg,11330774962,Ochtendloop,Felt good on a longrun for a change,2024-05-04 13:09:08+00:00,5519,Run,"Abbeville, USA",13.17,6.83,1h 30m
+200,26886165,Kristel van den Berg,11435180272,Last one on Ole Miss track 🥹,"1600 (5:10) - 1200 (3:50) - 1000 (3:09) - 800 (2:28) - 400 (71) - 800 over hurdles (2:30)
+
+Got to experience the Oxford humidity one last time 💙❤️",2024-05-17 23:04:53+00:00,5181,Run,"Lafayette County, USA",8.04,8.87,1h 11m
+201,26886165,Kristel van den Berg,11504680387,Cooldown,,2024-05-26 18:04:19+00:00,953,Run,"Brussels, Belgium",1.9,8.25,15m 40s
+202,26886165,Kristel van den Berg,11504691420,Steeple race,"7 second PR!!
+9:49.59",2024-05-26 17:45:28+00:00,589,Run,,1.86,5.27,9m 49s
+203,26886165,Kristel van den Berg,11504679259,W-up,,2024-05-26 16:26:37+00:00,1156,Run,"Brussels, Belgium",2.51,7.67,19m 16s
+204,26886165,Kristel van den Berg,11455896431,Last one in Oxford,🥹🥹🥹,2024-05-20 14:03:11+00:00,3218,Run,"Lafayette County, USA",7.01,7.5,52m 38s
+205,26886165,Kristel van den Berg,11569959319,Middagloop,,2024-06-04 09:30:25+00:00,4359,Run,"Maassluis, Netherlands",9.56,7.17,1h 8m
+206,26886165,Kristel van den Berg,11703414954,Mile breakdown,"1600(5:02) - 1200(3:45) - 1000(3:05) - 800(2:28) - 400(71) - 800 over hurdles (2:30) 
+1 week til NK 😎",2024-06-21 08:00:11+00:00,6916,Run,"Vlaardingen, Netherlands",9.48,8.67,1h 22m
+207,26886165,Kristel van den Berg,11879550707,🌧️💨💃🏼,Planning Thailand reunited 💗,2024-07-13 15:54:54+00:00,3084,Run,"Groningen, Netherlands",5.98,7.97,47m 41s
+208,26886165,Kristel van den Berg,12118700327,Middagloop,,2024-08-11 09:38:22+00:00,3313,Run,"Maassluis, Netherlands",6.25,8.15,50m 58s
+209,26886165,Kristel van den Berg,12235934748,Longrun,"35’ 
+20’ pick-up
+15’
+First longrun in almost 4 months",2024-08-25 07:14:24+00:00,4559,Run,"Maassluis, Netherlands",10.02,6.98,1h 10m
+210,26886165,Kristel van den Berg,12235931700,Namiddagloop,Buienalarm had geen gelijk 🌧️🌧️🌧️,2024-08-24 14:41:36+00:00,2678,Run,"Maassluis, Netherlands",5.74,7.63,43m 52s
+211,26886165,Kristel van den Berg,12270846345,☀️ ☀️,,2024-08-29 07:27:04+00:00,3957,Ride,"Maassluis, Netherlands",20.56,,1h 4m
+212,26886165,Kristel van den Berg,12262179148,Ochtendloop,🔜 🏖️,2024-08-28 07:40:54+00:00,3604,Run,"Maassluis, Netherlands",8.14,7.37,1h 0m
+213,26886165,Kristel van den Berg,12253949531,Middagloop,,2024-08-27 09:40:26+00:00,4030,Run,"Maassluis, Netherlands",7.92,7.15,56m 35s
+214,26886165,Kristel van den Berg,12246393154,Namiddagloop,,2024-08-26 12:13:54+00:00,3147,Run,"Maassluis, Netherlands",6.84,7.67,52m 27s
+215,26886165,Kristel van den Berg,12399485775,Namiddagrit,,2024-09-13 11:53:45+00:00,3580,Ride,"Maassluis, Netherlands",18.69,,57m 8s
+216,26886165,Kristel van den Berg,12644590464,4 mijl 💨☀️,Hele weg tegenwind.. Vorm is beter dan verwacht 🙃,2024-10-13 11:00:02+00:00,1325,Run,"Groningen, Netherlands",3.99,5.48,21m 56s
+217,26886165,Kristel van den Berg,12684436000,✨✨✨,Weekendje Amsterdam,2024-10-18 11:03:17+00:00,3749,Run,"Amsterdam, Netherlands",7.71,7.95,1h 1m
+218,26886165,Kristel van den Berg,12866799650,Middagloop,,2024-11-10 10:04:51+00:00,4716,Run,"Maassluis, Netherlands",10.28,7.47,1h 16m
