@@ -1,0 +1,745 @@
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+0,94876602,James Kimeu,10483884386,The big game warm up,,2024-01-03 07:09:20+00:00,2046,Run,"Makueni, Kenya",3.69,6.28,23m 12s
+1,94876602,James Kimeu,10477226040,The big boys,,2024-01-02 03:57:44+00:00,3177,Run,"Makueni, Kenya",8.13,,52m 2s
+2,94876602,James Kimeu,10518292156,Jan 4th run,,2024-01-08 14:19:30+00:00,3788,Run,"Nairobi County, Kenya",12.1,5.17,1h 2m
+3,94876602,James Kimeu,10601926193,Afternoon Run,,2024-01-21 14:23:56+00:00,1895,Run,"Kiambu, Kenya",5.29,5.7,30m 12s
+4,94876602,James Kimeu,10576516208,Epic 6th run Jan 2024,,2024-01-17 14:45:12+00:00,3478,Run,"Nairobi County, Kenya",11.75,4.93,57m 58s
+5,94876602,James Kimeu,10562220432,5th take Jan 2024,,2024-01-15 10:18:56+00:00,3274,Run,"Kiambu, Kenya",10.1,5.4,54m 34s
+6,94876602,James Kimeu,10648063202,8th Run January 2024,,2024-01-28 14:25:56+00:00,3688,Run,"Nairobi County, Kenya",12.0,5.1,1h 1m
+7,94876602,James Kimeu,10725408819,3rd run Feb 2024,,2024-02-09 04:31:37+00:00,3638,Run,"Kiambu, Kenya",11.0,5.52,1h 0m
+8,94876602,James Kimeu,10714781620,2nd run Feb 2024,,2024-02-07 13:18:33+00:00,3680,Run,"Nairobi County, Kenya",12.01,5.1,1h 1m
+9,94876602,James Kimeu,10706360281,1st walk Feb 2024,,2024-02-06 08:18:35+00:00,5836,Walk,"Kiambu, Kenya",8.79,,1h 29m
+10,94876602,James Kimeu,10698969621,1st Run Feb 2024,,2024-02-05 04:18:51+00:00,4548,Run,"Nairobi County, Kenya",15.0,5.05,1h 15m
+11,94876602,James Kimeu,10771016876,6th run FEB 2024 (16 for 16),,2024-02-16 04:01:50+00:00,4906,Run,"Nairobi County, Kenya",16.01,5.08,1h 21m
+12,94876602,James Kimeu,10759105541,3rd walk Feb 2024,,2024-02-14 08:13:01+00:00,6871,Run,"Nairobi County, Kenya",12.35,9.13,1h 52m
+13,94876602,James Kimeu,10747783148,2nd walk Feb 2024,,2024-02-12 15:29:11+00:00,4736,Walk,"Nairobi County, Kenya",2.83,,28 m
+14,94876602,James Kimeu,10747318173,5th Run Feb 2024 Dedicated to the fallen Marathon Champion,,2024-02-12 14:38:24+00:00,2978,Run,"Nairobi County, Kenya",10.01,4.95,49m 38s
+15,94876602,James Kimeu,10791371724,7th Run Feb 2024,,2024-02-19 04:33:05+00:00,3592,Run,"Nairobi County, Kenya",12.05,4.93,59m 22s
+16,94876602,James Kimeu,10848220804,4th walk Feb 2024,,2024-02-27 14:40:46+00:00,5553,Walk,"Makueni, Kenya",7.97,,1h 26m
+17,94876602,James Kimeu,10885876346,1st Run March 2024,,2024-03-04 04:27:01+00:00,3585,Run,"Nairobi County, Kenya",12.21,4.88,59m 45s
+18,94876602,James Kimeu,10962854674,4th run March 2024,,2024-03-15 05:43:29+00:00,6704,Run,"Nairobi County, Kenya",21.0,5.32,1h 51m
+19,94876602,James Kimeu,10934419642,2nd run March 2024,,2024-03-11 04:59:13+00:00,3442,Run,"Nairobi County, Kenya",12.0,4.78,57m 22s
+20,94876602,James Kimeu,11027833827,Afternoon Walk,,2024-03-24 11:32:24+00:00,3875,Walk,"Nairobi County, Kenya",4.59,,43 m
+21,94876602,James Kimeu,11026370809,Afternoon Walk,,2024-03-24 09:04:32+00:00,4218,Walk,"Nairobi County, Kenya",4.9,,66 m
+22,94876602,James Kimeu,11021757590,Afternoon Run,,2024-03-23 13:58:33+00:00,3359,Run,"Nairobi County, Kenya",7.46,7.25,54m 8s
+23,94876602,James Kimeu,10983660458,5th Run March 2024,,2024-03-18 04:45:08+00:00,3570,Run,"Nairobi County, Kenya",12.0,4.92,59m 3s
+24,94876602,James Kimeu,11049252483,5th run March 2024,,2024-03-27 14:46:54+00:00,3273,Run,"Kiambu, Kenya",10.01,5.45,54m 33s
+25,94876602,James Kimeu,11123579072,1st April Run Johnnie’s and a Bennie,,2024-04-07 03:52:32+00:00,3505,Run,"Makueni, Kenya",8.19,,58m 2s
+26,94876602,James Kimeu,11123473980,1st walk April 2024,,2024-04-06 13:18:12+00:00,12446,Run,"Makueni, Kenya",7.65,,1h 8m
+27,94876602,James Kimeu,11216946712,3rd run April 2024,,2024-04-19 13:14:13+00:00,3524,Run,"Kiambu, Kenya",11.01,5.33,58m 44s
+28,94876602,James Kimeu,11194676891,2nd run April 2024,,2024-04-16 12:09:30+00:00,3287,Run,"Kiambu, Kenya",10.04,5.45,54m 41s
+29,94876602,James Kimeu,11452171884,Run 1 May 2024,,2024-05-07 08:49:44+00:00,2039,Run,"Kiambu, Kenya",6.29,5.4,33m 59s
+30,94876602,James Kimeu,11490661354,VC Run 2024,,2024-05-25 04:00:42+00:00,6774,Run,"Nairobi County, Kenya",22.15,5.1,1h 52m
+31,94876602,James Kimeu,11452298006,Bday run - VC Run 2024 loading…,,2024-05-20 04:23:47+00:00,3467,Run,"Kiambu, Kenya",11.01,5.23,57m 33s
+32,94876602,James Kimeu,11643972963,2nd Run/walk June 2024,,2024-06-13 14:42:28+00:00,4176,Walk,"Nairobi County, Kenya",8.65,,1h 4m
+33,94876602,James Kimeu,11619163607,1st Run June 2024,,2024-06-10 13:07:59+00:00,3612,Run,"Kiambu, Kenya",11.0,5.47,1h 0m
+34,94876602,James Kimeu,11737887858,Maandamano walk,,2024-06-25 12:14:54+00:00,21165,Walk,"Kiambu, Kenya",12.29,,2h 19m
+35,94876602,James Kimeu,11860346714,Good vibes 07/2024,,2024-07-11 07:49:37+00:00,3311,Run,"Kiambu, Kenya",10.04,5.42,54m 25s
+36,94876602,James Kimeu,11961538580,Thankful in July,,2024-07-23 15:21:59+00:00,3295,Run,"Kiambu, Kenya",10.1,5.43,54m 55s
+37,94876602,James Kimeu,12032440626,Run 1 August 2024,,2024-08-01 02:43:54+00:00,3216,Run,"Kiambu, Kenya",10.01,5.35,53m 36s
+38,94876602,James Kimeu,12180420440,Karura walk,,2024-08-18 13:41:17+00:00,6505,Walk,"Nairobi County, Kenya",13.36,,1h 36m
+39,94876602,James Kimeu,12150635377,2nd run Aug 2024,,2024-08-15 03:27:13+00:00,3620,Run,"Kiambu, Kenya",11.0,5.48,1h 0m
+40,94876602,James Kimeu,12202617364,3rd Run Aug 2024,,2024-08-21 03:20:34+00:00,3494,Run,"Kiambu, Kenya",11.0,5.28,58m 14s
+41,94876602,James Kimeu,12320673043,Morning Trail Run,,2024-09-01 11:20:19+00:00,3499,TrailRun,"Nairobi County, Kenya",2.82,8.4,23m 44s
+42,94876602,James Kimeu,12354826329,Nairobi Marathon 2024,,2024-09-08 04:31:20+00:00,6491,Run,"Nairobi County, Kenya",21.3,5.08,1h 48m
+43,94876602,James Kimeu,12320837890,Nairobi Marathon ready,,2024-09-04 03:04:52+00:00,3725,Run,"Kiambu, Kenya",11.5,5.4,1h 2m
+44,94876602,James Kimeu,12572797800,1st run in Oct 2024,,2024-10-04 13:28:52+00:00,3853,Run,"Kiambu, Kenya",11.0,5.83,1h 4m
+45,94876602,James Kimeu,12618690127,10.10 for 10/10,,2024-10-10 03:12:19+00:00,3189,Run,"Kiambu, Kenya",10.1,5.27,53m 9s
+46,94876602,James Kimeu,12753924969,Standard Chartered,,2024-10-27 04:20:55+00:00,6695,Run,"Nairobi County, Kenya",21.0,5.28,1h 50m
+47,94876602,James Kimeu,12821280690,When the hip goes out in km 3,,2024-11-04 14:36:21+00:00,2760,Run,"Nairobi County, Kenya",7.53,6.05,45m 39s
+48,94876602,James Kimeu,12896312219,Good morning Naivasha,,2024-11-14 03:37:59+00:00,1742,Run,"Nakuru, Kenya",5.0,5.68,28m 26s
+49,93911299,Edwin Kiptoo,10515775851,Morning Run,,2024-01-08 03:19:16+00:00,3813,Run,"Nairobi County, Kenya",10.0,6.23,1h 2m
+50,93911299,Edwin Kiptoo,10580194809,Morning Run,,2024-01-18 03:29:21+00:00,3874,Run,"Nairobi County, Kenya",10.01,5.5,55m 8s
+51,93911299,Edwin Kiptoo,10627850882,Morning Run,,2024-01-24 03:02:37+00:00,3665,Run,"Nairobi County, Kenya",10.0,5.28,52m 48s
+52,93911299,Edwin Kiptoo,10627847928,Morning Run,,2024-01-22 03:00:36+00:00,4177,Run,"Nairobi County, Kenya",10.05,5.55,55m 49s
+53,93911299,Edwin Kiptoo,10779848330,Morning Run,,2024-02-03 03:07:02+00:00,6908,Run,"Nairobi County, Kenya",22.08,5.15,1h 53m
+54,93911299,Edwin Kiptoo,10684593722,Night Run,,2024-02-02 22:22:50+00:00,6931,Run,"Nairobi County, Kenya",18.0,5.62,1h 41m
+55,93911299,Edwin Kiptoo,10734025108,Morning Run,,2024-02-09 02:22:45+00:00,4509,Run,"Nairobi County, Kenya",10.0,5.42,54m 12s
+56,93911299,Edwin Kiptoo,10779806233,Morning Run,,2024-02-17 02:31:41+00:00,9680,Run,"Nairobi County, Kenya",22.0,5.63,2h 4m
+57,93911299,Edwin Kiptoo,10779801837,Afternoon Run,,2024-02-13 14:59:50+00:00,3670,Run,"Nairobi County, Kenya",10.01,5.75,57m 32s
+58,93911299,Edwin Kiptoo,10818162465,Morning Run,,2024-02-23 02:19:51+00:00,7831,Run,"Nairobi County, Kenya",21.57,5.58,2h 0m
+59,93911299,Edwin Kiptoo,10797981232,Morning Run,,2024-02-20 03:00:11+00:00,4671,Run,"Nairobi County, Kenya",10.01,4.98,49m 54s
+60,93911299,Edwin Kiptoo,10871358318,Morning Run,,2024-03-02 02:30:49+00:00,7901,Run,"Nairobi County, Kenya",20.0,5.9,1h 57m
+61,93911299,Edwin Kiptoo,10861937915,Evening Run,,2024-02-28 15:35:56+00:00,2365,Run,"Nairobi County, Kenya",8.0,4.92,39m 25s
+62,93911299,Edwin Kiptoo,10844840992,Morning Run,,2024-02-27 02:45:23+00:00,4201,Run,"Nairobi County, Kenya",10.0,5.7,57m 7s
+63,93911299,Edwin Kiptoo,10920345909,Morning Run,,2024-03-09 02:41:15+00:00,7276,Run,"Nairobi County, Kenya",17.68,6.4,1h 53m
+64,93911299,Edwin Kiptoo,11018427424,Morning Run,,2024-03-23 03:58:37+00:00,4651,Run,"Nairobi County, Kenya",10.0,6.02,1h 0m
+65,93911299,Edwin Kiptoo,12421746150,Morning Walk,,2024-09-13 03:25:21+00:00,7413,Walk,"Machakos County, Kenya",11.14,,2h 3m
+66,93911299,Edwin Kiptoo,12421744143,Morning Walk,,2024-09-11 04:04:45+00:00,8449,Walk,"Machakos County, Kenya",12.02,,2h 20m
+67,93911299,Edwin Kiptoo,12372089998,Morning Walk,,2024-09-10 04:42:25+00:00,8048,Walk,"Machakos County, Kenya",11.11,,2h 14m
+68,93911299,Edwin Kiptoo,12515456495,Lunch Walk,,2024-09-26 11:07:42+00:00,2133,Walk,"Slough, United Kingdom",2.64,,32m 4s
+69,93911299,Edwin Kiptoo,12506871907,Morning Walk,,2024-09-26 08:46:51+00:00,2183,Walk,"Slough, United Kingdom",2.67,,32m 47s
+70,44007546,Abdihamid nur,10809005338,Morning Run,,2024-02-21 16:28:41+00:00,5507,Run,"Phoenix, USA",22.39,3.87,1h 26m
+71,146854303,Bethwel Kibet,12360095245,Run,,2024-09-08 15:02:16+00:00,4265,Run,"San Francisco, USA",16.11,4.42,1h 11m
+72,146854303,Bethwel Kibet,12350210597,Run,,2024-09-07 07:00:01+00:00,2860,Run,"San Francisco, USA",8.06,,0 m
+73,146854303,Bethwel Kibet,12417170329,Morning Run,,2024-09-15 14:14:16+00:00,1402,Run,"San Francisco, USA",4.03,5.77,23m 16s
+74,146854303,Bethwel Kibet,12416734010,Morning Run,,2024-09-15 13:22:21+00:00,1782,Run,"San Francisco, USA",8.05,3.68,29m 42s
+75,146854303,Bethwel Kibet,12416423164,Morning Run,,2024-09-15 13:09:16+00:00,710,Run,"San Francisco, USA",2.25,5.25,11m 50s
+76,146854303,Bethwel Kibet,12401139554,Morning Run,,2024-09-13 16:03:25+00:00,3600,Run,"San Francisco, USA",13.33,4.5,59m 56s
+77,146854303,Bethwel Kibet,12392205533,Evening Run,,2024-09-12 13:57:26+00:00,2375,Run,"San Francisco, USA",8.07,4.87,39m 15s
+78,146854303,Bethwel Kibet,12383559755,Morning Run,,2024-09-11 13:21:44+00:00,1119,Run,"San Francisco, USA",3.29,5.55,18m 19s
+79,146854303,Bethwel Kibet,12380153855,Evening Run,,2024-09-11 01:57:13+00:00,2380,Run,"San Francisco, USA",8.05,4.82,38m 52s
+80,146854303,Bethwel Kibet,12371116432,Evening Run,,2024-09-10 01:39:15+00:00,2411,Run,"San Francisco, USA",8.11,4.95,40m 7s
+81,146854303,Bethwel Kibet,12366571160,Morning Run,,2024-09-09 13:58:53+00:00,2101,Run,"Golden Gate National Recreation Area, USA",7.88,4.43,34m 58s
+82,146854303,Bethwel Kibet,12366172700,Morning Run,,2024-09-09 13:12:47+00:00,1239,Run,"Golden Gate National Recreation Area, USA",3.34,5.2,17m 21s
+83,146854303,Bethwel Kibet,12450834396,Morning Run,,2024-09-19 14:02:59+00:00,1982,Run,"San Francisco, USA",8.05,3.92,31m 36s
+84,146854303,Bethwel Kibet,12450433410,Morning Run,,2024-09-19 13:27:38+00:00,753,Run,"San Francisco, USA",1.62,5.68,9m 12s
+85,146854303,Bethwel Kibet,12442168167,Morning Run,,2024-09-18 13:10:08+00:00,5614,Run,"San Francisco, USA",16.11,4.85,1h 18m
+86,146854303,Bethwel Kibet,12433151116,Morning Run,,2024-09-17 14:22:53+00:00,590,Run,"San Francisco, USA",1.51,,7m 41s
+87,146854303,Bethwel Kibet,12433073622,Morning Run,,2024-09-17 13:54:52+00:00,1574,Run,"San Francisco, USA",6.54,3.98,26m 5s
+88,146854303,Bethwel Kibet,12432787341,Morning Run,,2024-09-17 13:14:13+00:00,1587,Run,"San Francisco, USA",3.71,5.27,19m 34s
+89,146854303,Bethwel Kibet,12424816865,Morning Run,,2024-09-16 13:28:09+00:00,963,Run,"San Francisco, USA",1.67,5.55,9m 18s
+90,146854303,Bethwel Kibet,12526707954,Morning Run,,2024-09-28 16:41:57+00:00,1143,Run,"San Marcos, USA",3.16,6.02,19m 3s
+91,146854303,Bethwel Kibet,12526707456,Morning Run,,2024-09-28 15:30:24+00:00,1682,Run,"San Marcos, USA",8.05,3.48,28m 2s
+92,146854303,Bethwel Kibet,12526706239,Morning Run,,2024-09-28 14:38:46+00:00,504,Run,"San Marcos, USA",1.61,5.15,8m 17s
+93,146854303,Bethwel Kibet,12526705852,Morning Run,,2024-09-28 14:23:31+00:00,539,Run,"San Marcos, USA",1.62,5.53,8m 59s
+94,146854303,Bethwel Kibet,12519853422,Lunch Run,,2024-09-27 19:45:44+00:00,1384,Run,"San Marcos, USA",4.82,4.78,23m 4s
+95,146854303,Bethwel Kibet,12513075788,Morning Run,,2024-09-26 13:12:11+00:00,3037,Run,"San Francisco, USA",8.01,5.67,45m 25s
+96,146854303,Bethwel Kibet,12501559212,Morning Run,,2024-09-25 14:52:37+00:00,1940,Run,"San Francisco, USA",4.5,5.83,26m 18s
+97,146854303,Bethwel Kibet,12501558144,Morning Run,,2024-09-25 14:44:30+00:00,228,Run,"San Francisco, USA",1.0,3.77,3m 48s
+98,146854303,Bethwel Kibet,12501557205,Morning Run,,2024-09-25 14:39:36+00:00,227,Run,"San Francisco, USA",1.0,3.75,3m 47s
+99,146854303,Bethwel Kibet,12501556705,Morning Run,,2024-09-25 14:34:42+00:00,227,Run,"San Francisco, USA",1.0,3.78,3m 47s
+100,146854303,Bethwel Kibet,12501556280,Morning Run,,2024-09-25 14:29:52+00:00,228,Run,"San Francisco, USA",1.0,3.77,3m 48s
+101,146854303,Bethwel Kibet,12501556015,Morning Run,,2024-09-25 14:24:50+00:00,232,Run,"San Francisco, USA",1.0,3.85,3m 52s
+102,146854303,Bethwel Kibet,12501555280,Morning Run,,2024-09-25 14:20:01+00:00,229,Run,"San Francisco, USA",1.0,3.78,3m 49s
+103,146854303,Bethwel Kibet,12501554444,Morning Run,,2024-09-25 14:15:21+00:00,216,Run,"San Francisco, USA",1.01,3.57,3m 36s
+104,146854303,Bethwel Kibet,12501554105,Morning Run,,2024-09-25 13:41:04+00:00,1070,Run,"San Francisco, USA",3.22,5.45,17m 35s
+105,146854303,Bethwel Kibet,12492450359,Morning Run,,2024-09-24 13:43:29+00:00,3184,Run,"San Francisco, USA",10.08,4.82,48m 31s
+106,146854303,Bethwel Kibet,12483924045,Morning Run,,2024-09-23 14:21:56+00:00,285,Run,"San Francisco, USA",0.85,5.05,4m 20s
+107,146854303,Bethwel Kibet,12483891338,Morning Run,,2024-09-23 14:15:02+00:00,386,Run,"San Francisco, USA",1.49,3.53,5m 16s
+108,146854303,Bethwel Kibet,12483832716,Morning Run,,2024-09-23 14:09:36+00:00,159,Run,"San Francisco, USA",0.83,3.18,2m 39s
+109,146854303,Bethwel Kibet,12483808722,Morning Run,,2024-09-23 14:05:45+00:00,155,Run,"San Francisco, USA",0.82,3.12,2m 35s
+110,146854303,Bethwel Kibet,12483787847,Morning Run,,2024-09-23 14:01:42+00:00,152,Run,,0.83,3.03,2m 32s
+111,146854303,Bethwel Kibet,12483758704,Morning Run,,2024-09-23 13:57:45+00:00,151,Run,,0.83,3.03,2m 31s
+112,146854303,Bethwel Kibet,12483733462,Morning Run,,2024-09-23 13:53:40+00:00,152,Run,"San Francisco, USA",0.84,2.98,2m 30s
+113,146854303,Bethwel Kibet,12483709134,Morning Run,,2024-09-23 13:49:38+00:00,155,Run,"San Francisco, USA",0.85,3.02,2m 35s
+114,146854303,Bethwel Kibet,12483578701,Morning Run,,2024-09-23 13:11:21+00:00,508,Run,"San Francisco, USA",1.68,5.02,8m 28s
+115,146854303,Bethwel Kibet,12582559046,Morning Run,,2024-10-05 14:21:16+00:00,4783,Run,"San Francisco, USA",20.01,3.98,1h 19m
+116,146854303,Bethwel Kibet,12582555267,Morning Run,,2024-10-05 14:07:06+00:00,727,Run,"San Francisco, USA",2.04,4.85,9m 56s
+117,146854303,Bethwel Kibet,12565194711,Morning Run,,2024-10-03 13:50:42+00:00,1950,Run,"San Francisco, USA",8.26,3.6,29m 42s
+118,146854303,Bethwel Kibet,12565192606,Morning Run,,2024-10-03 13:16:22+00:00,647,Run,"San Francisco, USA",1.65,5.67,9m 23s
+119,146854303,Bethwel Kibet,12565191436,Morning Run,,2024-10-02 13:09:56+00:00,5324,Run,"San Francisco, USA",15.49,4.88,1h 15m
+120,146854303,Bethwel Kibet,12552861583,Morning Run,,2024-10-01 14:16:05+00:00,660,Run,"San Francisco, USA",1.58,5.73,9m 4s
+121,146854303,Bethwel Kibet,12552860783,Morning Run,,2024-10-01 13:52:46+00:00,1129,Run,"San Francisco, USA",5.01,3.75,18m 49s
+122,146854303,Bethwel Kibet,12552859775,Morning Run,,2024-10-01 13:25:06+00:00,1025,Run,"San Francisco, USA",3.18,4.85,15m 27s
+123,146854303,Bethwel Kibet,12543500230,Morning Run,,2024-09-30 14:04:14+00:00,1570,Run,"Golden Gate National Recreation Area, USA",6.82,3.83,26m 10s
+124,146854303,Bethwel Kibet,12543500231,Morning Run,,2024-09-30 13:57:11+00:00,91,Run,,0.46,3.25,1m 31s
+125,146854303,Bethwel Kibet,12543499611,Morning Run,,2024-09-30 13:14:07+00:00,1201,Run,"Golden Gate National Recreation Area, USA",3.2,5.87,18m 49s
+126,146854303,Bethwel Kibet,12632955418,Afternoon Run,,2024-10-11 22:30:13+00:00,1687,Run,"San Francisco, USA",7.91,3.55,28m 7s
+127,146854303,Bethwel Kibet,12632953597,Afternoon Run,,2024-10-11 21:34:36+00:00,763,Run,"San Francisco, USA",2.62,4.83,12m 43s
+128,146854303,Bethwel Kibet,12621968671,Morning Run,,2024-10-10 13:07:54+00:00,2464,Run,"San Francisco, USA",7.35,4.97,36m 31s
+129,146854303,Bethwel Kibet,12621952073,Morning Run,,2024-10-09 13:07:05+00:00,3297,Run,"San Francisco, USA",9.76,4.52,44m 7s
+130,146854303,Bethwel Kibet,12621947954,Morning Run,,2024-10-08 14:03:55+00:00,1108,Run,"Golden Gate National Recreation Area, USA",3.51,,18m 28s
+131,146854303,Bethwel Kibet,12621946892,Morning Run,,2024-10-08 13:24:06+00:00,1179,Run,"Golden Gate National Recreation Area, USA",3.11,,18m 54s
+132,146854303,Bethwel Kibet,12621941200,Morning Run,,2024-10-07 14:05:35+00:00,2132,Run,"San Francisco, USA",8.01,4.43,35m 29s
+133,146854303,Bethwel Kibet,12621936329,Morning Run,,2024-10-07 13:16:46+00:00,1267,Run,"San Francisco, USA",3.3,5.18,17m 8s
+134,146854303,Bethwel Kibet,12695593842,Morning Run,,2024-10-19 17:57:36+00:00,1616,Run,"Sunnyvale, USA",4.83,5.52,26m 40s
+135,146854303,Bethwel Kibet,12695592828,Morning Run,,2024-10-19 17:14:41+00:00,1700,Run,"Sunnyvale, USA",7.98,3.55,28m 20s
+136,146854303,Bethwel Kibet,12695591632,Morning Run,,2024-10-19 16:18:16+00:00,1029,Run,"Sunnyvale, USA",3.26,5.25,17m 9s
+137,146854303,Bethwel Kibet,12753978303,Morning Run,,2024-10-26 17:00:46+00:00,1319,Run,"Irvine, USA",3.26,5.35,17m 29s
+138,146854303,Bethwel Kibet,12753977363,Morning Run,,2024-10-26 15:59:39+00:00,1641,Run,"Irvine, USA",7.84,3.48,27m 21s
+139,146854303,Bethwel Kibet,12753976740,Morning Run,,2024-10-26 15:07:46+00:00,1093,Run,"Irvine, USA",3.47,5.15,17m 52s
+140,146854303,Bethwel Kibet,12753976279,Afternoon Run,,2024-10-25 22:06:38+00:00,1530,Run,"Irvine, USA",4.94,5.02,24m 49s
+141,146854303,Bethwel Kibet,12742334047,Morning Run,,2024-10-24 13:08:27+00:00,2190,Run,"San Francisco, USA",6.4,5.13,32m 52s
+142,146854303,Bethwel Kibet,12742334221,Morning Run,,2024-10-23 13:09:51+00:00,4010,Run,"San Francisco, USA",12.82,5.0,1h 4m
+143,146854303,Bethwel Kibet,12717897857,Morning Run,,2024-10-22 15:00:27+00:00,27,Run,,0.06,7.4,27s
+144,146854303,Bethwel Kibet,12717896811,Morning Run,,2024-10-22 14:50:05+00:00,74,Run,,0.4,3.05,1m 14s
+145,146854303,Bethwel Kibet,12717896481,Morning Run,,2024-10-22 14:48:16+00:00,70,Run,"San Francisco, USA",0.4,2.92,1m 10s
+146,146854303,Bethwel Kibet,12717896052,Morning Run,,2024-10-22 14:46:20+00:00,75,Run,"San Francisco, USA",0.4,3.13,1m 15s
+147,146854303,Bethwel Kibet,12717895778,Morning Run,,2024-10-22 14:44:26+00:00,76,Run,,0.4,3.17,1m 16s
+148,146854303,Bethwel Kibet,12717895103,Morning Run,,2024-10-22 14:42:27+00:00,78,Run,,0.39,3.32,1m 18s
+149,146854303,Bethwel Kibet,12717894342,Morning Run,,2024-10-22 14:40:30+00:00,78,Run,"San Francisco, USA",0.39,3.27,1m 18s
+150,146854303,Bethwel Kibet,12717894322,Morning Run,,2024-10-22 14:38:34+00:00,78,Run,"San Francisco, USA",0.4,3.25,1m 18s
+151,146854303,Bethwel Kibet,12717893479,Morning Run,,2024-10-22 14:36:37+00:00,77,Run,,0.39,3.23,1m 17s
+152,146854303,Bethwel Kibet,12717892751,Morning Run,,2024-10-22 14:34:39+00:00,80,Run,,0.4,3.33,1m 20s
+153,146854303,Bethwel Kibet,12717892465,Morning Run,,2024-10-22 14:32:42+00:00,78,Run,"San Francisco, USA",0.4,3.25,1m 18s
+154,146854303,Bethwel Kibet,12717891972,Morning Run,,2024-10-22 14:30:47+00:00,77,Run,"San Francisco, USA",0.39,3.27,1m 17s
+155,146854303,Bethwel Kibet,12717891424,Morning Run,,2024-10-22 14:28:50+00:00,79,Run,,0.4,3.27,1m 19s
+156,146854303,Bethwel Kibet,12717891027,Morning Run,,2024-10-22 14:26:55+00:00,79,Run,,0.39,3.32,1m 19s
+157,146854303,Bethwel Kibet,12717890414,Morning Run,,2024-10-22 14:25:00+00:00,79,Run,"San Francisco, USA",0.4,3.27,1m 19s
+158,146854303,Bethwel Kibet,12717889937,Morning Run,,2024-10-22 14:23:05+00:00,78,Run,"San Francisco, USA",0.39,3.27,1m 18s
+159,146854303,Bethwel Kibet,12717889570,Morning Run,,2024-10-22 14:21:09+00:00,76,Run,,0.39,3.22,1m 16s
+160,146854303,Bethwel Kibet,12717888816,Morning Run,,2024-10-22 14:19:16+00:00,75,Run,,0.4,3.07,1m 15s
+161,146854303,Bethwel Kibet,12717888540,Morning Run,,2024-10-22 13:56:07+00:00,547,Run,"San Francisco, USA",1.82,4.92,8m 58s
+162,146854303,Bethwel Kibet,12717887498,Morning Run,,2024-10-21 13:44:30+00:00,1045,Run,"San Francisco, USA",3.24,5.2,16m 52s
+163,146854303,Bethwel Kibet,12717886253,Morning Run,,2024-10-21 13:16:14+00:00,1635,Run,"San Francisco, USA",6.45,4.13,26m 37s
+164,146854303,Bethwel Kibet,12713743492,Morning Run,,2024-10-21 13:02:53+00:00,743,Run,"San Francisco, USA",2.3,4.85,11m 10s
+165,146854303,Bethwel Kibet,12713743110,Morning Run,,2024-10-21 12:55:39+00:00,392,Run,"San Francisco, USA",1.21,4.88,5m 57s
+166,146854303,Bethwel Kibet,12808578655,Morning Run,,2024-11-02 17:15:26+00:00,4592,Run,"San Francisco, USA",18.01,4.15,1h 14m
+167,146854303,Bethwel Kibet,12808576529,Morning Run,,2024-11-02 17:02:14+00:00,716,Run,"San Francisco, USA",2.13,4.67,9m 58s
+168,146854303,Bethwel Kibet,12798410879,Morning Run,,2024-11-01 16:09:11+00:00,296,Run,"San Francisco, USA",0.84,5.87,4m 56s
+169,146854303,Bethwel Kibet,12798252651,Morning Run,,2024-11-01 15:57:24+00:00,104,Run,,0.62,2.8,1m 44s
+170,146854303,Bethwel Kibet,12798251713,Morning Run,,2024-11-01 15:54:15+00:00,108,Run,,0.61,2.93,1m 48s
+171,146854303,Bethwel Kibet,12798250897,Morning Run,,2024-11-01 15:51:08+00:00,111,Run,,0.6,3.07,1m 51s
+172,146854303,Bethwel Kibet,12798250282,Morning Run,,2024-11-01 15:47:57+00:00,116,Run,,0.61,3.17,1m 56s
+173,146854303,Bethwel Kibet,12798249705,Morning Run,,2024-11-01 15:44:50+00:00,117,Run,,0.61,3.18,1m 57s
+174,146854303,Bethwel Kibet,12798248998,Morning Run,,2024-11-01 15:41:43+00:00,118,Run,,0.6,3.25,1m 58s
+175,146854303,Bethwel Kibet,12798248637,Morning Run,,2024-11-01 15:38:35+00:00,121,Run,,0.61,3.3,2m 1s
+176,146854303,Bethwel Kibet,12798247767,Morning Run,,2024-11-01 15:35:33+00:00,119,Run,,0.6,3.28,1m 59s
+177,146854303,Bethwel Kibet,12798247715,Morning Run,,2024-11-01 15:32:26+00:00,120,Run,,0.6,3.28,2m 0s
+178,146854303,Bethwel Kibet,12798247382,Morning Run,,2024-11-01 15:29:19+00:00,119,Run,,0.6,3.28,1m 59s
+179,146854303,Bethwel Kibet,12798245800,Morning Run,,2024-11-01 15:26:13+00:00,119,Run,,0.61,3.25,1m 59s
+180,146854303,Bethwel Kibet,12798245106,Morning Run,,2024-11-01 15:23:04+00:00,119,Run,,0.6,3.27,1m 59s
+181,146854303,Bethwel Kibet,12798244208,Morning Run,,2024-11-01 14:32:46+00:00,1573,Run,"San Francisco, USA",4.73,5.52,26m 4s
+182,146854303,Bethwel Kibet,12789733711,Morning Run,,2024-10-31 13:11:04+00:00,2794,Run,"San Francisco, USA",9.01,4.88,44m 0s
+183,146854303,Bethwel Kibet,12789732772,Morning Run,,2024-10-30 13:20:50+00:00,3878,Run,"San Francisco, USA",12.66,4.87,1h 1m
+184,146854303,Bethwel Kibet,12773971167,Morning Run,,2024-10-29 14:55:39+00:00,199,Run,,1.02,3.25,3m 19s
+185,146854303,Bethwel Kibet,12773970674,Morning Run,,2024-10-29 14:51:01+00:00,197,Run,,1.02,3.22,3m 17s
+186,146854303,Bethwel Kibet,12773970198,Morning Run,,2024-10-29 14:46:20+00:00,201,Run,,1.01,3.32,3m 21s
+187,146854303,Bethwel Kibet,12773969212,Morning Run,,2024-10-29 14:41:29+00:00,208,Run,,1.0,3.47,3m 28s
+188,146854303,Bethwel Kibet,12773968592,Morning Run,,2024-10-29 14:36:33+00:00,213,Run,,1.01,3.5,3m 33s
+189,146854303,Bethwel Kibet,12773968182,Morning Run,,2024-10-29 14:31:46+00:00,212,Run,,1.0,3.53,3m 32s
+190,146854303,Bethwel Kibet,12773967633,Morning Run,,2024-10-29 14:26:59+00:00,211,Run,,1.0,3.5,3m 31s
+191,146854303,Bethwel Kibet,12773967199,Morning Run,,2024-10-29 14:22:20+00:00,211,Run,,1.0,3.52,3m 31s
+192,146854303,Bethwel Kibet,12773966240,Morning Run,,2024-10-29 14:17:36+00:00,213,Run,,1.0,3.53,3m 33s
+193,146854303,Bethwel Kibet,12773959509,Morning Run,,2024-10-29 14:12:58+00:00,206,Run,,1.0,3.43,3m 26s
+194,146854303,Bethwel Kibet,12861849175,Morning Run,,2024-11-09 15:26:29+00:00,6850,Run,"San Francisco, USA",25.02,4.3,1h 47m
+195,146854303,Bethwel Kibet,12861845213,Morning Run,,2024-11-09 15:12:10+00:00,696,Run,"San Francisco, USA",1.92,4.97,9m 33s
+196,146854303,Bethwel Kibet,12849309697,Morning Run,,2024-11-07 14:12:04+00:00,3267,Run,"San Francisco, USA",10.01,5.03,50m 21s
+197,146854303,Bethwel Kibet,12838148310,Morning Run,,2024-11-06 16:13:32+00:00,1477,Run,"San Francisco, USA",4.8,4.92,23m 36s
+198,146854303,Bethwel Kibet,12838146937,Morning Run,,2024-11-06 16:03:53+00:00,78,Run,"San Francisco, USA",0.41,3.13,1m 18s
+199,146854303,Bethwel Kibet,12838146947,Morning Run,,2024-11-06 16:01:58+00:00,79,Run,"San Francisco, USA",0.41,3.2,1m 19s
+200,146854303,Bethwel Kibet,12838145502,Morning Run,,2024-11-06 16:00:04+00:00,78,Run,"San Francisco, USA",0.39,3.27,1m 18s
+201,146854303,Bethwel Kibet,12838145068,Morning Run,,2024-11-06 15:58:06+00:00,79,Run,"San Francisco, USA",0.4,3.27,1m 19s
+202,146854303,Bethwel Kibet,12838144696,Morning Run,,2024-11-06 15:56:08+00:00,78,Run,"San Francisco, USA",0.39,3.27,1m 18s
+203,146854303,Bethwel Kibet,12838143910,Morning Run,,2024-11-06 15:54:14+00:00,78,Run,"San Francisco, USA",0.39,3.28,1m 18s
+204,146854303,Bethwel Kibet,12838144127,Morning Run,,2024-11-06 15:52:17+00:00,77,Run,"San Francisco, USA",0.39,3.23,1m 17s
+205,146854303,Bethwel Kibet,12838143946,Morning Run,,2024-11-06 15:50:21+00:00,77,Run,"San Francisco, USA",0.39,3.23,1m 17s
+206,146854303,Bethwel Kibet,12838143018,Morning Run,,2024-11-06 15:48:24+00:00,79,Run,"San Francisco, USA",0.4,3.28,1m 19s
+207,146854303,Bethwel Kibet,12838142518,Morning Run,,2024-11-06 15:46:29+00:00,78,Run,"San Francisco, USA",0.4,3.23,1m 18s
+208,146854303,Bethwel Kibet,12838141986,Morning Run,,2024-11-06 15:44:36+00:00,79,Run,"San Francisco, USA",0.4,3.28,1m 19s
+209,146854303,Bethwel Kibet,12838141706,Morning Run,,2024-11-06 15:42:44+00:00,77,Run,"San Francisco, USA",0.39,3.25,1m 17s
+210,146854303,Bethwel Kibet,12838140955,Morning Run,,2024-11-06 15:40:48+00:00,77,Run,"San Francisco, USA",0.39,3.23,1m 17s
+211,146854303,Bethwel Kibet,12838140470,Morning Run,,2024-11-06 15:38:48+00:00,77,Run,"San Francisco, USA",0.39,3.23,1m 17s
+212,146854303,Bethwel Kibet,12838140181,Morning Run,,2024-11-06 15:36:51+00:00,77,Run,"San Francisco, USA",0.39,3.25,1m 17s
+213,146854303,Bethwel Kibet,12838139849,Morning Run,,2024-11-06 15:34:56+00:00,77,Run,"San Francisco, USA",0.41,3.13,1m 17s
+214,146854303,Bethwel Kibet,12838138994,Morning Run,,2024-11-06 15:33:05+00:00,78,Run,"San Francisco, USA",0.39,3.28,1m 18s
+215,146854303,Bethwel Kibet,12838138742,Morning Run,,2024-11-06 15:31:12+00:00,79,Run,"San Francisco, USA",0.4,3.28,1m 19s
+216,146854303,Bethwel Kibet,12838137803,Morning Run,,2024-11-06 15:27:15+00:00,110,Run,"San Francisco, USA",0.42,3.6,1m 32s
+217,146854303,Bethwel Kibet,12838137602,Morning Run,,2024-11-06 14:51:00+00:00,915,Run,"San Francisco, USA",3.28,4.62,15m 8s
+218,146854303,Bethwel Kibet,12821631301,Morning Run,,2024-11-04 15:34:23+00:00,1031,Run,"San Francisco, USA",3.18,5.38,17m 11s
+219,146854303,Bethwel Kibet,12821629997,Morning Run,,2024-11-04 15:15:18+00:00,580,Run,,3.04,3.17,9m 40s
+220,146854303,Bethwel Kibet,12907840138,Morning Run,,2024-11-15 16:48:29+00:00,1175,Run,"San Francisco, USA",3.23,6.03,19m 30s
+221,146854303,Bethwel Kibet,12907839222,Morning Run,,2024-11-15 16:37:19+00:00,31,Run,,0.18,2.75,31s
+222,146854303,Bethwel Kibet,12907839023,Morning Run,,2024-11-15 16:35:42+00:00,30,Run,,0.18,2.65,30s
+223,146854303,Bethwel Kibet,12907838719,Morning Run,,2024-11-15 16:34:03+00:00,31,Run,,0.2,2.57,31s
+224,146854303,Bethwel Kibet,12907838427,Morning Run,,2024-11-15 16:32:33+00:00,29,Run,,0.18,2.58,29s
+225,146854303,Bethwel Kibet,12907837950,Morning Run,,2024-11-15 16:26:59+00:00,94,Run,,0.5,3.13,1m 34s
+226,146854303,Bethwel Kibet,12907837324,Morning Run,,2024-11-15 16:24:19+00:00,93,Run,,0.5,3.07,1m 33s
+227,146854303,Bethwel Kibet,12907837129,Morning Run,,2024-11-15 16:21:40+00:00,92,Run,"San Francisco, USA",0.5,3.07,1m 32s
+228,146854303,Bethwel Kibet,12907836604,Morning Run,,2024-11-15 16:19:01+00:00,91,Run,,0.49,3.05,1m 31s
+229,146854303,Bethwel Kibet,12907836318,Morning Run,,2024-11-15 16:14:09+00:00,92,Run,,0.51,3.0,1m 32s
+230,146854303,Bethwel Kibet,12907835850,Morning Run,,2024-11-15 16:11:32+00:00,91,Run,,0.5,3.02,1m 31s
+231,146854303,Bethwel Kibet,12907835314,Morning Run,,2024-11-15 16:08:52+00:00,88,Run,"San Francisco, USA",0.48,3.02,1m 28s
+232,146854303,Bethwel Kibet,12907835039,Morning Run,,2024-11-15 16:03:52+00:00,86,Run,,0.5,2.87,1m 26s
+233,146854303,Bethwel Kibet,12907834549,Morning Run,,2024-11-15 15:25:24+00:00,1421,Run,"San Francisco, USA",3.25,5.43,17m 42s
+234,146854303,Bethwel Kibet,12903907689,Morning Run,,2024-11-14 14:07:33+00:00,3347,Run,"San Francisco, USA",10.0,4.87,48m 44s
+235,146854303,Bethwel Kibet,12892634576,Morning Run,,2024-11-13 14:13:23+00:00,3147,Run,"San Francisco, USA",9.6,4.83,46m 26s
+236,146854303,Bethwel Kibet,12884595205,Morning Run,,2024-11-12 16:18:36+00:00,322,Run,,1.06,5.03,5m 22s
+237,146854303,Bethwel Kibet,12884629511,Morning Run,,2024-11-12 16:09:47+00:00,70,Run,,0.38,3.02,1m 10s
+238,146854303,Bethwel Kibet,12884594048,Morning Run,,2024-11-12 16:07:36+00:00,73,Run,,0.39,3.1,1m 13s
+239,146854303,Bethwel Kibet,12884593739,Morning Run,,2024-11-12 16:05:27+00:00,74,Run,,0.4,3.08,1m 14s
+240,146854303,Bethwel Kibet,12884593446,Morning Run,,2024-11-12 16:03:21+00:00,73,Run,,0.4,3.02,1m 13s
+241,146854303,Bethwel Kibet,12884593015,Morning Run,,2024-11-12 16:01:12+00:00,74,Run,,0.37,3.27,1m 14s
+242,146854303,Bethwel Kibet,12884592457,Morning Run,,2024-11-12 15:58:59+00:00,74,Run,,0.39,3.15,1m 14s
+243,146854303,Bethwel Kibet,12884592033,Morning Run,,2024-11-12 15:56:48+00:00,73,Run,,0.39,3.07,1m 13s
+244,146854303,Bethwel Kibet,12884591922,Morning Run,,2024-11-12 15:54:47+00:00,72,Run,,0.4,3.0,1m 12s
+245,146854303,Bethwel Kibet,12884590550,Morning Run,,2024-11-12 15:50:54+00:00,162,Run,,0.8,3.35,2m 42s
+246,146854303,Bethwel Kibet,12884590123,Morning Run,,2024-11-12 15:47:14+00:00,160,Run,,0.79,3.37,2m 40s
+247,146854303,Bethwel Kibet,12884590234,Morning Run,,2024-11-12 15:43:40+00:00,159,Run,,0.8,3.3,2m 39s
+248,146854303,Bethwel Kibet,12884588555,Morning Run,,2024-11-12 15:40:02+00:00,160,Run,,0.81,3.3,2m 40s
+249,146854303,Bethwel Kibet,12884587939,Morning Run,,2024-11-12 15:36:24+00:00,160,Run,,0.8,3.3,2m 40s
+250,146854303,Bethwel Kibet,12884587342,Morning Run,,2024-11-12 15:32:48+00:00,158,Run,,0.79,3.32,2m 38s
+251,146854303,Bethwel Kibet,12884586701,Morning Run,,2024-11-12 14:41:54+00:00,1105,Run,"San Francisco, USA",3.2,5.75,18m 25s
+252,146854303,Bethwel Kibet,12876254871,Morning Run,,2024-11-11 14:12:06+00:00,3771,Run,"San Francisco, USA",12.53,4.9,1h 1m
+253,146854303,Bethwel Kibet,12981056364,Morning Run,,2024-11-25 17:02:12+00:00,805,Run,"San Francisco, USA",2.8,4.2,11m 48s
+254,146854303,Bethwel Kibet,12981055153,Morning Run,,2024-11-25 16:11:37+00:00,2534,Run,"San Francisco, USA",8.05,3.6,29m 1s
+255,146854303,Bethwel Kibet,12981053243,Morning Run,,2024-11-25 15:51:48+00:00,882,Run,"San Francisco, USA",2.16,4.38,9m 28s
+256,18085134,Hendrik Pfeiffer,10559979839,"Houston Marathon 2:07:14, 3rd place","Tracked by ⌚️: Amazfit Cheetah Pro
+- 4th fastest German ever
+- 56 seconds below the Olympic standard",2024-01-14 13:01:01+00:00,7635,Run,"Houston, USA",42.4,3.0,2h 7m
+257,18085134,Hendrik Pfeiffer,10666859890,Easy run in Sevilla 🇪🇸☀️,,2024-01-29 11:50:11+00:00,4913,Run,"Seville, Spain",19.86,3.9,1h 17m
+258,18085134,Hendrik Pfeiffer,10740778940,25k uphill ⛰️,⌚️Amazfit Cheetah Pro,2024-02-11 06:20:25+00:00,5707,Run,"Elgeyo-Marakwet County, Kenya",25.0,3.8,1h 35m
+259,18085134,Hendrik Pfeiffer,10786658475,35k uphill on Kapkoi Road ⛰️,Tracked by ⌚️Amazfit Cheetah Pro,2024-02-18 06:23:59+00:00,8169,Run,"Elgeyo-Marakwet County, Kenya",35.0,3.88,2h 16m
+260,18085134,Hendrik Pfeiffer,10746225868,Kicking off the PUMA  5 X 5K CHALLENGE,Check out the new Velocity NITRO 3 😍,2024-02-12 08:44:18+00:00,4522,Run,"Elgeyo-Marakwet County, Kenya",18.52,4.07,1h 15m
+261,18085134,Hendrik Pfeiffer,10833903152,Sunday Longrun,Tracked by Amazfit Cheetah Pro ⌚️,2024-02-25 06:21:55+00:00,7557,Run,"Elgeyo-Marakwet County, Kenya",35.01,3.6,2h 5m
+262,18085134,Hendrik Pfeiffer,10886365953,🇩🇪 National Championship 10k 🥈and personal best 28:49,Tracked by ⌚️Amazfit Cheetah Pro,2024-03-03 10:45:04+00:00,1729,Run,"Mülheim, Germany",9.97,2.88,28m 49s
+263,18085134,Hendrik Pfeiffer,10930877350,Finishing an amazing training week in my Velocity Nitro 3,Tracked by ⌚️Amazfit Cheetah Pro,2024-03-10 12:01:14+00:00,8061,Run,"Hanover, Germany",35.11,3.83,2h 14m
+264,18085134,Hendrik Pfeiffer,11079179762,Collecting 35 Easter Eggs🥚,Tracked by⌚️Amazfit Cheetah Pro,2024-03-31 13:30:28+00:00,8098,Workout,"Hanover, Germany",2.0,,149 bpm
+265,18085134,Hendrik Pfeiffer,11128604869,A hot Berlin Half ☀️🥵,Tracked by Amazfit Cheetah Pro,2024-04-07 08:05:00+00:00,3787,Run,"Mitte, Germany",21.22,2.97,1h 3m
+266,18085134,Hendrik Pfeiffer,11107741536,Shakeout in Berlin,Tracked by ⌚️Amazfit Cheetah Pro,2024-04-04 17:03:46+00:00,3181,Run,"Mitte, Germany",13.11,3.9,51m 9s
+267,18085134,Hendrik Pfeiffer,11166249837,Abendlauf,Tracked by ⌚️Amazfit Cheetah Pro,2024-04-12 16:48:30+00:00,3399,Run,"Hanover, Germany",15.05,3.67,55m 16s
+268,18085134,Hendrik Pfeiffer,11236892097,London Marathon 7th place 🤩,A career highlight tracked by ⌚️Amazfit Cheetah Pro,2024-04-21 09:00:02+00:00,7808,Run,"Greater London, United Kingdom",42.29,3.08,2h 10m
+269,18085134,Hendrik Pfeiffer,11365339461,Brunnenlauf Sonsbeck,Tracked by ⌚️Amazfit Cheetah Pro,2024-05-08 17:45:06+00:00,1768,Run,"Sonsbeck, Germany",10.05,2.93,29m 28s
+270,18085134,Hendrik Pfeiffer,11354020825,DL2 in Neuss mit Simon Kohler,Tracked by ⌚️Amazfit Cheetah Pro,2024-05-07 14:40:04+00:00,4085,Run,"Neuss, Germany",20.01,3.4,1h 8m
+271,18085134,Hendrik Pfeiffer,11443826969,"Karlovy Vary Halfmarathon, 3rd place",Tracked by Amazfit Cheetah Pro,2024-05-18 16:00:04+00:00,3896,Run,"Karlovy Vary, Czechia",21.21,3.07,1h 4m
+272,18085134,Hendrik Pfeiffer,11399858568,20km easy,Tracked by ⌚️Amazfit Cheetah Pro,2024-05-13 10:15:04+00:00,4603,Run,"Hanover, Germany",20.04,3.82,1h 16m
+273,18085134,Hendrik Pfeiffer,11558334059,25k one week to go until Roma 2024,Tracked by ⌚️ Amazfit Cheetah Pro,2024-06-02 14:15:00+00:00,5715,Run,"Hanover, Germany",25.08,3.8,1h 35m
+274,18085134,Hendrik Pfeiffer,11612249522,European Championship Rome (34th & Team 🥉),Tracked by Amazfit Cheetah pro,2024-06-09 07:00:41+00:00,3869,Run,"Rome, Italy",21.22,3.03,1h 4m
+275,18085134,Hendrik Pfeiffer,11645801901,SuperReturn Running Event w/ Deloitte in 📍Berlin,,2024-06-06 15:35:17+00:00,2694,Run,"Charlottenburg-Wilmersdorf, Germany",8.1,5.43,44m 5s
+276,18085134,Hendrik Pfeiffer,11665099208,EVL Halbmarathon Leverkusen 🥇,Tracked by Amazfit cheetah pro ⌚️,2024-06-16 07:00:27+00:00,4031,Run,"Stadtbezirk II, Germany",21.16,3.12,1h 6m
+277,18085134,Hendrik Pfeiffer,11730359795,First steps on a long way towards fall Marathon 🍂,Tracked by ⌚️ Amazfit Cheetah Pro,2024-06-23 11:41:59+00:00,5537,Run,"Hanover, Germany",25.03,3.68,1h 32m
+278,18085134,Hendrik Pfeiffer,11773743076,Hamburg Halfmarathon,Tracked by ⌚️Amazfit Cheetah Pro,2024-06-30 07:00:09+00:00,3862,Run,"Hamburg-Mitte, Germany",21.14,3.05,1h 4m
+279,18085134,Hendrik Pfeiffer,11809665404,Peachtree Atlanta 10k 🥵⛰️🇺🇸,Tracked by Amazfit Cheetah Pro ⌚️ One of the toughest courses and brutal conditions. What a great adventure ✌🏽,2024-07-04 11:00:04+00:00,1818,Run,"Atlanta, USA",10.15,2.98,30m 18s
+280,18085134,Hendrik Pfeiffer,11900411788,Run to Lake Heiterwang,Tracked by ⌚️ Amazfit Cheetah Pro,2024-07-15 10:49:18+00:00,5729,Run,"Gemeinde Ehrwald, Austria",22.59,4.22,1h 35m
+281,18085134,Hendrik Pfeiffer,12012045474,Medio Maraton Bogotá 🇨🇴 (8th place),2600m above sea level. Tracked by Amazfit Cheeta Pro ⌚️,2024-07-28 13:30:05+00:00,4069,Run,"Localidad Teusaquillo, Colombia",21.33,3.18,1h 7m
+282,18085134,Hendrik Pfeiffer,11987378641,Exploring Bogota,Tracked by Amazfit Cheetah Pro ⌚️,2024-07-26 15:17:45+00:00,4359,Run,"Localidad Teusaquillo, Colombia",16.02,4.28,1h 8m
+283,18085134,Hendrik Pfeiffer,12123677847,Sunday Longrun 😎,Tracked by Amazfit Cheetah Pro ⌚️,2024-08-11 11:44:02+00:00,6920,Run,"Hanover, Germany",30.04,3.83,1h 55m
+284,18085134,Hendrik Pfeiffer,12361163990,Pacemaker at Münster Marathon,Tracked by Amazfit Cheetah Pro ⌚️,2024-09-08 07:00:06+00:00,3930,Run,"Münster-Mitte, Germany",21.55,3.03,1h 5m
+285,18085134,Hendrik Pfeiffer,12534521348,Berlin Marathon 2:08:20,Tracked by Amazfit Cheetah Pro ⌚️,2024-09-29 07:15:01+00:00,7701,Run,"Mitte, Germany",42.38,3.03,2h 8m
+286,18085134,Hendrik Pfeiffer,12595711683,Köln Halfmarathon pacing for Esther,Tracked by Amazfit Cheetah Pro ⌚️,2024-10-06 07:00:31+00:00,4190,Run,"Innenstadt, Germany",21.3,3.27,1h 9m
+287,146708596,Brenda Jepchirchir,12349856504,Morning Run,,2024-09-07 12:35:05+00:00,3565,Run,"Lee County, USA",14.48,4.1,59m 25s
+288,146708596,Brenda Jepchirchir,12349856823,Morning Run,,2024-09-07 13:37:06+00:00,427,Run,"Lee County, USA",1.48,4.8,7m 7s
+289,146708596,Brenda Jepchirchir,12343259469,Morning Run,,2024-09-06 10:56:44+00:00,3933,Run,"Auburn, USA",14.2,4.5,1h 3m
+290,146708596,Brenda Jepchirchir,12343258339,Evening Run,,2024-09-05 23:00:07+00:00,1840,Run,"Auburn, USA",6.01,4.87,29m 16s
+291,146708596,Brenda Jepchirchir,12333795508,Morning Run,,2024-09-05 12:05:59+00:00,893,Run,"Auburn, USA",3.01,4.78,14m 24s
+292,146708596,Brenda Jepchirchir,12333794873,Morning Run,,2024-09-05 11:44:05+00:00,1027,Run,"Auburn, USA",5.01,3.42,17m 7s
+293,146708596,Brenda Jepchirchir,12333790387,Morning Run,,2024-09-05 11:12:17+00:00,921,Run,"Auburn, USA",3.22,4.75,15m 21s
+294,146708596,Brenda Jepchirchir,12407767831,Morning Run,,2024-09-14 12:09:47+00:00,5448,Run,"Auburn, USA",20.01,4.43,1h 28m
+295,146708596,Brenda Jepchirchir,12402584460,Afternoon Run,,2024-09-13 20:53:56+00:00,1731,Run,"Auburn, USA",6.01,4.72,28m 23s
+296,146708596,Brenda Jepchirchir,12398935199,Morning Run,,2024-09-13 11:41:15+00:00,294,Run,"Auburn, USA",1.08,4.43,4m 50s
+297,146708596,Brenda Jepchirchir,12398934928,Morning Run,,2024-09-13 10:55:15+00:00,2592,Run,"Auburn, USA",9.35,4.62,43m 12s
+298,146708596,Brenda Jepchirchir,12395540310,Afternoon Run,,2024-09-12 21:36:51+00:00,1592,Run,"Auburn, USA",6.01,4.3,25m 52s
+299,146708596,Brenda Jepchirchir,12391608364,Morning Run,,2024-09-12 12:17:40+00:00,1097,Run,"Auburn, USA",4.01,4.53,18m 11s
+300,146708596,Brenda Jepchirchir,12391607180,Morning Run,,2024-09-12 11:41:20+00:00,2013,Run,"Auburn, USA",8.68,3.53,30m 40s
+301,146708596,Brenda Jepchirchir,12391606954,Morning Run,,2024-09-12 11:08:00+00:00,922,Run,"Auburn, USA",3.21,4.77,15m 20s
+302,146708596,Brenda Jepchirchir,12382981215,Morning Run,,2024-09-11 11:12:38+00:00,3793,Run,"Auburn, USA",13.02,4.68,1h 1m
+303,146708596,Brenda Jepchirchir,12378915519,Afternoon Run,,2024-09-10 22:01:30+00:00,1726,Run,"Auburn, USA",6.05,4.73,28m 40s
+304,146708596,Brenda Jepchirchir,12374541117,Morning Run,,2024-09-10 12:27:32+00:00,1161,Run,"Auburn, USA",4.01,4.82,19m 21s
+305,146708596,Brenda Jepchirchir,12374539924,Morning Run,,2024-09-10 11:52:16+00:00,1751,Run,,8.14,3.58,29m 11s
+306,146708596,Brenda Jepchirchir,12374537051,Morning Run,,2024-09-10 11:11:18+00:00,934,Run,"Auburn, USA",3.18,4.88,15m 34s
+307,146708596,Brenda Jepchirchir,12371022538,Evening Run,,2024-09-09 23:23:13+00:00,1658,Run,"Auburn, USA",6.03,4.53,27m 22s
+308,146708596,Brenda Jepchirchir,12365552243,Morning Run,,2024-09-09 10:53:48+00:00,3084,Run,"Auburn, USA",12.01,4.15,49m 47s
+309,146708596,Brenda Jepchirchir,12466912737,Morning Run,,2024-09-21 12:19:34+00:00,3383,Run,"Tuskegee National Forest, USA",15.01,3.6,54m 8s
+310,146708596,Brenda Jepchirchir,12461983749,Afternoon Run,,2024-09-20 20:40:26+00:00,6287,Run,"Auburn, USA",6.21,5.37,33m 21s
+311,146708596,Brenda Jepchirchir,12458340908,Morning Run,,2024-09-20 12:12:28+00:00,960,Run,"Auburn, USA",3.05,4.98,15m 14s
+312,146708596,Brenda Jepchirchir,12458150571,Morning Run,,2024-09-20 11:27:44+00:00,2239,Run,"Lee County, USA",8.98,4.13,37m 9s
+313,146708596,Brenda Jepchirchir,12458147716,Morning Run,,2024-09-20 10:33:45+00:00,1087,Run,"Auburn, USA",3.21,5.47,17m 33s
+314,146708596,Brenda Jepchirchir,12454378735,Afternoon Run,,2024-09-19 21:55:18+00:00,1663,Run,"Auburn, USA",6.02,4.52,27m 12s
+315,146708596,Brenda Jepchirchir,12449613384,Morning Run,,2024-09-19 11:36:39+00:00,358,Run,,0.99,4.42,4m 25s
+316,146708596,Brenda Jepchirchir,12449613098,Morning Run,,2024-09-19 10:51:59+00:00,2527,Run,"Auburn, USA",10.01,4.07,40m 39s
+317,146708596,Brenda Jepchirchir,12441541712,Morning Run,,2024-09-18 11:16:24+00:00,3809,Run,"Auburn, USA",13.0,4.6,59m 48s
+318,146708596,Brenda Jepchirchir,12441539438,Afternoon Run,,2024-09-17 22:21:23+00:00,1856,Run,"Auburn, USA",6.05,4.85,29m 24s
+319,146708596,Brenda Jepchirchir,12432590024,Morning Run,,2024-09-17 11:09:07+00:00,985,Run,"Auburn, USA",3.19,5.12,16m 20s
+320,146708596,Brenda Jepchirchir,12432592653,Morning Run,,2024-09-17 12:30:12+00:00,1047,Run,,3.3,5.25,17m 20s
+321,146708596,Brenda Jepchirchir,12432591461,Morning Run,,2024-09-17 11:57:08+00:00,1659,Run,"Auburn, USA",5.64,4.38,24m 41s
+322,146708596,Brenda Jepchirchir,12424005740,Morning Run,,2024-09-16 10:50:31+00:00,3452,Run,"Auburn, USA",12.01,4.47,53m 34s
+323,146708596,Brenda Jepchirchir,12534067473,Morning Run,,2024-09-29 12:31:32+00:00,4698,Run,"Chambers County, USA",16.11,4.58,1h 13m
+324,146708596,Brenda Jepchirchir,12516461356,Morning Run,,2024-09-27 14:28:17+00:00,2009,Run,"Columbia, USA",3.35,9.17,30m 46s
+325,146708596,Brenda Jepchirchir,12516430620,Morning Run,,2024-09-27 13:44:38+00:00,1190,Run,"Boone County, USA",6.08,3.25,19m 50s
+326,146708596,Brenda Jepchirchir,12516427070,Morning Run,,2024-09-27 12:55:27+00:00,970,Run,"Columbia, USA",3.32,4.67,15m 30s
+327,146708596,Brenda Jepchirchir,12516426735,Morning Run,,2024-09-27 10:35:07+00:00,644,Run,"Columbia, USA",2.43,4.4,10m 44s
+328,146708596,Brenda Jepchirchir,12516426733,Morning Run,,2024-09-26 15:17:36+00:00,1771,Run,"Boone County, USA",6.39,4.62,29m 29s
+329,146708596,Brenda Jepchirchir,12499847271,Morning Run,,2024-09-25 10:48:54+00:00,2912,Run,"Auburn, USA",10.01,4.73,47m 24s
+330,146708596,Brenda Jepchirchir,12495951749,Afternoon Run,,2024-09-24 21:21:28+00:00,2148,Run,"Auburn, USA",7.13,4.98,35m 30s
+331,146708596,Brenda Jepchirchir,12495664976,Morning Run,,2024-09-24 11:15:06+00:00,2925,Run,"Auburn, USA",10.06,4.63,46m 34s
+332,146708596,Brenda Jepchirchir,12483136593,Morning Run,,2024-09-23 11:54:29+00:00,1135,Run,,4.01,4.7,18m 55s
+333,146708596,Brenda Jepchirchir,12483136010,Morning Run,,2024-09-23 11:25:03+00:00,1511,Run,"Auburn, USA",5.85,4.15,24m 18s
+334,146708596,Brenda Jepchirchir,12483135167,Morning Run,,2024-09-23 10:35:49+00:00,1015,Run,"Auburn, USA",3.14,5.3,16m 40s
+335,146708596,Brenda Jepchirchir,12581032271,Morning Run,,2024-10-05 12:39:56+00:00,5130,Run,"Auburn, USA",20.01,4.12,1h 22m
+336,146708596,Brenda Jepchirchir,12581032677,Morning Run,,2024-10-04 10:55:03+00:00,3303,Run,"Auburn, USA",12.02,4.52,54m 19s
+337,146708596,Brenda Jepchirchir,12564811656,Morning Run,,2024-10-03 12:56:07+00:00,815,Run,,3.02,4.5,13m 35s
+338,146708596,Brenda Jepchirchir,12564811465,Morning Run,,2024-10-03 12:20:56+00:00,1784,Run,"Auburn, USA",8.3,3.57,29m 41s
+339,146708596,Brenda Jepchirchir,12564809286,Morning Run,,2024-10-03 11:37:41+00:00,1042,Run,"Auburn, USA",4.01,4.3,17m 15s
+340,146708596,Brenda Jepchirchir,12564808484,Afternoon Run,,2024-10-02 20:37:30+00:00,1915,Run,"Auburn, USA",6.48,4.9,31m 47s
+341,146708596,Brenda Jepchirchir,12556021543,Morning Run,,2024-10-02 10:35:06+00:00,3692,Run,"Auburn, USA",13.01,4.72,1h 1m
+342,146708596,Brenda Jepchirchir,12553109925,Afternoon Run,,2024-10-01 22:13:41+00:00,2056,Run,"Auburn, USA",6.01,4.83,29m 2s
+343,146708596,Brenda Jepchirchir,12548179340,Morning Run,,2024-10-01 13:21:09+00:00,857,Run,"Auburn, USA",3.01,4.73,14m 17s
+344,146708596,Brenda Jepchirchir,12548178654,Morning Run,,2024-10-01 12:34:54+00:00,2513,Run,"Auburn, USA",10.72,3.7,39m 42s
+345,146708596,Brenda Jepchirchir,12548176794,Morning Run,,2024-10-01 12:02:12+00:00,992,Run,"Auburn, USA",4.01,4.12,16m 30s
+346,146708596,Brenda Jepchirchir,12548175757,Morning Run,,2024-09-30 10:56:36+00:00,3131,Run,"Auburn, USA",12.01,4.23,50m 53s
+347,146708596,Brenda Jepchirchir,12637527026,Morning Run,,2024-10-12 13:04:12+00:00,3529,Run,"Tuskegee National Forest, USA",15.01,3.48,52m 19s
+348,146708596,Brenda Jepchirchir,12637522684,Afternoon Run,,2024-10-11 21:53:06+00:00,1609,Run,"Auburn, USA",6.03,4.43,26m 43s
+349,146708596,Brenda Jepchirchir,12629762809,Morning Run,,2024-10-11 13:11:36+00:00,2651,Run,"Auburn, USA",10.04,4.33,43m 35s
+350,146708596,Brenda Jepchirchir,12618243959,Evening Run,,2024-10-10 00:36:55+00:00,1394,Run,"Auburn, USA",4.01,5.78,23m 14s
+351,146708596,Brenda Jepchirchir,12618243621,Evening Run,,2024-10-09 23:56:52+00:00,2048,Run,,8.62,3.87,33m 22s
+352,146708596,Brenda Jepchirchir,12618242581,Evening Run,,2024-10-09 23:14:39+00:00,1000,Run,"Auburn, USA",3.22,4.83,15m 35s
+353,146708596,Brenda Jepchirchir,12613580403,Morning Run,,2024-10-09 11:42:15+00:00,1718,Run,"Auburn, USA",6.06,4.7,28m 33s
+354,146708596,Brenda Jepchirchir,12605276121,Morning Run,,2024-10-08 11:06:40+00:00,3281,Run,"Auburn, USA",13.01,4.07,53m 2s
+355,146708596,Brenda Jepchirchir,12605273005,Afternoon Run,,2024-10-07 22:09:40+00:00,1984,Run,"Auburn, USA",6.01,5.08,30m 37s
+356,146708596,Brenda Jepchirchir,12597608566,Morning Run,,2024-10-07 11:03:51+00:00,3395,Run,"Auburn, USA",12.03,4.62,55m 32s
+357,146708596,Brenda Jepchirchir,12697434054,Afternoon Run,,2024-10-19 18:14:40+00:00,1044,Run,"Madison, USA",3.01,5.75,17m 17s
+358,146708596,Brenda Jepchirchir,12697433727,Lunch Run,,2024-10-19 17:40:00+00:00,1200,Run,"Madison, USA",6.15,3.25,20m 0s
+359,146708596,Brenda Jepchirchir,12697433449,Lunch Run,,2024-10-19 16:44:23+00:00,941,Run,"Madison, USA",3.24,4.77,15m 30s
+360,146708596,Brenda Jepchirchir,12697433203,Morning Run,,2024-10-19 12:03:01+00:00,636,Run,"Madison, USA",2.01,5.1,10m 16s
+361,146708596,Brenda Jepchirchir,12697432697,Lunch Run,,2024-10-18 16:53:18+00:00,30,Run,,0.12,3.48,25s
+362,146708596,Brenda Jepchirchir,12697432792,Lunch Run,,2024-10-18 16:04:03+00:00,1714,Run,"Madison, USA",6.18,4.58,28m 23s
+363,146708596,Brenda Jepchirchir,12676888278,Morning Run,,2024-10-17 11:19:09+00:00,2969,Run,"Auburn, USA",10.01,4.52,45m 10s
+364,146708596,Brenda Jepchirchir,12673369241,Morning Run,,2024-10-16 11:05:29+00:00,2940,Run,"Auburn, USA",10.04,4.88,49m 0s
+365,146708596,Brenda Jepchirchir,12673367675,Afternoon Run,,2024-10-15 22:02:08+00:00,1685,Run,"Auburn, USA",6.03,4.65,28m 2s
+366,146708596,Brenda Jepchirchir,12661205603,Morning Run,,2024-10-15 13:27:05+00:00,1043,Run,"Auburn, USA",4.02,4.32,17m 23s
+367,146708596,Brenda Jepchirchir,12661205215,Morning Run,,2024-10-15 12:48:36+00:00,2121,Run,"Auburn, USA",7.79,4.23,33m 0s
+368,146708596,Brenda Jepchirchir,12661203001,Morning Run,,2024-10-15 12:06:48+00:00,969,Run,"Auburn, USA",3.21,5.0,16m 2s
+369,146708596,Brenda Jepchirchir,12653052270,Morning Run,,2024-10-14 11:01:27+00:00,2993,Run,"Auburn, USA",12.02,4.05,48m 41s
+370,146708596,Brenda Jepchirchir,12767252772,Morning Run,,2024-10-26 12:26:24+00:00,4491,Run,"Tuskegee National Forest, USA",16.18,4.57,1h 13m
+371,146708596,Brenda Jepchirchir,12737412124,Afternoon Run,,2024-10-24 22:00:02+00:00,1823,Run,"Auburn, USA",6.01,4.8,28m 55s
+372,146708596,Brenda Jepchirchir,12736262247,Morning Run,,2024-10-24 12:07:36+00:00,2826,Run,"Auburn, USA",10.12,4.53,45m 57s
+373,146708596,Brenda Jepchirchir,12729783883,Morning Run,,2024-10-23 12:34:20+00:00,884,Run,,3.02,4.83,14m 35s
+374,146708596,Brenda Jepchirchir,12729783465,Morning Run,,2024-10-23 11:48:31+00:00,2558,Run,"Auburn, USA",9.17,4.25,39m 4s
+375,146708596,Brenda Jepchirchir,12729782024,Morning Run,,2024-10-23 11:06:44+00:00,1162,Run,"Auburn, USA",4.02,4.72,19m 0s
+376,146708596,Brenda Jepchirchir,12729781023,Afternoon Run,,2024-10-22 21:20:54+00:00,1661,Run,"Auburn, USA",6.01,4.6,27m 41s
+377,146708596,Brenda Jepchirchir,12729780065,Morning Run,,2024-10-22 11:09:23+00:00,2532,Run,"Auburn, USA",10.02,4.2,42m 7s
+378,146708596,Brenda Jepchirchir,12729778966,Morning Run,,2024-10-21 12:31:12+00:00,2408,Run,"Auburn, USA",8.17,4.9,40m 8s
+379,146708596,Brenda Jepchirchir,12798440181,Morning Run,,2024-11-01 14:41:11+00:00,2629,Run,"College Station, USA",3.34,7.22,24m 7s
+380,146708596,Brenda Jepchirchir,12798438803,Morning Run,,2024-11-01 14:08:56+00:00,1153,Run,"College Station, USA",5.98,3.22,19m 13s
+381,146708596,Brenda Jepchirchir,12798437778,Morning Run,,2024-11-01 13:12:38+00:00,929,Run,"College Station, USA",3.24,4.78,15m 29s
+382,146708596,Brenda Jepchirchir,12798437025,Morning Run,,2024-11-01 10:32:02+00:00,612,Run,"College Station, USA",2.03,5.0,10m 9s
+383,146708596,Brenda Jepchirchir,12798436161,Morning Run,,2024-10-31 14:52:44+00:00,1655,Run,"College Station, USA",6.01,4.58,27m 35s
+384,146708596,Brenda Jepchirchir,12798434843,Morning Run,,2024-10-29 12:46:12+00:00,891,Run,"Auburn, USA",3.04,4.88,14m 51s
+385,146708596,Brenda Jepchirchir,12798434208,Morning Run,,2024-10-29 12:10:00+00:00,1699,Run,"Auburn, USA",6.37,4.4,28m 1s
+386,146708596,Brenda Jepchirchir,12798432329,Morning Run,,2024-10-29 11:34:39+00:00,990,Run,"Auburn, USA",4.05,4.03,16m 23s
+387,146708596,Brenda Jepchirchir,12798431220,Afternoon Run,,2024-10-28 21:46:34+00:00,1737,Run,"Auburn, USA",6.05,4.77,28m 53s
+388,146708596,Brenda Jepchirchir,12767254812,Morning Run,,2024-10-28 10:38:57+00:00,2479,Run,"Auburn, USA",10.02,4.12,41m 17s
+389,146708596,Brenda Jepchirchir,12898831903,Morning Run,,2024-11-09 14:15:24+00:00,4042,Run,"Tuskegee National Forest, USA",15.03,4.48,1h 7m
+390,146708596,Brenda Jepchirchir,12898829726,Morning Run,,2024-11-08 14:19:21+00:00,1322,Run,"Auburn, USA",4.27,5.1,21m 49s
+391,146708596,Brenda Jepchirchir,12898828535,Morning Run,,2024-11-08 13:41:13+00:00,2104,Run,"Auburn, USA",7.42,4.07,30m 10s
+392,146708596,Brenda Jepchirchir,12898826693,Morning Run,,2024-11-08 13:08:31+00:00,800,Run,"Auburn, USA",3.04,4.23,12m 51s
+393,146708596,Brenda Jepchirchir,12898826177,Afternoon Run,,2024-11-07 22:06:09+00:00,1771,Run,"Auburn, USA",6.25,4.72,29m 31s
+394,146708596,Brenda Jepchirchir,12898824878,Morning Run,,2024-11-07 12:18:32+00:00,2891,Run,"Auburn, USA",10.01,4.78,47m 57s
+395,146708596,Brenda Jepchirchir,12898823593,Afternoon Run,,2024-11-06 20:30:44+00:00,1335,Run,,5.05,4.4,22m 15s
+396,146708596,Brenda Jepchirchir,12832990401,Afternoon Run,,2024-11-05 23:13:06+00:00,1335,Run,"Auburn, USA",4.02,4.85,19m 30s
+397,146708596,Brenda Jepchirchir,12832989630,Afternoon Run,,2024-11-05 22:38:54+00:00,1977,Run,"Auburn, USA",7.11,4.17,29m 36s
+398,146708596,Brenda Jepchirchir,12832547120,Afternoon Run,,2024-11-05 21:54:21+00:00,986,Run,"Auburn, USA",4.02,4.05,16m 18s
+399,146708596,Brenda Jepchirchir,12831783284,Morning Run,,2024-11-05 13:05:09+00:00,1690,Run,"Auburn, USA",6.07,4.63,28m 10s
+400,146708596,Brenda Jepchirchir,12831782174,Afternoon Run,,2024-11-04 21:30:59+00:00,1863,Run,"Auburn, USA",6.01,4.97,29m 52s
+401,146708596,Brenda Jepchirchir,12823018404,Morning Run,,2024-11-04 11:59:13+00:00,3297,Run,"Auburn, USA",12.02,4.57,54m 57s
+402,146708596,Brenda Jepchirchir,12929051706,Morning Run,,2024-11-17 14:22:22+00:00,3277,Run,"Auburn, USA",13.03,4.18,54m 31s
+403,146708596,Brenda Jepchirchir,12907326887,Morning Run,,2024-11-15 13:30:06+00:00,1220,Run,"Leon County, USA",6.08,3.33,20m 20s
+404,146708596,Brenda Jepchirchir,12907326909,Morning Run,,2024-11-15 12:37:08+00:00,950,Run,"Leon County, USA",3.34,4.72,15m 47s
+405,146708596,Brenda Jepchirchir,12907325417,Morning Run,,2024-11-15 10:34:32+00:00,610,Run,,2.12,4.8,10m 10s
+406,146708596,Brenda Jepchirchir,12907324607,Morning Run,,2024-11-15 10:31:53+00:00,14,Run,,0.24,,14s
+407,146708596,Brenda Jepchirchir,12907324307,Morning Run,,2024-11-14 15:00:33+00:00,1722,Run,"Leon County, USA",6.16,4.65,28m 42s
+408,146708596,Brenda Jepchirchir,12898838806,Afternoon Run,,2024-11-12 21:33:10+00:00,1880,Run,"Auburn, USA",6.02,5.17,31m 6s
+409,146708596,Brenda Jepchirchir,12898837622,Morning Run,,2024-11-12 13:56:40+00:00,1232,Run,"Auburn, USA",4.27,4.78,20m 27s
+410,146708596,Brenda Jepchirchir,12898836772,Morning Run,,2024-11-12 13:25:36+00:00,1456,Run,"Auburn, USA",5.49,4.3,23m 34s
+411,146708596,Brenda Jepchirchir,12898835373,Morning Run,,2024-11-12 13:10:19+00:00,302,Run,"Auburn, USA",1.01,4.98,5m 2s
+412,146708596,Brenda Jepchirchir,12898834759,Morning Run,,2024-11-12 12:39:06+00:00,991,Run,"Auburn, USA",3.41,4.63,15m 50s
+413,146708596,Brenda Jepchirchir,12898834109,Afternoon Run,,2024-11-11 21:26:28+00:00,1867,Run,"Auburn, USA",6.03,4.9,29m 32s
+414,146708596,Brenda Jepchirchir,12898832870,Morning Run,,2024-11-11 12:29:01+00:00,2752,Run,"Auburn, USA",10.04,4.55,45m 43s
+415,146708596,Brenda Jepchirchir,12967947532,Morning Run,,2024-11-23 15:20:23+00:00,1191,Run,"Madison, USA",6.13,3.23,19m 51s
+416,146708596,Brenda Jepchirchir,12967945950,Morning Run,,2024-11-23 14:24:36+00:00,917,Run,"Madison, USA",3.06,4.8,14m 41s
+417,146708596,Brenda Jepchirchir,12967945489,Lunch Run,,2024-11-22 18:30:54+00:00,4565,Run,"Madison, USA",8.12,5.32,43m 15s
+418,146708596,Brenda Jepchirchir,12967943840,Morning Run,,2024-11-21 12:47:29+00:00,2167,Run,"Auburn, USA",8.16,4.42,36m 7s
+419,146708596,Brenda Jepchirchir,12967942805,Afternoon Run,,2024-11-20 20:13:06+00:00,3503,Run,"Auburn, USA",10.21,4.72,48m 9s
+420,146708596,Brenda Jepchirchir,12967941117,Afternoon Run,,2024-11-19 22:15:06+00:00,1178,Run,"Auburn, USA",4.01,4.87,19m 32s
+421,146708596,Brenda Jepchirchir,12967940514,Afternoon Run,,2024-11-19 21:48:28+00:00,1267,Run,"Auburn, USA",4.97,4.22,20m 59s
+422,146708596,Brenda Jepchirchir,12967939818,Afternoon Run,,2024-11-19 21:09:33+00:00,1058,Run,"Auburn, USA",4.01,4.22,16m 58s
+423,146708596,Brenda Jepchirchir,12967939186,Afternoon Run,,2024-11-18 22:10:22+00:00,1934,Run,"Auburn, USA",6.36,4.83,30m 47s
+424,146708596,Brenda Jepchirchir,12929052753,Morning Run,,2024-11-18 12:23:36+00:00,2592,Run,"Auburn, USA",8.12,4.48,36m 23s
+425,146708596,Brenda Jepchirchir,13002715257,Morning Run,,2024-11-28 14:17:20+00:00,3451,Run,"Auburn, USA",13.02,4.42,57m 27s
+426,146708596,Brenda Jepchirchir,13002712701,Afternoon Run,,2024-11-27 21:53:13+00:00,1689,Run,"Auburn, USA",6.14,4.58,28m 9s
+427,146708596,Brenda Jepchirchir,13002711794,Morning Run,,2024-11-27 15:52:01+00:00,1113,Run,"Auburn, USA",3.02,6.12,18m 29s
+428,146708596,Brenda Jepchirchir,13002710849,Morning Run,,2024-11-27 15:00:44+00:00,2268,Run,"Auburn, USA",7.91,4.47,35m 22s
+429,146708596,Brenda Jepchirchir,13002707810,Morning Run,,2024-11-27 14:15:01+00:00,1071,Run,"Auburn, USA",4.01,4.35,17m 29s
+430,146708596,Brenda Jepchirchir,12987726996,Morning Run,,2024-11-26 14:01:50+00:00,3383,Run,"Auburn, USA",13.01,4.33,56m 23s
+431,146708596,Brenda Jepchirchir,12983736919,Afternoon Run,,2024-11-25 21:21:29+00:00,1899,Run,"Auburn, USA",6.1,5.18,31m 39s
+432,146708596,Brenda Jepchirchir,12983735941,Morning Run,,2024-11-25 12:57:15+00:00,4232,Run,"Auburn, USA",15.01,4.7,1h 10m
+433,44331112,YUSUKE NISHIYAMA,11326694229,朝のゴルフ,,2024-05-03 22:47:47+00:00,19322,Golf,"Halim Perdana Kusuma, Indonesia",5.0,,766 Cal
+434,8728583,Jorge Castelblanco,10523507051,Bicicleta por la mañana,,2024-01-05 12:49:28+00:00,6623,Ride,"San Pablo Viejo, Panama",41.69,,1h 45m
+435,8728583,Jorge Castelblanco,11776477504,Bicicleta por la mañana,,2024-06-30 12:22:54+00:00,12862,Ride,"San Pablo Viejo, Panama",85.71,,3h 32m
+436,8728583,Jorge Castelblanco,11767449966,Bicicleta por la mañana,,2024-06-29 11:55:41+00:00,6263,Ride,"San Pablo Viejo, Panama",45.01,,1h 35m
+437,82773562,Vanessa Wilson,11093026379,Afternoon Run,,2024-01-30 22:00:12+00:00,783,Run,,3.04,4.28,13m 3s
+438,28572286,Andrew Butchart,11178119697,Heavy chat for a Sunday morning.,,2024-04-14 08:37:14+00:00,3177,Run,"Stirling, United Kingdom",12.68,4.12,52m 14s
+439,28572286,Andrew Butchart,11166670013,Lunch Run,,2024-04-12 10:13:33+00:00,3295,Run,"Stirling, United Kingdom",12.88,4.15,53m 24s
+440,28572286,Andrew Butchart,11155798344,EZ with Matt,,2024-04-11 10:00:53+00:00,1825,Run,"Stirling, United Kingdom",7.53,3.97,29m 55s
+441,28572286,Andrew Butchart,11148347598,Is it time to move to Spain?,,2024-04-10 09:10:26+00:00,5549,Ride,"Stirling, United Kingdom",39.93,,1h 32m
+442,28572286,Andrew Butchart,11140803912,Zwift - SST (Short) in France,,2024-04-09 10:26:12+00:00,3060,VirtualRide,,30.39,,51m 0s
+443,28572286,Andrew Butchart,11141327291,Afternoon Run,,2024-04-08 16:47:01+00:00,2109,Run,"Stirling, United Kingdom",8.82,3.98,35m 9s
+444,28572286,Andrew Butchart,11230535125,This weather can do one …,,2024-04-21 07:20:32+00:00,10577,Ride,"Stirling, United Kingdom",86.34,,2h 46m
+445,28572286,Andrew Butchart,11217517980,Afternoon Run,,2024-04-19 15:06:05+00:00,2391,Run,"Stirling, United Kingdom",9.69,4.03,39m 10s
+446,28572286,Andrew Butchart,11216567104,Dukes pass .. bit of fun on a Friday,,2024-04-19 09:40:25+00:00,12195,Ride,"Stirling, United Kingdom",88.33,,2h 52m
+447,28572286,Andrew Butchart,11212180703,First ride out on the new stallion,,2024-04-18 17:42:15+00:00,5029,Ride,"Stirling, United Kingdom",44.09,,1h 21m
+448,28572286,Andrew Butchart,11194318373,Zwift - Race: Zwift Hill Climb Racing Club - Petit KQOM (A) on Casse-Pattes in France,,2024-04-16 11:30:18+00:00,2365,VirtualRide,,24.66,,39m 25s
+449,28572286,Andrew Butchart,11193394319,Morning Run,,2024-04-16 09:01:13+00:00,2739,Run,"Stirling, United Kingdom",11.15,3.98,44m 21s
+450,28572286,Andrew Butchart,11186642284,Zwift - Ramp Test in Watopia (is 320FTP good?),,2024-04-15 10:25:26+00:00,1940,VirtualRide,,17.93,,32m 20s
+451,28572286,Andrew Butchart,11281993929,Pre Op spin with the boys,,2024-04-28 07:18:21+00:00,12405,Ride,"Stirling, United Kingdom",80.51,,2h 48m
+452,28572286,Andrew Butchart,11266994637,Lunch Ride,,2024-04-26 09:57:46+00:00,812,Ride,"Muro, Spain",2.57,,12m 14s
+453,28572286,Andrew Butchart,11238055733,Gravelly Monday,,2024-04-22 09:19:59+00:00,9494,Ride,"Stirling, United Kingdom",57.09,,2h 3m
+454,28572286,Andrew Butchart,11705142847,Hit my watch on by mistake 🤷🏼‍♂️,,2024-06-21 14:31:44+00:00,507,Run,,0.07,,8m 27s
+455,28572286,Andrew Butchart,11774686562,Ride with the boys for the big man 💙💛,,2024-06-30 10:52:02+00:00,6347,Ride,"Perth and Kinross, United Kingdom",23.77,,1h 38m
+456,28572286,Andrew Butchart,11765632795,Wildhearth bakery 6/10,,2024-06-29 06:38:58+00:00,12134,Ride,"Stirling, United Kingdom",81.14,,2h 59m
+457,28572286,Andrew Butchart,11759635076,Ez first ride with the missus,,2024-06-28 11:01:47+00:00,5083,Ride,"Stirling, United Kingdom",30.36,,1h 21m
+458,28572286,Andrew Butchart,11742342115,Zwift - Performance in France,,2024-06-26 08:22:34+00:00,1502,VirtualRide,,13.17,,25m 2s
+459,28572286,Andrew Butchart,11827822030,Morning mechanicals,,2024-07-07 07:02:13+00:00,8858,Ride,"Stirling, United Kingdom",57.04,,2h 9m
+460,28572286,Andrew Butchart,11814990056,Luvleh,,2024-07-05 13:43:19+00:00,5073,Ride,"Stirling, United Kingdom",43.44,,1h 22m
+461,28572286,Andrew Butchart,11862135681,Birthday ride for the wife 👍🏼,,2024-07-11 11:16:13+00:00,7030,Ride,"Stirling, United Kingdom",37.29,,1h 37m
+462,28572286,Andrew Butchart,11846033031,Morning Ride,,2024-07-09 07:26:34+00:00,8438,Ride,"Stirling, United Kingdom",65.34,,2h 11m
+463,28572286,Andrew Butchart,12120704309,Fuelled by coke and double deckers,,2024-08-11 11:34:58+00:00,11322,Ride,"Stirling, United Kingdom",91.3,,2h 57m
+464,28572286,Andrew Butchart,12095567139,MTB x Roadie,,2024-08-08 12:43:17+00:00,5081,Ride,"Stirling, United Kingdom",29.31,,1h 8m
+465,28572286,Andrew Butchart,12075854344,Ride with Scottish Remco,,2024-08-06 08:25:56+00:00,8146,Ride,"Stirling, United Kingdom",73.33,,2h 12m
+466,28572286,Andrew Butchart,12156900170,Post dinner biscuit 🍪,,2024-08-15 17:34:34+00:00,5596,Ride,"Stirling, United Kingdom",50.33,,1h 32m
+467,28572286,Andrew Butchart,12148742160,Evening Ride,,2024-08-14 17:47:27+00:00,7947,Ride,"Stirling, United Kingdom",60.11,,2h 8m
+468,28572286,Andrew Butchart,12140289692,Straight in the shower ☔️,,2024-08-13 12:45:54+00:00,10375,Ride,"Stirling, United Kingdom",67.76,,2h 31m
+469,28572286,Andrew Butchart,12231928855,Lads weekend continues…,,2024-08-24 15:17:09+00:00,5841,Ride,"Stirling, United Kingdom",45.16,,1h 36m
+470,28572286,Andrew Butchart,12221055131,Lads weekend starts with a wee spin,,2024-08-23 08:59:36+00:00,5538,Ride,"Stirling, United Kingdom",52.07,,1h 32m
+471,28572286,Andrew Butchart,12195116402,Rank ☔️,,2024-08-20 10:11:41+00:00,6281,Ride,"Stirling, United Kingdom",53.73,,1h 44m
+472,28572286,Andrew Butchart,12279847360,Alter G 7x2 mins (70% BW),,2024-08-30 09:19:51+00:00,1245,Run,,3.37,6.02,20m 17s
+473,28572286,Andrew Butchart,12254916291,That boy at Timpsons is getting kicked square in the nuts,,2024-08-27 10:39:04+00:00,7997,Ride,"Stirling, United Kingdom",66.06,,2h 8m
+474,28572286,Andrew Butchart,12247763998,Went for a run … 70% (12x 1 min),,2024-08-26 09:36:20+00:00,1389,Run,,3.44,6.72,23m 9s
+475,28572286,Andrew Butchart,12348604213,Quick 90 mins ! 🚲,,2024-09-07 10:23:33+00:00,6069,Ride,"Stirling, United Kingdom",50.23,,1h 37m
+476,28572286,Andrew Butchart,12343372595,2 more alter g’s to go,,2024-09-06 09:52:04+00:00,1592,Run,,5.33,4.98,26m 32s
+477,28572286,Andrew Butchart,12314935409,80% body weight. 7x 2 mins,,2024-09-03 10:12:30+00:00,1226,Run,,3.51,5.82,20m 26s
+478,28572286,Andrew Butchart,12404521600,Run no.2,,2024-09-14 06:36:42+00:00,859,Run,"Flintshire, United Kingdom",3.0,4.77,14m 19s
+479,28572286,Andrew Butchart,12392355852,WE BACK BABY!,,2024-09-12 14:47:24+00:00,664,Run,"Stirling, United Kingdom",1.94,5.63,10m 58s
+480,28572286,Andrew Butchart,12386254448,Sunset sycle,,2024-09-11 17:42:03+00:00,4792,Ride,"Stirling, United Kingdom",44.29,,1h 19m
+481,28572286,Andrew Butchart,12374656344,Bike is okay .. wind not so much,,2024-09-10 10:57:57+00:00,8354,Ride,"Stirling, United Kingdom",72.87,,2h 16m
+482,28572286,Andrew Butchart,12364625545,Alter G .. completed it ☑️,,2024-09-09 09:00:02+00:00,2087,Run,,5.73,4.7,26m 57s
+483,28572286,Andrew Butchart,12476565223,Solo spin 👍🏼,,2024-09-22 12:53:51+00:00,5999,Ride,"Stirling, United Kingdom",52.69,,1h 39m
+484,28572286,Andrew Butchart,12465166247,Watch charger arrives today …,,2024-09-21 09:19:00+00:00,1622,Run,,6.2,4.37,27m 2s
+485,28572286,Andrew Butchart,12458215767,Lost my watch charger ‘day 1’,,2024-09-20 08:37:28+00:00,7920,Ride,,67.0,,2h 12m
+486,28572286,Andrew Butchart,12440625609,15x 1 min,,2024-09-18 10:36:32+00:00,1809,Run,"Stirling, United Kingdom",5.7,5.23,29m 55s
+487,28572286,Andrew Butchart,12432334071,Went for my first KOM ..,,2024-09-17 10:58:09+00:00,5912,Ride,"Stirling, United Kingdom",50.27,,1h 38m
+488,28572286,Andrew Butchart,12422266037,"2x 3,2,1 mins 🙌🏼",,2024-09-16 07:39:44+00:00,1044,Run,"Flintshire, United Kingdom",3.51,4.93,17m 20s
+489,28572286,Andrew Butchart,12530300089,Another week building,8x 3 mins,2024-09-29 09:24:36+00:00,1885,Run,"Fife, United Kingdom",6.79,4.42,30m 3s
+490,28572286,Andrew Butchart,12522504283,Miles w the missus,,2024-09-28 09:35:49+00:00,5369,Ride,"Fife, United Kingdom",28.23,,1h 14m
+491,28572286,Andrew Butchart,12514410384,"8,6,4,3,3,2,2,1,1 mins",,2024-09-27 08:56:16+00:00,2402,Run,"Stirling, United Kingdom",8.25,4.37,36m 6s
+492,28572286,Andrew Butchart,12491925252,Bike sesh,3x 15 mins.  I did sandbag on the wheel though ..,2024-09-24 10:57:08+00:00,8559,Ride,"Stirling, United Kingdom",70.0,,2h 14m
+493,28572286,Andrew Butchart,12490063499,First back to back days for a while,,2024-09-24 08:42:11+00:00,1401,Run,"Stirling, United Kingdom",4.79,4.87,23m 21s
+494,28572286,Andrew Butchart,12482075933,Another week begins ..,,2024-09-23 09:03:16+00:00,2162,Run,"Stirling, United Kingdom",7.47,4.72,35m 12s
+495,28572286,Andrew Butchart,12600649979,Afternoon Run,,2024-10-06 12:55:00+00:00,1804,Run,,7.5,4.02,30m 4s
+496,28572286,Andrew Butchart,12571332374,Then a wee cycle ..,,2024-10-04 09:35:47+00:00,4947,Ride,"Stirling, United Kingdom",44.24,,1h 22m
+497,28572286,Andrew Butchart,12570776731,Wee run ..,,2024-10-04 08:59:54+00:00,1270,Run,"Stirling, United Kingdom",4.51,4.63,20m 54s
+498,28572286,Andrew Butchart,12562683555,Max Bday run,,2024-10-03 08:15:18+00:00,2141,Run,"Stirling, United Kingdom",7.29,4.85,35m 24s
+499,28572286,Andrew Butchart,12555123194,50km/h KOM 💀,,2024-10-02 09:09:16+00:00,4682,Ride,"Stirling, United Kingdom",40.33,,1h 18m
+500,28572286,Andrew Butchart,12546243490,Morning Run,,2024-10-01 08:47:40+00:00,1980,Run,"Stirling, United Kingdom",7.14,4.62,33m 0s
+501,28572286,Andrew Butchart,12538716451,Morning blether,,2024-09-30 08:26:07+00:00,2261,Run,"Stirling, United Kingdom",8.53,4.25,36m 17s
+502,28572286,Andrew Butchart,12642996388,Rebuilding 📈,,2024-10-13 07:54:23+00:00,2551,Run,"Stirling, United Kingdom",10.34,4.12,42m 31s
+503,28572286,Andrew Butchart,12635066001,Old loops are back,,2024-10-12 08:30:31+00:00,1960,Run,"Stirling, United Kingdom",7.67,4.22,32m 23s
+504,28572286,Andrew Butchart,12627523554,Back to business ..,,2024-10-11 08:38:33+00:00,2558,Run,"Stirling, United Kingdom",10.81,3.92,42m 23s
+505,28572286,Andrew Butchart,12606661990,WD,,2024-10-08 16:05:37+00:00,534,Run,"Charnwood, United Kingdom",2.02,4.4,8m 54s
+506,28572286,Andrew Butchart,12606662008,First session in a while,30 secs ON/OFF x10,2024-10-08 15:51:55+00:00,649,Run,"Charnwood, United Kingdom",2.71,3.98,10m 49s
+507,28572286,Andrew Butchart,12606661998,WU,,2024-10-08 15:36:06+00:00,542,Run,"Charnwood, United Kingdom",2.07,4.37,9m 2s
+508,28572286,Andrew Butchart,12600630960,Afternoon Run,,2024-10-07 14:49:23+00:00,2498,Run,"Charnwood, United Kingdom",9.27,4.48,41m 33s
+509,28572286,Andrew Butchart,12698910048,Wet one with the boys,,2024-10-20 08:33:51+00:00,3577,Run,"Stirling, United Kingdom",14.94,3.98,59m 37s
+510,28572286,Andrew Butchart,12690682053,Could this be the last outdoor ride of the year ?,,2024-10-19 08:00:16+00:00,5152,Ride,"Stirling, United Kingdom",44.23,,1h 25m
+511,28572286,Andrew Butchart,12683449220,WD,Rushed back for Gym,2024-10-18 09:29:00+00:00,517,Run,"Stirling, United Kingdom",1.83,4.62,8m 27s
+512,28572286,Andrew Butchart,12683449258,Little session,10x 1 min ON/OFF,2024-10-18 09:07:26+00:00,1159,Run,"Stirling, United Kingdom",4.78,4.03,19m 19s
+513,28572286,Andrew Butchart,12683449295,WU,,2024-10-18 08:43:38+00:00,820,Run,"Stirling, United Kingdom",2.99,4.42,13m 12s
+514,28572286,Andrew Butchart,12677680320,Trying to avoid the rain 🌧️,,2024-10-17 13:24:22+00:00,3206,Run,"Stirling, United Kingdom",12.82,4.1,52m 32s
+515,28572286,Andrew Butchart,12662825282,WD,,2024-10-15 09:05:21+00:00,515,Run,"Cheshire East, United Kingdom",2.0,4.28,8m 35s
+516,28572286,Andrew Butchart,12662825321,2nd session back ..,2mile - 1 mile (tempo),2024-10-15 08:43:34+00:00,1100,Run,"Cheshire East, United Kingdom",5.14,3.57,18m 20s
+517,28572286,Andrew Butchart,12662825067,WU,,2024-10-15 08:01:28+00:00,850,Run,"Cheshire East, United Kingdom",3.26,4.33,14m 10s
+518,28572286,Andrew Butchart,12652611694,Birthday miles,,2024-10-14 09:02:05+00:00,2633,Run,"Stirling, United Kingdom",8.85,3.93,34m 52s
+519,28572286,Andrew Butchart,12757049438,📈,,2024-10-27 10:05:45+00:00,4565,Run,"Stirling, United Kingdom",19.31,3.88,1h 14m
+520,28572286,Andrew Butchart,12740024035,WD,,2024-10-25 10:14:31+00:00,451,Run,"Stirling, United Kingdom",1.67,4.48,7m 31s
+521,28572286,Andrew Butchart,12740024105,Hills aren’t paying bills just yet,,2024-10-25 09:42:27+00:00,1776,Run,"Stirling, United Kingdom",5.28,,29m 32s
+522,28572286,Andrew Butchart,12740024053,WU,,2024-10-25 09:08:53+00:00,819,Run,"Stirling, United Kingdom",3.11,4.38,13m 39s
+523,28572286,Andrew Butchart,12731755056,Progression is better than regression,,2024-10-24 07:55:51+00:00,3281,Run,"Stirling, United Kingdom",12.87,3.78,48m 45s
+524,28572286,Andrew Butchart,12718278538,Coffee ride with Lynsey,,2024-10-22 14:23:52+00:00,2744,Ride,"Stirling, United Kingdom",16.58,,41m 8s
+525,28572286,Andrew Butchart,12715484499,> GYM,,2024-10-22 10:13:04+00:00,872,Run,"Stirling, United Kingdom",2.74,4.47,12m 14s
+526,28572286,Andrew Butchart,12715358247,8x 2 min sesh,,2024-10-22 09:39:47+00:00,1483,Run,"Stirling, United Kingdom",5.67,3.98,22m 37s
+527,28572286,Andrew Butchart,12715365542,WU,,2024-10-22 09:06:28+00:00,757,Run,"Stirling, United Kingdom",2.87,4.38,12m 37s
+528,28572286,Andrew Butchart,12707375380,Normal Monday ?,,2024-10-21 09:36:20+00:00,3070,Run,"Stirling, United Kingdom",13.02,3.77,49m 1s
+529,28572286,Andrew Butchart,12811324441,Sunday social then brunch,,2024-11-03 09:33:55+00:00,3933,Run,"Stirling, United Kingdom",16.33,3.95,1h 4m
+530,28572286,Andrew Butchart,12802551777,WD,,2024-11-02 09:28:00+00:00,860,Run,"Stirling, United Kingdom",2.56,4.63,11m 51s
+531,28572286,Andrew Butchart,12802551476,Mile repeats with Cam,4x 1 mile (4:50ish) off 2 mins,2024-11-02 08:56:22+00:00,1570,Run,"Stirling, United Kingdom",6.88,3.57,24m 34s
+532,28572286,Andrew Butchart,12802551398,WU,,2024-11-02 08:20:48+00:00,1098,Run,"Stirling, United Kingdom",4.26,4.25,18m 7s
+533,28572286,Andrew Butchart,12789300204,Windy is an understatement,,2024-10-31 11:25:41+00:00,6823,Ride,"Stirling, United Kingdom",50.03,,1h 48m
+534,28572286,Andrew Butchart,12787529861,Morning social,,2024-10-31 07:51:12+00:00,3358,Run,"Stirling, United Kingdom",13.41,3.97,53m 9s
+535,28572286,Andrew Butchart,12772215803,WD > massage,,2024-10-29 11:16:33+00:00,453,Run,"Stirling, United Kingdom",1.62,4.67,7m 33s
+536,28572286,Andrew Butchart,12772215858,15x 1 min,Focusing on footstrike,2024-10-29 10:42:49+00:00,1767,Run,"Stirling, United Kingdom",7.29,4.03,29m 27s
+537,28572286,Andrew Butchart,12772215671,WU,,2024-10-29 10:13:49+00:00,842,Run,"Stirling, United Kingdom",3.22,4.35,14m 2s
+538,28572286,Andrew Butchart,12764566671,Pretty tired today .. strides after,,2024-10-28 10:26:52+00:00,3610,Run,"Stirling, United Kingdom",14.5,4.07,59m 5s
+539,28572286,Andrew Butchart,12871026938,EZ week ☑️,,2024-11-10 18:20:12+00:00,3149,Run,"Solana Beach, USA",13.06,3.98,52m 5s
+540,28572286,Andrew Butchart,12853291231,Down week going well,,2024-11-08 16:16:51+00:00,2403,Run,"San Diego, USA",9.66,4.05,39m 10s
+541,28572286,Andrew Butchart,12847665383,Sunny San Diego ☀️,,2024-11-07 19:52:27+00:00,2539,Run,"Del Mar, USA",9.66,4.1,39m 42s
+542,28572286,Andrew Butchart,12832228722,Old stomping ground,,2024-11-05 20:59:59+00:00,2447,Run,"San Diego, USA",9.66,4.07,39m 23s
+543,28572286,Andrew Butchart,12916715119,Forgot to hit pause a couple times,,2024-11-16 19:09:24+00:00,3109,Run,"Solana Beach, USA",11.27,4.28,48m 19s
+544,28572286,Andrew Butchart,12907976104,WD,,2024-11-15 17:42:28+00:00,1223,Run,"San Diego, USA",4.18,4.53,18m 58s
+545,28572286,Andrew Butchart,12907976146,Hills on Torrey Pines,,2024-11-15 17:01:19+00:00,1928,Run,"San Diego, USA",6.13,,32m 8s
+546,28572286,Andrew Butchart,12907976120,WU,,2024-11-15 16:20:58+00:00,1332,Run,"San Diego, USA",4.15,4.4,18m 17s
+547,28572286,Andrew Butchart,12901381906,One foot in front of the other,,2024-11-14 18:25:01+00:00,2762,Run,"Solana Beach, USA",9.68,4.03,39m 7s
+548,28572286,Andrew Butchart,12885132887,WD,,2024-11-12 17:40:10+00:00,680,Run,"San Diego, USA",2.58,4.33,11m 12s
+549,28572286,Andrew Butchart,12885133694,Simple 1 min reps,,2024-11-12 17:02:44+00:00,1874,Run,"San Diego, USA",6.45,4.57,29m 28s
+550,28572286,Andrew Butchart,12885133968,WU,,2024-11-12 16:34:43+00:00,749,Run,"San Diego, USA",2.88,4.32,12m 25s
+551,28572286,Andrew Butchart,12877870286,Ez + strides,,2024-11-11 18:16:19+00:00,2452,Run,"San Diego, USA",9.66,4.03,38m 54s
+552,82798069,Jolanda Kallabis,10480198564,MTB,,2024-01-02 15:03:07+00:00,4975,Ride,"Emakhazeni Local Municipality, RSA",29.0,,1h 22m
+553,82798069,Jolanda Kallabis,11062712633,Mountainbike-Fahrt am Nachmittag,,2024-03-29 14:00:51+00:00,6070,MountainBikeRide,"Emakhazeni Local Municipality, RSA",32.25,,1h 37m
+554,82798069,Jolanda Kallabis,11048593502,Fahrt am Morgen,,2024-03-27 07:03:33+00:00,11340,Ride,"Emakhazeni Local Municipality, RSA",64.76,,2h 54m
+555,82798069,Jolanda Kallabis,11035936632,Fahrt am Nachmittag,,2024-03-25 14:41:17+00:00,3978,Ride,"Emakhazeni Local Municipality, RSA",19.85,,1h 1m
+556,82798069,Jolanda Kallabis,11104718919,Mittagsradfahrt,,2024-04-04 10:17:27+00:00,10287,Ride,"Erfurt, Germany",69.17,,2h 40m
+557,82798069,Jolanda Kallabis,11178739352,Mittagslauf,,2024-04-14 09:31:26+00:00,3046,Run,"Erfurt, Germany",10.05,4.9,49m 21s
+558,82798069,Jolanda Kallabis,11162578075,Lauf am Morgen,,2024-04-12 08:11:23+00:00,913,Run,"Erfurt, Germany",2.94,4.97,14m 36s
+559,82798069,Jolanda Kallabis,11259346701,Lauf am Morgen,,2024-04-25 07:49:51+00:00,1670,Run,"Sankt Moritz, Switzerland",6.03,4.62,27m 50s
+560,82798069,Jolanda Kallabis,11331788500,Fahrt am Nachmittag,,2024-05-04 15:41:56+00:00,3900,Ride,"Sankt Moritz, Switzerland",24.44,,1h 4m
+561,82798069,Jolanda Kallabis,11297462300,"Dying
+3x (400/300/200)",,2024-04-30 09:11:43+00:00,1872,Run,"Chiavenna, Italy",4.43,6.9,30m 35s
+562,82798069,Jolanda Kallabis,11291837797,Fahrt am Nachmittag,,2024-04-29 14:46:58+00:00,5463,Ride,"Sankt Moritz, Switzerland",34.97,,1h 29m
+563,82798069,Jolanda Kallabis,11382735415,Lauf am Morgen,,2024-05-11 08:33:23+00:00,857,Run,"Karlsruhe, Germany",3.16,4.42,13m 58s
+564,82798069,Jolanda Kallabis,11556361726,Fahrt am Nachmittag,,2024-06-02 11:15:47+00:00,11156,Ride,"Erfurt, Germany",77.13,,2h 52m
+565,82798069,Jolanda Kallabis,11606201191,Abendlauf,,2024-06-08 16:29:27+00:00,1954,Run,"Erfurt, Germany",6.49,4.15,26m 55s
+566,82798069,Jolanda Kallabis,11586772960,Mittagslauf,,2024-06-06 10:05:40+00:00,2590,Run,"Erfurt, Germany",8.01,4.95,39m 41s
+567,82798069,Jolanda Kallabis,11643769837,Lauf am Nachmittag,,2024-06-13 15:08:41+00:00,819,Run,"Erfurt, Germany",2.66,4.63,12m 21s
+568,82798069,Jolanda Kallabis,12109866233,Mittagslauf,,2024-08-10 10:10:35+00:00,1472,Run,"Erfurt, Germany",5.05,4.82,24m 20s
+569,82798069,Jolanda Kallabis,12178687110,Fahrt am Morgen,,2024-08-18 08:22:29+00:00,11927,Ride,"Erfurt, Germany",79.72,,3h 6m
+570,82798069,Jolanda Kallabis,12532845739,Mittagsradfahrt,,2024-09-29 10:40:35+00:00,11698,Ride,"Erfurt, Germany",77.07,,3h 6m
+571,82798069,Jolanda Kallabis,12522070633,Mittagslauf,,2024-09-28 09:29:36+00:00,2251,Run,"Erfurt, Germany",8.01,4.63,37m 8s
+572,82798069,Jolanda Kallabis,12643353557,Mittagslauf,,2024-10-13 09:26:49+00:00,755,Run,"Celerina/Schlarigna, Switzerland",2.08,5.37,11m 11s
+573,82798069,Jolanda Kallabis,12643160896,6x1k with the boss,,2024-10-13 08:48:09+00:00,1850,Run,"Celerina/Schlarigna, Switzerland",7.03,4.12,28m 59s
+574,82798069,Jolanda Kallabis,12642736615,Lauf am Morgen,,2024-10-13 08:15:51+00:00,946,Run,"Celerina/Schlarigna, Switzerland",3.11,5.07,15m 46s
+575,82798069,Jolanda Kallabis,12635741579,Recovery Ride,,2024-10-12 08:53:30+00:00,4473,Ride,"Sankt Moritz, Switzerland",28.55,,1h 14m
+576,82798069,Jolanda Kallabis,12613165358,MTB am Morgen,,2024-10-09 08:43:47+00:00,11518,Ride,"Sankt Moritz, Switzerland",47.72,,2h 45m
+577,82798069,Jolanda Kallabis,12598128873,Fahrt am Nachmittag,🥹🏔️🚲,2024-10-07 13:46:07+00:00,5458,Ride,"Sankt Moritz, Switzerland",32.07,,1h 30m
+578,82798069,Jolanda Kallabis,12595595107,Lauf am Morgen,,2024-10-07 07:34:52+00:00,2266,Run,"Sankt Moritz, Switzerland",6.18,4.97,30m 43s
+579,82798069,Jolanda Kallabis,12699168818,Fahrt am Morgen,,2024-10-20 07:55:36+00:00,7362,Ride,"Sankt Moritz, Switzerland",40.64,,1h 56m
+580,82798069,Jolanda Kallabis,12668493661,character-building ride 🌧️,,2024-10-16 08:13:01+00:00,10889,Ride,"Sankt Moritz, Switzerland",47.29,,2h 20m
+581,82798069,Jolanda Kallabis,12662251978,Thresholdddd,,2024-10-15 15:02:24+00:00,1800,Run,"Celerina/Schlarigna, Switzerland",6.92,4.1,28m 21s
+582,82798069,Jolanda Kallabis,12653812156,Fahrt am Nachmittag,,2024-10-14 13:50:29+00:00,6179,Ride,"Sankt Moritz, Switzerland",35.96,,1h 40m
+583,82798069,Jolanda Kallabis,12756662147,Mittagsradfahrt,,2024-10-27 10:36:28+00:00,4478,Ride,"Sankt Moritz, Switzerland",25.16,,1h 12m
+584,82798069,Jolanda Kallabis,12755271627,Lauf am Morgen,,2024-10-27 09:19:15+00:00,2497,Run,"Sankt Moritz, Switzerland",8.55,4.87,41m 37s
+585,82798069,Jolanda Kallabis,12747097663,Threshold,,2024-10-26 09:01:16+00:00,2251,Run,"Sankt Moritz, Switzerland",8.82,4.12,36m 17s
+586,82798069,Jolanda Kallabis,12724720862,Fahrt am Morgen,,2024-10-23 08:43:34+00:00,11045,Ride,"Sankt Moritz, Switzerland",59.4,,2h 53m
+587,82798069,Jolanda Kallabis,12715422599,first track workout for 2025,,2024-10-22 09:49:40+00:00,1678,Run,"Zurich, Switzerland",6.71,3.88,26m 6s
+588,82798069,Jolanda Kallabis,12709548181,Lauf am Nachmittag,,2024-10-21 15:15:31+00:00,2240,Run,"Zurich, Switzerland",8.03,4.65,37m 20s
+589,82798069,Jolanda Kallabis,12811747959,Mittagsradfahrt,,2024-11-03 10:08:54+00:00,3731,Ride,"Sankt Moritz, Switzerland",20.79,,1h 2m
+590,82798069,Jolanda Kallabis,12810859810,Lauf am Morgen,,2024-11-03 09:00:33+00:00,3020,Run,"Sankt Moritz, Switzerland",10.1,4.98,50m 20s
+591,82798069,Jolanda Kallabis,12802954352,Schwelle am Morgen,,2024-11-02 09:44:15+00:00,2286,Run,"Sankt Moritz, Switzerland",8.89,4.08,36m 20s
+592,82798069,Jolanda Kallabis,12787773196,Lauf am Morgen,,2024-10-31 08:58:34+00:00,3073,Run,"Celerina/Schlarigna, Switzerland",9.0,4.88,44m 1s
+593,82798069,Jolanda Kallabis,12780758126,Neues Lieblingstal 😸,,2024-10-30 08:32:43+00:00,12122,Ride,"Sankt Moritz, Switzerland",52.62,,2h 44m
+594,82798069,Jolanda Kallabis,12774387480,Fahrt am Nachmittag,,2024-10-29 15:05:07+00:00,4851,Ride,"Sankt Moritz, Switzerland",24.85,,1h 14m
+595,82798069,Jolanda Kallabis,12766400443,Gletschertour,,2024-10-28 15:20:42+00:00,5337,Ride,"Sankt Moritz, Switzerland",30.92,,1h 24m
+596,82798069,Jolanda Kallabis,12829794516,Fahrt am Nachmittag,,2024-11-05 14:37:24+00:00,7247,Ride,"Sankt Moritz, Switzerland",31.04,,1h 24m
+597,82798069,Jolanda Kallabis,12827219309,200er,,2024-11-05 10:05:53+00:00,1663,Run,"Sankt Moritz, Switzerland",6.27,,1 m
+598,82798069,Jolanda Kallabis,12821769771,Fahrt am Nachmittag,,2024-11-04 14:46:57+00:00,6214,Ride,"Sankt Moritz, Switzerland",25.6,,1h 28m
+599,82798069,Jolanda Kallabis,12913378816,Fahrt am Morgen,,2024-11-16 09:53:56+00:00,5663,Ride,"Aßlar, Germany",38.96,,1h 31m
+600,82798069,Jolanda Kallabis,12904813866,First run since one week 🥴,,2024-11-15 09:32:26+00:00,1789,Run,"Erfurt, Germany",6.0,4.85,29m 10s
+601,82798069,Jolanda Kallabis,13000145459,Lauf am Morgen,,2024-11-28 07:36:11+00:00,2407,Run,"Emakhazeni Local Municipality, RSA",8.1,4.95,40m 7s
+602,112847410,Allie Wilson,10717698229,Morning Run,really really beautiful stuff,2024-02-07 21:36:50+00:00,1777,Run,"City of Fremantle, Australia",4.6,6.1,28m 4s
+603,112847410,Allie Wilson,10699293821,Afternoon Run,hello it’s been a while,2024-02-05 07:06:44+00:00,1723,Run,"Western Australia, Australia",4.14,5.83,24m 10s
+604,112847410,Allie Wilson,10831438589,Afternoon Walk,"BEANS ON TOAST, ANXIETY, 3km walk, 2km run, 1.5km walk, 2km run, POWERADE, 2.3km walk home and now i want to buy a boat",2024-02-25 06:09:41+00:00,5877,Walk,"City of Fremantle, Australia",10.86,,1h 35m
+605,112847410,Allie Wilson,10813574028,Evening Walk,sicky girl was desperate to move her legs,2024-02-22 11:20:01+00:00,4050,Walk,"City of Fremantle, Australia",6.17,,1h 5m
+606,112847410,Allie Wilson,10891626263,Morning Run,,2024-03-04 23:12:08+00:00,1219,Run,"City of Fremantle, Australia",3.0,5.9,17m 42s
+607,112847410,Allie Wilson,11024827960,Morning Walk,cool down walk,2024-03-24 01:39:17+00:00,613,Walk,"City of Fremantle, Australia",0.77,,0 m
+608,112847410,Allie Wilson,11024800470,Morning Run,"first 5k in a while ! 
+absolutely sublime scenes down here",2024-03-24 01:07:35+00:00,1786,Run,"City of Fremantle, Australia",5.0,5.9,29m 31s
+609,112847410,Allie Wilson,10984175325,Afternoon Run,nice spot,2024-03-18 08:03:37+00:00,1199,Run,"City Of Cockburn, Australia",3.0,5.38,16m 13s
+610,112847410,Allie Wilson,11076336918,Night Run,"first ever 8k?? felt strangely like a nice gentle jog pace
+
+guess the half marathon i did dancing on friday was good for something",2024-03-31 12:13:10+00:00,3023,Run,"City of Fremantle, Australia",8.0,5.97,47m 49s
+611,112847410,Allie Wilson,11053664223,Afternoon Run,friend run ❤️,2024-03-28 08:31:19+00:00,1915,Run,"City of Fremantle, Australia",5.0,5.77,28m 52s
+612,112847410,Allie Wilson,11040808188,Evening Run,"past our very own Walyalup Eye, down to the last remaining piece of the ancient limestone bar, past a few favourite italian establishments and a random outdoor movie
+this one felt really good? 🫣",2024-03-26 11:11:42+00:00,1824,Run,"City of Fremantle, Australia",5.0,5.97,29m 54s
+613,112847410,Allie Wilson,11115300911,Morning Run,first trail run ! so fun what the hell,2024-04-05 23:42:55+00:00,4247,Run,"John Forrest National Park, Australia",9.01,,1h 10m
+614,112847410,Allie Wilson,11089997668,Evening Run,feel like i might yack but who cares !!!,2024-04-02 11:13:38+00:00,3711,Run,"City of Fremantle, Australia",10.0,6.12,1h 1m
+615,112847410,Allie Wilson,11080113764,Morning Walk,freo still rubbing sleep from her eyes 😴,2024-04-01 00:14:26+00:00,2508,Walk,"City of Fremantle, Australia",3.5,,35m 33s
+616,112847410,Allie Wilson,11137952301,Morning Run,did not feel very good but at least it was pretty !,2024-04-08 22:22:22+00:00,1410,Run,"City of Fremantle, Australia",4.0,5.8,23m 12s
+617,112847410,Allie Wilson,11208489485,first lil explore of manning park trails !,literally had no idea where i was going the whole time just following my nose 🐕,2024-04-18 09:26:15+00:00,2257,Run,"City Of Cockburn, Australia",5.1,,35m 40s
+618,112847410,Allie Wilson,11193619303,Evening Walk,was meant to be a gentle walk but couldn’t help a lil bit of jogging. old lady called me over to help her reverse her car out her driveway,2024-04-16 09:34:35+00:00,3100,Walk,"City of Fremantle, Australia",5.1,,49m 12s
+619,112847410,Allie Wilson,11259098043,Afternoon Walk,🧘‍♀️,2024-04-25 06:50:50+00:00,1072,Walk,"City of Fremantle, Australia",1.62,,17m 52s
+620,112847410,Allie Wilson,11259003728,Afternoon Run,jelly legs,2024-04-25 05:18:01+00:00,5318,Run,"City of Fremantle, Australia",12.5,6.37,1h 19m
+621,112847410,Allie Wilson,11334195803,gentle gentle gentle,coach said something about recovery? i just wanted to get hot enough to swim,2024-05-05 01:23:59+00:00,1073,Run,"City of Fremantle, Australia",3.06,5.82,17m 49s
+622,112847410,Allie Wilson,11326198449,stonkingly beautiful morning for a plod,humbled by manning park and a long sleeve top and chafing,2024-05-03 23:43:23+00:00,5903,Run,"City of Fremantle, Australia",15.01,6.55,1h 38m
+623,112847410,Allie Wilson,11305371924,wet one ! PR!!,,2024-05-01 09:28:31+00:00,1649,Run,"City of Fremantle, Australia",5.02,5.4,27m 9s
+624,112847410,Allie Wilson,11288848063,run + swim combo deal,always give it too much gas out the gates 😤 never destined for negative splits,2024-04-29 07:22:38+00:00,1682,Run,"City Of Cockburn, Australia",5.0,5.53,27m 40s
+625,112847410,Allie Wilson,11392556150,Morning Run,yapping and trotting (mostly yapping) ((hungover)),2024-05-12 01:21:29+00:00,2849,Run,"Bold Park Botanic Gardens, Australia",5.86,,47m 26s
+626,112847410,Allie Wilson,11382104798,running for the duration of 1x louis theroux and craig david pod,absolutely stung by the river today,2024-05-11 06:24:22+00:00,2852,Run,"City of Fremantle, Australia",7.38,6.13,45m 20s
+627,112847410,Allie Wilson,11350982495,Afternoon Run,shaking out the sore muscles,2024-05-07 08:04:07+00:00,1846,Run,"City of Fremantle, Australia",5.0,5.83,29m 12s
+628,112847410,Allie Wilson,11435410989,Morning Run,picking my car up from the pub (long format edition),2024-05-18 01:17:33+00:00,3059,Run,"City of Fremantle, Australia",8.5,5.98,50m 57s
+629,112847410,Allie Wilson,11406768572,beautiful scenes,feeling really grateful to be able to (physically and geographically) run to the beach to watch the sun set,2024-05-14 08:46:55+00:00,3094,Run,"City of Fremantle, Australia",8.01,5.72,45m 53s
+630,112847410,Allie Wilson,11498403499,Lunch Walk,me and cott had a real moment this morning,2024-05-26 02:28:25+00:00,7332,Walk,"Town of Cottesloe, Australia",10.87,,1h 54m
+631,112847410,Allie Wilson,11498115864,Morning Run/surf check,seeking recommendations for bike shorts that don’t ride up every time i take a step,2024-05-26 01:35:16+00:00,2997,Run,"Town Of East Fremantle, Australia",8.0,6.13,49m 6s
+632,112847410,Allie Wilson,11544450730,Afternoon Walk,yapping with av ❤️‍🔥,2024-06-01 04:06:02+00:00,4754,Walk,"Town of Mosman Park, Australia",7.1,,1h 15m
+633,112847410,Allie Wilson,11513635094,wet tshirt competition,,2024-05-28 01:54:55+00:00,1660,Run,"Town of Mosman Park, Australia",5.16,5.23,27m 2s
+634,112847410,Allie Wilson,11578148262,threshold,worlds shortest threshold run,2024-06-05 09:48:15+00:00,949,Run,"City of Fremantle, Australia",3.01,4.68,14m 7s
+635,112847410,Allie Wilson,11568612369,Lake-Luster plod,"left much to be desired, but happy to have done it anyway",2024-06-04 05:21:45+00:00,2178,Run,"City Of Cockburn, Australia",6.01,5.93,35m 38s
+636,112847410,Allie Wilson,11662178530,Morning Run,a lot more hiking than running tbh,2024-06-16 01:47:11+00:00,3342,Run,"Kalamunda National Park, Australia",6.0,,51m 2s
+637,112847410,Allie Wilson,11661890229,Morning Run,"hard uphill first half, got lost, really fun quick descent",2024-06-16 00:11:56+00:00,3221,Run,"City Of Kalamunda, Australia",6.44,,49m 28s
+638,112847410,Allie Wilson,11633907925,gentle but strong,hate to say it but it kinda seems like slackness pays off,2024-06-12 09:53:56+00:00,3521,Run,"City of Fremantle, Australia",10.01,5.78,57m 55s
+639,112847410,Allie Wilson,11716271742,Morning Run,aiming for a minimum 20 minute jog every day this week to make the routine stick,2024-06-23 02:06:00+00:00,1290,Run,"City of Fremantle, Australia",4.01,5.37,21m 30s
+640,112847410,Allie Wilson,11778718798,Morning Run,,2024-06-30 22:59:05+00:00,1507,Run,"City of Fremantle, Australia",4.01,5.67,22m 42s
+641,112847410,Allie Wilson,11763932208,Lunch Run,"day 7!!! gentle 5k while my laundry dries, tomorrow i will rest",2024-06-29 03:46:37+00:00,1885,Run,"City of Fremantle, Australia",5.01,5.95,29m 49s
+642,112847410,Allie Wilson,11758226924,Afternoon Run,😴,2024-06-28 09:27:17+00:00,1234,Run,"Town Of East Fremantle, Australia",3.62,5.53,20m 1s
+643,112847410,Allie Wilson,11750586484,Afternoon Run,first treddy in a hot minnie,2024-06-27 09:27:37+00:00,1201,Run,,3.5,5.72,20m 1s
+644,112847410,Allie Wilson,11742634125,Afternoon Run,outrageously beautiful evening 😤,2024-06-26 09:19:00+00:00,1767,Run,"City of Fremantle, Australia",5.01,5.58,27m 57s
+645,112847410,Allie Wilson,11734048656,tuesday 20,day 3: got barked at by a human :),2024-06-25 09:03:44+00:00,1547,Run,"City of Fremantle, Australia",4.35,5.82,25m 18s
+646,112847410,Allie Wilson,11726031364,twilight 20,first km zoomies 🥴,2024-06-24 09:30:18+00:00,1274,Run,"City of Fremantle, Australia",4.0,5.3,21m 14s
+647,112847410,Allie Wilson,11860132180,Afternoon Run,first gentle jog back after sicko mode 🤧,2024-07-11 07:34:56+00:00,1178,Run,,3.5,5.62,19m 38s
+648,112847410,Allie Wilson,11940233186,Lunch Run,feeling like a bit of a jogger-naut,2024-07-21 03:13:12+00:00,1824,Run,"City of Fremantle, Australia",5.01,5.95,29m 46s
+649,112847410,Allie Wilson,11989479087,Morning Run,,2024-07-26 23:24:06+00:00,1725,Run,"City of Fremantle, Australia",5.01,5.67,28m 25s
+650,112847410,Allie Wilson,11964759750,Morning Run,,2024-07-23 22:54:51+00:00,1808,Run,"City of Fremantle, Australia",4.99,5.78,28m 56s
+651,112847410,Allie Wilson,11950603577,Evening Run,"first proper interval attempt 
+1km WU
+1km fast?
+1km gentle
+1km fast?
+1km kinda 🧘 kinda 😣",2024-07-22 10:37:57+00:00,1728,Run,"City of Fremantle, Australia",5.0,5.42,27m 7s
+652,112847410,Allie Wilson,12047820437,inconsistency is key?,big thumbs up from an old cobba in the last 500m made it all worth it,2024-08-03 00:29:53+00:00,3700,Run,"City of Fremantle, Australia",10.0,5.77,57m 42s
+653,112847410,Allie Wilson,12075643602,Evening Run,,2024-08-06 09:48:46+00:00,1783,Run,"City of Fremantle, Australia",5.0,5.75,28m 47s
+654,112847410,Allie Wilson,12141064688,Morning Run,stopped for a while to watch big boat come in,2024-08-13 22:42:01+00:00,2209,Run,"City of Fremantle, Australia",5.0,5.42,27m 5s
+655,112847410,Allie Wilson,12185738877,Evening Run,motivation at rock bottom but nice to be by the water,2024-08-19 09:48:35+00:00,2082,Run,"City of Fremantle, Australia",5.5,5.82,32m 3s
+656,112847410,Allie Wilson,12293966372,Night Walk,,2024-08-31 15:32:38+00:00,5727,Walk,"City of Fremantle, Australia",7.81,,130 m
+657,112847410,Allie Wilson,12330708563,tiny tiny little intervals,"1km WU
+0.5 @5:00
+0.5 @6:00
+0.5 @4:48
+0.5 @600
+0.5 @4:36
+0.5 @6:00
+0.25 @4:26
+
+don’t @me if that doesn’t make sense i honestly don’t know what i’m doing",2024-09-05 08:00:34+00:00,1463,Run,,4.3,5.67,24m 23s
+658,112847410,Allie Wilson,12305225291,facing my demons (golds gym),,2024-09-02 11:13:19+00:00,1860,Run,,5.0,6.2,31m 0s
+659,112847410,Allie Wilson,12370013721,Morning Run,,2024-09-09 22:05:41+00:00,1927,Run,"City of Fremantle, Australia",5.01,6.0,30m 4s
+660,112847410,Allie Wilson,12561735126,shocking views,old greek man clapped as i ran past and made everything worth it 🤧,2024-10-03 04:37:04+00:00,1357,Run,"Municipality of Sifnos, Greece",2.99,6.83,20m 30s
+661,112847410,Allie Wilson,12544830491,Morning Walk,no way i walked 4.5ks,2024-10-01 02:03:58+00:00,3916,Walk,"Doha, Qatar",4.77,,43m 14s
+662,112847410,Allie Wilson,12597841433,Afternoon Hike,last day on sifnos 🤧,2024-10-07 13:09:45+00:00,5135,Hike,"Municipality of Sifnos, Greece",4.79,,1h 14m
+663,112847410,Allie Wilson,12702204686,Afternoon Walk,,2024-10-20 14:17:00+00:00,2388,Walk,"Taormina, Italy",1.61,,193 m
+664,112847410,Allie Wilson,12699404718,Morning Walk,,2024-10-20 07:12:17+00:00,5288,Walk,"Cefalù, Italy",3.56,,300 m
+665,112847410,Allie Wilson,12690200960,Morning Run,,2024-10-19 07:57:51+00:00,1774,Run,"Cefalù, Italy",4.04,6.48,26m 13s
+666,112847410,Allie Wilson,12671539843,beach to lunch,,2024-10-16 10:44:44+00:00,3159,Walk,"Palermo, Italy",4.25,,29 m
+667,112847410,Allie Wilson,12671553996,home to beach,,2024-10-16 08:54:07+00:00,4532,Walk,"Palermo, Italy",7.21,,31 m
+668,112847410,Allie Wilson,12954776924,Morning Run,being really brave before work,2024-11-21 22:47:52+00:00,1259,Run,"City of Fremantle, Australia",3.5,5.75,20m 8s
+669,31259127,Craig Engels,11234052456,Solo Long Run,So so stoked how easy this run was. Didn’t look at watch.,2024-04-21 16:09:45+00:00,5122,Run,"Santa Maria, USA",22.54,3.68,1h 22m
+670,31259127,Craig Engels,11504694388,Fresno F Boy,Long run rec from Caudillo. Solid spot,2024-05-26 16:41:16+00:00,5175,Run,"Clovis, USA",20.49,4.15,1h 25m
+671,31259127,Craig Engels,12978977012,Forgot how bad I am at other sports,Pickup footy with Hoff and Bateson. Was so bad I decided goalie was my position,2024-11-24 11:13:30+00:00,2970,Run,,3.66,7.88,28m 54s
+672,31259127,Craig Engels,12978973870,Post NXR yog,,2024-11-23 18:40:32+00:00,2284,Run,"The Woodlands, USA",8.27,4.52,37m 19s
+673,31259127,Craig Engels,12962109047,Lady bird with Lads,,2024-11-21 21:33:56+00:00,2105,Run,"Austin, USA",7.64,4.47,34m 7s
+674,48092419,brian kiptum,11195245004,Afternoon Run,,2024-04-16 13:54:13+00:00,4935,Run,"Nairobi National Park, Kenya",6.66,10.28,1h 8m
+675,48092419,brian kiptum,11408915650,Afternoon Run,,2024-05-14 14:22:08+00:00,2579,Run,"Nairobi County, Kenya",7.35,5.85,42m 58s
+676,48092419,brian kiptum,11544554825,Morning Run,,2024-06-01 03:52:36+00:00,7939,Run,"Kitengela triangle unformal conservation area, Kenya",20.27,5.83,1h 58m
+677,48092419,brian kiptum,11517318151,Afternoon Run,,2024-05-28 14:14:02+00:00,3272,Run,"Nairobi County, Kenya",10.08,5.38,54m 23s
+678,48092419,brian kiptum,11600155429,Morning Run,,2024-06-08 03:18:15+00:00,6106,Run,"Kitengela triangle unformal conservation area, Kenya",15.12,5.73,1h 26m
+679,48092419,brian kiptum,11588589139,Afternoon Run,,2024-06-06 14:36:07+00:00,2625,Run,"Nairobi County, Kenya",8.51,5.12,43m 35s
+680,48092419,brian kiptum,11654768801,Morning Run,,2024-06-15 03:08:22+00:00,6930,Run,"Kitengela triangle unformal conservation area, Kenya",20.03,5.58,1h 51m
+681,48092419,brian kiptum,11635847696,Afternoon Run,,2024-06-12 14:32:09+00:00,3241,Run,"Nairobi County, Kenya",10.13,5.27,53m 18s
+682,48092419,brian kiptum,11722714410,Brussels walk,,2024-06-23 09:44:25+00:00,31696,Run,"Machelen, Belgium",6.21,,8h 44m
+683,48092419,brian kiptum,11702178075,Morning Run,,2024-06-21 04:00:27+00:00,3912,Run,"Kitengela triangle unformal conservation area, Kenya",12.21,5.33,1h 5m
+684,48092419,brian kiptum,11670475435,Morning Run,,2024-06-17 03:45:09+00:00,4363,Run,"Machakos County, Kenya",13.27,5.48,1h 12m
+685,48092419,brian kiptum,11772618378,Morning Run,,2024-06-30 07:06:12+00:00,5838,Run,"Kitengela triangle unformal conservation area, Kenya",18.28,5.32,1h 37m
+686,48092419,brian kiptum,11741414121,Morning Run,,2024-06-26 04:43:13+00:00,2444,Run,"Brussels, Belgium",6.55,5.38,35m 17s
+687,48092419,brian kiptum,11729072620,Evening Run,,2024-06-24 16:34:26+00:00,2024,Run,"Evere, Belgium",3.31,9.62,31m 48s
+688,48092419,brian kiptum,11826608192,Morning Run,,2024-07-07 04:02:07+00:00,5987,Run,"Machakos County, Kenya",18.15,5.5,1h 39m
+689,48092419,brian kiptum,11874499658,Morning Run,,2024-07-13 03:42:41+00:00,5056,Run,"Machakos County, Kenya",12.36,5.7,1h 10m
+690,48092419,brian kiptum,11932295386,Morning Run,,2024-07-20 03:33:49+00:00,10306,Run,"Kitengela triangle unformal conservation area, Kenya",22.09,6.65,2h 26m
+691,48092419,brian kiptum,11990513812,Morning Run,,2024-07-27 03:16:31+00:00,7462,Run,"Kitengela triangle unformal conservation area, Kenya",20.2,5.6,1h 53m
+692,48092419,brian kiptum,12036732178,Afternoon Run,,2024-08-01 14:19:01+00:00,5877,Run,"Kitengela triangle unformal conservation area, Kenya",17.02,5.45,1h 32m
+693,48092419,brian kiptum,12226649378,Morning Run,,2024-08-24 03:21:41+00:00,7764,Run,"Kitengela triangle unformal conservation area, Kenya",18.78,5.92,1h 51m
+694,48092419,brian kiptum,12214394736,Sundowner,,2024-08-22 14:25:23+00:00,3567,Run,"Nairobi County, Kenya",10.15,5.28,53m 40s
+695,48092419,brian kiptum,12196709906,Back to running,,2024-08-20 14:25:47+00:00,3353,Run,"Nairobi County, Kenya",10.32,5.4,55m 43s
+696,48092419,brian kiptum,12285956214,Morning Run,,2024-08-31 03:32:22+00:00,6911,Run,"Kitengela triangle unformal conservation area, Kenya",20.29,5.27,1h 47m
+697,48092419,brian kiptum,12264763842,Afternoon Run,,2024-08-28 13:57:31+00:00,4378,Run,"Nairobi County, Kenya",11.16,5.27,58m 51s
+698,48092419,brian kiptum,12354830822,Morning Run,,2024-09-08 04:30:17+00:00,452,Run,"Nairobi County, Kenya",1.69,4.43,7m 32s
+699,48092419,brian kiptum,12472052745,Morning Run,,2024-09-22 03:19:46+00:00,5665,Run,"Kitengela triangle unformal conservation area, Kenya",14.86,5.35,1h 19m
+700,48092419,brian kiptum,12433383392,Afternoon Run,,2024-09-17 14:23:38+00:00,2477,Run,"Nairobi County, Kenya",6.01,4.45,26m 45s
+701,48092419,brian kiptum,12520283830,Morning Run,,2024-09-28 03:18:19+00:00,5694,Run,"Kitengela triangle unformal conservation area, Kenya",16.15,5.45,1h 28m
+702,48092419,brian kiptum,12501125716,Afternoon Run,,2024-09-25 13:59:23+00:00,3243,Run,"Nairobi County, Kenya",10.1,5.2,52m 29s
+703,48092419,brian kiptum,12577086161,Morning Run,,2024-10-05 03:22:34+00:00,9632,Run,"Kitengela triangle unformal conservation area, Kenya",26.19,6.08,2h 39m
+704,48092419,brian kiptum,12689455963,Morning Run,,2024-10-19 03:41:23+00:00,4943,Run,"Machakos County, Kenya",13.47,6.07,1h 21m
+705,48092419,brian kiptum,12661477733,Afternoon Run,,2024-10-15 13:42:01+00:00,2690,Run,"Nairobi County, Kenya",7.23,5.03,36m 28s
+706,48092419,brian kiptum,12753952228,Morning Run,,2024-10-27 04:21:14+00:00,7149,Run,"Nairobi County, Kenya",21.29,5.58,1h 58m
+707,48092419,brian kiptum,12801406765,Morning Run,,2024-11-02 04:21:29+00:00,1137,Run,"Kitengela triangle unformal conservation area, Kenya",3.35,5.63,18m 53s
+708,48092419,brian kiptum,12801336397,Morning Run,,2024-11-02 03:21:18+00:00,2357,Run,"Kitengela triangle unformal conservation area, Kenya",7.36,5.2,38m 17s
+709,48092419,brian kiptum,12910701186,Morning Run,,2024-11-16 03:40:55+00:00,5393,Run,"Machakos County, Kenya",14.59,5.8,1h 24m
+710,48092419,brian kiptum,12962286558,Morning Run,,2024-11-23 03:33:57+00:00,7053,Run,"Kitengela triangle unformal conservation area, Kenya",19.32,5.92,1h 54m
+711,48092419,brian kiptum,12929092486,Afternoon Run,,2024-11-18 13:15:48+00:00,2549,Run,"Nairobi County, Kenya",6.14,4.72,29m 2s
+712,131800350,Amanda Vestri,11215798338,Morning Workout,,2024-04-19 10:14:38+00:00,2459,Workout,,40.0,,217 Cal
+713,131800350,Amanda Vestri,11193291922,Morning Run,,2024-04-16 09:13:35+00:00,728,Run,,1.51,7.73,11m 44s
+714,131800350,Amanda Vestri,11267019554,Morning Run,,2024-04-26 09:15:28+00:00,3000,Run,,5.22,9.45,49m 23s
+715,131800350,Amanda Vestri,11259767021,Morning Run,,2024-04-25 09:06:05+00:00,3026,Run,,5.0,10.08,50m 25s
+716,131800350,Amanda Vestri,11244629544,Morning Run,,2024-04-23 09:07:46+00:00,3617,Run,,5.38,11.2,1h 0m
+717,131800350,Amanda Vestri,11237673712,Morning Workout,,2024-04-22 10:10:33+00:00,2753,Workout,,45.0,,261 Cal
+718,131800350,Amanda Vestri,11314115563,Morning Workout,,2024-05-02 10:18:12+00:00,1268,Workout,,21.0,,119 Cal
+719,131800350,Amanda Vestri,11310177379,Afternoon HIIT,,2024-05-01 18:11:31+00:00,2923,HighIntensityIntervalTraining,,48.0,,237 Cal
+720,131800350,Amanda Vestri,11310177286,Afternoon Workout,,2024-05-01 18:11:36+00:00,2904,Workout,,48.0,,239 Cal
+721,131800350,Amanda Vestri,11297279383,Morning Run,,2024-04-30 09:24:12+00:00,3806,Run,,5.67,9.28,52m 39s
+722,131800350,Amanda Vestri,11293519878,Afternoon Workout,,2024-04-29 18:46:26+00:00,2782,Workout,,46.0,,333 Cal

@@ -1,0 +1,901 @@
+,Athlete ID,Name,Week Number,Date Range,Distance (km),Time,Elevation (m)
+0,22185738,Li BAI,01,Week 01 - No Data,0.0,0h 0m,0.0
+1,22185738,Li BAI,02,Week 02 - No Data,0.0,0h 0m,0.0
+2,22185738,Li BAI,03,Week 03 - No Data,0.0,0h 0m,0.0
+3,22185738,Li BAI,04,Week 04 - No Data,0.0,0h 0m,0.0
+4,22185738,Li BAI,05,Week 05 - No Data,0.0,0h 0m,0.0
+5,22185738,Li BAI,06,Week 06 - No Data,0.0,0h 0m,0.0
+6,22185738,Li BAI,07,Week 07 - No Data,0.0,0h 0m,0.0
+7,22185738,Li BAI,08,Week 08 - No Data,0.0,0h 0m,0.0
+8,22185738,Li BAI,09,Activities for 26 Feb 2024 - 3 Mar 2024,7.5,1h 8m,94.0
+9,22185738,Li BAI,10,Activities for 4 Mar 2024 - 10 Mar 2024,9.2,1h 9m,91.0
+10,22185738,Li BAI,11,Activities for 11 Mar 2024 - 17 Mar 2024,9.4,1h 16m,110.0
+11,22185738,Li BAI,12,Week 12 - No Data,0.0,0h 0m,0.0
+12,22185738,Li BAI,13,Week 13 - No Data,0.0,0h 0m,0.0
+13,22185738,Li BAI,14,Week 14 - No Data,0.0,0h 0m,0.0
+14,22185738,Li BAI,15,Week 15 - No Data,0.0,0h 0m,0.0
+15,22185738,Li BAI,16,Week 16 - No Data,0.0,0h 0m,0.0
+16,22185738,Li BAI,17,Week 17 - No Data,0.0,0h 0m,0.0
+17,22185738,Li BAI,18,Week 18 - No Data,0.0,0h 0m,0.0
+18,22185738,Li BAI,19,Week 19 - No Data,0.0,0h 0m,0.0
+19,22185738,Li BAI,20,Week 20 - No Data,0.0,0h 0m,0.0
+20,22185738,Li BAI,21,Week 21 - No Data,0.0,0h 0m,0.0
+21,22185738,Li BAI,22,Week 22 - No Data,0.0,0h 0m,0.0
+22,22185738,Li BAI,23,Week 23 - No Data,0.0,0h 0m,0.0
+23,22185738,Li BAI,24,Week 24 - No Data,0.0,0h 0m,0.0
+24,22185738,Li BAI,25,Week 25 - No Data,0.0,0h 0m,0.0
+25,22185738,Li BAI,26,Week 26 - No Data,0.0,0h 0m,0.0
+26,22185738,Li BAI,27,Week 27 - No Data,0.0,0h 0m,0.0
+27,22185738,Li BAI,28,Week 28 - No Data,0.0,0h 0m,0.0
+28,22185738,Li BAI,29,Week 29 - No Data,0.0,0h 0m,0.0
+29,22185738,Li BAI,30,Week 30 - No Data,0.0,0h 0m,0.0
+30,22185738,Li BAI,31,Week 31 - No Data,0.0,0h 0m,0.0
+31,22185738,Li BAI,32,Week 32 - No Data,0.0,0h 0m,0.0
+32,22185738,Li BAI,33,Week 33 - No Data,0.0,0h 0m,0.0
+33,22185738,Li BAI,34,Week 34 - No Data,0.0,0h 0m,0.0
+34,22185738,Li BAI,35,Week 35 - No Data,0.0,0h 0m,0.0
+35,22185738,Li BAI,36,Week 36 - No Data,0.0,0h 0m,0.0
+36,22185738,Li BAI,37,Week 37 - No Data,0.0,0h 0m,0.0
+37,22185738,Li BAI,38,Week 38 - No Data,0.0,0h 0m,0.0
+38,22185738,Li BAI,39,Week 39 - No Data,0.0,0h 0m,0.0
+39,22185738,Li BAI,40,Week 40 - No Data,0.0,0h 0m,0.0
+40,22185738,Li BAI,41,Week 41 - No Data,0.0,0h 0m,0.0
+41,22185738,Li BAI,42,Week 42 - No Data,0.0,0h 0m,0.0
+42,22185738,Li BAI,43,Week 43 - No Data,0.0,0h 0m,0.0
+43,22185738,Li BAI,44,Week 44 - No Data,0.0,0h 0m,0.0
+44,22185738,Li BAI,45,Week 45 - No Data,0.0,0h 0m,0.0
+45,47062245,Yassine ABER,01,Week 01 - No Data,0.0,0h 0m,0.0
+46,47062245,Yassine ABER,02,Week 02 - No Data,0.0,0h 0m,0.0
+47,47062245,Yassine ABER,03,Week 03 - No Data,0.0,0h 0m,0.0
+48,47062245,Yassine ABER,04,Week 04 - No Data,0.0,0h 0m,0.0
+49,47062245,Yassine ABER,05,Week 05 - No Data,0.0,0h 0m,0.0
+50,47062245,Yassine ABER,06,Week 06 - No Data,0.0,0h 0m,0.0
+51,47062245,Yassine ABER,07,Week 07 - No Data,0.0,0h 0m,0.0
+52,47062245,Yassine ABER,08,Week 08 - No Data,0.0,0h 0m,0.0
+53,47062245,Yassine ABER,09,Week 09 - No Data,0.0,0h 0m,0.0
+54,47062245,Yassine ABER,10,Week 10 - No Data,0.0,0h 0m,0.0
+55,47062245,Yassine ABER,11,Week 11 - No Data,0.0,0h 0m,0.0
+56,47062245,Yassine ABER,12,Week 12 - No Data,0.0,0h 0m,0.0
+57,47062245,Yassine ABER,13,Week 13 - No Data,0.0,0h 0m,0.0
+58,47062245,Yassine ABER,14,Week 14 - No Data,0.0,0h 0m,0.0
+59,47062245,Yassine ABER,15,Week 15 - No Data,0.0,0h 0m,0.0
+60,47062245,Yassine ABER,16,Week 16 - No Data,0.0,0h 0m,0.0
+61,47062245,Yassine ABER,17,Week 17 - No Data,0.0,0h 0m,0.0
+62,47062245,Yassine ABER,18,Week 18 - No Data,0.0,0h 0m,0.0
+63,47062245,Yassine ABER,19,Week 19 - No Data,0.0,0h 0m,0.0
+64,47062245,Yassine ABER,20,Week 20 - No Data,0.0,0h 0m,0.0
+65,47062245,Yassine ABER,21,Week 21 - No Data,0.0,0h 0m,0.0
+66,47062245,Yassine ABER,22,Week 22 - No Data,0.0,0h 0m,0.0
+67,47062245,Yassine ABER,23,Week 23 - No Data,0.0,0h 0m,0.0
+68,47062245,Yassine ABER,24,Week 24 - No Data,0.0,0h 0m,0.0
+69,47062245,Yassine ABER,25,Week 25 - No Data,0.0,0h 0m,0.0
+70,47062245,Yassine ABER,26,Week 26 - No Data,0.0,0h 0m,0.0
+71,47062245,Yassine ABER,27,Week 27 - No Data,0.0,0h 0m,0.0
+72,47062245,Yassine ABER,28,Week 28 - No Data,0.0,0h 0m,0.0
+73,47062245,Yassine ABER,29,Week 29 - No Data,0.0,0h 0m,0.0
+74,47062245,Yassine ABER,30,Week 30 - No Data,0.0,0h 0m,0.0
+75,47062245,Yassine ABER,31,Week 31 - No Data,0.0,0h 0m,0.0
+76,47062245,Yassine ABER,32,Week 32 - No Data,0.0,0h 0m,0.0
+77,47062245,Yassine ABER,33,Week 33 - No Data,0.0,0h 0m,0.0
+78,47062245,Yassine ABER,34,Week 34 - No Data,0.0,0h 0m,0.0
+79,47062245,Yassine ABER,35,Week 35 - No Data,0.0,0h 0m,0.0
+80,47062245,Yassine ABER,36,Week 36 - No Data,0.0,0h 0m,0.0
+81,47062245,Yassine ABER,37,Week 37 - No Data,0.0,0h 0m,0.0
+82,47062245,Yassine ABER,38,Week 38 - No Data,0.0,0h 0m,0.0
+83,47062245,Yassine ABER,39,Week 39 - No Data,0.0,0h 0m,0.0
+84,47062245,Yassine ABER,40,Week 40 - No Data,0.0,0h 0m,0.0
+85,47062245,Yassine ABER,41,Week 41 - No Data,0.0,0h 0m,0.0
+86,47062245,Yassine ABER,42,Week 42 - No Data,0.0,0h 0m,0.0
+87,47062245,Yassine ABER,43,Week 43 - No Data,0.0,0h 0m,0.0
+88,47062245,Yassine ABER,44,Week 44 - No Data,0.0,0h 0m,0.0
+89,47062245,Yassine ABER,45,Week 45 - No Data,0.0,0h 0m,0.0
+90,81785282,Nico BOKETTA,01,Activities for 1 Jan 2024 - 7 Jan 2024,27.6,1h 51m,325.0
+91,81785282,Nico BOKETTA,02,Activities for 8 Jan 2024 - 14 Jan 2024,18.0,1h 19m,150.0
+92,81785282,Nico BOKETTA,03,Week 03 - No Data,0.0,0h 0m,0.0
+93,81785282,Nico BOKETTA,04,Activities for 22 Jan 2024 - 28 Jan 2024,29.9,2h 11m,255.0
+94,81785282,Nico BOKETTA,05,Activities for 29 Jan 2024 - 4 Feb 2024,10.9,0h 49m,14.0
+95,81785282,Nico BOKETTA,06,Activities for 5 Feb 2024 - 11 Feb 2024,37.1,2h 54m,281.0
+96,81785282,Nico BOKETTA,07,Activities for 12 Feb 2024 - 18 Feb 2024,12.5,0h 48m,167.0
+97,81785282,Nico BOKETTA,08,Activities for 19 Feb 2024 - 25 Feb 2024,52.0,3h 28m,463.0
+98,81785282,Nico BOKETTA,09,Activities for 26 Feb 2024 - 3 Mar 2024,37.1,2h 36m,331.0
+99,81785282,Nico BOKETTA,10,Activities for 4 Mar 2024 - 10 Mar 2024,32.1,2h 11m,204.0
+100,81785282,Nico BOKETTA,11,Activities for 11 Mar 2024 - 17 Mar 2024,45.4,3h 10m,705.0
+101,81785282,Nico BOKETTA,12,Activities for 18 Mar 2024 - 24 Mar 2024,32.4,2h 38m,361.0
+102,81785282,Nico BOKETTA,13,Activities for 25 Mar 2024 - 31 Mar 2024,15.7,0h 56m,213.0
+103,81785282,Nico BOKETTA,14,Activities for 1 Apr 2024 - 7 Apr 2024,32.0,2h 32m,295.0
+104,81785282,Nico BOKETTA,15,Activities for 8 Apr 2024 - 14 Apr 2024,93.7,7h 19m,758.0
+105,81785282,Nico BOKETTA,16,Activities for 15 Apr 2024 - 21 Apr 2024,41.3,2h 56m,278.0
+106,81785282,Nico BOKETTA,17,Activities for 22 Apr 2024 - 28 Apr 2024,22.2,1h 33m,160.0
+107,81785282,Nico BOKETTA,18,Activities for 29 Apr 2024 - 5 May 2024,9.0,0h 44m,120.0
+108,81785282,Nico BOKETTA,19,Activities for 6 May 2024 - 12 May 2024,4.2,0h 18m,32.0
+109,81785282,Nico BOKETTA,20,Activities for 13 May 2024 - 19 May 2024,23.0,2h 13m,279.0
+110,81785282,Nico BOKETTA,21,Activities for 20 May 2024 - 26 May 2024,8.0,0h 37m,42.0
+111,81785282,Nico BOKETTA,22,Activities for 27 May 2024 - 2 Jun 2024,14.0,1h 4m,56.0
+112,81785282,Nico BOKETTA,23,Activities for 3 Jun 2024 - 9 Jun 2024,4.1,0h 18m,12.0
+113,81785282,Nico BOKETTA,24,Activities for 10 Jun 2024 - 16 Jun 2024,21.0,1h 15m,156.0
+114,81785282,Nico BOKETTA,25,Activities for 17 Jun 2024 - 23 Jun 2024,4.0,0h 18m,12.0
+115,81785282,Nico BOKETTA,26,Activities for 24 Jun 2024 - 30 Jun 2024,7.3,0h 27m,55.0
+116,81785282,Nico BOKETTA,27,Week 27 - No Data,0.0,0h 0m,0.0
+117,81785282,Nico BOKETTA,28,Activities for 8 Jul 2024 - 14 Jul 2024,8.3,0h 56m,84.0
+118,81785282,Nico BOKETTA,29,Activities for 15 Jul 2024 - 21 Jul 2024,11.6,0h 43m,96.0
+119,81785282,Nico BOKETTA,30,Activities for 22 Jul 2024 - 28 Jul 2024,29.0,2h 1m,197.0
+120,81785282,Nico BOKETTA,31,Week 31 - No Data,0.0,0h 0m,0.0
+121,81785282,Nico BOKETTA,32,Activities for 5 Aug 2024 - 11 Aug 2024,4.1,0h 14m,16.0
+122,81785282,Nico BOKETTA,33,Week 33 - No Data,0.0,0h 0m,0.0
+123,81785282,Nico BOKETTA,34,Week 34 - No Data,0.0,0h 0m,0.0
+124,81785282,Nico BOKETTA,35,Week 35 - No Data,0.0,0h 0m,0.0
+125,81785282,Nico BOKETTA,36,Week 36 - No Data,0.0,0h 0m,0.0
+126,81785282,Nico BOKETTA,37,Week 37 - No Data,0.0,0h 0m,0.0
+127,81785282,Nico BOKETTA,38,Week 38 - No Data,0.0,0h 0m,0.0
+128,81785282,Nico BOKETTA,39,Week 39 - No Data,0.0,0h 0m,0.0
+129,81785282,Nico BOKETTA,40,Week 40 - No Data,0.0,0h 0m,0.0
+130,81785282,Nico BOKETTA,41,Activities for 7 Oct 2024 - 13 Oct 2024,8.0,0h 30m,30.0
+131,81785282,Nico BOKETTA,42,Week 42 - No Data,0.0,0h 0m,0.0
+132,81785282,Nico BOKETTA,43,Activities for 21 Oct 2024 - 27 Oct 2024,18.0,1h 17m,179.0
+133,81785282,Nico BOKETTA,44,Activities for 28 Oct 2024 - 3 Nov 2024,28.0,2h 0m,215.0
+134,81785282,Nico BOKETTA,45,Activities for 4 Nov 2024 - 10 Nov 2024,15.3,0h 58m,103.0
+135,15008982,Yuki TSUTSUMI,01,Week 01 - No Data,0.0,0h 0m,0.0
+136,15008982,Yuki TSUTSUMI,02,Week 02 - No Data,0.0,0h 0m,0.0
+137,15008982,Yuki TSUTSUMI,03,Week 03 - No Data,0.0,0h 0m,0.0
+138,15008982,Yuki TSUTSUMI,04,Activities for 22 Jan 2024 - 28 Jan 2024,9.0,0h 57m,44.0
+139,15008982,Yuki TSUTSUMI,05,Activities for 29 Jan 2024 - 4 Feb 2024,4.4,0h 28m,17.0
+140,15008982,Yuki TSUTSUMI,06,Activities for 5 Feb 2024 - 11 Feb 2024,15.5,1h 17m,135.0
+141,15008982,Yuki TSUTSUMI,07,Week 07 - No Data,0.0,0h 0m,0.0
+142,15008982,Yuki TSUTSUMI,08,Week 08 - No Data,0.0,0h 0m,0.0
+143,15008982,Yuki TSUTSUMI,09,Activities for 26 Feb 2024 - 3 Mar 2024,17.6,1h 8m,157.0
+144,15008982,Yuki TSUTSUMI,10,Week 10 - No Data,0.0,0h 0m,0.0
+145,15008982,Yuki TSUTSUMI,11,Week 11 - No Data,0.0,0h 0m,0.0
+146,15008982,Yuki TSUTSUMI,12,Week 12 - No Data,0.0,0h 0m,0.0
+147,15008982,Yuki TSUTSUMI,13,Week 13 - No Data,0.0,0h 0m,0.0
+148,15008982,Yuki TSUTSUMI,14,Week 14 - No Data,0.0,0h 0m,0.0
+149,15008982,Yuki TSUTSUMI,15,Activities for 8 Apr 2024 - 14 Apr 2024,46.3,2h 55m,436.0
+150,15008982,Yuki TSUTSUMI,16,Activities for 15 Apr 2024 - 21 Apr 2024,17.8,1h 5m,165.0
+151,15008982,Yuki TSUTSUMI,17,Activities for 22 Apr 2024 - 28 Apr 2024,6.6,0h 44m,48.0
+152,15008982,Yuki TSUTSUMI,18,Week 18 - No Data,0.0,0h 0m,0.0
+153,15008982,Yuki TSUTSUMI,19,Week 19 - No Data,0.0,0h 0m,0.0
+154,15008982,Yuki TSUTSUMI,20,Week 20 - No Data,0.0,0h 0m,0.0
+155,15008982,Yuki TSUTSUMI,21,Week 21 - No Data,0.0,0h 0m,0.0
+156,15008982,Yuki TSUTSUMI,22,Week 22 - No Data,0.0,0h 0m,0.0
+157,15008982,Yuki TSUTSUMI,23,Week 23 - No Data,0.0,0h 0m,0.0
+158,15008982,Yuki TSUTSUMI,24,Week 24 - No Data,0.0,0h 0m,0.0
+159,15008982,Yuki TSUTSUMI,25,Activities for 17 Jun 2024 - 23 Jun 2024,34.5,2h 37m,256.0
+160,15008982,Yuki TSUTSUMI,26,Activities for 24 Jun 2024 - 30 Jun 2024,18.4,1h 16m,171.0
+161,15008982,Yuki TSUTSUMI,27,Activities for 1 Jul 2024 - 7 Jul 2024,17.7,1h 34m,169.0
+162,15008982,Yuki TSUTSUMI,28,Activities for 8 Jul 2024 - 14 Jul 2024,7.4,0h 47m,44.0
+163,15008982,Yuki TSUTSUMI,29,Activities for 15 Jul 2024 - 21 Jul 2024,23.6,1h 45m,207.0
+164,15008982,Yuki TSUTSUMI,30,Activities for 22 Jul 2024 - 28 Jul 2024,16.5,1h 35m,137.0
+165,15008982,Yuki TSUTSUMI,31,Activities for 29 Jul 2024 - 4 Aug 2024,6.4,0h 42m,41.0
+166,15008982,Yuki TSUTSUMI,32,Activities for 5 Aug 2024 - 11 Aug 2024,44.2,3h 30m,418.0
+167,15008982,Yuki TSUTSUMI,33,Activities for 12 Aug 2024 - 18 Aug 2024,58.6,4h 32m,544.0
+168,15008982,Yuki TSUTSUMI,34,Activities for 19 Aug 2024 - 25 Aug 2024,51.4,4h 25m,446.0
+169,15008982,Yuki TSUTSUMI,35,Activities for 26 Aug 2024 - 1 Sep 2024,52.7,3h 48m,529.0
+170,15008982,Yuki TSUTSUMI,36,Activities for 2 Sep 2024 - 8 Sep 2024,107.9,8h 48m,945.0
+171,15008982,Yuki TSUTSUMI,37,Activities for 9 Sep 2024 - 15 Sep 2024,5.1,0h 30m,41.0
+172,15008982,Yuki TSUTSUMI,38,Activities for 16 Sep 2024 - 22 Sep 2024,38.6,3h 5m,319.0
+173,15008982,Yuki TSUTSUMI,39,Activities for 23 Sep 2024 - 29 Sep 2024,45.8,2h 48m,324.0
+174,15008982,Yuki TSUTSUMI,40,Activities for 30 Sep 2024 - 6 Oct 2024,33.9,2h 46m,276.0
+175,15008982,Yuki TSUTSUMI,41,Activities for 7 Oct 2024 - 13 Oct 2024,35.1,3h 1m,309.0
+176,15008982,Yuki TSUTSUMI,42,Activities for 14 Oct 2024 - 20 Oct 2024,34.3,2h 55m,306.0
+177,15008982,Yuki TSUTSUMI,43,Week 43 - No Data,0.0,0h 0m,0.0
+178,15008982,Yuki TSUTSUMI,44,Activities for 28 Oct 2024 - 3 Nov 2024,23.5,2h 28m,168.0
+179,15008982,Yuki TSUTSUMI,45,Activities for 4 Nov 2024 - 10 Nov 2024,11.2,1h 13m,73.0
+180,46695698,William BATTERSHILL,01,Week 01 - No Data,0.0,0h 0m,0.0
+181,46695698,William BATTERSHILL,02,Week 02 - No Data,0.0,0h 0m,0.0
+182,46695698,William BATTERSHILL,03,Week 03 - No Data,0.0,0h 0m,0.0
+183,46695698,William BATTERSHILL,04,Week 04 - No Data,0.0,0h 0m,0.0
+184,46695698,William BATTERSHILL,05,Week 05 - No Data,0.0,0h 0m,0.0
+185,46695698,William BATTERSHILL,06,Week 06 - No Data,0.0,0h 0m,0.0
+186,46695698,William BATTERSHILL,07,Week 07 - No Data,0.0,0h 0m,0.0
+187,46695698,William BATTERSHILL,08,Week 08 - No Data,0.0,0h 0m,0.0
+188,46695698,William BATTERSHILL,09,Week 09 - No Data,0.0,0h 0m,0.0
+189,46695698,William BATTERSHILL,10,Week 10 - No Data,0.0,0h 0m,0.0
+190,46695698,William BATTERSHILL,11,Week 11 - No Data,0.0,0h 0m,0.0
+191,46695698,William BATTERSHILL,12,Week 12 - No Data,0.0,0h 0m,0.0
+192,46695698,William BATTERSHILL,13,Week 13 - No Data,0.0,0h 0m,0.0
+193,46695698,William BATTERSHILL,14,Week 14 - No Data,0.0,0h 0m,0.0
+194,46695698,William BATTERSHILL,15,Week 15 - No Data,0.0,0h 0m,0.0
+195,46695698,William BATTERSHILL,16,Week 16 - No Data,0.0,0h 0m,0.0
+196,46695698,William BATTERSHILL,17,Week 17 - No Data,0.0,0h 0m,0.0
+197,46695698,William BATTERSHILL,18,Activities for 29 Apr 2024 - 5 May 2024,13.1,0h 30m,132.0
+198,46695698,William BATTERSHILL,19,Activities for 6 May 2024 - 12 May 2024,39.3,1h 34m,231.0
+199,46695698,William BATTERSHILL,20,Activities for 13 May 2024 - 19 May 2024,28.4,1h 12m,301.0
+200,46695698,William BATTERSHILL,21,Activities for 20 May 2024 - 26 May 2024,45.3,1h 36m,218.0
+201,46695698,William BATTERSHILL,22,Activities for 27 May 2024 - 2 Jun 2024,32.6,1h 11m,176.0
+202,46695698,William BATTERSHILL,23,Activities for 3 Jun 2024 - 9 Jun 2024,24.3,1h 0m,178.0
+203,46695698,William BATTERSHILL,24,Activities for 10 Jun 2024 - 16 Jun 2024,19.6,0h 43m,132.0
+204,46695698,William BATTERSHILL,25,Week 25 - No Data,0.0,0h 0m,0.0
+205,46695698,William BATTERSHILL,26,Week 26 - No Data,0.0,0h 0m,0.0
+206,46695698,William BATTERSHILL,27,Week 27 - No Data,0.0,0h 0m,0.0
+207,46695698,William BATTERSHILL,28,Activities for 8 Jul 2024 - 14 Jul 2024,8.9,0h 30m,191.0
+208,46695698,William BATTERSHILL,29,Week 29 - No Data,0.0,0h 0m,0.0
+209,46695698,William BATTERSHILL,30,Week 30 - No Data,0.0,0h 0m,0.0
+210,46695698,William BATTERSHILL,31,Activities for 29 Jul 2024 - 4 Aug 2024,12.2,0h 25m,65.0
+211,46695698,William BATTERSHILL,32,Week 32 - No Data,0.0,0h 0m,0.0
+212,46695698,William BATTERSHILL,33,Week 33 - No Data,0.0,0h 0m,0.0
+213,46695698,William BATTERSHILL,34,Week 34 - No Data,0.0,0h 0m,0.0
+214,46695698,William BATTERSHILL,35,Week 35 - No Data,0.0,0h 0m,0.0
+215,46695698,William BATTERSHILL,36,Week 36 - No Data,0.0,0h 0m,0.0
+216,46695698,William BATTERSHILL,37,Week 37 - No Data,0.0,0h 0m,0.0
+217,46695698,William BATTERSHILL,38,Week 38 - No Data,0.0,0h 0m,0.0
+218,46695698,William BATTERSHILL,39,Week 39 - No Data,0.0,0h 0m,0.0
+219,46695698,William BATTERSHILL,40,Week 40 - No Data,0.0,0h 0m,0.0
+220,46695698,William BATTERSHILL,41,Activities for 7 Oct 2024 - 13 Oct 2024,39.2,1h 39m,260.0
+221,46695698,William BATTERSHILL,42,Week 42 - No Data,0.0,0h 0m,0.0
+222,46695698,William BATTERSHILL,43,Week 43 - No Data,0.0,0h 0m,0.0
+223,46695698,William BATTERSHILL,44,Week 44 - No Data,0.0,0h 0m,0.0
+224,46695698,William BATTERSHILL,45,Week 45 - No Data,0.0,0h 0m,0.0
+225,59137935,Cass ELLIOTT,01,Week 01 - No Data,0.0,0h 0m,0.0
+226,59137935,Cass ELLIOTT,02,Week 02 - No Data,0.0,0h 0m,0.0
+227,59137935,Cass ELLIOTT,03,Week 03 - No Data,0.0,0h 0m,0.0
+228,59137935,Cass ELLIOTT,04,Week 04 - No Data,0.0,0h 0m,0.0
+229,59137935,Cass ELLIOTT,05,Week 05 - No Data,0.0,0h 0m,0.0
+230,59137935,Cass ELLIOTT,06,Week 06 - No Data,0.0,0h 0m,0.0
+231,59137935,Cass ELLIOTT,07,Week 07 - No Data,0.0,0h 0m,0.0
+232,59137935,Cass ELLIOTT,08,Week 08 - No Data,0.0,0h 0m,0.0
+233,59137935,Cass ELLIOTT,09,Week 09 - No Data,0.0,0h 0m,0.0
+234,59137935,Cass ELLIOTT,10,Week 10 - No Data,0.0,0h 0m,0.0
+235,59137935,Cass ELLIOTT,11,Week 11 - No Data,0.0,0h 0m,0.0
+236,59137935,Cass ELLIOTT,12,Week 12 - No Data,0.0,0h 0m,0.0
+237,59137935,Cass ELLIOTT,13,Week 13 - No Data,0.0,0h 0m,0.0
+238,59137935,Cass ELLIOTT,14,Week 14 - No Data,0.0,0h 0m,0.0
+239,59137935,Cass ELLIOTT,15,Week 15 - No Data,0.0,0h 0m,0.0
+240,59137935,Cass ELLIOTT,16,Week 16 - No Data,0.0,0h 0m,0.0
+241,59137935,Cass ELLIOTT,17,Week 17 - No Data,0.0,0h 0m,0.0
+242,59137935,Cass ELLIOTT,18,Week 18 - No Data,0.0,0h 0m,0.0
+243,59137935,Cass ELLIOTT,19,Week 19 - No Data,0.0,0h 0m,0.0
+244,59137935,Cass ELLIOTT,20,Week 20 - No Data,0.0,0h 0m,0.0
+245,59137935,Cass ELLIOTT,21,Week 21 - No Data,0.0,0h 0m,0.0
+246,59137935,Cass ELLIOTT,22,Week 22 - No Data,0.0,0h 0m,0.0
+247,59137935,Cass ELLIOTT,23,Week 23 - No Data,0.0,0h 0m,0.0
+248,59137935,Cass ELLIOTT,24,Week 24 - No Data,0.0,0h 0m,0.0
+249,59137935,Cass ELLIOTT,25,Week 25 - No Data,0.0,0h 0m,0.0
+250,59137935,Cass ELLIOTT,26,Week 26 - No Data,0.0,0h 0m,0.0
+251,59137935,Cass ELLIOTT,27,Week 27 - No Data,0.0,0h 0m,0.0
+252,59137935,Cass ELLIOTT,28,Week 28 - No Data,0.0,0h 0m,0.0
+253,59137935,Cass ELLIOTT,29,Week 29 - No Data,0.0,0h 0m,0.0
+254,59137935,Cass ELLIOTT,30,Week 30 - No Data,0.0,0h 0m,0.0
+255,59137935,Cass ELLIOTT,31,Week 31 - No Data,0.0,0h 0m,0.0
+256,59137935,Cass ELLIOTT,32,Week 32 - No Data,0.0,0h 0m,0.0
+257,59137935,Cass ELLIOTT,33,Week 33 - No Data,0.0,0h 0m,0.0
+258,59137935,Cass ELLIOTT,34,Week 34 - No Data,0.0,0h 0m,0.0
+259,59137935,Cass ELLIOTT,35,Week 35 - No Data,0.0,0h 0m,0.0
+260,59137935,Cass ELLIOTT,36,Week 36 - No Data,0.0,0h 0m,0.0
+261,59137935,Cass ELLIOTT,37,Week 37 - No Data,0.0,0h 0m,0.0
+262,59137935,Cass ELLIOTT,38,Week 38 - No Data,0.0,0h 0m,0.0
+263,59137935,Cass ELLIOTT,39,Week 39 - No Data,0.0,0h 0m,0.0
+264,59137935,Cass ELLIOTT,40,Week 40 - No Data,0.0,0h 0m,0.0
+265,59137935,Cass ELLIOTT,41,Week 41 - No Data,0.0,0h 0m,0.0
+266,59137935,Cass ELLIOTT,42,Week 42 - No Data,0.0,0h 0m,0.0
+267,59137935,Cass ELLIOTT,43,Week 43 - No Data,0.0,0h 0m,0.0
+268,59137935,Cass ELLIOTT,44,Week 44 - No Data,0.0,0h 0m,0.0
+269,59137935,Cass ELLIOTT,45,Week 45 - No Data,0.0,0h 0m,0.0
+270,56768839,Jessica HULL,01,Week 01 - No Data,0.0,0h 0m,0.0
+271,56768839,Jessica HULL,02,Week 02 - No Data,0.0,0h 0m,0.0
+272,56768839,Jessica HULL,03,Week 03 - No Data,0.0,0h 0m,0.0
+273,56768839,Jessica HULL,04,Week 04 - No Data,0.0,0h 0m,0.0
+274,56768839,Jessica HULL,05,Week 05 - No Data,0.0,0h 0m,0.0
+275,56768839,Jessica HULL,06,Week 06 - No Data,0.0,0h 0m,0.0
+276,56768839,Jessica HULL,07,Week 07 - No Data,0.0,0h 0m,0.0
+277,56768839,Jessica HULL,08,Week 08 - No Data,0.0,0h 0m,0.0
+278,56768839,Jessica HULL,09,Week 09 - No Data,0.0,0h 0m,0.0
+279,56768839,Jessica HULL,10,Week 10 - No Data,0.0,0h 0m,0.0
+280,56768839,Jessica HULL,11,Week 11 - No Data,0.0,0h 0m,0.0
+281,56768839,Jessica HULL,12,Week 12 - No Data,0.0,0h 0m,0.0
+282,56768839,Jessica HULL,13,Week 13 - No Data,0.0,0h 0m,0.0
+283,56768839,Jessica HULL,14,Week 14 - No Data,0.0,0h 0m,0.0
+284,56768839,Jessica HULL,15,Week 15 - No Data,0.0,0h 0m,0.0
+285,56768839,Jessica HULL,16,Week 16 - No Data,0.0,0h 0m,0.0
+286,56768839,Jessica HULL,17,Week 17 - No Data,0.0,0h 0m,0.0
+287,56768839,Jessica HULL,18,Week 18 - No Data,0.0,0h 0m,0.0
+288,56768839,Jessica HULL,19,Week 19 - No Data,0.0,0h 0m,0.0
+289,56768839,Jessica HULL,20,Week 20 - No Data,0.0,0h 0m,0.0
+290,56768839,Jessica HULL,21,Week 21 - No Data,0.0,0h 0m,0.0
+291,56768839,Jessica HULL,22,Week 22 - No Data,0.0,0h 0m,0.0
+292,56768839,Jessica HULL,23,Week 23 - No Data,0.0,0h 0m,0.0
+293,56768839,Jessica HULL,24,Week 24 - No Data,0.0,0h 0m,0.0
+294,56768839,Jessica HULL,25,Week 25 - No Data,0.0,0h 0m,0.0
+295,56768839,Jessica HULL,26,Week 26 - No Data,0.0,0h 0m,0.0
+296,56768839,Jessica HULL,27,Week 27 - No Data,0.0,0h 0m,0.0
+297,56768839,Jessica HULL,28,Week 28 - No Data,0.0,0h 0m,0.0
+298,56768839,Jessica HULL,29,Week 29 - No Data,0.0,0h 0m,0.0
+299,56768839,Jessica HULL,30,Week 30 - No Data,0.0,0h 0m,0.0
+300,56768839,Jessica HULL,31,Week 31 - No Data,0.0,0h 0m,0.0
+301,56768839,Jessica HULL,32,Week 32 - No Data,0.0,0h 0m,0.0
+302,56768839,Jessica HULL,33,Week 33 - No Data,0.0,0h 0m,0.0
+303,56768839,Jessica HULL,34,Week 34 - No Data,0.0,0h 0m,0.0
+304,56768839,Jessica HULL,35,Week 35 - No Data,0.0,0h 0m,0.0
+305,56768839,Jessica HULL,36,Week 36 - No Data,0.0,0h 0m,0.0
+306,56768839,Jessica HULL,37,Week 37 - No Data,0.0,0h 0m,0.0
+307,56768839,Jessica HULL,38,Week 38 - No Data,0.0,0h 0m,0.0
+308,56768839,Jessica HULL,39,Week 39 - No Data,0.0,0h 0m,0.0
+309,56768839,Jessica HULL,40,Week 40 - No Data,0.0,0h 0m,0.0
+310,56768839,Jessica HULL,41,Week 41 - No Data,0.0,0h 0m,0.0
+311,56768839,Jessica HULL,42,Week 42 - No Data,0.0,0h 0m,0.0
+312,56768839,Jessica HULL,43,Week 43 - No Data,0.0,0h 0m,0.0
+313,56768839,Jessica HULL,44,Week 44 - No Data,0.0,0h 0m,0.0
+314,56768839,Jessica HULL,45,Week 45 - No Data,0.0,0h 0m,0.0
+315,113125064,Simon KIPKOSGEI,01,Week 01 - No Data,0.0,0h 0m,0.0
+316,113125064,Simon KIPKOSGEI,02,Week 02 - No Data,0.0,0h 0m,0.0
+317,113125064,Simon KIPKOSGEI,03,Week 03 - No Data,0.0,0h 0m,0.0
+318,113125064,Simon KIPKOSGEI,04,Week 04 - No Data,0.0,0h 0m,0.0
+319,113125064,Simon KIPKOSGEI,05,Week 05 - No Data,0.0,0h 0m,0.0
+320,113125064,Simon KIPKOSGEI,06,Week 06 - No Data,0.0,0h 0m,0.0
+321,113125064,Simon KIPKOSGEI,07,Week 07 - No Data,0.0,0h 0m,0.0
+322,113125064,Simon KIPKOSGEI,08,Week 08 - No Data,0.0,0h 0m,0.0
+323,113125064,Simon KIPKOSGEI,09,Week 09 - No Data,0.0,0h 0m,0.0
+324,113125064,Simon KIPKOSGEI,10,Week 10 - No Data,0.0,0h 0m,0.0
+325,113125064,Simon KIPKOSGEI,11,Week 11 - No Data,0.0,0h 0m,0.0
+326,113125064,Simon KIPKOSGEI,12,Week 12 - No Data,0.0,0h 0m,0.0
+327,113125064,Simon KIPKOSGEI,13,Week 13 - No Data,0.0,0h 0m,0.0
+328,113125064,Simon KIPKOSGEI,14,Week 14 - No Data,0.0,0h 0m,0.0
+329,113125064,Simon KIPKOSGEI,15,Week 15 - No Data,0.0,0h 0m,0.0
+330,113125064,Simon KIPKOSGEI,16,Week 16 - No Data,0.0,0h 0m,0.0
+331,113125064,Simon KIPKOSGEI,17,Week 17 - No Data,0.0,0h 0m,0.0
+332,113125064,Simon KIPKOSGEI,18,Week 18 - No Data,0.0,0h 0m,0.0
+333,113125064,Simon KIPKOSGEI,19,Week 19 - No Data,0.0,0h 0m,0.0
+334,113125064,Simon KIPKOSGEI,20,Week 20 - No Data,0.0,0h 0m,0.0
+335,113125064,Simon KIPKOSGEI,21,Week 21 - No Data,0.0,0h 0m,0.0
+336,113125064,Simon KIPKOSGEI,22,Week 22 - No Data,0.0,0h 0m,0.0
+337,113125064,Simon KIPKOSGEI,23,Week 23 - No Data,0.0,0h 0m,0.0
+338,113125064,Simon KIPKOSGEI,24,Week 24 - No Data,0.0,0h 0m,0.0
+339,113125064,Simon KIPKOSGEI,25,Week 25 - No Data,0.0,0h 0m,0.0
+340,113125064,Simon KIPKOSGEI,26,Week 26 - No Data,0.0,0h 0m,0.0
+341,113125064,Simon KIPKOSGEI,27,Week 27 - No Data,0.0,0h 0m,0.0
+342,113125064,Simon KIPKOSGEI,28,Week 28 - No Data,0.0,0h 0m,0.0
+343,113125064,Simon KIPKOSGEI,29,Week 29 - No Data,0.0,0h 0m,0.0
+344,113125064,Simon KIPKOSGEI,30,Week 30 - No Data,0.0,0h 0m,0.0
+345,113125064,Simon KIPKOSGEI,31,Week 31 - No Data,0.0,0h 0m,0.0
+346,113125064,Simon KIPKOSGEI,32,Week 32 - No Data,0.0,0h 0m,0.0
+347,113125064,Simon KIPKOSGEI,33,Week 33 - No Data,0.0,0h 0m,0.0
+348,113125064,Simon KIPKOSGEI,34,Week 34 - No Data,0.0,0h 0m,0.0
+349,113125064,Simon KIPKOSGEI,35,Week 35 - No Data,0.0,0h 0m,0.0
+350,113125064,Simon KIPKOSGEI,36,Week 36 - No Data,0.0,0h 0m,0.0
+351,113125064,Simon KIPKOSGEI,37,Week 37 - No Data,0.0,0h 0m,0.0
+352,113125064,Simon KIPKOSGEI,38,Week 38 - No Data,0.0,0h 0m,0.0
+353,113125064,Simon KIPKOSGEI,39,Week 39 - No Data,0.0,0h 0m,0.0
+354,113125064,Simon KIPKOSGEI,40,Week 40 - No Data,0.0,0h 0m,0.0
+355,113125064,Simon KIPKOSGEI,41,Week 41 - No Data,0.0,0h 0m,0.0
+356,113125064,Simon KIPKOSGEI,42,Week 42 - No Data,0.0,0h 0m,0.0
+357,113125064,Simon KIPKOSGEI,43,Week 43 - No Data,0.0,0h 0m,0.0
+358,113125064,Simon KIPKOSGEI,44,Week 44 - No Data,0.0,0h 0m,0.0
+359,113125064,Simon KIPKOSGEI,45,Week 45 - No Data,0.0,0h 0m,0.0
+360,69886154,Maël GOUYETTE,01,Week 01 - No Data,0.0,0h 0m,0.0
+361,69886154,Maël GOUYETTE,02,Week 02 - No Data,0.0,0h 0m,0.0
+362,69886154,Maël GOUYETTE,03,Week 03 - No Data,0.0,0h 0m,0.0
+363,69886154,Maël GOUYETTE,04,Week 04 - No Data,0.0,0h 0m,0.0
+364,69886154,Maël GOUYETTE,05,Week 05 - No Data,0.0,0h 0m,0.0
+365,69886154,Maël GOUYETTE,06,Week 06 - No Data,0.0,0h 0m,0.0
+366,69886154,Maël GOUYETTE,07,Week 07 - No Data,0.0,0h 0m,0.0
+367,69886154,Maël GOUYETTE,08,Week 08 - No Data,0.0,0h 0m,0.0
+368,69886154,Maël GOUYETTE,09,Week 09 - No Data,0.0,0h 0m,0.0
+369,69886154,Maël GOUYETTE,10,Week 10 - No Data,0.0,0h 0m,0.0
+370,69886154,Maël GOUYETTE,11,Week 11 - No Data,0.0,0h 0m,0.0
+371,69886154,Maël GOUYETTE,12,Week 12 - No Data,0.0,0h 0m,0.0
+372,69886154,Maël GOUYETTE,13,Week 13 - No Data,0.0,0h 0m,0.0
+373,69886154,Maël GOUYETTE,14,Week 14 - No Data,0.0,0h 0m,0.0
+374,69886154,Maël GOUYETTE,15,Week 15 - No Data,0.0,0h 0m,0.0
+375,69886154,Maël GOUYETTE,16,Week 16 - No Data,0.0,0h 0m,0.0
+376,69886154,Maël GOUYETTE,17,Week 17 - No Data,0.0,0h 0m,0.0
+377,69886154,Maël GOUYETTE,18,Activities for 29 Apr 2024 - 5 May 2024,64.6,4h 19m,338.0
+378,69886154,Maël GOUYETTE,19,Activities for 6 May 2024 - 12 May 2024,64.8,4h 22m,377.0
+379,69886154,Maël GOUYETTE,20,Week 20 - No Data,0.0,0h 0m,0.0
+380,69886154,Maël GOUYETTE,21,Week 21 - No Data,0.0,0h 0m,0.0
+381,69886154,Maël GOUYETTE,22,Week 22 - No Data,0.0,0h 0m,0.0
+382,69886154,Maël GOUYETTE,23,Week 23 - No Data,0.0,0h 0m,0.0
+383,69886154,Maël GOUYETTE,24,Week 24 - No Data,0.0,0h 0m,0.0
+384,69886154,Maël GOUYETTE,25,Week 25 - No Data,0.0,0h 0m,0.0
+385,69886154,Maël GOUYETTE,26,Week 26 - No Data,0.0,0h 0m,0.0
+386,69886154,Maël GOUYETTE,27,Week 27 - No Data,0.0,0h 0m,0.0
+387,69886154,Maël GOUYETTE,28,Week 28 - No Data,0.0,0h 0m,0.0
+388,69886154,Maël GOUYETTE,29,Week 29 - No Data,0.0,0h 0m,0.0
+389,69886154,Maël GOUYETTE,30,Week 30 - No Data,0.0,0h 0m,0.0
+390,69886154,Maël GOUYETTE,31,Week 31 - No Data,0.0,0h 0m,0.0
+391,69886154,Maël GOUYETTE,32,Week 32 - No Data,0.0,0h 0m,0.0
+392,69886154,Maël GOUYETTE,33,Week 33 - No Data,0.0,0h 0m,0.0
+393,69886154,Maël GOUYETTE,34,Week 34 - No Data,0.0,0h 0m,0.0
+394,69886154,Maël GOUYETTE,35,Week 35 - No Data,0.0,0h 0m,0.0
+395,69886154,Maël GOUYETTE,36,Week 36 - No Data,0.0,0h 0m,0.0
+396,69886154,Maël GOUYETTE,37,Week 37 - No Data,0.0,0h 0m,0.0
+397,69886154,Maël GOUYETTE,38,Week 38 - No Data,0.0,0h 0m,0.0
+398,69886154,Maël GOUYETTE,39,Week 39 - No Data,0.0,0h 0m,0.0
+399,69886154,Maël GOUYETTE,40,Week 40 - No Data,0.0,0h 0m,0.0
+400,69886154,Maël GOUYETTE,41,Week 41 - No Data,0.0,0h 0m,0.0
+401,69886154,Maël GOUYETTE,42,Week 42 - No Data,0.0,0h 0m,0.0
+402,69886154,Maël GOUYETTE,43,Week 43 - No Data,0.0,0h 0m,0.0
+403,69886154,Maël GOUYETTE,44,Week 44 - No Data,0.0,0h 0m,0.0
+404,69886154,Maël GOUYETTE,45,Week 45 - No Data,0.0,0h 0m,0.0
+405,99038751,Salim KEDDAR,01,Activities for 1 Jan 2024 - 7 Jan 2024,40.9,2h 46m,85.0
+406,99038751,Salim KEDDAR,02,Activities for 8 Jan 2024 - 14 Jan 2024,30.4,2h 7m,235.0
+407,99038751,Salim KEDDAR,03,Activities for 15 Jan 2024 - 21 Jan 2024,25.0,1h 33m,100.0
+408,99038751,Salim KEDDAR,04,Activities for 22 Jan 2024 - 28 Jan 2024,28.1,1h 53m,81.0
+409,99038751,Salim KEDDAR,05,Activities for 29 Jan 2024 - 4 Feb 2024,21.6,1h 25m,87.0
+410,99038751,Salim KEDDAR,06,Activities for 5 Feb 2024 - 11 Feb 2024,31.1,1h 48m,123.0
+411,99038751,Salim KEDDAR,07,Activities for 12 Feb 2024 - 18 Feb 2024,39.4,2h 35m,132.0
+412,99038751,Salim KEDDAR,08,Activities for 19 Feb 2024 - 25 Feb 2024,20.1,1h 16m,0.0
+413,99038751,Salim KEDDAR,09,Activities for 26 Feb 2024 - 3 Mar 2024,30.6,1h 57m,22.0
+414,99038751,Salim KEDDAR,10,Activities for 4 Mar 2024 - 10 Mar 2024,12.0,0h 42m,26.0
+415,99038751,Salim KEDDAR,11,Week 11 - No Data,0.0,0h 0m,0.0
+416,99038751,Salim KEDDAR,12,Week 12 - No Data,0.0,0h 0m,0.0
+417,99038751,Salim KEDDAR,13,Week 13 - No Data,0.0,0h 0m,0.0
+418,99038751,Salim KEDDAR,14,Week 14 - No Data,0.0,0h 0m,0.0
+419,99038751,Salim KEDDAR,15,Week 15 - No Data,0.0,0h 0m,0.0
+420,99038751,Salim KEDDAR,16,Week 16 - No Data,0.0,0h 0m,0.0
+421,99038751,Salim KEDDAR,17,Week 17 - No Data,0.0,0h 0m,0.0
+422,99038751,Salim KEDDAR,18,Week 18 - No Data,0.0,0h 0m,0.0
+423,99038751,Salim KEDDAR,19,Week 19 - No Data,0.0,0h 0m,0.0
+424,99038751,Salim KEDDAR,20,Week 20 - No Data,0.0,0h 0m,0.0
+425,99038751,Salim KEDDAR,21,Week 21 - No Data,0.0,0h 0m,0.0
+426,99038751,Salim KEDDAR,22,Week 22 - No Data,0.0,0h 0m,0.0
+427,99038751,Salim KEDDAR,23,Week 23 - No Data,0.0,0h 0m,0.0
+428,99038751,Salim KEDDAR,24,Week 24 - No Data,0.0,0h 0m,0.0
+429,99038751,Salim KEDDAR,25,Week 25 - No Data,0.0,0h 0m,0.0
+430,99038751,Salim KEDDAR,26,Week 26 - No Data,0.0,0h 0m,0.0
+431,99038751,Salim KEDDAR,27,Week 27 - No Data,0.0,0h 0m,0.0
+432,99038751,Salim KEDDAR,28,Week 28 - No Data,0.0,0h 0m,0.0
+433,99038751,Salim KEDDAR,29,Week 29 - No Data,0.0,0h 0m,0.0
+434,99038751,Salim KEDDAR,30,Week 30 - No Data,0.0,0h 0m,0.0
+435,99038751,Salim KEDDAR,31,Week 31 - No Data,0.0,0h 0m,0.0
+436,99038751,Salim KEDDAR,32,Week 32 - No Data,0.0,0h 0m,0.0
+437,99038751,Salim KEDDAR,33,Week 33 - No Data,0.0,0h 0m,0.0
+438,99038751,Salim KEDDAR,34,Week 34 - No Data,0.0,0h 0m,0.0
+439,99038751,Salim KEDDAR,35,Week 35 - No Data,0.0,0h 0m,0.0
+440,99038751,Salim KEDDAR,36,Week 36 - No Data,0.0,0h 0m,0.0
+441,99038751,Salim KEDDAR,37,Week 37 - No Data,0.0,0h 0m,0.0
+442,99038751,Salim KEDDAR,38,Week 38 - No Data,0.0,0h 0m,0.0
+443,99038751,Salim KEDDAR,39,Week 39 - No Data,0.0,0h 0m,0.0
+444,99038751,Salim KEDDAR,40,Week 40 - No Data,0.0,0h 0m,0.0
+445,99038751,Salim KEDDAR,41,Week 41 - No Data,0.0,0h 0m,0.0
+446,99038751,Salim KEDDAR,42,Week 42 - No Data,0.0,0h 0m,0.0
+447,99038751,Salim KEDDAR,43,Week 43 - No Data,0.0,0h 0m,0.0
+448,99038751,Salim KEDDAR,44,Week 44 - No Data,0.0,0h 0m,0.0
+449,99038751,Salim KEDDAR,45,Week 45 - No Data,0.0,0h 0m,0.0
+450,41072820,Clayton MURPHY,01,Activities for 1 Jan 2024 - 7 Jan 2024,57.5,5h 3m,463.0
+451,41072820,Clayton MURPHY,02,Activities for 8 Jan 2024 - 14 Jan 2024,23.6,2h 11m,256.0
+452,41072820,Clayton MURPHY,03,Activities for 15 Jan 2024 - 21 Jan 2024,28.2,2h 51m,177.0
+453,41072820,Clayton MURPHY,04,Activities for 22 Jan 2024 - 28 Jan 2024,47.3,3h 33m,442.0
+454,41072820,Clayton MURPHY,05,Activities for 29 Jan 2024 - 4 Feb 2024,57.6,4h 34m,526.0
+455,41072820,Clayton MURPHY,06,Activities for 5 Feb 2024 - 11 Feb 2024,65.3,5h 4m,643.0
+456,41072820,Clayton MURPHY,07,Activities for 12 Feb 2024 - 18 Feb 2024,60.9,5h 14m,523.0
+457,41072820,Clayton MURPHY,08,Activities for 19 Feb 2024 - 25 Feb 2024,39.3,3h 18m,205.0
+458,41072820,Clayton MURPHY,09,Activities for 26 Feb 2024 - 3 Mar 2024,30.5,2h 10m,38.0
+459,41072820,Clayton MURPHY,10,Activities for 4 Mar 2024 - 10 Mar 2024,40.6,2h 55m,110.0
+460,41072820,Clayton MURPHY,11,Activities for 11 Mar 2024 - 17 Mar 2024,59.6,4h 35m,535.0
+461,41072820,Clayton MURPHY,12,Activities for 18 Mar 2024 - 24 Mar 2024,53.3,3h 44m,221.0
+462,41072820,Clayton MURPHY,13,Activities for 25 Mar 2024 - 31 Mar 2024,81.5,5h 47m,636.0
+463,41072820,Clayton MURPHY,14,Activities for 1 Apr 2024 - 7 Apr 2024,34.9,2h 54m,72.0
+464,41072820,Clayton MURPHY,15,Activities for 8 Apr 2024 - 14 Apr 2024,50.4,4h 22m,82.0
+465,41072820,Clayton MURPHY,16,Activities for 15 Apr 2024 - 21 Apr 2024,31.5,2h 43m,711.0
+466,41072820,Clayton MURPHY,17,Activities for 22 Apr 2024 - 28 Apr 2024,19.0,2h 2m,222.0
+467,41072820,Clayton MURPHY,18,Activities for 29 Apr 2024 - 5 May 2024,58.2,4h 5m,190.0
+468,41072820,Clayton MURPHY,19,Activities for 6 May 2024 - 12 May 2024,35.3,2h 38m,54.0
+469,41072820,Clayton MURPHY,20,Activities for 13 May 2024 - 19 May 2024,27.4,2h 2m,49.0
+470,41072820,Clayton MURPHY,21,Activities for 20 May 2024 - 26 May 2024,67.1,4h 49m,141.0
+471,41072820,Clayton MURPHY,22,Activities for 27 May 2024 - 2 Jun 2024,60.5,5h 11m,135.0
+472,41072820,Clayton MURPHY,23,Activities for 3 Jun 2024 - 9 Jun 2024,59.2,4h 42m,211.0
+473,41072820,Clayton MURPHY,24,Activities for 10 Jun 2024 - 16 Jun 2024,58.6,4h 29m,281.0
+474,41072820,Clayton MURPHY,25,Activities for 17 Jun 2024 - 23 Jun 2024,60.9,4h 16m,182.0
+475,41072820,Clayton MURPHY,26,Activities for 24 Jun 2024 - 30 Jun 2024,47.7,3h 8m,387.0
+476,41072820,Clayton MURPHY,27,Activities for 1 Jul 2024 - 7 Jul 2024,38.8,3h 9m,312.0
+477,41072820,Clayton MURPHY,28,Activities for 8 Jul 2024 - 14 Jul 2024,27.4,2h 2m,64.0
+478,41072820,Clayton MURPHY,29,Activities for 15 Jul 2024 - 21 Jul 2024,9.6,0h 48m,18.0
+479,41072820,Clayton MURPHY,30,Week 30 - No Data,0.0,0h 0m,0.0
+480,41072820,Clayton MURPHY,31,Activities for 29 Jul 2024 - 4 Aug 2024,9.9,0h 40m,50.0
+481,41072820,Clayton MURPHY,32,Activities for 5 Aug 2024 - 11 Aug 2024,54.8,4h 18m,342.0
+482,41072820,Clayton MURPHY,33,Activities for 12 Aug 2024 - 18 Aug 2024,27.1,2h 13m,329.0
+483,41072820,Clayton MURPHY,34,Week 34 - No Data,0.0,0h 0m,0.0
+484,41072820,Clayton MURPHY,35,Week 35 - No Data,0.0,0h 0m,0.0
+485,41072820,Clayton MURPHY,36,Week 36 - No Data,0.0,0h 0m,0.0
+486,41072820,Clayton MURPHY,37,Week 37 - No Data,0.0,0h 0m,0.0
+487,41072820,Clayton MURPHY,38,Week 38 - No Data,0.0,0h 0m,0.0
+488,41072820,Clayton MURPHY,39,Week 39 - No Data,0.0,0h 0m,0.0
+489,41072820,Clayton MURPHY,40,Week 40 - No Data,0.0,0h 0m,0.0
+490,41072820,Clayton MURPHY,41,Activities for 7 Oct 2024 - 13 Oct 2024,33.0,2h 50m,590.0
+491,41072820,Clayton MURPHY,42,Activities for 14 Oct 2024 - 20 Oct 2024,42.5,3h 24m,690.0
+492,41072820,Clayton MURPHY,43,Activities for 21 Oct 2024 - 27 Oct 2024,21.5,1h 28m,475.0
+493,41072820,Clayton MURPHY,44,Week 44 - No Data,0.0,0h 0m,0.0
+494,41072820,Clayton MURPHY,45,Activities for 4 Nov 2024 - 10 Nov 2024,11.5,1h 6m,296.0
+495,132478746,Savannah SHAW,01,Week 01 - No Data,0.0,0h 0m,0.0
+496,132478746,Savannah SHAW,02,Week 02 - No Data,0.0,0h 0m,0.0
+497,132478746,Savannah SHAW,03,Week 03 - No Data,0.0,0h 0m,0.0
+498,132478746,Savannah SHAW,04,Week 04 - No Data,0.0,0h 0m,0.0
+499,132478746,Savannah SHAW,05,Week 05 - No Data,0.0,0h 0m,0.0
+500,132478746,Savannah SHAW,06,Week 06 - No Data,0.0,0h 0m,0.0
+501,132478746,Savannah SHAW,07,Week 07 - No Data,0.0,0h 0m,0.0
+502,132478746,Savannah SHAW,08,Week 08 - No Data,0.0,0h 0m,0.0
+503,132478746,Savannah SHAW,09,Activities for 26 Feb 2024 - 3 Mar 2024,47.8,4h 0m,322.0
+504,132478746,Savannah SHAW,10,Activities for 4 Mar 2024 - 10 Mar 2024,112.5,8h 23m,599.0
+505,132478746,Savannah SHAW,11,Activities for 11 Mar 2024 - 17 Mar 2024,112.6,8h 11m,602.0
+506,132478746,Savannah SHAW,12,Activities for 18 Mar 2024 - 24 Mar 2024,121.0,8h 54m,717.0
+507,132478746,Savannah SHAW,13,Activities for 25 Mar 2024 - 31 Mar 2024,97.7,7h 18m,494.0
+508,132478746,Savannah SHAW,14,Activities for 1 Apr 2024 - 7 Apr 2024,103.1,7h 42m,472.0
+509,132478746,Savannah SHAW,15,Activities for 8 Apr 2024 - 14 Apr 2024,96.9,7h 23m,619.0
+510,132478746,Savannah SHAW,16,Activities for 15 Apr 2024 - 21 Apr 2024,103.6,8h 25m,619.0
+511,132478746,Savannah SHAW,17,Activities for 22 Apr 2024 - 28 Apr 2024,83.1,6h 14m,408.0
+512,132478746,Savannah SHAW,18,Activities for 29 Apr 2024 - 5 May 2024,106.0,8h 1m,591.0
+513,132478746,Savannah SHAW,19,Activities for 6 May 2024 - 12 May 2024,94.0,7h 10m,601.0
+514,132478746,Savannah SHAW,20,Activities for 13 May 2024 - 19 May 2024,59.8,4h 28m,232.0
+515,132478746,Savannah SHAW,21,Activities for 20 May 2024 - 26 May 2024,111.2,8h 15m,428.0
+516,132478746,Savannah SHAW,22,Activities for 27 May 2024 - 2 Jun 2024,86.9,6h 39m,288.0
+517,132478746,Savannah SHAW,23,Activities for 3 Jun 2024 - 9 Jun 2024,90.5,6h 54m,498.0
+518,132478746,Savannah SHAW,24,Activities for 10 Jun 2024 - 16 Jun 2024,78.6,6h 21m,227.0
+519,132478746,Savannah SHAW,25,Activities for 17 Jun 2024 - 23 Jun 2024,65.9,5h 5m,195.0
+520,132478746,Savannah SHAW,26,Activities for 24 Jun 2024 - 30 Jun 2024,119.5,8h 50m,369.0
+521,132478746,Savannah SHAW,27,Activities for 1 Jul 2024 - 7 Jul 2024,80.9,5h 52m,186.0
+522,132478746,Savannah SHAW,28,Activities for 8 Jul 2024 - 14 Jul 2024,104.0,8h 16m,531.0
+523,132478746,Savannah SHAW,29,Activities for 15 Jul 2024 - 21 Jul 2024,89.6,6h 41m,292.0
+524,132478746,Savannah SHAW,30,Activities for 22 Jul 2024 - 28 Jul 2024,84.1,6h 28m,256.0
+525,132478746,Savannah SHAW,31,Activities for 29 Jul 2024 - 4 Aug 2024,60.2,4h 38m,325.0
+526,132478746,Savannah SHAW,32,Activities for 5 Aug 2024 - 11 Aug 2024,14.9,1h 58m,262.0
+527,132478746,Savannah SHAW,33,Activities for 12 Aug 2024 - 18 Aug 2024,28.2,2h 32m,144.0
+528,132478746,Savannah SHAW,34,Activities for 19 Aug 2024 - 25 Aug 2024,50.0,3h 45m,251.0
+529,132478746,Savannah SHAW,35,Activities for 26 Aug 2024 - 1 Sep 2024,71.1,5h 19m,480.0
+530,132478746,Savannah SHAW,36,Activities for 2 Sep 2024 - 8 Sep 2024,87.9,7h 30m,699.0
+531,132478746,Savannah SHAW,37,Activities for 9 Sep 2024 - 15 Sep 2024,93.4,6h 52m,542.0
+532,132478746,Savannah SHAW,38,Activities for 16 Sep 2024 - 22 Sep 2024,99.8,7h 23m,566.0
+533,132478746,Savannah SHAW,39,Activities for 23 Sep 2024 - 29 Sep 2024,97.2,7h 7m,480.0
+534,132478746,Savannah SHAW,40,Activities for 30 Sep 2024 - 6 Oct 2024,102.3,7h 39m,472.0
+535,132478746,Savannah SHAW,41,Activities for 7 Oct 2024 - 13 Oct 2024,106.3,7h 46m,429.0
+536,132478746,Savannah SHAW,42,Activities for 14 Oct 2024 - 20 Oct 2024,85.5,6h 19m,292.0
+537,132478746,Savannah SHAW,43,Week 43 - No Data,0.0,0h 0m,0.0
+538,132478746,Savannah SHAW,44,Week 44 - No Data,0.0,0h 0m,0.0
+539,132478746,Savannah SHAW,45,Activities for 4 Nov 2024 - 10 Nov 2024,72.5,5h 15m,247.0
+540,128956777,Kelvin KIPYEGO,01,Activities for 1 Jan 2024 - 7 Jan 2024,63.8,4h 58m,152.0
+541,128956777,Kelvin KIPYEGO,02,Activities for 8 Jan 2024 - 14 Jan 2024,16.6,1h 6m,37.0
+542,128956777,Kelvin KIPYEGO,03,Week 03 - No Data,0.0,0h 0m,0.0
+543,128956777,Kelvin KIPYEGO,04,Week 04 - No Data,0.0,0h 0m,0.0
+544,128956777,Kelvin KIPYEGO,05,Week 05 - No Data,0.0,0h 0m,0.0
+545,128956777,Kelvin KIPYEGO,06,Week 06 - No Data,0.0,0h 0m,0.0
+546,128956777,Kelvin KIPYEGO,07,Week 07 - No Data,0.0,0h 0m,0.0
+547,128956777,Kelvin KIPYEGO,08,Week 08 - No Data,0.0,0h 0m,0.0
+548,128956777,Kelvin KIPYEGO,09,Week 09 - No Data,0.0,0h 0m,0.0
+549,128956777,Kelvin KIPYEGO,10,Activities for 4 Mar 2024 - 10 Mar 2024,15.6,1h 11m,81.0
+550,128956777,Kelvin KIPYEGO,11,Activities for 11 Mar 2024 - 17 Mar 2024,12.1,0h 48m,42.0
+551,128956777,Kelvin KIPYEGO,12,Activities for 18 Mar 2024 - 24 Mar 2024,36.5,2h 11m,155.0
+552,128956777,Kelvin KIPYEGO,13,Activities for 25 Mar 2024 - 31 Mar 2024,27.6,2h 5m,138.0
+553,128956777,Kelvin KIPYEGO,14,Activities for 1 Apr 2024 - 7 Apr 2024,9.5,0h 43m,12.0
+554,128956777,Kelvin KIPYEGO,15,Activities for 8 Apr 2024 - 14 Apr 2024,75.9,5h 23m,223.0
+555,128956777,Kelvin KIPYEGO,16,Activities for 15 Apr 2024 - 21 Apr 2024,19.3,1h 22m,94.0
+556,128956777,Kelvin KIPYEGO,17,Activities for 22 Apr 2024 - 28 Apr 2024,16.9,1h 7m,21.0
+557,128956777,Kelvin KIPYEGO,18,Activities for 29 Apr 2024 - 5 May 2024,25.3,1h 42m,130.0
+558,128956777,Kelvin KIPYEGO,19,Week 19 - No Data,0.0,0h 0m,0.0
+559,128956777,Kelvin KIPYEGO,20,Week 20 - No Data,0.0,0h 0m,0.0
+560,128956777,Kelvin KIPYEGO,21,Week 21 - No Data,0.0,0h 0m,0.0
+561,128956777,Kelvin KIPYEGO,22,Activities for 27 May 2024 - 2 Jun 2024,14.9,1h 11m,156.0
+562,128956777,Kelvin KIPYEGO,23,Activities for 3 Jun 2024 - 9 Jun 2024,27.4,2h 51m,281.0
+563,128956777,Kelvin KIPYEGO,24,Activities for 10 Jun 2024 - 16 Jun 2024,24.1,1h 39m,240.0
+564,128956777,Kelvin KIPYEGO,25,Activities for 17 Jun 2024 - 23 Jun 2024,85.3,6h 25m,899.0
+565,128956777,Kelvin KIPYEGO,26,Activities for 24 Jun 2024 - 30 Jun 2024,60.9,4h 36m,789.0
+566,128956777,Kelvin KIPYEGO,27,Activities for 1 Jul 2024 - 7 Jul 2024,27.8,2h 9m,344.0
+567,128956777,Kelvin KIPYEGO,28,Activities for 8 Jul 2024 - 14 Jul 2024,55.0,4h 8m,649.0
+568,128956777,Kelvin KIPYEGO,29,Activities for 15 Jul 2024 - 21 Jul 2024,77.1,5h 58m,909.0
+569,128956777,Kelvin KIPYEGO,30,Activities for 22 Jul 2024 - 28 Jul 2024,73.3,5h 31m,751.0
+570,128956777,Kelvin KIPYEGO,31,Activities for 29 Jul 2024 - 4 Aug 2024,69.9,4h 38m,315.0
+571,128956777,Kelvin KIPYEGO,32,Activities for 5 Aug 2024 - 11 Aug 2024,95.6,6h 44m,445.0
+572,128956777,Kelvin KIPYEGO,33,Activities for 12 Aug 2024 - 18 Aug 2024,39.7,2h 59m,187.0
+573,128956777,Kelvin KIPYEGO,34,Activities for 19 Aug 2024 - 25 Aug 2024,90.6,6h 31m,196.0
+574,128956777,Kelvin KIPYEGO,35,Activities for 26 Aug 2024 - 1 Sep 2024,78.9,6h 4m,515.0
+575,128956777,Kelvin KIPYEGO,36,Activities for 2 Sep 2024 - 8 Sep 2024,68.5,4h 51m,401.0
+576,128956777,Kelvin KIPYEGO,37,Activities for 9 Sep 2024 - 15 Sep 2024,119.8,9h 0m,789.0
+577,128956777,Kelvin KIPYEGO,38,Activities for 16 Sep 2024 - 22 Sep 2024,12.5,1h 1m,97.0
+578,128956777,Kelvin KIPYEGO,39,Week 39 - No Data,0.0,0h 0m,0.0
+579,128956777,Kelvin KIPYEGO,40,Week 40 - No Data,0.0,0h 0m,0.0
+580,128956777,Kelvin KIPYEGO,41,Week 41 - No Data,0.0,0h 0m,0.0
+581,128956777,Kelvin KIPYEGO,42,Week 42 - No Data,0.0,0h 0m,0.0
+582,128956777,Kelvin KIPYEGO,43,Week 43 - No Data,0.0,0h 0m,0.0
+583,128956777,Kelvin KIPYEGO,44,Week 44 - No Data,0.0,0h 0m,0.0
+584,128956777,Kelvin KIPYEGO,45,Week 45 - No Data,0.0,0h 0m,0.0
+585,35955330,Carlos SAEZ,01,Activities for 1 Jan 2024 - 7 Jan 2024,46.6,3h 28m,55.0
+586,35955330,Carlos SAEZ,02,Activities for 8 Jan 2024 - 14 Jan 2024,8.7,1h 10m,4.0
+587,35955330,Carlos SAEZ,03,Activities for 15 Jan 2024 - 21 Jan 2024,6.2,0h 53m,20.0
+588,35955330,Carlos SAEZ,04,Activities for 22 Jan 2024 - 28 Jan 2024,5.9,0h 48m,13.0
+589,35955330,Carlos SAEZ,05,Activities for 29 Jan 2024 - 4 Feb 2024,9.7,1h 21m,18.0
+590,35955330,Carlos SAEZ,06,Week 06 - No Data,0.0,0h 0m,0.0
+591,35955330,Carlos SAEZ,07,Activities for 12 Feb 2024 - 18 Feb 2024,8.0,12h 2m,22.0
+592,35955330,Carlos SAEZ,08,Activities for 19 Feb 2024 - 25 Feb 2024,20.1,3h 42m,87.0
+593,35955330,Carlos SAEZ,09,Activities for 26 Feb 2024 - 3 Mar 2024,20.2,3h 52m,136.0
+594,35955330,Carlos SAEZ,10,Activities for 4 Mar 2024 - 10 Mar 2024,6.4,0h 54m,22.0
+595,35955330,Carlos SAEZ,11,Activities for 11 Mar 2024 - 17 Mar 2024,4.8,0h 40m,4.0
+596,35955330,Carlos SAEZ,12,Activities for 18 Mar 2024 - 24 Mar 2024,6.4,0h 59m,31.0
+597,35955330,Carlos SAEZ,13,Activities for 25 Mar 2024 - 31 Mar 2024,7.3,1h 57m,18.0
+598,35955330,Carlos SAEZ,14,Activities for 1 Apr 2024 - 7 Apr 2024,27.8,6h 11m,230.0
+599,35955330,Carlos SAEZ,15,Activities for 8 Apr 2024 - 14 Apr 2024,12.6,2h 16m,69.0
+600,35955330,Carlos SAEZ,16,Activities for 15 Apr 2024 - 21 Apr 2024,8.0,1h 49m,286.0
+601,35955330,Carlos SAEZ,17,Activities for 22 Apr 2024 - 28 Apr 2024,9.2,1h 27m,190.0
+602,35955330,Carlos SAEZ,18,Activities for 29 Apr 2024 - 5 May 2024,6.9,1h 22m,20.0
+603,35955330,Carlos SAEZ,19,Week 19 - No Data,0.0,0h 0m,0.0
+604,35955330,Carlos SAEZ,20,Week 20 - No Data,0.0,0h 0m,0.0
+605,35955330,Carlos SAEZ,21,Week 21 - No Data,0.0,0h 0m,0.0
+606,35955330,Carlos SAEZ,22,Week 22 - No Data,0.0,0h 0m,0.0
+607,35955330,Carlos SAEZ,23,Activities for 3 Jun 2024 - 9 Jun 2024,9.1,1h 46m,29.0
+608,35955330,Carlos SAEZ,24,Activities for 10 Jun 2024 - 16 Jun 2024,4.5,0h 40m,24.0
+609,35955330,Carlos SAEZ,25,Activities for 17 Jun 2024 - 23 Jun 2024,4.3,0h 34m,0.0
+610,35955330,Carlos SAEZ,26,Activities for 24 Jun 2024 - 30 Jun 2024,14.9,2h 18m,33.0
+611,35955330,Carlos SAEZ,27,Activities for 1 Jul 2024 - 7 Jul 2024,13.3,1h 52m,54.0
+612,35955330,Carlos SAEZ,28,Activities for 8 Jul 2024 - 14 Jul 2024,0.7,1h 44m,0.0
+613,35955330,Carlos SAEZ,29,Activities for 15 Jul 2024 - 21 Jul 2024,5.3,0h 51m,49.0
+614,35955330,Carlos SAEZ,30,Week 30 - No Data,0.0,0h 0m,0.0
+615,35955330,Carlos SAEZ,31,Activities for 29 Jul 2024 - 4 Aug 2024,31.3,1h 57m,108.0
+616,35955330,Carlos SAEZ,32,Activities for 5 Aug 2024 - 11 Aug 2024,4.6,2h 57m,0.0
+617,35955330,Carlos SAEZ,33,Activities for 12 Aug 2024 - 18 Aug 2024,9.2,3h 45m,0.0
+618,35955330,Carlos SAEZ,34,Activities for 19 Aug 2024 - 25 Aug 2024,15.7,4h 36m,0.0
+619,35955330,Carlos SAEZ,35,Activities for 26 Aug 2024 - 1 Sep 2024,16.3,2h 50m,13.0
+620,35955330,Carlos SAEZ,36,Activities for 2 Sep 2024 - 8 Sep 2024,4.4,2h 9m,0.0
+621,35955330,Carlos SAEZ,37,Activities for 9 Sep 2024 - 15 Sep 2024,12.5,1h 49m,134.0
+622,35955330,Carlos SAEZ,38,Activities for 16 Sep 2024 - 22 Sep 2024,19.6,2h 33m,29.0
+623,35955330,Carlos SAEZ,39,Activities for 23 Sep 2024 - 29 Sep 2024,16.1,1h 40m,29.0
+624,35955330,Carlos SAEZ,40,Activities for 30 Sep 2024 - 6 Oct 2024,7.0,1h 36m,0.0
+625,35955330,Carlos SAEZ,41,Activities for 7 Oct 2024 - 13 Oct 2024,3.3,1h 2m,0.0
+626,35955330,Carlos SAEZ,42,Activities for 14 Oct 2024 - 20 Oct 2024,7.4,2h 5m,3.0
+627,35955330,Carlos SAEZ,43,Activities for 21 Oct 2024 - 27 Oct 2024,8.6,2h 3m,4.0
+628,35955330,Carlos SAEZ,44,Week 44 - No Data,0.0,0h 0m,0.0
+629,35955330,Carlos SAEZ,45,Week 45 - No Data,0.0,0h 0m,0.0
+630,8140136,Samuel AUSTIN,01,Week 01 - No Data,0.0,0h 0m,0.0
+631,8140136,Samuel AUSTIN,02,Week 02 - No Data,0.0,0h 0m,0.0
+632,8140136,Samuel AUSTIN,03,Week 03 - No Data,0.0,0h 0m,0.0
+633,8140136,Samuel AUSTIN,04,Week 04 - No Data,0.0,0h 0m,0.0
+634,8140136,Samuel AUSTIN,05,Week 05 - No Data,0.0,0h 0m,0.0
+635,8140136,Samuel AUSTIN,06,Week 06 - No Data,0.0,0h 0m,0.0
+636,8140136,Samuel AUSTIN,07,Week 07 - No Data,0.0,0h 0m,0.0
+637,8140136,Samuel AUSTIN,08,Week 08 - No Data,0.0,0h 0m,0.0
+638,8140136,Samuel AUSTIN,09,Week 09 - No Data,0.0,0h 0m,0.0
+639,8140136,Samuel AUSTIN,10,Week 10 - No Data,0.0,0h 0m,0.0
+640,8140136,Samuel AUSTIN,11,Week 11 - No Data,0.0,0h 0m,0.0
+641,8140136,Samuel AUSTIN,12,Week 12 - No Data,0.0,0h 0m,0.0
+642,8140136,Samuel AUSTIN,13,Week 13 - No Data,0.0,0h 0m,0.0
+643,8140136,Samuel AUSTIN,14,Week 14 - No Data,0.0,0h 0m,0.0
+644,8140136,Samuel AUSTIN,15,Week 15 - No Data,0.0,0h 0m,0.0
+645,8140136,Samuel AUSTIN,16,Week 16 - No Data,0.0,0h 0m,0.0
+646,8140136,Samuel AUSTIN,17,Week 17 - No Data,0.0,0h 0m,0.0
+647,8140136,Samuel AUSTIN,18,Week 18 - No Data,0.0,0h 0m,0.0
+648,8140136,Samuel AUSTIN,19,Activities for 6 May 2024 - 12 May 2024,4.2,1h 26m,115.0
+649,8140136,Samuel AUSTIN,20,Week 20 - No Data,0.0,0h 0m,0.0
+650,8140136,Samuel AUSTIN,21,Week 21 - No Data,0.0,0h 0m,0.0
+651,8140136,Samuel AUSTIN,22,Week 22 - No Data,0.0,0h 0m,0.0
+652,8140136,Samuel AUSTIN,23,Week 23 - No Data,0.0,0h 0m,0.0
+653,8140136,Samuel AUSTIN,24,Week 24 - No Data,0.0,0h 0m,0.0
+654,8140136,Samuel AUSTIN,25,Week 25 - No Data,0.0,0h 0m,0.0
+655,8140136,Samuel AUSTIN,26,Week 26 - No Data,0.0,0h 0m,0.0
+656,8140136,Samuel AUSTIN,27,Week 27 - No Data,0.0,0h 0m,0.0
+657,8140136,Samuel AUSTIN,28,Week 28 - No Data,0.0,0h 0m,0.0
+658,8140136,Samuel AUSTIN,29,Week 29 - No Data,0.0,0h 0m,0.0
+659,8140136,Samuel AUSTIN,30,Week 30 - No Data,0.0,0h 0m,0.0
+660,8140136,Samuel AUSTIN,31,Week 31 - No Data,0.0,0h 0m,0.0
+661,8140136,Samuel AUSTIN,32,Week 32 - No Data,0.0,0h 0m,0.0
+662,8140136,Samuel AUSTIN,33,Week 33 - No Data,0.0,0h 0m,0.0
+663,8140136,Samuel AUSTIN,34,Week 34 - No Data,0.0,0h 0m,0.0
+664,8140136,Samuel AUSTIN,35,Week 35 - No Data,0.0,0h 0m,0.0
+665,8140136,Samuel AUSTIN,36,Week 36 - No Data,0.0,0h 0m,0.0
+666,8140136,Samuel AUSTIN,37,Week 37 - No Data,0.0,0h 0m,0.0
+667,8140136,Samuel AUSTIN,38,Week 38 - No Data,0.0,0h 0m,0.0
+668,8140136,Samuel AUSTIN,39,Week 39 - No Data,0.0,0h 0m,0.0
+669,8140136,Samuel AUSTIN,40,Week 40 - No Data,0.0,0h 0m,0.0
+670,8140136,Samuel AUSTIN,41,Week 41 - No Data,0.0,0h 0m,0.0
+671,8140136,Samuel AUSTIN,42,Week 42 - No Data,0.0,0h 0m,0.0
+672,8140136,Samuel AUSTIN,43,Week 43 - No Data,0.0,0h 0m,0.0
+673,8140136,Samuel AUSTIN,44,Week 44 - No Data,0.0,0h 0m,0.0
+674,8140136,Samuel AUSTIN,45,Week 45 - No Data,0.0,0h 0m,0.0
+675,47140760,Ko OCHIAI,01,Activities for 1 Jan 2024 - 7 Jan 2024,5.0,0h 30m,25.0
+676,47140760,Ko OCHIAI,02,Activities for 8 Jan 2024 - 14 Jan 2024,4.4,0h 25m,12.0
+677,47140760,Ko OCHIAI,03,Activities for 15 Jan 2024 - 21 Jan 2024,12.4,1h 42m,77.0
+678,47140760,Ko OCHIAI,04,Activities for 22 Jan 2024 - 28 Jan 2024,17.3,1h 44m,82.0
+679,47140760,Ko OCHIAI,05,Activities for 29 Jan 2024 - 4 Feb 2024,8.1,0h 50m,35.0
+680,47140760,Ko OCHIAI,06,Activities for 5 Feb 2024 - 11 Feb 2024,4.4,0h 31m,124.0
+681,47140760,Ko OCHIAI,07,Activities for 12 Feb 2024 - 18 Feb 2024,19.4,2h 20m,120.0
+682,47140760,Ko OCHIAI,08,Activities for 19 Feb 2024 - 25 Feb 2024,10.3,1h 24m,295.0
+683,47140760,Ko OCHIAI,09,Activities for 26 Feb 2024 - 3 Mar 2024,10.2,1h 10m,47.0
+684,47140760,Ko OCHIAI,10,Activities for 4 Mar 2024 - 10 Mar 2024,12.5,1h 34m,212.0
+685,47140760,Ko OCHIAI,11,Activities for 11 Mar 2024 - 17 Mar 2024,13.0,1h 31m,30.0
+686,47140760,Ko OCHIAI,12,Activities for 18 Mar 2024 - 24 Mar 2024,7.0,0h 47m,54.0
+687,47140760,Ko OCHIAI,13,Activities for 25 Mar 2024 - 31 Mar 2024,7.1,0h 48m,65.0
+688,47140760,Ko OCHIAI,14,Activities for 1 Apr 2024 - 7 Apr 2024,12.8,1h 38m,181.0
+689,47140760,Ko OCHIAI,15,Activities for 8 Apr 2024 - 14 Apr 2024,19.4,2h 14m,256.0
+690,47140760,Ko OCHIAI,16,Activities for 15 Apr 2024 - 21 Apr 2024,15.0,1h 34m,137.0
+691,47140760,Ko OCHIAI,17,Activities for 22 Apr 2024 - 28 Apr 2024,23.0,2h 30m,176.0
+692,47140760,Ko OCHIAI,18,Activities for 29 Apr 2024 - 5 May 2024,11.3,1h 14m,60.0
+693,47140760,Ko OCHIAI,19,Activities for 6 May 2024 - 12 May 2024,14.1,1h 30m,84.0
+694,47140760,Ko OCHIAI,20,Activities for 13 May 2024 - 19 May 2024,5.0,0h 30m,37.0
+695,47140760,Ko OCHIAI,21,Activities for 20 May 2024 - 26 May 2024,7.2,0h 54m,204.0
+696,47140760,Ko OCHIAI,22,Activities for 27 May 2024 - 2 Jun 2024,5.3,0h 33m,25.0
+697,47140760,Ko OCHIAI,23,Activities for 3 Jun 2024 - 9 Jun 2024,11.9,1h 12m,50.0
+698,47140760,Ko OCHIAI,24,Activities for 10 Jun 2024 - 16 Jun 2024,17.6,1h 54m,207.0
+699,47140760,Ko OCHIAI,25,Activities for 17 Jun 2024 - 23 Jun 2024,20.4,2h 58m,521.0
+700,47140760,Ko OCHIAI,26,Activities for 24 Jun 2024 - 30 Jun 2024,18.2,2h 5m,231.0
+701,47140760,Ko OCHIAI,27,Activities for 1 Jul 2024 - 7 Jul 2024,23.9,2h 41m,310.0
+702,47140760,Ko OCHIAI,28,Activities for 8 Jul 2024 - 14 Jul 2024,24.0,2h 53m,106.0
+703,47140760,Ko OCHIAI,29,Activities for 15 Jul 2024 - 21 Jul 2024,36.0,3h 58m,382.0
+704,47140760,Ko OCHIAI,30,Activities for 22 Jul 2024 - 28 Jul 2024,30.4,3h 3m,183.0
+705,47140760,Ko OCHIAI,31,Activities for 29 Jul 2024 - 4 Aug 2024,14.1,3h 12m,512.0
+706,47140760,Ko OCHIAI,32,Activities for 5 Aug 2024 - 11 Aug 2024,26.6,2h 55m,234.0
+707,47140760,Ko OCHIAI,33,Activities for 12 Aug 2024 - 18 Aug 2024,20.2,2h 12m,264.0
+708,47140760,Ko OCHIAI,34,Activities for 19 Aug 2024 - 25 Aug 2024,16.7,1h 52m,133.0
+709,47140760,Ko OCHIAI,35,Activities for 26 Aug 2024 - 1 Sep 2024,26.0,2h 55m,301.0
+710,47140760,Ko OCHIAI,36,Activities for 2 Sep 2024 - 8 Sep 2024,8.4,0h 52m,86.0
+711,47140760,Ko OCHIAI,37,Activities for 9 Sep 2024 - 15 Sep 2024,5.5,0h 54m,132.0
+712,47140760,Ko OCHIAI,38,Activities for 16 Sep 2024 - 22 Sep 2024,13.9,1h 31m,189.0
+713,47140760,Ko OCHIAI,39,Activities for 23 Sep 2024 - 29 Sep 2024,36.6,4h 2m,331.0
+714,47140760,Ko OCHIAI,40,Activities for 30 Sep 2024 - 6 Oct 2024,14.0,2h 13m,356.0
+715,47140760,Ko OCHIAI,41,Activities for 7 Oct 2024 - 13 Oct 2024,21.1,2h 45m,94.0
+716,47140760,Ko OCHIAI,42,Activities for 14 Oct 2024 - 20 Oct 2024,41.1,5h 37m,295.0
+717,47140760,Ko OCHIAI,43,Activities for 21 Oct 2024 - 27 Oct 2024,20.3,1h 8m,90.0
+718,47140760,Ko OCHIAI,44,Activities for 28 Oct 2024 - 3 Nov 2024,49.2,6h 14m,503.0
+719,47140760,Ko OCHIAI,45,Activities for 4 Nov 2024 - 10 Nov 2024,33.2,3h 27m,234.0
+720,79265388,Giulia APRILE,01,Week 01 - No Data,0.0,0h 0m,0.0
+721,79265388,Giulia APRILE,02,Week 02 - No Data,0.0,0h 0m,0.0
+722,79265388,Giulia APRILE,03,Week 03 - No Data,0.0,0h 0m,0.0
+723,79265388,Giulia APRILE,04,Week 04 - No Data,0.0,0h 0m,0.0
+724,79265388,Giulia APRILE,05,Week 05 - No Data,0.0,0h 0m,0.0
+725,79265388,Giulia APRILE,06,Week 06 - No Data,0.0,0h 0m,0.0
+726,79265388,Giulia APRILE,07,Week 07 - No Data,0.0,0h 0m,0.0
+727,79265388,Giulia APRILE,08,Week 08 - No Data,0.0,0h 0m,0.0
+728,79265388,Giulia APRILE,09,Week 09 - No Data,0.0,0h 0m,0.0
+729,79265388,Giulia APRILE,10,Week 10 - No Data,0.0,0h 0m,0.0
+730,79265388,Giulia APRILE,11,Week 11 - No Data,0.0,0h 0m,0.0
+731,79265388,Giulia APRILE,12,Week 12 - No Data,0.0,0h 0m,0.0
+732,79265388,Giulia APRILE,13,Week 13 - No Data,0.0,0h 0m,0.0
+733,79265388,Giulia APRILE,14,Week 14 - No Data,0.0,0h 0m,0.0
+734,79265388,Giulia APRILE,15,Week 15 - No Data,0.0,0h 0m,0.0
+735,79265388,Giulia APRILE,16,Week 16 - No Data,0.0,0h 0m,0.0
+736,79265388,Giulia APRILE,17,Week 17 - No Data,0.0,0h 0m,0.0
+737,79265388,Giulia APRILE,18,Week 18 - No Data,0.0,0h 0m,0.0
+738,79265388,Giulia APRILE,19,Week 19 - No Data,0.0,0h 0m,0.0
+739,79265388,Giulia APRILE,20,Week 20 - No Data,0.0,0h 0m,0.0
+740,79265388,Giulia APRILE,21,Week 21 - No Data,0.0,0h 0m,0.0
+741,79265388,Giulia APRILE,22,Week 22 - No Data,0.0,0h 0m,0.0
+742,79265388,Giulia APRILE,23,Week 23 - No Data,0.0,0h 0m,0.0
+743,79265388,Giulia APRILE,24,Week 24 - No Data,0.0,0h 0m,0.0
+744,79265388,Giulia APRILE,25,Week 25 - No Data,0.0,0h 0m,0.0
+745,79265388,Giulia APRILE,26,Week 26 - No Data,0.0,0h 0m,0.0
+746,79265388,Giulia APRILE,27,Week 27 - No Data,0.0,0h 0m,0.0
+747,79265388,Giulia APRILE,28,Week 28 - No Data,0.0,0h 0m,0.0
+748,79265388,Giulia APRILE,29,Week 29 - No Data,0.0,0h 0m,0.0
+749,79265388,Giulia APRILE,30,Week 30 - No Data,0.0,0h 0m,0.0
+750,79265388,Giulia APRILE,31,Week 31 - No Data,0.0,0h 0m,0.0
+751,79265388,Giulia APRILE,32,Week 32 - No Data,0.0,0h 0m,0.0
+752,79265388,Giulia APRILE,33,Week 33 - No Data,0.0,0h 0m,0.0
+753,79265388,Giulia APRILE,34,Week 34 - No Data,0.0,0h 0m,0.0
+754,79265388,Giulia APRILE,35,Week 35 - No Data,0.0,0h 0m,0.0
+755,79265388,Giulia APRILE,36,Week 36 - No Data,0.0,0h 0m,0.0
+756,79265388,Giulia APRILE,37,Week 37 - No Data,0.0,0h 0m,0.0
+757,79265388,Giulia APRILE,38,Week 38 - No Data,0.0,0h 0m,0.0
+758,79265388,Giulia APRILE,39,Week 39 - No Data,0.0,0h 0m,0.0
+759,79265388,Giulia APRILE,40,Week 40 - No Data,0.0,0h 0m,0.0
+760,79265388,Giulia APRILE,41,Week 41 - No Data,0.0,0h 0m,0.0
+761,79265388,Giulia APRILE,42,Week 42 - No Data,0.0,0h 0m,0.0
+762,79265388,Giulia APRILE,43,Week 43 - No Data,0.0,0h 0m,0.0
+763,79265388,Giulia APRILE,44,Week 44 - No Data,0.0,0h 0m,0.0
+764,79265388,Giulia APRILE,45,Week 45 - No Data,0.0,0h 0m,0.0
+765,46063338,Sultan HAYDAR,01,Activities for 1 Jan 2024 - 7 Jan 2024,48.5,2h 17m,849.0
+766,46063338,Sultan HAYDAR,02,Activities for 8 Jan 2024 - 14 Jan 2024,6.0,0h 35m,48.0
+767,46063338,Sultan HAYDAR,03,Activities for 15 Jan 2024 - 21 Jan 2024,2.0,0h 8m,2.0
+768,46063338,Sultan HAYDAR,04,Activities for 22 Jan 2024 - 28 Jan 2024,67.1,2h 57m,1135.0
+769,46063338,Sultan HAYDAR,05,Week 05 - No Data,0.0,0h 0m,0.0
+770,46063338,Sultan HAYDAR,06,Activities for 5 Feb 2024 - 11 Feb 2024,31.3,1h 17m,550.0
+771,46063338,Sultan HAYDAR,07,Activities for 12 Feb 2024 - 18 Feb 2024,136.0,4h 36m,607.0
+772,46063338,Sultan HAYDAR,08,Week 08 - No Data,0.0,0h 0m,0.0
+773,46063338,Sultan HAYDAR,09,Week 09 - No Data,0.0,0h 0m,0.0
+774,46063338,Sultan HAYDAR,10,Week 10 - No Data,0.0,0h 0m,0.0
+775,46063338,Sultan HAYDAR,11,Week 11 - No Data,0.0,0h 0m,0.0
+776,46063338,Sultan HAYDAR,12,Week 12 - No Data,0.0,0h 0m,0.0
+777,46063338,Sultan HAYDAR,13,Activities for 25 Mar 2024 - 31 Mar 2024,4.0,0h 19m,33.0
+778,46063338,Sultan HAYDAR,14,Week 14 - No Data,0.0,0h 0m,0.0
+779,46063338,Sultan HAYDAR,15,Activities for 8 Apr 2024 - 14 Apr 2024,5.0,0h 23m,0.0
+780,46063338,Sultan HAYDAR,16,Activities for 15 Apr 2024 - 21 Apr 2024,5.0,0h 27m,5.0
+781,46063338,Sultan HAYDAR,17,Activities for 22 Apr 2024 - 28 Apr 2024,8.0,0h 41m,15.0
+782,46063338,Sultan HAYDAR,18,Week 18 - No Data,0.0,0h 0m,0.0
+783,46063338,Sultan HAYDAR,19,Week 19 - No Data,0.0,0h 0m,0.0
+784,46063338,Sultan HAYDAR,20,Activities for 13 May 2024 - 19 May 2024,5.0,0h 22m,1.0
+785,46063338,Sultan HAYDAR,21,Activities for 20 May 2024 - 26 May 2024,8.0,0h 37m,2.0
+786,46063338,Sultan HAYDAR,22,Activities for 27 May 2024 - 2 Jun 2024,8.0,0h 41m,58.0
+787,46063338,Sultan HAYDAR,23,Activities for 3 Jun 2024 - 9 Jun 2024,29.2,1h 49m,99.0
+788,46063338,Sultan HAYDAR,24,Activities for 10 Jun 2024 - 16 Jun 2024,15.4,1h 30m,92.0
+789,46063338,Sultan HAYDAR,25,Activities for 17 Jun 2024 - 23 Jun 2024,47.6,2h 16m,575.0
+790,46063338,Sultan HAYDAR,26,Week 26 - No Data,0.0,0h 0m,0.0
+791,46063338,Sultan HAYDAR,27,Week 27 - No Data,0.0,0h 0m,0.0
+792,46063338,Sultan HAYDAR,28,Week 28 - No Data,0.0,0h 0m,0.0
+793,46063338,Sultan HAYDAR,29,Week 29 - No Data,0.0,0h 0m,0.0
+794,46063338,Sultan HAYDAR,30,Week 30 - No Data,0.0,0h 0m,0.0
+795,46063338,Sultan HAYDAR,31,Week 31 - No Data,0.0,0h 0m,0.0
+796,46063338,Sultan HAYDAR,32,Week 32 - No Data,0.0,0h 0m,0.0
+797,46063338,Sultan HAYDAR,33,Activities for 12 Aug 2024 - 18 Aug 2024,37.6,1h 33m,583.0
+798,46063338,Sultan HAYDAR,34,Week 34 - No Data,0.0,0h 0m,0.0
+799,46063338,Sultan HAYDAR,35,Week 35 - No Data,0.0,0h 0m,0.0
+800,46063338,Sultan HAYDAR,36,Week 36 - No Data,0.0,0h 0m,0.0
+801,46063338,Sultan HAYDAR,37,Week 37 - No Data,0.0,0h 0m,0.0
+802,46063338,Sultan HAYDAR,38,Week 38 - No Data,0.0,0h 0m,0.0
+803,46063338,Sultan HAYDAR,39,Week 39 - No Data,0.0,0h 0m,0.0
+804,46063338,Sultan HAYDAR,40,Week 40 - No Data,0.0,0h 0m,0.0
+805,46063338,Sultan HAYDAR,41,Week 41 - No Data,0.0,0h 0m,0.0
+806,46063338,Sultan HAYDAR,42,Activities for 14 Oct 2024 - 20 Oct 2024,5.0,0h 21m,1.0
+807,46063338,Sultan HAYDAR,43,Week 43 - No Data,0.0,0h 0m,0.0
+808,46063338,Sultan HAYDAR,44,Activities for 28 Oct 2024 - 3 Nov 2024,21.1,1h 49m,125.0
+809,46063338,Sultan HAYDAR,45,Week 45 - No Data,0.0,0h 0m,0.0
+810,53922774,Jennifer RANDALL,01,Activities for 1 Jan 2024 - 7 Jan 2024,4.1,0h 58m,0.0
+811,53922774,Jennifer RANDALL,02,Activities for 8 Jan 2024 - 14 Jan 2024,20.1,3h 25m,46.0
+812,53922774,Jennifer RANDALL,03,Activities for 15 Jan 2024 - 21 Jan 2024,17.0,3h 13m,0.0
+813,53922774,Jennifer RANDALL,04,Activities for 22 Jan 2024 - 28 Jan 2024,27.5,5h 7m,0.0
+814,53922774,Jennifer RANDALL,05,Activities for 29 Jan 2024 - 4 Feb 2024,25.5,4h 24m,0.0
+815,53922774,Jennifer RANDALL,06,Activities for 5 Feb 2024 - 11 Feb 2024,21.0,3h 46m,0.0
+816,53922774,Jennifer RANDALL,07,Activities for 12 Feb 2024 - 18 Feb 2024,20.6,4h 12m,0.0
+817,53922774,Jennifer RANDALL,08,Activities for 19 Feb 2024 - 25 Feb 2024,19.3,8h 28m,0.0
+818,53922774,Jennifer RANDALL,09,Activities for 26 Feb 2024 - 3 Mar 2024,19.2,9h 38m,0.0
+819,53922774,Jennifer RANDALL,10,Activities for 4 Mar 2024 - 10 Mar 2024,18.4,10h 26m,29.0
+820,53922774,Jennifer RANDALL,11,Activities for 11 Mar 2024 - 17 Mar 2024,14.1,7h 13m,150.0
+821,53922774,Jennifer RANDALL,12,Activities for 18 Mar 2024 - 24 Mar 2024,11.6,8h 52m,48.0
+822,53922774,Jennifer RANDALL,13,Activities for 25 Mar 2024 - 31 Mar 2024,15.0,9h 34m,95.0
+823,53922774,Jennifer RANDALL,14,Activities for 1 Apr 2024 - 7 Apr 2024,29.7,11h 17m,173.0
+824,53922774,Jennifer RANDALL,15,Week 15 - No Data,0.0,0h 0m,0.0
+825,53922774,Jennifer RANDALL,16,Activities for 15 Apr 2024 - 21 Apr 2024,16.3,9h 36m,0.0
+826,53922774,Jennifer RANDALL,17,Activities for 22 Apr 2024 - 28 Apr 2024,10.7,4h 31m,171.0
+827,53922774,Jennifer RANDALL,18,Activities for 29 Apr 2024 - 5 May 2024,9.0,10h 33m,0.0
+828,53922774,Jennifer RANDALL,19,Week 19 - No Data,0.0,0h 0m,0.0
+829,53922774,Jennifer RANDALL,20,Activities for 13 May 2024 - 19 May 2024,15.7,7h 53m,0.0
+830,53922774,Jennifer RANDALL,21,Activities for 20 May 2024 - 26 May 2024,12.2,8h 10m,0.0
+831,53922774,Jennifer RANDALL,22,Activities for 27 May 2024 - 2 Jun 2024,16.2,8h 58m,22.0
+832,53922774,Jennifer RANDALL,23,Activities for 3 Jun 2024 - 9 Jun 2024,14.7,7h 54m,145.0
+833,53922774,Jennifer RANDALL,24,Activities for 10 Jun 2024 - 16 Jun 2024,14.7,8h 13m,22.0
+834,53922774,Jennifer RANDALL,25,Activities for 17 Jun 2024 - 23 Jun 2024,1.2,6h 25m,7.0
+835,53922774,Jennifer RANDALL,26,Activities for 24 Jun 2024 - 30 Jun 2024,14.8,8h 49m,6.0
+836,53922774,Jennifer RANDALL,27,Activities for 1 Jul 2024 - 7 Jul 2024,19.8,9h 22m,80.0
+837,53922774,Jennifer RANDALL,28,Activities for 8 Jul 2024 - 14 Jul 2024,47.6,9h 48m,0.0
+838,53922774,Jennifer RANDALL,29,Activities for 15 Jul 2024 - 21 Jul 2024,18.7,7h 20m,0.0
+839,53922774,Jennifer RANDALL,30,Activities for 22 Jul 2024 - 28 Jul 2024,54.7,12h 44m,28.0
+840,53922774,Jennifer RANDALL,31,Activities for 29 Jul 2024 - 4 Aug 2024,67.0,11h 53m,272.0
+841,53922774,Jennifer RANDALL,32,Activities for 5 Aug 2024 - 11 Aug 2024,70.6,8h 12m,0.0
+842,53922774,Jennifer RANDALL,33,Activities for 12 Aug 2024 - 18 Aug 2024,45.1,5h 44m,6.0
+843,53922774,Jennifer RANDALL,34,Activities for 19 Aug 2024 - 25 Aug 2024,43.8,4h 52m,177.0
+844,53922774,Jennifer RANDALL,35,Activities for 26 Aug 2024 - 1 Sep 2024,35.4,3h 48m,209.0
+845,53922774,Jennifer RANDALL,36,Activities for 2 Sep 2024 - 8 Sep 2024,24.9,3h 17m,140.0
+846,53922774,Jennifer RANDALL,37,Activities for 9 Sep 2024 - 15 Sep 2024,46.2,4h 49m,233.0
+847,53922774,Jennifer RANDALL,38,Activities for 16 Sep 2024 - 22 Sep 2024,16.6,1h 29m,119.0
+848,53922774,Jennifer RANDALL,39,Activities for 23 Sep 2024 - 29 Sep 2024,42.7,3h 43m,162.0
+849,53922774,Jennifer RANDALL,40,Activities for 30 Sep 2024 - 6 Oct 2024,25.6,2h 16m,165.0
+850,53922774,Jennifer RANDALL,41,Activities for 7 Oct 2024 - 13 Oct 2024,39.2,4h 9m,113.0
+851,53922774,Jennifer RANDALL,42,Activities for 14 Oct 2024 - 20 Oct 2024,27.4,10h 7m,133.0
+852,53922774,Jennifer RANDALL,43,Activities for 21 Oct 2024 - 27 Oct 2024,28.9,7h 12m,124.0
+853,53922774,Jennifer RANDALL,44,Activities for 28 Oct 2024 - 3 Nov 2024,16.4,7h 51m,53.0
+854,53922774,Jennifer RANDALL,45,Activities for 4 Nov 2024 - 10 Nov 2024,45.6,10h 48m,99.0
+855,115772848,Richard ETIR,01,Week 01 - No Data,0.0,0h 0m,0.0
+856,115772848,Richard ETIR,02,Week 02 - No Data,0.0,0h 0m,0.0
+857,115772848,Richard ETIR,03,Week 03 - No Data,0.0,0h 0m,0.0
+858,115772848,Richard ETIR,04,Week 04 - No Data,0.0,0h 0m,0.0
+859,115772848,Richard ETIR,05,Week 05 - No Data,0.0,0h 0m,0.0
+860,115772848,Richard ETIR,06,Week 06 - No Data,0.0,0h 0m,0.0
+861,115772848,Richard ETIR,07,Week 07 - No Data,0.0,0h 0m,0.0
+862,115772848,Richard ETIR,08,Week 08 - No Data,0.0,0h 0m,0.0
+863,115772848,Richard ETIR,09,Week 09 - No Data,0.0,0h 0m,0.0
+864,115772848,Richard ETIR,10,Week 10 - No Data,0.0,0h 0m,0.0
+865,115772848,Richard ETIR,11,Week 11 - No Data,0.0,0h 0m,0.0
+866,115772848,Richard ETIR,12,Week 12 - No Data,0.0,0h 0m,0.0
+867,115772848,Richard ETIR,13,Week 13 - No Data,0.0,0h 0m,0.0
+868,115772848,Richard ETIR,14,Week 14 - No Data,0.0,0h 0m,0.0
+869,115772848,Richard ETIR,15,Week 15 - No Data,0.0,0h 0m,0.0
+870,115772848,Richard ETIR,16,Week 16 - No Data,0.0,0h 0m,0.0
+871,115772848,Richard ETIR,17,Week 17 - No Data,0.0,0h 0m,0.0
+872,115772848,Richard ETIR,18,Week 18 - No Data,0.0,0h 0m,0.0
+873,115772848,Richard ETIR,19,Week 19 - No Data,0.0,0h 0m,0.0
+874,115772848,Richard ETIR,20,Week 20 - No Data,0.0,0h 0m,0.0
+875,115772848,Richard ETIR,21,Week 21 - No Data,0.0,0h 0m,0.0
+876,115772848,Richard ETIR,22,Week 22 - No Data,0.0,0h 0m,0.0
+877,115772848,Richard ETIR,23,Week 23 - No Data,0.0,0h 0m,0.0
+878,115772848,Richard ETIR,24,Week 24 - No Data,0.0,0h 0m,0.0
+879,115772848,Richard ETIR,25,Week 25 - No Data,0.0,0h 0m,0.0
+880,115772848,Richard ETIR,26,Week 26 - No Data,0.0,0h 0m,0.0
+881,115772848,Richard ETIR,27,Week 27 - No Data,0.0,0h 0m,0.0
+882,115772848,Richard ETIR,28,Week 28 - No Data,0.0,0h 0m,0.0
+883,115772848,Richard ETIR,29,Week 29 - No Data,0.0,0h 0m,0.0
+884,115772848,Richard ETIR,30,Week 30 - No Data,0.0,0h 0m,0.0
+885,115772848,Richard ETIR,31,Week 31 - No Data,0.0,0h 0m,0.0
+886,115772848,Richard ETIR,32,Week 32 - No Data,0.0,0h 0m,0.0
+887,115772848,Richard ETIR,33,Week 33 - No Data,0.0,0h 0m,0.0
+888,115772848,Richard ETIR,34,Week 34 - No Data,0.0,0h 0m,0.0
+889,115772848,Richard ETIR,35,Week 35 - No Data,0.0,0h 0m,0.0
+890,115772848,Richard ETIR,36,Week 36 - No Data,0.0,0h 0m,0.0
+891,115772848,Richard ETIR,37,Week 37 - No Data,0.0,0h 0m,0.0
+892,115772848,Richard ETIR,38,Week 38 - No Data,0.0,0h 0m,0.0
+893,115772848,Richard ETIR,39,Week 39 - No Data,0.0,0h 0m,0.0
+894,115772848,Richard ETIR,40,Week 40 - No Data,0.0,0h 0m,0.0
+895,115772848,Richard ETIR,41,Week 41 - No Data,0.0,0h 0m,0.0
+896,115772848,Richard ETIR,42,Week 42 - No Data,0.0,0h 0m,0.0
+897,115772848,Richard ETIR,43,Week 43 - No Data,0.0,0h 0m,0.0
+898,115772848,Richard ETIR,44,Week 44 - No Data,0.0,0h 0m,0.0
+899,115772848,Richard ETIR,45,Week 45 - No Data,0.0,0h 0m,0.0

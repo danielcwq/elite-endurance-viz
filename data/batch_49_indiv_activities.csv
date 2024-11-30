@@ -1,0 +1,1277 @@
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+0,81785282,Nico Boketta,10510411155,Lunch Run,,2024-01-07 10:03:18+00:00,2983,Run,"Jesenice, Czechia",10.04,4.92,49m 19s
+1,81785282,Nico Boketta,10504120053,Lunch Run,"2km - 5.48
+1km - 2.44
+1km - 2.37
+
+Lets go",2024-01-06 11:08:37+00:00,1167,Run,,4.61,2.82,13m 0s
+2,81785282,Nico Boketta,10499097214,Afternoon Run,"3x300m (40-41)
+4x200m (26.5- 26)
+4x150m (19~)
+
+First speed sessions are always nasty.",2024-01-05 14:09:56+00:00,2254,Run,,3.39,3.07,10m 24s
+3,81785282,Nico Boketta,10479735253,Afternoon Run,"First indoor session 
+2x500m     (1.14~)
+3x400m     (59~)
+4x300m     (42-43 last in 39)",2024-01-02 14:09:23+00:00,2021,Run,,4.55,3.07,13m 59s
+4,81785282,Nico Boketta,10477822791,Morning Run,,2024-01-02 08:42:26+00:00,1462,Run,"Jesenice, Czechia",5.0,,24m 22s
+5,81785282,Nico Boketta,10530331914,Lunch Run,,2024-01-10 11:17:20+00:00,2963,Run,"Jesenice, Czechia",10.0,4.88,48m 55s
+6,81785282,Nico Boketta,10518088521,Afternoon Run,,2024-01-08 13:52:59+00:00,1877,Run,"Jesenice, Czechia",8.0,3.87,30m 59s
+7,81785282,Nico Boketta,10641397553,Afternoon Run,,2024-01-27 16:03:52+00:00,3704,Run,"Jesenice, Czechia",12.0,5.13,1h 1m
+8,81785282,Nico Boketta,10627169972,Afternoon Run,"3x1200m 1min rest 
+(3.48 , 3.38 , 3.28 )",2024-01-25 15:10:45+00:00,779,Run,"Jesenice, Czechia",3.91,3.32,12m 59s
+9,81785282,Nico Boketta,10627087717,Afternoon Run,Warm up,2024-01-25 14:52:11+00:00,939,Run,"Jesenice, Czechia",4.01,3.9,15m 39s
+10,81785282,Nico Boketta,10619982929,Afternoon Run,Shake outjog,2024-01-24 12:27:38+00:00,2501,Run,"Jesenice, Czechia",10.0,4.1,40m 59s
+11,81785282,Nico Boketta,10694964556,Afternoon Run,,2024-02-04 13:40:18+00:00,1204,Run,"Prague, Czechia",4.41,4.55,20m 4s
+12,81785282,Nico Boketta,10688775973,Afternoon Run,,2024-02-03 15:57:10+00:00,597,Run,,1.81,5.48,9m 57s
+13,81785282,Nico Boketta,10654526743,Afternoon Run,,2024-01-29 16:31:59+00:00,152,Run,,0.76,3.32,2m 32s
+14,81785282,Nico Boketta,10654107406,Afternoon Run,,2024-01-29 15:28:34+00:00,1049,Run,"Ostrava, Czechia",4.0,4.35,17m 23s
+15,81785282,Nico Boketta,10735367153,Evening Run,"20x110m kopce (14.5 - 15)
+Mezichůze",2024-02-10 17:00:17+00:00,884,Run,,2.17,,14m 37s
+16,81785282,Nico Boketta,10735241575,Afternoon Run,,2024-02-10 16:47:27+00:00,588,Run,"Jesenice, Czechia",3.01,3.25,9m 48s
+17,81785282,Nico Boketta,10726671496,Lunch Run,"2×(300,300,200,150)
+40-41 - 300m
+24-24.5 - 200m
+18- 18.5 - 150m",2024-02-09 11:04:13+00:00,1905,Run,,2.84,11.08,31m 31s
+18,81785282,Nico Boketta,10715359733,Afternoon Run,8x400m 58~,2024-02-07 15:43:27+00:00,1291,Run,,3.66,5.58,20m 28s
+19,81785282,Nico Boketta,10709009549,Afternoon Run,"Threshold session 
+8x1km 3.10 rest 200m (1.10)",2024-02-06 16:58:29+00:00,1994,Run,"Jesenice, Czechia",9.39,3.52,33m 6s
+20,81785282,Nico Boketta,10708750451,Afternoon Run,,2024-02-06 16:37:02+00:00,1076,Run,"Jesenice, Czechia",4.01,4.47,17m 56s
+21,81785282,Nico Boketta,10701449110,Afternoon Run,Shake out jog,2024-02-05 14:33:14+00:00,2861,Run,"Jesenice, Czechia",12.0,3.95,47m 30s
+22,81785282,Nico Boketta,10786630821,Afternoon Run,,2024-02-18 12:14:31+00:00,1055,Run,"Ostrava, Czechia",4.05,4.22,17m 4s
+23,81785282,Nico Boketta,10747170892,Afternoon Run,3x8x100m (14-15) / 18sec rest,2024-02-12 14:37:40+00:00,1011,Run,,4.44,3.27,14m 30s
+24,81785282,Nico Boketta,10746936227,Afternoon Run,,2024-02-12 13:56:47+00:00,1031,Run,"Prague, Czechia",4.05,,17m 10s
+25,81785282,Nico Boketta,10825579369,Lunch Run,,2024-02-24 10:03:28+00:00,3366,Run,"Jesenice, Czechia",16.0,3.5,56m 6s
+26,81785282,Nico Boketta,10818922350,Morning Run,,2024-02-23 08:46:50+00:00,2250,Run,"Jesenice, Czechia",8.01,4.67,37m 25s
+27,81785282,Nico Boketta,10815828640,Evening Run,,2024-02-22 18:38:14+00:00,1747,Run,"Jesenice, Czechia",8.0,3.63,29m 7s
+28,81785282,Nico Boketta,10806213393,Morning Run,,2024-02-21 09:29:18+00:00,2595,Run,"Jesenice, Czechia",10.0,4.18,41m 50s
+29,81785282,Nico Boketta,10801039441,Afternoon Run,,2024-02-20 15:00:24+00:00,2698,Run,"Jesenice, Czechia",10.01,4.4,44m 2s
+30,81785282,Nico Boketta,10862350986,Afternoon Run,,2024-02-29 16:22:08+00:00,2851,Run,"Jesenice, Czechia",10.01,4.72,47m 17s
+31,81785282,Nico Boketta,10854969661,Afternoon Run,8x1km 2.55 - 3.02 last in 2.37 ( short rest),2024-02-28 14:06:32+00:00,2173,Run,,9.15,3.18,29m 11s
+32,81785282,Nico Boketta,10848553970,Afternoon Run,,2024-02-27 15:40:11+00:00,4877,Run,"Jesenice, Czechia",18.0,4.47,1h 20m
+33,81785282,Nico Boketta,10925091914,Afternoon Run,3x3km,2024-03-09 15:42:18+00:00,2167,Run,"Tlokwe Local Municipality, RSA",9.21,3.67,33m 51s
+34,81785282,Nico Boketta,10915235387,Lunch Run,,2024-03-08 09:02:39+00:00,1230,Run,,4.94,4.15,20m 30s
+35,81785282,Nico Boketta,10915233548,Morning Run,,2024-03-08 08:07:59+00:00,1961,Run,"Tlokwe Local Municipality, RSA",8.0,4.08,32m 41s
+36,81785282,Nico Boketta,10908329115,Morning Run,,2024-03-07 08:33:37+00:00,2656,Run,"Tlokwe Local Municipality, RSA",10.0,4.4,43m 58s
+37,81785282,Nico Boketta,10963459430,Lunch Run,12x400m 65-67,2024-03-15 09:01:13+00:00,2067,Run,"Tlokwe Local Municipality, RSA",6.62,3.7,24m 30s
+38,81785282,Nico Boketta,10956734035,Morning Run,,2024-03-14 08:45:06+00:00,5388,Run,"Tlokwe Local Municipality, RSA",17.01,,1h 28m
+39,81785282,Nico Boketta,10949079197,Morning Run,"Easy threshold, 4x2km (6.40+-)",2024-03-13 08:37:30+00:00,1980,Run,"Tlokwe Local Municipality, RSA",8.3,3.45,28m 38s
+40,81785282,Nico Boketta,10941982728,Lunch Run,"8x200m 27-27.5
+8x150m 19-20",2024-03-12 09:08:52+00:00,2564,Run,,4.82,4.0,19m 16s
+41,81785282,Nico Boketta,10936201984,Morning Run,8x1km 3.00-3.02,2024-03-11 08:40:21+00:00,2311,Run,"Tlokwe Local Municipality, RSA",8.7,3.4,29m 35s
+42,81785282,Nico Boketta,11013525406,Lunch Run,Couple 400s in 61-63,2024-03-22 09:18:27+00:00,1674,Run,"Tlokwe Local Municipality, RSA",5.25,3.03,15m 58s
+43,81785282,Nico Boketta,11006308625,Morning Run,,2024-03-21 08:13:20+00:00,4686,Run,"Tlokwe Local Municipality, RSA",16.0,4.75,1h 16m
+44,81785282,Nico Boketta,10999245651,Lunch Run,"3x 1km 2.55-2.57
+6x 500m 1.20-1.23",2024-03-20 09:02:13+00:00,2059,Run,"Tlokwe Local Municipality, RSA",6.98,3.7,25m 51s
+45,81785282,Nico Boketta,10991836275,Lunch Run,"2x8x 150m
+19~
+Last in 17.9",2024-03-19 09:31:39+00:00,2442,Run,,4.21,9.63,40m 35s
+46,81785282,Nico Boketta,11068981475,Lunch Run,,2024-03-30 11:34:17+00:00,1974,Run,"Jesenice, Czechia",10.01,3.27,32m 38s
+47,81785282,Nico Boketta,11040397381,Lunch Run,2x8x200m za 26-27,2024-03-26 09:09:04+00:00,2532,Run,,5.71,4.15,23m 46s
+48,81785282,Nico Boketta,11128137697,Afternoon Run,,2024-04-07 14:16:07+00:00,2698,Run,"Graun - Curon Venosta, Italy",10.0,4.42,44m 8s
+49,81785282,Nico Boketta,11120581696,Afternoon Run,,2024-04-06 15:51:24+00:00,1591,Run,"Graun - Curon Venosta, Italy",6.01,4.4,26m 29s
+50,81785282,Nico Boketta,11096846194,Lunch Run,,2024-04-03 09:45:33+00:00,4921,Run,"Jesenice, Czechia",16.0,5.1,1h 21m
+51,81785282,Nico Boketta,11178435210,Morning Run,,2024-04-14 08:38:50+00:00,4668,Run,"Graun - Curon Venosta, Italy",16.0,4.83,1h 17m
+52,81785282,Nico Boketta,11172820146,Afternoon Run,,2024-04-13 14:23:45+00:00,1766,Run,"Graun - Curon Venosta, Italy",6.0,4.9,29m 26s
+53,81785282,Nico Boketta,11170020407,Lunch Run,,2024-04-13 09:21:21+00:00,840,Run,,2.94,4.73,13m 57s
+54,81785282,Nico Boketta,11170018557,Morning Run,,2024-04-13 08:27:03+00:00,2965,Run,"Graun - Curon Venosta, Italy",10.0,4.92,49m 16s
+55,81785282,Nico Boketta,11164548698,Afternoon Run,,2024-04-12 13:28:38+00:00,3020,Run,"Graun - Curon Venosta, Italy",10.0,5.0,50m 4s
+56,81785282,Nico Boketta,11162729427,Morning Run,Dneska to nesedlo,2024-04-12 08:51:04+00:00,1087,Run,,3.9,3.28,12m 50s
+57,81785282,Nico Boketta,11155625208,Lunch Run,"15x100m hills
+Bohužel vybitý hodinky",2024-04-11 09:03:50+00:00,1396,Run,,3.02,,22m 58s
+58,81785282,Nico Boketta,11147922705,Morning Run,,2024-04-10 08:12:56+00:00,4245,Run,"Graun - Curon Venosta, Italy",16.01,4.42,1h 10m
+59,81785282,Nico Boketta,11142131299,Afternoon Run,,2024-04-09 14:02:37+00:00,2819,Run,"Graun - Curon Venosta, Italy",10.17,4.57,46m 29s
+60,81785282,Nico Boketta,11140218558,Morning Run,"Dneska to celkem šlo
+5x400 v botech
+4x400m v tretrach",2024-04-09 08:43:02+00:00,1775,Run,,4.96,3.35,16m 37s
+61,81785282,Nico Boketta,11139769678,Afternoon Run,,2024-04-08 14:02:44+00:00,1043,Run,"Graun - Curon Venosta, Italy",4.01,4.3,17m 15s
+62,81785282,Nico Boketta,11132924762,Hills,"4x4x200m hills last in 26,9",2024-04-08 08:32:25+00:00,2007,Run,,6.68,,32m 6s
+63,81785282,Nico Boketta,11216983949,Afternoon Run,,2024-04-19 13:48:16+00:00,1619,Run,"Graun - Curon Venosta, Italy",6.03,4.45,26m 52s
+64,81785282,Nico Boketta,11215450691,Lunch Run,"4x500m, bohuzel na posledni usek hodne fouklo jinak by bylo pod 1.10",2024-04-19 09:28:05+00:00,998,Run,,2.91,3.9,11m 21s
+65,81785282,Nico Boketta,11215364835,Morning Run,,2024-04-19 08:49:43+00:00,780,Run,"Mals - Malles Venosta, Italy",3.01,4.28,12m 55s
+66,81785282,Nico Boketta,11208268059,Morning Run,,2024-04-18 08:27:20+00:00,3119,Run,"Graun - Curon Venosta, Italy",12.0,4.3,51m 41s
+67,81785282,Nico Boketta,11202904231,Afternoon Run,,2024-04-17 14:10:48+00:00,1946,Run,"Graun - Curon Venosta, Italy",7.0,4.48,31m 26s
+68,81785282,Nico Boketta,11195195217,Afternoon Run,,2024-04-16 14:11:03+00:00,1197,Run,"Graun - Curon Venosta, Italy",6.01,3.3,19m 49s
+69,81785282,Nico Boketta,11186383432,Lunch Run,Kvaliťák,2024-04-15 09:13:21+00:00,1834,Run,,4.39,5.18,22m 45s
+70,81785282,Nico Boketta,11274210481,Lunch Run,,2024-04-27 10:20:40+00:00,659,Run,,3.29,3.32,10m 57s
+71,81785282,Nico Boketta,11261855706,Afternoon Run,,2024-04-25 14:34:20+00:00,3039,Run,"Jesenice, Czechia",10.0,5.05,50m 34s
+72,81785282,Nico Boketta,11253829035,Afternoon Run,"8x1km 3.10-3.05 on 1 minute rest max HF 156 
+Looking good👌",2024-04-24 13:19:59+00:00,1939,Run,,8.9,3.62,32m 16s
+73,81785282,Nico Boketta,11331071503,Afternoon Run,,2024-05-04 15:04:35+00:00,1173,Run,"Pliezhausen, Germany",4.06,4.58,18m 38s
+74,81785282,Nico Boketta,11292164761,Hills,,2024-04-29 16:25:00+00:00,1154,Run,,2.85,,18m 50s
+75,81785282,Nico Boketta,11292162408,Evening Run,,2024-04-29 16:12:13+00:00,448,Run,"Jesenice, Czechia",2.15,3.47,7m 28s
+76,81785282,Nico Boketta,11377373986,Afternoon Run,,2024-05-10 13:40:04+00:00,38,Run,,0.28,2.2,38s
+77,81785282,Nico Boketta,11360563177,Afternoon Run,,2024-05-08 12:13:18+00:00,1056,Run,"Domažlice, Czechia",4.01,4.37,17m 32s
+78,81785282,Nico Boketta,11439543524,Afternoon Run,,2024-05-18 13:42:17+00:00,1923,Run,,0.99,31.5,31m 23s
+79,81785282,Nico Boketta,11431968535,Afternoon Run,,2024-05-17 13:54:02+00:00,2592,Run,"Jesenice, Czechia",10.0,4.27,42m 43s
+80,81785282,Nico Boketta,11416368722,Afternoon Run,,2024-05-15 12:19:04+00:00,3666,Run,"Prague, Czechia",12.0,4.97,59m 33s
+81,81785282,Nico Boketta,11486391542,Afternoon Run,,2024-05-24 13:40:52+00:00,1129,Run,,4.04,4.58,18m 30s
+82,81785282,Nico Boketta,11471033682,Afternoon Run,,2024-05-22 13:15:11+00:00,1114,Run,"Kladno, Czechia",4.02,4.62,18m 34s
+83,81785282,Nico Boketta,11545338144,Morning Run,,2024-06-01 08:12:35+00:00,1746,Run,"Sušice, Czechia",6.0,4.67,28m 1s
+84,81785282,Nico Boketta,11519174283,Evening Run,,2024-05-28 16:36:39+00:00,1047,Run,,4.0,4.35,17m 27s
+85,81785282,Nico Boketta,11509654449,Afternoon Run,,2024-05-27 14:44:30+00:00,1178,Run,,4.01,4.75,19m 4s
+86,81785282,Nico Boketta,11564045718,Afternoon Run,,2024-06-03 15:28:06+00:00,1128,Run,,4.15,4.52,18m 48s
+87,81785282,Nico Boketta,11659168129,Afternoon Run,,2024-06-15 14:55:07+00:00,3426,Run,"Jesenice, Czechia",15.0,3.73,56m 4s
+88,81785282,Nico Boketta,11641508772,Lunch Run,Easy morning run,2024-06-13 09:12:45+00:00,1188,Run,"Jesenice, Czechia",6.0,3.28,19m 40s
+89,81785282,Nico Boketta,11712923335,Afternoon Run,,2024-06-22 14:52:13+00:00,1136,Run,"Leopoldstadt, Austria",4.0,4.7,18m 48s
+90,81785282,Nico Boketta,11736434039,Afternoon Run,,2024-06-25 14:26:23+00:00,384,Run,"Jesenice, Czechia",2.0,3.18,6m 24s
+91,81785282,Nico Boketta,11727553060,Afternoon Run,,2024-06-24 13:09:17+00:00,1273,Run,,5.3,3.9,20m 40s
+92,81785282,Nico Boketta,11879054857,Afternoon Run,,2024-07-13 15:36:24+00:00,1169,Run,"Nové Město nad Metují, Czechia",4.0,4.82,19m 19s
+93,81785282,Nico Boketta,11844676525,Lunch Run,,2024-07-09 10:28:31+00:00,679,Run,,1.72,6.5,11m 13s
+94,81785282,Nico Boketta,11837579931,Afternoon Run,,2024-07-08 13:10:47+00:00,1563,Run,,2.6,,25m 57s
+95,81785282,Nico Boketta,11929395036,Evening Run,,2024-07-19 17:11:39+00:00,432,Run,,2.12,3.38,7m 12s
+96,81785282,Nico Boketta,11929394055,Evening Run,,2024-07-19 16:39:33+00:00,1016,Run,,4.0,4.15,16m 37s
+97,81785282,Nico Boketta,11892138624,Lunch Run,,2024-07-15 09:10:04+00:00,1202,Run,,5.55,3.48,19m 22s
+98,81785282,Nico Boketta,11975959092,Lunch Run,,2024-07-24 10:27:25+00:00,4670,Run,"Jesenice, Czechia",16.0,4.68,1h 14m
+99,81785282,Nico Boketta,11953703665,Evening Run,,2024-07-22 17:19:57+00:00,2023,Run,"Jesenice, Czechia",10.0,3.35,33m 30s
+100,81785282,Nico Boketta,11953353314,Evening Run,,2024-07-22 17:04:11+00:00,766,Run,"Jesenice, Czechia",3.08,4.15,12m 46s
+101,81785282,Nico Boketta,12066736699,Lunch Run,,2024-08-05 09:14:23+00:00,878,Run,,4.19,3.48,14m 38s
+102,81785282,Nico Boketta,12639051008,Evening Run,,2024-10-12 16:41:34+00:00,1822,Run,"Jesenice, Czechia",8.0,3.78,30m 15s
+103,81785282,Nico Boketta,12755856645,Morning Run,,2024-10-27 09:31:03+00:00,4713,Run,"Boží Dar, Czechia",18.0,4.3,1h 17m
+104,81785282,Nico Boketta,12811271193,Morning Run,,2024-11-03 09:39:05+00:00,1763,Run,"Boží Dar, Czechia",8.01,3.65,29m 18s
+105,81785282,Nico Boketta,12780226739,Morning Run,,2024-10-30 09:10:51+00:00,5647,Run,"Boží Dar, Czechia",20.0,4.57,1h 31m
+106,81785282,Nico Boketta,12861682982,Afternoon Run,,2024-11-09 16:48:44+00:00,3119,Run,"Jesenice, Czechia",15.0,3.43,51m 39s
+107,81785282,Nico Boketta,12850809623,Lunch Run,,2024-11-08 10:01:52+00:00,628,Run,,0.09,,6m 0s
+108,81785282,Nico Boketta,12827130552,Lunch Run,,2024-11-05 10:18:54+00:00,61,Run,,0.29,,1m 1s
+109,15008982,Yuki Tsutsumi,10640180058,Morning Run,,2024-01-27 14:22:02+00:00,1708,Run,"Anna, USA",4.43,6.4,28m 21s
+110,15008982,Yuki Tsutsumi,10632326959,Morning Run,,2024-01-26 11:12:02+00:00,1777,Run,"Anna, USA",4.64,6.38,29m 37s
+111,15008982,Yuki Tsutsumi,10673432897,Morning Run,,2024-02-01 11:09:56+00:00,1692,Run,"Anna, USA",4.47,6.3,28m 12s
+112,15008982,Yuki Tsutsumi,10728618864,Lunch Mountain Bike Ride,,2024-02-09 17:05:30+00:00,2566,MountainBikeRide,"Denison, USA",9.9,,41m 55s
+113,15008982,Yuki Tsutsumi,10713863057,Morning Run,,2024-02-07 11:07:28+00:00,2145,Run,"Anna, USA",5.65,6.32,35m 45s
+114,15008982,Yuki Tsutsumi,10885130917,Took a beginner today,,2024-03-03 21:50:31+00:00,5917,MountainBikeRide,"McKinney, USA",17.67,,1h 8m
+115,15008982,Yuki Tsutsumi,11183745287,Afternoon E-Mountain Bike Ride,,2024-04-14 18:06:51+00:00,7801,EBikeRide,"Flower Mound, USA",34.7,,1h 59m
+116,15008982,Yuki Tsutsumi,11138411501,Evening Mountain Bike Ride,,2024-04-08 23:08:59+00:00,4176,Ride,"Plano, USA",11.62,,55m 23s
+117,15008982,Yuki Tsutsumi,11286897877,Afternoon Run,,2024-04-28 20:13:52+00:00,3015,Run,"Collin County, USA",6.64,6.7,44m 31s
+118,15008982,Yuki Tsutsumi,11701245784,Evening Mountain Bike Ride,,2024-06-20 23:06:20+00:00,3842,Ride,"Frisco, USA",14.42,,1h 1m
+119,15008982,Yuki Tsutsumi,11688033832,Morning Run,,2024-06-19 10:13:02+00:00,2047,Run,"Collin County, USA",5.12,6.55,33m 36s
+120,15008982,Yuki Tsutsumi,11685461245,Evening Mountain Bike Ride,,2024-06-18 23:08:43+00:00,4059,Ride,"Frisco, USA",14.95,,1h 2m
+121,15008982,Yuki Tsutsumi,11802766288,Evening Mountain Bike Ride,,2024-07-03 23:01:49+00:00,4556,Ride,"Plano, USA",12.42,,58m 47s
+122,15008982,Yuki Tsutsumi,11780968295,Morning Run,,2024-07-01 10:13:17+00:00,2156,Run,"Collin County, USA",5.37,6.65,35m 43s
+123,15008982,Yuki Tsutsumi,11869730972,Morning Run,,2024-07-12 11:58:40+00:00,2834,Run,"Collin County, USA",7.47,6.28,47m 2s
+124,15008982,Yuki Tsutsumi,11996849779,Afternoon Mountain Bike Ride,,2024-07-27 18:33:33+00:00,5369,MountainBikeRide,"Sherman, USA",10.11,,52m 44s
+125,15008982,Yuki Tsutsumi,11985528820,Morning Run,,2024-07-26 12:13:59+00:00,2568,Run,"Collin County, USA",6.43,6.57,42m 18s
+126,15008982,Yuki Tsutsumi,12034519652,Morning Run,,2024-08-01 10:15:41+00:00,2578,Run,"Collin County, USA",6.43,6.6,42m 31s
+127,15008982,Yuki Tsutsumi,12115548206,Evening Mountain Bike Ride,,2024-08-10 22:35:03+00:00,7645,MountainBikeRide,"McKinney, USA",31.24,,2h 6m
+128,15008982,Yuki Tsutsumi,12103011846,Morning Run,,2024-08-09 12:16:10+00:00,3234,Run,"Collin County, USA",8.25,6.48,53m 28s
+129,15008982,Yuki Tsutsumi,12093727746,Morning Run,,2024-08-08 10:12:06+00:00,1859,Run,"Collin County, USA",4.73,6.48,30m 40s
+130,15008982,Yuki Tsutsumi,12301847071,Afternoon Mountain Bike Ride,,2024-09-01 19:44:59+00:00,4138,MountainBikeRide,"McKinney, USA",18.02,,1h 8m
+131,15008982,Yuki Tsutsumi,12277523054,Evening Mountain Bike Ride,,2024-08-29 23:32:45+00:00,4354,MountainBikeRide,"McKinney, USA",17.97,,1h 12m
+132,15008982,Yuki Tsutsumi,12268830008,Evening Mountain Bike Ride,,2024-08-28 23:12:10+00:00,3281,Ride,"Plano, USA",11.52,,54m 21s
+133,15008982,Yuki Tsutsumi,12245242761,Morning Run,,2024-08-26 10:07:56+00:00,2011,Run,"Collin County, USA",5.22,6.38,33m 21s
+134,15008982,Yuki Tsutsumi,12403673996,Evening Run,,2024-09-14 00:57:06+00:00,1838,Run,"Collin County, USA",5.18,5.9,30m 35s
+135,15008982,Yuki Tsutsumi,12476853014,Quick Run after run with wife,,2024-09-22 14:54:35+00:00,508,Run,"Collin County, USA",1.64,5.17,8m 28s
+136,15008982,Yuki Tsutsumi,12476732016,Morning Run with the wife,,2024-09-22 13:56:34+00:00,3294,Run,"Collin County, USA",7.41,6.95,51m 26s
+137,15008982,Yuki Tsutsumi,12534317819,Morning Ride,,2024-09-20 13:08:47+00:00,2284,Ride,"Collin County, USA",13.11,,37m 11s
+138,15008982,Yuki Tsutsumi,12455033131,Evening Ride,,2024-09-19 23:07:59+00:00,5071,Ride,"Plano, USA",11.15,,54m 15s
+139,15008982,Yuki Tsutsumi,12423078976,Run with Emily,,2024-09-16 10:02:56+00:00,2047,Run,"Collin County, USA",5.31,6.37,33m 52s
+140,15008982,Yuki Tsutsumi,12534322612,Morning Ride,,2024-09-29 13:52:15+00:00,8550,Ride,"Flower Mound, USA",28.72,,2h 4m
+141,15008982,Yuki Tsutsumi,12512514928,Evening Ride,,2024-09-26 23:43:19+00:00,2633,Ride,"Collin County, USA",17.12,,43m 38s
+142,15008982,Yuki Tsutsumi,12649984065,Run with Emily,,2024-10-13 23:57:44+00:00,3662,Run,"Collin County, USA",9.29,6.55,1h 0m
+143,15008982,Yuki Tsutsumi,12625721537,Evening Mountain Bike Ride,,2024-10-11 00:01:31+00:00,1176,MountainBikeRide,"Plano, USA",3.68,,17m 11s
+144,15008982,Yuki Tsutsumi,12625531370,Evening Mountain Bike Ride,,2024-10-10 23:41:15+00:00,992,MountainBikeRide,"Plano, USA",3.79,,16m 11s
+145,15008982,Yuki Tsutsumi,12625445828,Evening Mountain Bike Ride,,2024-10-10 23:10:38+00:00,1198,MountainBikeRide,"Plano, USA",3.62,,18m 23s
+146,15008982,Yuki Tsutsumi,12620290361,Morning Run,,2024-10-10 10:06:16+00:00,1933,Run,"Collin County, USA",5.24,6.08,31m 53s
+147,15008982,Yuki Tsutsumi,12610170503,Ride with Emily,,2024-10-08 23:56:25+00:00,2441,Ride,"Collin County, USA",9.52,,36m 38s
+148,15008982,Yuki Tsutsumi,12703614010,Lunch Run,,2024-10-20 16:40:01+00:00,3975,Run,"Collin County, USA",10.48,6.3,1h 6m
+149,15008982,Yuki Tsutsumi,12673990028,Evening Mountain Bike Ride,,2024-10-16 23:11:09+00:00,6423,MountainBikeRide,"McKinney, USA",18.51,,1h 16m
+150,15008982,Yuki Tsutsumi,12659788735,Morning Run,,2024-10-15 10:02:10+00:00,2008,Run,"Collin County, USA",5.3,6.28,33m 22s
+151,15008982,Yuki Tsutsumi,12788841320,Morning Run,,2024-10-31 10:53:33+00:00,5132,Run,"Collin County, USA",12.89,6.35,1h 21m
+152,15008982,Yuki Tsutsumi,12772145511,Morning Run,,2024-10-29 10:44:29+00:00,1984,Run,"Collin County, USA",5.33,6.2,33m 4s
+153,15008982,Yuki Tsutsumi,12763862107,Morning Run,,2024-10-28 10:03:09+00:00,2020,Run,"Collin County, USA",5.28,6.33,33m 26s
+154,15008982,Yuki Tsutsumi,12852477746,Morning Run,,2024-11-08 13:47:38+00:00,4430,Run,"Collin County, USA",11.27,6.48,1h 13m
+155,46695698,William Battershill,11315971850,Zwift - Pacer Group Ride: Sugar Cookie in Watopia with Bernie,,2024-05-02 15:11:47+00:00,1850,VirtualRide,,13.11,,30m 50s
+156,46695698,William Battershill,11378686611,Zwift - Wide Awake in Scotland,,2024-05-10 16:18:30+00:00,2729,VirtualRide,,18.11,,45m 8s
+157,46695698,William Battershill,11346333025,Zwift - 3/3/2min VO2max in France,,2024-05-06 15:16:46+00:00,2978,VirtualRide,,21.19,,49m 38s
+158,46695698,William Battershill,11429109235,Zwift - Expand in Watopia,,2024-05-17 05:07:57+00:00,1807,VirtualRide,,12.49,,30m 7s
+159,46695698,William Battershill,11405620764,Zwift - Fitness Test: FTP and Threshold HR (42 mins) in Richmond,,2024-05-14 04:29:43+00:00,2537,VirtualRide,,16.0,,41m 59s
+160,46695698,William Battershill,11499126165,Zwift - Pacer Group Ride: Wandering Flats in Makuri Islands with Bernie,,2024-05-26 07:50:46+00:00,771,VirtualRide,,6.94,,12m 51s
+161,46695698,William Battershill,11499040527,Zwift - Aerobic Endurance Ride in France,,2024-05-26 07:08:47+00:00,2367,VirtualRide,,18.21,,39m 27s
+162,46695698,William Battershill,11479509924,Zwift - Speed Workout Bike in France,,2024-05-23 14:48:26+00:00,2746,VirtualRide,,20.17,,44m 13s
+163,46695698,William Battershill,11552740562,Zwift - Douce France in France,,2024-06-02 06:49:37+00:00,1843,VirtualRide,,13.83,,30m 43s
+164,46695698,William Battershill,11522037525,Zwift - Speed Workout Bike in France,,2024-05-29 04:47:01+00:00,2423,VirtualRide,,18.77,,40m 23s
+165,46695698,William Battershill,11609074387,Zwift - Aerobic Endurance Ride in Watopia,,2024-06-09 07:23:47+00:00,3617,VirtualRide,,24.32,,1h 0m
+166,46695698,William Battershill,11628055629,Zwift - Speed Workout Bike in France,,2024-06-11 15:48:15+00:00,2598,VirtualRide,,19.64,,43m 18s
+167,46695698,William Battershill,11838897258,Zwift - Lavender Unicorn in London,,2024-07-08 16:07:47+00:00,1826,VirtualRide,,8.97,,30m 6s
+168,46695698,William Battershill,12024548941,Zwift - Calorie Crush in Watopia,,2024-07-31 05:52:51+00:00,1523,VirtualRide,,12.24,,25m 23s
+169,46695698,William Battershill,12642055470,Zwift - Sugar Cookie in Watopia,,2024-10-13 04:32:53+00:00,5970,VirtualRide,,39.2,,1h 39m
+170,69886154,Maël Gouyette,11339124690,Sunday Long Run 100’,Steady pace ✔️,2024-05-05 12:55:27+00:00,6046,Run,"Chartres-de-Bretagne, France",28.24,3.53,1h 40m
+171,69886154,Maël Gouyette,11332939935,Cool down 10k easy to steady,,2024-05-04 18:15:56+00:00,2447,Run,"Décines-Charpieu, France",10.01,4.05,40m 34s
+172,69886154,Maël Gouyette,11332958362,Race day 🔥,"1500m Meeting de L’Est Lyonnais 
+3:36.85 
+1’11”5/1’12”5/1’12”8
+Windy 🌬 🥵
+Took risks 
+Looking forward to the next one 🤗",2024-05-04 18:00:39+00:00,216,Run,,1.5,2.4,3m 36s
+173,69886154,Maël Gouyette,11293550074,Launch of Hoka Store 🥳 Community run,,2024-04-29 16:44:11+00:00,3712,Run,"Paris, France",8.73,5.35,46m 44s
+174,69886154,Maël Gouyette,11293550191,D+8 ~ Easy run 10 miles,,2024-04-29 07:47:54+00:00,4092,Run,"Chartres-de-Bretagne, France",16.11,4.23,1h 8m
+175,69886154,Maël Gouyette,11388738017,Cool down including 20’ tempo,,2024-05-11 19:27:48+00:00,2271,Run,"Karlsruhe, Germany",10.2,3.7,37m 47s
+176,69886154,Maël Gouyette,11388760880,Race day ~ 3:36.22,"Started slowly 
+Good finish 
+Next race is gonna be (very) quick 🤗⏳",2024-05-11 19:10:00+00:00,216,Run,,1.5,2.4,3m 36s
+177,69886154,Maël Gouyette,11388743481,Warm up + 1200m tempo,,2024-05-11 18:11:13+00:00,1520,Run,"Karlsruhe, Germany",6.23,3.9,24m 22s
+178,69886154,Maël Gouyette,11360272273,Endurance 80’ ☀️,,2024-05-08 09:04:13+00:00,4895,Run,"Rennes, France",19.1,4.18,1h 20m
+179,69886154,Maël Gouyette,11355291490,Easy double run 45’,,2024-05-07 15:19:10+00:00,2722,Run,"Saint-Brieuc, France",10.74,4.18,45m 2s
+180,69886154,Maël Gouyette,11343868225,Endurance + strides,,2024-05-06 08:19:53+00:00,4704,Run,"Chartres-de-Bretagne, France",17.01,4.22,1h 11m
+181,99038751,salim keddar,10853394067,Afternoon Run,,2024-01-07 13:41:23+00:00,1244,Run,,4.27,4.82,20m 37s
+182,99038751,salim keddar,10853393052,Lunch Run,,2024-01-05 10:45:22+00:00,2451,Run,"Louveciennes, France",10.0,4.07,40m 38s
+183,99038751,salim keddar,10853391497,Lunch Run,,2024-01-04 10:44:29+00:00,1233,Run,,4.61,4.43,20m 27s
+184,99038751,salim keddar,10853390879,Morning Run,,2024-01-03 09:59:19+00:00,2425,Run,"Montesson, France",10.01,3.8,38m 6s
+185,99038751,salim keddar,10853389106,Lunch Run,,2024-01-02 11:23:52+00:00,2772,Run,"Montesson, France",12.0,3.85,46m 12s
+186,99038751,salim keddar,10853399319,Lunch Run,,2024-01-11 10:16:38+00:00,1200,Run,,4.49,4.45,20m 0s
+187,99038751,salim keddar,10853398084,Lunch Run,,2024-01-10 11:12:21+00:00,2566,Run,"Louveciennes, France",10.76,3.97,42m 41s
+188,99038751,salim keddar,10853396752,Lunch Run,,2024-01-09 10:57:58+00:00,21,Run,,0.09,,21s
+189,99038751,salim keddar,10853396392,Lunch Run,,2024-01-09 10:50:16+00:00,22,Run,,0.1,,22s
+190,99038751,salim keddar,10853396112,Lunch Run,,2024-01-09 10:20:10+00:00,1467,Run,"Louveciennes, France",5.01,4.85,24m 19s
+191,99038751,salim keddar,10853395204,Afternoon Run,,2024-01-08 12:14:58+00:00,2360,Run,"Louveciennes, France",10.0,3.93,39m 20s
+192,99038751,salim keddar,10853402327,Lunch Run,,2024-01-16 11:33:13+00:00,2462,Run,"Marly-le-Roi, France",11.0,3.73,41m 2s
+193,99038751,salim keddar,10853400955,Lunch Run,,2024-01-15 10:30:51+00:00,3155,Run,"Louveciennes, France",14.0,3.75,52m 35s
+194,99038751,salim keddar,10853406962,Lunch Run,,2024-01-25 10:07:53+00:00,1029,Run,"Montesson, France",4.0,4.28,17m 9s
+195,99038751,salim keddar,10853406096,Morning Run,,2024-01-24 09:31:20+00:00,1951,Run,"Montesson, France",8.0,3.98,31m 53s
+196,99038751,salim keddar,10853404762,Morning Run,,2024-01-23 09:49:19+00:00,1145,Run,"Montesson, France",4.46,4.27,19m 5s
+197,99038751,salim keddar,10853403932,Morning Run,,2024-01-22 09:29:03+00:00,2703,Run,"Louveciennes, France",11.63,3.87,45m 3s
+198,99038751,salim keddar,10853409875,Morning Run,,2024-02-01 09:22:49+00:00,2453,Run,"Louveciennes, France",11.0,3.72,40m 53s
+199,99038751,salim keddar,10853408266,Lunch Run,,2024-01-29 11:19:49+00:00,2662,Run,,10.68,4.13,44m 8s
+200,99038751,salim keddar,10853415327,Morning Run,,2024-02-07 09:13:39+00:00,2291,Run,"Montesson, France",10.01,3.82,38m 11s
+201,99038751,salim keddar,10853413555,Afternoon Run,,2024-02-06 12:09:01+00:00,1653,Run,"Montesson, France",6.58,2.47,16m 11s
+202,99038751,salim keddar,10853412558,Afternoon Run,,2024-02-06 12:08:10+00:00,26,Run,,0.2,2.15,26s
+203,99038751,salim keddar,10853412203,Lunch Run,,2024-02-06 11:13:47+00:00,1108,Run,,4.33,4.27,18m 28s
+204,99038751,salim keddar,10853411467,Afternoon Run,,2024-02-05 12:02:50+00:00,2145,Run,"Marly-le-Roi, France",10.0,3.57,35m 37s
+205,99038751,salim keddar,10853421735,Afternoon Run,,2024-02-18 13:48:59+00:00,1255,Run,"Saint-Pierre-lès-Nemours, France",3.97,4.92,19m 31s
+206,99038751,salim keddar,10853421094,Lunch Run,,2024-02-17 10:58:29+00:00,1807,Run,"Marly-le-Roi, France",8.05,3.73,30m 2s
+207,99038751,salim keddar,10853419825,Lunch Run,,2024-02-14 11:02:06+00:00,60,Run,,0.41,2.4,1m 0s
+208,99038751,salim keddar,10853419490,Lunch Run,,2024-02-14 10:06:06+00:00,1084,Run,,4.0,4.52,18m 4s
+209,99038751,salim keddar,10853418833,Lunch Run,,2024-02-13 10:17:30+00:00,2264,Run,"Montesson, France",10.0,3.75,37m 36s
+210,99038751,salim keddar,10853417006,Morning Run,,2024-02-12 09:26:56+00:00,2985,Run,"Marly-le-Roi, France",13.0,3.82,49m 41s
+211,99038751,salim keddar,10853425572,Morning Run,,2024-02-23 09:49:12+00:00,735,Run,,2.14,4.13,8m 51s
+212,99038751,salim keddar,10853424968,Morning Run,,2024-02-23 09:21:33+00:00,1636,Run,"Montesson, France",8.01,3.4,27m 13s
+213,99038751,salim keddar,10853423552,Morning Run,,2024-02-21 09:27:56+00:00,2512,Run,,10.03,3.98,40m 1s
+214,99038751,salim keddar,10887208929,Morning Run,,2024-02-29 09:07:03+00:00,1094,Run,,4.3,4.23,18m 14s
+215,99038751,salim keddar,10853429541,Morning Run,,2024-02-28 09:29:36+00:00,2483,Run,"Montesson, France",11.13,3.6,40m 1s
+216,99038751,salim keddar,10853427795,Morning Run,,2024-02-27 09:08:24+00:00,1161,Run,,4.21,4.53,19m 9s
+217,99038751,salim keddar,10853427206,Morning Run,,2024-02-26 09:07:40+00:00,2405,Run,"Marly-le-Roi, France",11.0,3.63,40m 1s
+218,99038751,salim keddar,10887210753,Lunch Run,,2024-03-04 10:23:20+00:00,2619,Run,"Marly-le-Roi, France",12.01,3.58,42m 58s
+219,41072820,Clayton Murphy,10979026291,Morning Run,,2024-01-07 15:31:51+00:00,5330,Run,"Sagamore Hills Township, USA",19.47,4.45,1h 26m
+220,41072820,Clayton Murphy,10979020370,Morning Run,,2024-01-06 13:40:38+00:00,3637,Run,"Brecksville, USA",10.49,5.72,1h 0m
+221,41072820,Clayton Murphy,10979017954,Morning Run,,2024-01-05 14:47:13+00:00,3211,Run,,6.45,8.3,53m 31s
+222,41072820,Clayton Murphy,10979020941,Afternoon Run,,2024-01-04 20:43:55+00:00,2924,Run,"Brecksville, USA",8.19,5.52,45m 15s
+223,41072820,Clayton Murphy,10979022523,Morning Run,,2024-01-03 14:51:36+00:00,3558,Run,"Valley View, USA",12.95,4.45,57m 39s
+224,41072820,Clayton Murphy,10979018475,Morning Run,,2024-01-14 14:35:48+00:00,992,Run,,2.75,5.93,16m 23s
+225,41072820,Clayton Murphy,10979027079,Morning Trail Run,,2024-01-13 14:39:34+00:00,5138,TrailRun,"Boston Township, USA",13.75,6.0,1h 22m
+226,41072820,Clayton Murphy,10979020199,Morning Run,,2024-01-12 15:35:34+00:00,4560,Run,"Akron, USA",7.09,4.67,33m 5s
+227,41072820,Clayton Murphy,10979019342,Morning Run,,2024-01-21 14:53:44+00:00,2958,Run,"Twinsburg, USA",10.75,4.53,48m 45s
+228,41072820,Clayton Murphy,10979022918,Morning Run,,2024-01-19 14:42:48+00:00,2651,Run,,5.29,8.2,43m 24s
+229,41072820,Clayton Murphy,10979021620,Afternoon Trail Run,,2024-01-18 20:40:00+00:00,2047,TrailRun,"Brecksville, USA",6.26,5.2,32m 37s
+230,41072820,Clayton Murphy,10979028570,Morning Run,,2024-01-16 15:29:41+00:00,2811,Run,,5.96,7.87,46m 51s
+231,41072820,Clayton Murphy,10979026747,Morning Run,,2024-01-28 14:43:36+00:00,4404,Run,"Bedford, USA",16.1,4.2,1h 7m
+232,41072820,Clayton Murphy,10979018360,Lunch Trail Run,,2024-01-27 17:38:15+00:00,3133,TrailRun,"Boston Township, USA",9.19,,49m 43s
+233,41072820,Clayton Murphy,10979028173,Morning Run,,2024-01-26 14:12:34+00:00,3647,Run,"Hudson, USA",12.52,4.45,55m 49s
+234,41072820,Clayton Murphy,10979023029,Lunch Run,,2024-01-25 17:41:05+00:00,2399,Run,"Peninsula, USA",9.53,4.18,39m 56s
+235,41072820,Clayton Murphy,10979022677,Afternoon Run,,2024-02-04 22:18:25+00:00,2413,Run,"Sagamore Hills Township, USA",9.67,4.08,39m 32s
+236,41072820,Clayton Murphy,10979022494,Morning Trail Run,,2024-02-03 14:38:01+00:00,2049,TrailRun,"Willoughby Hills, USA",7.44,4.57,33m 58s
+237,41072820,Clayton Murphy,10979026645,Afternoon Run,,2024-02-02 20:40:18+00:00,4197,Run,"Boston Heights, USA",14.06,3.9,54m 55s
+238,41072820,Clayton Murphy,10979029424,Afternoon Run,,2024-02-01 19:24:25+00:00,4204,Run,"Brecksville, USA",14.49,4.65,1h 7m
+239,41072820,Clayton Murphy,10979019870,Morning Run,,2024-01-30 15:46:28+00:00,2599,Run,,5.26,8.23,43m 19s
+240,41072820,Clayton Murphy,10979028589,Afternoon Trail Run,,2024-01-29 20:14:21+00:00,2283,TrailRun,"Boston Township, USA",6.69,,34m 59s
+241,41072820,Clayton Murphy,10979029744,Morning Run,,2024-02-11 14:00:02+00:00,3344,Run,"Willoughby Hills, USA",15.36,3.63,55m 44s
+242,41072820,Clayton Murphy,10979030241,Morning Run,,2024-02-10 15:00:27+00:00,4398,Run,"Valley View, USA",16.01,4.42,1h 10m
+243,41072820,Clayton Murphy,10979029737,Morning Run,,2024-02-09 15:30:19+00:00,2484,Run,"Boston Township, USA",8.32,4.72,39m 14s
+244,41072820,Clayton Murphy,10979020566,Afternoon Run,,2024-02-08 19:48:37+00:00,2501,Run,"Sagamore Hills Township, USA",6.72,5.5,36m 57s
+245,41072820,Clayton Murphy,10979027029,Afternoon Run,,2024-02-08 19:04:43+00:00,1256,Run,"Sagamore Hills Township, USA",4.84,4.23,20m 32s
+246,41072820,Clayton Murphy,10979018695,Morning Run,,2024-02-06 15:24:59+00:00,2454,Run,,5.11,8.0,40m 51s
+247,41072820,Clayton Murphy,10979022653,Afternoon Run,,2024-02-05 20:38:30+00:00,2584,Run,"Boston Township, USA",8.93,,40m 40s
+248,41072820,Clayton Murphy,10979026576,Afternoon Run,,2024-02-18 18:33:01+00:00,2321,Run,"Boston Township, USA",6.74,,38m 37s
+249,41072820,Clayton Murphy,10979026236,Morning Run,,2024-02-17 14:10:18+00:00,4875,Run,"Brecksville, USA",14.63,5.55,1h 21m
+250,41072820,Clayton Murphy,10979028780,Lunch Run,,2024-02-15 17:22:38+00:00,4602,Run,"Sagamore Hills Township, USA",15.0,4.28,1h 4m
+251,41072820,Clayton Murphy,10979026910,Morning Run,,2024-02-14 14:43:30+00:00,2128,Run,"Boston Township, USA",7.14,4.88,34m 55s
+252,41072820,Clayton Murphy,10979029105,Morning Run,,2024-02-13 15:24:44+00:00,3205,Run,,7.66,6.97,53m 25s
+253,41072820,Clayton Murphy,10979022247,Afternoon Run,,2024-02-12 18:40:44+00:00,2643,Run,"Valley View, USA",9.72,4.32,42m 2s
+254,41072820,Clayton Murphy,10979025378,Lunch Run,,2024-02-23 17:32:52+00:00,2733,Run,"Akron, USA",8.03,4.23,34m 1s
+255,41072820,Clayton Murphy,10979017540,Lunch Trail Run,,2024-02-22 17:39:32+00:00,2702,TrailRun,"Boston Township, USA",9.05,,45m 0s
+256,41072820,Clayton Murphy,10979022107,Afternoon Run,,2024-02-21 18:07:20+00:00,4185,Run,"Peninsula, USA",16.0,3.92,1h 2m
+257,41072820,Clayton Murphy,10979022684,Morning Run,,2024-02-19 15:08:43+00:00,3474,Run,,6.24,9.07,56m 35s
+258,41072820,Clayton Murphy,10979026869,Afternoon Run,,2024-03-02 19:18:39+00:00,967,Run,"Akron, USA",2.81,5.47,15m 22s
+259,41072820,Clayton Murphy,10979020106,Afternoon Run,,2024-03-02 18:26:37+00:00,3109,Run,"Akron, USA",8.78,4.55,39m 59s
+260,41072820,Clayton Murphy,10979022700,Lunch Run,,2024-03-02 17:44:44+00:00,833,Run,"Akron, USA",2.97,4.63,13m 48s
+261,41072820,Clayton Murphy,10979028956,Morning Run,,2024-02-28 14:47:07+00:00,1944,Run,"Macedonia, USA",8.06,3.25,26m 9s
+262,41072820,Clayton Murphy,10979022086,Morning Run,,2024-02-26 15:45:50+00:00,3541,Run,"Macedonia, USA",7.88,4.5,35m 26s
+263,41072820,Clayton Murphy,10979021794,Afternoon Trail Run,,2024-03-10 17:37:29+00:00,2661,TrailRun,"Brecksville, USA",8.65,4.57,39m 28s
+264,41072820,Clayton Murphy,10979027057,Morning Run,,2024-03-09 15:19:48+00:00,4259,Run,"Valley View, USA",16.0,4.15,1h 6m
+265,41072820,Clayton Murphy,10979021047,Morning Run,,2024-03-08 15:03:22+00:00,2786,Run,"Macedonia, USA",8.38,4.4,36m 55s
+266,41072820,Clayton Murphy,10979022264,Lunch Run,,2024-03-04 17:53:42+00:00,3128,Run,"Macedonia, USA",7.59,4.35,33m 0s
+267,41072820,Clayton Murphy,10980226957,Morning Run,,2024-03-17 14:33:37+00:00,3661,Run,"Walton Hills, USA",9.78,,52m 41s
+268,41072820,Clayton Murphy,10979020192,Afternoon Run,,2024-03-16 19:41:55+00:00,647,Run,"Cuyahoga Falls, USA",1.97,5.47,10m 47s
+269,41072820,Clayton Murphy,10979018524,Afternoon Run,,2024-03-16 18:50:53+00:00,3025,Run,"Cuyahoga Falls, USA",5.56,5.13,28m 31s
+270,41072820,Clayton Murphy,10979026586,Afternoon Run,,2024-03-16 17:57:57+00:00,803,Run,"Cuyahoga Falls, USA",2.71,4.85,13m 11s
+271,41072820,Clayton Murphy,10979026806,Afternoon Run,,2024-03-15 18:05:20+00:00,2571,Run,"Peninsula, USA",8.41,4.23,35m 40s
+272,41072820,Clayton Murphy,10979020425,Afternoon Run,,2024-03-14 20:45:14+00:00,3450,Run,"Boston Township, USA",10.56,,52m 46s
+273,41072820,Clayton Murphy,10979017815,Afternoon Run,,2024-03-13 17:28:20+00:00,2745,Run,"Macedonia, USA",6.64,4.77,31m 42s
+274,41072820,Clayton Murphy,10979027969,Afternoon Run,,2024-03-11 19:37:43+00:00,3114,Run,"Boston Heights, USA",13.95,3.63,50m 38s
+275,41072820,Clayton Murphy,11028073234,Morning Run,,2024-03-24 12:06:43+00:00,3295,Run,"Boston Heights, USA",12.0,4.33,52m 5s
+276,41072820,Clayton Murphy,11021591065,Morning Run,,2024-03-23 12:49:03+00:00,4598,Run,"Sagamore Hills Township, USA",16.3,4.23,1h 9m
+277,41072820,Clayton Murphy,11021585812,Afternoon Run,,2024-03-21 20:56:16+00:00,2610,Run,"Valley View, USA",10.0,4.28,42m 54s
+278,41072820,Clayton Murphy,10986080512,Morning Run,,2024-03-18 13:26:51+00:00,3762,Run,"Sagamore Hills Township, USA",15.01,4.05,1h 0m
+279,41072820,Clayton Murphy,11076027120,Morning Run,,2024-03-31 11:38:00+00:00,2683,Run,"Boston Heights, USA",10.0,4.37,43m 40s
+280,41072820,Clayton Murphy,11072091782,Afternoon Run,,2024-03-30 19:24:40+00:00,3791,Run,"Sagamore Hills Township, USA",16.01,3.73,59m 39s
+281,41072820,Clayton Murphy,11063071357,Morning Run,,2024-03-29 14:53:03+00:00,3409,Run,"Brecksville, USA",13.17,4.1,54m 0s
+282,41072820,Clayton Murphy,11056512657,Lunch Run,,2024-03-28 16:38:20+00:00,3446,Run,"Hinckley Township, USA",11.85,4.57,54m 9s
+283,41072820,Clayton Murphy,11056509272,Morning Run,,2024-03-27 13:25:51+00:00,6164,Run,"Macedonia, USA",14.92,4.65,1h 9m
+284,41072820,Clayton Murphy,11035101119,Morning Run,,2024-03-25 13:33:46+00:00,4293,Run,"Sagamore Hills Township, USA",15.58,4.27,1h 6m
+285,41072820,Clayton Murphy,11130162651,Afternoon Run,,2024-04-07 18:32:51+00:00,2463,Run,"Macedonia, USA",4.7,8.15,38m 22s
+286,41072820,Clayton Murphy,11130161572,Afternoon Run,,2024-04-07 17:33:04+00:00,966,Run,"Macedonia, USA",3.6,4.47,16m 6s
+287,41072820,Clayton Murphy,11120252839,Morning Run,,2024-04-06 14:23:14+00:00,3290,Run,"Boston Heights, USA",13.48,3.97,53m 27s
+288,41072820,Clayton Murphy,11092628485,Lunch Run,,2024-04-02 16:04:00+00:00,6392,Run,"Macedonia, USA",13.14,5.1,1h 6m
+289,41072820,Clayton Murphy,11183278334,Lunch Run,,2024-04-14 16:33:33+00:00,6606,Run,"Macedonia, USA",8.41,8.0,1h 7m
+290,41072820,Clayton Murphy,11164068210,Morning Run,,2024-04-12 12:05:41+00:00,2759,Run,"Sagamore Hills Township, USA",10.68,4.05,43m 18s
+291,41072820,Clayton Murphy,11159658722,Afternoon Run,,2024-04-11 17:35:16+00:00,3471,Run,,9.39,6.17,57m 51s
+292,41072820,Clayton Murphy,11144413374,Afternoon Run,,2024-04-09 18:37:33+00:00,2674,Run,"Valley View, USA",9.98,4.15,41m 28s
+293,41072820,Clayton Murphy,11134362804,Morning Run,,2024-04-08 12:49:29+00:00,3319,Run,"Peninsula, USA",12.0,4.4,52m 51s
+294,41072820,Clayton Murphy,11244902075,Night Run,,2024-04-20 13:34:36+00:00,1354,Run,"Xiang'an District, PRC",3.85,,13m 15s
+295,41072820,Clayton Murphy,11244899759,Evening Run,,2024-04-19 11:12:24+00:00,2525,Run,"Xiang'an District, PRC",2.91,,17m 22s
+296,41072820,Clayton Murphy,11244898637,Evening Run,,2024-04-18 11:17:32+00:00,4741,Run,"Xiang'an District, PRC",4.26,,41m 14s
+297,41072820,Clayton Murphy,11244895439,Morning Run,,2024-04-18 01:11:51+00:00,1280,Run,"Heshan Subdistrict, PRC",4.24,4.6,19m 32s
+298,41072820,Clayton Murphy,11244894110,Afternoon Run,,2024-04-17 06:49:23+00:00,1696,Run,"Xiang'an District, PRC",3.96,,15m 31s
+299,41072820,Clayton Murphy,11200282802,Afternoon Run,,2024-04-17 06:15:15+00:00,1029,Run,"Xiang'an District, PRC",2.59,,15m 49s
+300,41072820,Clayton Murphy,11187277686,Morning Run,,2024-04-15 12:04:25+00:00,2504,Run,"Walton Hills, USA",9.67,4.23,40m 57s
+301,41072820,Clayton Murphy,11291657112,Evening Run,,2024-04-27 12:39:00+00:00,2918,Run,"金鸡湖街道, PRC",7.56,5.63,42m 39s
+302,41072820,Clayton Murphy,11244906850,Afternoon Run,,2024-04-23 06:05:46+00:00,6605,Run,"金鸡湖街道, PRC",11.45,6.97,1h 19m
+303,41072820,Clayton Murphy,11340635812,Lunch Run,,2024-05-05 16:28:40+00:00,4895,Run,"Macedonia, USA",12.3,4.53,55m 44s
+304,41072820,Clayton Murphy,11339776167,Lunch Run,,2024-05-05 15:46:54+00:00,988,Run,"Macedonia, USA",3.8,4.32,16m 24s
+305,41072820,Clayton Murphy,11323235474,Morning Run,,2024-05-03 14:17:45+00:00,4854,Run,"Macedonia, USA",11.99,4.18,50m 16s
+306,41072820,Clayton Murphy,11323235202,Lunch Run,,2024-05-01 15:49:42+00:00,2047,Run,"Boston Heights, USA",6.36,5.13,32m 41s
+307,41072820,Clayton Murphy,11298907949,Morning Run,,2024-04-30 12:45:49+00:00,2916,Run,"Sagamore Hills Township, USA",12.55,3.75,47m 8s
+308,41072820,Clayton Murphy,11291657079,Morning Run,,2024-04-29 14:55:47+00:00,2707,Run,"Boston Township, USA",11.27,3.85,43m 22s
+309,41072820,Clayton Murphy,11393131563,Morning Run,,2024-05-12 11:49:40+00:00,2950,Run,"Peninsula, USA",10.45,4.37,45m 39s
+310,41072820,Clayton Murphy,11379311770,Afternoon Run,,2024-05-10 17:30:25+00:00,3665,Run,"Peninsula, USA",12.85,4.2,54m 1s
+311,41072820,Clayton Murphy,11362967371,Lunch Run,,2024-05-08 16:56:39+00:00,2212,Run,"Macedonia, USA",4.41,5.98,26m 24s
+312,41072820,Clayton Murphy,11362967774,Morning Run,,2024-05-06 14:01:20+00:00,2023,Run,"Sagamore Hills Township, USA",7.65,4.2,32m 10s
+313,41072820,Clayton Murphy,11433454500,Morning Run,,2024-05-17 17:52:14+00:00,1229,Run,"Los Angeles, USA",4.77,4.28,20m 29s
+314,41072820,Clayton Murphy,11417184312,Morning Run,,2024-05-15 14:16:02+00:00,1452,Run,"Cuyahoga Falls, USA",2.69,5.45,14m 41s
+315,41072820,Clayton Murphy,11417184094,Morning Run,,2024-05-14 14:28:47+00:00,3352,Run,"Cuyahoga Falls, USA",6.93,5.07,35m 7s
+316,41072820,Clayton Murphy,11417182294,Morning Run,,2024-05-14 14:13:11+00:00,857,Run,"Cuyahoga Falls, USA",3.07,4.28,13m 12s
+317,41072820,Clayton Murphy,11400735859,Morning Run,,2024-05-13 13:24:01+00:00,2890,Run,"Valley View, USA",10.01,3.87,38m 42s
+318,41072820,Clayton Murphy,11502684816,Morning Run,,2024-05-26 13:00:49+00:00,2292,Run,"Sagamore Hills Township, USA",8.01,4.58,36m 42s
+319,41072820,Clayton Murphy,11496777471,Afternoon Run,,2024-05-25 19:12:32+00:00,2729,Run,"Valley View, USA",9.97,4.48,44m 40s
+320,41072820,Clayton Murphy,11488784598,Afternoon Run,,2024-05-24 19:27:35+00:00,1841,Run,"Macedonia, USA",4.19,4.87,20m 23s
+321,41072820,Clayton Murphy,11488784365,Afternoon Run,,2024-05-24 18:51:41+00:00,763,Run,"Macedonia, USA",3.0,4.23,12m 43s
+322,41072820,Clayton Murphy,11488784163,Morning Run,,2024-05-23 14:04:41+00:00,1051,Run,"Akron, USA",2.67,4.6,12m 17s
+323,41072820,Clayton Murphy,11472696406,Lunch Run,,2024-05-22 16:28:58+00:00,2595,Run,"Sagamore Hills Township, USA",10.0,4.23,42m 20s
+324,41072820,Clayton Murphy,11463883331,Morning Run,,2024-05-21 13:50:45+00:00,5059,Run,"Hudson, USA",14.92,4.17,1h 2m
+325,41072820,Clayton Murphy,11456459743,Morning Run,,2024-05-20 14:52:55+00:00,3903,Run,"Cuyahoga Falls, USA",14.35,4.07,58m 16s
+326,41072820,Clayton Murphy,11572008651,Afternoon Run,,2024-06-02 17:04:19+00:00,3355,Run,"Valley View, USA",11.79,4.3,50m 42s
+327,41072820,Clayton Murphy,11572008118,Morning Run,,2024-05-31 14:29:37+00:00,4578,Run,"Macedonia, USA",10.83,6.93,1h 15m
+328,41072820,Clayton Murphy,11532768886,Morning Run,,2024-05-30 11:48:43+00:00,2393,Run,"Peninsula, USA",8.85,4.33,38m 23s
+329,41072820,Clayton Murphy,11532768904,Morning Run,,2024-05-29 14:45:42+00:00,2222,Run,"Boston Heights, USA",9.15,4.0,36m 33s
+330,41072820,Clayton Murphy,11540165782,Afternoon Run,,2024-05-28 20:01:49+00:00,2009,Run,"Boston Township, USA",7.34,4.33,31m 53s
+331,41072820,Clayton Murphy,11532768755,Afternoon Run,,2024-05-27 20:02:50+00:00,662,Run,"Cuyahoga Falls, USA",1.88,5.5,10m 20s
+332,41072820,Clayton Murphy,11532524560,Afternoon Run,,2024-05-27 19:06:02+00:00,3327,Run,"Cuyahoga Falls, USA",7.94,6.9,54m 49s
+333,41072820,Clayton Murphy,11532521540,Afternoon Run,,2024-05-27 18:20:36+00:00,799,Run,"Cuyahoga Falls, USA",2.75,4.8,13m 13s
+334,41072820,Clayton Murphy,11616317269,Afternoon Run,,2024-06-09 19:13:04+00:00,1008,Run,"Manhattan, USA",3.24,5.07,16m 27s
+335,41072820,Clayton Murphy,11614341633,Afternoon Run,,2024-06-09 17:37:36+00:00,648,Run,"Manhattan, USA",2.3,4.63,10m 39s
+336,41072820,Clayton Murphy,11616314476,Morning Run,,2024-06-09 12:02:40+00:00,685,Run,"Manhattan, USA",2.05,4.77,9m 48s
+337,41072820,Clayton Murphy,11606287418,Afternoon Run,,2024-06-08 18:00:07+00:00,1335,Run,"Manhattan, USA",1.88,6.97,13m 7s
+338,41072820,Clayton Murphy,11606288936,Afternoon Run,,2024-06-08 17:25:03+00:00,1013,Run,"Manhattan, USA",3.68,4.55,16m 47s
+339,41072820,Clayton Murphy,11599931299,Afternoon Run,,2024-06-07 20:39:50+00:00,1765,Run,"Manhattan, USA",4.89,4.65,22m 44s
+340,41072820,Clayton Murphy,11599930064,Morning Run,,2024-06-07 12:20:39+00:00,1308,Run,"Boston Heights, USA",4.96,4.3,21m 23s
+341,41072820,Clayton Murphy,11589403908,Lunch Run,,2024-06-06 15:38:17+00:00,2341,Run,"Macedonia, USA",4.35,4.57,19m 53s
+342,41072820,Clayton Murphy,11589102587,Morning Run,,2024-06-06 14:54:26+00:00,823,Run,"Macedonia, USA",2.96,4.5,13m 19s
+343,41072820,Clayton Murphy,11589403429,Afternoon Run,,2024-06-05 20:33:51+00:00,1287,Run,"Sagamore Hills Township, USA",5.02,4.07,20m 26s
+344,41072820,Clayton Murphy,11589402680,Morning Run,,2024-06-05 11:59:06+00:00,1858,Run,"Sagamore Hills Township, USA",5.81,4.73,27m 32s
+345,41072820,Clayton Murphy,11571964882,Morning Run,,2024-06-04 13:42:43+00:00,3204,Run,"Cuyahoga Falls, USA",11.43,4.28,48m 59s
+346,41072820,Clayton Murphy,11572009152,Lunch Run,,2024-06-03 16:35:00+00:00,499,Run,"Akron, USA",1.54,5.4,8m 19s
+347,41072820,Clayton Murphy,11572008821,Lunch Run,,2024-06-03 15:55:32+00:00,2002,Run,"Akron, USA",5.13,6.48,33m 17s
+348,41072820,Clayton Murphy,11672523101,Morning Run,,2024-06-16 12:21:53+00:00,3204,Run,"Peninsula, USA",9.57,4.62,44m 15s
+349,41072820,Clayton Murphy,11672511827,Lunch Run,,2024-06-15 15:46:52+00:00,2660,Run,"Akron, USA",5.37,5.72,30m 44s
+350,41072820,Clayton Murphy,11650971429,Morning Run,,2024-06-14 13:29:07+00:00,3822,Run,"Fairlawn, USA",12.0,4.58,54m 58s
+351,41072820,Clayton Murphy,11638788349,Afternoon Run,,2024-06-12 20:49:57+00:00,507,Run,"Akron, USA",1.48,5.62,8m 19s
+352,41072820,Clayton Murphy,11638788513,Afternoon Run,,2024-06-12 20:04:17+00:00,2703,Run,"Akron, USA",7.52,4.35,32m 46s
+353,41072820,Clayton Murphy,11638788004,Afternoon Run,,2024-06-12 19:23:21+00:00,790,Run,"Akron, USA",2.68,4.63,12m 27s
+354,41072820,Clayton Murphy,11626866098,Morning Run,,2024-06-11 12:27:02+00:00,2747,Run,"Boston Heights, USA",10.0,4.37,43m 39s
+355,41072820,Clayton Murphy,11621294726,Afternoon Run,,2024-06-10 18:01:43+00:00,2631,Run,"Boston Township, USA",10.0,4.27,42m 46s
+356,41072820,Clayton Murphy,11719751516,Morning Run,,2024-06-23 11:54:39+00:00,1825,Run,"Brecksville, USA",7.01,4.2,29m 26s
+357,41072820,Clayton Murphy,11712860835,Morning Run,,2024-06-22 13:57:40+00:00,1864,Run,"Peninsula, USA",7.1,4.33,30m 50s
+358,41072820,Clayton Murphy,11712860492,Morning Ride,,2024-06-21 10:19:05+00:00,2737,Ride,"Peninsula, USA",11.37,,45m 37s
+359,41072820,Clayton Murphy,11712860174,Morning Run,,2024-06-21 09:51:23+00:00,1330,Run,"Peninsula, USA",4.87,4.55,22m 10s
+360,41072820,Clayton Murphy,11712860019,Morning Run,,2024-06-20 13:35:36+00:00,1678,Run,"Cuyahoga Falls, USA",4.21,4.77,20m 8s
+361,41072820,Clayton Murphy,11712860007,Morning Run,,2024-06-20 12:49:13+00:00,964,Run,"Cuyahoga Falls, USA",3.63,4.38,15m 55s
+362,41072820,Clayton Murphy,11690242614,Morning Run,,2024-06-19 13:22:12+00:00,5433,Run,"Boston Township, USA",7.47,4.38,32m 48s
+363,41072820,Clayton Murphy,11690242713,Morning Run,,2024-06-17 14:16:33+00:00,4310,Run,"Barberton, USA",15.22,3.92,59m 38s
+364,41072820,Clayton Murphy,11807527028,Afternoon Run,,2024-06-29 22:16:49+00:00,1469,Run,"Eugene, USA",4.78,4.67,22m 22s
+365,41072820,Clayton Murphy,11757793544,Afternoon Run,,2024-06-28 00:05:29+00:00,1065,Run,"Eugene, USA",3.56,4.98,17m 45s
+366,41072820,Clayton Murphy,11757793127,Afternoon Run,,2024-06-26 21:22:10+00:00,58005,Run,"Eugene, USA",20.81,1.95,40m 40s
+367,41072820,Clayton Murphy,11757775838,Afternoon Run,,2024-06-26 20:26:42+00:00,1065,Run,"Eugene, USA",3.68,4.82,17m 42s
+368,41072820,Clayton Murphy,11740971180,Morning Run,,2024-06-25 17:29:58+00:00,2213,Run,"Portland, USA",5.16,,27m 56s
+369,41072820,Clayton Murphy,11740969001,Lunch Run,,2024-06-24 19:00:13+00:00,2312,Run,"Washington County, USA",4.31,8.8,37m 56s
+370,41072820,Clayton Murphy,11740965964,Lunch Run,,2024-06-24 18:09:34+00:00,1506,Run,"Beaverton, USA",5.39,4.52,24m 23s
+371,41072820,Clayton Murphy,11830468710,Morning Run,,2024-07-07 13:16:36+00:00,3726,Run,"Cuyahoga Falls, USA",9.08,4.98,45m 16s
+372,41072820,Clayton Murphy,11821525344,Morning Trail Run,,2024-07-06 12:06:02+00:00,2187,TrailRun,"Boston Township, USA",5.52,5.5,30m 26s
+373,41072820,Clayton Murphy,11814758658,Morning Run,,2024-07-05 13:39:50+00:00,2745,Run,"Boston Township, USA",7.83,5.75,45m 5s
+374,41072820,Clayton Murphy,11807438427,Morning Run,,2024-07-04 14:09:31+00:00,4561,Run,"Boston Heights, USA",16.38,4.22,1h 8m
+375,41072820,Clayton Murphy,11889029660,Afternoon Run,,2024-07-14 17:22:24+00:00,4251,Run,"Peninsula, USA",16.0,4.27,1h 8m
+376,41072820,Clayton Murphy,11873424786,Evening Run,,2024-07-12 23:22:56+00:00,1169,Run,"Pittsburgh, USA",3.13,4.92,15m 24s
+377,41072820,Clayton Murphy,11885763033,Lunch Run,,2024-07-12 16:31:46+00:00,639,Run,"Sagamore Hills Township, USA",2.37,4.48,10m 39s
+378,41072820,Clayton Murphy,11861649344,Morning Run,,2024-07-11 11:07:25+00:00,1800,Run,"Peninsula, USA",5.99,4.65,27m 53s
+379,41072820,Clayton Murphy,11895083476,Lunch Run,,2024-07-15 15:47:37+00:00,3158,Run,"Cuyahoga Falls, USA",6.97,5.18,36m 6s
+380,41072820,Clayton Murphy,11896833210,Lunch Run,,2024-07-15 15:05:57+00:00,817,Run,"Cuyahoga Falls, USA",2.67,4.82,12m 53s
+381,41072820,Clayton Murphy,12052262761,Morning Run,,2024-08-03 13:01:30+00:00,3767,Run,"Boston Heights, USA",9.91,4.05,40m 9s
+382,41072820,Clayton Murphy,12120587599,Morning Run,,2024-08-11 13:46:33+00:00,2690,Run,"Boston Heights, USA",8.99,4.88,43m 59s
+383,41072820,Clayton Murphy,12111793486,Morning Run,,2024-08-10 13:10:16+00:00,4237,Run,"Valley View, USA",16.01,4.2,1h 7m
+384,41072820,Clayton Murphy,12104307510,Morning Run,,2024-08-09 14:43:41+00:00,2417,Run,"Akron, USA",5.78,5.08,29m 26s
+385,41072820,Clayton Murphy,12104307441,Morning Run,,2024-08-09 14:08:33+00:00,825,Run,"Akron, USA",3.11,4.37,13m 37s
+386,41072820,Clayton Murphy,12087998765,Lunch Run,,2024-08-07 15:14:01+00:00,3993,Run,"Boston Township, USA",11.19,5.2,58m 9s
+387,41072820,Clayton Murphy,12077221829,Morning Run,,2024-08-06 12:09:01+00:00,3003,Run,"Peninsula, USA",9.73,4.75,46m 14s
+388,41072820,Clayton Murphy,12179553950,Morning Run,,2024-08-18 13:17:19+00:00,2296,Run,"Boston Township, USA",7.01,,37m 51s
+389,41072820,Clayton Murphy,12178945300,Afternoon Run,,2024-08-15 19:54:51+00:00,1377,Run,"Westfield, USA",5.19,4.38,22m 45s
+390,41072820,Clayton Murphy,12145476785,Morning Run,,2024-08-14 12:45:07+00:00,1894,Run,"Cuyahoga Falls, USA",4.51,4.62,20m 52s
+391,41072820,Clayton Murphy,12144764235,Morning Run,,2024-08-12 12:58:14+00:00,3244,Run,"Brecksville, USA",10.43,4.93,51m 33s
+392,41072820,Clayton Murphy,12648154581,Lunch Trail Run,,2024-10-13 16:27:06+00:00,3609,TrailRun,"Boston Township, USA",10.89,,58m 42s
+393,41072820,Clayton Murphy,12637876879,Morning Trail Run,,2024-10-12 14:07:23+00:00,3097,TrailRun,"Boston Heights, USA",10.02,5.13,51m 26s
+394,41072820,Clayton Murphy,12637876224,Afternoon Trail Run,,2024-10-10 18:28:22+00:00,1956,TrailRun,"Brecksville, USA",6.19,,31m 34s
+395,41072820,Clayton Murphy,12613453729,Morning Trail Run,,2024-10-09 12:11:10+00:00,1813,TrailRun,"Brecksville, USA",5.93,4.92,29m 13s
+396,41072820,Clayton Murphy,12701423101,Morning Run,,2024-10-20 12:52:42+00:00,3295,Run,"Sagamore Hills Township, USA",12.88,4.07,52m 28s
+397,41072820,Clayton Murphy,12692960581,Morning Trail Run,,2024-10-19 12:41:59+00:00,5001,TrailRun,"Brecksville, USA",14.5,,1h 21m
+398,41072820,Clayton Murphy,12701422033,Afternoon Trail Run,,2024-10-17 18:29:56+00:00,52598,TrailRun,"Brecksville, USA",6.65,,31m 25s
+399,41072820,Clayton Murphy,12661371801,Morning Run,,2024-10-15 13:12:26+00:00,2393,Run,"Walton Hills, USA",8.5,4.58,39m 1s
+400,41072820,Clayton Murphy,12749524707,Trails ain’t got nothing on me 👨🏻‍🍳,Half marathon race,2024-10-26 12:55:33+00:00,5599,TrailRun,"Brecksville, USA",21.53,,1h 28m
+401,41072820,Clayton Murphy,12860735032,Morning Trail Run,,2024-11-09 14:13:08+00:00,2568,TrailRun,"Boston Township, USA",5.97,,36m 38s
+402,41072820,Clayton Murphy,12840024269,Afternoon Trail Run,,2024-11-06 20:40:32+00:00,1824,TrailRun,"Brecksville, USA",5.53,5.42,30m 1s
+403,132478746,Savannah Shaw,10930897339,ur so pretty!,"mountains & suki waterhouse stuck in my head ☺️
+also ran into the mines team yay",2024-03-10 14:27:35+00:00,2307,Run,"Boulder, USA",8.06,4.65,37m 29s
+404,132478746,Savannah Shaw,10926421990,Double,,2024-03-09 23:30:59+00:00,1842,Run,"Longmont, USA",6.54,4.52,29m 36s
+405,132478746,Savannah Shaw,10924900210,Goofy hour,"200m city over hereee
+8x200m hills @ 37-35
+2x1k @ 3:22
+8x200m @ 35-30",2024-03-09 16:13:47+00:00,6097,Run,"Boulder County, USA",17.98,4.7,1h 24m
+406,132478746,Savannah Shaw,10918195421,It’s besties go get car work day - send prayers we don’t get scammed 😃,,2024-03-08 18:10:40+00:00,3501,Run,"Longmont, USA",12.91,4.48,57m 57s
+407,132478746,Savannah Shaw,10911753511,loopdeeloops,,2024-03-07 17:00:24+00:00,3085,Run,"Boulder County, USA",11.28,4.55,51m 20s
+408,132478746,Savannah Shaw,10906470174,want 2 throw up,"3x2miles tempo in the wind
+
+11:43, 11:20, 12:10",2024-03-06 22:10:09+00:00,5467,Run,"Longmont, USA",19.48,4.13,1h 20m
+409,132478746,Savannah Shaw,10903927475,Pending afternoon workout,,2024-03-06 16:37:27+00:00,1789,Run,"Longmont, USA",6.45,4.48,28m 59s
+410,132478746,Savannah Shaw,10896752756,Stridez,,2024-03-05 17:14:26+00:00,510,Run,"Boulder, USA",1.62,4.17,6m 45s
+411,132478746,Savannah Shaw,10896673925,Looks like summer feels like winter,,2024-03-05 16:12:05+00:00,3620,Run,"Boulder, USA",12.14,4.58,55m 37s
+412,132478746,Savannah Shaw,10889402683,Directionally challenged,Drove 30 mins to the wrong trail & missed practice 😵‍💫 …again,2024-03-04 16:14:54+00:00,4433,Run,"Longmont, USA",16.1,4.38,1h 10m
+413,132478746,Savannah Shaw,11029149945,sibling run,,2024-03-24 14:29:39+00:00,2736,Run,"Broomfield, USA",9.66,4.48,43m 21s
+414,132478746,Savannah Shaw,11024217789,Double,,2024-03-23 21:57:30+00:00,2010,Run,"Boulder County, USA",6.45,4.62,29m 50s
+415,132478746,Savannah Shaw,11022343017,this elderly lady yelled every lap of our 1k,Got kicked off the track booo so I only did 1k at 3:26 on the track and then 10x200m hills & 6x30secs at 1500m pace in the neighborhood. A bit of a chiller day in preps for a long one Wednesday !!,2024-03-23 14:42:38+00:00,5242,Run,"Boulder County, USA",14.67,4.63,1h 8m
+416,132478746,Savannah Shaw,11015415232,spilling family secrets,,2024-03-22 15:04:35+00:00,4119,Run,"Boulder County, USA",12.03,4.55,54m 39s
+417,132478746,Savannah Shaw,11008986877,jogging,,2024-03-21 16:22:44+00:00,2841,Run,"Lagerman Agricultural Preserve, USA",10.12,4.55,46m 4s
+418,132478746,Savannah Shaw,11004805589,2nd double t 🤠,"20 mile day & COROS thinks I’m dead
+
+3 sets of 6x400 with 45 sec rest
+Set 1: 82-81
+Set 2: 81-80
+Set 3: 78
+Bonus 3x400: 76",2024-03-20 23:26:03+00:00,4809,Run,"Boulder County, USA",16.11,4.25,1h 8m
+419,132478746,Savannah Shaw,11001294888,💗💕🍬🧞‍♀️,"8x1k 3:33->3:25
+
+I wore the full Barbie fit!! Don’t worry I’ll add a pic asap",2024-03-20 15:12:09+00:00,3087,Run,"Louisville, USA",11.07,4.05,44m 53s
+420,132478746,Savannah Shaw,11000893359,warm up,,2024-03-20 14:41:19+00:00,1414,Run,"Louisville, USA",5.28,4.37,23m 3s
+421,132478746,Savannah Shaw,10994289243,resy run,,2024-03-19 16:15:09+00:00,4077,Run,"Boulder, USA",14.5,4.43,1h 4m
+422,132478746,Savannah Shaw,10986778301,sunny & quiet,long run talks with Joan :) also rockin the new green fit,2024-03-18 14:45:57+00:00,5629,Run,"Lagerman Agricultural Preserve, USA",21.14,4.33,1h 31m
+423,132478746,Savannah Shaw,11120575873,Windy 200s,16x200m 34-31,2024-04-06 14:42:56+00:00,5806,Run,"Boulder County, USA",16.1,4.92,1h 19m
+424,132478746,Savannah Shaw,11113215096,Morning Run,,2024-04-05 15:04:19+00:00,5566,Run,"Boulder County, USA",14.49,4.52,1h 5m
+425,132478746,Savannah Shaw,11106570663,walking up the hills,Jakob said it’s ok,2024-04-04 16:46:58+00:00,2981,Run,"Boulder, USA",9.72,4.6,44m 49s
+426,132478746,Savannah Shaw,11101808687,sunset track party,"20x400 @ 82-77 
+Joan did the first 150m and Christine did the last 200m with me for every rep !!! 🤗 ugh so kind",2024-04-03 23:26:03+00:00,4737,Run,"Boulder County, USA",14.56,4.2,1h 1m
+427,132478746,Savannah Shaw,11098748074,Don’t overcook !!!,"8x1k @ 3:27-3:34
+Got a little excited on the first two 😀 
+
+also new collection coming very soon yayyy",2024-04-03 14:48:32+00:00,5020,Run,"Louisville, USA",16.03,4.22,1h 7m
+428,132478746,Savannah Shaw,11092267841,Morning Run,,2024-04-02 16:42:22+00:00,3607,Run,"Longmont, USA",12.89,4.55,58m 43s
+429,132478746,Savannah Shaw,11084817138,Basically a tough mudder,,2024-04-01 14:43:14+00:00,5720,Run,"Boulder County, USA",19.31,4.42,1h 25m
+430,132478746,Savannah Shaw,11286844693,back in CO ☺️,,2024-04-28 20:09:43+00:00,2528,Run,"Longmont, USA",9.72,4.33,42m 5s
+431,132478746,Savannah Shaw,11278815481,Afternoon Run,,2024-04-27 22:02:56+00:00,887,Run,,3.22,4.58,14m 47s
+432,132478746,Savannah Shaw,11278647589,Drake relays,"I raced 1500m and then did a little workout. I ran 4:18 and am bummed to not run super well. Time to get back to work- such a cool experience though!
+
+Met a Tinman elite fan 🥹❤️",2024-04-27 21:04:02+00:00,1595,Run,"Des Moines, USA",6.04,4.05,24m 32s
+433,132478746,Savannah Shaw,11278204406,Afternoon Run,,2024-04-27 19:20:55+00:00,1105,Run,"Des Moines, USA",3.86,4.35,16m 47s
+434,132478746,Savannah Shaw,11276213755,Shakeout,,2024-04-27 14:36:49+00:00,524,Run,"Des Moines, USA",1.76,4.57,8m 3s
+435,132478746,Savannah Shaw,11270354586,Pre race run,Met a Tinman fan on my run <3 also some cute photos from last night with the Porters,2024-04-26 18:38:26+00:00,1999,Run,"Des Moines, USA",6.47,4.52,29m 14s
+436,132478746,Savannah Shaw,11268530325,Lake run,plus some pics from the last time I was on this route 🤓,2024-04-25 16:30:49+00:00,3215,Run,"Des Moines, USA",11.58,4.53,52m 25s
+437,132478746,Savannah Shaw,11257335076,Ran with the drake team & all the mile/1500 women,:))),2024-04-24 21:40:17+00:00,4588,Run,"West Des Moines, USA",14.53,4.83,1h 10m
+438,132478746,Savannah Shaw,11250780144,Road mile champs 💖,"First mile in 4ever! It went okkk - ran 4:43 in 11th place and then threw up 🥲 but such a fun race & im determined to take this experience into a much better 1500m this weekend 
+
+I also did 6x3min/1min fartlek after",2024-04-24 00:16:41+00:00,5916,Run,"Des Moines, USA",11.45,4.37,50m 3s
+439,132478746,Savannah Shaw,11250192222,Race warmuo,,2024-04-23 23:21:48+00:00,1135,Run,"Des Moines, USA",4.11,4.6,18m 55s
+440,132478746,Savannah Shaw,11249198185,Shakeout,,2024-04-23 20:22:08+00:00,682,Run,"Des Moines, USA",2.31,4.65,10m 45s
+441,132478746,Savannah Shaw,11239373498,Sunny pre race + short sprints 💖,I’m racing the USATF road mile champs tomorrow!!,2024-04-22 14:49:43+00:00,3544,Run,"Boulder County, USA",8.09,4.58,37m 3s
+442,132478746,Savannah Shaw,11440690105,Another post race run with Hannah :),,2024-05-18 15:21:03+00:00,3741,Run,"Santa Monica, USA",12.88,4.6,59m 10s
+443,132478746,Savannah Shaw,11435682440,Post race workout,"5x3mins, 1min & 2x hill stride",2024-05-18 03:20:15+00:00,2189,Run,"Los Angeles, USA",6.81,4.62,31m 29s
+444,132478746,Savannah Shaw,11435587769,Another 4:18 😫,Need a timeout from the mile/1500 but happy for the good practice for the 5k,2024-05-18 02:57:33+00:00,365,Run,,1.61,2.68,4m 20s
+445,132478746,Savannah Shaw,11435514324,Warm up,,2024-05-18 02:05:40+00:00,2190,Run,"Los Angeles, USA",4.58,4.73,21m 45s
+446,132478746,Savannah Shaw,11434197549,Shakeout,1500m race on deck tonight 🤪 can’t wait!! Fingers crossed for a sneaky PR,2024-05-17 20:51:21+00:00,616,Run,"Los Angeles, USA",1.98,4.95,9m 50s
+447,132478746,Savannah Shaw,11431689087,Pre race jog about,feeling quite tired/tight still from Saturday but 🤞 I feel better tomorrow!!,2024-05-17 00:10:41+00:00,2720,Run,"Los Angeles, USA",7.74,4.43,34m 19s
+448,132478746,Savannah Shaw,11420779583,happy happy girl,lil jog in one of my very favorite places,2024-05-15 23:44:24+00:00,2692,Run,"Manhattan Beach, USA",9.74,4.38,42m 43s
+449,132478746,Savannah Shaw,11410274592,Post race / pre race workout,"Wasted a perfectly good sea level workout by feeling terrible 😩
+
+3x1k @ threshold, 3x200 fast, 1x400,200 very fast",2024-05-14 16:20:01+00:00,5152,Run,"Santa Monica, USA",14.48,4.48,1h 5m
+450,132478746,Savannah Shaw,11503169236,Can’t wait to u all at bolder Boulder tomorrow!!,,2024-05-26 14:37:37+00:00,3205,Run,"Longmont, USA",10.91,4.78,52m 10s
+451,132478746,Savannah Shaw,11497527017,Afternoon Run,,2024-05-25 23:13:39+00:00,1735,Run,"Longmont, USA",6.44,4.43,28m 34s
+452,132478746,Savannah Shaw,11495402528,1:1 athlete to photographer ratio,"4.5 mile tempo (5:48, 5:41, 5:43, 5:29, 2:43)
+6x200 on, 100 off (36 for each)
+2x150m (22.0, 22.6)",2024-05-25 14:52:48+00:00,6142,Run,"Boulder, USA",16.91,4.15,1h 10m
+453,132478746,Savannah Shaw,11487293280,Baby cow run !!!,,2024-05-24 15:05:37+00:00,4432,Run,"Boulder County, USA",12.02,4.58,55m 3s
+454,132478746,Savannah Shaw,11479797779,Jog about,video from last nights double t!,2024-05-23 15:29:31+00:00,2568,Run,"Longmont, USA",8.48,4.67,39m 37s
+455,132478746,Savannah Shaw,11475306637,Another one,5x1k @ 3:33-31,2024-05-22 23:26:23+00:00,3883,Run,"Boulder County, USA",11.26,4.33,48m 53s
+456,132478746,Savannah Shaw,11472045479,Stride in stride with Katherine,4x2k @ 5:55-5:45 pace,2024-05-22 14:45:56+00:00,4946,Run,"Frederick, USA",14.48,4.52,1h 5m
+457,132478746,Savannah Shaw,11464178637,Morning Run,ooo retro colors!,2024-05-21 14:57:54+00:00,3908,Run,"Boulder County, USA",12.94,4.45,57m 38s
+458,132478746,Savannah Shaw,11456458576,Long run,,2024-05-20 14:48:29+00:00,4860,Run,"Boulder, USA",17.72,4.4,1h 17m
+459,132478746,Savannah Shaw,11551168168,Afternoon Run,,2024-06-01 22:14:54+00:00,1703,Run,"Longmont, USA",4.6,4.8,22m 8s
+460,132478746,Savannah Shaw,11549261600,Vo2 day!,"3 x threshold mile @ 5:40 average
+2 x fartlek race pace miles (5:10, 5:09)
+2 x 200 race",2024-06-01 14:47:12+00:00,6457,Run,"Boulder, USA",18.51,4.47,1h 22m
+461,132478746,Savannah Shaw,11541150023,Morning Run,Mtn adventure last night 💖,2024-05-31 14:57:38+00:00,5177,Run,"Longmont, USA",14.99,4.48,1h 7m
+462,132478746,Savannah Shaw,11534346866,Morning Run,,2024-05-30 15:56:29+00:00,2372,Run,"Lagerman Agricultural Preserve, USA",8.06,4.9,39m 32s
+463,132478746,Savannah Shaw,11529098775,19 x 400m @ 82-76,"playing guess who, Tinman elite edition",2024-05-29 23:16:40+00:00,4390,Run,"Longmont, USA",12.88,4.67,1h 0m
+464,132478746,Savannah Shaw,11525799319,feeling gnarly,"(negative connotation)
+
+7x1k @ threshold",2024-05-29 14:46:15+00:00,5327,Run,"Gunbarrel, USA",13.97,4.57,1h 3m
+465,132478746,Savannah Shaw,11517999531,tb run at Manhattan arts school,,2024-05-28 15:02:40+00:00,4923,Run,"Boulder County, USA",13.86,4.62,1h 4m
+466,132478746,Savannah Shaw,11617037106,Evening Run,,2024-06-10 03:19:32+00:00,2369,Run,"Portland, USA",3.55,5.43,19m 19s
+467,132478746,Savannah Shaw,11617037101,15:37 5k,"Literally felt so good even at 73/74s but was so far deep in my head about the trials and fell off a bit 🙃🙃🙃 I’m currently on the edge of making it in with my last 5k, send prayers!!!",2024-06-10 02:18:42+00:00,968,Run,"Portland, USA",5.04,3.1,15m 39s
+468,132478746,Savannah Shaw,11617037156,Evening Run,,2024-06-10 01:28:28+00:00,982,Run,"Portland, USA",3.43,4.53,15m 33s
+469,132478746,Savannah Shaw,11615411008,5k tonight at Portland Track Festival,I’m racing at 7:20pm PST and there’s a free live stream!!,2024-06-09 21:54:17+00:00,550,Run,"Portland, USA",1.67,5.0,8m 23s
+470,132478746,Savannah Shaw,11605718523,Portland activities,River run + strides + BRUNCH,2024-06-08 16:58:04+00:00,2646,Run,"Portland, USA",6.4,5.12,32m 49s
+471,132478746,Savannah Shaw,11596709805,Short run + race pace 200s,,2024-06-07 15:01:41+00:00,3539,Run,"Longmont, USA",11.27,4.63,52m 11s
+472,132478746,Savannah Shaw,11589044298,Jog with Carmela,,2024-06-06 15:24:21+00:00,3403,Run,"Boulder, USA",11.7,4.78,55m 58s
+473,132478746,Savannah Shaw,11584388159,91 degrees,"pre race workout! 
+
+3x1k @ 3:35, 4x200 @ race pace, 2x600 @ 1:50, 1x200 @ 31
+
+drove up to gold hill for treatment today so pretty :)))",2024-06-05 23:15:54+00:00,5763,Run,"Longmont, USA",14.48,4.7,1h 8m
+474,132478746,Savannah Shaw,11572343927,Morning Run,,2024-06-04 15:03:03+00:00,4265,Run,"Boulder, USA",12.89,4.48,57m 49s
+475,132478746,Savannah Shaw,11564313973,Long run!,,2024-06-03 14:45:20+00:00,5401,Run,"Boulder County, USA",20.11,4.42,1h 28m
+476,132478746,Savannah Shaw,11661914599,Evening Run,,2024-06-16 00:43:46+00:00,1788,Run,"Longmont, USA",6.43,4.63,29m 48s
+477,132478746,Savannah Shaw,11659482768,Heat training,"1k, 200, 2x400, 1k, 600
+3:33, 35 | 73, 3:05, 1:47 | 71, 1:49, 1:47",2024-06-15 14:46:22+00:00,5805,Run,"Longmont, USA",14.65,5.28,1h 17m
+478,132478746,Savannah Shaw,11652394912,I’m racing the Olympic trials!!!,"In a last minute scratch I’m going to race the prelims of the 5k next Friday 🥳
+
+In other news I had a very peaceful run on bobo w/the crew",2024-06-14 15:15:24+00:00,4361,Run,"Boulder, USA",12.07,4.53,54m 46s
+479,132478746,Savannah Shaw,11643828991,Morning Run,,2024-06-13 14:44:06+00:00,2774,Run,"Boulder County, USA",9.65,4.75,45m 54s
+480,132478746,Savannah Shaw,11639968712,64 felt … ok???,"2x200,400,300,200
+33, 66, 51, 32 | 33, 64, 49, 30
+1x500 @ 5k race pace
+s/o Austin Miller for the pacing 🙌🏻",2024-06-12 23:15:44+00:00,4276,Run,"Longmont, USA",9.72,5.35,52m 0s
+481,132478746,Savannah Shaw,11636283548,I feel crazy,Weird threshold workout w/ a touch of anxiety about the trials,2024-06-12 14:44:12+00:00,5681,Run,"Boulder, USA",13.74,4.53,1h 2m
+482,132478746,Savannah Shaw,11628278257,nice Niwot day,,2024-06-11 15:02:22+00:00,5007,Run,"Boulder County, USA",12.39,4.75,58m 53s
+483,132478746,Savannah Shaw,11714287180,lil jog,,2024-06-22 17:06:53+00:00,3319,Run,"Eugene, USA",10.6,4.62,48m 51s
+484,132478746,Savannah Shaw,11708708922,Evening Run,,2024-06-22 03:13:14+00:00,907,Run,"Eugene, USA",2.74,5.07,13m 53s
+485,132478746,Savannah Shaw,11708708913,Evening Run,,2024-06-22 02:28:10+00:00,348,Run,,1.17,4.62,5m 25s
+486,132478746,Savannah Shaw,11708708408,overheated :((,"got to race the trials, got hot, got dropped",2024-06-22 01:22:29+00:00,907,Run,,3.91,3.52,13m 48s
+487,132478746,Savannah Shaw,11708708883,Afternoon Run,,2024-06-22 00:26:33+00:00,1163,Run,"Eugene, USA",4.33,4.4,19m 7s
+488,132478746,Savannah Shaw,11706247190,Shakeout,,2024-06-21 17:22:40+00:00,595,Run,"Eugene, USA",2.01,4.88,9m 51s
+489,132478746,Savannah Shaw,11702302368,Hi Hayward!,Period pain on max but got in a lil shakeout & strides. New adidas avantis feeling niceee,2024-06-20 17:38:28+00:00,3324,Run,"Eugene, USA",6.48,4.78,31m 1s
+490,132478746,Savannah Shaw,11690351367,Morning Run,,2024-06-19 15:15:31+00:00,2690,Run,"Longmont, USA",9.67,4.55,43m 57s
+491,132478746,Savannah Shaw,11682194684,pre race workout,"2x threshold 1ks
+6x 200 on 5k race pace, 200 jog
+Got to try out the new spikes!",2024-06-18 14:50:24+00:00,5052,Run,"Boulder County, USA",12.92,4.98,1h 4m
+492,132478746,Savannah Shaw,11674089663,Morning Run,,2024-06-17 15:05:58+00:00,3983,Run,"Longmont, USA",12.08,4.6,55m 39s
+493,132478746,Savannah Shaw,11777106829,Peaceful pres trail long run,,2024-06-30 16:14:55+00:00,4773,Run,"Eugene, USA",17.7,4.35,1h 16m
+494,132478746,Savannah Shaw,11771754394,Afternoon Run,,2024-06-29 22:03:24+00:00,1692,Run,"Eugene, USA",5.22,4.47,23m 22s
+495,132478746,Savannah Shaw,11771754429,Pace change 1ks,"6x1k with different paces every 200, honestly kinda fun
+4x300",2024-06-29 16:16:43+00:00,5906,Run,"Eugene, USA",19.31,4.43,1h 25m
+496,132478746,Savannah Shaw,11761961090,Morning Run,,2024-06-28 16:14:40+00:00,3955,Run,"Eugene, USA",12.05,4.5,54m 14s
+497,132478746,Savannah Shaw,11753559965,Morning Run,,2024-06-27 16:16:24+00:00,3069,Run,"Eugene, USA",11.27,4.5,50m 44s
+498,132478746,Savannah Shaw,11748857685,Grocery store run (literally),,2024-06-27 00:03:06+00:00,1805,Run,"Eugene, USA",6.44,4.42,28m 25s
+499,132478746,Savannah Shaw,11746626246,Classic south eugene high school workout,"3x800 threshold, 4x400 @ 75s, 3x800 threshold, & 4x200 @ 34",2024-06-26 16:57:45+00:00,6151,Run,"Eugene, USA",19.33,4.33,1h 23m
+500,132478746,Savannah Shaw,11738566944,Community run!!,So many wonderful people :) also I ran into a pole and knocked the wind outta me 😃,2024-06-25 16:14:55+00:00,3440,Run,"Eugene, USA",9.67,4.87,47m 0s
+501,132478746,Savannah Shaw,11738575876,Morning Run,,2024-06-24 15:39:34+00:00,5280,Run,"Eugene, USA",18.51,4.33,1h 20m
+502,132478746,Savannah Shaw,11830638786,last jersey shore run,,2024-07-07 14:17:59+00:00,1312,Run,"Atlantic Highlands, USA",4.86,4.32,21m 0s
+503,132478746,Savannah Shaw,11821613688,🔪🔪🔪,"Felt good besides the 95% humidity 💀
+
+1x1600: 5:32 4x200: 36/37
+2x 1000, 600, 400, 400
+3:08, 1:54, 75, 72 // 3:06, 1:51, 74, 70
+2x200: 32, 32",2024-07-06 11:21:10+00:00,5505,Run,"Rumson, USA",17.74,4.52,1h 20m
+504,132478746,Savannah Shaw,11816180423,8.25 miles actually ☝🏻,If the humidity ruins my hair one more time I’m gonna lose it,2024-07-05 12:35:03+00:00,3265,Run,"Atlantic Highlands, USA",10.86,4.6,50m 1s
+505,132478746,Savannah Shaw,11806825355,Sibling run,,2024-07-04 13:32:38+00:00,2851,Run,"Hopewell Township, USA",9.68,4.55,44m 0s
+506,132478746,Savannah Shaw,11802261541,Thank you rumson high school,6x1k threshold! Weird chest pain 😬 but otherwise chill,2024-07-03 21:40:14+00:00,2912,Run,"Rumson, USA",10.06,4.12,41m 27s
+507,132478746,Savannah Shaw,11799200737,heat training day 1,nothing like a new yellow adidas set & bonkbreakers to help a beach workout go smoothly 😃 4x2k @ threshold at 11am💀,2024-07-03 14:09:45+00:00,4420,Run,"Middletown Township, USA",16.09,4.07,1h 5m
+508,132478746,Savannah Shaw,11793766628,☀️🌊👙⛱️🐚,,2024-07-02 20:43:13+00:00,3065,Run,"Atlantic Highlands, USA",11.68,4.32,50m 20s
+509,132478746,Savannah Shaw,12063364695,fun run in the very best spot,rollinsville is just so nice! Best company too :)),2024-08-04 14:46:42+00:00,2584,Run,"Roosevelt National Forest, USA",8.13,4.97,40m 24s
+510,132478746,Savannah Shaw,12056857557,Evening Run,,2024-08-04 02:31:06+00:00,514,Run,"Boulder, USA",1.63,4.97,8m 6s
+511,132478746,Savannah Shaw,12056857554,Pearl st mile!!,"3.5 laps around the court room in 4:53, very fun so many friends & with that … ROOKIE YEAR OVER",2024-08-04 01:49:05+00:00,673,Run,"Boulder, USA",1.66,2.97,4m 57s
+512,132478746,Savannah Shaw,12056857561,Evening Run,,2024-08-04 01:09:36+00:00,946,Run,"Boulder, USA",3.24,4.43,14m 24s
+513,132478746,Savannah Shaw,12053368736,Shakeout,Pearl st mile on deck 🤩,2024-08-03 16:02:14+00:00,467,Run,"Longmont, USA",1.64,4.73,7m 47s
+514,132478746,Savannah Shaw,12044614620,Big tired,little jog & 2 strides,2024-08-02 14:46:31+00:00,2232,Run,"Boulder County, USA",4.42,4.7,20m 46s
+515,132478746,Savannah Shaw,12040797921,Evening Run,,2024-08-02 02:48:51+00:00,903,Run,"Boulder, USA",2.61,5.73,15m 0s
+516,132478746,Savannah Shaw,12040797910,4:41 altitude mile!!,Mile high mile was a super blast but woah altitude plus smoke really gets ya 😩,2024-08-02 02:05:44+00:00,410,Run,,1.71,2.75,4m 43s
+517,132478746,Savannah Shaw,12040797922,Evening Run,,2024-08-02 01:10:53+00:00,1541,Run,"Boulder, USA",4.75,4.5,21m 23s
+518,132478746,Savannah Shaw,12028215804,Morning Run,,2024-07-31 14:46:56+00:00,2548,Run,"Boulder, USA",8.66,4.58,39m 39s
+519,132478746,Savannah Shaw,12019365203,run + 200s,race in 2 days 🥳,2024-07-30 14:04:30+00:00,3857,Run,"Boulder County, USA",10.5,4.87,51m 9s
+520,132478746,Savannah Shaw,12010932543,last practice with the interns 😰,,2024-07-29 14:39:52+00:00,3255,Run,"Boulder County, USA",11.28,4.43,49m 59s
+521,132478746,Savannah Shaw,12129791988,would not recommend running right after a hike 😩,,2024-08-11 20:23:44+00:00,1723,Run,"Steamboat Springs, USA",4.84,4.78,23m 12s
+522,132478746,Savannah Shaw,12129792132,chubby chipmunks,,2024-08-11 18:33:00+00:00,5433,Hike,"Steamboat Springs, USA",5.23,,1h 12m
+523,132478746,Savannah Shaw,12095947335,mid break jog,"plus small lift & backwards walking
+
+Is it too much for break???",2024-08-08 15:09:36+00:00,1382,Run,"Longmont, USA",4.85,4.65,22m 32s
+524,132478746,Savannah Shaw,12172239870,Morning Run,,2024-08-17 15:27:02+00:00,2636,Run,"Longmont, USA",9.67,4.48,43m 19s
+525,132478746,Savannah Shaw,12155557754,Morning Run,,2024-08-15 15:52:12+00:00,2897,Run,"Boulder, USA",9.67,4.98,48m 8s
+526,132478746,Savannah Shaw,12146961097,Morning Run,,2024-08-14 14:47:59+00:00,1778,Run,"Longmont, USA",6.47,4.42,28m 35s
+527,132478746,Savannah Shaw,12139542165,Afternoon Hike,,2024-08-12 19:23:57+00:00,2511,Hike,"Routt County, USA",2.44,,32m 55s
+528,132478746,Savannah Shaw,12231652139,Morning Run,,2024-08-24 15:22:20+00:00,3876,Run,"Boulder Open Space and Mountain Parks, USA",12.88,4.62,59m 32s
+529,132478746,Savannah Shaw,12223475553,Morning Run,,2024-08-23 16:30:27+00:00,2617,Run,"Boulder, USA",9.71,4.43,43m 8s
+530,132478746,Savannah Shaw,12214246292,Morning Run,"warm up with the marathon squad, fantastic vibes as usual",2024-08-22 14:13:10+00:00,2997,Run,"Lagerman Agricultural Preserve, USA",9.68,4.5,43m 37s
+531,132478746,Savannah Shaw,12197886582,Morning Run,,2024-08-20 15:26:45+00:00,2656,Run,"Longmont, USA",9.67,4.43,42m 56s
+532,132478746,Savannah Shaw,12187625377,back @ practice :),,2024-08-19 13:59:16+00:00,2692,Run,"Gunbarrel, USA",8.07,4.53,36m 33s
+533,132478746,Savannah Shaw,12292382974,lil long run,w/maddie :)),2024-08-31 14:56:32+00:00,4715,Run,"Roosevelt National Forest, USA",16.11,4.65,1h 15m
+534,132478746,Savannah Shaw,12282774429,Morning Run,,2024-08-30 16:24:49+00:00,3117,Run,"Longmont, USA",11.28,4.5,50m 52s
+535,132478746,Savannah Shaw,12273873147,Morning Run,,2024-08-29 14:58:09+00:00,2759,Run,"Lagerman Agricultural Preserve, USA",9.76,4.35,42m 30s
+536,132478746,Savannah Shaw,12265303236,Morning Run,,2024-08-28 15:23:18+00:00,3460,Run,"Boulder County, USA",12.2,4.5,54m 59s
+537,132478746,Savannah Shaw,12256184323,Morning Run,,2024-08-27 14:56:33+00:00,2710,Run,"Boulder, USA",9.67,4.58,44m 22s
+538,132478746,Savannah Shaw,12248157308,back 2 it,7 miles plus strides !,2024-08-26 15:50:10+00:00,3800,Run,"Boulder County, USA",12.1,4.23,51m 19s
+539,132478746,Savannah Shaw,12362710986,Lake Louise,,2024-09-08 23:08:27+00:00,1996,Hike,"Banff National Park, Canada",1.75,,25m 43s
+540,132478746,Savannah Shaw,12362554581,Lake Moraine,,2024-09-08 20:04:38+00:00,7524,Hike,"Banff National Park, Canada",5.58,,1h 14m
+541,132478746,Savannah Shaw,12353181671,oooo views,,2024-09-07 21:16:35+00:00,2958,Run,"Town of Canmore, Canada",9.65,4.43,42m 47s
+542,132478746,Savannah Shaw,12343276627,ugh love it,river run!,2024-09-06 17:23:28+00:00,4885,Run,"Calgary, Canada",17.71,4.22,1h 14m
+543,132478746,Savannah Shaw,12335943832,lil workout,"8 x 1 min on, 2 min off
+
+can u tell I got lost lol",2024-09-05 16:51:38+00:00,3810,Run,"Calgary, Canada",14.49,4.28,1h 2m
+544,132478746,Savannah Shaw,12327540549,Canada!,,2024-09-04 18:34:55+00:00,3671,Run,"Calgary, Canada",12.88,4.52,58m 10s
+545,132478746,Savannah Shaw,12316506166,Morning Run,,2024-09-03 14:15:12+00:00,3164,Run,"Longmont, USA",11.33,4.25,48m 13s
+546,132478746,Savannah Shaw,12307199597,saw everyone at tom Watson today,so fun getting back to more normal mileage !,2024-09-02 14:58:30+00:00,4068,Run,"Boulder, USA",14.49,4.42,1h 4m
+547,132478746,Savannah Shaw,12412307263,Afternoon Run,,2024-09-14 23:51:33+00:00,1534,Run,"Longmont, USA",5.65,4.52,25m 34s
+548,132478746,Savannah Shaw,12409750793,sibling run!,,2024-09-14 15:48:57+00:00,4131,Run,"Arvada, USA",14.49,4.57,1h 6m
+549,132478746,Savannah Shaw,12400268966,6x35 sec hills on Tinman hill,bright & early,2024-09-13 13:46:05+00:00,4699,Run,"Boulder, USA",16.11,4.47,1h 11m
+550,132478746,Savannah Shaw,12393193806,lil tuckered out,,2024-09-12 15:40:55+00:00,4210,Run,"Boulder Open Space and Mountain Parks, USA",14.49,4.47,1h 4m
+551,132478746,Savannah Shaw,12388214145,Rainy run,,2024-09-11 23:58:49+00:00,1572,Run,"Boulder, USA",5.64,4.52,25m 27s
+552,132478746,Savannah Shaw,12387162125,Back in CO!,,2024-09-11 14:48:01+00:00,3114,Run,"Longmont, USA",11.27,4.52,50m 55s
+553,132478746,Savannah Shaw,12377104159,3 mile threshold,bye Calgary!,2024-09-10 17:16:36+00:00,3012,Run,"Calgary, Canada",11.3,4.03,45m 34s
+554,132478746,Savannah Shaw,12370985032,Evening Run,,2024-09-10 00:38:33+00:00,3797,Run,"Calgary, Canada",14.49,4.27,1h 1m
+555,132478746,Savannah Shaw,12469394365,Hill repeats after watching the Xc race!!,"Progression run + 6x200m hills + 1 sneaky track 200 + easy run
+
+GO MINES ⚒️",2024-09-21 16:13:30+00:00,5955,Run,"Boulder County, USA",19.33,4.42,1h 25m
+556,132478746,Savannah Shaw,12459962944,Morning Run,,2024-09-20 15:12:39+00:00,4840,Run,"Boulder, USA",16.09,4.68,1h 15m
+557,132478746,Savannah Shaw,12451687129,nice & easy,with Micaela!,2024-09-19 15:13:22+00:00,4171,Run,"Boulder County, USA",12.88,4.78,1h 1m
+558,132478746,Savannah Shaw,12442894585,Road workout 🛣️,"8 x 3 min on, 1 min off (5:50 down to 5:30 pace)",2024-09-18 14:03:55+00:00,5503,Run,"Lagerman Agricultural Preserve, USA",17.69,4.1,1h 12m
+559,132478746,Savannah Shaw,12434854371,besties!,,2024-09-17 16:35:57+00:00,3664,Run,"Boulder, USA",12.89,4.57,58m 56s
+560,132478746,Savannah Shaw,12425506563,first real long run in a minute,keep those BonkBreaker chews on! me!,2024-09-16 14:51:57+00:00,5816,Run,"Longmont, USA",20.92,4.28,1h 29m
+561,132478746,Savannah Shaw,12535533247,feeling sorta ok today 😃,maybe the antibiotics are working??,2024-09-29 15:07:38+00:00,4475,Run,"Boulder, USA",16.11,4.55,1h 13m
+562,132478746,Savannah Shaw,12535533199,"gut - unhappy, heart & soul - v happy",nothing a solo rollinsville run & day in Nederland can’t fix 🫎,2024-09-28 16:05:34+00:00,2706,Run,"Roosevelt National Forest, USA",9.73,4.58,44m 33s
+563,132478746,Savannah Shaw,12516879627,serious demons,"guys! I was gaslighting myself! I have another overgrowth in my gut that’s why I feel so unwell 🥲 onw to get some antibiotics, prayers it’s soon",2024-09-27 15:25:04+00:00,2190,Run,"Longmont, USA",6.91,4.67,32m 14s
+564,132478746,Savannah Shaw,12509356413,sold my soul for a medium long run?,suchhhh a bad cramp for some reason but we made it through 😭 … at what cost 😭,2024-09-26 14:30:50+00:00,4678,Run,"Lagerman Agricultural Preserve, USA",17.71,4.32,1h 16m
+565,132478746,Savannah Shaw,12502245296,Morning Run,,2024-09-25 15:54:53+00:00,4243,Run,"Longmont, USA",14.51,4.4,1h 3m
+566,132478746,Savannah Shaw,12493191903,lake loops,"4 x mile @ threshold (5:50-5:40)
+5 x 1 min @ 5k pace (ouchie)",2024-09-24 14:37:28+00:00,5759,Run,"Frederick, USA",17.71,4.17,1h 13m
+567,132478746,Savannah Shaw,12485237126,busy morning quick run,,2024-09-23 16:05:22+00:00,4002,Run,"Longmont, USA",14.5,4.35,1h 3m
+568,132478746,Savannah Shaw,12584918383,quick double cause it’s rodeo time,help which boots should I wear?? Probably gonna wear jeans instead of skirt,2024-10-05 21:55:20+00:00,1680,Run,"Longmont, USA",6.44,4.35,28m 0s
+569,132478746,Savannah Shaw,12584631679,10x200m hills,normal practice vibes how nice!,2024-10-05 14:48:43+00:00,6159,Run,"Boulder County, USA",15.29,4.65,1h 11m
+570,132478746,Savannah Shaw,12574652783,jog about with brogan Anthony & katie,,2024-10-04 15:29:17+00:00,5052,Run,"Longmont, USA",17.71,4.62,1h 21m
+571,132478746,Savannah Shaw,12566094470,Morning Run,,2024-10-03 15:45:05+00:00,4143,Run,"Boulder County, USA",14.49,4.67,1h 7m
+572,132478746,Savannah Shaw,12560604260,hobby jog yap sess,,2024-10-02 23:00:53+00:00,1877,Run,"Longmont, USA",6.44,4.5,29m 1s
+573,132478746,Savannah Shaw,12557328355,"8 x 3 min on, 1 off","5:45ish pace
+
+sad girls hours - plz leave an angsty song in the comments for me <3",2024-10-02 14:11:12+00:00,5173,Run,"Lagerman Agricultural Preserve, USA",16.11,4.25,1h 8m
+574,132478746,Savannah Shaw,12547957583,syd & sav run,:),2024-10-01 12:02:20+00:00,4450,Run,"Durham, USA",16.13,4.4,1h 11m
+575,132478746,Savannah Shaw,12539880105,oooooo North Carolina,quick lil work trip!,2024-09-30 12:48:28+00:00,2556,Run,"Durham, USA",9.66,4.37,42m 11s
+576,132478746,Savannah Shaw,12648072853,okkk!! There’s some fitness there,"critical speed test with katie rainsberger!
+3200 - 10:35 (5:22, 5:13)
+2k - 6:24 (5:10, 74)
+1k - 3:01
+
+*With 20 minutes of rest in between*
+
+based on a calculation my critical speed (10k pace) is 5:32 @ 6,500ft. I’ll be sharing the calculation soon if anyone wants to try this!!",2024-10-13 15:29:34+00:00,7928,Run,"Douglas County, USA",17.71,4.07,1h 12m
+577,132478746,Savannah Shaw,12641201584,sunset run with Maddie :),the colors!!!!,2024-10-13 00:07:39+00:00,2429,Run,"Boulder, USA",8.05,5.0,40m 21s
+578,132478746,Savannah Shaw,12629941548,pain,how many medical episodes do I get God 😭😭😭,2024-10-11 14:28:13+00:00,3539,Run,"Boulder County, USA",12.88,4.32,55m 31s
+579,132478746,Savannah Shaw,12622157406,A clear morning with the pretty leaves 🥰,,2024-10-10 14:09:57+00:00,4089,Run,"Longmont, USA",14.49,4.43,1h 4m
+580,132478746,Savannah Shaw,12618163442,Sunset double,,2024-10-10 00:24:24+00:00,2196,Run,"Longmont, USA",8.06,4.47,36m 3s
+581,132478746,Savannah Shaw,12614817046,Lab lactate testing👩‍🔬,My range rn is 6:00-5:40 at altitude 👍,2024-10-09 14:43:16+00:00,4090,Run,,12.88,4.1,52m 51s
+582,132478746,Savannah Shaw,12610554784,Easy run for me !,,2024-10-08 14:27:32+00:00,4227,Run,"Frederick, USA",12.89,4.52,58m 17s
+583,132478746,Savannah Shaw,12610554898,Long run with a full crew,,2024-10-07 15:33:33+00:00,5749,Run,"Boulder County, USA",19.32,4.48,1h 26m
+584,132478746,Savannah Shaw,12686706507,cloudy,"I need some time away from strava, all love, I’ll be back down the line",2024-10-18 16:33:16+00:00,3907,Run,"Boulder, USA",14.5,4.33,1h 2m
+585,132478746,Savannah Shaw,12678893738,loud thoughts,,2024-10-17 15:53:07+00:00,3989,Run,"Longmont, USA",14.52,4.5,1h 5m
+586,132478746,Savannah Shaw,12673487597,first double t of the new season,"16x400 in 80’s
+
+17 miles today & 13k+ of threshold!",2024-10-16 22:12:43+00:00,3874,Run,"Longmont, USA",12.1,4.32,52m 14s
+587,132478746,Savannah Shaw,12670523257,slip & slide,"7x1k, double t day!",2024-10-16 14:45:35+00:00,4906,Run,"Gunbarrel, USA",15.3,4.35,1h 6m
+588,132478746,Savannah Shaw,12665132109,product shoot,accidentally saved this & here we are,2024-10-15 22:44:11+00:00,135,Run,,0.1,5.53,35s
+589,132478746,Savannah Shaw,12662854044,First timer at union res,I … think I might like the union run 🤭,2024-10-15 15:00:17+00:00,4177,Run,"Longmont, USA",14.49,4.58,1h 6m
+590,132478746,Savannah Shaw,12655706094,watching the homies do some threshold,can’t wait to be back on the same workout schedule again 💖,2024-10-14 14:43:33+00:00,4574,Run,"Longmont, USA",14.5,4.53,1h 5m
+591,132478746,Savannah Shaw,12863734180,chill run with Alex,,2024-11-09 17:53:09+00:00,4538,Run,"Denver, USA",15.85,4.42,1h 10m
+592,132478746,Savannah Shaw,12856064611,Unintentional double t,7x1k threshold on the treadmill cuz snow storm ✨,2024-11-09 01:11:16+00:00,3414,Run,,12.88,3.77,48m 33s
+593,132478746,Savannah Shaw,12856064596,snow in all directions !!!,"it’s officially winter oooOooo
+
+4xmile at ~5:40 planned to go longer but damn it was crazy out there!",2024-11-08 15:42:01+00:00,3770,Run,"Frederick, USA",12.88,4.13,53m 18s
+594,132478746,Savannah Shaw,12856064620,Evening Run,"25 Training Load.
+-- from COROS",2024-11-08 01:20:54+00:00,1451,Run,"Longmont, USA",4.88,4.57,22m 17s
+595,132478746,Savannah Shaw,12845926670,Morning Run,"62 Training Load.
+-- from COROS",2024-11-07 15:49:39+00:00,4908,Run,"Boulder County, USA",11.57,4.62,53m 32s
+596,132478746,Savannah Shaw,12839070912,Hii maybe I’m back??,election grief & snow,2024-11-06 17:09:50+00:00,4130,Run,"Boulder, USA",14.48,4.65,1h 7m
+597,128956777,KELVIN KIPYEGO,10494385791,Lunch Run,,2024-01-04 18:59:14+00:00,919,Run,"Wichita, USA",3.64,4.17,15m 11s
+598,128956777,KELVIN KIPYEGO,10494384847,Lunch Run,,2024-01-04 18:28:22+00:00,1724,Run,"Wichita, USA",6.38,4.48,28m 38s
+599,128956777,KELVIN KIPYEGO,10494382930,Lunch Run,,2024-01-04 18:19:21+00:00,434,Run,"Wichita, USA",1.73,4.18,7m 14s
+600,128956777,KELVIN KIPYEGO,10488450112,Lunch Run,,2024-01-03 18:42:21+00:00,2341,Run,"Sedgwick County, USA",11.28,3.45,39m 1s
+601,128956777,KELVIN KIPYEGO,10488448587,Afternoon Run,,2024-01-02 19:03:03+00:00,2878,Run,"Wichita, USA",5.88,8.1,47m 40s
+602,128956777,KELVIN KIPYEGO,10488447019,Lunch Run,,2024-01-02 18:53:49+00:00,383,Run,,1.57,4.03,6m 22s
+603,128956777,KELVIN KIPYEGO,10488446678,Lunch Run,,2024-01-02 18:44:33+00:00,527,Run,,1.48,4.35,6m 26s
+604,128956777,KELVIN KIPYEGO,10488445989,Lunch Run,,2024-01-02 18:35:37+00:00,416,Run,,1.33,3.47,4m 37s
+605,128956777,KELVIN KIPYEGO,10488445534,Lunch Run,,2024-01-02 18:12:30+00:00,519,Run,,1.66,4.48,7m 26s
+606,128956777,KELVIN KIPYEGO,10488445060,Afternoon Run,,2024-01-01 22:14:31+00:00,2578,Run,"Wichita, USA",8.14,5.25,42m 50s
+607,128956777,KELVIN KIPYEGO,10474541129,Morning Run,,2024-01-01 16:28:49+00:00,2880,Run,,10.3,4.67,48m 0s
+608,128956777,KELVIN KIPYEGO,10488443597,Morning Run,,2024-01-01 14:54:24+00:00,2874,Run,"Wichita, USA",10.39,4.32,44m 47s
+609,128956777,KELVIN KIPYEGO,10528397598,Afternoon Run,,2024-01-09 23:54:50+00:00,4257,Run,"Wichita, USA",6.15,3.88,23m 51s
+610,128956777,KELVIN KIPYEGO,10518863078,Morning Run,,2024-01-08 16:14:41+00:00,2593,Run,"Wichita, USA",10.54,4.07,42m 48s
+611,128956777,KELVIN KIPYEGO,11521463647,Morning Run,,2024-03-09 13:28:00+00:00,4278,Run,"Neosho, USA",15.62,4.57,1h 11m
+612,128956777,KELVIN KIPYEGO,11521467809,Morning Run,,2024-03-15 13:03:27+00:00,17,Run,,16.0,,
+613,128956777,KELVIN KIPYEGO,11521464807,Night Run,,2024-03-15 04:57:30+00:00,14,Run,,0.0,,10s
+614,128956777,KELVIN KIPYEGO,11521464810,Night Run,,2024-03-15 04:53:36+00:00,216,Run,,0.02,4.67,8s
+615,128956777,KELVIN KIPYEGO,11521464691,Morning Run,,2024-03-14 14:55:49+00:00,11,Run,,0.04,4.2,11s
+616,128956777,KELVIN KIPYEGO,11521464528,Morning Run,,2024-03-11 14:23:39+00:00,2923,Run,"Wichita, USA",12.1,3.97,47m 58s
+617,128956777,KELVIN KIPYEGO,11521479265,Afternoon Run,,2024-03-20 22:12:26+00:00,21847,Run,,1.73,3.72,6m 26s
+618,128956777,KELVIN KIPYEGO,11521475007,Afternoon Run,,2024-03-20 21:02:38+00:00,145,Run,,0.41,2.88,1m 12s
+619,128956777,KELVIN KIPYEGO,11521474864,Afternoon Run,,2024-03-20 21:00:08+00:00,70,Run,,0.4,2.85,1m 10s
+620,128956777,KELVIN KIPYEGO,11521474823,Afternoon Run,,2024-03-20 20:57:44+00:00,69,Run,,0.4,2.85,1m 9s
+621,128956777,KELVIN KIPYEGO,11521474739,Afternoon Run,,2024-03-20 20:54:44+00:00,72,Run,,0.41,2.9,1m 12s
+622,128956777,KELVIN KIPYEGO,11521474611,Afternoon Run,,2024-03-20 20:47:51+00:00,141,Run,,0.8,2.92,2m 21s
+623,128956777,KELVIN KIPYEGO,11521474520,Afternoon Run,,2024-03-20 20:42:42+00:00,141,Run,,0.79,2.97,2m 21s
+624,128956777,KELVIN KIPYEGO,11521474405,Afternoon Run,,2024-03-20 20:37:35+00:00,149,Run,,0.81,3.05,2m 29s
+625,128956777,KELVIN KIPYEGO,11521474214,Afternoon Run,,2024-03-20 20:27:24+00:00,147,Run,,0.81,3.03,2m 27s
+626,128956777,KELVIN KIPYEGO,11521474118,Morning Run,,2024-03-20 11:36:59+00:00,2168,Run,"Neosho, USA",8.05,4.33,34m 53s
+627,128956777,KELVIN KIPYEGO,11521473409,Afternoon Run,,2024-03-19 20:16:13+00:00,3056,Run,"Newton County, USA",11.27,4.52,50m 56s
+628,128956777,KELVIN KIPYEGO,11521472666,Afternoon Run,,2024-03-18 21:06:55+00:00,29585,Run,"Neosho, USA",10.66,2.37,25m 13s
+629,128956777,KELVIN KIPYEGO,11521481955,Morning Run,,2024-03-29 14:58:31+00:00,1856,Run,"Neosho, USA",6.45,4.8,30m 56s
+630,128956777,KELVIN KIPYEGO,11521480752,Afternoon Run,,2024-03-27 20:58:15+00:00,98,Run,,0.28,4.98,1m 26s
+631,128956777,KELVIN KIPYEGO,11521480616,Morning Run,,2024-03-27 11:40:08+00:00,2597,Run,"Neosho, USA",9.67,4.47,43m 11s
+632,128956777,KELVIN KIPYEGO,11521479981,Afternoon Run,,2024-03-26 20:20:51+00:00,3041,Run,"Newton County, USA",11.27,4.45,50m 13s
+633,128956777,KELVIN KIPYEGO,11521486614,Afternoon Run,,2024-04-03 21:58:39+00:00,20154,Run,,2.09,2.7,5m 39s
+634,128956777,KELVIN KIPYEGO,11521482894,Afternoon Run,,2024-04-03 20:39:35+00:00,320,Run,"Neosho, USA",1.21,4.08,4m 59s
+635,128956777,KELVIN KIPYEGO,11521482647,Afternoon Run,,2024-04-03 20:34:09+00:00,312,Run,"Neosho, USA",1.23,4.17,5m 10s
+636,128956777,KELVIN KIPYEGO,11521482523,Afternoon Run,,2024-04-03 20:23:08+00:00,282,Run,"Newton County, USA",1.2,3.9,4m 42s
+637,128956777,KELVIN KIPYEGO,11521482424,Afternoon Run,,2024-04-03 20:10:22+00:00,543,Run,"Newton County, USA",1.62,4.87,7m 55s
+638,128956777,KELVIN KIPYEGO,11521482291,Afternoon Run,,2024-04-01 21:25:16+00:00,2404,Run,,1.5,8.35,12m 35s
+639,128956777,KELVIN KIPYEGO,11521482175,Afternoon Run,,2024-04-01 21:22:02+00:00,185,Run,,0.26,4.28,1m 8s
+640,128956777,KELVIN KIPYEGO,11521481909,Afternoon Run,,2024-04-01 20:45:14+00:00,107,Run,,0.37,3.3,1m 14s
+641,128956777,KELVIN KIPYEGO,11521494237,Morning Run,,2024-04-13 13:44:40+00:00,4793,Run,"Jasper County, USA",19.32,4.03,1h 18m
+642,128956777,KELVIN KIPYEGO,11521492471,Morning Run,,2024-04-12 13:42:13+00:00,49,Run,,0.18,4.43,49s
+643,128956777,KELVIN KIPYEGO,11521492320,Morning Run,,2024-04-12 13:37:38+00:00,28,Run,,0.2,2.32,28s
+644,128956777,KELVIN KIPYEGO,11521492187,Morning Run,,2024-04-12 13:35:34+00:00,30,Run,,0.2,2.42,30s
+645,128956777,KELVIN KIPYEGO,11521492191,Morning Run,,2024-04-12 13:33:24+00:00,30,Run,,0.2,2.43,30s
+646,128956777,KELVIN KIPYEGO,11521492078,Morning Run,,2024-04-12 13:31:15+00:00,27,Run,,0.2,2.27,27s
+647,128956777,KELVIN KIPYEGO,11521491956,Morning Run,,2024-04-12 13:29:13+00:00,27,Run,,0.19,2.3,27s
+648,128956777,KELVIN KIPYEGO,11521491823,Morning Run,,2024-04-12 13:27:06+00:00,28,Run,,0.19,2.37,28s
+649,128956777,KELVIN KIPYEGO,11521491819,Morning Run,,2024-04-12 13:24:58+00:00,30,Run,,0.2,2.4,30s
+650,128956777,KELVIN KIPYEGO,11521491719,Morning Run,,2024-04-12 13:22:57+00:00,31,Run,,0.21,2.38,31s
+651,128956777,KELVIN KIPYEGO,11521491744,Afternoon Run,,2024-04-11 20:10:28+00:00,3038,Run,"Neosho, USA",11.27,4.42,49m 50s
+652,128956777,KELVIN KIPYEGO,11521490809,Morning Run,,2024-04-11 12:04:03+00:00,1797,Run,"Neosho, USA",6.83,4.38,29m 57s
+653,128956777,KELVIN KIPYEGO,11521490306,Afternoon Run,,2024-04-10 20:11:52+00:00,3648,Run,"Neosho, USA",12.87,4.57,58m 55s
+654,128956777,KELVIN KIPYEGO,11521489333,Afternoon Run,,2024-04-09 21:25:39+00:00,820,Run,,1.59,5.62,8m 58s
+655,128956777,KELVIN KIPYEGO,11521489602,Afternoon Run,,2024-04-09 21:15:07+00:00,441,Run,,1.64,3.1,5m 6s
+656,128956777,KELVIN KIPYEGO,11521489220,Afternoon Run,,2024-04-09 21:05:44+00:00,430,Run,,1.67,2.95,4m 56s
+657,128956777,KELVIN KIPYEGO,11521489226,Afternoon Run,,2024-04-09 20:57:41+00:00,406,Run,,1.68,2.93,4m 56s
+658,128956777,KELVIN KIPYEGO,11521489128,Afternoon Run,,2024-04-09 20:49:05+00:00,363,Run,,1.66,3.0,4m 59s
+659,128956777,KELVIN KIPYEGO,11521489079,Afternoon Run,,2024-04-09 20:39:51+00:00,290,Run,,1.62,2.98,4m 50s
+660,128956777,KELVIN KIPYEGO,11521489089,Afternoon Run,,2024-04-09 20:31:23+00:00,285,Run,,1.61,2.93,4m 45s
+661,128956777,KELVIN KIPYEGO,11521487765,Afternoon Run,,2024-04-09 20:07:02+00:00,592,Run,,1.61,5.55,8m 57s
+662,128956777,KELVIN KIPYEGO,11521487504,Afternoon Run,,2024-04-08 20:26:09+00:00,3397,Run,"Newton County, USA",10.68,5.1,54m 27s
+663,128956777,KELVIN KIPYEGO,11521495197,Morning Run,,2024-04-21 12:05:54+00:00,1971,Run,"Neosho, USA",9.66,3.38,32m 42s
+664,128956777,KELVIN KIPYEGO,11521494676,Afternoon Run,,2024-04-17 21:58:50+00:00,271,Run,,0.02,,3m 54s
+665,128956777,KELVIN KIPYEGO,11521494562,Afternoon Run,,2024-04-17 20:35:17+00:00,2810,Run,"Neosho, USA",9.65,4.77,46m 2s
+666,128956777,KELVIN KIPYEGO,11521501422,Afternoon Run,,2024-04-25 21:14:33+00:00,24878,Run,,1.03,3.52,3m 37s
+667,128956777,KELVIN KIPYEGO,11521497976,Afternoon Run,,2024-04-24 20:52:27+00:00,347,Run,,0.29,18.25,5m 23s
+668,128956777,KELVIN KIPYEGO,11521497802,Afternoon Run,,2024-04-24 20:50:17+00:00,31,Run,,0.2,2.53,31s
+669,128956777,KELVIN KIPYEGO,11521497709,Afternoon Run,,2024-04-24 20:48:17+00:00,43,Run,,0.3,2.38,43s
+670,128956777,KELVIN KIPYEGO,11521497540,Afternoon Run,,2024-04-24 20:43:35+00:00,28,Run,,0.2,2.35,28s
+671,128956777,KELVIN KIPYEGO,11521497535,Afternoon Run,,2024-04-24 20:41:46+00:00,28,Run,,0.19,2.43,28s
+672,128956777,KELVIN KIPYEGO,11521497422,Afternoon Run,,2024-04-24 20:39:43+00:00,46,Run,,0.31,2.43,46s
+673,128956777,KELVIN KIPYEGO,11521497425,Afternoon Run,,2024-04-24 20:35:09+00:00,71,Run,,0.24,3.4,49s
+674,128956777,KELVIN KIPYEGO,11521497417,Afternoon Run,,2024-04-24 20:33:34+00:00,37,Run,,0.02,4.4,7s
+675,128956777,KELVIN KIPYEGO,11521497377,Afternoon Run,,2024-04-24 20:31:38+00:00,43,Run,,0.3,2.38,43s
+676,128956777,KELVIN KIPYEGO,11521497076,Afternoon Run,,2024-04-24 20:27:29+00:00,42,Run,,0.22,2.62,35s
+677,128956777,KELVIN KIPYEGO,11521496928,Afternoon Run,,2024-04-24 20:25:48+00:00,44,Run,,0.22,2.92,40s
+678,128956777,KELVIN KIPYEGO,11521496785,Afternoon Run,,2024-04-24 20:23:49+00:00,75,Run,,0.34,3.32,1m 9s
+679,128956777,KELVIN KIPYEGO,11521496669,Afternoon Run,,2024-04-24 19:58:53+00:00,689,Run,,1.87,4.28,8m 1s
+680,128956777,KELVIN KIPYEGO,11521496573,Afternoon Run,,2024-04-23 21:07:28+00:00,1387,Run,"Neosho, USA",5.35,4.3,22m 58s
+681,128956777,KELVIN KIPYEGO,11521496077,Afternoon Run,,2024-04-22 21:11:30+00:00,541,Run,,1.61,5.58,9m 1s
+682,128956777,KELVIN KIPYEGO,11521495972,Afternoon Run,,2024-04-22 21:03:53+00:00,105,Run,,0.42,2.68,1m 9s
+683,128956777,KELVIN KIPYEGO,11521495884,Afternoon Run,,2024-04-22 21:00:32+00:00,100,Run,,0.42,2.8,1m 12s
+684,128956777,KELVIN KIPYEGO,11521495713,Afternoon Run,,2024-04-22 20:49:48+00:00,108,Run,,0.42,2.88,1m 14s
+685,128956777,KELVIN KIPYEGO,11521495570,Afternoon Run,,2024-04-22 20:47:20+00:00,66,Run,,0.4,2.7,1m 6s
+686,128956777,KELVIN KIPYEGO,11521495559,Afternoon Run,,2024-04-22 20:41:05+00:00,133,Run,,0.81,2.72,2m 13s
+687,128956777,KELVIN KIPYEGO,11521495451,Afternoon Run,,2024-04-22 20:35:48+00:00,140,Run,,0.82,2.82,2m 20s
+688,128956777,KELVIN KIPYEGO,11521495307,Afternoon Run,,2024-04-22 20:30:59+00:00,140,Run,,0.83,2.78,2m 20s
+689,128956777,KELVIN KIPYEGO,11521508838,Morning Run,,2024-05-04 12:33:17+00:00,2617,Run,"Neosho, USA",11.28,3.87,43m 37s
+690,128956777,KELVIN KIPYEGO,11521507996,Morning Run,,2024-05-04 12:32:28+00:00,40,Run,,0.15,4.32,40s
+691,128956777,KELVIN KIPYEGO,11521507907,Morning Run,,2024-05-04 12:21:59+00:00,4,Run,,0.0,12.32,4s
+692,128956777,KELVIN KIPYEGO,11521507821,Afternoon Run,,2024-05-01 20:17:10+00:00,2333,Run,"Neosho, USA",8.05,4.68,37m 41s
+693,128956777,KELVIN KIPYEGO,11521507266,Afternoon Run,,2024-04-29 22:25:48+00:00,32194,Run,,1.61,3.72,5m 59s
+694,128956777,KELVIN KIPYEGO,11521502832,Afternoon Run,,2024-04-29 21:16:59+00:00,27,Run,,0.2,2.18,27s
+695,128956777,KELVIN KIPYEGO,11521502555,Afternoon Run,,2024-04-29 21:09:09+00:00,28,Run,,0.21,2.2,28s
+696,128956777,KELVIN KIPYEGO,11521502416,Afternoon Run,,2024-04-29 20:59:56+00:00,44,Run,,0.31,2.35,44s
+697,128956777,KELVIN KIPYEGO,11521502225,Afternoon Run,,2024-04-29 20:50:19+00:00,47,Run,,0.33,2.38,47s
+698,128956777,KELVIN KIPYEGO,11521502135,Afternoon Run,,2024-04-29 20:41:48+00:00,62,Run,,0.42,2.42,1m 2s
+699,128956777,KELVIN KIPYEGO,11521502015,Afternoon Run,,2024-04-29 20:38:19+00:00,1,Run,,0.0,45.05,1s
+700,128956777,KELVIN KIPYEGO,11521501903,Afternoon Run,,2024-04-29 20:30:39+00:00,272,Run,,0.49,2.7,1m 20s
+701,128956777,KELVIN KIPYEGO,11521501795,Afternoon Run,,2024-04-29 20:22:31+00:00,70,Run,,0.5,2.33,1m 10s
+702,128956777,KELVIN KIPYEGO,11521501640,Afternoon Run,,2024-04-29 20:19:46+00:00,5,Run,,0.0,12.2,5s
+703,128956777,KELVIN KIPYEGO,11521501596,Afternoon Run,,2024-04-29 19:58:18+00:00,514,Run,,1.8,4.67,8m 26s
+704,128956777,KELVIN KIPYEGO,11563048073,Morning Run,,2024-06-02 13:48:53+00:00,2027,Run,"Wichita, USA",5.3,6.23,33m 3s
+705,128956777,KELVIN KIPYEGO,11534426132,Morning Run,,2024-05-30 12:01:20+00:00,2337,Run,"Tuscaloosa, USA",9.66,3.95,38m 15s
+706,128956777,KELVIN KIPYEGO,11521542446,Night Run,,2024-05-29 02:11:20+00:00,10,Run,,10.0,,
+707,128956777,KELVIN KIPYEGO,11521508820,Morning Run,,2024-05-28 13:28:36+00:00,9,Run,,1.0,,
+708,128956777,KELVIN KIPYEGO,11639285578,Afternoon Run,,2024-06-09 18:33:05+00:00,1396,Run,"Newton County, USA",4.86,4.78,23m 13s
+709,128956777,KELVIN KIPYEGO,11639284833,Morning Run,,2024-06-09 12:32:02+00:00,2782,Run,"Wichita, USA",9.66,,46m 7s
+710,128956777,KELVIN KIPYEGO,11567346004,Afternoon Run,,2024-06-03 22:47:30+00:00,4105,Run,"Wichita, USA",4.82,12.82,1h 1m
+711,128956777,KELVIN KIPYEGO,11563052543,Morning Run,,2024-06-03 12:13:27+00:00,2482,Run,"Wichita, USA",8.07,4.97,40m 2s
+712,128956777,KELVIN KIPYEGO,11657243260,Morning Run,,2024-06-15 10:59:44+00:00,4131,Run,"Newton County, USA",16.09,4.28,1h 8m
+713,128956777,KELVIN KIPYEGO,11654434927,Morning Run,,2024-06-13 11:56:58+00:00,1981,Run,"Newton County, USA",8.06,3.78,30m 28s
+714,128956777,KELVIN KIPYEGO,11724111792,Evening Run,,2024-06-23 23:13:52+00:00,2556,Run,"Newton County, USA",8.05,5.28,42m 33s
+715,128956777,KELVIN KIPYEGO,11711889964,Morning Run,,2024-06-22 11:07:05+00:00,6674,Run,"Newton County, USA",24.14,4.5,1h 48m
+716,128956777,KELVIN KIPYEGO,11697566061,Morning Run,,2024-06-20 13:22:21+00:00,2704,Run,"Newton County, USA",9.69,,44m 42s
+717,128956777,KELVIN KIPYEGO,11689444421,Morning Run,,2024-06-19 13:29:05+00:00,965,Run,"Newton County, USA",4.84,3.3,16m 0s
+718,128956777,KELVIN KIPYEGO,11685578022,Evening Run,,2024-06-18 23:52:26+00:00,2809,Run,"Newton County, USA",8.01,5.42,43m 21s
+719,128956777,KELVIN KIPYEGO,11680895257,Morning Run,,2024-06-18 12:18:04+00:00,2955,Run,"Newton County, USA",11.27,,48m 39s
+720,128956777,KELVIN KIPYEGO,11672685784,Morning Run,,2024-06-17 11:15:11+00:00,4885,Run,"Newton County, USA",19.31,4.22,1h 21m
+721,128956777,KELVIN KIPYEGO,11770920464,Evening Run,,2024-06-29 23:39:25+00:00,1352,Run,"Newton County, USA",3.3,,21m 12s
+722,128956777,KELVIN KIPYEGO,11766996212,Morning Run,,2024-06-29 12:43:41+00:00,840,Run,"Newton County, USA",3.24,3.72,12m 4s
+723,128956777,KELVIN KIPYEGO,11756409238,Evening Run,,2024-06-28 00:14:50+00:00,3067,Run,"Newton County, USA",8.05,,47m 6s
+724,128956777,KELVIN KIPYEGO,11752022070,Morning Run,,2024-06-27 12:33:04+00:00,2373,Run,"Newton County, USA",8.46,4.67,39m 33s
+725,128956777,KELVIN KIPYEGO,11748021887,Afternoon Run,,2024-06-26 21:21:40+00:00,3192,Run,"Newton County, USA",12.88,3.63,46m 46s
+726,128956777,KELVIN KIPYEGO,11740190345,Evening Run,,2024-06-25 23:19:10+00:00,1995,Run,,6.57,5.03,33m 8s
+727,128956777,KELVIN KIPYEGO,11738482889,Morning Run,,2024-06-25 13:15:23+00:00,2150,Run,"Newton County, USA",8.05,4.43,35m 46s
+728,128956777,KELVIN KIPYEGO,11735660310,Evening Run,,2024-06-24 23:09:02+00:00,603,Run,"Newton County, USA",1.8,5.58,10m 3s
+729,128956777,KELVIN KIPYEGO,11735659547,Afternoon Run,,2024-06-24 22:57:35+00:00,431,Run,,1.19,5.95,7m 7s
+730,128956777,KELVIN KIPYEGO,11727279131,Morning Run,,2024-06-24 12:34:15+00:00,1356,Run,"Newton County, USA",6.45,3.35,21m 34s
+731,128956777,KELVIN KIPYEGO,11727094260,Morning Run,,2024-06-24 12:06:20+00:00,188,Run,"Newton County, USA",0.94,2.67,2m 30s
+732,128956777,KELVIN KIPYEGO,11853387385,Morning Run,,2024-07-06 11:19:10+00:00,2903,Run,"Newton County, USA",10.07,4.8,48m 21s
+733,128956777,KELVIN KIPYEGO,11806882933,Morning Run,,2024-07-04 12:40:50+00:00,745,Run,"Carthage, USA",2.4,5.13,12m 21s
+734,128956777,KELVIN KIPYEGO,11806881622,Morning Run,,2024-07-04 12:04:37+00:00,957,Run,"Carthage, USA",5.01,3.15,15m 50s
+735,128956777,KELVIN KIPYEGO,11806880766,Morning Run,,2024-07-04 11:15:42+00:00,637,Run,"Carthage, USA",1.94,4.82,9m 21s
+736,128956777,KELVIN KIPYEGO,11781402846,Morning Run,,2024-07-01 11:08:33+00:00,2597,Run,"Newton County, USA",8.39,5.15,43m 13s
+737,128956777,KELVIN KIPYEGO,11877578250,Morning Run,,2024-07-13 11:38:06+00:00,2382,Run,"Newton County, USA",9.65,4.08,39m 25s
+738,128956777,KELVIN KIPYEGO,11877575811,Morning Run,,2024-07-12 12:28:08+00:00,2774,Run,"Newton County, USA",9.66,4.73,45m 41s
+739,128956777,KELVIN KIPYEGO,11877575351,Morning Run,,2024-07-11 11:38:40+00:00,3335,Run,"Newton County, USA",11.33,4.78,54m 14s
+740,128956777,KELVIN KIPYEGO,11858347519,Afternoon Run,,2024-07-10 22:45:28+00:00,410,Run,"Newton County, USA",1.61,4.22,6m 50s
+741,128956777,KELVIN KIPYEGO,11858347118,Afternoon Run,,2024-07-10 21:50:19+00:00,2986,Run,"Newton County, USA",11.27,4.17,46m 56s
+742,128956777,KELVIN KIPYEGO,11853796704,Morning Run,,2024-07-10 11:59:52+00:00,1828,Run,"Newton County, USA",6.46,4.43,28m 41s
+743,128956777,KELVIN KIPYEGO,11853386187,Afternoon Run,,2024-07-09 21:53:07+00:00,1578,Run,"Newton County, USA",5.02,,26m 14s
+744,128956777,KELVIN KIPYEGO,11944476692,Morning Run,,2024-07-21 12:18:06+00:00,6632,Run,"Newton County, USA",25.76,4.07,1h 44m
+745,128956777,KELVIN KIPYEGO,11918807919,Morning Run,,2024-07-18 11:40:21+00:00,2477,Run,"Newton County, USA",9.71,4.13,40m 14s
+746,128956777,KELVIN KIPYEGO,11914258746,Afternoon Run,,2024-07-17 20:24:21+00:00,2267,Run,"Newton County, USA",6.44,,37m 33s
+747,128956777,KELVIN KIPYEGO,11912971449,Morning Run,,2024-07-17 12:44:12+00:00,1986,Run,"Newton County, USA",6.53,5.07,33m 6s
+748,128956777,KELVIN KIPYEGO,11905808001,Afternoon Run,,2024-07-16 21:29:26+00:00,1346,Run,"Newton County, USA",3.18,5.95,18m 58s
+749,128956777,KELVIN KIPYEGO,11905807567,Afternoon Run,,2024-07-16 20:32:24+00:00,1071,Run,"Newton County, USA",1.32,,7m 36s
+750,128956777,KELVIN KIPYEGO,11901919524,Morning Run,,2024-07-16 12:43:01+00:00,1147,Run,"Newton County, USA",3.22,,19m 7s
+751,128956777,KELVIN KIPYEGO,11898189895,Afternoon Run,,2024-07-15 21:37:58+00:00,2474,Run,"Newton County, USA",8.05,4.7,37m 49s
+752,128956777,KELVIN KIPYEGO,11898188988,Morning Run,,2024-07-15 12:13:54+00:00,3662,Run,"Newton County, USA",12.88,4.63,59m 36s
+753,128956777,KELVIN KIPYEGO,11998233821,Afternoon Run,,2024-07-27 22:37:09+00:00,361,Run,"Joplin, USA",0.9,6.68,6m 1s
+754,128956777,KELVIN KIPYEGO,11998234060,Afternoon Run,,2024-07-27 21:44:53+00:00,2917,Run,"Joplin, USA",12.88,3.65,46m 55s
+755,128956777,KELVIN KIPYEGO,11998231827,Afternoon Run,,2024-07-27 21:28:03+00:00,468,Run,"Joplin, USA",1.61,4.8,7m 43s
+756,128956777,KELVIN KIPYEGO,11989730797,Evening Run,,2024-07-26 23:58:47+00:00,2668,Run,"Newton County, USA",9.66,4.52,43m 39s
+757,128956777,KELVIN KIPYEGO,11985791536,Morning Run,,2024-07-26 12:31:44+00:00,3358,Run,"Newton County, USA",8.05,,51m 20s
+758,128956777,KELVIN KIPYEGO,11982270089,Evening Run,,2024-07-26 00:56:11+00:00,582,Run,"Newton County, USA",3.22,3.0,9m 42s
+759,128956777,KELVIN KIPYEGO,11968683511,Morning Run,,2024-07-24 11:17:35+00:00,4304,Run,"Newton County, USA",16.09,4.37,1h 10m
+760,128956777,KELVIN KIPYEGO,11959797633,Morning Run,,2024-07-23 11:40:39+00:00,2836,Run,"Newton County, USA",9.66,4.7,45m 28s
+761,128956777,KELVIN KIPYEGO,11956512297,Evening Run,,2024-07-22 23:51:33+00:00,3187,Run,"Joplin, USA",11.27,4.43,50m 0s
+762,128956777,KELVIN KIPYEGO,12055283105,Afternoon Run,,2024-08-03 20:06:31+00:00,1,Run,,0.0,14.12,1s
+763,128956777,KELVIN KIPYEGO,12051451229,Morning Run,,2024-08-03 11:08:30+00:00,5246,Run,"Neosho, USA",19.31,4.42,1h 25m
+764,128956777,KELVIN KIPYEGO,12043465100,Morning Run,,2024-08-02 11:56:02+00:00,2998,Run,"Neosho, USA",11.4,4.37,49m 52s
+765,128956777,KELVIN KIPYEGO,12036051242,Morning Run,,2024-08-01 12:48:39+00:00,883,Run,"Newton County, USA",3.61,3.17,11m 25s
+766,128956777,KELVIN KIPYEGO,12036050685,Morning Run,,2024-08-01 12:13:03+00:00,1564,Run,"Newton County, USA",6.44,3.2,20m 38s
+767,128956777,KELVIN KIPYEGO,12036049443,Morning Run,,2024-08-01 11:58:59+00:00,561,Run,"Newton County, USA",1.61,5.68,9m 12s
+768,128956777,KELVIN KIPYEGO,12026974648,Morning Run,,2024-07-31 11:45:06+00:00,3308,Run,"Neosho, USA",12.89,4.27,54m 59s
+769,128956777,KELVIN KIPYEGO,12019278295,Morning Run,,2024-07-30 12:21:21+00:00,4820,Run,"Joplin, USA",14.64,3.22,47m 11s
+770,128956777,KELVIN KIPYEGO,12124641209,Afternoon Run,,2024-08-11 19:22:41+00:00,1973,Run,,0.03,19.93,36s
+771,128956777,KELVIN KIPYEGO,12120925401,Morning Run,,2024-08-10 11:36:05+00:00,4624,Run,"Newton County, USA",19.31,3.95,1h 16m
+772,128956777,KELVIN KIPYEGO,12103265807,Morning Run,,2024-08-09 11:30:10+00:00,2375,Run,"Newton County, USA",8.04,4.92,39m 31s
+773,128956777,KELVIN KIPYEGO,12095499957,Morning Run,,2024-08-08 12:39:34+00:00,203,Run,,0.49,6.78,3m 23s
+774,128956777,KELVIN KIPYEGO,12095499988,Morning Run,,2024-08-08 12:26:54+00:00,169,Run,,0.98,2.7,2m 40s
+775,128956777,KELVIN KIPYEGO,12095499638,Morning Run,,2024-08-08 12:20:03+00:00,175,Run,,1.0,2.8,2m 49s
+776,128956777,KELVIN KIPYEGO,12095499444,Morning Run,,2024-08-08 12:12:54+00:00,177,Run,,1.0,2.82,2m 49s
+777,128956777,KELVIN KIPYEGO,12095499032,Morning Run,,2024-08-08 12:05:52+00:00,177,Run,,0.99,2.83,2m 49s
+778,128956777,KELVIN KIPYEGO,12095498806,Morning Run,,2024-08-08 11:58:44+00:00,180,Run,,0.97,2.88,2m 49s
+779,128956777,KELVIN KIPYEGO,12095498571,Morning Run,,2024-08-08 11:51:54+00:00,177,Run,,0.99,2.87,2m 51s
+780,128956777,KELVIN KIPYEGO,12095498327,Morning Run,,2024-08-08 11:44:52+00:00,180,Run,,1.0,2.92,2m 55s
+781,128956777,KELVIN KIPYEGO,12095497970,Morning Run,,2024-08-08 11:37:53+00:00,188,Run,,0.99,3.02,3m 1s
+782,128956777,KELVIN KIPYEGO,12095497779,Morning Run,,2024-08-08 11:05:13+00:00,544,Run,,1.6,5.58,8m 58s
+783,128956777,KELVIN KIPYEGO,12091345254,Afternoon Run,,2024-08-07 21:10:42+00:00,3335,Run,"Neosho, USA",11.26,4.92,55m 29s
+784,128956777,KELVIN KIPYEGO,12091344182,Morning Run,,2024-08-07 11:33:00+00:00,3533,Run,"Newton County, USA",12.89,4.5,58m 2s
+785,128956777,KELVIN KIPYEGO,12081448621,Afternoon Run,,2024-08-06 21:17:49+00:00,2365,Run,,9.73,3.9,38m 1s
+786,128956777,KELVIN KIPYEGO,12078536924,Morning Run,,2024-08-06 11:17:12+00:00,3267,Run,"Neosho, USA",11.26,4.07,45m 53s
+787,128956777,KELVIN KIPYEGO,12078534870,Morning Run,,2024-08-05 11:30:31+00:00,3360,Run,"Neosho, USA",12.98,4.3,55m 45s
+788,128956777,KELVIN KIPYEGO,12182732984,Evening Run,,2024-08-18 01:02:24+00:00,960,Run,"Neosho, USA",5.04,3.15,15m 52s
+789,128956777,KELVIN KIPYEGO,12141133569,Afternoon Run,,2024-08-13 22:51:08+00:00,1,Run,,1.0,,0 Cal
+790,128956777,KELVIN KIPYEGO,12141133429,Afternoon Run,,2024-08-13 22:43:28+00:00,400,Run,,0.02,18.93,31s
+791,128956777,KELVIN KIPYEGO,12139856114,Morning Run,,2024-08-13 11:26:16+00:00,2621,Run,"Newton County, USA",9.91,4.4,43m 41s
+792,128956777,KELVIN KIPYEGO,12139856653,Morning Run,,2024-08-13 12:11:23+00:00,376,Run,"Newton County, USA",0.85,7.08,6m 3s
+793,128956777,KELVIN KIPYEGO,12139854565,Morning Run,,2024-08-13 11:18:15+00:00,464,Run,"Newton County, USA",1.34,5.73,7m 44s
+794,128956777,KELVIN KIPYEGO,12139854114,Afternoon Run,,2024-08-12 21:18:23+00:00,2996,Run,"Neosho, USA",9.66,5.07,48m 57s
+795,128956777,KELVIN KIPYEGO,12129121128,Morning Run,,2024-08-12 11:22:43+00:00,3396,Run,"Neosho, USA",12.88,4.4,56m 36s
+796,128956777,KELVIN KIPYEGO,12243484963,Evening Run,,2024-08-26 00:59:22+00:00,3608,Run,,16.63,3.6,1h 0m
+797,128956777,KELVIN KIPYEGO,12241132941,Morning Run,,2024-08-23 12:14:13+00:00,3184,Run,"Neosho, USA",8.9,5.32,47m 19s
+798,128956777,KELVIN KIPYEGO,12213389221,Morning Run,,2024-08-22 12:32:37+00:00,771,Run,,1.54,6.93,10m 43s
+799,128956777,KELVIN KIPYEGO,12213388762,Morning Run,,2024-08-22 12:23:19+00:00,160,Run,,0.97,2.6,2m 32s
+800,128956777,KELVIN KIPYEGO,12213388404,Morning Run,,2024-08-22 12:15:44+00:00,169,Run,,0.97,2.77,2m 42s
+801,128956777,KELVIN KIPYEGO,12213388182,Morning Run,,2024-08-22 12:09:17+00:00,173,Run,,0.99,2.78,2m 46s
+802,128956777,KELVIN KIPYEGO,12213387877,Morning Run,,2024-08-22 12:03:17+00:00,171,Run,,1.02,2.78,2m 51s
+803,128956777,KELVIN KIPYEGO,12213387573,Morning Run,,2024-08-22 11:57:20+00:00,173,Run,,0.99,2.8,2m 46s
+804,128956777,KELVIN KIPYEGO,12213387299,Morning Run,,2024-08-22 11:51:12+00:00,178,Run,,0.98,2.9,2m 51s
+805,128956777,KELVIN KIPYEGO,12213386952,Morning Run,,2024-08-22 11:45:01+00:00,177,Run,,0.97,2.9,2m 50s
+806,128956777,KELVIN KIPYEGO,12213386645,Morning Run,,2024-08-22 11:39:17+00:00,181,Run,,0.98,2.97,2m 55s
+807,128956777,KELVIN KIPYEGO,12213386353,Morning Run,,2024-08-22 11:27:11+00:00,539,Run,,1.96,2.92,5m 44s
+808,128956777,KELVIN KIPYEGO,12213385512,Morning Run,,2024-08-22 10:55:51+00:00,772,Run,,2.03,5.68,11m 32s
+809,128956777,KELVIN KIPYEGO,12210207803,Afternoon Run,,2024-08-21 21:16:28+00:00,3372,Run,"Neosho, USA",11.27,4.98,56m 12s
+810,128956777,KELVIN KIPYEGO,12200918141,Afternoon Run,,2024-08-20 22:18:37+00:00,667,Run,"Newton County, USA",1.64,6.73,11m 3s
+811,128956777,KELVIN KIPYEGO,12200918389,Afternoon Run,,2024-08-20 21:49:01+00:00,1306,Run,"Newton County, USA",4.83,3.08,14m 54s
+812,128956777,KELVIN KIPYEGO,12200918275,Afternoon Run,,2024-08-20 21:32:38+00:00,620,Run,"Newton County, USA",3.22,3.17,10m 14s
+813,128956777,KELVIN KIPYEGO,12200918407,Morning Run,,2024-08-20 11:08:53+00:00,2310,Run,"Neosho, USA",8.05,4.78,38m 30s
+814,128956777,KELVIN KIPYEGO,12200912490,Afternoon Run,,2024-08-19 22:20:11+00:00,508,Run,,0.04,19.52,56s
+815,128956777,KELVIN KIPYEGO,12200912263,Afternoon Run,,2024-08-19 21:16:23+00:00,2761,Run,"Neosho, USA",9.66,4.75,45m 54s
+816,128956777,KELVIN KIPYEGO,12200911089,Morning Run,,2024-08-19 11:14:27+00:00,3391,Run,"Neosho, USA",12.88,4.38,56m 31s
+817,128956777,KELVIN KIPYEGO,12290730921,Morning Run,,2024-08-31 11:41:29+00:00,6190,Run,"Newton County, USA",22.54,4.48,1h 40m
+818,128956777,KELVIN KIPYEGO,12290726289,Morning Run,,2024-08-30 11:16:43+00:00,2760,Run,"Neosho, USA",9.69,4.73,45m 53s
+819,128956777,KELVIN KIPYEGO,12274150932,Morning Run,,2024-08-29 12:09:07+00:00,628,Run,"Newton County, USA",1.6,6.48,10m 24s
+820,128956777,KELVIN KIPYEGO,12274150179,Morning Run,,2024-08-29 11:22:20+00:00,2402,Run,"Neosho, USA",9.66,4.13,39m 55s
+821,128956777,KELVIN KIPYEGO,12263918435,Morning Run,,2024-08-28 11:20:17+00:00,3642,Run,"Newton County, USA",12.8,4.73,1h 0m
+822,128956777,KELVIN KIPYEGO,12259747427,Afternoon Run,,2024-08-27 21:41:05+00:00,2686,Run,"Newton County, USA",6.62,4.28,28m 24s
+823,128956777,KELVIN KIPYEGO,12254800485,Morning Run,,2024-08-27 11:10:50+00:00,2432,Run,"Neosho, USA",8.0,4.77,38m 9s
+824,128956777,KELVIN KIPYEGO,12246021236,Morning Run,,2024-08-26 11:11:52+00:00,2426,Run,"Neosho, USA",8.0,5.03,40m 20s
+825,128956777,KELVIN KIPYEGO,12349475442,Morning Run,,2024-09-07 12:01:45+00:00,5187,Run,"Neosho, USA",19.31,4.43,1h 25m
+826,128956777,KELVIN KIPYEGO,12345471880,Afternoon Run,,2024-09-06 22:29:18+00:00,1230,Run,"Bolivar, USA",6.45,3.17,20m 23s
+827,128956777,KELVIN KIPYEGO,12345471321,Afternoon Run,,2024-09-06 22:01:51+00:00,224,Run,,0.71,5.1,3m 39s
+828,128956777,KELVIN KIPYEGO,12340607200,Morning Run,,2024-09-06 12:25:42+00:00,1080,Run,"Neosho, USA",3.45,4.68,16m 13s
+829,128956777,KELVIN KIPYEGO,12332159203,Morning Run,,2024-09-05 11:13:25+00:00,2144,Run,"Neosho, USA",6.72,4.8,32m 18s
+830,128956777,KELVIN KIPYEGO,12327606935,Afternoon Run,,2024-09-04 20:27:41+00:00,789,Run,"Neosho, USA",3.22,4.08,13m 9s
+831,128956777,KELVIN KIPYEGO,12319352548,Afternoon Run,,2024-09-03 21:15:36+00:00,2726,Run,"Neosho, USA",9.67,4.68,45m 23s
+832,128956777,KELVIN KIPYEGO,12314742176,Morning Run,,2024-09-03 12:24:21+00:00,266,Run,,0.79,5.47,4m 21s
+833,128956777,KELVIN KIPYEGO,12314575464,Morning Run,,2024-09-03 11:43:04+00:00,2201,Run,,4.84,3.15,15m 16s
+834,128956777,KELVIN KIPYEGO,12314573795,Morning Run,,2024-09-03 11:29:53+00:00,620,Run,,1.59,3.07,4m 54s
+835,128956777,KELVIN KIPYEGO,12314573150,Afternoon Run,,2024-09-02 19:35:47+00:00,3059,Run,"Newton County, USA",11.7,4.32,50m 33s
+836,128956777,KELVIN KIPYEGO,12407938378,Morning Run,,2024-09-14 11:23:49+00:00,6656,Run,"Newton County, USA",25.75,4.27,1h 49m
+837,128956777,KELVIN KIPYEGO,12400906716,Morning Run,,2024-09-13 11:24:29+00:00,4139,Run,"Newton County, USA",13.18,5.17,1h 8m
+838,128956777,KELVIN KIPYEGO,12391620671,Morning Run,,2024-09-12 12:27:30+00:00,612,Run,,1.61,6.25,10m 6s
+839,128956777,KELVIN KIPYEGO,12391620413,Morning Run,,2024-09-12 12:16:22+00:00,166,Run,,1.0,2.68,2m 41s
+840,128956777,KELVIN KIPYEGO,12391620092,Morning Run,,2024-09-12 12:11:26+00:00,187,Run,,1.03,3.02,3m 7s
+841,128956777,KELVIN KIPYEGO,12391619888,Morning Run,,2024-09-12 12:06:27+00:00,190,Run,,1.0,3.07,3m 4s
+842,128956777,KELVIN KIPYEGO,12391619628,Morning Run,,2024-09-12 12:01:44+00:00,178,Run,,0.98,2.88,2m 51s
+843,128956777,KELVIN KIPYEGO,12391619303,Morning Run,,2024-09-12 11:56:22+00:00,176,Run,,1.01,2.88,2m 56s
+844,128956777,KELVIN KIPYEGO,12391618998,Morning Run,,2024-09-12 11:51:29+00:00,172,Run,,1.01,2.83,2m 52s
+845,128956777,KELVIN KIPYEGO,12391618774,Morning Run,,2024-09-12 11:46:24+00:00,176,Run,,1.02,2.87,2m 56s
+846,128956777,KELVIN KIPYEGO,12391618518,Morning Run,,2024-09-12 11:41:36+00:00,174,Run,,1.03,2.82,2m 54s
+847,128956777,KELVIN KIPYEGO,12391618254,Morning Run,,2024-09-12 11:36:32+00:00,172,Run,,0.98,2.83,2m 47s
+848,128956777,KELVIN KIPYEGO,12391617991,Morning Run,,2024-09-12 11:31:20+00:00,174,Run,,0.97,2.85,2m 46s
+849,128956777,KELVIN KIPYEGO,12391617589,Morning Run,,2024-09-12 11:02:48+00:00,562,Run,,1.64,5.7,9m 22s
+850,128956777,KELVIN KIPYEGO,12387276548,Afternoon Run,,2024-09-11 21:16:29+00:00,2449,Run,"Neosho, USA",8.13,5.02,40m 49s
+851,128956777,KELVIN KIPYEGO,12385196885,Morning Run,,2024-09-11 11:22:54+00:00,3987,Run,"Newton County, USA",14.68,4.5,1h 6m
+852,128956777,KELVIN KIPYEGO,12385193288,Afternoon Run,,2024-09-10 21:11:13+00:00,2290,Run,"Neosho, USA",8.16,4.67,38m 7s
+853,128956777,KELVIN KIPYEGO,12376096309,Morning Run,,2024-09-10 11:19:04+00:00,4378,Run,"Neosho, USA",12.11,5.07,1h 1m
+854,128956777,KELVIN KIPYEGO,12370134095,Afternoon Run,,2024-09-09 21:18:03+00:00,2813,Run,"Neosho, USA",9.7,4.82,46m 47s
+855,128956777,KELVIN KIPYEGO,12368536519,Morning Run,,2024-09-09 11:24:18+00:00,3675,Run,"Newton County, USA",14.79,4.13,1h 1m
+856,128956777,KELVIN KIPYEGO,12428130908,Afternoon Run,,2024-09-16 21:21:07+00:00,2184,Run,,0.89,10.78,9m 40s
+857,128956777,KELVIN KIPYEGO,12425135492,Morning Run,,2024-09-16 11:24:25+00:00,3137,Run,"Newton County, USA",11.62,4.5,52m 17s
+858,8140136,Samuel Austin,11504261444,Afternoon Walk,,2024-05-06 12:13:21+00:00,11474,Walk,"North York Moors National Park, United Kingdom",4.2,,115 m
+859,53922774,Jennifer Randall,10511583829,Lunch Walk,,2024-01-07 12:06:32+00:00,3525,Walk,,4.15,,58m 45s
+860,53922774,Jennifer Randall,10551167040,Afternoon Walk,,2024-01-13 14:05:51+00:00,7252,Walk,"North Lincolnshire, United Kingdom",11.4,,1h 54m
+861,53922774,Jennifer Randall,10538116594,Afternoon Walk,,2024-01-11 14:52:42+00:00,5460,Walk,,8.73,,1h 31m
+862,53922774,Jennifer Randall,10594646194,Lunch Walk,,2024-01-20 12:33:11+00:00,5758,Walk,,7.62,,1h 35m
+863,53922774,Jennifer Randall,10562893008,Lunch Walk,,2024-01-15 11:53:46+00:00,5851,Walk,,9.4,,1h 37m
+864,53922774,Jennifer Randall,10638976130,Morning Walk,,2024-01-27 10:28:31+00:00,4942,Walk,,6.22,,1h 22m
+865,53922774,Jennifer Randall,10627283882,Afternoon Walk,,2024-01-25 14:01:01+00:00,6224,Walk,,10.0,,1h 43m
+866,53922774,Jennifer Randall,10607425496,Lunch Walk,,2024-01-22 12:39:35+00:00,7260,Walk,,11.26,,2h 1m
+867,53922774,Jennifer Randall,10688517683,Afternoon Walk,,2024-02-03 14:50:24+00:00,4206,Walk,,6.89,,1h 10m
+868,53922774,Jennifer Randall,10675964352,Afternoon Walk,,2024-02-01 17:59:34+00:00,2334,Walk,,3.68,,38m 54s
+869,53922774,Jennifer Randall,10675142105,Afternoon Walk,,2024-02-01 15:56:08+00:00,2484,Walk,,3.98,,41m 24s
+870,53922774,Jennifer Randall,10654917400,Afternoon Walk,,2024-01-29 16:03:59+00:00,6837,Walk,,11.02,,1h 53m
+871,53922774,Jennifer Randall,10734017575,Afternoon Walk,,2024-02-10 13:35:00+00:00,2638,Walk,,3.41,,43m 58s
+872,53922774,Jennifer Randall,10710244961,Evening Walk,,2024-02-06 19:27:28+00:00,2689,Walk,,4.23,,44m 49s
+873,53922774,Jennifer Randall,10709292129,Afternoon Walk,,2024-02-06 17:23:27+00:00,2731,Walk,,4.4,,45m 31s
+874,53922774,Jennifer Randall,10702152314,Afternoon Walk,,2024-02-05 16:34:36+00:00,2759,Walk,,4.53,,45m 59s
+875,53922774,Jennifer Randall,10701394078,Afternoon Walk,,2024-02-05 14:24:56+00:00,2778,Walk,,4.46,,46m 18s
+876,53922774,Jennifer Randall,10779397509,Lunch Walk,,2024-02-17 11:17:05+00:00,4611,Walk,,5.29,,1h 16m
+877,53922774,Jennifer Randall,10752981705,Lunch Walk,,2024-02-13 11:40:54+00:00,3044,Walk,,4.37,,50m 44s
+878,53922774,Jennifer Randall,10752150156,Morning Walk,,2024-02-13 09:22:13+00:00,2946,Walk,,4.46,,49m 6s
+879,53922774,Jennifer Randall,10748134604,Afternoon Walk,,2024-02-12 16:54:29+00:00,2734,Walk,,3.68,,45m 34s
+880,53922774,Jennifer Randall,10747312666,Afternoon Run,,2024-02-12 15:28:02+00:00,2,Run,,2.0,,2
+881,53922774,Jennifer Randall,10747312460,Afternoon Walk,,2024-02-12 14:57:46+00:00,1813,Walk,,2.8,,30m 13s
+882,53922774,Jennifer Randall,11003840026,Night Workout,,2024-02-25 22:12:59+00:00,370,Workout,,6.0,,29 Cal
+883,53922774,Jennifer Randall,11003839945,Afternoon Run,,2024-02-25 13:30:03+00:00,1242,Run,,1.29,16.05,20m 42s
+884,53922774,Jennifer Randall,11003839854,Evening Weight Training,,2024-02-24 18:09:44+00:00,4056,WeightTraining,,1.0,,387 Cal
+885,53922774,Jennifer Randall,11003839849,Afternoon Weight Training,,2024-02-23 16:11:37+00:00,5123,WeightTraining,,1.0,,476 Cal
+886,53922774,Jennifer Randall,11003839765,Lunch Weight Training,,2024-02-21 12:29:14+00:00,4030,WeightTraining,,1.0,,356 Cal
+887,53922774,Jennifer Randall,10801573407,Afternoon Walk,,2024-02-20 16:22:00+00:00,2818,Walk,,4.51,,46m 58s
+888,53922774,Jennifer Randall,11003839688,Afternoon Weight Training,,2024-02-20 14:46:12+00:00,4649,WeightTraining,,1.0,,382 Cal
+889,53922774,Jennifer Randall,10800641460,Afternoon Walk,,2024-02-20 13:55:03+00:00,2744,Walk,,4.48,,45m 44s
+890,53922774,Jennifer Randall,10794164897,Afternoon Walk,,2024-02-19 16:01:03+00:00,982,Walk,,1.71,,16m 22s
+891,53922774,Jennifer Randall,10793933820,Afternoon Walk,,2024-02-19 14:19:11+00:00,1183,Walk,,1.72,,19m 43s
+892,53922774,Jennifer Randall,10793045131,Lunch Walk,,2024-02-19 11:51:06+00:00,3296,Walk,,5.6,,54m 56s
+893,53922774,Jennifer Randall,11003838794,Afternoon Weight Training,,2024-03-02 16:26:48+00:00,3531,WeightTraining,,58.0,,331 Cal
+894,53922774,Jennifer Randall,11003838793,Evening Weight Training,,2024-03-01 19:00:20+00:00,4597,WeightTraining,,1.0,,408 Cal
+895,53922774,Jennifer Randall,11003838669,Evening Workout,,2024-02-29 18:25:35+00:00,1457,Workout,,24.0,,113 Cal
+896,53922774,Jennifer Randall,11003838605,Afternoon Walk,,2024-02-29 14:58:28+00:00,1476,Walk,,1.99,,94 Cal
+897,53922774,Jennifer Randall,11003840156,Afternoon Weight Training,,2024-02-28 15:19:19+00:00,4346,WeightTraining,,1.0,,410 Cal
+898,53922774,Jennifer Randall,10850702336,Evening Walk,,2024-02-27 20:30:10+00:00,5448,Walk,,8.35,,1h 30m
+899,53922774,Jennifer Randall,11003840048,Lunch Weight Training,,2024-02-27 12:41:00+00:00,3620,WeightTraining,,1.0,,265 Cal
+900,53922774,Jennifer Randall,10841629079,Afternoon Walk,,2024-02-26 16:28:01+00:00,2917,Walk,,4.56,,48m 37s
+901,53922774,Jennifer Randall,11003840072,Afternoon Weight Training,,2024-02-26 15:04:55+00:00,4366,WeightTraining,,1.0,,416 Cal
+902,53922774,Jennifer Randall,10840851523,Afternoon Walk,,2024-02-26 14:10:23+00:00,2923,Walk,,4.36,,48m 43s
+903,53922774,Jennifer Randall,11003839064,Afternoon Workout,,2024-03-10 14:04:11+00:00,8347,Workout,,2.0,,575 Cal
+904,53922774,Jennifer Randall,11003838897,Lunch Weight Training,,2024-03-08 12:56:43+00:00,5923,WeightTraining,,1.0,,421 Cal
+905,53922774,Jennifer Randall,11003838858,Evening Weight Training,,2024-03-07 19:11:45+00:00,3540,WeightTraining,,59.0,,303 Cal
+906,53922774,Jennifer Randall,10898067284,Evening Walk,,2024-03-05 19:15:39+00:00,2871,Walk,"Kingston upon Hull, United Kingdom",4.57,,47m 51s
+907,53922774,Jennifer Randall,11003838860,Afternoon Weight Training,,2024-03-05 17:50:49+00:00,4184,WeightTraining,,1.0,,297 Cal
+908,53922774,Jennifer Randall,10896892223,Afternoon Walk,,2024-03-05 16:53:20+00:00,2895,Walk,"Kingston upon Hull, United Kingdom",4.46,,46m 28s
+909,53922774,Jennifer Randall,11003838789,Afternoon Weight Training,,2024-03-04 15:20:41+00:00,4249,WeightTraining,,1.0,,404 Cal
+910,53922774,Jennifer Randall,10888092966,Lunch Walk,,2024-03-04 12:21:44+00:00,5745,Walk,"East Riding of Yorkshire, United Kingdom",9.44,,1h 34m
+911,53922774,Jennifer Randall,10971950225,Afternoon Walk,,2024-03-16 13:13:08+00:00,4188,Walk,"East Riding of Yorkshire, United Kingdom",5.26,,1h 9m
+912,53922774,Jennifer Randall,11003839306,Morning Weight Training,,2024-03-16 08:23:00+00:00,4344,WeightTraining,,1.0,,362 Cal
+913,53922774,Jennifer Randall,11003839208,Afternoon Weight Training,,2024-03-14 15:06:41+00:00,3664,WeightTraining,,1.0,,362 Cal
+914,53922774,Jennifer Randall,11003839131,Afternoon Weight Training,,2024-03-13 16:26:19+00:00,3998,WeightTraining,,1.0,,265 Cal
+915,53922774,Jennifer Randall,10971950183,Evening Walk,,2024-03-12 18:54:07+00:00,2680,Walk,"Kingston upon Hull, United Kingdom",4.44,,44m 40s
+916,53922774,Jennifer Randall,11003839054,Afternoon Weight Training,,2024-03-12 17:24:51+00:00,4291,WeightTraining,,1.0,,388 Cal
+917,53922774,Jennifer Randall,10944445576,Afternoon Walk,,2024-03-12 16:25:19+00:00,3044,Walk,"Kingston upon Hull, United Kingdom",4.43,,47m 37s
+918,53922774,Jennifer Randall,11107373772,Evening Workout,,2024-03-24 19:25:47+00:00,5084,Workout,,1.0,,368 Cal
+919,53922774,Jennifer Randall,11107373778,Afternoon Walk,,2024-03-23 15:05:31+00:00,1379,Walk,,1.27,,66 Cal
+920,53922774,Jennifer Randall,11107373831,Evening Workout,,2024-03-22 20:01:52+00:00,3577,Workout,,59.0,,262 Cal
+921,53922774,Jennifer Randall,11107373827,Afternoon Weight Training,,2024-03-21 16:14:46+00:00,3764,WeightTraining,,1.0,,326 Cal
+922,53922774,Jennifer Randall,11003839331,Afternoon Weight Training,,2024-03-20 16:15:02+00:00,3471,WeightTraining,,57.0,,342 Cal
+923,53922774,Jennifer Randall,11003839312,Afternoon Weight Training,,2024-03-19 15:52:54+00:00,4073,WeightTraining,,1.0,,300 Cal
+924,53922774,Jennifer Randall,11003839317,Afternoon Weight Training,,2024-03-18 14:55:37+00:00,4430,WeightTraining,,1.0,,454 Cal
+925,53922774,Jennifer Randall,10985598682,Lunch Walk,,2024-03-18 11:22:07+00:00,6167,Walk,"North Lincolnshire, United Kingdom",10.34,,1h 42m
+926,53922774,Jennifer Randall,11107373513,Afternoon Weight Training,,2024-03-30 15:02:16+00:00,6352,WeightTraining,,1.0,,551 Cal
+927,53922774,Jennifer Randall,11107373569,Afternoon Weight Training,,2024-03-29 17:55:59+00:00,4004,WeightTraining,,1.0,,274 Cal
+928,53922774,Jennifer Randall,11061235257,Morning Walk,,2024-03-29 09:06:33+00:00,11973,Walk,"East Riding of Yorkshire, United Kingdom",15.03,,3h 3m
+929,53922774,Jennifer Randall,11107373771,Afternoon Weight Training,,2024-03-27 15:48:50+00:00,3599,WeightTraining,,59.0,,352 Cal
+930,53922774,Jennifer Randall,11107373572,Afternoon Weight Training,,2024-03-26 14:17:04+00:00,4388,WeightTraining,,1.0,,384 Cal
+931,53922774,Jennifer Randall,11107373660,Afternoon Weight Training,,2024-03-25 16:16:26+00:00,5098,WeightTraining,,1.0,,538 Cal
+932,53922774,Jennifer Randall,11129483790,Afternoon Walk,,2024-04-07 16:56:13+00:00,2472,Walk,"Kingston upon Hull, United Kingdom",3.7,,39m 29s
+933,53922774,Jennifer Randall,11299332335,Afternoon Weight Training,,2024-04-06 15:00:40+00:00,4067,WeightTraining,,1.0,,309 Cal
+934,53922774,Jennifer Randall,11299332442,Evening Walk,,2024-04-05 17:27:01+00:00,1426,Walk,,1.76,,82 Cal
+935,53922774,Jennifer Randall,11299332452,Afternoon Weight Training,,2024-04-05 14:31:13+00:00,3294,WeightTraining,,54.0,,304 Cal
+936,53922774,Jennifer Randall,11105789558,Afternoon Walk,,2024-04-04 15:22:59+00:00,2794,Walk,"Kingston upon Hull, United Kingdom",4.57,,46m 34s
+937,53922774,Jennifer Randall,11107373225,Afternoon Weight Training,,2024-04-04 14:01:13+00:00,4579,WeightTraining,,1.0,,379 Cal
+938,53922774,Jennifer Randall,11104944507,Afternoon Walk,,2024-04-04 13:06:56+00:00,2739,Walk,"Kingston upon Hull, United Kingdom",4.44,,45m 1s
+939,53922774,Jennifer Randall,11099197952,Afternoon Walk,,2024-04-03 16:35:22+00:00,2141,Walk,"Kingston upon Hull, United Kingdom",3.57,,35m 26s
+940,53922774,Jennifer Randall,11107373261,Afternoon Weight Training,,2024-04-03 15:09:16+00:00,4934,WeightTraining,,1.0,,502 Cal
+941,53922774,Jennifer Randall,11098241111,Afternoon Walk,,2024-04-03 14:25:56+00:00,2162,Walk,"Kingston upon Hull, United Kingdom",3.55,,36m 2s
+942,53922774,Jennifer Randall,11107373378,Evening Workout,,2024-04-02 18:53:19+00:00,2900,Workout,,48.0,,204 Cal
+943,53922774,Jennifer Randall,11107373379,Night Workout,,2024-04-01 20:51:01+00:00,463,Workout,,7.0,,35 Cal
+944,53922774,Jennifer Randall,11098023285,Morning Walk,,2024-04-01 08:42:27+00:00,8097,Walk,"North York Moors National Park, United Kingdom",8.17,,1h 53m
+945,53922774,Jennifer Randall,11299331440,Afternoon Workout,,2024-04-21 13:53:16+00:00,2845,Workout,,47.0,,476 Cal
+946,53922774,Jennifer Randall,11299331503,Afternoon Workout,,2024-04-21 12:22:45+00:00,5413,Workout,,1.0,,600 Cal
+947,53922774,Jennifer Randall,11210710441,Afternoon Walk,,2024-04-18 15:24:41+00:00,2301,Walk,"Kingston upon Hull, United Kingdom",3.6,,36m 49s
+948,53922774,Jennifer Randall,11210396369,Afternoon Walk,,2024-04-18 15:21:40+00:00,69,Walk,"Kingston upon Hull, United Kingdom",0.06,,1m 9s
+949,53922774,Jennifer Randall,11299331608,Afternoon Weight Training,,2024-04-18 14:11:47+00:00,3627,WeightTraining,,1.0,,298 Cal
+950,53922774,Jennifer Randall,11209976166,Afternoon Walk,,2024-04-18 13:27:54+00:00,2165,Walk,"Kingston upon Hull, United Kingdom",3.52,,35m 22s
+951,53922774,Jennifer Randall,11299331721,Afternoon Weight Training,,2024-04-17 12:53:36+00:00,3986,WeightTraining,,1.0,,382 Cal
+952,53922774,Jennifer Randall,11299331708,Afternoon Weight Training,,2024-04-16 15:03:17+00:00,4107,WeightTraining,,1.0,,271 Cal
+953,53922774,Jennifer Randall,11188522320,Afternoon Walk,,2024-04-15 15:39:55+00:00,2629,Walk,"Kingston upon Hull, United Kingdom",4.58,,43m 49s
+954,53922774,Jennifer Randall,11299331926,Afternoon Weight Training,,2024-04-15 14:06:28+00:00,4825,WeightTraining,,1.0,,440 Cal
+955,53922774,Jennifer Randall,11187630282,Afternoon Walk,,2024-04-15 13:06:17+00:00,2807,Walk,"Kingston upon Hull, United Kingdom",4.57,,45m 59s
+956,53922774,Jennifer Randall,11281223008,Morning Walk,,2024-04-28 08:56:52+00:00,1912,Walk,"North York Moors National Park, United Kingdom",1.72,,26m 53s
+957,53922774,Jennifer Randall,11281463050,Morning Walk,,2024-04-28 09:31:07+00:00,1472,Walk,"North York Moors National Park, United Kingdom",1.69,,24m 32s
+958,53922774,Jennifer Randall,11278796814,Night Walk,,2024-04-27 21:29:39+00:00,2635,Walk,"Kingston upon Hull, United Kingdom",3.73,,41m 10s
+959,53922774,Jennifer Randall,11277748627,Evening Walk,,2024-04-27 17:26:05+00:00,2627,Walk,"Kingston upon Hull, United Kingdom",3.63,,37m 37s
+960,53922774,Jennifer Randall,11299331332,Afternoon Weight Training,,2024-04-23 13:50:06+00:00,3754,WeightTraining,,1.0,,272 Cal
+961,53922774,Jennifer Randall,11299331443,Afternoon Weight Training,,2024-04-22 14:46:40+00:00,4708,WeightTraining,,1.0,,451 Cal
+962,53922774,Jennifer Randall,11496717091,Afternoon Workout,,2024-05-05 12:28:44+00:00,2032,Workout,,33.0,,285 Cal
+963,53922774,Jennifer Randall,11496717221,Lunch Workout,,2024-05-04 11:27:14+00:00,5241,Workout,,1.0,,418 Cal
+964,53922774,Jennifer Randall,11496717198,Evening Weight Training,,2024-05-03 18:41:58+00:00,4798,WeightTraining,,1.0,,349 Cal
+965,53922774,Jennifer Randall,11496717254,Evening Workout,,2024-05-02 17:48:46+00:00,4907,Workout,,1.0,,697 Cal
+966,53922774,Jennifer Randall,11496717374,Lunch Weight Training,,2024-05-02 11:47:48+00:00,2808,WeightTraining,,46.0,,236 Cal
+967,53922774,Jennifer Randall,11496717341,Afternoon Weight Training,,2024-05-01 15:51:07+00:00,3731,WeightTraining,,1.0,,354 Cal
+968,53922774,Jennifer Randall,11300959784,Evening Walk,,2024-04-30 17:50:35+00:00,2851,Walk,"Kingston upon Hull, United Kingdom",4.58,,46m 54s
+969,53922774,Jennifer Randall,11496717325,Afternoon Weight Training,,2024-04-30 16:35:38+00:00,3879,WeightTraining,,1.0,,271 Cal
+970,53922774,Jennifer Randall,11299700619,Afternoon Walk,,2024-04-30 15:32:07+00:00,2780,Walk,"Kingston upon Hull, United Kingdom",4.46,,45m 59s
+971,53922774,Jennifer Randall,11299331238,Afternoon Weight Training,,2024-04-29 14:09:38+00:00,5016,WeightTraining,,1.0,,525 Cal
+972,53922774,Jennifer Randall,11496716693,Morning Weight Training,,2024-05-17 07:48:34+00:00,4058,WeightTraining,,1.0,,331 Cal
+973,53922774,Jennifer Randall,11496716754,Afternoon Weight Training,,2024-05-16 12:33:38+00:00,3096,WeightTraining,,51.0,,229 Cal
+974,53922774,Jennifer Randall,11419303324,Evening Walk,,2024-05-15 18:45:11+00:00,3235,Walk,"Kingston upon Hull, United Kingdom",4.76,,48m 53s
+975,53922774,Jennifer Randall,11496716805,Evening Weight Training,,2024-05-15 17:27:54+00:00,3404,WeightTraining,,56.0,,303 Cal
+976,53922774,Jennifer Randall,11418029335,Afternoon Walk,,2024-05-15 16:28:35+00:00,2797,Walk,"Kingston upon Hull, United Kingdom",4.49,,46m 37s
+977,53922774,Jennifer Randall,11496716812,Evening Weight Training,,2024-05-14 19:02:53+00:00,3620,WeightTraining,,1.0,,275 Cal
+978,53922774,Jennifer Randall,11401327381,Afternoon Walk,,2024-05-13 15:25:02+00:00,2060,Walk,"Kingston upon Hull, United Kingdom",3.41,,33m 29s
+979,53922774,Jennifer Randall,11496716879,Afternoon Weight Training,,2024-05-13 13:53:21+00:00,4591,WeightTraining,,1.0,,381 Cal
+980,53922774,Jennifer Randall,11400452015,Afternoon Walk,,2024-05-13 13:03:23+00:00,2334,Walk,"Kingston upon Hull, United Kingdom",3.1,,31m 12s
+981,53922774,Jennifer Randall,11657994194,Night Weight Training,,2024-05-26 21:33:43+00:00,425,WeightTraining,,7.0,,16 Cal
+982,53922774,Jennifer Randall,11657994166,Night Workout,,2024-05-26 20:47:08+00:00,1168,Workout,,19.0,,80 Cal
+983,53922774,Jennifer Randall,11503778403,Afternoon Walk,,2024-05-26 16:09:13+00:00,2197,Walk,"Kingston upon Hull, United Kingdom",3.26,,35m 57s
+984,53922774,Jennifer Randall,11496716527,Lunch Weight Training,,2024-05-25 10:42:05+00:00,4203,WeightTraining,,1.0,,366 Cal
+985,53922774,Jennifer Randall,11496716519,Evening Weight Training,,2024-05-24 17:36:32+00:00,3326,WeightTraining,,55.0,,186 Cal
+986,53922774,Jennifer Randall,11496716520,Evening Weight Training,,2024-05-22 19:05:30+00:00,3615,WeightTraining,,1.0,,291 Cal
+987,53922774,Jennifer Randall,11496716600,Evening Weight Training,,2024-05-21 19:06:06+00:00,3764,WeightTraining,,1.0,,267 Cal
+988,53922774,Jennifer Randall,11455620753,Afternoon Walk,,2024-05-20 13:34:26+00:00,2807,Walk,"Kingston upon Hull, United Kingdom",4.51,,45m 25s
+989,53922774,Jennifer Randall,11496716696,Afternoon Weight Training,,2024-05-20 12:04:36+00:00,5117,WeightTraining,,1.0,,486 Cal
+990,53922774,Jennifer Randall,11454526599,Lunch Walk,,2024-05-20 11:09:03+00:00,2901,Walk,"Kingston upon Hull, United Kingdom",4.46,,48m 21s
+991,53922774,Jennifer Randall,11657993589,Lunch Weight Training,,2024-06-02 11:14:12+00:00,2976,WeightTraining,,49.0,,288 Cal
+992,53922774,Jennifer Randall,11546673704,Morning Walk,,2024-06-01 09:58:54+00:00,5550,Walk,"East Riding of Yorkshire, United Kingdom",6.85,,1h 25m
+993,53922774,Jennifer Randall,11657993584,Afternoon Weight Training,,2024-05-31 14:34:01+00:00,3781,WeightTraining,,1.0,,357 Cal
+994,53922774,Jennifer Randall,11657993893,Afternoon Weight Training,,2024-05-30 15:18:02+00:00,3392,WeightTraining,,56.0,,341 Cal
+995,53922774,Jennifer Randall,11657993881,Evening Workout,,2024-05-29 18:53:42+00:00,1763,Workout,,29.0,,125 Cal
+996,53922774,Jennifer Randall,11657993873,Evening Workout,,2024-05-29 18:38:45+00:00,884,Workout,,14.0,,65 Cal
+997,53922774,Jennifer Randall,11657993895,Afternoon Weight Training,,2024-05-28 15:15:57+00:00,3610,WeightTraining,,1.0,,280 Cal
+998,53922774,Jennifer Randall,11511935004,Evening Walk,,2024-05-27 17:50:11+00:00,6174,Walk,"Kingston upon Hull, United Kingdom",9.44,,1h 36m
+999,53922774,Jennifer Randall,11657994045,Afternoon Weight Training,,2024-05-27 13:57:15+00:00,4924,WeightTraining,,1.0,,489 Cal
+1000,53922774,Jennifer Randall,11657993310,Afternoon Weight Training,,2024-06-09 13:26:23+00:00,3256,WeightTraining,,54.0,,300 Cal
+1001,53922774,Jennifer Randall,11610741938,Lunch Walk,,2024-06-09 10:16:58+00:00,3831,Walk,"Greater London, United Kingdom",5.76,,1h 0m
+1002,53922774,Jennifer Randall,11657993330,Morning Weight Training,,2024-06-07 06:01:59+00:00,3830,WeightTraining,,1.0,,285 Cal
+1003,53922774,Jennifer Randall,11590924260,Evening Walk,,2024-06-06 19:31:17+00:00,2074,Walk,"Greater London, United Kingdom",3.52,,34m 34s
+1004,53922774,Jennifer Randall,11657993322,Morning Weight Training,,2024-06-05 05:43:16+00:00,3927,WeightTraining,,1.0,,366 Cal
+1005,53922774,Jennifer Randall,11657993502,Afternoon Weight Training,,2024-06-04 16:48:49+00:00,4115,WeightTraining,,1.0,,327 Cal
+1006,53922774,Jennifer Randall,11570969423,Afternoon Walk,,2024-06-04 12:05:06+00:00,3250,Walk,"Greater London, United Kingdom",5.46,,54m 10s
+1007,53922774,Jennifer Randall,11657993635,Afternoon Weight Training,,2024-06-03 16:39:33+00:00,4335,WeightTraining,,1.0,,458 Cal
+1008,53922774,Jennifer Randall,11730976800,Night Workout,,2024-06-16 21:58:48+00:00,810,Workout,,13.0,,57 Cal
+1009,53922774,Jennifer Randall,11726651864,Afternoon Walk,,2024-06-16 15:10:14+00:00,4499,Walk,"East Riding of Yorkshire, United Kingdom",7.79,,1h 13m
+1010,53922774,Jennifer Randall,11730977014,Afternoon Walk,,2024-06-15 16:47:05+00:00,1097,Walk,"East Riding of Yorkshire, United Kingdom",1.45,,7 m
+1011,53922774,Jennifer Randall,11657992922,Afternoon Weight Training,,2024-06-14 15:53:19+00:00,4281,WeightTraining,,1.0,,370 Cal
+1012,53922774,Jennifer Randall,11657993038,Morning Weight Training,,2024-06-13 08:31:40+00:00,3424,WeightTraining,,57.0,,256 Cal
+1013,53922774,Jennifer Randall,11657993043,Afternoon Weight Training,,2024-06-12 14:50:50+00:00,2991,WeightTraining,,49.0,,308 Cal
+1014,53922774,Jennifer Randall,11629818681,Evening Walk,,2024-06-11 18:36:27+00:00,3915,Walk,"Kingston upon Hull, United Kingdom",5.51,,1h 5m
+1015,53922774,Jennifer Randall,11657993045,Afternoon Weight Training,,2024-06-11 14:32:31+00:00,3489,WeightTraining,,58.0,,243 Cal
+1016,53922774,Jennifer Randall,11657993350,Afternoon Weight Training,,2024-06-10 15:04:28+00:00,5214,WeightTraining,,1.0,,487 Cal
+1017,53922774,Jennifer Randall,11730976293,Night Workout,,2024-06-23 22:36:05+00:00,189,Workout,,3.0,,9 Cal
+1018,53922774,Jennifer Randall,11730976485,Evening Workout,,2024-06-23 19:25:59+00:00,2639,Workout,,43.0,,186 Cal
+1019,53922774,Jennifer Randall,11730976693,Evening Walk,,2024-06-22 18:04:31+00:00,1001,Walk,"Kingston upon Hull, United Kingdom",1.2,,7 m
+1020,53922774,Jennifer Randall,11730976541,Lunch Weight Training,,2024-06-21 11:42:52+00:00,4351,WeightTraining,,1.0,,369 Cal
+1021,53922774,Jennifer Randall,11730976658,Morning Weight Training,,2024-06-20 09:31:53+00:00,3880,WeightTraining,,1.0,,281 Cal
+1022,53922774,Jennifer Randall,11730976669,Afternoon Weight Training,,2024-06-19 14:05:41+00:00,2868,WeightTraining,,47.0,,276 Cal
+1023,53922774,Jennifer Randall,11730976765,Afternoon Weight Training,,2024-06-18 14:58:25+00:00,3718,WeightTraining,,1.0,,261 Cal
+1024,53922774,Jennifer Randall,11730976841,Lunch Weight Training,,2024-06-17 11:41:06+00:00,4478,WeightTraining,,1.0,,459 Cal
+1025,53922774,Jennifer Randall,11954928029,Night Workout,,2024-06-30 21:18:43+00:00,1157,Workout,,19.0,,81 Cal
+1026,53922774,Jennifer Randall,11954928158,Evening Weight Training,,2024-06-30 19:49:26+00:00,788,WeightTraining,,13.0,,53 Cal
+1027,53922774,Jennifer Randall,11954928347,Afternoon Walk,,2024-06-30 15:24:11+00:00,624,Walk,"Kingston upon Hull, United Kingdom",0.96,,2 m
+1028,53922774,Jennifer Randall,11954928532,Afternoon Weight Training,,2024-06-29 12:58:45+00:00,5043,WeightTraining,,1.0,,419 Cal
+1029,53922774,Jennifer Randall,11954928836,Evening Workout,,2024-06-27 19:55:02+00:00,304,Workout,,5.0,,21 Cal
+1030,53922774,Jennifer Randall,11954928804,Lunch Weight Training,,2024-06-27 10:15:10+00:00,2700,WeightTraining,,45.0,,208 Cal
+1031,53922774,Jennifer Randall,11747320502,Evening Walk,,2024-06-26 19:41:46+00:00,3146,Walk,"Kingston upon Hull, United Kingdom",4.9,,52m 26s
+1032,53922774,Jennifer Randall,11954928831,Afternoon Weight Training,,2024-06-26 13:59:00+00:00,3946,WeightTraining,,1.0,,332 Cal
+1033,53922774,Jennifer Randall,11954928832,Morning Weight Training,,2024-06-25 09:57:27+00:00,4071,WeightTraining,,1.0,,298 Cal
+1034,53922774,Jennifer Randall,11747320506,Afternoon Walk,,2024-06-24 13:24:27+00:00,2920,Walk,"Kingston upon Hull, United Kingdom",4.52,,46m 41s
+1035,53922774,Jennifer Randall,11730976297,Lunch Weight Training,,2024-06-24 11:48:59+00:00,4503,WeightTraining,,1.0,,442 Cal
+1036,53922774,Jennifer Randall,11726651946,Lunch Walk,,2024-06-24 10:36:50+00:00,3054,Walk,"Kingston upon Hull, United Kingdom",4.41,,45m 16s
+1037,53922774,Jennifer Randall,11831543650,Afternoon Walk,,2024-07-07 14:34:22+00:00,6797,Walk,"North Lincolnshire, United Kingdom",10.45,,1h 49m
+1038,53922774,Jennifer Randall,11954927770,Lunch Weight Training,,2024-07-05 11:19:32+00:00,4107,WeightTraining,,1.0,,380 Cal
+1039,53922774,Jennifer Randall,11954927761,Lunch Weight Training,,2024-07-04 10:51:50+00:00,3569,WeightTraining,,59.0,,230 Cal
+1040,53922774,Jennifer Randall,11954927852,Afternoon Weight Training,,2024-07-03 15:23:19+00:00,3835,WeightTraining,,1.0,,357 Cal
+1041,53922774,Jennifer Randall,11954927857,Evening Weight Training,,2024-07-02 18:38:48+00:00,4918,WeightTraining,,1.0,,285 Cal
+1042,53922774,Jennifer Randall,11782258099,Afternoon Walk,,2024-07-01 13:19:26+00:00,2899,Walk,"Kingston upon Hull, United Kingdom",4.51,,47m 22s
+1043,53922774,Jennifer Randall,11954928045,Lunch Weight Training,,2024-07-01 11:40:51+00:00,4785,WeightTraining,,1.0,,452 Cal
+1044,53922774,Jennifer Randall,11781277544,Lunch Walk,,2024-07-01 10:44:25+00:00,3092,Walk,"Kingston upon Hull, United Kingdom",4.86,,51m 32s
+1045,53922774,Jennifer Randall,11954927258,Afternoon Weight Training,,2024-07-14 15:44:10+00:00,3403,WeightTraining,,56.0,,325 Cal
+1046,53922774,Jennifer Randall,11993032528,Normanby Hall 10k,,2024-07-14 08:38:00+00:00,3122,Run,,10.1,5.15,52m 2s
+1047,53922774,Jennifer Randall,11993045181,Slow and Steady 5k pre normanby Hall & post Walkington 10k,,2024-07-13 08:03:00+00:00,1622,Run,,5.1,5.3,27m 2s
+1048,53922774,Jennifer Randall,11993056809,Walkington 10k,,2024-07-12 18:34:00+00:00,3215,Run,,10.1,5.3,53m 35s
+1049,53922774,Jennifer Randall,11993117648,Evening Run,,2024-07-11 17:45:00+00:00,3305,Run,,10.2,5.4,55m 5s
+1050,53922774,Jennifer Randall,11954927414,Morning Weight Training,,2024-07-11 09:32:47+00:00,3668,WeightTraining,,1.0,,251 Cal
+1051,53922774,Jennifer Randall,11954927499,Afternoon Weight Training,,2024-07-10 13:22:25+00:00,3793,WeightTraining,,1.0,,360 Cal
+1052,53922774,Jennifer Randall,11954927657,Evening Weight Training,,2024-07-09 18:09:35+00:00,3616,WeightTraining,,1.0,,262 Cal
+1053,53922774,Jennifer Randall,11993129735,Afternoon Run,,2024-07-09 14:59:00+00:00,4053,Run,,12.1,5.58,1h 7m
+1054,53922774,Jennifer Randall,11954927663,Morning Weight Training,,2024-07-08 09:46:05+00:00,5520,WeightTraining,,1.0,,524 Cal
+1055,53922774,Jennifer Randall,11992995157,Morning Run,,2024-07-21 09:58:00+00:00,4365,Run,,13.5,5.38,1h 12m
+1056,53922774,Jennifer Randall,11954926940,Evening Workout,,2024-07-20 17:55:14+00:00,722,Workout,,12.0,,49 Cal
+1057,53922774,Jennifer Randall,11993010602,Morning Run,,2024-07-20 08:01:00+00:00,1463,Run,,5.2,4.68,24m 23s
+1058,53922774,Jennifer Randall,11954927023,Evening Weight Training,,2024-07-19 17:10:32+00:00,4614,WeightTraining,,1.0,,370 Cal
+1059,53922774,Jennifer Randall,11954927040,Lunch Weight Training,,2024-07-18 10:26:48+00:00,3726,WeightTraining,,1.0,,256 Cal
+1060,53922774,Jennifer Randall,11954927185,Lunch Weight Training,,2024-07-17 10:22:15+00:00,3797,WeightTraining,,1.0,,365 Cal
+1061,53922774,Jennifer Randall,11954927271,Morning Weight Training,,2024-07-16 09:31:44+00:00,3632,WeightTraining,,1.0,,270 Cal
+1062,53922774,Jennifer Randall,11954927257,Afternoon Weight Training,,2024-07-15 13:05:24+00:00,4133,WeightTraining,,1.0,,392 Cal
+1063,53922774,Jennifer Randall,12000809611,South Cave 10k PB! Sub 50!,,2024-07-28 08:03:00+00:00,2980,Run,,10.0,4.97,49m 40s
+1064,53922774,Jennifer Randall,11993874797,Afternoon Walk,,2024-07-27 12:35:40+00:00,3492,Walk,"East Riding of Yorkshire, United Kingdom",5.65,,58m 12s
+1065,53922774,Jennifer Randall,11992918540,Morning Park Run,,2024-07-27 08:01:56+00:00,1407,Run,,4.9,4.78,23m 27s
+1066,53922774,Jennifer Randall,12021157056,Lunch Weight Training,,2024-07-26 10:03:25+00:00,5269,WeightTraining,,1.0,,441 Cal
+1067,53922774,Jennifer Randall,11992940726,Evening Run,,2024-07-25 17:43:00+00:00,2737,Run,,8.5,5.37,45m 37s
+1068,53922774,Jennifer Randall,12021157051,Lunch Weight Training,,2024-07-25 10:27:06+00:00,2957,WeightTraining,,49.0,,190 Cal
+1069,53922774,Jennifer Randall,11970880222,Afternoon Walk,,2024-07-24 16:23:48+00:00,2976,Walk,"Kingston upon Hull, United Kingdom",4.55,,48m 9s
+1070,53922774,Jennifer Randall,12021157294,Afternoon Weight Training,,2024-07-24 15:14:15+00:00,4097,WeightTraining,,1.0,,342 Cal
+1071,53922774,Jennifer Randall,11969823004,Afternoon Walk,,2024-07-24 14:14:17+00:00,3074,Walk,"Kingston upon Hull, United Kingdom",4.43,,46m 23s
+1072,53922774,Jennifer Randall,12021157295,Afternoon Weight Training,,2024-07-23 13:15:32+00:00,4192,WeightTraining,,1.0,,282 Cal
+1073,53922774,Jennifer Randall,11992966452,Evening Run,,2024-07-22 17:58:00+00:00,2499,Run,,7.59,5.48,41m 39s
+1074,53922774,Jennifer Randall,11951863778,Afternoon Walk,,2024-07-22 13:06:17+00:00,3407,Walk,"Kingston upon Hull, United Kingdom",4.61,,46m 41s
+1075,53922774,Jennifer Randall,11954926808,Lunch Weight Training,,2024-07-22 11:36:19+00:00,5026,WeightTraining,,1.0,,435 Cal
+1076,53922774,Jennifer Randall,11950755728,Lunch Walk,,2024-07-22 10:40:09+00:00,2892,Walk,"Kingston upon Hull, United Kingdom",4.51,,45m 59s
+1077,53922774,Jennifer Randall,12062869049,Afternoon Walk,,2024-08-04 16:37:04+00:00,4422,Walk,"Kingston upon Hull, United Kingdom",6.31,,1h 13m
+1078,53922774,Jennifer Randall,12050339796,Saturday Morning Park Run,,2024-08-03 08:06:00+00:00,1376,Run,,5.1,4.5,22m 56s
+1079,53922774,Jennifer Randall,12044633127,Afternoon Walk,,2024-08-02 14:37:15+00:00,3425,Walk,"Kingston upon Hull, United Kingdom",4.7,,49m 13s
+1080,53922774,Jennifer Randall,12050354774,15k Steady one,,2024-08-01 14:55:00+00:00,4901,Run,,15.3,5.33,1h 21m
+1081,53922774,Jennifer Randall,12028511166,Afternoon Walk,,2024-07-31 14:24:53+00:00,6515,Walk,"East Riding of Yorkshire, United Kingdom",10.6,,1h 48m
+1082,53922774,Jennifer Randall,12020889017,Steady One!,Steve Crouch,2024-07-30 17:34:00+00:00,2316,Run,,7.1,5.43,38m 36s
+1083,53922774,Jennifer Randall,12019900047,Afternoon Walk,,2024-07-30 15:33:08+00:00,2975,Walk,"Kingston upon Hull, United Kingdom",4.53,,47m 57s
+1084,53922774,Jennifer Randall,12021156914,Afternoon Weight Training,,2024-07-30 14:04:04+00:00,3931,WeightTraining,,1.0,,292 Cal
+1085,53922774,Jennifer Randall,12018681913,Afternoon Walk,,2024-07-30 12:49:18+00:00,2842,Walk,"Kingston upon Hull, United Kingdom",4.47,,46m 47s
+1086,53922774,Jennifer Randall,12009913139,Afternoon Walk,,2024-07-29 12:18:39+00:00,2940,Walk,"Kingston upon Hull, United Kingdom",4.5,,49m 0s
+1087,53922774,Jennifer Randall,12021156733,Lunch Weight Training,,2024-07-29 10:37:41+00:00,4881,WeightTraining,,1.0,,408 Cal
+1088,53922774,Jennifer Randall,12008724244,Morning Walk,,2024-07-29 09:31:19+00:00,2905,Walk,"Kingston upon Hull, United Kingdom",4.45,,48m 25s
+1089,53922774,Jennifer Randall,12109725742,Morning Run,,2024-08-10 05:58:17+00:00,12185,Run,,33.3,6.1,3h 23m
+1090,53922774,Jennifer Randall,12096271413,Afternoon Run,,2024-08-08 15:09:09+00:00,2361,Run,,7.52,5.23,39m 21s
+1091,53922774,Jennifer Randall,12079878617,Evening Walk,,2024-08-06 17:42:44+00:00,2892,Walk,"Kingston upon Hull, United Kingdom",4.45,,48m 12s
+1092,53922774,Jennifer Randall,12078660594,Afternoon Walk,,2024-08-06 15:38:22+00:00,2929,Walk,"Kingston upon Hull, United Kingdom",4.39,,47m 2s
+1093,53922774,Jennifer Randall,12070570997,Evening Walk,,2024-08-05 17:18:39+00:00,2863,Walk,"Kingston upon Hull, United Kingdom",4.41,,45m 31s
+1094,53922774,Jennifer Randall,12069266052,Afternoon Walk,,2024-08-05 14:51:33+00:00,2932,Walk,"Kingston upon Hull, United Kingdom",4.35,,45m 8s
+1095,53922774,Jennifer Randall,12070568704,Morning Run,,2024-08-05 10:43:47+00:00,3859,Run,,12.21,5.27,1h 4m
+1096,53922774,Jennifer Randall,12177593982,Morning Walk,,2024-08-18 08:47:56+00:00,5622,Walk,"Kingston upon Hull, United Kingdom",7.36,,1h 33m
+1097,53922774,Jennifer Randall,12174135504,Hill reps,,2024-08-17 11:36:00+00:00,1934,Run,,6.1,5.28,32m 14s
+1098,53922774,Jennifer Randall,12174151673,Lunch Run,,2024-08-16 10:31:00+00:00,4730,Run,,14.6,5.4,1h 18m
+1099,53922774,Jennifer Randall,12174143276,Afternoon Run,,2024-08-14 16:52:00+00:00,2689,Run,,8.1,5.53,44m 49s
+1100,53922774,Jennifer Randall,12128947572,Afternoon Walk,,2024-08-12 15:07:00+00:00,3030,Walk,"Kingston upon Hull, United Kingdom",4.52,,48m 34s
+1101,53922774,Jennifer Randall,12127881921,Afternoon Walk,,2024-08-12 12:34:44+00:00,2872,Walk,"Kingston upon Hull, United Kingdom",4.49,,46m 13s
+1102,53922774,Jennifer Randall,12228977232,Nike Run Club: Saturday Morning Run,,2024-08-24 10:43:35+00:00,2406,Run,"East Riding of Yorkshire, United Kingdom",6.05,5.55,33m 38s
+1103,53922774,Jennifer Randall,12227492985,Nike Run Club: Saturday Morning Run,,2024-08-24 08:06:09+00:00,1392,Run,"East Riding of Yorkshire, United Kingdom",5.03,4.6,23m 9s
+1104,53922774,Jennifer Randall,12214608661,Nike Run Club: Thursday Afternoon Run,,2024-08-22 14:46:09+00:00,4014,Run,"Kingston upon Hull, United Kingdom",12.38,5.33,1h 6m
+1105,53922774,Jennifer Randall,12197043377,Afternoon Walk,,2024-08-20 15:07:53+00:00,3303,Walk,"Kingston upon Hull, United Kingdom",4.68,,52m 28s
+1106,53922774,Jennifer Randall,12213277836,Evening Run,,2024-08-19 17:51:52+00:00,2650,Run,,8.41,5.25,44m 10s
+1107,53922774,Jennifer Randall,12187471759,Afternoon Walk,,2024-08-19 13:57:37+00:00,1629,Walk,"Kingston upon Hull, United Kingdom",2.65,,27m 9s
+1108,53922774,Jennifer Randall,12186542305,Lunch Walk,,2024-08-19 11:25:01+00:00,2895,Walk,"Kingston upon Hull, United Kingdom",4.59,,46m 13s
+1109,53922774,Jennifer Randall,12286779750,Nike Run Club: Saturday Morning Run,,2024-08-31 08:02:05+00:00,1345,Run,"Kingston upon Hull, United Kingdom",4.95,4.48,22m 12s
+1110,53922774,Jennifer Randall,12271682439,Nike Run Club: Thursday Morning Run,,2024-08-29 10:12:26+00:00,2594,Run,"East Riding of Yorkshire, United Kingdom",8.24,5.23,43m 9s
+1111,53922774,Jennifer Randall,12255898240,Afternoon Walk,,2024-08-27 13:28:15+00:00,5842,Walk,"Kingston upon Hull, United Kingdom",9.37,,1h 33m
+1112,53922774,Jennifer Randall,12249182224,Nike Run Club: Monday Evening Run,,2024-08-26 17:34:48+00:00,4185,Run,"Kingston upon Hull, United Kingdom",12.91,5.38,1h 9m
+1113,53922774,Jennifer Randall,12360636893,Afternoon Walk,,2024-09-08 15:56:47+00:00,4510,Walk,"East Riding of Yorkshire, United Kingdom",6.93,,1h 14m
+1114,53922774,Jennifer Randall,12351447130,Nike Run Club: Saturday Evening Run,,2024-09-07 16:10:00+00:00,2994,Run,"Kingston upon Hull, United Kingdom",8.82,5.4,47m 42s
+1115,53922774,Jennifer Randall,12341506615,Afternoon Walk,,2024-09-06 14:05:50+00:00,3034,Walk,"East Riding of Yorkshire, United Kingdom",4.14,,48m 44s
+1116,53922774,Jennifer Randall,12303724733,Nike Run Club: Monday Morning Run,,2024-09-02 06:18:15+00:00,1747,Run,"Rome, Italy",5.06,5.33,27m 1s
+1117,53922774,Jennifer Randall,12457198492,Nike Run Club: Friday Morning Run,,2024-09-20 09:04:25+00:00,3242,Run,"Greater London, United Kingdom",10.07,5.33,53m 46s
+1118,53922774,Jennifer Randall,12426832608,Nike Run Club: Monday Evening Run,,2024-09-16 17:36:41+00:00,2153,Run,"Kingston upon Hull, United Kingdom",6.55,5.45,35m 40s
+1119,53922774,Jennifer Randall,12530505821,Nike Run Club: Sunday Morning Run,,2024-09-29 08:00:37+00:00,6736,Run,"East Riding of Yorkshire, United Kingdom",21.12,5.32,1h 52m
+1120,53922774,Jennifer Randall,12521121687,Nike Run Club: Saturday Morning Run,,2024-09-28 08:04:56+00:00,1387,Run,"Kingston upon Hull, United Kingdom",4.91,4.68,23m 4s
+1121,53922774,Jennifer Randall,12514333298,Nike Run Club: Friday Morning Run,,2024-09-27 08:27:28+00:00,3237,Run,"Kingston upon Hull, United Kingdom",10.12,5.3,53m 35s
+1122,53922774,Jennifer Randall,12482357179,Nike Run Club: Monday Morning Run,,2024-09-23 09:56:41+00:00,2130,Run,"Kingston upon Hull, United Kingdom",6.59,5.23,34m 32s
+1123,53922774,Jennifer Randall,12587155133,Nike Run Club: Sunday Morning Run,,2024-10-06 07:33:41+00:00,3801,Run,"East Riding of Yorkshire, United Kingdom",10.02,5.38,53m 58s
+1124,53922774,Jennifer Randall,12581710278,Nike Run Club: Saturday Afternoon Run,,2024-10-05 15:04:15+00:00,2070,Run,"Kingston upon Hull, United Kingdom",6.56,5.22,34m 14s
+1125,53922774,Jennifer Randall,12565151381,Nike Run Club: Thursday Afternoon Run,,2024-10-03 14:07:58+00:00,2959,Run,"North Lincolnshire, United Kingdom",9.06,5.35,48m 27s
+1126,53922774,Jennifer Randall,12644612271,Nike Run Club: Sunday Morning Run,,2024-10-13 08:09:12+00:00,6748,Run,"Greater London, United Kingdom",21.17,5.3,1h 52m
+1127,53922774,Jennifer Randall,12861851830,Evening Workout,,2024-10-12 18:15:31+00:00,1449,Workout,,24.0,,109 Cal
+1128,53922774,Jennifer Randall,12634349568,Nike Run Club: Saturday Morning Run,,2024-10-12 07:35:33+00:00,1584,Run,"South Kesteven, United Kingdom",5.0,5.25,26m 20s
+1129,53922774,Jennifer Randall,12861851849,Evening Workout,,2024-10-11 19:08:39+00:00,1159,Workout,,19.0,,81 Cal
+1130,53922774,Jennifer Randall,12612923109,Nike Run Club: Wednesday Morning Run,,2024-10-09 10:51:57+00:00,2095,Run,"Kingston upon Hull, United Kingdom",6.6,5.18,34m 15s
+1131,53922774,Jennifer Randall,12606983996,Nike Run Club: Tuesday Evening Run,,2024-10-08 16:16:51+00:00,2005,Run,"Kingston upon Hull, United Kingdom",6.45,5.17,33m 21s
+1132,53922774,Jennifer Randall,12697995243,Nike Run Club: Sunday Morning Run,,2024-10-20 06:51:19+00:00,2627,Run,"Greater London, United Kingdom",8.18,5.22,42m 43s
+1133,53922774,Jennifer Randall,12861851142,Evening Workout,,2024-10-19 17:54:26+00:00,6621,Workout,,1.0,,466 Cal
+1134,53922774,Jennifer Randall,12861851157,Afternoon Weight Training,,2024-10-18 15:54:44+00:00,4169,WeightTraining,,1.0,,341 Cal
+1135,53922774,Jennifer Randall,12684233898,Nike Run Club: Friday Morning Run,,2024-10-18 10:59:41+00:00,2669,Run,"Kingston upon Hull, United Kingdom",8.1,5.22,42m 16s
+1136,53922774,Jennifer Randall,12861851278,Night Workout,,2024-10-17 20:01:48+00:00,191,Workout,,3.0,,13 Cal
+1137,53922774,Jennifer Randall,12861851270,Evening Weight Training,,2024-10-17 17:13:55+00:00,3161,WeightTraining,,52.0,,163 Cal
+1138,53922774,Jennifer Randall,12861851370,Afternoon Weight Training,,2024-10-16 14:46:06+00:00,4171,WeightTraining,,1.0,,382 Cal
+1139,53922774,Jennifer Randall,12861851589,Lunch Weight Training,,2024-10-15 10:35:19+00:00,4826,WeightTraining,,1.0,,255 Cal
+1140,53922774,Jennifer Randall,12655048614,Nike Run Club: Monday Evening Run,,2024-10-14 17:19:23+00:00,1865,Run,"Kingston upon Hull, United Kingdom",5.46,5.37,29m 19s
+1141,53922774,Jennifer Randall,12655040794,Evening Run,,2024-10-14 17:18:08+00:00,1831,Run,"Kingston upon Hull, United Kingdom",5.68,5.37,30m 31s
+1142,53922774,Jennifer Randall,12861851517,Afternoon Weight Training,,2024-10-14 13:01:06+00:00,4625,WeightTraining,,1.0,,442 Cal
+1143,53922774,Jennifer Randall,12755129655,Nike Run Club: Sunday Morning Run,,2024-10-27 09:00:23+00:00,3014,Run,"East Riding of Yorkshire, United Kingdom",10.0,5.02,50m 10s
+1144,53922774,Jennifer Randall,12861850859,Afternoon Weight Training,,2024-10-26 12:03:18+00:00,4111,WeightTraining,,1.0,,294 Cal
+1145,53922774,Jennifer Randall,12746462228,Nike Run Club: Saturday Morning Run,,2024-10-26 08:08:10+00:00,1436,Run,"Kingston upon Hull, United Kingdom",4.97,4.8,23m 53s
+1146,53922774,Jennifer Randall,12861850938,Evening Weight Training,,2024-10-25 18:40:28+00:00,4019,WeightTraining,,1.0,,339 Cal
+1147,53922774,Jennifer Randall,12742647000,Nike Run Club: Friday Evening Run,,2024-10-25 16:27:08+00:00,1912,Run,"Kingston upon Hull, United Kingdom",5.81,5.35,31m 5s
+1148,53922774,Jennifer Randall,12735350462,Nike Run Club: Thursday Evening Run,,2024-10-24 16:36:01+00:00,2654,Run,"Kingston upon Hull, United Kingdom",8.14,5.33,43m 21s
+1149,53922774,Jennifer Randall,12861851034,Lunch Weight Training,,2024-10-24 10:47:11+00:00,4159,WeightTraining,,1.0,,306 Cal
+1150,53922774,Jennifer Randall,12861851033,Night Workout,,2024-10-21 20:09:02+00:00,879,Workout,,14.0,,63 Cal
+1151,53922774,Jennifer Randall,12861851148,Morning Weight Training,,2024-10-21 08:12:32+00:00,3894,WeightTraining,,1.0,,356 Cal
+1152,53922774,Jennifer Randall,12861850378,Evening Workout,,2024-11-03 19:10:37+00:00,1287,Workout,,21.0,,93 Cal
+1153,53922774,Jennifer Randall,12861850492,Afternoon Workout,,2024-11-03 15:41:04+00:00,2431,Workout,,40.0,,166 Cal
+1154,53922774,Jennifer Randall,12861850605,Afternoon Workout,,2024-11-03 15:30:30+00:00,521,Workout,,8.0,,37 Cal
+1155,53922774,Jennifer Randall,12802402997,Nike Run Club: Saturday Morning Run,,2024-11-02 09:02:00+00:00,1470,Run,"Metropolitan Borough of Solihull, United Kingdom",5.0,4.88,24m 25s
+1156,53922774,Jennifer Randall,12861850688,Afternoon Weight Training,,2024-11-01 13:07:09+00:00,3699,WeightTraining,,1.0,,266 Cal
+1157,53922774,Jennifer Randall,12861850689,Afternoon Weight Training,,2024-10-31 14:55:45+00:00,2520,WeightTraining,,42.0,,193 Cal
+1158,53922774,Jennifer Randall,12861850768,Evening Weight Training,,2024-10-30 19:56:55+00:00,4041,WeightTraining,,1.0,,318 Cal
+1159,53922774,Jennifer Randall,12774494316,Nike Run Club: Tuesday Afternoon Run,,2024-10-29 16:01:18+00:00,1835,Run,"Kingston upon Hull, United Kingdom",5.63,5.4,30m 26s
+1160,53922774,Jennifer Randall,12861850776,Afternoon Weight Training,,2024-10-29 14:09:33+00:00,3638,WeightTraining,,1.0,,267 Cal
+1161,53922774,Jennifer Randall,12768119589,Nike Run Club: Monday Evening Run,,2024-10-28 20:06:19+00:00,1911,Run,"Kingston upon Hull, United Kingdom",5.81,5.47,31m 47s
+1162,53922774,Jennifer Randall,12861850862,Afternoon Weight Training,,2024-10-28 13:18:41+00:00,4948,WeightTraining,,1.0,,435 Cal
+1163,53922774,Jennifer Randall,12871633679,Afternoon Weight Training,,2024-11-10 17:36:08+00:00,2871,WeightTraining,,47.0,,227 Cal
+1164,53922774,Jennifer Randall,12869485949,Football,,2024-11-10 13:20:00+00:00,4200,Run,,8.8,7.95,1h 10m
+1165,53922774,Jennifer Randall,12869669127,Afternoon Workout,,2024-11-10 13:24:31+00:00,1498,Workout,,24.0,,207 Cal
+1166,53922774,Jennifer Randall,12861347517,Nike Run Club: Saturday Afternoon Run - 10.2 Miles - Easy 7/10 Effort,,2024-11-09 15:25:13+00:00,5408,Run,"Kingston upon Hull, United Kingdom",16.21,5.52,1h 29m
+1167,53922774,Jennifer Randall,12861849921,Evening Weight Training,,2024-11-08 18:40:14+00:00,4182,WeightTraining,,1.0,,191 Cal
+1168,53922774,Jennifer Randall,12851064377,Nike Run Club: Friday Morning Run,,2024-11-08 10:51:23+00:00,1844,Run,"Kingston upon Hull, United Kingdom",5.2,5.42,28m 11s
+1169,53922774,Jennifer Randall,12861850151,Afternoon Weight Training,,2024-11-07 15:39:50+00:00,3766,WeightTraining,,1.0,,318 Cal
+1170,53922774,Jennifer Randall,12835666743,Nike Run Club: Wednesday Morning Run,,2024-11-06 10:23:00+00:00,2593,Run,"Kingston upon Hull, United Kingdom",7.33,5.45,39m 59s
+1171,53922774,Jennifer Randall,12831603678,Nike Run Club: Tuesday Evening Run,,2024-11-05 18:44:02+00:00,3085,Run,"Kingston upon Hull, United Kingdom",8.14,5.67,46m 6s
+1172,53922774,Jennifer Randall,12861850266,Afternoon Weight Training,,2024-11-05 14:24:35+00:00,4753,WeightTraining,,1.0,,225 Cal
+1173,53922774,Jennifer Randall,12861850292,Afternoon Weight Training,,2024-11-04 15:05:45+00:00,5425,WeightTraining,,1.0,,498 Cal
