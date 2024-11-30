@@ -1,4 +1,4 @@
-,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (km),Pace (min/km),Time
 0,94876602,James Kimeu,10483884386,The big game warm up,,2024-01-03 07:09:20+00:00,2046,Run,"Makueni, Kenya",3.69,6.28,23m 12s
 1,94876602,James Kimeu,10477226040,The big boys,,2024-01-02 03:57:44+00:00,3177,Run,"Makueni, Kenya",8.13,,52m 2s
 2,94876602,James Kimeu,10518292156,Jan 4th run,,2024-01-08 14:19:30+00:00,3788,Run,"Nairobi County, Kenya",12.1,5.17,1h 2m
