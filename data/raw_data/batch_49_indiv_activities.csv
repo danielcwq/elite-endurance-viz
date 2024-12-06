@@ -1,4 +1,4 @@
-,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (mi),Pace (min/mi),Time
+,Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (km),Pace (min/km),Time
 0,81785282,Nico Boketta,10510411155,Lunch Run,,2024-01-07 10:03:18+00:00,2983,Run,"Jesenice, Czechia",10.04,4.92,49m 19s
 1,81785282,Nico Boketta,10504120053,Lunch Run,"2km - 5.48
 1km - 2.44
