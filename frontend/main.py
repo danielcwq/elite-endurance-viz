@@ -3,6 +3,7 @@ import json
 import pandas as pd
 from typing import Optional, Dict
 from abc import ABC, abstractmethod
+from urllib.parse import unquote
 
 # Data Management
 class DataSource(ABC):
@@ -24,7 +25,7 @@ def _init_country_coordinates():
     return {
         'AFG': {'lat': 33.9391, 'lng': 67.7100},  # Afghanistan
         'ALB': {'lat': 41.1533, 'lng': 20.1683},  # Albania
-        'DZA': {'lat': 36.7538, 'lng': 3.0588},   # Algeria
+        'ALG': {'lat': 36.7538, 'lng': 3.0588},   # Algeria
         'AND': {'lat': 42.5063, 'lng': 1.5218},   # Andorra
         'AGO': {'lat': -11.2027, 'lng': 17.8739}, # Angola
         'ARG': {'lat': -38.4161, 'lng': -63.6167}, # Argentina
@@ -56,7 +57,7 @@ def _init_country_coordinates():
         'CUB': {'lat': 21.5218, 'lng': -77.7812}, # Cuba
         'CYP': {'lat': 35.1264, 'lng': 33.4299},  # Cyprus
         'CZE': {'lat': 49.8175, 'lng': 15.4730},  # Czech Republic
-        'DNK': {'lat': 56.2639, 'lng': 9.5018},   # Denmark
+        'DEN': {'lat': 56.2639, 'lng': 9.5018},   # Denmark
         'DJI': {'lat': 11.8251, 'lng': 42.5903},  # Djibouti
         'DOM': {'lat': 18.7357, 'lng': -70.1627}, # Dominican Republic
         'ECU': {'lat': -1.8312, 'lng': -78.1834}, # Ecuador
@@ -69,7 +70,7 @@ def _init_country_coordinates():
         'FRA': {'lat': 46.2276, 'lng': 2.2137},   # France
         'GAB': {'lat': -0.8037, 'lng': 11.6094},  # Gabon
         'GEO': {'lat': 42.3154, 'lng': 43.3569},  # Georgia
-        'DEU': {'lat': 51.1657, 'lng': 10.4515},  # Germany
+        'GER': {'lat': 51.1657, 'lng': 10.4515},  # Germany
         'GHA': {'lat': 7.9465, 'lng': -1.0232},   # Ghana
         'GRC': {'lat': 39.0742, 'lng': 21.8243},  # Greece
         'GTM': {'lat': 15.7835, 'lng': -90.2308}, # Guatemala
@@ -118,7 +119,7 @@ def _init_country_coordinates():
         'MMR': {'lat': 21.9162, 'lng': 95.9560},  # Myanmar
         'NAM': {'lat': -22.9576, 'lng': 18.4904}, # Namibia
         'NPL': {'lat': 28.3949, 'lng': 84.1240},  # Nepal
-        'NLD': {'lat': 52.1326, 'lng': 5.2913},   # Netherlands
+        'NED': {'lat': 52.1326, 'lng': 5.2913},   # Netherlands
         'NZL': {'lat': -40.9006, 'lng': 174.8860}, # New Zealand
         'NIC': {'lat': 12.8654, 'lng': -85.2072}, # Nicaragua
         'NER': {'lat': 17.6078, 'lng': 8.0817},   # Niger
@@ -133,7 +134,7 @@ def _init_country_coordinates():
         'PER': {'lat': -9.1900, 'lng': -75.0152}, # Peru
         'PHL': {'lat': 12.8797, 'lng': 121.7740}, # Philippines
         'POL': {'lat': 51.9194, 'lng': 19.1451},  # Poland
-        'PRT': {'lat': 39.3999, 'lng': -8.2245},  # Portugal
+        'POR': {'lat': 39.3999, 'lng': -8.2245},  # Portugal
         'QAT': {'lat': 25.3548, 'lng': 51.1839},  # Qatar
         'ROU': {'lat': 45.9432, 'lng': 24.9668},  # Romania
         'RUS': {'lat': 61.5240, 'lng': 105.3188}, # Russia
@@ -145,14 +146,14 @@ def _init_country_coordinates():
         'SVK': {'lat': 48.6690, 'lng': 19.6990},  # Slovakia
         'SVN': {'lat': 46.1512, 'lng': 14.9955},  # Slovenia
         'SOM': {'lat': 5.1521, 'lng': 46.1996},   # Somalia
-        'ZAF': {'lat': -30.5595, 'lng': 22.9375}, # South Africa
+        'RSA': {'lat': -30.5595, 'lng': 22.9375}, # South Africa
         'KOR': {'lat': 35.9078, 'lng': 127.7669}, # South Korea
         'SSD': {'lat': 6.8770, 'lng': 31.3070},   # South Sudan
         'ESP': {'lat': 40.4637, 'lng': -3.7492},  # Spain
         'LKA': {'lat': 7.8731, 'lng': 80.7718},   # Sri Lanka
         'SDN': {'lat': 12.8628, 'lng': 30.2176},  # Sudan
         'SWE': {'lat': 60.1282, 'lng': 18.6435},  # Sweden
-        'CHE': {'lat': 46.8182, 'lng': 8.2275},   # Switzerland
+        'SUI': {'lat': 46.8182, 'lng': 8.2275},   # Switzerland
         'SYR': {'lat': 34.8021, 'lng': 38.9968},  # Syria
         'TWN': {'lat': 23.5937, 'lng': 121.0254}, # Taiwan
         'TJK': {'lat': 38.8610, 'lng': 71.2761},  # Tajikistan
@@ -167,7 +168,7 @@ def _init_country_coordinates():
         'ARE': {'lat': 23.4241, 'lng': 53.8478},  # United Arab Emirates
         'GBR': {'lat': 55.3781, 'lng': -3.4360},  # United Kingdom
         'USA': {'lat': 37.0902, 'lng': -95.7129}, # United States
-        'URY': {'lat': -32.5228, 'lng': -55.7658}, # Uruguay
+        'URU': {'lat': -32.5228, 'lng': -55.7658}, # Uruguay
         'UZB': {'lat': 41.3775, 'lng': 64.5853},  # Uzbekistan
         'VEN': {'lat': 6.4238, 'lng': -66.5897},  # Venezuela
         'VNM': {'lat': 14.0583, 'lng': 108.2772}, # Vietnam
@@ -208,6 +209,7 @@ app, rt = fast_app(
 )
 
 def create_map_script(athletes_data: list) -> str:
+    
     return f"""
         var map = L.map('map').setView([0, 0], 2);
         L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
@@ -239,7 +241,8 @@ def create_map_script(athletes_data: list) -> str:
                 '<p>Athletes: ' + athletes.length + '</p>' +
                 '<ul>' +
                 athletes.map(function(a) {{
-                    return '<li>' + a['Athlete Name'] + ' (' + a.Discipline + ')</li>';
+                    return '<li><a href="/athlete/' + encodeURIComponent(a.Competitor) + '">' + 
+                           a['Athlete Name'] + '</a> (' + a.Discipline + ')</li>';
                 }}).join('') +
                 '</ul></div>';
             
@@ -255,30 +258,186 @@ def create_map_script(athletes_data: list) -> str:
             markers.options.maxClusterRadius = currentZoom < 5 ? 30 : 10;
             markers.refreshClusters();
         }});
+        
     """
+
 
 @rt("/")
 def get():
     # Initialize data
-    data_source = CSVDataSource('cleaned_athlete_metadata.csv')
+    data_source = CSVDataSource('../cleaned_athlete_metadata.csv')
     data_manager = DataManager(data_source)
     athletes_data = data_manager.load_data().to_dict('records')
     
-    return Titled("Elite Athletes Map",
+    return Style("""
+            /* Reset defaults */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body { 
+                margin: 0; 
+                padding: 0; 
+                font-family: system-ui, -apple-system, sans-serif;
+                background: #f8fafc;
+                color: #1e293b;
+                line-height: 1.5;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .header {
+                background: white;
+                padding: 1.5rem;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            }
+
+            h1 { 
+                font-size: 2rem;
+                font-weight: 600;
+                margin: 0;
+            }
+
+            .subtitle {
+                color: #64748b;
+                margin-top: 0.25rem;
+            }
+
+            /* Remove container padding */
+            .container {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* Make map container fill available space */
+            .map-container {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                background: white;
+            }
+
+            /* Remove map borders and make it fill container */
+            #map { 
+                flex: 1;
+                width: 100%;
+                border: none;
+                border-radius: 0;
+            }
+
+            /* Leaflet specific fixes */
+            .leaflet-container {
+                width: 100%;
+                height: 100%;
+                border-radius: 0;
+            }
+        """),Main(
+            Div(
+                H1("Elite Runners Database"),
+                P("A visualisation of elite runners' training based on public Strava data.", cls="subtitle"),
+                cls="header"
+            ),
+            Div(
+                Div(id="map"),
+                cls="map-container"
+            ),
+            cls="container"
+        ),Script(create_map_script(athletes_data))
+
+@rt("/athlete/{name}")
+def get_athlete(name: str):
+    # URL decode the name parameter
+    decoded_name = unquote(name)
+    
+    # Find athlete in data
+    data_source = CSVDataSource('../cleaned_athlete_metadata.csv')
+    data_manager = DataManager(data_source)
+    athletes_data = data_manager.load_data()
+    athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
+    
+    return Titled(f"{decoded_name} - Athlete Profile",
         Style("""
-            body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
-            .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-            h1 { text-align: center; color: #333; margin-bottom: 30px; }
-            #map { height: 600px; width: 100%; }
+            .athlete-profile {
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 2rem;
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            
+            .athlete-stats {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1.5rem;
+                margin-top: 2rem;
+            }
+            
+            .stat-card {
+                background: #f8fafc;
+                padding: 1rem;
+                border-radius: 6px;
+            }
+            
+            .stat-value {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #1e293b;
+            }
+            
+            .stat-label {
+                color: #64748b;
+                font-size: 0.875rem;
+            }
+            
+            .back-link {
+                display: inline-block;
+                margin-bottom: 1rem;
+                color: #3b82f6;
+                text-decoration: none;
+            }
+            
+            .back-link:hover {
+                text-decoration: underline;
+            }
         """),
         Main(
             Div(
-                H1("Elite Endurance Athletes Worldwide"),
-                Div(id="map"),
-                cls="container"
-            )
-        ),
-        Script(create_map_script(athletes_data))
+                A("← Back to Map", href="/", cls="back-link"),
+                H1(decoded_name),
+                P(f"Nationality: {athlete['Nat']}"),
+                P(f"Events: {athlete['Discipline']}"),
+                Div(
+                    Div(
+                        Div(f"{athlete['Total_Run_Distance_km']:.2f} km", cls="stat-value"),
+                        Div("Total Distance", cls="stat-label"),
+                        cls="stat-card"
+                    ),
+                    Div(
+                        Div(f"{athlete['Total_Run_Hours']:.1f} hrs", cls="stat-value"),
+                        Div("Total Run Hours", cls="stat-label"),
+                        cls="stat-card"
+                    ),
+                    Div(
+                        Div(f"{athlete['Avg_Weekly_Run_Mileage_km']:.1f} km", cls="stat-value"),
+                        Div("Avg Weekly Mileage", cls="stat-label"),
+                        cls="stat-card"
+                    ),
+                    Div(
+                        Div(f"{athlete['Avg_Run_Pace_min_per_km']:.2f} min/km", cls="stat-value"),
+                        Div("Average Pace", cls="stat-label"),
+                        cls="stat-card"
+                    ),
+                    cls="athlete-stats"
+                ),
+                cls="athlete-profile"
+            ),
+            cls="container"
+        )
     )
 
 if __name__ == "__main__":
