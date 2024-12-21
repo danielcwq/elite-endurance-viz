@@ -199,6 +199,7 @@ class DataManager:
 
 # FastHTML App
 app, rt = fast_app(
+    use_sessions=False,
     hdrs=(
         Link(rel='stylesheet', href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css'),
