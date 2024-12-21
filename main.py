@@ -266,7 +266,7 @@ def create_map_script(athletes_data: list) -> str:
 @rt("/")
 def get():
     # Initialize data
-    data_source = CSVDataSource('../cleaned_athlete_metadata.csv')
+    data_source = CSVDataSource('cleaned_athlete_metadata.csv')
     data_manager = DataManager(data_source)
     athletes_data = data_manager.load_data().to_dict('records')
     
