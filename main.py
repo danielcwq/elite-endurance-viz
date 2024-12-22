@@ -339,7 +339,7 @@ def get():
         """),Main(
             Div(
                 H1("Elite Runners Database"),
-                P("A visualisation of elite runners' training based on 2024 public Strava data (limited to the first 45 weeks).", cls="subtitle"),
+                P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks).", cls="subtitle"),
                 P("Elite runners are arbitrarily given a cutoff of >= 1100 IAAF points.", cls="subtitle"),
                 P(
                     "View the source code on ", 
