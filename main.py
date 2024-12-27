@@ -10,7 +10,20 @@ class DataSource(ABC):
     @abstractmethod
     def load_data(self) -> pd.DataFrame:
         pass
+class IndividualActivitiesDataSource(DataSource):
+    def __init__(self, file_path: str):
+        self.file_path = file_path
 
+    def load_data(self) -> pd.DataFrame:
+        try:
+            df = pd.read_csv(self.file_path)
+            # Convert Start Date to datetime
+            df['Start Date'] = pd.to_datetime(df['Start Date'])
+            return df
+        except Exception as e:
+            print(f"Error loading individual activities data: {e}")
+            return pd.DataFrame()
+        
 class CSVDataSource(DataSource):
     def __init__(self, file_path: str):
         self.file_path = file_path
@@ -365,32 +378,29 @@ def get_athlete(name: str):
     
     # Find athlete in data
     data_source = CSVDataSource('cleaned_athlete_metadata.csv')
+    activities_source = IndividualActivitiesDataSource('indiv_activities_full.csv')
+    
     data_manager = DataManager(data_source)
     athletes_data = data_manager.load_data()
+    activities_data = activities_source.load_data()
+    
     athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
+    athlete_activities = activities_data[activities_data['Athlete Name'] == decoded_name].sort_values('Start Date', ascending=False)
     
     return Titled(f"{decoded_name} - Athlete Profile",
         Style("""
-            .athlete-profile {
-                max-width: 800px;
-                margin: 2rem auto;
-                padding: 2rem;
-                background: white;
-                border-radius: 8px;
-                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            }
-            
             .athlete-stats {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                gap: 1.5rem;
-                margin-top: 2rem;
+                gap: 1rem;
+                margin: 2rem 0;
             }
             
             .stat-card {
-                background: #f8fafc;
-                padding: 1rem;
-                border-radius: 6px;
+                background: white;
+                padding: 1.5rem;
+                border-radius: 0.5rem;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             }
             
             .stat-value {
@@ -400,19 +410,48 @@ def get_athlete(name: str):
             }
             
             .stat-label {
-                color: #64748b;
                 font-size: 0.875rem;
+                color: #64748b;
+                margin-top: 0.5rem;
             }
-            
+
+            .athlete-profile {
+                padding: 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
             .back-link {
                 display: inline-block;
-                margin-bottom: 1rem;
+                margin-bottom: 2rem;
                 color: #3b82f6;
                 text-decoration: none;
             }
-            
+
             .back-link:hover {
                 text-decoration: underline;
+            }
+            
+            .activities-table {
+                width: 100%;
+                margin-top: 2rem;
+                border-collapse: collapse;
+            }
+            
+            .activities-table th,
+            .activities-table td {
+                padding: 0.75rem;
+                text-align: left;
+                border-bottom: 1px solid #e2e8f0;
+            }
+            
+            .activities-table th {
+                background: #f8fafc;
+                font-weight: 600;
+            }
+            
+            .activities-table tr:hover {
+                background: #f8fafc;
             }
         """),
         Main(
@@ -443,6 +482,28 @@ def get_athlete(name: str):
                         cls="stat-card"
                     ),
                     cls="athlete-stats"
+                ),
+                H2("Recent Activities"),
+                Table(
+                    Tr(
+                        Th("Date"),
+                        Th("Activity Name"),
+                        Th("Type"),
+                        Th("Distance (km)"),
+                        Th("Time (min)"),
+                        Th("Pace (min/km)"),
+                        Th("Location")
+                    ),
+                    *[Tr(
+                        Td(row['Start Date'].strftime('%Y-%m-%d')),
+                        Td(row['Activity Name']),
+                        Td(row['Type']),
+                        Td(f"{row['Distance (km)']:.2f}"),
+                        Td(f"{row['Time (min)']:.1f}"),
+                        Td(f"{row['Pace (min/km)']:.2f}"),
+                        Td(row['Location'])
+                    ) for _, row in athlete_activities.iterrows()],
+                    cls="activities-table"
                 ),
                 cls="athlete-profile"
             ),
