@@ -283,7 +283,8 @@ def get():
     data_manager = DataManager(data_source)
     athletes_data = data_manager.load_data().to_dict('records')
     
-    return Style("""
+    return Titled("Elite Runners Database",
+        Style("""
             /* Reset defaults */
             * {
                 margin: 0;
@@ -351,7 +352,6 @@ def get():
             }
         """),Main(
             Div(
-                H1("Elite Runners Database"),
                 P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks).", cls="subtitle"),
                 P("Elite runners are arbitrarily given a cutoff of >= 1100 IAAF points.", cls="subtitle"),
                 P(
@@ -369,7 +369,7 @@ def get():
                 cls="map-container"
             ),
             cls="container"
-        ),Script(create_map_script(athletes_data))
+        ),Script(create_map_script(athletes_data)))
 
 @rt("/athlete/{name}")
 def get_athlete(name: str):
@@ -385,7 +385,7 @@ def get_athlete(name: str):
     activities_data = activities_source.load_data()
     
     athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
-    athlete_activities = activities_data[activities_data['Athlete Name'] == decoded_name].sort_values('Start Date', ascending=False)
+    athlete_activities = activities_data[activities_data['Athlete Name'].str.lower() == decoded_name.lower()].sort_values('Start Date', ascending=False)
     
     return Titled(f"{decoded_name} - Athlete Profile",
         Style("""
