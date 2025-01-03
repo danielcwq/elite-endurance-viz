@@ -386,6 +386,12 @@ def get_athlete(name: str):
     
     athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
     athlete_activities = activities_data[activities_data['Athlete Name'].str.lower() == decoded_name.lower()].sort_values('Start Date', ascending=False)
+
+    marks = athlete['Mark'].split('|') if pd.notna(athlete['Mark']) else []
+    disciplines = athlete['Discipline'].split('|') if pd.notna(athlete['Discipline']) else []
+    
+    # Create a list of event-time pairs
+    event_times = list(zip(disciplines, marks)) if marks and disciplines else []
     
     return Titled(f"{decoded_name} - Elite Runners Database",
         Style("""
@@ -394,7 +400,32 @@ def get_athlete(name: str):
                 margin: 0 auto;
                 padding: 2rem;
             }
-            
+              
+            .event-times {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 1rem;
+                margin: 1.5rem 0;
+            }
+
+            .event-card {
+                background: #f8fafc;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                border: 1px solid #e2e8f0;
+            }
+
+            .event-name {
+                font-weight: 600;
+                color: #1e293b;
+                margin-bottom: 0.5rem;
+            }
+
+            .event-time {
+                color: #64748b;
+                font-size: 0.9rem;
+            }
+              
             .athlete-stats {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -517,7 +548,16 @@ def get_athlete(name: str):
                 A("← Back to Map", href="/", cls="back-link"),
                 H1(decoded_name),
                 P(f"Nationality: {athlete['Nat']}"),
-                P(f"Events: {athlete['Discipline']}"),
+                H2("Seasons Bests"),
+                Div(
+                    *[Div(
+                        Div(event, cls="event-name"),
+                        Div(time, cls="event-time"),
+                        cls="event-card"
+                    ) for event, time in event_times],
+                    cls="event-times"
+                ),
+                H2("Training Stats"),
                 Div(
                     Div(
                         Div(f"{athlete['Total_Run_Distance_km']:.2f} km", cls="stat-value"),
