@@ -453,6 +453,38 @@ def get_athlete(name: str):
             .activities-table tr:hover {
                 background: #f8fafc;
             }
+            .activity-name {
+                position: relative;  /* Enable positioning for the dropdown */
+                display: flex;      /* Use flexbox for name and icon alignment */
+                align-items: center;
+                gap: 0.5rem;        /* Space between name and dropdown icon */
+            }
+
+            .dropdown-icon {
+                cursor: pointer;     /* Show pointer cursor on hover */
+                color: #666;        /* Subtle gray color for the icon */
+            }
+
+            .description-box {
+                display: none;       /* Hidden by default */
+                position: absolute;  /* Position relative to activity-name */
+                left: 0;
+                top: 100%;          /* Position below the activity name */
+                background: white;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                z-index: 1000;      /* Ensure it appears above other content */
+                min-width: 200px;
+                max-width: 400px;
+                white-space: pre-wrap;  /* Preserve line breaks in description */
+                margin-top: 0.5rem;
+            }
+
+            /* Show description box on hover */
+            .activity-name:hover .description-box {
+                display: block;
+            }
         """),
         Main(
             Div(
@@ -492,16 +524,22 @@ def get_athlete(name: str):
                         Th("Distance (km)"),
                         Th("Time (min)"),
                         Th("Pace (min/km)"),
-                        Th("Location")
                     ),
                     *[Tr(
                         Td(row['Start Date'].strftime('%Y-%m-%d')),
-                        Td(row['Activity Name']),
+                        Td(
+                            # Create a container for the activity name and description
+                            Div(
+                                row['Activity Name'],  # The activity name
+                                " ⤵️" if pd.notna(row.get('Description')) else "",  # Dropdown icon if description exists
+                                Div(row.get('Description', ''), cls="description-box"),  # Description box
+                                cls="activity-name"
+                            ) if pd.notna(row['Activity Name']) else "-"
+                        ),
                         Td(row['Type']),
                         Td(f"{row['Distance (km)']:.2f}"),
                         Td(f"{row['Time (min)']:.1f}"),
                         Td(f"{row['Pace (min/km)']:.2f}"),
-                        Td(row['Location'])
                     ) for _, row in athlete_activities.iterrows()],
                     cls="activities-table"
                 ),
