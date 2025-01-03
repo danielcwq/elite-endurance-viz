@@ -284,6 +284,16 @@ def get():
     athletes_data = data_manager.load_data().to_dict('records')
     
     return Titled("Elite Runners Database",
+        Script("""
+            <!-- Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-XXXXXXXXXX');
+            </script>
+        """),
         Style("""
             /* Reset defaults */
             * {
@@ -352,7 +362,7 @@ def get():
             }
         """),Main(
             Div(
-                P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks).", cls="subtitle"),
+                P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks, IAAF data pulled end Sept).", cls="subtitle"),
                 P("Elite runners are arbitrarily given a cutoff of >= 1100 IAAF points.", cls="subtitle"),
                 P(
                     "View the source code on ", 
@@ -394,6 +404,16 @@ def get_athlete(name: str):
     event_times = list(zip(disciplines, marks)) if marks and disciplines else []
     
     return Titled(f"{decoded_name} - Elite Runners Database",
+         Script("""
+            <!-- Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFWZT8GQTN"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TFWZT8GQTN');
+            </script>
+        """),
         Style("""
             .container {
                 max-width: 1200px;
