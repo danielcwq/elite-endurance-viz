@@ -286,12 +286,12 @@ def get():
     return Titled("Elite Runners Database",
         Script("""
             <!-- Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFWZT8GQTN"></script>
             <script>
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-XXXXXXXXXX');
+                gtag('config', 'G-TFWZT8GQTN');
             </script>
         """),
         Style("""
