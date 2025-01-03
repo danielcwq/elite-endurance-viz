@@ -387,8 +387,14 @@ def get_athlete(name: str):
     athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
     athlete_activities = activities_data[activities_data['Athlete Name'].str.lower() == decoded_name.lower()].sort_values('Start Date', ascending=False)
     
-    return Titled(f"{decoded_name} - Athlete Profile",
+    return Titled(f"{decoded_name} - Elite Runners Database",
         Style("""
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+            
             .athlete-stats {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -414,28 +420,11 @@ def get_athlete(name: str):
                 color: #64748b;
                 margin-top: 0.5rem;
             }
-
-            .athlete-profile {
-                padding: 2rem;
-                max-width: 1200px;
-                margin: 0 auto;
-            }
-
-            .back-link {
-                display: inline-block;
-                margin-bottom: 2rem;
-                color: #3b82f6;
-                text-decoration: none;
-            }
-
-            .back-link:hover {
-                text-decoration: underline;
-            }
             
             .activities-table {
                 width: 100%;
-                margin-top: 2rem;
                 border-collapse: collapse;
+                margin-top: 2rem;
             }
             
             .activities-table th,
@@ -450,41 +439,78 @@ def get_athlete(name: str):
                 font-weight: 600;
             }
             
-            .activities-table tr:hover {
-                background: #f8fafc;
+            .back-link {
+                display: inline-block;
+                margin-bottom: 2rem;
+                color: #3b82f6;
+                text-decoration: none;
             }
-            .activity-name {
-                position: relative;  /* Enable positioning for the dropdown */
-                display: flex;      /* Use flexbox for name and icon alignment */
-                align-items: center;
-                gap: 0.5rem;        /* Space between name and dropdown icon */
+            
+            .back-link:hover {
+                text-decoration: underline;
             }
 
-            .dropdown-icon {
-                cursor: pointer;     /* Show pointer cursor on hover */
-                color: #666;        /* Subtle gray color for the icon */
+            .activity-cell {
+                position: relative;
+            }
+
+            .activity-name {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .dropdown-trigger {
+                cursor: pointer;
+                padding: 2px 5px;
+                border-radius: 3px;
+                background: #f0f0f0;
+                font-size: 12px;
             }
 
             .description-box {
-                display: none;       /* Hidden by default */
-                position: absolute;  /* Position relative to activity-name */
+                display: none;
+                position: absolute;
                 left: 0;
-                top: 100%;          /* Position below the activity name */
+                top: 100%;
                 background: white;
                 padding: 1rem;
                 border-radius: 0.5rem;
-                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-                z-index: 1000;      /* Ensure it appears above other content */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
                 min-width: 200px;
                 max-width: 400px;
-                white-space: pre-wrap;  /* Preserve line breaks in description */
+                white-space: pre-wrap;
                 margin-top: 0.5rem;
+                border: 1px solid #e2e8f0;
             }
 
-            /* Show description box on hover */
-            .activity-name:hover .description-box {
-                display: block;
+            .show-description {
+                display: block !important;
             }
+        """),
+        Script("""
+            function toggleDescription(event, id) {
+                event.stopPropagation();
+                const descBox = document.getElementById('desc-' + id);
+                
+                // Close all other open descriptions
+                document.querySelectorAll('.description-box').forEach(box => {
+                    if (box.id !== 'desc-' + id) {
+                        box.classList.remove('show-description');
+                    }
+                });
+                
+                // Toggle current description
+                descBox.classList.toggle('show-description');
+            }
+
+            // Close all descriptions when clicking outside
+            document.addEventListener('click', () => {
+                document.querySelectorAll('.description-box').forEach(box => {
+                    box.classList.remove('show-description');
+                });
+            });
         """),
         Main(
             Div(
@@ -528,24 +554,27 @@ def get_athlete(name: str):
                     *[Tr(
                         Td(row['Start Date'].strftime('%Y-%m-%d')),
                         Td(
-                            # Create a container for the activity name and description
                             Div(
-                                row['Activity Name'],  # The activity name
-                                " ⤵️" if pd.notna(row.get('Description')) else "",  # Dropdown icon if description exists
-                                Div(row.get('Description', ''), cls="description-box"),  # Description box
-                                cls="activity-name"
+                                Div(
+                                    row['Activity Name'],
+                                    Span("🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
+                                    if pd.notna(row.get('Description')) else "",
+                                    cls="activity-name"
+                                ),
+                                Div(row['Description'], cls="description-box", id=f"desc-{i}")
+                                if pd.notna(row.get('Description')) else "",
+                                cls="activity-cell"
                             ) if pd.notna(row['Activity Name']) else "-"
                         ),
                         Td(row['Type']),
                         Td(f"{row['Distance (km)']:.2f}"),
                         Td(f"{row['Time (min)']:.1f}"),
                         Td(f"{row['Pace (min/km)']:.2f}"),
-                    ) for _, row in athlete_activities.iterrows()],
+                    ) for i, row in enumerate(athlete_activities.to_dict('records'))],
                     cls="activities-table"
                 ),
-                cls="athlete-profile"
-            ),
-            cls="container"
+                cls="container"
+            )
         )
     )
 
