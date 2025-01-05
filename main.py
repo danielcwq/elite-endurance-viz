@@ -392,6 +392,9 @@ def get():
                     ),
                     cls="subtitle"
                 ),
+                P(
+                    "Some athletes' training data might be inaccurate due to exact name matches on Strava accounts, am working on that!", cls="subtitle"
+                ),
                 cls="header"
             ),
             Div(
