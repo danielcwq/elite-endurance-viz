@@ -229,6 +229,13 @@ app, rt = fast_app(
                 gtag('config', 'G-TFWZT8GQTN');
             </script>
         """),
+        Script("""
+            <!-- Vercel Analytics -->
+            <script>
+                window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+            </script>
+            <script defer src="/_vercel/insights/script.js"></script>
+        """),
     )
 )
 
