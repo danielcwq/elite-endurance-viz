@@ -218,7 +218,17 @@ app, rt = fast_app(
         Link(rel='stylesheet', href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css'),
         Script(src='https://unpkg.com/leaflet@1.7.1/dist/leaflet.js'),
-        Script(src='https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js')
+        Script(src='https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js'),
+        Script("""
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFWZT8GQTN"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TFWZT8GQTN');
+            </script>
+        """),
     )
 )
 
@@ -274,6 +284,18 @@ def create_map_script(athletes_data: list) -> str:
         }});
         
     """
+def get_analytics_script(measurement_id: str = 'G-TFWZT8GQTN') -> Script:
+    return Script("""
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFWZT8GQTN"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-TFWZT8GQTN');
+        </script>
+    """)
 
 
 @rt("/")
@@ -284,16 +306,7 @@ def get():
     athletes_data = data_manager.load_data().to_dict('records')
     
     return Titled("Elite Runners Database",
-        Script("""
-            <!-- Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFWZT8GQTN"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-TFWZT8GQTN');
-            </script>
-        """),
+        get_analytics_script(),
         Style("""
             /* Reset defaults */
             * {
@@ -404,16 +417,7 @@ def get_athlete(name: str):
     event_times = list(zip(disciplines, marks)) if marks and disciplines else []
     
     return Titled(f"{decoded_name} - Elite Runners Database",
-         Script("""
-            <!-- Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFWZT8GQTN"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-TFWZT8GQTN');
-            </script>
-        """),
+        get_analytics_script(),
         Style("""
             .container {
                 max-width: 1200px;
