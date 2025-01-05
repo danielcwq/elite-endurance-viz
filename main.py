@@ -229,10 +229,6 @@ app, rt = fast_app(
                 gtag('config', 'G-TFWZT8GQTN');
             </script>
         """),
-        Script("""
-            import { inject } from '@vercel/analytics';
-            inject();
-        """),
     )
 )
 
