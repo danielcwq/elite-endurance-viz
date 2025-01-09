@@ -425,6 +425,7 @@ def get_athlete(name: str):
     
     # Create a list of event-time pairs
     event_times = list(zip(disciplines, marks)) if marks and disciplines else []
+    athlete_strava_id = athlete_activities['Athlete ID'].iloc[0] if not athlete_activities.empty else None
     
     return Titled(f"{decoded_name} - Elite Runners Database",
         get_analytics_script(),
@@ -553,6 +554,27 @@ def get_athlete(name: str):
             .show-description {
                 display: block !important;
             }
+             .strava-link {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            .strava-link:hover {
+                color: #FC4C02;  /* Strava orange */
+                text-decoration: underline;
+            }
+
+            .athlete-header {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .strava-icon {
+                width: 24px;
+                height: 24px;
+                vertical-align: middle;
+            }
         """),
         Script("""
             function toggleDescription(event, id) {
@@ -580,7 +602,15 @@ def get_athlete(name: str):
         Main(
             Div(
                 A("← Back to Map", href="/", cls="back-link"),
-                H1(decoded_name),
+                H1(
+                    A(
+                        decoded_name,
+                        href=f"https://strava.com/athletes/{athlete_strava_id}" if athlete_strava_id else None,
+                        cls="strava-link",
+                        target="_blank"
+                    ) if athlete_strava_id else decoded_name,
+                    cls="athlete-header"
+                ),
                 P(f"Nationality: {athlete['Nat']}"),
                 H2("Seasons Bests"),
                 Div(
@@ -630,7 +660,12 @@ def get_athlete(name: str):
                         Td(
                             Div(
                                 Div(
-                                    row['Activity Name'],
+                                    A(
+                                        row['Activity Name'],
+                                        href=f"https://strava.com/activities/{row['Activity ID']}" if pd.notna(row['Activity ID']) else None,
+                                        cls="strava-link",
+                                        target="_blank"
+                                    ) if pd.notna(row['Activity ID']) else row['Activity Name'],
                                     Span("🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
                                     if pd.notna(row.get('Description')) else "",
                                     cls="activity-name"
