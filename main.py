@@ -382,8 +382,7 @@ def get():
             }
         """),Main(
             Div(
-                P("Best viewed on a computer.")
-                P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks, IAAF data pulled end Sept).", cls="subtitle"),
+                P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks, IAAF data pulled end Sept). Best viewed on a computer.", cls="subtitle"),
                 P("Elite runners are arbitrarily given a cutoff of >= 1100 IAAF points.", cls="subtitle"),
                 P(
                     "View the source code on ", 
