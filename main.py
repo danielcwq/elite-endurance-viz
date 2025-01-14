@@ -5,8 +5,34 @@ from typing import Optional, Dict
 from abc import ABC, abstractmethod
 from urllib.parse import unquote
 from database.connection import DatabaseConnection
-
 from utils.helpers import mongo_to_json_serializable, MongoJSONEncoder
+
+from datetime import datetime
+
+def format_date(date_str):
+    """Format date string into readable format"""
+    if not date_str:
+        return "-"
+    
+    try:
+        # Handle the specific format you're getting
+        if '+00:00' in date_str:
+            # Remove the timezone part and parse
+            clean_date = date_str.replace('+00:00', '')
+            date_obj = datetime.strptime(clean_date, '%Y-%m-%d %H:%M:%S')
+        else:
+            # Try other common formats
+            try:
+                date_obj = datetime.strptime(date_str, '%Y-%m-%dT%H:%M:%S.%fZ')
+            except ValueError:
+                date_obj = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
+        
+        # Format to a more readable string
+        return date_obj.strftime('%B %d, %Y at %I:%M %p')  # Example: "November 8, 2024 at 5:07 PM"
+        
+    except Exception as e:
+        print(f"Error formatting date {date_str}: {str(e)}")
+        return date_str
 
 
 # Data Management
@@ -262,10 +288,6 @@ def get_analytics_script(measurement_id: str = 'G-TFWZT8GQTN') -> Script:
 
 @rt("/")
 def get():
-    # Initialize data
-    #data_source = CSVDataSource('cleaned_athlete_metadata.csv')
-    #data_manager = DataManager(data_source)
-    #athletes_data = data_manager.load_data().to_dict('records')
     country_coordinates = _init_country_coordinates()
     athletes_data = mongo_to_json_serializable(list(db.db.athlete_metadata.find({})))
     for athlete in athletes_data:
@@ -373,7 +395,7 @@ def get_athlete(name: str):
     # URL decode the name parameter
     decoded_name = unquote(name)
     
-    # === CHANGED: Get athlete data from MongoDB ===
+    # === CHANGED: Get athlete data from MongoDB straight from there no API routing ===
     athlete = db.get_athlete_metadata(decoded_name)
     if not athlete:
         return "Athlete not found", 404
@@ -381,7 +403,6 @@ def get_athlete(name: str):
     # === CHANGED: Get activities from MongoDB ===
     athlete_activities = db.get_athlete_activities(decoded_name)
     
-    # Get athlete's Strava ID from activities
     athlete_strava_id = athlete_activities[0].get('Athlete ID') if athlete_activities else None
     
     # Process marks and disciplines
@@ -389,24 +410,6 @@ def get_athlete(name: str):
     disciplines = athlete.get('Discipline', '').split('|') if athlete.get('Discipline') else []
     event_times = list(zip(disciplines, marks)) if marks and disciplines else []
 
-    # Find athlete in data
-    #data_source = CSVDataSource('cleaned_athlete_metadata.csv')
-    #activities_source = IndividualActivitiesDataSource('indiv_activities_full.csv')
-    
-    #data_manager = DataManager(data_source)
-    #athletes_data = data_manager.load_data()
-    #activities_data = activities_source.load_data()
-    
-    #athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
-    #athlete_activities = activities_data[activities_data['Athlete Name'].str.lower() == decoded_name.lower()].sort_values('Start Date', ascending=False)
-
-    #marks = athlete['Mark'].split('|') if pd.notna(athlete['Mark']) else []
-    #disciplines = athlete['Discipline'].split('|') if pd.notna(athlete['Discipline']) else []
-    
-    # Create a list of event-time pairs
-    #event_times = list(zip(disciplines, marks)) if marks and disciplines else []
-    #athlete_strava_id = athlete_activities['Athlete ID'].iloc[0] if not athlete_activities.empty else None
-    
     return Titled(f"{decoded_name} - Elite Runners Database",
         get_analytics_script(),
         Style("""
@@ -636,7 +639,7 @@ def get_athlete(name: str):
                         Th("Pace (min/km)"),
                     ),
                    *[Tr(
-                        Td(row.get('Start Date')),
+                        Td(format_date(row.get('Start Date'))),
                         Td(
                             Div(
                                 Div(
@@ -646,12 +649,14 @@ def get_athlete(name: str):
                                         cls="strava-link",
                                         target="_blank"
                                     ) if row.get('Activity ID') else row.get('Activity Name'),
+                                    # Fix: Check if description exists and is a string before using strip()
                                     Span("🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
-                                    if row.get('Description') else "",
+                                    if isinstance(row.get('Description'), str) and row.get('Description', '').strip() else "",
                                     cls="activity-name"
                                 ),
+                                # Fix: Check if description exists and is a string before using strip()
                                 Div(row.get('Description', ''), cls="description-box", id=f"desc-{i}")
-                                if row.get('Description') else "",
+                                if isinstance(row.get('Description'), str) and row.get('Description', '').strip() else "",
                                 cls="activity-cell"
                             ) if row.get('Activity Name') else "-"
                         ),

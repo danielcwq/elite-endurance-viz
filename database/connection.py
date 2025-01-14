@@ -15,10 +15,15 @@ class DatabaseConnection:
         self.db = self.client['elite_endurance']
     
     def get_athlete_metadata(self, athlete_name: str):
-        return self.db.athlete_metadata.find_one({"Competitor": athlete_name})
-    
+        # Make case-insensitive search
+        result = self.db.athlete_metadata.find_one({
+            "Competitor": {"$regex": f"^{athlete_name}$", "$options": "i"}
+        })
+        return result
+
     def get_athlete_activities(self, athlete_name: str):
-        return list(self.db.activities.find(
-            {"Athlete Name": athlete_name}
-        ).sort("Start Date", -1))
+        # Make case-insensitive search
+        return list(self.db.activities.find({
+            "Athlete Name": {"$regex": f"^{athlete_name}$", "$options": "i"}
+        }).sort("Start Date", -1))
     
