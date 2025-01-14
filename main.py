@@ -5,7 +5,7 @@ from typing import Optional, Dict
 from abc import ABC, abstractmethod
 from urllib.parse import unquote
 from database.connection import DatabaseConnection
-from api.routes import setup_routes
+
 from utils.helpers import mongo_to_json_serializable, MongoJSONEncoder
 
 
@@ -14,30 +14,7 @@ class DataSource(ABC):
     @abstractmethod
     def load_data(self) -> pd.DataFrame:
         pass
-class IndividualActivitiesDataSource(DataSource):
-    def __init__(self, file_path: str):
-        self.file_path = file_path
 
-    def load_data(self) -> pd.DataFrame:
-        try:
-            df = pd.read_csv(self.file_path)
-            # Convert Start Date to datetime
-            df['Start Date'] = pd.to_datetime(df['Start Date'])
-            return df
-        except Exception as e:
-            print(f"Error loading individual activities data: {e}")
-            return pd.DataFrame()
-        
-class CSVDataSource(DataSource):
-    def __init__(self, file_path: str):
-        self.file_path = file_path
-
-    def load_data(self) -> pd.DataFrame:
-        try:
-            return pd.read_csv(self.file_path)
-        except Exception as e:
-            print(f"Error loading CSV data: {e}")
-            return pd.DataFrame()
 def _init_country_coordinates():
     return {
         'AFG': {'lat': 33.9391, 'lng': 67.7100},  # Afghanistan
@@ -193,26 +170,7 @@ def _init_country_coordinates():
         'ZMB': {'lat': -13.1339, 'lng': 27.8493}, # Zambia
         'ZWE': {'lat': -19.0154, 'lng': 29.1549}, # Zimbabwe
     }
-class DataManager:
-    def __init__(self, data_source: DataSource):
-        self.data_source = data_source
-        self._country_coordinates = _init_country_coordinates()
 
-    def load_data(self) -> pd.DataFrame:
-        df = self.data_source.load_data()
-        return self._enrich_data(df)
-
-    def _enrich_data(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Add latitude and longitude based on country codes"""
-        # Print unique countries that don't have coordinates for debugging
-        missing_countries = set(df['Nat'].unique()) - set(self._country_coordinates.keys())
-        if missing_countries:
-            print(f"Warning: Missing coordinates for countries: {missing_countries}")
-        
-        # Create separate latitude and longitude columns directly
-        df['latitude'] = df['Nat'].map(lambda x: self._country_coordinates.get(x, {}).get('lat'))
-        df['longitude'] = df['Nat'].map(lambda x: self._country_coordinates.get(x, {}).get('lng'))
-        return df
 
 # FastHTML App
 app, rt = fast_app(
@@ -234,7 +192,7 @@ app, rt = fast_app(
 )
 
 db = DatabaseConnection.get_instance()
-setup_routes(rt)
+
 
 def create_map_script(athletes_data: list) -> str:
     
