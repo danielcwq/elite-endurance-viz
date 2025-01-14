@@ -4,6 +4,10 @@ import pandas as pd
 from typing import Optional, Dict
 from abc import ABC, abstractmethod
 from urllib.parse import unquote
+from database.connection import DatabaseConnection
+from api.routes import setup_routes
+from utils.helpers import mongo_to_json_serializable, MongoJSONEncoder
+
 
 # Data Management
 class DataSource(ABC):
@@ -220,16 +224,6 @@ app, rt = fast_app(
         Script(src='https://unpkg.com/leaflet@1.7.1/dist/leaflet.js'),
         Script(src='https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js'),
         Script("""
-            <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFWZT8GQTN"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-TFWZT8GQTN');
-            </script>
-        """),
-        Script("""
             <!-- Vercel Analytics -->
             <script>
                 window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -239,6 +233,9 @@ app, rt = fast_app(
     )
 )
 
+db = DatabaseConnection.get_instance()
+setup_routes(rt)
+
 def create_map_script(athletes_data: list) -> str:
     
     return f"""
@@ -247,7 +244,7 @@ def create_map_script(athletes_data: list) -> str:
             attribution: '© OpenStreetMap contributors'
         }}).addTo(map);
 
-        var athletes = {json.dumps(athletes_data)};
+        var athletes = {json.dumps(athletes_data, cls=MongoJSONEncoder)};
         var markers = L.markerClusterGroup({{
             maxClusterRadius: 30,
             spiderfyOnMaxZoom: true,
@@ -308,10 +305,17 @@ def get_analytics_script(measurement_id: str = 'G-TFWZT8GQTN') -> Script:
 @rt("/")
 def get():
     # Initialize data
-    data_source = CSVDataSource('cleaned_athlete_metadata.csv')
-    data_manager = DataManager(data_source)
-    athletes_data = data_manager.load_data().to_dict('records')
-    
+    #data_source = CSVDataSource('cleaned_athlete_metadata.csv')
+    #data_manager = DataManager(data_source)
+    #athletes_data = data_manager.load_data().to_dict('records')
+    country_coordinates = _init_country_coordinates()
+    athletes_data = mongo_to_json_serializable(list(db.db.athlete_metadata.find({})))
+    for athlete in athletes_data:
+        country_code = athlete.get('Nat')
+        if country_code in country_coordinates:
+            athlete['latitude'] = country_coordinates[country_code]['lat']
+            athlete['longitude'] = country_coordinates[country_code]['lng']
+
     return Titled("Elite Runners Database",
         get_analytics_script(),
         Style("""
@@ -402,30 +406,48 @@ def get():
                 cls="map-container"
             ),
             cls="container"
-        ),Script(create_map_script(athletes_data)))
+        ),
+        Script(create_map_script(athletes_data))
+    )
 
 @rt("/athlete/{name}")
 def get_athlete(name: str):
     # URL decode the name parameter
     decoded_name = unquote(name)
     
-    # Find athlete in data
-    data_source = CSVDataSource('cleaned_athlete_metadata.csv')
-    activities_source = IndividualActivitiesDataSource('indiv_activities_full.csv')
+    # === CHANGED: Get athlete data from MongoDB ===
+    athlete = db.get_athlete_metadata(decoded_name)
+    if not athlete:
+        return "Athlete not found", 404
     
-    data_manager = DataManager(data_source)
-    athletes_data = data_manager.load_data()
-    activities_data = activities_source.load_data()
+    # === CHANGED: Get activities from MongoDB ===
+    athlete_activities = db.get_athlete_activities(decoded_name)
     
-    athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
-    athlete_activities = activities_data[activities_data['Athlete Name'].str.lower() == decoded_name.lower()].sort_values('Start Date', ascending=False)
+    # Get athlete's Strava ID from activities
+    athlete_strava_id = athlete_activities[0].get('Athlete ID') if athlete_activities else None
+    
+    # Process marks and disciplines
+    marks = athlete.get('Mark', '').split('|') if athlete.get('Mark') else []
+    disciplines = athlete.get('Discipline', '').split('|') if athlete.get('Discipline') else []
+    event_times = list(zip(disciplines, marks)) if marks and disciplines else []
 
-    marks = athlete['Mark'].split('|') if pd.notna(athlete['Mark']) else []
-    disciplines = athlete['Discipline'].split('|') if pd.notna(athlete['Discipline']) else []
+    # Find athlete in data
+    #data_source = CSVDataSource('cleaned_athlete_metadata.csv')
+    #activities_source = IndividualActivitiesDataSource('indiv_activities_full.csv')
+    
+    #data_manager = DataManager(data_source)
+    #athletes_data = data_manager.load_data()
+    #activities_data = activities_source.load_data()
+    
+    #athlete = athletes_data[athletes_data['Competitor'] == decoded_name].iloc[0]
+    #athlete_activities = activities_data[activities_data['Athlete Name'].str.lower() == decoded_name.lower()].sort_values('Start Date', ascending=False)
+
+    #marks = athlete['Mark'].split('|') if pd.notna(athlete['Mark']) else []
+    #disciplines = athlete['Discipline'].split('|') if pd.notna(athlete['Discipline']) else []
     
     # Create a list of event-time pairs
-    event_times = list(zip(disciplines, marks)) if marks and disciplines else []
-    athlete_strava_id = athlete_activities['Athlete ID'].iloc[0] if not athlete_activities.empty else None
+    #event_times = list(zip(disciplines, marks)) if marks and disciplines else []
+    #athlete_strava_id = athlete_activities['Athlete ID'].iloc[0] if not athlete_activities.empty else None
     
     return Titled(f"{decoded_name} - Elite Runners Database",
         get_analytics_script(),
@@ -624,22 +646,22 @@ def get_athlete(name: str):
                 H2("Training Stats"),
                 Div(
                     Div(
-                        Div(f"{athlete['Total_Run_Distance_km']:.2f} km", cls="stat-value"),
+                        Div(f"{athlete.get('Total_Run_Distance_km', 0):.2f} km", cls="stat-value"),
                         Div("Total Distance", cls="stat-label"),
                         cls="stat-card"
                     ),
                     Div(
-                        Div(f"{athlete['Total_Run_Hours']:.1f} hrs", cls="stat-value"),
+                        Div(f"{athlete.get('Total_Run_Hours', 0):.1f} hrs", cls="stat-value"),
                         Div("Total Run Hours", cls="stat-label"),
                         cls="stat-card"
                     ),
                     Div(
-                        Div(f"{athlete['Avg_Weekly_Run_Mileage_km']:.1f} km", cls="stat-value"),
+                        Div(f"{athlete.get('Avg_Weekly_Run_Mileage_km', 0):.1f} km", cls="stat-value"),
                         Div("Avg Weekly Mileage", cls="stat-label"),
                         cls="stat-card"
                     ),
                     Div(
-                        Div(f"{athlete['Avg_Run_Pace_min_per_km']:.2f} min/km", cls="stat-value"),
+                        Div(f"{athlete.get('Avg_Run_Pace_min_per_km', 0):.2f} min/km", cls="stat-value"),
                         Div("Average Pace", cls="stat-label"),
                         cls="stat-card"
                     ),
@@ -655,31 +677,31 @@ def get_athlete(name: str):
                         Th("Time (min)"),
                         Th("Pace (min/km)"),
                     ),
-                    *[Tr(
-                        Td(row['Start Date'].strftime('%Y-%m-%d')),
+                   *[Tr(
+                        Td(row.get('Start Date')),
                         Td(
                             Div(
                                 Div(
                                     A(
-                                        row['Activity Name'],
-                                        href=f"https://strava.com/activities/{row['Activity ID']}" if pd.notna(row['Activity ID']) else None,
+                                        row.get('Activity Name'),
+                                        href=f"https://strava.com/activities/{row.get('Activity ID')}" if row.get('Activity ID') else None,
                                         cls="strava-link",
                                         target="_blank"
-                                    ) if pd.notna(row['Activity ID']) else row['Activity Name'],
+                                    ) if row.get('Activity ID') else row.get('Activity Name'),
                                     Span("🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
-                                    if pd.notna(row.get('Description')) else "",
+                                    if row.get('Description') else "",
                                     cls="activity-name"
                                 ),
-                                Div(row['Description'], cls="description-box", id=f"desc-{i}")
-                                if pd.notna(row.get('Description')) else "",
+                                Div(row.get('Description', ''), cls="description-box", id=f"desc-{i}")
+                                if row.get('Description') else "",
                                 cls="activity-cell"
-                            ) if pd.notna(row['Activity Name']) else "-"
+                            ) if row.get('Activity Name') else "-"
                         ),
-                        Td(row['Type']),
-                        Td(f"{row['Distance (km)']:.2f}"),
-                        Td(f"{row['Time (min)']:.1f}"),
-                        Td(f"{row['Pace (min/km)']:.2f}"),
-                    ) for i, row in enumerate(athlete_activities.to_dict('records'))],
+                        Td(row.get('Type')),
+                        Td(f"{row.get('Distance (km)', 0):.2f}"),
+                        Td(f"{row.get('Time (min)', 0):.1f}"),
+                        Td(f"{row.get('Pace (min/km)', 0):.2f}"),
+                    ) for i, row in enumerate(athlete_activities)],
                     cls="activities-table"
                 ),
                 cls="container"
