@@ -1,0 +1,273 @@
+2025-01-15 13:23:10,797 - INFO - Starting IAAF database update
+2025-01-15 13:23:10,807 - INFO - Loaded master database with 4368 entries
+2025-01-15 13:24:21,991 - INFO - Successfully collected new results - Male: 2701, Female: 2226
+2025-01-15 13:24:21,993 - ERROR - Error updating database: '>=' not supported between instances of 'str' and 'int'
+2025-01-15 13:24:21,998 - ERROR - Traceback (most recent call last):
+  File "/Users/danielching/CS Projects/elite-endurance-viz/Get_Data/iaaf.py", line 258, in update_iaaf_database
+    new_results = new_results[new_results['Results Score'] >= 1100]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/core/arraylike.py", line 60, in __ge__
+    return self._cmp_method(other, operator.ge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/core/series.py", line 6119, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/core/ops/array_ops.py", line 344, in comparison_op
+    res_values = comp_method_OBJECT_ARRAY(op, lvalues, rvalues)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/core/ops/array_ops.py", line 129, in comp_method_OBJECT_ARRAY
+    result = libops.scalar_compare(x.ravel(), y, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ops.pyx", line 107, in pandas._libs.ops.scalar_compare
+TypeError: '>=' not supported between instances of 'str' and 'int'
+
+2025-01-15 13:29:35,177 - INFO - Starting IAAF database update
+2025-01-15 13:29:35,196 - INFO - Loaded master database with 4368 entries
+2025-01-15 13:29:35,227 - INFO - Starting collection of male results...
+2025-01-15 13:29:35,227 - INFO - Processing 800m (1/12)
+2025-01-15 13:29:41,064 - INFO - Successfully collected 346 results for 800m
+2025-01-15 13:29:41,064 - INFO - Processing 1500m (2/12)
+2025-01-15 13:29:44,944 - INFO - Successfully collected 425 results for 1500m
+2025-01-15 13:29:44,944 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:29:46,502 - INFO - Successfully collected 179 results for 3000m Steeple
+2025-01-15 13:29:46,502 - INFO - Processing 5000m (4/12)
+2025-01-15 13:29:49,447 - INFO - Successfully collected 309 results for 5000m
+2025-01-15 13:29:49,447 - INFO - Processing 10000m (5/12)
+2025-01-15 13:29:51,858 - INFO - Successfully collected 293 results for 10000m
+2025-01-15 13:29:51,858 - INFO - Processing Half (6/12)
+2025-01-15 13:29:55,126 - INFO - Successfully collected 388 results for Half
+2025-01-15 13:29:55,126 - INFO - Processing Full (7/12)
+2025-01-15 13:30:00,271 - INFO - Successfully collected 539 results for Full
+2025-01-15 13:30:00,271 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:30:01,284 - INFO - Successfully collected 31 results for 5k Road
+2025-01-15 13:30:01,284 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:30:03,210 - INFO - Successfully collected 139 results for 10k Road
+2025-01-15 13:30:03,210 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:30:04,077 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:30:04,077 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:30:04,900 - INFO - Successfully collected 25 results for 10M Road
+2025-01-15 13:30:04,901 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:30:05,880 - INFO - Successfully collected 12 results for 20k Road
+2025-01-15 13:30:05,881 - INFO - Starting collection of female results...
+2025-01-15 13:30:05,881 - INFO - Processing 800m (1/12)
+2025-01-15 13:30:10,357 - INFO - Successfully collected 321 results for 800m
+2025-01-15 13:30:10,357 - INFO - Processing 1500m (2/12)
+2025-01-15 13:30:14,624 - INFO - Successfully collected 320 results for 1500m
+2025-01-15 13:30:14,624 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:30:16,257 - INFO - Successfully collected 163 results for 3000m Steeple
+2025-01-15 13:30:16,257 - INFO - Processing 5000m (4/12)
+2025-01-15 13:30:18,825 - INFO - Successfully collected 269 results for 5000m
+2025-01-15 13:30:18,826 - INFO - Processing 10000m (5/12)
+2025-01-15 13:30:20,228 - INFO - Successfully collected 163 results for 10000m
+2025-01-15 13:30:20,228 - INFO - Processing Half (6/12)
+2025-01-15 13:30:22,454 - INFO - Successfully collected 279 results for Half
+2025-01-15 13:30:22,455 - INFO - Processing Full (7/12)
+2025-01-15 13:30:26,984 - INFO - Successfully collected 421 results for Full
+2025-01-15 13:30:26,984 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:30:27,657 - INFO - Successfully collected 66 results for 5k Road
+2025-01-15 13:30:27,657 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:30:29,105 - INFO - Successfully collected 189 results for 10k Road
+2025-01-15 13:30:29,105 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:30:29,824 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:30:29,825 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:30:30,509 - INFO - Successfully collected 12 results for 10M Road
+2025-01-15 13:30:30,509 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:30:31,323 - INFO - Successfully collected 8 results for 20k Road
+2025-01-15 13:30:31,323 - INFO - Processing 800m (1/12)
+2025-01-15 13:30:34,378 - INFO - Successfully collected 346 results for 800m
+2025-01-15 13:30:34,378 - INFO - Processing 1500m (2/12)
+2025-01-15 13:30:38,568 - INFO - Successfully collected 425 results for 1500m
+2025-01-15 13:30:38,568 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:30:40,122 - INFO - Successfully collected 179 results for 3000m Steeple
+2025-01-15 13:30:40,122 - INFO - Processing 5000m (4/12)
+2025-01-15 13:30:43,286 - INFO - Successfully collected 309 results for 5000m
+2025-01-15 13:30:43,286 - INFO - Processing 10000m (5/12)
+2025-01-15 13:30:45,563 - INFO - Successfully collected 293 results for 10000m
+2025-01-15 13:30:45,564 - INFO - Processing Half (6/12)
+2025-01-15 13:30:48,443 - INFO - Successfully collected 388 results for Half
+2025-01-15 13:30:48,443 - INFO - Processing Full (7/12)
+2025-01-15 13:30:53,779 - INFO - Successfully collected 539 results for Full
+2025-01-15 13:30:53,779 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:30:54,993 - INFO - Successfully collected 31 results for 5k Road
+2025-01-15 13:30:54,993 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:30:57,670 - INFO - Successfully collected 139 results for 10k Road
+2025-01-15 13:30:57,670 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:30:58,526 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:30:58,526 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:30:59,598 - INFO - Successfully collected 25 results for 10M Road
+2025-01-15 13:30:59,598 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:31:00,458 - INFO - Successfully collected 12 results for 20k Road
+2025-01-15 13:31:00,459 - INFO - Processing 800m (1/12)
+2025-01-15 13:31:03,523 - INFO - Successfully collected 321 results for 800m
+2025-01-15 13:31:03,523 - INFO - Processing 1500m (2/12)
+2025-01-15 13:31:06,855 - INFO - Successfully collected 320 results for 1500m
+2025-01-15 13:31:06,855 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:31:08,727 - INFO - Successfully collected 163 results for 3000m Steeple
+2025-01-15 13:31:08,727 - INFO - Processing 5000m (4/12)
+2025-01-15 13:31:11,802 - INFO - Successfully collected 269 results for 5000m
+2025-01-15 13:31:11,802 - INFO - Processing 10000m (5/12)
+2025-01-15 13:31:13,626 - INFO - Successfully collected 163 results for 10000m
+2025-01-15 13:31:13,626 - INFO - Processing Half (6/12)
+2025-01-15 13:31:16,015 - INFO - Successfully collected 279 results for Half
+2025-01-15 13:31:16,015 - INFO - Processing Full (7/12)
+2025-01-15 13:31:19,875 - INFO - Successfully collected 421 results for Full
+2025-01-15 13:31:19,875 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:31:20,795 - INFO - Successfully collected 66 results for 5k Road
+2025-01-15 13:31:20,795 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:31:22,126 - INFO - Successfully collected 189 results for 10k Road
+2025-01-15 13:31:22,126 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:31:22,792 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:31:22,793 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:31:23,452 - INFO - Successfully collected 12 results for 10M Road
+2025-01-15 13:31:23,453 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:31:24,124 - INFO - Successfully collected 8 results for 20k Road
+2025-01-15 13:31:24,125 - INFO - Successfully collected new results - Male: 2701, Female: 2226
+2025-01-15 13:31:24,170 - ERROR - Error updating database: Cannot save file into a non-existent directory: '../data/metadata/backup'
+2025-01-15 13:31:24,176 - ERROR - Traceback (most recent call last):
+  File "/Users/danielching/CS Projects/elite-endurance-viz/Get_Data/iaaf.py", line 309, in update_iaaf_database
+    master_df.to_csv(f'../data/metadata/backup/master_iaaf_database_{datetime.now().strftime("%Y%m%d")}.csv', index=False)
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/Users/danielching/CS Projects/elite-endurance-viz/env/lib/python3.12/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '../data/metadata/backup'
+
+2025-01-15 13:34:11,968 - INFO - Starting IAAF database update
+2025-01-15 13:34:11,984 - INFO - Loaded master database with 4368 entries
+2025-01-15 13:34:12,014 - INFO - Starting collection of male results...
+2025-01-15 13:34:12,014 - INFO - Processing 800m (1/12)
+2025-01-15 13:34:17,631 - INFO - Successfully collected 346 results for 800m
+2025-01-15 13:34:17,631 - INFO - Processing 1500m (2/12)
+2025-01-15 13:34:22,489 - INFO - Successfully collected 425 results for 1500m
+2025-01-15 13:34:22,489 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:34:24,225 - INFO - Successfully collected 179 results for 3000m Steeple
+2025-01-15 13:34:24,225 - INFO - Processing 5000m (4/12)
+2025-01-15 13:34:28,421 - INFO - Successfully collected 309 results for 5000m
+2025-01-15 13:34:28,422 - INFO - Processing 10000m (5/12)
+2025-01-15 13:34:31,340 - INFO - Successfully collected 293 results for 10000m
+2025-01-15 13:34:31,340 - INFO - Processing Half (6/12)
+2025-01-15 13:34:34,836 - INFO - Successfully collected 388 results for Half
+2025-01-15 13:34:34,836 - INFO - Processing Full (7/12)
+2025-01-15 13:34:40,612 - INFO - Successfully collected 539 results for Full
+2025-01-15 13:34:40,613 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:34:41,757 - INFO - Successfully collected 31 results for 5k Road
+2025-01-15 13:34:41,757 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:34:43,665 - INFO - Successfully collected 139 results for 10k Road
+2025-01-15 13:34:43,665 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:34:44,502 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:34:44,502 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:34:45,431 - INFO - Successfully collected 25 results for 10M Road
+2025-01-15 13:34:45,431 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:34:47,420 - INFO - Successfully collected 12 results for 20k Road
+2025-01-15 13:34:47,420 - INFO - Starting collection of female results...
+2025-01-15 13:34:47,420 - INFO - Processing 800m (1/12)
+2025-01-15 13:34:51,134 - INFO - Successfully collected 321 results for 800m
+2025-01-15 13:34:51,135 - INFO - Processing 1500m (2/12)
+2025-01-15 13:34:55,313 - INFO - Successfully collected 320 results for 1500m
+2025-01-15 13:34:55,313 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:34:58,181 - INFO - Successfully collected 163 results for 3000m Steeple
+2025-01-15 13:34:58,181 - INFO - Processing 5000m (4/12)
+2025-01-15 13:35:01,050 - INFO - Successfully collected 269 results for 5000m
+2025-01-15 13:35:01,051 - INFO - Processing 10000m (5/12)
+2025-01-15 13:35:03,308 - INFO - Successfully collected 163 results for 10000m
+2025-01-15 13:35:03,308 - INFO - Processing Half (6/12)
+2025-01-15 13:35:05,945 - INFO - Successfully collected 279 results for Half
+2025-01-15 13:35:05,945 - INFO - Processing Full (7/12)
+2025-01-15 13:35:10,705 - INFO - Successfully collected 421 results for Full
+2025-01-15 13:35:10,705 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:35:11,641 - INFO - Successfully collected 66 results for 5k Road
+2025-01-15 13:35:11,641 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:35:14,762 - INFO - Successfully collected 189 results for 10k Road
+2025-01-15 13:35:14,762 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:35:15,880 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:35:15,880 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:35:16,897 - INFO - Successfully collected 12 results for 10M Road
+2025-01-15 13:35:16,897 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:35:17,737 - INFO - Successfully collected 8 results for 20k Road
+2025-01-15 13:35:17,737 - INFO - Processing 800m (1/12)
+2025-01-15 13:35:22,137 - INFO - Successfully collected 346 results for 800m
+2025-01-15 13:35:22,137 - INFO - Processing 1500m (2/12)
+2025-01-15 13:35:26,005 - INFO - Successfully collected 425 results for 1500m
+2025-01-15 13:35:26,005 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:35:27,698 - INFO - Successfully collected 179 results for 3000m Steeple
+2025-01-15 13:35:27,698 - INFO - Processing 5000m (4/12)
+2025-01-15 13:35:30,933 - INFO - Successfully collected 309 results for 5000m
+2025-01-15 13:35:30,934 - INFO - Processing 10000m (5/12)
+2025-01-15 13:35:33,493 - INFO - Successfully collected 293 results for 10000m
+2025-01-15 13:35:33,494 - INFO - Processing Half (6/12)
+2025-01-15 13:35:36,783 - INFO - Successfully collected 388 results for Half
+2025-01-15 13:35:36,783 - INFO - Processing Full (7/12)
+2025-01-15 13:35:41,918 - INFO - Successfully collected 539 results for Full
+2025-01-15 13:35:41,919 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:35:42,779 - INFO - Successfully collected 31 results for 5k Road
+2025-01-15 13:35:42,779 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:35:44,059 - INFO - Successfully collected 139 results for 10k Road
+2025-01-15 13:35:44,059 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:35:44,658 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:35:44,658 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:35:45,581 - INFO - Successfully collected 25 results for 10M Road
+2025-01-15 13:35:45,581 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:35:46,292 - INFO - Successfully collected 12 results for 20k Road
+2025-01-15 13:35:46,294 - INFO - Processing 800m (1/12)
+2025-01-15 13:35:49,147 - INFO - Successfully collected 321 results for 800m
+2025-01-15 13:35:49,147 - INFO - Processing 1500m (2/12)
+2025-01-15 13:35:52,739 - INFO - Successfully collected 320 results for 1500m
+2025-01-15 13:35:52,739 - INFO - Processing 3000m Steeple (3/12)
+2025-01-15 13:35:54,249 - INFO - Successfully collected 163 results for 3000m Steeple
+2025-01-15 13:35:54,250 - INFO - Processing 5000m (4/12)
+2025-01-15 13:35:56,502 - INFO - Successfully collected 269 results for 5000m
+2025-01-15 13:35:56,502 - INFO - Processing 10000m (5/12)
+2025-01-15 13:35:58,252 - INFO - Successfully collected 163 results for 10000m
+2025-01-15 13:35:58,252 - INFO - Processing Half (6/12)
+2025-01-15 13:36:00,770 - INFO - Successfully collected 279 results for Half
+2025-01-15 13:36:00,770 - INFO - Processing Full (7/12)
+2025-01-15 13:36:05,380 - INFO - Successfully collected 421 results for Full
+2025-01-15 13:36:05,380 - INFO - Processing 5k Road (8/12)
+2025-01-15 13:36:06,145 - INFO - Successfully collected 66 results for 5k Road
+2025-01-15 13:36:06,145 - INFO - Processing 10k Road (9/12)
+2025-01-15 13:36:07,583 - INFO - Successfully collected 189 results for 10k Road
+2025-01-15 13:36:07,583 - INFO - Processing 15k Road (10/12)
+2025-01-15 13:36:08,343 - INFO - Successfully collected 15 results for 15k Road
+2025-01-15 13:36:08,343 - INFO - Processing 10M Road (11/12)
+2025-01-15 13:36:09,364 - INFO - Successfully collected 12 results for 10M Road
+2025-01-15 13:36:09,364 - INFO - Processing 20k Road (12/12)
+2025-01-15 13:36:10,080 - INFO - Successfully collected 8 results for 20k Road
+2025-01-15 13:36:10,081 - INFO - Successfully collected new results - Male: 2701, Female: 2226
+2025-01-15 13:36:10,171 - INFO - 
+        Update Summary:
+        Original entries: 4368
+        New entries added: 937
+        Total entries: 5305
+        New entries by discipline:
+Discipline
+10k Road         328
+Full             210
+5k Road           97
+10000m            90
+Half              61
+5000m             47
+10M Road          37
+15k Road          30
+20k Road          20
+800m               8
+1500m              6
+3000m Steeple      3
+        New entries by gender:
+Gender
+M    480
+F    457
+        
