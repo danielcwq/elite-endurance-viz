@@ -318,9 +318,9 @@ def update_iaaf_database():
         logging.error(traceback.format_exc())
         return False
 
-if __name__ == "__main__":
-    success = update_iaaf_database()
-    sys.exit(0 if success else 1)
+#if __name__ == "__main__":
+#    success = update_iaaf_database()
+#    sys.exit(0 if success else 1)
 
 #script for creating IAAF db 
 """
@@ -353,3 +353,118 @@ print(f"\nEvents covered: {master_df['Discipline'].unique()}")
 """
 
 # doing the following might result in recording some additional athletes being duplicated
+
+def merge_databases():
+    
+    #Merge IAAF master database with Strava meta information
+    
+    try:
+        # Read CSV files
+        logging.info("Reading CSV files...")
+        master_df = pd.read_csv('../data/metadata/backup/master_iaaf_database.csv')
+        female_meta = pd.read_csv('../data/metadata/combined_df_female_distance_strava_metaCAA31Oct.csv')
+        male_meta = pd.read_csv('../data/metadata/combined_df_male_distance_strava_meta_updatedCAA31Oct.csv')
+
+        # Combine male and female meta data
+        meta_df = pd.concat([male_meta, female_meta], ignore_index=True)
+        
+        if meta_df['Competitor'].duplicated().any():
+            logging.warning(f"Found {meta_df['Competitor'].duplicated().sum()} duplicate athlete names")
+            # Keep first occurrence of each athlete
+            meta_df = meta_df.drop_duplicates(subset='Competitor', keep='first')
+        
+        # Columns to merge
+        strava_cols = ['Competitor', 'Athlete ID', 'Number of Runs', 
+                      'Number of Bike Rides', 'Profile Visibility']
+
+        # Create a mapping dictionary from meta data
+        meta_dict = meta_df[strava_cols].set_index('Competitor').to_dict('index')
+
+        # Get today's date in the format used in the master database
+        today = datetime.now().strftime("%d %b %y")
+
+        # Function to apply the mapping or default values
+        def map_athlete(row):
+            athlete = row['Competitor']
+            is_today = row['Date_Created'] == today
+            
+            if is_today:
+                return pd.Series({
+                    'Athlete ID': 0,
+                    'Number of Runs': 0,
+                    'Number of Bike Rides': 0,
+                    'Profile Visibility': 0
+                })
+            
+            if athlete in meta_dict:
+                return pd.Series(meta_dict[athlete])
+            else:
+                logging.warning(f"No Strava data found for athlete: {athlete}")
+                return pd.Series({
+                    'Athlete ID': pd.NA,
+                    'Number of Runs': pd.NA,
+                    'Number of Bike Rides': pd.NA,
+                    'Profile Visibility': pd.NA
+                })
+
+        # Add new columns to master database
+        logging.info("Merging databases...")
+        new_cols = master_df.apply(map_athlete, axis=1)
+        master_df[['Athlete ID', 'Number of Runs', 'Number of Bike Rides', 'Profile Visibility']] = new_cols
+
+        # Save merged database
+        output_path = '../data/metadata/master_iaaf_database_with_strava.csv'
+        master_df.to_csv(output_path, index=False)
+        logging.info(f"Merged database saved to: {output_path}")
+
+        return True
+
+    except Exception as e:
+        logging.error(f"Error merging databases: {str(e)}")
+        return False
+
+def update_empty_cells():
+    "Update empty cells in Strava columns to 'NA'"
+    try:
+        # Read the merged database
+        logging.info("Reading merged database...")
+        df = pd.read_csv('../data/metadata/master_iaaf_database_with_strava.csv')
+        
+        # Columns to check
+        strava_cols = ['Athlete ID', 'Number of Runs', 'Number of Bike Rides', 'Profile Visibility']
+        
+        # Replace empty cells with 'NA'
+        for col in strava_cols:
+            empty_count = df[col].isna().sum()
+            df[col] = df[col].fillna('NA')
+            logging.info(f"Updated {empty_count} empty cells in {col}")
+        
+        # Save updated database
+        df.to_csv('../data/metadata/master_iaaf_database_with_strava.csv', index=False)
+        logging.info("Successfully updated empty cells to 'NA'")
+        return True
+        
+    except Exception as e:
+        logging.error(f"Error updating empty cells: {str(e)}")
+        return False
+"""
+
+"""
+
+if __name__ == "__main__":
+    setup_logging()
+    success = merge_databases()
+    if success:
+        success = update_empty_cells()
+    exit(0 if success else 1)
+
+
+
+"""
+
+if __name__ == "__main__":
+    success = test_strava_login()
+    exit(0 if success else 1)
+
+"""
+
