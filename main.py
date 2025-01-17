@@ -4,7 +4,7 @@ import pandas as pd
 from typing import Optional, Dict
 from abc import ABC, abstractmethod
 from urllib.parse import unquote
-from database.connection import DatabaseConnection
+from mongodb_init.connection import DatabaseConnection
 from utils.helpers import mongo_to_json_serializable, MongoJSONEncoder
 
 from datetime import datetime
