@@ -47,4 +47,4 @@ problematic_athletes.txt
 scrape_athletes_local.ipynb
 strava-check.py
 strava-scrape.py 
-strava_scrape_new.py
+strava_collection.log
