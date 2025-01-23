@@ -18,6 +18,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def setup_logging():
     """Setup logging to both file and console"""
@@ -83,8 +86,8 @@ def login_strava(driver, username=None, password=None):
         wait = WebDriverWait(driver, 10)
         
         # Use provided credentials or fall back to defaults if none provided
-        username = username or '100midsgovernment@gmail.com'  # Default fallback
-        password = password or 'rl6kwrto'  # Default fallback
+        username = username or os.getenv('STRAVA_EMAIL_1')  # Default fallback
+        password = password or os.getenv('STRAVA_PASSWORD')  # Default fallback
 
         # Wait for and fill in email
         name_box = wait.until(EC.element_to_be_clickable((By.ID, "desktop-email")))
@@ -498,9 +501,7 @@ def process_activities(json_data, target_athlete_name):
     return df
 
 def test_athlete_scraping(driver, test_size=5, min_activities=0, max_activities=100):
-    """
-    Test function to scrape a small batch of athletes using existing functions.
-    """
+    #Test function to scrape a small batch of athletes using existing functions.
     logging.info("Starting test scraping")
     
     # Read master database
