@@ -138,7 +138,7 @@ def login_strava(driver, username=None, password=None):
         # Now interact with the correct button
         login_button.click()
        
-        time.sleep(25)
+        time.sleep(10)
         
         try:
             wait.until(lambda driver: 
@@ -229,7 +229,7 @@ def consolidate_weekly_data(driver, df, start_week=1, end_week=40):
                 # Click on the week link
                 link_element = week_element.find_element(By.TAG_NAME, 'a')
                 link_element.click()
-                time.sleep(5)  # Wait for the page to load
+                time.sleep(3)  # Wait for the page to load
 
                 # Extract weekly metadata
                 # Wait for date range element

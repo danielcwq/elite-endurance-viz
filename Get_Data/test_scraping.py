@@ -119,20 +119,21 @@ def check_data_updates():
     """Compare new data with existing databases and show what would change"""
     logger.info("Starting data comparison")
     
-    # Run test scraping first
+    # Initialize driver
     driver = web_driver()
-    start_week = 3
-    end_week = 7
+    start_week = 50
+    end_week = 52
     specific_ids = [45537525, 4814818, 4928335]
     
     try:
+        # Login to Strava
         if not login_strava(driver):
             logger.error("Failed to login to Strava")
             return
             
         # Load existing databases
         master_df = pd.read_csv('../data/metadata/master_iaaf_database_with_strava.csv')
-        activities_df = pd.read_csv('../data/indiv_activities_full.csv')
+        activities_df = pd.read_csv('../indiv_activities_full.csv')
         
         # Get new data
         test_df = master_df[master_df['Athlete ID'].isin(specific_ids)].copy()
@@ -143,43 +144,71 @@ def check_data_updates():
             end_week=end_week
         )
         
-        # Process new activities
-        all_processed_activities = []
-        for athlete_name in df_json['Name'].unique():
-            athlete_json_data = df_json[df_json['Name'] == athlete_name]['JSON Data'].iloc[0]
-            try:
-                processed_df = process_activities(
-                    json.loads(athlete_json_data),
-                    athlete_name
-                )
-                if not processed_df.empty:
-                    all_processed_activities.append(processed_df)
-            except Exception as e:
-                logger.error(f"Error processing activities for {athlete_name}: {str(e)}")
+        if not df_weekly.empty and not df_json.empty:
+            # Save metadata to tempdata
+            metadata_filename = generate_filename(df_weekly, 'metadata', start_week, end_week)
+            metadata_filepath = os.path.join(TEMP_DATA_DIR, metadata_filename)
+            df_weekly.to_csv(metadata_filepath, index=False)
+            logger.info(f"Saved weekly metadata to {metadata_filepath}")
+            
+            # Save raw JSON data to tempdata
+            json_filename = generate_filename(df_json, 'raw_json', start_week, end_week)
+            json_filepath = os.path.join(TEMP_DATA_DIR, json_filename)
+            df_json.to_csv(json_filepath, index=False)
+            logger.info(f"Saved raw JSON data to {json_filepath}")
+        
+            # Process new activities
+            all_processed_activities = []
+            for athlete_name in df_json['Name'].unique():
+                athlete_json_data = df_json[df_json['Name'] == athlete_name]['JSON Data'].iloc[0]
+                try:
+                    processed_df = process_activities(
+                        json.loads(athlete_json_data),
+                        athlete_name
+                    )
+                    if not processed_df.empty:
+                        all_processed_activities.append(processed_df)
+                except Exception as e:
+                    logger.error(f"Error processing activities for {athlete_name}: {str(e)}")
+                    
+            if all_processed_activities:
+                new_activities_df = pd.concat(all_processed_activities, ignore_index=True)
                 
-        if all_processed_activities:
-            new_activities_df = pd.concat(all_processed_activities, ignore_index=True)
-            
-            # Compare with existing activities
-            print("\nNew activities that would be added to indiv_activities_full.csv:")
-            print(new_activities_df[~new_activities_df['Activity ID'].isin(activities_df['Activity ID'])])
-            
-            # Show updates to master database
-            print("\nUpdated rows in master_iaaf_database_with_strava.csv:")
-            updated_master = test_df.copy()
-            updated_master.loc[:, '2024_Weeks_Scraped'] = f"{start_week}-{end_week}"
-            print(updated_master[['Athlete ID', 'Competitor', '2024_Weeks_Scraped']])
-            
-            # Debug logging issue
-            print("\nDebugging athlete count:")
-            print(f"Number of unique athletes in df_json: {df_json['Name'].nunique()}")
-            print("Unique athletes:", df_json['Name'].unique())
+                # Save processed activities to tempdata
+                processed_filename = generate_filename(df_json, 'processed', start_week, end_week)
+                processed_filepath = os.path.join(TEMP_DATA_DIR, processed_filename)
+                new_activities_df.to_csv(processed_filepath, index=False)
+                logger.info(f"Saved processed activities to {processed_filepath}")
+                
+                # Compare with existing activities
+                new_activities = new_activities_df[~new_activities_df['Activity ID'].isin(activities_df['Activity ID'])]
+                print("\nNew activities that would be added to indiv_activities_full.csv:")
+                print(f"Number of new activities: {len(new_activities)}")
+                print(new_activities)
+                
+                # Show updates to master database
+                print("\nUpdated rows in master_iaaf_database_with_strava.csv:")
+                updated_master = test_df.copy()
+                updated_master.loc[:, '2024_Weeks_Scraped'] = f"{end_week}"
+                print(updated_master[['Athlete ID', 'Competitor', '2024_Weeks_Scraped']])
+                
+                # Debug logging issue
+                print("\nDebugging athlete count:")
+                print(f"Number of unique athletes in df_json: {df_json['Name'].nunique()}")
+                print("Unique athletes:", df_json['Name'].unique())
+            else:
+                logger.warning("No activities were processed successfully")
+        else:
+            logger.warning("No data was collected from Strava")
             
     finally:
         driver.quit()
+        logger.info("Test completed, browser closed")
 
 if __name__ == "__main__":
     check_data_updates()
+
+
 
 #if __name__ == "__main__":
 #    run_test()
