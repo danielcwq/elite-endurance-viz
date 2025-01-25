@@ -21,6 +21,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from dotenv import load_dotenv
 
 load_dotenv()
+TEMP_DATA_DIR = '../data/tempdata'
 
 def setup_logging():
     """Setup logging to both file and console"""
@@ -207,7 +208,7 @@ def consolidate_weekly_data(driver, df, start_week=1, end_week=40):
     for idx, row in df.iterrows():
         athlete_id = str(row['Athlete ID'])
         name = row['Competitor']
-        print(f"\nProcessing data for athlete: {name} (ID: {athlete_id})")
+        print(f"Starting processing for athlete {idx+1}/{len(df)}: {name} (ID: {athlete_id})")
 
         # Navigate to the athlete's main page
         athlete_url = f'https://www.strava.com/athletes/{athlete_id}'  
@@ -367,11 +368,12 @@ def consolidate_weekly_data(driver, df, start_week=1, end_week=40):
 
     # Create DataFrame with JSON data
     df_json = pd.DataFrame(json_data_list)
-    temp_file = f'temp_metadata_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-    df_weekly.to_csv(temp_file, index=False)
-    logging.info(f"Saved validation metadata to {temp_file}")
+    #timestamp = pd.Timestamp.now().strftime("%Y%m%d_%H%M%S")
+    #temp_file = os.path.join(TEMP_DATA_DIR, f'temp_metadata_{timestamp}.csv')
+    #df_weekly.to_csv(temp_file, index=False)
+    #logging.info(f"Saved validation metadata to {temp_file}")
 
-    return df_json
+    return df_weekly, df_json
 
 def process_activities(json_data, target_athlete_name):
     import pandas as pd

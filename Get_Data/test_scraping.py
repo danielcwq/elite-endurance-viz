@@ -3,18 +3,45 @@ import logging
 from strava_scrape_new import consolidate_weekly_data, web_driver, login_strava, setup_logging, process_activities
 import json
 import os 
+from datetime import datetime
 
 # Setup logging
 setup_logging()
 logger = logging.getLogger(__name__)
-TEMP_DATA_DIR = '../data/metadata'
+TEMP_DATA_DIR = '../data/tempdata'
+
+def generate_filename(df, file_type, start_week, end_week):
+    """Generate informative filename for temporary data files
+    
+    Args:
+        df (pd.DataFrame): DataFrame containing athlete data
+        file_type (str): Type of data being saved ('raw' or 'processed')
+        start_week (int): Starting week number
+        end_week (int): Ending week number
+    """
+    # Get first and last athlete names
+    first_athlete = df['Name'].iloc[0] if not df.empty else 'unknown'
+    last_athlete = df['Name'].iloc[-1] if not df.empty else 'unknown'
+    
+    # Clean names for filename (remove spaces and special characters)
+    first_athlete = ''.join(e for e in first_athlete if e.isalnum())
+    last_athlete = ''.join(e for e in last_athlete if e.isalnum())
+    
+    # Generate timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Create filename
+    return f"{file_type}_{first_athlete}_to_{last_athlete}_w{start_week}-{end_week}_{timestamp}.csv"
+
 def run_test():
     """Run test scraping for a small subset of athletes"""
     logger.info("Starting test scraping")
     
     # Initialize driver
     driver = web_driver()
-    
+    start_week = 45
+    end_week = 52
+
     try:
         # Login to Strava
         if not login_strava(driver):
@@ -34,18 +61,30 @@ def run_test():
             logger.info(f"Selected {len(test_df)} athletes for testing")
             
             # Use existing consolidate_weekly_data function
-            json_df = consolidate_weekly_data(
+            df_weekly, df_json = consolidate_weekly_data(
                 driver=driver,
                 df=test_df,
-                start_week=3,
-                end_week=7
+                start_week=start_week,
+                end_week=end_week
             )
             
-            if not json_df.empty:
+            if not df_weekly.empty and not df_json.empty:
+                # Save metadata
+                metadata_filename = generate_filename(df_weekly, 'metadata', start_week, end_week)
+                metadata_filepath = os.path.join(TEMP_DATA_DIR, metadata_filename)
+                df_weekly.to_csv(metadata_filepath, index=False)
+                logger.info(f"Saved weekly metadata to {metadata_filepath}")
+                
+                # Save raw JSON data
+                json_filename = generate_filename(df_json, 'raw_json', start_week, end_week)
+                json_filepath = os.path.join(TEMP_DATA_DIR, json_filename)
+                df_json.to_csv(json_filepath, index=False)
+                logger.info(f"Saved raw JSON data to {json_filepath}")
+                
                 # Process each athlete's activities
                 all_processed_activities = []
-                for athlete_name in json_df['Name'].unique():
-                    athlete_json_data = json_df[json_df['Name'] == athlete_name]['JSON Data'].iloc[0]
+                for athlete_name in df_json['Name'].unique():
+                    athlete_json_data = df_json[df_json['Name'] == athlete_name]['JSON Data'].iloc[0]
                     try:
                         processed_df = process_activities(
                             json.loads(athlete_json_data),
@@ -59,12 +98,14 @@ def run_test():
                 
                 if all_processed_activities:
                     final_df = pd.concat(all_processed_activities, ignore_index=True)
-                    timestamp = pd.Timestamp.now().strftime("%Y%m%d_%H%M%S")
-                    output_file = os.path.join(TEMP_DATA_DIR, f'test_results_{timestamp}.csv')
-                    final_df.to_csv(output_file, index=False)
-                    logger.info(f"Saved test results to {output_file}")
+                    processed_filename = generate_filename(df_json, 'processed', start_week, end_week)
+                    processed_filepath = os.path.join(TEMP_DATA_DIR, processed_filename)
+                    final_df.to_csv(processed_filepath, index=False)
+                    logger.info(f"Saved processed activities to {processed_filepath}")
                 else:
                     logger.warning("No activities were processed successfully")
+            else:
+                logger.warning("No data was collected from Strava")
             
         except Exception as e:
             logger.error(f"Error during data collection: {str(e)}")
@@ -73,5 +114,72 @@ def run_test():
         driver.quit()
         logger.info("Test completed, browser closed")
 
+
+def check_data_updates():
+    """Compare new data with existing databases and show what would change"""
+    logger.info("Starting data comparison")
+    
+    # Run test scraping first
+    driver = web_driver()
+    start_week = 3
+    end_week = 7
+    specific_ids = [45537525, 4814818, 4928335]
+    
+    try:
+        if not login_strava(driver):
+            logger.error("Failed to login to Strava")
+            return
+            
+        # Load existing databases
+        master_df = pd.read_csv('../data/metadata/master_iaaf_database_with_strava.csv')
+        activities_df = pd.read_csv('../data/indiv_activities_full.csv')
+        
+        # Get new data
+        test_df = master_df[master_df['Athlete ID'].isin(specific_ids)].copy()
+        df_weekly, df_json = consolidate_weekly_data(
+            driver=driver,
+            df=test_df,
+            start_week=start_week,
+            end_week=end_week
+        )
+        
+        # Process new activities
+        all_processed_activities = []
+        for athlete_name in df_json['Name'].unique():
+            athlete_json_data = df_json[df_json['Name'] == athlete_name]['JSON Data'].iloc[0]
+            try:
+                processed_df = process_activities(
+                    json.loads(athlete_json_data),
+                    athlete_name
+                )
+                if not processed_df.empty:
+                    all_processed_activities.append(processed_df)
+            except Exception as e:
+                logger.error(f"Error processing activities for {athlete_name}: {str(e)}")
+                
+        if all_processed_activities:
+            new_activities_df = pd.concat(all_processed_activities, ignore_index=True)
+            
+            # Compare with existing activities
+            print("\nNew activities that would be added to indiv_activities_full.csv:")
+            print(new_activities_df[~new_activities_df['Activity ID'].isin(activities_df['Activity ID'])])
+            
+            # Show updates to master database
+            print("\nUpdated rows in master_iaaf_database_with_strava.csv:")
+            updated_master = test_df.copy()
+            updated_master.loc[:, '2024_Weeks_Scraped'] = f"{start_week}-{end_week}"
+            print(updated_master[['Athlete ID', 'Competitor', '2024_Weeks_Scraped']])
+            
+            # Debug logging issue
+            print("\nDebugging athlete count:")
+            print(f"Number of unique athletes in df_json: {df_json['Name'].nunique()}")
+            print("Unique athletes:", df_json['Name'].unique())
+            
+    finally:
+        driver.quit()
+
 if __name__ == "__main__":
-    run_test()
+    check_data_updates()
+
+#if __name__ == "__main__":
+#    run_test()
