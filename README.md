@@ -10,7 +10,7 @@ Strava doesn’t offer a manual way for this — sports fanatics would have to f
 
 Elite endurance visualisation aims to present all elite athletes’ workouts in a synchronised dashboard, allowing amateurs to learn from the best: by seeing the whole approach that elites take, beyond individual “miracle” workouts. 
 
-This repo consists of Jupyter notebooks and CSV files. In the future this will be a full fledged webapp (hopefully) that runs remotely together with a database that is updated regularly. 
+This repo consists of Jupyter notebooks and CSV files. You can access the webapp [here](https://elite-endurance-viz.vercel.app/). Suggestions are welcome!
 
 ### The Pipeline
 
