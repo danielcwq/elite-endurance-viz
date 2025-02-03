@@ -1,5 +1,7 @@
 import pandas as pd
 from datetime import datetime
+import os
+from test_scraping import START_WEEK, END_WEEK
 
 """
 # Read the existing CSV
@@ -12,8 +14,7 @@ df['2024 Weeks Scraped'] = 45
 df.to_csv('../cleaned_athlete_metadata.csv', index=False)
 
 """
-import pandas as pd
-from datetime import datetime
+
 
 # Read master IAAF database with Strava, preserving NA values
 #master_df = pd.read_csv('../data/metadata/master_iaaf_database_with_strava.csv', keep_default_na=False)
@@ -36,8 +37,6 @@ def determine_weeks_scraped(row):
 # Save back to CSV, preserving existing format
 #master_df.to_csv('../data/metadata/master_iaaf_database_with_strava.csv', index=False)
 
-import pandas as pd
-import os
 
 """
 #redacted, dk why cursor is acting up and so bloody slow
@@ -199,10 +198,59 @@ def print_specific_athletes(metrics_df: pd.DataFrame, athlete_names: list):
         else:
             print(f"\nNo data found for athlete: {athlete_name}")
 
+
+def update_athlete_metadata(new_metrics_df: pd.DataFrame, target_athletes: list, start_week: int, end_week: int) -> pd.DataFrame:
+    """Update athlete metadata with new metrics"""
+    print("Updating athlete metadata...")
+    
+    # Read existing metadata
+    metadata_df = pd.read_csv("../cleaned_athlete_metadata.csv")
+    weeks_to_add = END_WEEK - START_WEEK
+    print(f"\nAdding {weeks_to_add} weeks (from week {END_WEEK} to {START_WEEK})")
+    
+    # Print all column names in order
+    print("\nAll columns in metadata:")
+    for i, col in enumerate(metadata_df.columns):
+        print(f"{i}. {col}")
+    
+    # For each target athlete, update their metrics and show before/after
+    for athlete in target_athletes:
+        print(f"\n{'='*80}")
+        print(f"Updating {athlete}:")
+        print("\nBEFORE:")
+        print(metadata_df[metadata_df['Athlete Name'] == athlete].to_string())
+        
+        new_metrics = new_metrics_df[new_metrics_df['Athlete Name'] == athlete]
+        if not new_metrics.empty:
+            # Update all numeric columns
+            numeric_columns = [
+                'Total_Run_Distance_km',
+                'Avg_Weekly_Run_Mileage_km',
+                'Total_Run_Hours',
+                'Avg_Weekly_Run_Hours',
+                'Total_Ride_Hours',
+                'Total_Swim_Hours',
+                'Total_Other_Hours',
+                'Avg_Run_Pace_min_per_km'
+            ]
+            
+            # Update the values in metadata_df
+            for col in numeric_columns:
+                metadata_df.loc[metadata_df['Athlete Name'] == athlete, col] = new_metrics[col].values[0]
+            current_weeks = metadata_df.loc[metadata_df['Athlete Name'] == athlete, '2024 Weeks Scraped'].values[0]
+            metadata_df.loc[metadata_df['Athlete Name'] == athlete, '2024 Weeks Scraped'] = current_weeks + weeks_to_add
+            
+            print("\nAFTER:")
+            print(metadata_df[metadata_df['Athlete Name'] == athlete].to_string())
+    
+    return metadata_df
+
 def process_data():
     """Main function to process data"""
     # Target athletes
     target_athletes = ['Adam Fogg', 'JP Flavin', 'Thomas Bridger']
+    start_week = START_WEEK
+    end_week = END_WEEK
     
     # Read input files
     new_activities = pd.read_csv("../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w50-52_20250125_160050.csv")
@@ -211,9 +259,12 @@ def process_data():
     # Process data
     combined_activities = merge_new_activities(existing_activities, new_activities, target_athletes)
     updated_metrics = calculate_athlete_metrics(combined_activities, target_athletes)
+
+     # Update metadata with new metrics
+    updated_metadata = update_athlete_metadata(updated_metrics, target_athletes, start_week, end_week)
     print_specific_athletes(updated_metrics, target_athletes)
     
-    return updated_metrics
+    return updated_metadata
 
 if __name__ == "__main__":
     updated_df = process_data()

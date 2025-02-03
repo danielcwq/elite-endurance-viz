@@ -9,6 +9,8 @@ from datetime import datetime
 setup_logging()
 logger = logging.getLogger(__name__)
 TEMP_DATA_DIR = '../data/tempdata'
+START_WEEK = 50 
+END_WEEK = 52
 
 def generate_filename(df, file_type, start_week, end_week):
     """Generate informative filename for temporary data files
@@ -121,8 +123,8 @@ def check_data_updates():
     
     # Initialize driver
     driver = web_driver()
-    start_week = 50
-    end_week = 52
+    start_week = START_WEEK
+    end_week = END_WEEK
     specific_ids = [45537525, 4814818, 4928335]
     
     try:
