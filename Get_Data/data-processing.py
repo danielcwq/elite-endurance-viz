@@ -178,6 +178,7 @@ def calculate_athlete_metrics(activities_df: pd.DataFrame, target_athletes: list
         'Avg_Weekly_Run_Mileage_km': pivot_dist.get('Run', 0) / 45,
         'Total_Run_Hours': pivot_time.get('Run', 0) / 60,  # Convert minutes to hours
         'Avg_Weekly_Run_Hours': (pivot_time.get('Run', 0) / 60) / 45,
+        'Avg_Run_Pace_min_per_km': pivot_time.get('Run', 0) / pivot_dist.get('Run', 0),  # New metric
         'Total_Ride_Hours': pivot_time.get('Ride', 0) / 60,
         'Total_Swim_Hours': pivot_time.get('Swim', 0) / 60,
         'Total_Other_Hours': pivot_time.get('Other', 0) / 60
