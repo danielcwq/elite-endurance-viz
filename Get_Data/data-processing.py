@@ -39,10 +39,13 @@ def determine_weeks_scraped(row):
 import pandas as pd
 import os
 
+"""
+#redacted, dk why cursor is acting up and so bloody slow
+
 def merge_new_activities(existing_activities_path: str, new_activities_path: str) -> pd.DataFrame:
-    """
+    "
     Merge new activities with existing activities at DataFrame level
-    """
+    "
     print("Loading activity data...")
     
     # Read existing and new activities
@@ -54,6 +57,7 @@ def merge_new_activities(existing_activities_path: str, new_activities_path: str
     print(f"Combined activities: {len(combined_df)} rows")
     
     return combined_df
+"""
 
 def time_to_minutes(time_str):
     """Convert time string to minutes"""
@@ -81,7 +85,8 @@ def time_to_minutes(time_str):
     except:
         return 0  # Default for invalid entries
 
-def clean_activities_data(df: pd.DataFrame) -> pd.DataFrame:
+
+def clean_activities_data(df: pd.DataFrame, target_athletes: list) -> pd.DataFrame:
     """Clean and convert activity data types"""
     print("Cleaning activity data...")
     
@@ -91,11 +96,38 @@ def clean_activities_data(df: pd.DataFrame) -> pd.DataFrame:
     # Convert Distance to float
     clean_df['Distance (km)'] = pd.to_numeric(clean_df['Distance (km)'], errors='coerce').fillna(0).astype(float)
     
-    # Convert Time to minutes
-    clean_df['Time (min)'] = clean_df['Time'].apply(time_to_minutes)
+    # Convert Time to minutes only if 'Time (min)' doesn't exist
+    if 'Time (min)' not in clean_df.columns:
+        print("\nTime conversions for target athletes:")
+        for athlete in target_athletes:
+            athlete_times = clean_df[clean_df['Athlete Name'] == athlete]['Time']
+            print(f"\n{athlete}:")
+            for time_str in athlete_times:
+                minutes = time_to_minutes(time_str)
+                print(f"Converting {time_str} -> {minutes} minutes")
+        
+        clean_df['Time (min)'] = clean_df['Time'].apply(time_to_minutes)
     
     print("Data cleaning completed")
     return clean_df
+
+def merge_new_activities(existing_activities_df: pd.DataFrame, new_activities_df: pd.DataFrame, target_athletes: list) -> pd.DataFrame:
+    """
+    Merge new activities with existing ones, handling time conversion properly
+    """
+    print("Merging activities...")
+    
+    # Clean new activities (includes time conversion)
+    new_activities_clean = clean_activities_data(new_activities_df, target_athletes)
+    
+    # Clean existing activities (preserves existing Time (min))
+    existing_activities_clean = clean_activities_data(existing_activities_df, target_athletes)
+    
+    # Combine dataframes
+    combined_df = pd.concat([existing_activities_clean, new_activities_clean], ignore_index=True)
+    print(f"Combined activities: {len(combined_df)} rows")
+    
+    return combined_df
 
 def process_data(new_activities_df: pd.DataFrame, existing_activities_df: pd.DataFrame) -> pd.DataFrame:
     """Process and combine activity data at DataFrame level"""
@@ -114,15 +146,22 @@ def process_data(new_activities_df: pd.DataFrame, existing_activities_df: pd.Dat
     
     return metrics
 
-def calculate_athlete_metrics(activities_df: pd.DataFrame) -> pd.DataFrame:
+def calculate_athlete_metrics(activities_df: pd.DataFrame, target_athletes: list) -> pd.DataFrame:
     """Calculate metrics for each athlete from activities"""
     print("Calculating athlete metrics...")
     
     # Group by athlete and activity type
     grouped = activities_df.groupby(['Athlete Name', 'Type']).agg({
         'Distance (km)': 'sum',
-        'Time (min)': 'sum'  # Now using minutes
+        'Time (min)': 'sum'
     }).reset_index()
+    
+    # Show grouped data for target athletes
+    print("\nGrouped data for target athletes:")
+    for athlete in target_athletes:
+        athlete_data = grouped[grouped['Athlete Name'] == athlete]
+        print(f"\n{athlete}:")
+        print(athlete_data)
     
     # Pivot for calculations
     pivot_dist = grouped.pivot(index='Athlete Name', 
@@ -132,25 +171,22 @@ def calculate_athlete_metrics(activities_df: pd.DataFrame) -> pd.DataFrame:
                              columns='Type', 
                              values='Time (min)').fillna(0)
     
-    # Calculate metrics (converting minutes to hours where needed)
+    # Calculate metrics
     metrics = pd.DataFrame({
         'Athlete Name': pivot_dist.index,
         'Total_Run_Distance_km': pivot_dist.get('Run', 0),
         'Avg_Weekly_Run_Mileage_km': pivot_dist.get('Run', 0) / 45,
-        'Total_Run_Hours': pivot_time.get('Run', 0) / 60,  # Convert to hours
+        'Total_Run_Hours': pivot_time.get('Run', 0) / 60,  # Convert minutes to hours
         'Avg_Weekly_Run_Hours': (pivot_time.get('Run', 0) / 60) / 45,
         'Total_Ride_Hours': pivot_time.get('Ride', 0) / 60,
         'Total_Swim_Hours': pivot_time.get('Swim', 0) / 60,
         'Total_Other_Hours': pivot_time.get('Other', 0) / 60
     }).round(2)
     
-    print(f"Processed metrics for {len(metrics)} athletes")
     return metrics
 
 def print_specific_athletes(metrics_df: pd.DataFrame, athlete_names: list):
-    """
-    Print metrics for specific athlete names
-    """
+    """Print metrics for specific athlete names"""
     print("\nMetrics for specified athletes:")
     print("-" * 80)
     
@@ -163,21 +199,17 @@ def print_specific_athletes(metrics_df: pd.DataFrame, athlete_names: list):
             print(f"\nNo data found for athlete: {athlete_name}")
 
 def process_data():
-    """
-    Main function to process data
-    """
-    # File paths
-    new_activities_path = "../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w50-52_20250125_160050.csv"
-    existing_activities_path = "../indiv_activities_full.csv"
-    
-    # 1. Merge new activities with existing ones
-    combined_activities = merge_new_activities(existing_activities_path, new_activities_path)
-    
-    # 2. Calculate updated metrics
-    updated_metrics = calculate_athlete_metrics(combined_activities)
-    
-    # Print metrics for specific athletes
+    """Main function to process data"""
+    # Target athletes
     target_athletes = ['Adam Fogg', 'JP Flavin', 'Thomas Bridger']
+    
+    # Read input files
+    new_activities = pd.read_csv("../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w50-52_20250125_160050.csv")
+    existing_activities = pd.read_csv("../indiv_activities_full.csv")
+    
+    # Process data
+    combined_activities = merge_new_activities(existing_activities, new_activities, target_athletes)
+    updated_metrics = calculate_athlete_metrics(combined_activities, target_athletes)
     print_specific_athletes(updated_metrics, target_athletes)
     
     return updated_metrics
@@ -185,5 +217,3 @@ def process_data():
 if __name__ == "__main__":
     updated_df = process_data()
 
-if __name__ == "__main__":
-    updated_df = process_data()
