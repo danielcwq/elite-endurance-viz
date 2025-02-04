@@ -1,4 +1,5 @@
 import pandas as pd
+import shutil
 import logging
 from strava_scrape_new import consolidate_weekly_data, web_driver, login_strava, setup_logging, process_activities
 import json
@@ -86,17 +87,29 @@ def run_test():
                 # Process each athlete's activities
                 all_processed_activities = []
                 for athlete_name in df_json['Name'].unique():
-                    athlete_json_data = df_json[df_json['Name'] == athlete_name]['JSON Data'].iloc[0]
-                    try:
-                        processed_df = process_activities(
-                            json.loads(athlete_json_data),
-                            athlete_name
-                        )
-                        if not processed_df.empty:
-                            all_processed_activities.append(processed_df)
-                    except Exception as e:
-                        logger.error(f"Error processing activities for {athlete_name}: {str(e)}")
-                        continue
+                    athlete_data = df_json[df_json['Name'] == athlete_name]
+                    logger.info(f"\nProcessing data for {athlete_name}")
+                    
+                    for _, row in athlete_data.iterrows():
+                        try:
+                            # Load JSON data
+                            json_data = json.loads(row['JSON Data'])
+                            
+                            # Process activities for this athlete
+                            processed_df = process_activities(json_data, athlete_name)
+                            
+                            if not processed_df.empty:
+                                all_processed_activities.append(processed_df)
+                                logger.info(f"Successfully processed activities for {athlete_name}")
+                            else:
+                                logger.warning(f"No activities found for {athlete_name}")
+                                
+                        except json.JSONDecodeError as e:
+                            logger.error(f"JSON decode error for {athlete_name}: {str(e)}")
+                            continue
+                        except Exception as e:
+                            logger.error(f"Error processing activities for {athlete_name}: {str(e)}")
+                            continue
                 
                 if all_processed_activities:
                     final_df = pd.concat(all_processed_activities, ignore_index=True)
@@ -116,22 +129,29 @@ def run_test():
         driver.quit()
         logger.info("Test completed, browser closed")
 
-
-def check_data_updates():
-    """Compare new data with existing databases and show what would change"""
-    logger.info("Starting data comparison")
+def check_data_updates(start_week: int = 45, end_week: int = 47, specific_ids: list = [45537525, 4814818, 4928335]):
+    """Compare new data with existing databases and return changes"""
+    logger.info(f"Starting data comparison for weeks {start_week}-{end_week}")
+    
+    # Create backups before any changes
+    backup_dir = '../data/metadata/backup'
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    for file in ['master_iaaf_database_with_strava.csv', 'cleaned_athlete_metadata.csv', 'indiv_activities_full.csv']:
+        src_path = os.path.join('..', file)
+        if os.path.exists(src_path):
+            backup_path = os.path.join(backup_dir, f"{timestamp}_{file}")
+            shutil.copy2(src_path, backup_path)
+            logger.info(f"Created backup: {backup_path}")
     
     # Initialize driver
     driver = web_driver()
-    start_week = START_WEEK
-    end_week = END_WEEK
-    specific_ids = [45537525, 4814818, 4928335]
     
     try:
         # Login to Strava
         if not login_strava(driver):
             logger.error("Failed to login to Strava")
-            return
+            return None, None
             
         # Load existing databases
         master_df = pd.read_csv('../data/metadata/master_iaaf_database_with_strava.csv')
@@ -162,16 +182,28 @@ def check_data_updates():
             # Process new activities
             all_processed_activities = []
             for athlete_name in df_json['Name'].unique():
-                athlete_json_data = df_json[df_json['Name'] == athlete_name]['JSON Data'].iloc[0]
-                try:
-                    processed_df = process_activities(
-                        json.loads(athlete_json_data),
-                        athlete_name
-                    )
-                    if not processed_df.empty:
-                        all_processed_activities.append(processed_df)
-                except Exception as e:
-                    logger.error(f"Error processing activities for {athlete_name}: {str(e)}")
+                athlete_data = df_json[df_json['Name'] == athlete_name]
+                logger.info(f"\nProcessing data for {athlete_name}")
+                for _, row in athlete_data.iterrows():
+                    try:
+                        # Load JSON data
+                        json_data = json.loads(row['JSON Data'])
+                        
+                        # Process activities for this athlete
+                        processed_df = process_activities(json_data, athlete_name)
+                        
+                        if not processed_df.empty:
+                            all_processed_activities.append(processed_df)
+                            logger.info(f"Successfully processed activities for {athlete_name}")
+                        else:
+                            logger.warning(f"No activities found for {athlete_name}")
+                            
+                    except json.JSONDecodeError as e:
+                        logger.error(f"JSON decode error for {athlete_name}: {str(e)}")
+                        continue
+                    except Exception as e:
+                        logger.error(f"Error processing activities for {athlete_name}: {str(e)}")
+                        continue
                     
             if all_processed_activities:
                 new_activities_df = pd.concat(all_processed_activities, ignore_index=True)
@@ -182,35 +214,35 @@ def check_data_updates():
                 new_activities_df.to_csv(processed_filepath, index=False)
                 logger.info(f"Saved processed activities to {processed_filepath}")
                 
-                # Compare with existing activities
+                # Get new activities
                 new_activities = new_activities_df[~new_activities_df['Activity ID'].isin(activities_df['Activity ID'])]
-                print("\nNew activities that would be added to indiv_activities_full.csv:")
-                print(f"Number of new activities: {len(new_activities)}")
-                print(new_activities)
+                logger.info(f"Found {len(new_activities)} new activities")
                 
-                # Show updates to master database
-                print("\nUpdated rows in master_iaaf_database_with_strava.csv:")
+                # Update master database weeks scraped
                 updated_master = test_df.copy()
-                updated_master.loc[:, '2024_Weeks_Scraped'] = f"{end_week}"
-                print(updated_master[['Athlete ID', 'Competitor', '2024_Weeks_Scraped']])
+                updated_master.loc[:, '2024_Weeks_Scraped'] = int(end_week)
                 
-                # Debug logging issue
-                print("\nDebugging athlete count:")
-                print(f"Number of unique athletes in df_json: {df_json['Name'].nunique()}")
-                print("Unique athletes:", df_json['Name'].unique())
+                return new_activities, updated_master
             else:
                 logger.warning("No activities were processed successfully")
+                return None, None
         else:
             logger.warning("No data was collected from Strava")
+            return None, None
             
+    except Exception as e:
+        logger.error(f"Error during data collection: {str(e)}")
+        return None, None
     finally:
         driver.quit()
         logger.info("Test completed, browser closed")
 
 if __name__ == "__main__":
-    check_data_updates()
-
-
-
-#if __name__ == "__main__":
-#    run_test()
+    new_activities, updated_master = check_data_updates()
+    if new_activities is not None:
+        print("\nNew activities that would be added to indiv_activities_full.csv:")
+        print(f"Number of new activities: {len(new_activities)}")
+        print(new_activities)
+        
+        print("\nUpdated rows in master_iaaf_database_with_strava.csv:")
+        print(updated_master[['Athlete ID', 'Competitor', '2024_Weeks_Scraped']])

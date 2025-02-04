@@ -71,7 +71,7 @@ def web_driver():
 
 def login_strava(driver, username=None, password=None):
     """
-    Attempt to log in to Strava
+    Attempt to log in to Strava with validation checks and wait times for human intervention
     Returns True if successful, False otherwise
     """
     try:
@@ -86,76 +86,148 @@ def login_strava(driver, username=None, password=None):
         # Setup wait
         wait = WebDriverWait(driver, 10)
         
-        # Use provided credentials or fall back to defaults if none provided
-        username = username or os.getenv('STRAVA_EMAIL_1')  # Default fallback
-        password = password or os.getenv('STRAVA_PASSWORD')  # Default fallback
-        #since there was a change in the login / onboarding step we would have to fall back and use this 
-        #step 1: fill in email 
-        name_box = wait.until(EC.element_to_be_clickable((By.ID, "desktop-email")))
-        name_box.clear()
-        name_box.send_keys(username)
-        logging.info("Entered username")
+        # Use provided credentials or fall back to defaults
+        username = username or os.getenv('STRAVA_EMAIL_1')
+        password = password or os.getenv('STRAVA_PASSWORD')
 
-        buttons = driver.find_elements(
-            By.CSS_SELECTOR,
-            'button[class*="EmailLoginForm_submitButton"]'
-        )
+        # Step 1: Enter Email
+        try:
+            name_box = wait.until(EC.element_to_be_clickable((By.ID, "desktop-email")))
+            name_box.clear()
+            name_box.send_keys(username)
+            logging.info("Entered username")
+        except Exception as e:
+            logging.error(f"Error entering email: {str(e)}")
+            logging.info("Waiting 20 seconds for human intervention...")
+            time.sleep(20)
+            # Try one more time
+            name_box = wait.until(EC.element_to_be_clickable((By.ID, "desktop-email")))
+            name_box.clear()
+            name_box.send_keys(username)
 
-        for button in buttons:
-            button_text = button.text.strip()
-            if button_text == "Log In":
-                login_button = button
-                break
-        else:
-            raise Exception("Login button with text 'Log In' not found")
+        # Click first login button
+        try:
+            buttons = driver.find_elements(
+                By.CSS_SELECTOR,
+                'button[class*="EmailLoginForm_submitButton"]'
+            )
+            login_button = next(
+                (button for button in buttons if button.text.strip() == "Log In"),
+                None
+            )
+            if login_button:
+                login_button.click()
+            else:
+                raise Exception("Login button with text 'Log In' not found")
+        except Exception as e:
+            logging.error(f"Error clicking first login button: {str(e)}")
+            logging.info("Waiting 20 seconds for human intervention...")
+            time.sleep(20)
+            # Try one more time
+            buttons = driver.find_elements(
+                By.CSS_SELECTOR,
+                'button[class*="EmailLoginForm_submitButton"]'
+            )
+            login_button = next(
+                (button for button in buttons if button.text.strip() == "Log In"),
+                None
+            )
+            if login_button:
+                login_button.click()
+            else:
+                return False
 
-        # Now interact with the correct button
-        login_button.click()
         time.sleep(10)
-        #step 2: wait for page to load and then fill in password
-        visible_elements = driver.find_elements(By.CSS_SELECTOR, 'input[type="password"]')
-        for element in visible_elements:
-            if element.is_displayed():  # Only interact with the visible one
-                element.click()
-                element.clear()
-                element.send_keys(password)
-                break
-        logging.info("Entered password")
-        
-        buttons = driver.find_elements(
-            By.CSS_SELECTOR,
-            'button[type="submit"]'
-        )
 
-        for button in buttons:
-            button_text = button.text.strip()
-            if button_text == "Log in":
-                login_button = button
-                break
-        else:
-            raise Exception("Login button with text 'Log In' not found")
+        # Step 2: Enter Password
+        try:
+            visible_elements = driver.find_elements(By.CSS_SELECTOR, 'input[type="password"]')
+            password_entered = False
+            for element in visible_elements:
+                if element.is_displayed():
+                    element.click()
+                    element.clear()
+                    element.send_keys(password)
+                    password_entered = True
+                    break
+            if not password_entered:
+                raise Exception("Password field not found")
+            logging.info("Entered password")
+        except Exception as e:
+            logging.error(f"Error entering password: {str(e)}")
+            logging.info("Waiting 20 seconds for human intervention...")
+            time.sleep(20)
+            # Try one more time
+            visible_elements = driver.find_elements(By.CSS_SELECTOR, 'input[type="password"]')
+            for element in visible_elements:
+                if element.is_displayed():
+                    element.click()
+                    element.clear()
+                    element.send_keys(password)
+                    break
 
-        # Now interact with the correct button
-        login_button.click()
-       
+        # Click final login button
+        try:
+            buttons = driver.find_elements(
+                By.CSS_SELECTOR,
+                'button[class*="Button_btn__GRPGo Button_primary__xpM4p OTPCTAButton_ctaButton__i3OwD"]'
+            )
+            login_button = next(
+                (button for button in buttons if button.text.strip() == "Log in"),
+                None
+            )
+            if login_button:
+                login_button.click()
+            else:
+                raise Exception("Final login button not found")
+        except Exception as e:
+            logging.error(f"Error clicking final login button: {str(e)}")
+            logging.info("Waiting 20 seconds for human intervention...")
+            time.sleep(20)
+            # Try one more time
+            buttons = driver.find_elements(
+                By.CSS_SELECTOR,
+                'button[class*="Button_btn__GRPGo Button_primary__xpM4p OTPCTAButton_ctaButton__i3OwD"]'
+            )
+            login_button = next(
+                (button for button in buttons if button.text.strip() == "Log in"),
+                None
+            )
+            if login_button:
+                login_button.click()
+            else:
+                return False
+
         time.sleep(10)
         
+        # Final validation
         try:
             wait.until(lambda driver: 
                 len(driver.find_elements(By.CLASS_NAME, "getting-started")) > 0 or 
                 len(driver.find_elements(By.CLASS_NAME, "error")) > 0
             )
             
-            # Check if login was successful
             if len(driver.find_elements(By.CLASS_NAME, "getting-started")) > 0:
                 logging.info("Login successful - getting-started element found")
                 return True
             else:
                 logging.error("Login failed - error element found")
+                logging.info("Waiting 20 seconds for final human intervention...")
+                time.sleep(20)
+                # Check one last time
+                if len(driver.find_elements(By.CLASS_NAME, "getting-started")) > 0:
+                    logging.info("Login successful after human intervention")
+                    return True
                 return False
                 
         except Exception as e:
-            logging.error("Login verification timed out - neither success nor error elements found")
+            logging.error("Login verification timed out")
+            logging.info("Waiting 20 seconds for final human intervention...")
+            time.sleep(20)
+            # Final check
+            if len(driver.find_elements(By.CLASS_NAME, "getting-started")) > 0:
+                logging.info("Login successful after human intervention")
+                return True
             return False
 
     except Exception as e:
@@ -340,7 +412,7 @@ def consolidate_weekly_data(driver, df, start_week=1, end_week=40):
                     # Continue to next week
 
                 # Wait before the next iteration
-                time.sleep(1)
+                time.sleep(3)
 
             except Exception as e:
                 # Handle cases where there are no workouts or elements are not found
@@ -536,6 +608,8 @@ def process_activities(json_data, target_athlete_name):
 
     return df
 
+"""
+
 def test_athlete_scraping(driver, test_size=5, min_activities=0, max_activities=100):
     #Test function to scrape a small batch of athletes using existing functions.
     logging.info("Starting test scraping")
@@ -593,3 +667,4 @@ def test_athlete_scraping(driver, test_size=5, min_activities=0, max_activities=
     
     logging.info("No activities collected")
     return pd.DataFrame()
+"""
