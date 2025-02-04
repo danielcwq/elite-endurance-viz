@@ -1,0 +1,38 @@
+Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (km),Pace (min/km),Time
+4814818,Adam Fogg,12870333382,Jog,+ speed dev,2024-11-10 16:57:44+00:00,3933,Run,"Coconino County, USA",14.51,4.52,1 h 5 m
+4814818,Adam Fogg,12861966969,Long,,2024-11-09 16:53:13+00:00,5465,Run,"Coconino County, USA",20.73,4.38,1 h 31 m
+4814818,Adam Fogg,12855633715,Hills,3 x (3 x 400) with 200 jog down between reps and full jog down (800) between sets,2024-11-08 23:51:37+00:00,1844,Run,"Coconino County, USA",7.64,4.02,30 m 44 s
+4814818,Adam Fogg,12855729898,Warm Down,,2024-11-09 00:35:37+00:00,499,Run,"Coconino County, USA",1.62,5.12,8 m 19 s
+4814818,Adam Fogg,12855413905,Warm Up,,2024-11-08 23:21:22+00:00,1056,Run,"Coconino County, USA",2.58,5.02,12 m 58 s
+4814818,Adam Fogg,12853288166,3 x 2 Miles,75 sec recovery,2024-11-08 16:24:50+00:00,2043,Run,"Coconino County, USA",10.07,3.38,34 m 3 s
+4814818,Adam Fogg,12853388797,Warm Down,,2024-11-08 17:07:43+00:00,488,Run,"Coconino County, USA",1.62,5.02,8 m 8 s
+4814818,Adam Fogg,12852884378,Warm Up,,2024-11-08 15:44:56+00:00,966,Run,"Coconino County, USA",2.45,4.77,11 m 41 s
+4814818,Adam Fogg,12845998228,Jog,+ speed dev,2024-11-07 16:13:29+00:00,3906,Run,"Coconino County, USA",14.65,4.45,1 h 5 m
+4814818,Adam Fogg,12841187851,Double,Photos from Greyhound Bus Jan Figueroa,2024-11-07 00:05:51+00:00,1826,Run,"Coconino County, USA",6.46,4.7,30 m 26 s
+4814818,Adam Fogg,12838261866,Jog,,2024-11-06 16:22:11+00:00,3397,Run,"Coconino County, USA",13.56,4.17,56 m 37 s
+4814818,Adam Fogg,12830964305,Long Run,,2024-11-05 17:03:20+00:00,6628,Run,"Coconino National Forest, USA",27.55,4.0,1 h 50 m
+4814818,Adam Fogg,12825012070,Double,,2024-11-05 00:10:24+00:00,1900,Run,"Coconino County, USA",6.45,4.82,31 m 4 s
+4814818,Adam Fogg,12822277326,Jog,With Jaziri Damien and John,2024-11-04 16:30:30+00:00,3638,Run,"Coconino County, USA",13.01,4.62,1 h 0 m
+4928335,JP Flavin,12868575757,Muddy buddies,,2024-11-10 13:04:05+00:00,4814,Run,"Lake Orion, USA",19.33,4.03,1 h 18 m
+4928335,JP Flavin,12860006131,Nice surprise,"2x3 @ 5:00, 4:50, 4:40 4:54, 4:51, 4:46 4:58, 4:46. 4:41 Fun one with the kiddos",2024-11-09 12:26:18+00:00,6483,Run,"Washington Charter Township, USA",20.92,3.62,1 h 15 m
+4928335,JP Flavin,12852164031,G’s of all time,,2024-11-08 13:02:49+00:00,4011,Run,"Rochester Hills, USA",16.13,4.0,1 h 4 m
+4928335,JP Flavin,12844855654,Waddled,,2024-11-07 13:03:42+00:00,4313,Run,"Rochester, USA",16.11,3.98,1 h 4 m
+4928335,JP Flavin,12837093817,Rusty,"4x 600,1k on grass (1:47, 2:56) (1:45, 2:55) (1:43, 2:53) (1:42, 2:52) Going to be so sadly sore tomorrow",2024-11-06 12:41:26+00:00,6057,Run,"Rochester Hills, USA",17.94,3.93,1 h 10 m
+4928335,JP Flavin,12828761672,Don’t lick the swingset,,2024-11-05 13:01:26+00:00,3953,Run,"Oakland Charter Township, USA",16.1,3.78,1 h 1 m
+4928335,JP Flavin,12820803836,Time to force the fitness,,2024-11-04 13:02:03+00:00,3681,Run,"Rochester, USA",16.1,3.73,1 h 0 m
+45537525,Thomas Bridger,12866672030,Group long run,,2024-11-10 09:37:43+00:00,6063,Run,"Birmingham, United Kingdom",19.44,4.5,1 h 27 m
+45537525,Thomas Bridger,12860868786,CD,,2024-11-09 15:22:17+00:00,1175,Run,"West Northamptonshire, United Kingdom",3.72,,18 m 26 s
+45537525,Thomas Bridger,12860342874,Brum league xc,4th,2024-11-09 14:31:53+00:00,1810,Run,"West Northamptonshire, United Kingdom",9.61,,30 m 10 s
+45537525,Thomas Bridger,12859849542,Afternoon Run,,2024-11-09 13:43:15+00:00,1677,Run,"West Northamptonshire, United Kingdom",3.28,4.97,16 m 18 s
+45537525,Thomas Bridger,12857681679,Shakeout,,2024-11-09 09:45:03+00:00,942,Run,"Birmingham, United Kingdom",3.32,4.72,15 m 42 s
+45537525,Thomas Bridger,12851379282,Shakeout and strides,,2024-11-08 11:36:33+00:00,2121,Run,"Birmingham, United Kingdom",7.23,4.63,33 m 27 s
+45537525,Thomas Bridger,12845392434,Morning Run,90+5,2024-11-07 07:43:23+00:00,1416,Run,"Égat, France",4.91,,23 m 32 s
+45537525,Thomas Bridger,12838996846,Double,Was planning the last run in font to be at the plateau but ruined by Dr Hui's problem sheet due at 7,2024-11-06 18:05:55+00:00,2487,Run,"Égat, France",8.05,5.07,40 m 49 s
+45537525,Thomas Bridger,12835799458,CD,,2024-11-06 10:30:24+00:00,1420,Run,"Font-Romeu-Odeillo-Via, France",4.01,5.3,21 m 17 s
+45537525,Thomas Bridger,12835798648,"4*1k, 2*600, 1k, 600, 5*200",,2024-11-06 09:25:51+00:00,2622,Run,"Font-Romeu-Odeillo-Via, France",10.14,4.28,43 m 27 s
+45537525,Thomas Bridger,12835792529,WU,,2024-11-06 08:28:02+00:00,1928,Run,"Font-Romeu-Odeillo-Via, France",4.05,4.68,19 m 0 s
+45537525,Thomas Bridger,12826966044,Sub 7 average for Fin's birthday treat,,2024-11-05 08:24:06+00:00,4022,Run,"Bolquère, France",14.49,4.32,1 h 2 m
+45537525,Thomas Bridger,12822156599,Double,And strides,2024-11-04 16:22:32+00:00,3095,Run,"Bolquère, France",8.73,4.55,39 m 47 s
+45537525,Thomas Bridger,12819754268,CD,,2024-11-04 10:30:03+00:00,1260,Run,"Font-Romeu-Odeillo-Via, France",3.88,5.05,19 m 38 s
+45537525,Thomas Bridger,12819753292,7* mile tempo,"5.15, 5.10, 5.10 (2.4mmol), 5.01, 5.05, 5.00 (2.9mmol), 4.58",2024-11-04 09:31:44+00:00,2783,Run,"Font-Romeu-Odeillo-Via, France",12.7,3.3,41 m 50 s
+45537525,Thomas Bridger,12819753352,WU,,2024-11-04 08:39:18+00:00,1593,Run,"Font-Romeu-Odeillo-Via, France",4.02,4.73,19 m 5 s
