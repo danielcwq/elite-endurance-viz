@@ -1,0 +1,19 @@
+(selenium_env) (base) danielching@Daniels-MacBook-Air Get_Data % python test_data_processing.py
+
+Input Data Summary:
+Activities DataFrame shape: (33, 12)
+Number of unique athletes in activities: 3
+Athletes in activities: ['Adam Fogg' 'JP Flavin' 'Thomas Bridger']
+
+Target athletes from master database: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-03 21:32:33,596 - INFO - Calculating athlete metrics...
+2025-02-03 21:32:33,596 - INFO - 
+Input DataFrame shape: (33, 12)
+2025-02-03 21:32:33,596 - INFO - Target athletes: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-03 21:32:33,596 - INFO - Unique athletes in activities: ['Adam Fogg' 'JP Flavin' 'Thomas Bridger']
+2025-02-03 21:32:33,597 - INFO - 
+Normalized target athletes: ['Adam Fogg', 'Adam Fogg', 'Jp Flavin', 'Thomas Bridger']
+2025-02-03 21:32:33,597 - INFO - Normalized unique athletes in activities: ['Adam Fogg' 'Jp Flavin' 'Thomas Bridger']
+2025-02-03 21:32:33,597 - INFO - 
+Filtered DataFrame shape: (33, 12)
+2025-02-03 21:32:33,598 - ERROR - Error in test_calculate_metrics: "Column(s) ['Time (min)'] do not exist"

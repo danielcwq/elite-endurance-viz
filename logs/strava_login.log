@@ -8740,3 +8740,2363 @@ Stacktrace:
 2025-01-16 14:58:55,316 - INFO - Updated data for Jenny SIMPSON: ID=27885667, Visibility=Public
 2025-01-16 14:58:56,693 - INFO - Successfully saved updated database
 2025-01-16 14:59:01,340 - INFO - WebDriver closed
+2025-01-17 15:43:54,793 - INFO - Initializing Chrome WebDriver
+2025-01-17 15:43:54,794 - INFO - ====== WebDriver manager ======
+2025-01-17 15:43:55,117 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:43:55,184 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:43:55,243 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.83/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-17 15:43:57,575 - INFO - WebDriver initialized successfully
+2025-01-17 15:43:57,581 - INFO - Attempting to login to Strava
+2025-01-17 15:44:04,711 - INFO - Clicked login button
+2025-01-17 15:44:04,949 - INFO - Entered username
+2025-01-17 15:44:05,014 - INFO - Entered password
+2025-01-17 15:44:15,097 - INFO - Login successful
+2025-01-17 15:44:15,099 - INFO - Successfully logged in to Strava
+2025-01-17 15:44:15,151 - INFO - Loaded master database with 5305 entries
+2025-01-17 15:44:15,159 - INFO - Selected 4 athletes for testing
+2025-01-17 15:44:15,160 - ERROR - Error during data collection: name 'driver' is not defined
+2025-01-17 15:44:15,305 - INFO - Test completed, browser closed
+2025-01-17 15:45:15,549 - INFO - Initializing Chrome WebDriver
+2025-01-17 15:45:15,549 - INFO - ====== WebDriver manager ======
+2025-01-17 15:45:15,865 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:45:15,983 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:45:16,020 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.83/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-17 15:45:18,511 - INFO - WebDriver initialized successfully
+2025-01-17 15:45:18,512 - INFO - Attempting to login to Strava
+2025-01-17 15:45:26,056 - INFO - Clicked login button
+2025-01-17 15:45:26,315 - INFO - Entered username
+2025-01-17 15:45:26,387 - INFO - Entered password
+2025-01-17 15:45:36,459 - INFO - Login successful
+2025-01-17 15:45:36,460 - INFO - Successfully logged in to Strava
+2025-01-17 15:45:36,488 - INFO - Loaded master database with 5305 entries
+2025-01-17 15:45:36,493 - INFO - Selected 4 athletes for testing
+2025-01-17 15:45:36,494 - ERROR - Error during data collection: name 'driver' is not defined
+2025-01-17 15:45:36,596 - INFO - Test completed, browser closed
+2025-01-17 15:47:31,357 - INFO - Initializing Chrome WebDriver
+2025-01-17 15:47:31,358 - INFO - ====== WebDriver manager ======
+2025-01-17 15:47:31,675 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:47:31,812 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:47:31,878 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.83/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-17 15:47:34,914 - INFO - WebDriver initialized successfully
+2025-01-17 15:47:35,046 - INFO - Attempting to login to Strava
+2025-01-17 15:47:43,507 - INFO - Clicked login button
+2025-01-17 15:47:43,771 - INFO - Entered username
+2025-01-17 15:47:43,845 - INFO - Entered password
+2025-01-17 15:47:53,919 - INFO - Login successful
+2025-01-17 15:47:53,920 - INFO - Successfully logged in to Strava
+2025-01-17 15:47:53,966 - INFO - Loaded master database with 5305 entries
+2025-01-17 15:47:53,974 - INFO - Selected 4 athletes for testing
+2025-01-17 15:47:53,975 - ERROR - Error during data collection: name 'driver' is not defined
+2025-01-17 15:47:54,086 - INFO - Test completed, browser closed
+2025-01-17 15:48:59,418 - INFO - Initializing Chrome WebDriver
+2025-01-17 15:48:59,419 - INFO - ====== WebDriver manager ======
+2025-01-17 15:48:59,721 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:48:59,809 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:48:59,893 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.83/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-17 15:49:02,864 - INFO - WebDriver initialized successfully
+2025-01-17 15:49:02,866 - INFO - Attempting to login to Strava
+2025-01-17 15:49:11,658 - INFO - Clicked login button
+2025-01-17 15:49:11,909 - INFO - Entered username
+2025-01-17 15:49:12,015 - INFO - Entered password
+2025-01-17 15:49:32,112 - INFO - Login successful
+2025-01-17 15:49:32,114 - INFO - Successfully logged in to Strava
+2025-01-17 15:49:32,165 - INFO - Loaded master database with 5305 entries
+2025-01-17 15:49:32,173 - INFO - Selected 4 athletes for testing
+2025-01-17 15:49:32,173 - ERROR - Error during data collection: name 'driver' is not defined
+2025-01-17 15:49:32,284 - INFO - Test completed, browser closed
+2025-01-17 15:51:27,969 - INFO - Initializing Chrome WebDriver
+2025-01-17 15:51:27,969 - INFO - ====== WebDriver manager ======
+2025-01-17 15:51:28,281 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:51:28,398 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:51:28,503 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.83/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-17 15:51:30,468 - INFO - WebDriver initialized successfully
+2025-01-17 15:51:30,468 - INFO - Attempting to login to Strava
+2025-01-17 15:51:37,249 - INFO - Clicked login button
+2025-01-17 15:51:37,435 - INFO - Entered username
+2025-01-17 15:51:37,501 - INFO - Entered password
+2025-01-17 15:51:57,574 - INFO - Login successful
+2025-01-17 15:51:57,577 - INFO - Successfully logged in to Strava
+2025-01-17 15:51:57,619 - INFO - Loaded master database with 5305 entries
+2025-01-17 15:51:57,627 - INFO - Selected 4 athletes for testing
+2025-01-17 15:53:30,760 - INFO - Saved validation metadata to temp_metadata_20250117_155330.csv
+2025-01-17 15:53:30,761 - INFO - Collected JSON data for 0 entries
+2025-01-17 15:53:31,040 - INFO - Test completed, browser closed
+2025-01-17 15:55:18,406 - INFO - Initializing Chrome WebDriver
+2025-01-17 15:55:18,407 - INFO - ====== WebDriver manager ======
+2025-01-17 15:55:18,696 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:55:18,793 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-17 15:55:18,895 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.83/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-17 15:55:21,109 - INFO - WebDriver initialized successfully
+2025-01-17 15:55:21,109 - INFO - Attempting to login to Strava
+2025-01-17 15:55:28,349 - INFO - Clicked login button
+2025-01-17 15:55:28,528 - INFO - Entered username
+2025-01-17 15:55:28,631 - INFO - Entered password
+2025-01-17 15:55:48,706 - INFO - Login successful
+2025-01-17 15:55:48,709 - INFO - Successfully logged in to Strava
+2025-01-17 15:55:48,754 - INFO - Loaded master database with 5305 entries
+2025-01-17 15:55:48,762 - INFO - Selected 4 athletes for testing
+2025-01-17 16:01:51,827 - INFO - Saved validation metadata to temp_metadata_20250117_160151.csv
+2025-01-17 16:01:51,828 - INFO - Collected JSON data for 19 entries
+2025-01-17 16:01:52,192 - INFO - Test completed, browser closed
+2025-01-23 12:15:55,804 - INFO - Starting test scraping
+2025-01-23 12:15:55,804 - INFO - Initializing Chrome WebDriver
+2025-01-23 12:15:55,804 - INFO - ====== WebDriver manager ======
+2025-01-23 12:15:56,535 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:15:57,175 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:15:57,357 - INFO - There is no [mac64] chromedriver "132.0.6834.110" for browser google-chrome "132.0.6834" in cache
+2025-01-23 12:15:57,369 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:15:58,178 - INFO - WebDriver version 132.0.6834.110 selected
+2025-01-23 12:15:58,181 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/mac-arm64/chromedriver-mac-arm64.zip
+2025-01-23 12:15:58,181 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/mac-arm64/chromedriver-mac-arm64.zip
+2025-01-23 12:15:58,453 - INFO - Driver downloading response is 200
+2025-01-23 12:16:14,852 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:16:15,048 - INFO - Driver has been saved in cache [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110]
+2025-01-23 12:16:18,180 - INFO - WebDriver initialized successfully
+2025-01-23 12:16:18,182 - INFO - Attempting to login to Strava
+2025-01-23 12:16:31,232 - INFO - Clicked login button
+2025-01-23 12:16:31,445 - INFO - Entered username
+2025-01-23 12:16:41,690 - ERROR - Login failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001029727b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010296aff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x000000010250bf0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000102551000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010258b148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000102544e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000102545a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x000000010293d6d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001029409f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x000000010292403c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001029412b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x0000000102915c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010295bd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010295bedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010296ac6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x0000000195c8ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x0000000195c8ada0 thread_start + 8
+
+2025-01-23 12:16:41,692 - ERROR - Failed to login to Strava
+2025-01-23 12:16:41,786 - INFO - Test completed, browser closed
+2025-01-23 12:16:45,845 - INFO - Starting test scraping
+2025-01-23 12:16:45,845 - INFO - Initializing Chrome WebDriver
+2025-01-23 12:16:45,845 - INFO - ====== WebDriver manager ======
+2025-01-23 12:16:46,070 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:16:46,482 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:16:46,531 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-23 12:16:48,374 - INFO - WebDriver initialized successfully
+2025-01-23 12:16:48,380 - INFO - Attempting to login to Strava
+2025-01-23 12:17:03,652 - INFO - Clicked login button
+2025-01-23 12:17:04,068 - INFO - Entered username
+2025-01-23 12:17:28,504 - ERROR - Login failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001030f27b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x00000001030eaff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000102c8bf0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000102cd1000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x0000000102d0b148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000102cc4e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000102cc5a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001030bd6d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001030c09f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001030a403c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001030c12b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x0000000103095c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x00000001030dbd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x00000001030dbedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x00000001030eac6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x0000000195c8ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x0000000195c8ada0 thread_start + 8
+
+2025-01-23 12:17:28,506 - ERROR - Failed to login to Strava
+2025-01-23 12:17:28,623 - INFO - Test completed, browser closed
+2025-01-23 12:18:09,938 - INFO - Starting test scraping
+2025-01-23 12:18:09,938 - INFO - Initializing Chrome WebDriver
+2025-01-23 12:18:09,939 - INFO - ====== WebDriver manager ======
+2025-01-23 12:18:10,236 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:18:10,593 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:18:10,748 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-23 12:18:12,850 - INFO - WebDriver initialized successfully
+2025-01-23 12:18:12,852 - INFO - Attempting to login to Strava
+2025-01-23 12:18:26,279 - INFO - Clicked login button
+2025-01-23 12:18:26,493 - INFO - Entered username
+2025-01-23 12:18:54,444 - ERROR - Login failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102a127b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000102a0aff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001025abf0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001025f1000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010262b148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x00000001025e4e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x00000001025e5a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001029dd6d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001029e09f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001029c403c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001029e12b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001029b5c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x00000001029fbd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x00000001029fbedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x0000000102a0ac6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x0000000195c8ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x0000000195c8ada0 thread_start + 8
+
+2025-01-23 12:18:54,446 - ERROR - Failed to login to Strava
+2025-01-23 12:18:54,556 - INFO - Test completed, browser closed
+2025-01-23 12:23:38,130 - INFO - Starting test scraping
+2025-01-23 12:23:38,130 - INFO - Initializing Chrome WebDriver
+2025-01-23 12:23:38,130 - INFO - ====== WebDriver manager ======
+2025-01-23 12:23:38,506 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:23:38,559 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 12:23:38,603 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-23 12:23:41,517 - INFO - WebDriver initialized successfully
+2025-01-23 12:23:41,522 - INFO - Attempting to login to Strava
+2025-01-23 12:23:54,516 - INFO - Clicked login button
+2025-01-23 12:23:55,823 - INFO - Entered username
+2025-01-23 12:24:24,150 - ERROR - Login failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001006327b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010062aff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001001cbf0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100211000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010024b148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000100204e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000100205a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001005fd6d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001006009f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001005e403c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001006012b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001005d5c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010061bd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010061bedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010062ac6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x0000000195c8ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x0000000195c8ada0 thread_start + 8
+
+2025-01-23 12:24:24,152 - ERROR - Failed to login to Strava
+2025-01-23 12:24:24,268 - INFO - Test completed, browser closed
+2025-01-24 17:05:24,469 - INFO - Starting test scraping
+2025-01-24 17:05:24,470 - INFO - Initializing Chrome WebDriver
+2025-01-24 17:05:24,470 - INFO - ====== WebDriver manager ======
+2025-01-24 17:05:24,654 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:05:24,712 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:05:24,758 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:05:24,854 - INFO - WebDriver version 132.0.6834.110 selected
+2025-01-24 17:05:24,856 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/mac-arm64/chromedriver-mac-arm64.zip
+2025-01-24 17:05:24,856 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/mac-arm64/chromedriver-mac-arm64.zip
+2025-01-24 17:05:24,911 - INFO - Driver downloading response is 200
+2025-01-24 17:05:25,639 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:05:25,834 - INFO - Driver has been saved in cache [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110]
+2025-01-24 17:05:27,636 - INFO - WebDriver initialized successfully
+2025-01-24 17:05:27,641 - INFO - Attempting to login to Strava
+2025-01-24 17:05:35,444 - INFO - Clicked login button
+2025-01-24 17:05:35,691 - INFO - Entered username
+2025-01-24 17:05:43,220 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /session/c52fcc8df43e9e66c99ff49614dd3499
+2025-01-24 17:05:43,228 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x117a49430>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c52fcc8df43e9e66c99ff49614dd3499
+2025-01-24 17:05:43,230 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x117a498e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c52fcc8df43e9e66c99ff49614dd3499
+2025-01-24 17:05:43,236 - INFO - Test completed, browser closed
+2025-01-24 17:12:55,900 - INFO - Starting test scraping
+2025-01-24 17:12:55,900 - INFO - Initializing Chrome WebDriver
+2025-01-24 17:12:55,900 - INFO - ====== WebDriver manager ======
+2025-01-24 17:12:56,100 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:12:56,146 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:12:56,186 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-24 17:12:58,150 - INFO - WebDriver initialized successfully
+2025-01-24 17:12:58,152 - INFO - Attempting to login to Strava
+2025-01-24 17:13:05,552 - INFO - Clicked login button
+2025-01-24 17:13:05,979 - INFO - Entered username
+2025-01-24 17:13:16,220 - ERROR - Login failed: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010054a7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000100542ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001000e3f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100129000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x0000000100163148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x000000010011ce1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x000000010011da64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001005156d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001005189f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001004fc03c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001005192b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001004edc04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x0000000100533d60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x0000000100533edc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x0000000100542c6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x000000019579ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019579ada0 thread_start + 8
+
+2025-01-24 17:13:16,222 - ERROR - Failed to login to Strava
+2025-01-24 17:13:16,515 - INFO - Test completed, browser closed
+2025-01-24 17:13:49,056 - INFO - Starting test scraping
+2025-01-24 17:13:49,056 - INFO - Initializing Chrome WebDriver
+2025-01-24 17:13:49,056 - INFO - ====== WebDriver manager ======
+2025-01-24 17:13:49,255 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:13:49,329 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:13:49,389 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-24 17:13:50,844 - INFO - WebDriver initialized successfully
+2025-01-24 17:13:50,847 - INFO - Attempting to login to Strava
+2025-01-24 17:13:57,697 - INFO - Clicked login button
+2025-01-24 17:13:57,931 - INFO - Entered username
+2025-01-24 17:14:18,214 - ERROR - Login failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050fe7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x00000001050f6ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000104c97f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104cdd000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x0000000104d17148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000104cd0e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000104cd1a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001050c96d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001050cc9f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001050b003c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001050cd2b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001050a1c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x00000001050e7d60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x00000001050e7edc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x00000001050f6c6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x000000019579ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019579ada0 thread_start + 8
+
+2025-01-24 17:14:18,215 - ERROR - Failed to login to Strava
+2025-01-24 17:14:18,482 - INFO - Test completed, browser closed
+2025-01-24 17:15:12,909 - INFO - Starting test scraping
+2025-01-24 17:15:12,909 - INFO - Initializing Chrome WebDriver
+2025-01-24 17:15:12,909 - INFO - ====== WebDriver manager ======
+2025-01-24 17:15:13,108 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:15:13,166 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 17:15:13,206 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-24 17:15:14,807 - INFO - WebDriver initialized successfully
+2025-01-24 17:15:14,817 - INFO - Attempting to login to Strava
+2025-01-24 17:15:21,015 - INFO - Clicked login button
+2025-01-24 17:15:21,273 - INFO - Entered username
+2025-01-24 17:15:41,769 - ERROR - Login failed: Message: 
+
+2025-01-24 17:15:41,775 - ERROR - Failed to login to Strava
+2025-01-24 17:15:41,882 - INFO - Test completed, browser closed
+2025-01-25 11:55:07,567 - INFO - Starting test scraping
+2025-01-25 11:55:07,567 - INFO - Initializing Chrome WebDriver
+2025-01-25 11:55:07,567 - INFO - ====== WebDriver manager ======
+2025-01-25 11:55:07,799 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 11:55:07,881 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 11:55:07,918 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 11:55:09,709 - INFO - WebDriver initialized successfully
+2025-01-25 11:55:09,710 - INFO - Attempting to login to Strava
+2025-01-25 11:55:16,402 - INFO - Clicked login button
+2025-01-25 11:55:16,642 - INFO - Entered username
+2025-01-25 11:55:26,834 - INFO - Entered password
+2025-01-25 11:55:52,024 - INFO - Login successful - getting-started element found
+2025-01-25 11:55:52,025 - INFO - Successfully logged in to Strava
+2025-01-25 11:55:52,067 - INFO - Loaded master database with 5305 entries
+2025-01-25 11:55:52,076 - INFO - Selected 4 athletes for testing
+2025-01-25 12:01:57,110 - INFO - Saved validation metadata to temp_metadata_20250125_120157.csv
+2025-01-25 12:01:57,311 - INFO - Saved test results to ../data/metadata/test_results_20250125_120157.csv
+2025-01-25 12:01:57,645 - INFO - Test completed, browser closed
+2025-01-25 14:46:18,699 - INFO - Starting test scraping
+2025-01-25 14:46:18,700 - INFO - Initializing Chrome WebDriver
+2025-01-25 14:46:18,700 - INFO - ====== WebDriver manager ======
+2025-01-25 14:46:18,906 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 14:46:19,101 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 14:46:19,232 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 14:46:21,339 - INFO - WebDriver initialized successfully
+2025-01-25 14:46:21,340 - INFO - Attempting to login to Strava
+2025-01-25 14:46:31,597 - INFO - Clicked login button
+2025-01-25 14:46:31,842 - INFO - Entered username
+2025-01-25 14:46:42,032 - INFO - Entered password
+2025-01-25 14:47:07,116 - INFO - Login successful - getting-started element found
+2025-01-25 14:47:07,118 - INFO - Successfully logged in to Strava
+2025-01-25 14:47:07,144 - INFO - Loaded master database with 5305 entries
+2025-01-25 14:47:07,148 - INFO - Selected 4 athletes for testing
+2025-01-25 14:51:24,845 - INFO - Saved validation metadata to ../data/tempdata/temp_metadata_20250125_145124.csv
+2025-01-25 14:51:24,982 - INFO - Saved test results to ../data/tempdata/test_results_20250125_145124.csv
+2025-01-25 14:51:25,318 - INFO - Test completed, browser closed
+2025-01-25 14:56:09,561 - INFO - Starting test scraping
+2025-01-25 14:56:09,562 - INFO - Initializing Chrome WebDriver
+2025-01-25 14:56:09,562 - INFO - ====== WebDriver manager ======
+2025-01-25 14:56:09,831 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 14:56:09,965 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 14:56:10,101 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 14:56:12,695 - INFO - WebDriver initialized successfully
+2025-01-25 14:56:12,698 - INFO - Attempting to login to Strava
+2025-01-25 14:56:20,849 - INFO - Clicked login button
+2025-01-25 14:56:21,143 - INFO - Entered username
+2025-01-25 14:56:31,410 - INFO - Entered password
+2025-01-25 14:56:56,507 - INFO - Login successful - getting-started element found
+2025-01-25 14:56:56,509 - INFO - Successfully logged in to Strava
+2025-01-25 14:56:56,530 - INFO - Loaded master database with 5305 entries
+2025-01-25 14:56:56,536 - INFO - Selected 4 athletes for testing
+2025-01-25 15:03:05,476 - INFO - Saved test results to ../data/tempdata/test_results_20250125_150305.csv
+2025-01-25 15:03:05,781 - INFO - Test completed, browser closed
+2025-01-25 15:11:59,993 - INFO - Starting test scraping
+2025-01-25 15:11:59,994 - INFO - Initializing Chrome WebDriver
+2025-01-25 15:11:59,994 - INFO - ====== WebDriver manager ======
+2025-01-25 15:12:00,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:12:00,363 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:12:00,489 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 15:12:02,590 - INFO - WebDriver initialized successfully
+2025-01-25 15:12:02,597 - INFO - Attempting to login to Strava
+2025-01-25 15:12:11,033 - INFO - Clicked login button
+2025-01-25 15:12:11,232 - INFO - Entered username
+2025-01-25 15:12:21,407 - INFO - Entered password
+2025-01-25 15:12:46,499 - INFO - Login successful - getting-started element found
+2025-01-25 15:12:46,500 - INFO - Successfully logged in to Strava
+2025-01-25 15:12:46,537 - INFO - Loaded master database with 5305 entries
+2025-01-25 15:12:46,544 - INFO - Selected 4 athletes for testing
+2025-01-25 15:23:50,995 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-52_20250125_152350.csv
+2025-01-25 15:23:51,237 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-52_20250125_152350.csv
+2025-01-25 15:23:51,483 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-52_20250125_152351.csv
+2025-01-25 15:23:52,285 - INFO - Test completed, browser closed
+2025-01-25 15:36:18,629 - INFO - Starting data comparison
+2025-01-25 15:36:18,629 - INFO - Initializing Chrome WebDriver
+2025-01-25 15:36:18,629 - INFO - ====== WebDriver manager ======
+2025-01-25 15:36:18,844 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:36:19,023 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:36:19,157 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 15:36:21,422 - INFO - WebDriver initialized successfully
+2025-01-25 15:36:21,423 - INFO - Attempting to login to Strava
+2025-01-25 15:36:28,747 - INFO - Clicked login button
+2025-01-25 15:36:28,948 - INFO - Entered username
+2025-01-25 15:36:39,125 - INFO - Entered password
+2025-01-25 15:37:04,221 - INFO - Login successful - getting-started element found
+2025-01-25 15:37:38,784 - INFO - Starting data comparison
+2025-01-25 15:37:38,784 - INFO - Initializing Chrome WebDriver
+2025-01-25 15:37:38,784 - INFO - ====== WebDriver manager ======
+2025-01-25 15:37:38,972 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:37:39,130 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:37:39,248 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 15:37:41,023 - INFO - WebDriver initialized successfully
+2025-01-25 15:37:41,028 - INFO - Attempting to login to Strava
+2025-01-25 15:37:48,704 - INFO - Clicked login button
+2025-01-25 15:37:48,902 - INFO - Entered username
+2025-01-25 15:37:59,072 - INFO - Entered password
+2025-01-25 15:38:24,151 - INFO - Login successful - getting-started element found
+2025-01-25 15:39:41,982 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /session/1a0a3ecd74d56967b05ae44fb11a1455
+2025-01-25 15:39:41,985 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11974ff10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a0a3ecd74d56967b05ae44fb11a1455
+2025-01-25 15:39:41,986 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11974f3a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a0a3ecd74d56967b05ae44fb11a1455
+2025-01-25 15:39:47,823 - INFO - Starting data comparison
+2025-01-25 15:39:47,823 - INFO - Initializing Chrome WebDriver
+2025-01-25 15:39:47,823 - INFO - ====== WebDriver manager ======
+2025-01-25 15:39:48,030 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:39:48,161 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:39:48,266 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 15:39:50,254 - INFO - WebDriver initialized successfully
+2025-01-25 15:39:50,254 - INFO - Attempting to login to Strava
+2025-01-25 15:39:59,048 - INFO - Clicked login button
+2025-01-25 15:39:59,294 - INFO - Entered username
+2025-01-25 15:40:09,460 - INFO - Entered password
+2025-01-25 15:40:34,557 - INFO - Login successful - getting-started element found
+2025-01-25 15:56:09,349 - INFO - Starting data comparison
+2025-01-25 15:56:09,349 - INFO - Initializing Chrome WebDriver
+2025-01-25 15:56:09,350 - INFO - ====== WebDriver manager ======
+2025-01-25 15:56:09,587 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:56:09,747 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-25 15:56:09,876 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-25 15:56:12,562 - INFO - WebDriver initialized successfully
+2025-01-25 15:56:12,568 - INFO - Attempting to login to Strava
+2025-01-25 15:56:28,222 - INFO - Clicked login button
+2025-01-25 15:56:28,446 - INFO - Entered username
+2025-01-25 15:56:38,622 - INFO - Entered password
+2025-01-25 15:56:48,702 - INFO - Login successful - getting-started element found
+2025-01-25 16:00:49,917 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w50-52_20250125_160049.csv
+2025-01-25 16:00:49,981 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w50-52_20250125_160049.csv
+2025-01-25 16:00:50,138 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w50-52_20250125_160050.csv
+2025-01-25 16:00:50,496 - INFO - Test completed, browser closed
+2025-02-03 15:48:56,532 - INFO - Starting data pipeline for weeks 45-52
+2025-02-03 15:48:56,532 - INFO - Starting data processing for weeks 45-52
+2025-02-03 15:48:56,532 - INFO - Starting data comparison for weeks 45-52
+2025-02-03 15:48:56,533 - INFO - Created backup: ../data/metadata/backup/20250203_154856_cleaned_athlete_metadata.csv
+2025-02-03 15:48:56,552 - INFO - Created backup: ../data/metadata/backup/20250203_154856_indiv_activities_full.csv
+2025-02-03 15:48:56,552 - INFO - Initializing Chrome WebDriver
+2025-02-03 15:48:56,553 - INFO - ====== WebDriver manager ======
+2025-02-03 15:48:56,768 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 15:48:56,978 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 15:48:57,090 - INFO - There is no [mac64] chromedriver "132.0.6834.159" for browser google-chrome "132.0.6834" in cache
+2025-02-03 15:48:57,103 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 15:48:57,369 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-03 15:48:57,371 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-03 15:48:57,371 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-03 15:48:57,490 - INFO - Driver downloading response is 200
+2025-02-03 15:48:58,159 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 15:48:58,685 - INFO - Driver has been saved in cache [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159]
+2025-02-03 15:49:01,907 - INFO - WebDriver initialized successfully
+2025-02-03 15:49:01,908 - INFO - Attempting to login to Strava
+2025-02-03 15:49:11,943 - INFO - Clicked login button
+2025-02-03 15:49:12,511 - INFO - Entered username
+2025-02-03 15:49:27,455 - INFO - Entered password
+2025-02-03 15:49:27,463 - ERROR - Login failed: Login button with text 'Log In' not found
+2025-02-03 15:49:27,463 - ERROR - Failed to login to Strava
+2025-02-03 15:49:27,573 - INFO - Test completed, browser closed
+2025-02-03 15:49:27,574 - WARNING - No new activities to process
+2025-02-03 15:49:27,574 - ERROR - Data processing failed
+2025-02-03 15:54:52,403 - INFO - Starting data pipeline for weeks 45-52
+2025-02-03 15:54:52,404 - INFO - Starting data processing for weeks 45-52
+2025-02-03 15:54:52,404 - INFO - Starting data comparison for weeks 45-52
+2025-02-03 15:54:52,405 - INFO - Created backup: ../data/metadata/backup/20250203_155452_cleaned_athlete_metadata.csv
+2025-02-03 15:54:52,423 - INFO - Created backup: ../data/metadata/backup/20250203_155452_indiv_activities_full.csv
+2025-02-03 15:54:52,423 - INFO - Initializing Chrome WebDriver
+2025-02-03 15:54:52,423 - INFO - ====== WebDriver manager ======
+2025-02-03 15:54:52,632 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 15:54:52,752 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 15:54:52,875 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-03 15:54:55,434 - INFO - WebDriver initialized successfully
+2025-02-03 15:54:55,441 - INFO - Attempting to login to Strava
+2025-02-03 15:55:08,618 - INFO - Clicked login button
+2025-02-03 15:55:09,221 - INFO - Entered username
+2025-02-03 15:55:19,883 - INFO - Entered password
+2025-02-03 15:55:29,974 - INFO - Login successful - getting-started element found
+2025-02-03 16:06:13,646 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-52_20250203_160613.csv
+2025-02-03 16:06:13,868 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-52_20250203_160613.csv
+2025-02-03 16:06:14,020 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-52_20250203_160614.csv
+2025-02-03 16:06:14,052 - INFO - Found 12 new activities
+2025-02-03 16:06:14,406 - INFO - Test completed, browser closed
+2025-02-03 16:06:16,834 - INFO - Added 12 new activities to indiv_activities_full.csv
+2025-02-03 16:06:16,913 - INFO - Updated weeks scraped in master_iaaf_database_with_strava.csv
+2025-02-03 16:06:16,917 - INFO - Calculating athlete metrics...
+2025-02-03 16:06:16,949 - INFO - 
+Grouped data for target athletes:
+2025-02-03 16:06:16,949 - INFO - 
+Adam FOGG:
+2025-02-03 16:06:16,949 - INFO - Empty DataFrame
+Columns: [Athlete Name, Type, Distance (km), Time (min)]
+Index: []
+2025-02-03 16:06:16,954 - INFO - 
+Adam FOGG:
+2025-02-03 16:06:16,954 - INFO - Empty DataFrame
+Columns: [Athlete Name, Type, Distance (km), Time (min)]
+Index: []
+2025-02-03 16:06:16,956 - INFO - 
+JP FLAVIN:
+2025-02-03 16:06:16,956 - INFO - Empty DataFrame
+Columns: [Athlete Name, Type, Distance (km), Time (min)]
+Index: []
+2025-02-03 16:06:16,957 - INFO - 
+Thomas BRIDGER:
+2025-02-03 16:06:16,957 - INFO - Empty DataFrame
+Columns: [Athlete Name, Type, Distance (km), Time (min)]
+Index: []
+2025-02-03 16:06:16,968 - INFO - Updating athlete metadata...
+2025-02-03 16:06:16,968 - INFO - 
+Adding 7 weeks (from week 45 to 52)
+2025-02-03 16:06:16,969 - INFO - 
+Updating Aaron Ahl:
+2025-02-03 16:06:16,971 - INFO - 
+Updating Abby Nichols:
+2025-02-03 16:06:16,974 - INFO - 
+Updating Abdihamid nur:
+2025-02-03 16:06:16,976 - ERROR - Error updating databases: index 0 is out of bounds for axis 0 with size 0
+2025-02-03 16:06:16,992 - ERROR - Failed to update databases
+2025-02-03 16:06:16,992 - ERROR - Data processing failed
+2025-02-03 19:23:22,815 - INFO - Starting data pipeline for weeks 45-47
+2025-02-03 19:23:22,816 - INFO - Starting data processing for weeks 45-47
+2025-02-03 19:23:22,816 - INFO - Starting data comparison for weeks 45-47
+2025-02-03 19:23:22,817 - INFO - Created backup: ../data/metadata/backup/20250203_192322_cleaned_athlete_metadata.csv
+2025-02-03 19:23:22,836 - INFO - Created backup: ../data/metadata/backup/20250203_192322_indiv_activities_full.csv
+2025-02-03 19:23:22,836 - INFO - Initializing Chrome WebDriver
+2025-02-03 19:23:22,836 - INFO - ====== WebDriver manager ======
+2025-02-03 19:23:23,031 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 19:23:23,088 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 19:23:23,131 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-03 19:23:25,640 - INFO - WebDriver initialized successfully
+2025-02-03 19:23:25,644 - INFO - Attempting to login to Strava
+2025-02-03 19:23:31,490 - INFO - Clicked login button
+2025-02-03 19:23:31,678 - INFO - Entered username
+2025-02-03 19:23:35,956 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11bd00e20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/57e5fae8a404434c582c2e9e2cafc26d
+2025-02-03 19:23:35,959 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11bd1fc10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/57e5fae8a404434c582c2e9e2cafc26d
+2025-02-03 19:23:35,962 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11bd1fd00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/57e5fae8a404434c582c2e9e2cafc26d
+2025-02-03 19:23:35,972 - INFO - Test completed, browser closed
+2025-02-03 20:22:30,508 - INFO - Starting data pipeline for weeks 45-47
+2025-02-03 20:22:30,509 - INFO - Starting data processing for weeks 45-47
+2025-02-03 20:22:30,509 - INFO - Starting data comparison for weeks 45-47
+2025-02-03 20:22:30,510 - INFO - Created backup: ../data/metadata/backup/20250203_202230_cleaned_athlete_metadata.csv
+2025-02-03 20:22:30,533 - INFO - Created backup: ../data/metadata/backup/20250203_202230_indiv_activities_full.csv
+2025-02-03 20:22:30,534 - INFO - Initializing Chrome WebDriver
+2025-02-03 20:22:30,534 - INFO - ====== WebDriver manager ======
+2025-02-03 20:22:30,741 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 20:22:30,814 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 20:22:30,859 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-03 20:22:32,871 - INFO - WebDriver initialized successfully
+2025-02-03 20:22:32,877 - INFO - Attempting to login to Strava
+2025-02-03 20:22:40,343 - INFO - Clicked login button
+2025-02-03 20:22:40,621 - INFO - Entered username
+2025-02-03 20:22:50,817 - INFO - Entered password
+2025-02-03 20:23:06,271 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /session/0ae303dbd0d15e610c6096c5c01d1431
+2025-02-03 20:23:06,276 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2c91f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0ae303dbd0d15e610c6096c5c01d1431
+2025-02-03 20:23:06,281 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12b2c9b50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0ae303dbd0d15e610c6096c5c01d1431
+2025-02-03 20:23:06,292 - INFO - Test completed, browser closed
+2025-02-03 20:23:10,046 - INFO - Starting data pipeline for weeks 45-47
+2025-02-03 20:23:10,046 - INFO - Starting data processing for weeks 45-47
+2025-02-03 20:23:10,046 - INFO - Starting data comparison for weeks 45-47
+2025-02-03 20:23:10,046 - INFO - Created backup: ../data/metadata/backup/20250203_202310_cleaned_athlete_metadata.csv
+2025-02-03 20:23:10,068 - INFO - Created backup: ../data/metadata/backup/20250203_202310_indiv_activities_full.csv
+2025-02-03 20:23:10,068 - INFO - Initializing Chrome WebDriver
+2025-02-03 20:23:10,068 - INFO - ====== WebDriver manager ======
+2025-02-03 20:23:10,272 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 20:23:10,324 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 20:23:10,370 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-03 20:23:11,961 - INFO - WebDriver initialized successfully
+2025-02-03 20:23:11,962 - INFO - Attempting to login to Strava
+2025-02-03 20:23:18,572 - INFO - Clicked login button
+2025-02-03 20:23:18,808 - INFO - Entered username
+2025-02-03 20:23:28,994 - INFO - Entered password
+2025-02-03 20:23:39,072 - INFO - Login successful - getting-started element found
+2025-02-03 20:26:47,011 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-47_20250203_202647.csv
+2025-02-03 20:26:47,086 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-47_20250203_202647.csv
+2025-02-03 20:26:47,196 - INFO - Successfully processed activities for Adam FOGG
+2025-02-03 20:26:47,206 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-03 20:26:47,219 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-03 20:26:47,226 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-47_20250203_202647.csv
+2025-02-03 20:26:47,248 - INFO - Found 17 new activities
+2025-02-03 20:26:47,718 - INFO - Test completed, browser closed
+2025-02-03 20:26:48,465 - INFO - Added 17 new unique activities to indiv_activities_full.csv
+2025-02-03 20:26:48,522 - INFO - Calculating athlete metrics...
+2025-02-03 20:26:48,619 - INFO - 
+Grouped data for target athletes:
+2025-02-03 20:26:48,620 - INFO - 
+Adam Fogg:
+2025-02-03 20:26:48,620 - INFO -   Athlete Name             Type  Distance (km)  Time (min)
+0    Adam Fogg              Run    3764.105833    15878.16
+1    Adam Fogg  StandUpPaddling       1.464499       48.12
+2025-02-03 20:26:48,630 - INFO - 
+Adam Fogg:
+2025-02-03 20:26:48,630 - INFO -   Athlete Name             Type  Distance (km)  Time (min)
+0    Adam Fogg              Run    3764.105833    15878.16
+1    Adam Fogg  StandUpPaddling       1.464499       48.12
+2025-02-03 20:26:48,637 - INFO - 
+Jp Flavin:
+2025-02-03 20:26:48,637 - INFO -   Athlete Name  Type  Distance (km)  Time (min)
+2    Jp Flavin   Run    6001.996289    22724.78
+3    Jp Flavin  Walk       3.170400       42.15
+2025-02-03 20:26:48,643 - INFO - 
+Thomas Bridger:
+2025-02-03 20:26:48,643 - INFO -      Athlete Name     Type  Distance (km)  Time (min)
+4  Thomas Bridger     Ride     218.580559      300.18
+5  Thomas Bridger      Run    3295.164603    14153.24
+6  Thomas Bridger     Swim    1578.762540        0.00
+7  Thomas Bridger  Workout      19.312080        0.00
+2025-02-03 20:26:48,657 - INFO - Updating athlete metadata...
+2025-02-03 20:26:48,657 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-03 20:26:48,657 - INFO - 
+Updating Adam Fogg:
+2025-02-03 20:26:48,660 - INFO - 
+Updating Jp Flavin:
+2025-02-03 20:26:48,662 - ERROR - Error updating databases: index 0 is out of bounds for axis 0 with size 0
+2025-02-03 20:26:48,675 - ERROR - Failed to update databases
+2025-02-03 20:26:48,675 - ERROR - Data processing failed
+2025-02-03 21:16:27,385 - INFO - Starting data pipeline for weeks 45-47
+2025-02-03 21:16:27,385 - INFO - Starting data processing for weeks 45-47
+2025-02-03 21:16:27,385 - INFO - Starting data comparison for weeks 45-47
+2025-02-03 21:16:27,386 - INFO - Created backup: ../data/metadata/backup/20250203_211627_cleaned_athlete_metadata.csv
+2025-02-03 21:16:27,397 - INFO - Created backup: ../data/metadata/backup/20250203_211627_indiv_activities_full.csv
+2025-02-03 21:16:27,397 - INFO - Initializing Chrome WebDriver
+2025-02-03 21:16:27,397 - INFO - ====== WebDriver manager ======
+2025-02-03 21:16:27,588 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 21:16:27,673 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 21:16:27,711 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-03 21:16:30,322 - INFO - WebDriver initialized successfully
+2025-02-03 21:16:30,326 - INFO - Attempting to login to Strava
+2025-02-03 21:16:37,699 - INFO - Clicked login button
+2025-02-03 21:16:38,046 - INFO - Entered username
+2025-02-03 21:16:48,359 - INFO - Entered password
+2025-02-03 21:16:55,955 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a731e80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/28d00487d85349781dba6d6150ae5284
+2025-02-03 21:16:55,957 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a750cd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/28d00487d85349781dba6d6150ae5284
+2025-02-03 21:16:55,959 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a7501f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/28d00487d85349781dba6d6150ae5284
+2025-02-03 21:16:55,967 - INFO - Test completed, browser closed
+2025-02-03 21:16:58,343 - INFO - Starting data pipeline for weeks 45-47
+2025-02-03 21:16:58,343 - INFO - Starting data processing for weeks 45-47
+2025-02-03 21:16:58,343 - INFO - Starting data comparison for weeks 45-47
+2025-02-03 21:16:58,344 - INFO - Created backup: ../data/metadata/backup/20250203_211658_cleaned_athlete_metadata.csv
+2025-02-03 21:16:58,355 - INFO - Created backup: ../data/metadata/backup/20250203_211658_indiv_activities_full.csv
+2025-02-03 21:16:58,356 - INFO - Initializing Chrome WebDriver
+2025-02-03 21:16:58,356 - INFO - ====== WebDriver manager ======
+2025-02-03 21:16:58,617 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 21:16:58,669 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-03 21:16:58,714 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-03 21:17:00,513 - INFO - WebDriver initialized successfully
+2025-02-03 21:17:00,514 - INFO - Attempting to login to Strava
+2025-02-03 21:17:08,583 - INFO - Clicked login button
+2025-02-03 21:17:08,953 - INFO - Entered username
+2025-02-03 21:17:19,165 - INFO - Entered password
+2025-02-03 21:17:35,766 - INFO - Login successful - getting-started element found
+2025-02-03 21:20:35,625 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-47_20250203_212035.csv
+2025-02-03 21:20:35,891 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-47_20250203_212035.csv
+2025-02-03 21:20:35,898 - INFO - 
+Processing data for Adam FOGG
+2025-02-03 21:20:36,023 - INFO - Successfully processed activities for Adam FOGG
+2025-02-03 21:20:36,099 - INFO - Successfully processed activities for Adam FOGG
+2025-02-03 21:20:36,134 - INFO - Successfully processed activities for Adam FOGG
+2025-02-03 21:20:36,147 - INFO - Successfully processed activities for Adam FOGG
+2025-02-03 21:20:36,164 - INFO - Successfully processed activities for Adam FOGG
+2025-02-03 21:20:36,176 - INFO - Successfully processed activities for Adam FOGG
+2025-02-03 21:20:36,176 - INFO - 
+Processing data for JP FLAVIN
+2025-02-03 21:20:36,186 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-03 21:20:36,199 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-03 21:20:36,212 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-03 21:20:36,212 - INFO - 
+Processing data for Thomas BRIDGER
+2025-02-03 21:20:36,227 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-03 21:20:36,234 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-03 21:20:36,243 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-03 21:20:36,250 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-47_20250203_212036.csv
+2025-02-03 21:20:36,275 - INFO - Found 106 new activities
+2025-02-03 21:20:37,731 - INFO - Test completed, browser closed
+2025-02-03 21:20:40,020 - INFO - 
+New activities to be appended:
+2025-02-03 21:20:40,021 - INFO - --------------------------------------------------
+2025-02-03 21:20:40,023 - INFO - 
+Adam Fogg:
+2025-02-03 21:20:40,024 - INFO - Number of new activities: 56
+2025-02-03 21:20:40,024 - INFO - 
+Activity details:
+2025-02-03 21:20:40,025 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 1 h 5 m | Activity ID: 12870333382
+2025-02-03 21:20:40,026 - INFO - - 2024-11-08 17:07:43+00:00 | Run | Distance: 1.62km | Time: 8 m 8 s | Activity ID: 12853388797
+2025-02-03 21:20:40,026 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38 m 3 s | Activity ID: 12926051737
+2025-02-03 21:20:40,026 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6 m 34 s | Activity ID: 12926095410
+2025-02-03 21:20:40,026 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11 m 42 s | Activity ID: 12925881967
+2025-02-03 21:20:40,027 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28 m 14 s | Activity ID: 12923672127
+2025-02-03 21:20:40,027 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6 m 2 s | Activity ID: 12923773748
+2025-02-03 21:20:40,027 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14 m 46 s | Activity ID: 12923274130
+2025-02-03 21:20:40,027 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 1 h 6 m | Activity ID: 12915951067
+2025-02-03 21:20:40,028 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30 m 41 s | Activity ID: 12909987404
+2025-02-03 21:20:40,028 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54 m 15 s | Activity ID: 12907788200
+2025-02-03 21:20:40,029 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 1 h 32 m | Activity ID: 12901183815
+2025-02-03 21:20:40,029 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 1 h 0 m | Activity ID: 12885728247
+2025-02-03 21:20:40,029 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7 m 29 s | Activity ID: 12880014547
+2025-02-03 21:20:40,030 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42 m 52 s | Activity ID: 12880014807
+2025-02-03 21:20:40,030 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11 m 50 s | Activity ID: 12879618610
+2025-02-03 21:20:40,031 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8 m 34 s | Activity ID: 12877045264
+2025-02-03 21:20:40,031 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35 m 31 s | Activity ID: 12876885003
+2025-02-03 21:20:40,032 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12 m 12 s | Activity ID: 12876449210
+2025-02-03 21:20:40,032 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 1 h 45 m | Activity ID: 12973767043
+2025-02-03 21:20:40,032 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 1 h 10 m | Activity ID: 12967103146
+2025-02-03 21:20:40,032 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30 m 4 s | Activity ID: 12952139845
+2025-02-03 21:20:40,033 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23 m 37 s | Activity ID: 12951856847
+2025-02-03 21:20:40,033 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22 m 14 s | Activity ID: 12951387848
+2025-02-03 21:20:40,033 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45 m 43 s | Activity ID: 12945672612
+2025-02-03 21:20:40,033 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39 m 58 s | Activity ID: 12940880470
+2025-02-03 21:20:40,034 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20 m 57 s | Activity ID: 12936572573
+2025-02-03 21:20:40,034 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 1 h 30 m | Activity ID: 12930582356
+2025-02-03 21:20:40,034 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 1 h 5 m | Activity ID: 12870333382
+2025-02-03 21:20:40,035 - INFO - - 2024-11-08 17:07:43+00:00 | Run | Distance: 1.62km | Time: 8 m 8 s | Activity ID: 12853388797
+2025-02-03 21:20:40,035 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38 m 3 s | Activity ID: 12926051737
+2025-02-03 21:20:40,035 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6 m 34 s | Activity ID: 12926095410
+2025-02-03 21:20:40,035 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11 m 42 s | Activity ID: 12925881967
+2025-02-03 21:20:40,036 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28 m 14 s | Activity ID: 12923672127
+2025-02-03 21:20:40,036 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6 m 2 s | Activity ID: 12923773748
+2025-02-03 21:20:40,036 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14 m 46 s | Activity ID: 12923274130
+2025-02-03 21:20:40,037 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 1 h 6 m | Activity ID: 12915951067
+2025-02-03 21:20:40,037 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30 m 41 s | Activity ID: 12909987404
+2025-02-03 21:20:40,037 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54 m 15 s | Activity ID: 12907788200
+2025-02-03 21:20:40,037 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 1 h 32 m | Activity ID: 12901183815
+2025-02-03 21:20:40,037 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 1 h 0 m | Activity ID: 12885728247
+2025-02-03 21:20:40,038 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7 m 29 s | Activity ID: 12880014547
+2025-02-03 21:20:40,038 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42 m 52 s | Activity ID: 12880014807
+2025-02-03 21:20:40,039 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11 m 50 s | Activity ID: 12879618610
+2025-02-03 21:20:40,039 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8 m 34 s | Activity ID: 12877045264
+2025-02-03 21:20:40,040 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35 m 31 s | Activity ID: 12876885003
+2025-02-03 21:20:40,040 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12 m 12 s | Activity ID: 12876449210
+2025-02-03 21:20:40,041 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 1 h 45 m | Activity ID: 12973767043
+2025-02-03 21:20:40,041 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 1 h 10 m | Activity ID: 12967103146
+2025-02-03 21:20:40,041 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30 m 4 s | Activity ID: 12952139845
+2025-02-03 21:20:40,042 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23 m 37 s | Activity ID: 12951856847
+2025-02-03 21:20:40,042 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22 m 14 s | Activity ID: 12951387848
+2025-02-03 21:20:40,042 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45 m 43 s | Activity ID: 12945672612
+2025-02-03 21:20:40,043 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39 m 58 s | Activity ID: 12940880470
+2025-02-03 21:20:40,043 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20 m 57 s | Activity ID: 12936572573
+2025-02-03 21:20:40,043 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 1 h 30 m | Activity ID: 12930582356
+2025-02-03 21:20:40,044 - INFO - 
+JP Flavin:
+2025-02-03 21:20:40,044 - INFO - Number of new activities: 24
+2025-02-03 21:20:40,045 - INFO - 
+Activity details:
+2025-02-03 21:20:40,047 - INFO - - 2024-11-09 12:26:18+00:00 | Run | Distance: 20.92km | Time: 1 h 15 m | Activity ID: 12860006131
+2025-02-03 21:20:40,048 - INFO - - 2024-11-07 13:03:42+00:00 | Run | Distance: 16.11km | Time: 1 h 4 m | Activity ID: 12844855654
+2025-02-03 21:20:40,048 - INFO - - 2024-11-06 12:41:26+00:00 | Run | Distance: 17.94km | Time: 1 h 10 m | Activity ID: 12837093817
+2025-02-03 21:20:40,048 - INFO - - 2024-11-17 13:07:05+00:00 | Run | Distance: 22.55km | Time: 1 h 28 m | Activity ID: 12922570248
+2025-02-03 21:20:40,048 - INFO - - 2024-11-16 19:59:45+00:00 | Run | Distance: 8.06km | Time: 28 m 46 s | Activity ID: 12916663432
+2025-02-03 21:20:40,049 - INFO - - 2024-11-16 13:10:50+00:00 | Run | Distance: 16.12km | Time: 1 h 4 m | Activity ID: 12914126083
+2025-02-03 21:20:40,049 - INFO - - 2024-11-15 13:05:50+00:00 | Run | Distance: 28.98km | Time: 1 h 40 m | Activity ID: 12906835028
+2025-02-03 21:20:40,049 - INFO - - 2024-11-14 13:02:01+00:00 | Run | Distance: 22.55km | Time: 1 h 31 m | Activity ID: 12899386644
+2025-02-03 21:20:40,049 - INFO - - 2024-11-13 21:17:23+00:00 | Run | Distance: 8.06km | Time: 31 m 0 s | Activity ID: 12894899018
+2025-02-03 21:20:40,050 - INFO - - 2024-11-13 13:03:16+00:00 | Run | Distance: 16.62km | Time: 1 h 6 m | Activity ID: 12891616015
+2025-02-03 21:20:40,050 - INFO - - 2024-11-12 12:38:22+00:00 | Run | Distance: 19.63km | Time: 1 h 19 m | Activity ID: 12883821228
+2025-02-03 21:20:40,050 - INFO - - 2024-11-11 22:08:24+00:00 | Run | Distance: 7.32km | Time: 28 m 26 s | Activity ID: 12879250291
+2025-02-03 21:20:40,050 - INFO - - 2024-11-11 13:02:07+00:00 | Run | Distance: 16.11km | Time: 1 h 2 m | Activity ID: 12875607734
+2025-02-03 21:20:40,050 - INFO - - 2024-11-24 19:01:08+00:00 | Run | Distance: 9.74km | Time: 37 m 48 s | Activity ID: 12975510533
+2025-02-03 21:20:40,050 - INFO - - 2024-11-24 13:02:37+00:00 | Run | Distance: 16.16km | Time: 1 h 5 m | Activity ID: 12973302657
+2025-02-03 21:20:40,051 - INFO - - 2024-11-23 21:19:35+00:00 | Run | Distance: 9.68km | Time: 37 m 11 s | Activity ID: 12968159727
+2025-02-03 21:20:40,051 - INFO - - 2024-11-23 13:01:41+00:00 | Run | Distance: 16.13km | Time: 1 h 2 m | Activity ID: 12965435714
+2025-02-03 21:20:40,051 - INFO - - 2024-11-22 12:26:10+00:00 | Run | Distance: 25.76km | Time: 1 h 36 m | Activity ID: 12958496550
+2025-02-03 21:20:40,051 - INFO - - 2024-11-21 21:29:27+00:00 | Run | Distance: 9.75km | Time: 38 m 42 s | Activity ID: 12954470972
+2025-02-03 21:20:40,051 - INFO - - 2024-11-21 13:03:55+00:00 | Run | Distance: 16.11km | Time: 1 h 4 m | Activity ID: 12951633346
+2025-02-03 21:20:40,052 - INFO - - 2024-11-20 13:02:39+00:00 | Run | Distance: 22.55km | Time: 1 h 27 m | Activity ID: 12944405945
+2025-02-03 21:20:40,052 - INFO - - 2024-11-19 22:06:42+00:00 | Run | Distance: 8.57km | Time: 33 m 39 s | Activity ID: 12940039906
+2025-02-03 21:20:40,052 - INFO - - 2024-11-19 13:03:41+00:00 | Run | Distance: 16.26km | Time: 1 h 5 m | Activity ID: 12936638688
+2025-02-03 21:20:40,052 - INFO - - 2024-11-18 12:26:54+00:00 | Run | Distance: 19.07km | Time: 1 h 13 m | Activity ID: 12929201403
+2025-02-03 21:20:40,053 - INFO - 
+Thomas Bridger:
+2025-02-03 21:20:40,054 - INFO - Number of new activities: 26
+2025-02-03 21:20:40,054 - INFO - 
+Activity details:
+2025-02-03 21:20:40,055 - INFO - - 2024-11-09 09:45:03+00:00 | Run | Distance: 3.32km | Time: 15 m 42 s | Activity ID: 12857681679
+2025-02-03 21:20:40,055 - INFO - - 2024-11-07 07:43:23+00:00 | Run | Distance: 4.91km | Time: 23 m 32 s | Activity ID: 12845392434
+2025-02-03 21:20:40,056 - INFO - - 2024-11-06 10:30:24+00:00 | Run | Distance: 4.01km | Time: 21 m 17 s | Activity ID: 12835799458
+2025-02-03 21:20:40,056 - INFO - - 2024-11-05 08:24:06+00:00 | Run | Distance: 14.49km | Time: 1 h 2 m | Activity ID: 12826966044
+2025-02-03 21:20:40,056 - INFO - - 2024-11-04 16:22:32+00:00 | Run | Distance: 8.73km | Time: 39 m 47 s | Activity ID: 12822156599
+2025-02-03 21:20:40,056 - INFO - - 2024-11-04 10:30:03+00:00 | Run | Distance: 3.88km | Time: 19 m 38 s | Activity ID: 12819754268
+2025-02-03 21:20:40,056 - INFO - - 2024-11-04 08:39:18+00:00 | Run | Distance: 4.02km | Time: 19 m 5 s | Activity ID: 12819753352
+2025-02-03 21:20:40,057 - INFO - - 2024-11-14 17:03:09+00:00 | Run | Distance: 1.61km | Time: 7 m 18 s | Activity ID: 12900315585
+2025-02-03 21:20:40,057 - INFO - - 2024-11-14 15:35:15+00:00 | Run | Distance: 19.32km | Time: 1 h 14 m | Activity ID: 12900315661
+2025-02-03 21:20:40,059 - INFO - - 2024-11-13 17:34:46+00:00 | Run | Distance: 4.02km | Time: 19 m 58 s | Activity ID: 12893178428
+2025-02-03 21:20:40,059 - INFO - - 2024-11-13 16:31:55+00:00 | Run | Distance: 11.54km | Time: 44 m 46 s | Activity ID: 12892862446
+2025-02-03 21:20:40,060 - INFO - - 2024-11-13 15:56:57+00:00 | Run | Distance: 4.02km | Time: 18 m 28 s | Activity ID: 12892392129
+2025-02-03 21:20:40,060 - INFO - - 2024-11-13 10:39:06+00:00 | Run | Distance: 6.52km | Time: 30 m 0 s | Activity ID: 12890325132
+2025-02-03 21:20:40,060 - INFO - - 2024-11-12 18:19:26+00:00 | Run | Distance: 14.48km | Time: 1 h 9 m | Activity ID: 12886140804
+2025-02-03 21:20:40,060 - INFO - - 2024-11-12 09:46:54+00:00 | Swim | Distance: 1.0km | Time: 1:46 /100m | Activity ID: 12882339111
+2025-02-03 21:20:40,061 - INFO - - 2024-11-11 17:03:04+00:00 | Run | Distance: 20.43km | Time: 1 h 20 m | Activity ID: 12876897005
+2025-02-03 21:20:40,061 - INFO - - 2024-11-23 14:43:44+00:00 | Run | Distance: 3.91km | Time: 20 m 18 s | Activity ID: 12965770670
+2025-02-03 21:20:40,061 - INFO - - 2024-11-23 12:53:52+00:00 | Run | Distance: 2.8km | Time: 14 m 10 s | Activity ID: 12964888055
+2025-02-03 21:20:40,061 - INFO - - 2024-11-23 09:06:45+00:00 | Run | Distance: 1.98km | Time: 10 m 2 s | Activity ID: 12963010643
+2025-02-03 21:20:40,062 - INFO - - 2024-11-22 12:07:43+00:00 | Run | Distance: 6.46km | Time: 30 m 7 s | Activity ID: 12957900175
+2025-02-03 21:20:40,063 - INFO - - 2024-11-20 13:51:11+00:00 | Run | Distance: 9.92km | Time: 42 m 56 s | Activity ID: 12944416209
+2025-02-03 21:20:40,063 - INFO - - 2024-11-19 16:59:58+00:00 | Run | Distance: 3.22km | Time: 15 m 35 s | Activity ID: 12938929048
+2025-02-03 21:20:40,064 - INFO - - 2024-11-19 16:07:01+00:00 | Run | Distance: 7.2km | Time: 38 m 7 s | Activity ID: 12938929118
+2025-02-03 21:20:40,065 - INFO - - 2024-11-19 15:30:39+00:00 | Run | Distance: 3.08km | Time: 13 m 41 s | Activity ID: 12938928889
+2025-02-03 21:20:40,065 - INFO - - 2024-11-19 11:19:25+00:00 | Run | Distance: 4.83km | Time: 23 m 14 s | Activity ID: 12935651187
+2025-02-03 21:20:40,065 - INFO - - 2024-11-18 17:45:50+00:00 | Run | Distance: 11.28km | Time: 52 m 48 s | Activity ID: 12931026023
+2025-02-03 21:20:40,071 - INFO - 
+Successfully added 106 new unique activities to indiv_activities_full.csv
+2025-02-03 21:20:40,133 - INFO - Calculating athlete metrics...
+2025-02-03 21:20:40,246 - INFO - 
+Grouped data for target athletes:
+2025-02-03 21:20:40,247 - INFO - 
+Adam Fogg:
+2025-02-03 21:20:40,247 - INFO -   Athlete Name             Type  Distance (km)  Time (min)
+0    Adam Fogg              Run    4249.595833    15878.16
+1    Adam Fogg  StandUpPaddling       1.464499       48.12
+2025-02-03 21:20:40,269 - INFO - 
+Adam Fogg:
+2025-02-03 21:20:40,269 - INFO -   Athlete Name             Type  Distance (km)  Time (min)
+0    Adam Fogg              Run    4249.595833    15878.16
+1    Adam Fogg  StandUpPaddling       1.464499       48.12
+2025-02-03 21:20:40,280 - INFO - 
+Jp Flavin:
+2025-02-03 21:20:40,280 - INFO -   Athlete Name  Type  Distance (km)  Time (min)
+2    Jp Flavin   Run    6337.776289    22724.78
+3    Jp Flavin  Walk       3.170400       42.15
+2025-02-03 21:20:40,290 - INFO - 
+Thomas Bridger:
+2025-02-03 21:20:40,290 - INFO -      Athlete Name     Type  Distance (km)  Time (min)
+4  Thomas Bridger     Ride     218.580559      300.18
+5  Thomas Bridger      Run    3402.554603    14153.24
+6  Thomas Bridger     Swim    1579.762540        0.00
+7  Thomas Bridger  Workout      19.312080        0.00
+2025-02-03 21:20:40,317 - INFO - Updating athlete metadata...
+2025-02-03 21:20:40,317 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-03 21:20:40,318 - INFO - 
+Updating Adam Fogg:
+2025-02-03 21:20:40,321 - INFO - 
+Updating Jp Flavin:
+2025-02-03 21:20:40,325 - ERROR - Error updating databases: index 0 is out of bounds for axis 0 with size 0
+2025-02-03 21:20:40,349 - ERROR - Failed to update databases
+2025-02-03 21:20:40,349 - ERROR - Data processing failed
+2025-02-03 21:32:33,596 - INFO - Calculating athlete metrics...
+2025-02-03 21:32:33,596 - INFO - 
+Input DataFrame shape: (33, 12)
+2025-02-03 21:32:33,596 - INFO - Target athletes: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-03 21:32:33,596 - INFO - Unique athletes in activities: ['Adam Fogg' 'JP Flavin' 'Thomas Bridger']
+2025-02-03 21:32:33,597 - INFO - 
+Normalized target athletes: ['Adam Fogg', 'Adam Fogg', 'Jp Flavin', 'Thomas Bridger']
+2025-02-03 21:32:33,597 - INFO - Normalized unique athletes in activities: ['Adam Fogg' 'Jp Flavin' 'Thomas Bridger']
+2025-02-03 21:32:33,597 - INFO - 
+Filtered DataFrame shape: (33, 12)
+2025-02-03 21:32:33,598 - ERROR - Error in test_calculate_metrics: "Column(s) ['Time (min)'] do not exist"
+2025-02-04 11:45:48,974 - INFO - Calculating athlete metrics...
+2025-02-04 11:45:48,974 - INFO - 
+Input DataFrame shape: (33, 13)
+2025-02-04 11:45:48,974 - INFO - Target athletes: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-04 11:45:48,974 - INFO - Unique athletes in activities: ['Adam Fogg' 'JP Flavin' 'Thomas Bridger']
+2025-02-04 11:45:48,975 - INFO - 
+Normalized target athletes: ['Adam Fogg', 'Adam Fogg', 'Jp Flavin', 'Thomas Bridger']
+2025-02-04 11:45:48,975 - INFO - Normalized unique athletes in activities: ['Adam Fogg' 'Jp Flavin' 'Thomas Bridger']
+2025-02-04 11:45:48,975 - INFO - 
+Filtered DataFrame shape: (33, 13)
+2025-02-04 11:45:48,977 - INFO - 
+Grouped data for target athletes:
+2025-02-04 11:45:48,978 - INFO - 
+Adam Fogg:
+2025-02-04 11:45:48,978 - INFO -   Athlete Name Type  Distance (km)  Time (min)
+0    Adam Fogg  Run          142.9       615.0
+2025-02-04 11:45:48,985 - INFO - 
+Adam Fogg:
+2025-02-04 11:45:48,985 - INFO -   Athlete Name Type  Distance (km)  Time (min)
+0    Adam Fogg  Run          142.9       615.0
+2025-02-04 11:45:48,990 - INFO - 
+Jp Flavin:
+2025-02-04 11:45:48,990 - INFO -   Athlete Name Type  Distance (km)  Time (min)
+1    Jp Flavin  Run         122.63       472.0
+2025-02-04 11:45:48,995 - INFO - 
+Thomas Bridger:
+2025-02-04 11:45:48,995 - INFO -      Athlete Name Type  Distance (km)  Time (min)
+2  Thomas Bridger  Run          72.59      318.89
+2025-02-04 12:49:39,338 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 12:49:39,338 - INFO - Starting data processing for weeks 45-47
+2025-02-04 12:49:39,339 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 12:49:39,340 - INFO - Created backup: ../data/metadata/backup/20250204_124939_cleaned_athlete_metadata.csv
+2025-02-04 12:49:39,359 - INFO - Created backup: ../data/metadata/backup/20250204_124939_indiv_activities_full.csv
+2025-02-04 12:49:39,359 - INFO - Initializing Chrome WebDriver
+2025-02-04 12:49:39,359 - INFO - ====== WebDriver manager ======
+2025-02-04 12:49:39,594 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 12:49:39,774 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 12:49:39,986 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 12:49:40,254 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-04 12:49:40,255 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-04 12:49:40,256 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-04 12:49:40,560 - INFO - Driver downloading response is 200
+2025-02-04 12:49:41,100 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 12:49:41,510 - INFO - Driver has been saved in cache [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159]
+2025-02-04 12:49:46,531 - INFO - WebDriver initialized successfully
+2025-02-04 12:49:46,534 - INFO - Attempting to login to Strava
+2025-02-04 12:49:52,880 - INFO - Clicked login button
+2025-02-04 12:49:53,107 - INFO - Entered username
+2025-02-04 12:50:03,297 - INFO - Entered password
+2025-02-04 12:50:18,457 - INFO - Login successful - getting-started element found
+2025-02-04 12:53:24,049 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_125324.csv
+2025-02-04 12:53:24,124 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_125324.csv
+2025-02-04 12:53:24,133 - INFO - 
+Processing data for Adam FOGG
+2025-02-04 12:53:24,254 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 12:53:24,278 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 12:53:24,322 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 12:53:24,351 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 12:53:24,380 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 12:53:24,395 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 12:53:24,396 - INFO - 
+Processing data for JP FLAVIN
+2025-02-04 12:53:24,405 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 12:53:24,416 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 12:53:24,417 - INFO - 
+Processing data for Thomas BRIDGER
+2025-02-04 12:53:24,431 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 12:53:24,438 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 12:53:24,905 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 12:53:24,911 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_125324.csv
+2025-02-04 12:53:24,928 - INFO - Found 96 new activities
+2025-02-04 12:53:27,017 - INFO - Test completed, browser closed
+2025-02-04 12:53:27,501 - INFO - Cleaning activity data...
+2025-02-04 12:53:28,065 - INFO - Converting Time to minutes...
+2025-02-04 12:53:28,074 - ERROR - Error updating databases: Lengths must match to compare
+2025-02-04 12:53:28,088 - ERROR - Failed to update databases
+2025-02-04 12:53:28,088 - ERROR - Data processing failed
+2025-02-04 13:03:54,099 - INFO - Cleaning activity data...
+2025-02-04 13:03:54,402 - INFO - Converting Time to minutes...
+2025-02-04 13:03:54,411 - INFO - Data cleaning completed successfully
+2025-02-04 13:03:54,411 - INFO - Processed 133 activities
+2025-02-04 13:04:21,728 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:04:21,728 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:04:21,728 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:04:21,730 - INFO - Created backup: ../data/metadata/backup/20250204_130421_cleaned_athlete_metadata.csv
+2025-02-04 13:04:21,745 - INFO - Created backup: ../data/metadata/backup/20250204_130421_indiv_activities_full.csv
+2025-02-04 13:04:21,745 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:04:21,745 - INFO - ====== WebDriver manager ======
+2025-02-04 13:04:22,018 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:04:22,155 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:04:22,247 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:04:25,152 - INFO - WebDriver initialized successfully
+2025-02-04 13:04:25,155 - INFO - Attempting to login to Strava
+2025-02-04 13:04:32,418 - INFO - Clicked login button
+2025-02-04 13:04:32,610 - INFO - Entered username
+2025-02-04 13:04:42,690 - INFO - Entered password
+2025-02-04 13:04:42,699 - ERROR - Login failed: Login button with text 'Log In' not found
+2025-02-04 13:04:42,699 - ERROR - Failed to login to Strava
+2025-02-04 13:04:42,812 - INFO - Test completed, browser closed
+2025-02-04 13:04:42,814 - WARNING - No new activities to process
+2025-02-04 13:04:42,814 - ERROR - Data processing failed
+2025-02-04 13:04:47,576 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:04:47,577 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:04:47,577 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:04:47,578 - INFO - Created backup: ../data/metadata/backup/20250204_130447_cleaned_athlete_metadata.csv
+2025-02-04 13:04:47,597 - INFO - Created backup: ../data/metadata/backup/20250204_130447_indiv_activities_full.csv
+2025-02-04 13:04:47,597 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:04:47,598 - INFO - ====== WebDriver manager ======
+2025-02-04 13:04:47,812 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:04:47,935 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:04:48,052 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:04:50,606 - INFO - WebDriver initialized successfully
+2025-02-04 13:04:50,607 - INFO - Attempting to login to Strava
+2025-02-04 13:04:59,041 - INFO - Clicked login button
+2025-02-04 13:04:59,285 - INFO - Entered username
+2025-02-04 13:05:12,977 - INFO - Entered password
+2025-02-04 13:05:12,987 - ERROR - Login failed: Login button with text 'Log In' not found
+2025-02-04 13:05:12,987 - ERROR - Failed to login to Strava
+2025-02-04 13:05:13,123 - INFO - Test completed, browser closed
+2025-02-04 13:05:13,126 - WARNING - No new activities to process
+2025-02-04 13:05:13,126 - ERROR - Data processing failed
+2025-02-04 13:05:22,993 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:05:22,993 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:05:22,993 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:05:22,994 - INFO - Created backup: ../data/metadata/backup/20250204_130522_cleaned_athlete_metadata.csv
+2025-02-04 13:05:23,009 - INFO - Created backup: ../data/metadata/backup/20250204_130522_indiv_activities_full.csv
+2025-02-04 13:05:23,009 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:05:23,009 - INFO - ====== WebDriver manager ======
+2025-02-04 13:05:23,204 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:05:23,330 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:05:23,462 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:05:25,669 - INFO - WebDriver initialized successfully
+2025-02-04 13:05:25,678 - INFO - Attempting to login to Strava
+2025-02-04 13:05:35,976 - INFO - Clicked login button
+2025-02-04 13:05:36,205 - INFO - Entered username
+2025-02-04 13:05:49,605 - INFO - Entered password
+2025-02-04 13:05:49,614 - ERROR - Login failed: Login button with text 'Log In' not found
+2025-02-04 13:05:49,615 - ERROR - Failed to login to Strava
+2025-02-04 13:05:49,719 - INFO - Test completed, browser closed
+2025-02-04 13:05:49,719 - WARNING - No new activities to process
+2025-02-04 13:05:49,720 - ERROR - Data processing failed
+2025-02-04 13:07:21,522 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:07:21,523 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:07:21,523 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:07:21,524 - INFO - Created backup: ../data/metadata/backup/20250204_130721_cleaned_athlete_metadata.csv
+2025-02-04 13:07:21,544 - INFO - Created backup: ../data/metadata/backup/20250204_130721_indiv_activities_full.csv
+2025-02-04 13:07:21,544 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:07:21,544 - INFO - ====== WebDriver manager ======
+2025-02-04 13:07:21,766 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:07:21,894 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:07:22,001 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:07:25,116 - INFO - WebDriver initialized successfully
+2025-02-04 13:07:25,117 - INFO - Attempting to login to Strava
+2025-02-04 13:07:33,058 - INFO - Clicked login button
+2025-02-04 13:07:43,481 - INFO - Entered username
+2025-02-04 13:07:57,475 - INFO - Entered password
+2025-02-04 13:07:57,496 - ERROR - Login failed: Login button with text 'Log In' not found
+2025-02-04 13:07:57,500 - ERROR - Failed to login to Strava
+2025-02-04 13:07:57,642 - INFO - Test completed, browser closed
+2025-02-04 13:07:57,645 - WARNING - No new activities to process
+2025-02-04 13:07:57,645 - ERROR - Data processing failed
+2025-02-04 13:10:21,907 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:10:21,908 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:10:21,908 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:10:21,909 - INFO - Created backup: ../data/metadata/backup/20250204_131021_cleaned_athlete_metadata.csv
+2025-02-04 13:10:21,929 - INFO - Created backup: ../data/metadata/backup/20250204_131021_indiv_activities_full.csv
+2025-02-04 13:10:21,930 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:10:21,930 - INFO - ====== WebDriver manager ======
+2025-02-04 13:10:22,154 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:10:22,330 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:10:22,451 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:10:25,039 - INFO - WebDriver initialized successfully
+2025-02-04 13:10:25,048 - INFO - Attempting to login to Strava
+2025-02-04 13:10:29,310 - INFO - Clicked login button
+2025-02-04 13:10:38,503 - INFO - Entered username
+2025-02-04 13:10:54,541 - ERROR - Error entering password: Password field not found
+2025-02-04 13:10:54,542 - INFO - Waiting 20 seconds for human intervention...
+2025-02-04 13:11:14,575 - ERROR - Error clicking final login button: Final login button not found
+2025-02-04 13:11:14,577 - INFO - Waiting 20 seconds for human intervention...
+2025-02-04 13:11:34,595 - ERROR - Failed to login to Strava
+2025-02-04 13:11:34,717 - INFO - Test completed, browser closed
+2025-02-04 13:11:34,719 - WARNING - No new activities to process
+2025-02-04 13:11:34,719 - ERROR - Data processing failed
+2025-02-04 13:12:10,722 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:12:10,722 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:12:10,722 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:12:10,724 - INFO - Created backup: ../data/metadata/backup/20250204_131210_cleaned_athlete_metadata.csv
+2025-02-04 13:12:10,741 - INFO - Created backup: ../data/metadata/backup/20250204_131210_indiv_activities_full.csv
+2025-02-04 13:12:10,741 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:12:10,741 - INFO - ====== WebDriver manager ======
+2025-02-04 13:12:10,976 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:12:11,084 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:12:11,193 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:12:15,219 - INFO - WebDriver initialized successfully
+2025-02-04 13:12:15,229 - INFO - Attempting to login to Strava
+2025-02-04 13:12:23,773 - INFO - Clicked login button
+2025-02-04 13:12:23,978 - INFO - Entered username
+2025-02-04 13:12:34,199 - INFO - Entered password
+2025-02-04 13:12:44,293 - INFO - Login successful - getting-started element found
+2025-02-04 13:16:48,254 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_131648.csv
+2025-02-04 13:16:48,345 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_131648.csv
+2025-02-04 13:16:48,351 - INFO - 
+Processing data for Adam FOGG
+2025-02-04 13:16:48,475 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:16:48,527 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:16:48,536 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:16:48,553 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:16:48,574 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:16:48,584 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:16:48,585 - INFO - 
+Processing data for JP FLAVIN
+2025-02-04 13:16:48,594 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 13:16:48,608 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 13:16:48,620 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 13:16:48,620 - INFO - 
+Processing data for Thomas BRIDGER
+2025-02-04 13:16:48,635 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 13:16:48,643 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 13:16:48,652 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 13:16:48,664 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_131648.csv
+2025-02-04 13:16:48,687 - INFO - Found 106 new activities
+2025-02-04 13:16:49,020 - INFO - Test completed, browser closed
+2025-02-04 13:16:49,565 - INFO - Cleaning activity data...
+2025-02-04 13:16:49,913 - INFO - Converting Time to minutes...
+2025-02-04 13:16:49,925 - INFO - Data cleaning completed successfully
+2025-02-04 13:16:49,925 - INFO - Processed 106 activities
+2025-02-04 13:16:49,936 - INFO - 
+New activities to be appended:
+2025-02-04 13:16:49,936 - INFO - 
+Adam Fogg:
+2025-02-04 13:16:49,936 - INFO - Number of activities: 54
+2025-02-04 13:16:49,936 - INFO - 
+Activity details:
+2025-02-04 13:16:49,937 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 65.0min | Activity ID: 12870333382
+2025-02-04 13:16:49,937 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38.05min | Activity ID: 12926051737
+2025-02-04 13:16:49,937 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6.57min | Activity ID: 12926095410
+2025-02-04 13:16:49,937 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11.7min | Activity ID: 12925881967
+2025-02-04 13:16:49,937 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28.23min | Activity ID: 12923672127
+2025-02-04 13:16:49,937 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6.03min | Activity ID: 12923773748
+2025-02-04 13:16:49,937 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14.77min | Activity ID: 12923274130
+2025-02-04 13:16:49,937 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 66.0min | Activity ID: 12915951067
+2025-02-04 13:16:49,937 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30.68min | Activity ID: 12909987404
+2025-02-04 13:16:49,937 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54.25min | Activity ID: 12907788200
+2025-02-04 13:16:49,938 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 92.0min | Activity ID: 12901183815
+2025-02-04 13:16:49,938 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 60.0min | Activity ID: 12885728247
+2025-02-04 13:16:49,938 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7.48min | Activity ID: 12880014547
+2025-02-04 13:16:49,938 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42.87min | Activity ID: 12880014807
+2025-02-04 13:16:49,938 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11.83min | Activity ID: 12879618610
+2025-02-04 13:16:49,938 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8.57min | Activity ID: 12877045264
+2025-02-04 13:16:49,938 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35.52min | Activity ID: 12876885003
+2025-02-04 13:16:49,938 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12.2min | Activity ID: 12876449210
+2025-02-04 13:16:49,938 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 105.0min | Activity ID: 12973767043
+2025-02-04 13:16:49,938 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 70.0min | Activity ID: 12967103146
+2025-02-04 13:16:49,938 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30.07min | Activity ID: 12952139845
+2025-02-04 13:16:49,938 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23.62min | Activity ID: 12951856847
+2025-02-04 13:16:49,938 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22.23min | Activity ID: 12951387848
+2025-02-04 13:16:49,939 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45.72min | Activity ID: 12945672612
+2025-02-04 13:16:49,939 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39.97min | Activity ID: 12940880470
+2025-02-04 13:16:49,939 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20.95min | Activity ID: 12936572573
+2025-02-04 13:16:49,939 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 90.0min | Activity ID: 12930582356
+2025-02-04 13:16:49,939 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 65.0min | Activity ID: 12870333382
+2025-02-04 13:16:49,939 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38.05min | Activity ID: 12926051737
+2025-02-04 13:16:49,939 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6.57min | Activity ID: 12926095410
+2025-02-04 13:16:49,939 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11.7min | Activity ID: 12925881967
+2025-02-04 13:16:49,939 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28.23min | Activity ID: 12923672127
+2025-02-04 13:16:49,939 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6.03min | Activity ID: 12923773748
+2025-02-04 13:16:49,939 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14.77min | Activity ID: 12923274130
+2025-02-04 13:16:49,939 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 66.0min | Activity ID: 12915951067
+2025-02-04 13:16:49,939 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30.68min | Activity ID: 12909987404
+2025-02-04 13:16:49,940 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54.25min | Activity ID: 12907788200
+2025-02-04 13:16:49,940 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 92.0min | Activity ID: 12901183815
+2025-02-04 13:16:49,940 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 60.0min | Activity ID: 12885728247
+2025-02-04 13:16:49,940 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7.48min | Activity ID: 12880014547
+2025-02-04 13:16:49,940 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42.87min | Activity ID: 12880014807
+2025-02-04 13:16:49,940 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11.83min | Activity ID: 12879618610
+2025-02-04 13:16:49,940 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8.57min | Activity ID: 12877045264
+2025-02-04 13:16:49,940 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35.52min | Activity ID: 12876885003
+2025-02-04 13:16:49,940 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12.2min | Activity ID: 12876449210
+2025-02-04 13:16:49,940 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 105.0min | Activity ID: 12973767043
+2025-02-04 13:16:49,940 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 70.0min | Activity ID: 12967103146
+2025-02-04 13:16:49,940 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30.07min | Activity ID: 12952139845
+2025-02-04 13:16:49,940 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23.62min | Activity ID: 12951856847
+2025-02-04 13:16:49,941 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22.23min | Activity ID: 12951387848
+2025-02-04 13:16:49,941 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45.72min | Activity ID: 12945672612
+2025-02-04 13:16:49,941 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39.97min | Activity ID: 12940880470
+2025-02-04 13:16:49,941 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20.95min | Activity ID: 12936572573
+2025-02-04 13:16:49,941 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 90.0min | Activity ID: 12930582356
+2025-02-04 13:16:49,941 - INFO - 
+Jp Flavin:
+2025-02-04 13:16:49,941 - INFO - Number of activities: 21
+2025-02-04 13:16:49,941 - INFO - 
+Activity details:
+2025-02-04 13:16:49,941 - INFO - - 2024-11-17 13:07:05+00:00 | Run | Distance: 22.55km | Time: 88.0min | Activity ID: 12922570248
+2025-02-04 13:16:49,942 - INFO - - 2024-11-16 19:59:45+00:00 | Run | Distance: 8.06km | Time: 28.77min | Activity ID: 12916663432
+2025-02-04 13:16:49,942 - INFO - - 2024-11-16 13:10:50+00:00 | Run | Distance: 16.12km | Time: 64.0min | Activity ID: 12914126083
+2025-02-04 13:16:49,942 - INFO - - 2024-11-15 13:05:50+00:00 | Run | Distance: 28.98km | Time: 100.0min | Activity ID: 12906835028
+2025-02-04 13:16:49,942 - INFO - - 2024-11-14 13:02:01+00:00 | Run | Distance: 22.55km | Time: 91.0min | Activity ID: 12899386644
+2025-02-04 13:16:49,942 - INFO - - 2024-11-13 21:17:23+00:00 | Run | Distance: 8.06km | Time: 31.0min | Activity ID: 12894899018
+2025-02-04 13:16:49,942 - INFO - - 2024-11-13 13:03:16+00:00 | Run | Distance: 16.62km | Time: 66.0min | Activity ID: 12891616015
+2025-02-04 13:16:49,942 - INFO - - 2024-11-12 12:38:22+00:00 | Run | Distance: 19.63km | Time: 79.0min | Activity ID: 12883821228
+2025-02-04 13:16:49,942 - INFO - - 2024-11-11 22:08:24+00:00 | Run | Distance: 7.32km | Time: 28.43min | Activity ID: 12879250291
+2025-02-04 13:16:49,942 - INFO - - 2024-11-11 13:02:07+00:00 | Run | Distance: 16.11km | Time: 62.0min | Activity ID: 12875607734
+2025-02-04 13:16:49,943 - INFO - - 2024-11-24 19:01:08+00:00 | Run | Distance: 9.74km | Time: 37.8min | Activity ID: 12975510533
+2025-02-04 13:16:49,943 - INFO - - 2024-11-24 13:02:37+00:00 | Run | Distance: 16.16km | Time: 65.0min | Activity ID: 12973302657
+2025-02-04 13:16:49,943 - INFO - - 2024-11-23 21:19:35+00:00 | Run | Distance: 9.68km | Time: 37.18min | Activity ID: 12968159727
+2025-02-04 13:16:49,943 - INFO - - 2024-11-23 13:01:41+00:00 | Run | Distance: 16.13km | Time: 62.0min | Activity ID: 12965435714
+2025-02-04 13:16:49,943 - INFO - - 2024-11-22 12:26:10+00:00 | Run | Distance: 25.76km | Time: 96.0min | Activity ID: 12958496550
+2025-02-04 13:16:49,943 - INFO - - 2024-11-21 21:29:27+00:00 | Run | Distance: 9.75km | Time: 38.7min | Activity ID: 12954470972
+2025-02-04 13:16:49,943 - INFO - - 2024-11-21 13:03:55+00:00 | Run | Distance: 16.11km | Time: 64.0min | Activity ID: 12951633346
+2025-02-04 13:16:49,943 - INFO - - 2024-11-20 13:02:39+00:00 | Run | Distance: 22.55km | Time: 87.0min | Activity ID: 12944405945
+2025-02-04 13:16:49,943 - INFO - - 2024-11-19 22:06:42+00:00 | Run | Distance: 8.57km | Time: 33.65min | Activity ID: 12940039906
+2025-02-04 13:16:49,943 - INFO - - 2024-11-19 13:03:41+00:00 | Run | Distance: 16.26km | Time: 65.0min | Activity ID: 12936638688
+2025-02-04 13:16:49,943 - INFO - - 2024-11-18 12:26:54+00:00 | Run | Distance: 19.07km | Time: 73.0min | Activity ID: 12929201403
+2025-02-04 13:16:49,944 - INFO - 
+Thomas Bridger:
+2025-02-04 13:16:49,944 - INFO - Number of activities: 19
+2025-02-04 13:16:49,944 - INFO - 
+Activity details:
+2025-02-04 13:16:49,944 - INFO - - 2024-11-14 17:03:09+00:00 | Run | Distance: 1.61km | Time: 7.3min | Activity ID: 12900315585
+2025-02-04 13:16:49,944 - INFO - - 2024-11-14 15:35:15+00:00 | Run | Distance: 19.32km | Time: 74.0min | Activity ID: 12900315661
+2025-02-04 13:16:49,944 - INFO - - 2024-11-13 17:34:46+00:00 | Run | Distance: 4.02km | Time: 19.97min | Activity ID: 12893178428
+2025-02-04 13:16:49,944 - INFO - - 2024-11-13 16:31:55+00:00 | Run | Distance: 11.54km | Time: 44.77min | Activity ID: 12892862446
+2025-02-04 13:16:49,944 - INFO - - 2024-11-13 15:56:57+00:00 | Run | Distance: 4.02km | Time: 18.47min | Activity ID: 12892392129
+2025-02-04 13:16:49,944 - INFO - - 2024-11-13 10:39:06+00:00 | Run | Distance: 6.52km | Time: 30.0min | Activity ID: 12890325132
+2025-02-04 13:16:49,944 - INFO - - 2024-11-12 18:19:26+00:00 | Run | Distance: 14.48km | Time: 69.0min | Activity ID: 12886140804
+2025-02-04 13:16:49,944 - INFO - - 2024-11-12 09:46:54+00:00 | Swim | Distance: 1.0km | Time: 0.0min | Activity ID: 12882339111
+2025-02-04 13:16:49,945 - INFO - - 2024-11-11 17:03:04+00:00 | Run | Distance: 20.43km | Time: 80.0min | Activity ID: 12876897005
+2025-02-04 13:16:49,945 - INFO - - 2024-11-23 14:43:44+00:00 | Run | Distance: 3.91km | Time: 20.3min | Activity ID: 12965770670
+2025-02-04 13:16:49,945 - INFO - - 2024-11-23 12:53:52+00:00 | Run | Distance: 2.8km | Time: 14.17min | Activity ID: 12964888055
+2025-02-04 13:16:49,945 - INFO - - 2024-11-23 09:06:45+00:00 | Run | Distance: 1.98km | Time: 10.03min | Activity ID: 12963010643
+2025-02-04 13:16:49,945 - INFO - - 2024-11-22 12:07:43+00:00 | Run | Distance: 6.46km | Time: 30.12min | Activity ID: 12957900175
+2025-02-04 13:16:49,945 - INFO - - 2024-11-20 13:51:11+00:00 | Run | Distance: 9.92km | Time: 42.93min | Activity ID: 12944416209
+2025-02-04 13:16:49,945 - INFO - - 2024-11-19 16:59:58+00:00 | Run | Distance: 3.22km | Time: 15.58min | Activity ID: 12938929048
+2025-02-04 13:16:49,945 - INFO - - 2024-11-19 16:07:01+00:00 | Run | Distance: 7.2km | Time: 38.12min | Activity ID: 12938929118
+2025-02-04 13:16:49,945 - INFO - - 2024-11-19 15:30:39+00:00 | Run | Distance: 3.08km | Time: 13.68min | Activity ID: 12938928889
+2025-02-04 13:16:49,945 - INFO - - 2024-11-19 11:19:25+00:00 | Run | Distance: 4.83km | Time: 23.23min | Activity ID: 12935651187
+2025-02-04 13:16:49,945 - INFO - - 2024-11-18 17:45:50+00:00 | Run | Distance: 11.28km | Time: 52.8min | Activity ID: 12931026023
+2025-02-04 13:16:49,948 - INFO - 
+Successfully added 94 new activities
+2025-02-04 13:16:49,962 - INFO - Calculating athlete metrics...
+2025-02-04 13:16:49,962 - INFO - 
+Input DataFrame shape: (120397, 16)
+2025-02-04 13:16:49,963 - INFO - Target athletes: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-04 13:16:49,968 - INFO - Unique athletes in activities: ['Thomas Bridger' 'Noah Schutte ' 'Romain Mornet' 'Tanja Spill'
+ 'Juliette Thomas' 'Brett Robinson' 'James Preston' 'Angus Harrington'
+ 'James Hansen' 'Azeddine Habz' 'Shane Streich' 'Regan Yee'
+ 'Anthony Camerieri' 'Aaron Ahl' 'Zach Panning' 'Brandon Miller'
+ 'Jack Rowe' 'Breanna Sieracki' 'Sigurd Tveit' 'Molly Grabill'
+ 'Kristian Uldbjerg Hansen' 'Daniel Michalski' 'Lucas Bons' 'Ivan Siuris'
+ 'Carla Gallardo' 'Yaseen Abdalla' 'Mario García Romo' 'Parker Wolfe'
+ 'Ryan Ford' 'Florian Bremm' 'José Carlos Pinto' 'Sam Gilman'
+ 'Savannah Berry' 'Olin Hacker' 'Abdurrahman Gediklioğlu'
+ 'Djilali Bedrani' 'Fearghal Curtin' 'Benjamin Allen' 'Kasey Knevelbaard'
+ 'Colin Bennie' 'Pieter Sisk' 'Robin Oester' 'Jonathan Mellor'
+ 'victor kiplimo' 'Esther Seeland' 'Derek Johnson' 'Kate Mitchell'
+ 'Yoann Kowal' 'Lore Hoffmann' 'Lucia Pinacchio' 'Jerrell Mock'
+ 'Mason Cohen' 'Sophie Novak' 'Thomas De Bock' 'Matthew Richtman'
+ 'Callum Davies' 'Tim McInerney' 'Jacob Boutera' 'Kerem Ayhan'
+ 'Nils Voigt' 'Patrick Kiprop' 'Pedro Gomez' 'Jean-Simon Desgagnés'
+ 'Timo Benitz' 'George Couttie' 'Evan Jager' 'Danielle Jones'
+ 'Cameron Levins' 'Min Liu' 'Andrew Hunter' 'Isaac Basten'
+ 'Carson Williams' 'Hanna Hermansson' 'Justin Kent' 'Enock Kipkemboi'
+ 'Mariska Parewyck' 'Evan Jenkins' 'Julia Mayer' 'Anna Gibson'
+ 'Julia Jaguścik' 'Conor Murphy' 'Sebastian Fernandez' 'David Mullarkey'
+ 'Abel Teffra' 'Josh Kerr' 'Fredrik Sandvik' 'Rémi Schyns' 'JOHN KORIR'
+ 'Ole Jakob Solbu' 'Kristine Eikrem Engeset' 'Sam Parsons' 'Alec Basten'
+ 'Jack Lunn' 'Clayton Young' 'Cole Sprout' 'Scott Beattie'
+ 'Emil Danielsson' 'Emil Blomberg' 'Tom Anderson' 'Annie Rodenfels'
+ 'Dillon Maggard' 'James Kimeu' 'Edwin Kiptoo' 'Abdihamid nur' 'Yago Rojo'
+ 'Levente Szemerei' 'Jackson Sharp' 'Natasha wodak' 'Tanner Maier'
+ 'Rose Davies' 'Chandler Gibbens' 'Adam Spencer' 'Ryan Elston'
+ 'Tiarnan Crorken' 'Arthur Gervais' 'Shuhei Yamamoto' 'Sebastian Hendel'
+ 'Benjamin CHOQUERT' 'Sage Hurta-Klecker' 'Jude Thomas' 'Tyler Bilyard'
+ 'Florian Le Pallec' 'Duncan Hamilton' "Keira D'Amato" 'Sean Dolan'
+ 'Alexander Korczynski' 'Conner Mantz' 'Ole Hesselbjerg' 'Erin Strzelecki'
+ 'Sean Donoghue' 'Roxane Cleppe' "Sophie O'Sullivan" 'Luciano Fiore'
+ 'katie camarena' 'Heather Seaward' 'Alex Melloy' 'Nick Dahl'
+ 'Sarah Madeleine' 'Harry Wakefield' 'Kevin Robertson' 'Sarah Klein'
+ 'Hillary Kipkoech' 'Gary Martin' 'Agathe Delahoutre' 'Brett Gardner'
+ 'Sarah Calvert' 'Romain Legendre' 'Baptiste Fourmont' 'Sadie Engelhardt'
+ 'Luca Thompson' 'Jordan Macintosh' 'hannah nuttall' 'Foster Malleck'
+ 'Zalen Nelson' 'Méline Rollin' 'Jack Higgins' 'Olga Nyzhnyk'
+ 'Tinoda Matsatsa' 'Tuğba Güvenç' 'Dan Kibet' 'Cari Hughes'
+ 'Lauren Gregory' 'Erik Hille' 'Mike Foppen' 'Lisa Rooms' 'Baptiste Guyon'
+ 'Stan Niesten' 'Yukichi Ishii' 'Sondre Nordstad Moen' 'Damien Dilcher'
+ 'Christian Jackson' 'Ryoji Tatezawa' 'Mehdi Kadri' 'Corentin Le Clezio'
+ 'Sarah Healy' 'Cillian Kirwan' 'James Seeliger' 'Daiki Hattori'
+ 'Annemarie Nissen' 'Said Mechaal' 'Joanna Archer' 'takashi soma'
+ 'brian kiptoo' 'Sarah McDonald' 'Giovanna Epis' 'Hamza SAHLI'
+ 'Fabienne Schlumpf' 'simon mwangi' 'Stefan Nillessen' 'Hobbs Kessler'
+ 'Rob Napolitano' 'Grace Barnett' 'Yazmine Wright' 'Hanna Lindholm'
+ 'Filip Ostrowski' 'Quentin Tison' 'Bastien AUGUSTO' 'Militsa Mircheva'
+ 'Elias Ngeny' 'Shogo Nakamura' 'Morgan Pearson' 'Simon Debognies'
+ 'Sarah Sellers' 'Leonid Latsepov' 'Gabriela DeBues-Stafford'
+ 'Georgia bell' 'Hayley Kitching' 'Niels Laros' 'Daniel Simmons'
+ 'Charles Philibert-Thiboutot' 'Bobby Poynter' 'Kate Current'
+ 'Nick Foster' 'Ben Perrin ' 'Tony van Diepen' 'Morgan Mitchell'
+ 'Carina Viljoen' 'marc tortell' 'Viola Chepngeno' 'LUIS Miguel Masabanda'
+ 'Marcel Tobler' 'Hugo Houyez' 'Bruno Pierru' 'Silke Jonkman'
+ 'Angelina Ellis' 'Alessandro Lotta' 'Thomas Piquart' 'Parker Stokes'
+ 'JaQuavious Harris' 'Aiden Coles' 'Charlie Sweeney' 'Kevin Viezee'
+ 'Marisa Howard' 'Isaiah Harris' 'Dillan Van Rooyen' 'Cameron Avery'
+ 'Samuel Chapple' 'Joris Keppens' 'Morgan Beadlescomb' 'Tim Vincent'
+ 'ISHMAEL ARTHUR' 'Robin van Riel' 'Valentin Bresc' 'Emma Tavella'
+ 'Luke McCann' 'Jude Wheeler-Dee' 'Kirami Collin Yego' 'kieran tuntivate'
+ 'Kristel van den Berg' 'victor kimutai' 'Derek Holdsworth'
+ 'Zouhair Talbi' 'joe ewing' 'Boniface Kibiwott' 'Brian Fay' 'Peter Smith'
+ 'Jack Salisbury' 'Tom Hendrikse' 'Matt Wisner' 'Shane Cohen'
+ 'Jack Balick' 'Roy Hoornweg' 'Jessica Kain ' 'Joey Nokes'
+ 'Marcella Herzog' 'Matthew Beaudet' 'Malindi Elmore' 'Austin Vancil'
+ 'Job IJtsma' 'Kristina Hendel' 'Tai Dinger' 'Sydney Steely'
+ 'Isaac Updike' 'Will Barnicoat' 'Jonathan Grahn' 'Keisuke Yokota'
+ 'Marco Langon' 'Toby Gillen' 'Casey Comber' 'Callum Elson'
+ 'Riley Flemington' 'Anne Luijten' 'Silvia Oggioni' 'Joey Berriatua'
+ 'Nicolas Navarro' 'Rory Linkletter ' 'Jake Ritter' 'Johannes Motschmann'
+ 'Richard Ringer' 'Noah Baltus' 'Eric Avila' 'Luc Le Baron' 'Ben Pattison'
+ 'Mykola Nyzhnyk' 'Giovanni Filippi' 'Joseph Tuffin' 'Eric Holt'
+ 'JP Flavin' 'Adam Fogg' 'Leslie Sexton' 'Samuel Barata'
+ 'Baldvin Magnusson' 'James West' 'Laura Nagel' 'Kellyn Taylor'
+ 'Silas Too' 'Lauren Hagans' 'Shane Bracken' 'Henry Wynne' 'alex phillip'
+ 'Meredith Rizzo' 'Jennifer Gulikers' 'Olivia Baker' 'Chamar Chambers'
+ 'HIDEYUKI TANAKA' 'Festus Lagat' 'Marco Arop' 'Irvette Van Zyl'
+ 'Jonathan Davis' 'Mateusz Borkowski' 'Michael Somers' 'Charles Wheeler '
+ 'Eilish McColgan' 'Jennifer Nesbitt' 'Kendra Coleman' 'Rebecca Bassett'
+ 'Parul Chaudhary' 'sheila chepkirui' 'Madeleine kelly' 'Invida Mauriņa'
+ 'Jaxson Hoey' 'Emily MacKay' 'Mahadi Abdi Ali' 'Kyle Langford'
+ 'Ermias Girma' 'Hicham Ouladha' 'Levi Taylor' 'Peter Herzog'
+ 'Melissa Tanaka' 'Joseph Deng' 'Stephen Evans' 'Matthias Kyburz'
+ 'Dennis Kipkurui' 'Gladys Chepngetich' 'Rob McManus' 'Ziad Audah'
+ 'Ludovic Le Meur' 'Carter Fitzgerald' 'James Corrigan' 'Ryu Takaku'
+ 'Christian Noble' 'Koen Naert' 'Yassin Bouih' 'Cristhian Zamora'
+ 'Yolanda Ngarambe' 'Rachel Smith' 'Mekdes WOLDU ' 'Travis Mahoney'
+ 'Sarah Billings' 'Osama Zoghlami' 'Christian Patzka' 'Abby Nichols'
+ 'Haftom Welday' 'Eliott Crestan' 'Paulo Roberto Paula' 'Jan Badia'
+ 'Rory Leonard' 'Samuel Tanner' 'Henry Fisher' 'Émile Toupin'
+ 'Marissa Damink' 'Dina Aleksandrova' 'Athanas Kioko' 'Kate Grace'
+ 'Caden Norris' 'Andrew Coscoran' 'Nathan MARTIN' 'Naoki Aiba'
+ 'Lauren Hall' 'Ruben Verheyden' 'Tebello Ramakongoana'
+ 'Raphael Pallitsch' 'Peter Lynch' 'Carlee Hansen' 'Remyo Tielsema'
+ 'Ignacio Erario' 'Ben Nagel' 'Reed Fischer' 'Svetlana Aplachkina'
+ 'adam clarke' 'ellie baker' 'tom dodd' 'Olivier Desmeules'
+ 'Madison Neuner' 'kayley delay' 'Wes Ferguson' 'Carmen Graves'
+ 'Ben Preisner' 'Etienne Daguinos' 'Jane Bareikis' 'Liam Cashin'
+ 'John Gay' 'Olivia Markezich' 'Florence Caron' 'Youssef BENZAMIA'
+ 'Logan Measner' 'Ellis Cross' 'Ryan Clarke' 'Hazem Miawad' 'Tyler Wirth'
+ 'Rebecca Mehra' 'Duncan Perrillat' 'Sam McEntee' 'Aidan Ryan'
+ 'Gracelyn Larkin' 'Alexis Miellet' 'Josh Izewski' 'Lucas Nieuweboer'
+ 'Davis Bove' 'Waleed Suliman' 'Lauren Ryan' 'CJ Singleton'
+ 'Camden Gilmore' 'Allie Buchalski' 'Ruken Tek' 'Mark Pearce'
+ 'Nico Boketta' 'Yuki Tsutsumi' 'William Battershill' 'Maël Gouyette'
+ 'salim keddar' 'Clayton Murphy' 'Savannah Shaw' 'KELVIN KIPYEGO'
+ 'Samuel Austin' 'Jennifer Randall' 'Bethwel Kibet' 'Hendrik Pfeiffer'
+ 'Brenda Jepchirchir' 'YUSUKE NISHIYAMA' 'Jorge Castelblanco'
+ 'Vanessa Wilson' 'Andrew Butchart' 'Jolanda Kallabis' 'Allie Wilson'
+ 'Craig Engels' 'brian kiptum' 'Amanda Vestri' 'Jack Rayner'
+ 'Charlotte Purdue' 'Andrew Casey' 'Michaela Meyer' 'Lucy Reid'
+ 'Max Davies' 'Collins Kemboi' 'Daniel Arce' 'Laura Priego'
+ 'Michaela Oosthuizen' 'Federico Riva' 'Ahmed Ouhda' 'Jp Flavin']
+2025-02-04 13:16:50,011 - INFO - 
+Normalized target athletes: ['Adam Fogg', 'Adam Fogg', 'Jp Flavin', 'Thomas Bridger']
+2025-02-04 13:16:50,017 - INFO - Normalized unique athletes in activities: ['Thomas Bridger' 'Noah Schutte' 'Romain Mornet' 'Tanja Spill'
+ 'Juliette Thomas' 'Brett Robinson' 'James Preston' 'Angus Harrington'
+ 'James Hansen' 'Azeddine Habz' 'Shane Streich' 'Regan Yee'
+ 'Anthony Camerieri' 'Aaron Ahl' 'Zach Panning' 'Brandon Miller'
+ 'Jack Rowe' 'Breanna Sieracki' 'Sigurd Tveit' 'Molly Grabill'
+ 'Kristian Uldbjerg Hansen' 'Daniel Michalski' 'Lucas Bons' 'Ivan Siuris'
+ 'Carla Gallardo' 'Yaseen Abdalla' 'Mario García Romo' 'Parker Wolfe'
+ 'Ryan Ford' 'Florian Bremm' 'José Carlos Pinto' 'Sam Gilman'
+ 'Savannah Berry' 'Olin Hacker' 'Abdurrahman Gediklioğlu'
+ 'Djilali Bedrani' 'Fearghal Curtin' 'Benjamin Allen' 'Kasey Knevelbaard'
+ 'Colin Bennie' 'Pieter Sisk' 'Robin Oester' 'Jonathan Mellor'
+ 'Victor Kiplimo' 'Esther Seeland' 'Derek Johnson' 'Kate Mitchell'
+ 'Yoann Kowal' 'Lore Hoffmann' 'Lucia Pinacchio' 'Jerrell Mock'
+ 'Mason Cohen' 'Sophie Novak' 'Thomas De Bock' 'Matthew Richtman'
+ 'Callum Davies' 'Tim Mcinerney' 'Jacob Boutera' 'Kerem Ayhan'
+ 'Nils Voigt' 'Patrick Kiprop' 'Pedro Gomez' 'Jean-Simon Desgagnés'
+ 'Timo Benitz' 'George Couttie' 'Evan Jager' 'Danielle Jones'
+ 'Cameron Levins' 'Min Liu' 'Andrew Hunter' 'Isaac Basten'
+ 'Carson Williams' 'Hanna Hermansson' 'Justin Kent' 'Enock Kipkemboi'
+ 'Mariska Parewyck' 'Evan Jenkins' 'Julia Mayer' 'Anna Gibson'
+ 'Julia Jaguścik' 'Conor Murphy' 'Sebastian Fernandez' 'David Mullarkey'
+ 'Abel Teffra' 'Josh Kerr' 'Fredrik Sandvik' 'Rémi Schyns' 'John Korir'
+ 'Ole Jakob Solbu' 'Kristine Eikrem Engeset' 'Sam Parsons' 'Alec Basten'
+ 'Jack Lunn' 'Clayton Young' 'Cole Sprout' 'Scott Beattie'
+ 'Emil Danielsson' 'Emil Blomberg' 'Tom Anderson' 'Annie Rodenfels'
+ 'Dillon Maggard' 'James Kimeu' 'Edwin Kiptoo' 'Abdihamid Nur' 'Yago Rojo'
+ 'Levente Szemerei' 'Jackson Sharp' 'Natasha Wodak' 'Tanner Maier'
+ 'Rose Davies' 'Chandler Gibbens' 'Adam Spencer' 'Ryan Elston'
+ 'Tiarnan Crorken' 'Arthur Gervais' 'Shuhei Yamamoto' 'Sebastian Hendel'
+ 'Benjamin Choquert' 'Sage Hurta-Klecker' 'Jude Thomas' 'Tyler Bilyard'
+ 'Florian Le Pallec' 'Duncan Hamilton' "Keira D'Amato" 'Sean Dolan'
+ 'Alexander Korczynski' 'Conner Mantz' 'Ole Hesselbjerg' 'Erin Strzelecki'
+ 'Sean Donoghue' 'Roxane Cleppe' "Sophie O'Sullivan" 'Luciano Fiore'
+ 'Katie Camarena' 'Heather Seaward' 'Alex Melloy' 'Nick Dahl'
+ 'Sarah Madeleine' 'Harry Wakefield' 'Kevin Robertson' 'Sarah Klein'
+ 'Hillary Kipkoech' 'Gary Martin' 'Agathe Delahoutre' 'Brett Gardner'
+ 'Sarah Calvert' 'Romain Legendre' 'Baptiste Fourmont' 'Sadie Engelhardt'
+ 'Luca Thompson' 'Jordan Macintosh' 'Hannah Nuttall' 'Foster Malleck'
+ 'Zalen Nelson' 'Méline Rollin' 'Jack Higgins' 'Olga Nyzhnyk'
+ 'Tinoda Matsatsa' 'Tuğba Güvenç' 'Dan Kibet' 'Cari Hughes'
+ 'Lauren Gregory' 'Erik Hille' 'Mike Foppen' 'Lisa Rooms' 'Baptiste Guyon'
+ 'Stan Niesten' 'Yukichi Ishii' 'Sondre Nordstad Moen' 'Damien Dilcher'
+ 'Christian Jackson' 'Ryoji Tatezawa' 'Mehdi Kadri' 'Corentin Le Clezio'
+ 'Sarah Healy' 'Cillian Kirwan' 'James Seeliger' 'Daiki Hattori'
+ 'Annemarie Nissen' 'Said Mechaal' 'Joanna Archer' 'Takashi Soma'
+ 'Brian Kiptoo' 'Sarah Mcdonald' 'Giovanna Epis' 'Hamza Sahli'
+ 'Fabienne Schlumpf' 'Simon Mwangi' 'Stefan Nillessen' 'Hobbs Kessler'
+ 'Rob Napolitano' 'Grace Barnett' 'Yazmine Wright' 'Hanna Lindholm'
+ 'Filip Ostrowski' 'Quentin Tison' 'Bastien Augusto' 'Militsa Mircheva'
+ 'Elias Ngeny' 'Shogo Nakamura' 'Morgan Pearson' 'Simon Debognies'
+ 'Sarah Sellers' 'Leonid Latsepov' 'Gabriela Debues-Stafford'
+ 'Georgia Bell' 'Hayley Kitching' 'Niels Laros' 'Daniel Simmons'
+ 'Charles Philibert-Thiboutot' 'Bobby Poynter' 'Kate Current'
+ 'Nick Foster' 'Ben Perrin' 'Tony Van Diepen' 'Morgan Mitchell'
+ 'Carina Viljoen' 'Marc Tortell' 'Viola Chepngeno' 'Luis Miguel Masabanda'
+ 'Marcel Tobler' 'Hugo Houyez' 'Bruno Pierru' 'Silke Jonkman'
+ 'Angelina Ellis' 'Alessandro Lotta' 'Thomas Piquart' 'Parker Stokes'
+ 'Jaquavious Harris' 'Aiden Coles' 'Charlie Sweeney' 'Kevin Viezee'
+ 'Marisa Howard' 'Isaiah Harris' 'Dillan Van Rooyen' 'Cameron Avery'
+ 'Samuel Chapple' 'Joris Keppens' 'Morgan Beadlescomb' 'Tim Vincent'
+ 'Ishmael Arthur' 'Robin Van Riel' 'Valentin Bresc' 'Emma Tavella'
+ 'Luke Mccann' 'Jude Wheeler-Dee' 'Kirami Collin Yego' 'Kieran Tuntivate'
+ 'Kristel Van Den Berg' 'Victor Kimutai' 'Derek Holdsworth'
+ 'Zouhair Talbi' 'Joe Ewing' 'Boniface Kibiwott' 'Brian Fay' 'Peter Smith'
+ 'Jack Salisbury' 'Tom Hendrikse' 'Matt Wisner' 'Shane Cohen'
+ 'Jack Balick' 'Roy Hoornweg' 'Jessica Kain' 'Joey Nokes'
+ 'Marcella Herzog' 'Matthew Beaudet' 'Malindi Elmore' 'Austin Vancil'
+ 'Job Ijtsma' 'Kristina Hendel' 'Tai Dinger' 'Sydney Steely'
+ 'Isaac Updike' 'Will Barnicoat' 'Jonathan Grahn' 'Keisuke Yokota'
+ 'Marco Langon' 'Toby Gillen' 'Casey Comber' 'Callum Elson'
+ 'Riley Flemington' 'Anne Luijten' 'Silvia Oggioni' 'Joey Berriatua'
+ 'Nicolas Navarro' 'Rory Linkletter' 'Jake Ritter' 'Johannes Motschmann'
+ 'Richard Ringer' 'Noah Baltus' 'Eric Avila' 'Luc Le Baron' 'Ben Pattison'
+ 'Mykola Nyzhnyk' 'Giovanni Filippi' 'Joseph Tuffin' 'Eric Holt'
+ 'Jp Flavin' 'Adam Fogg' 'Leslie Sexton' 'Samuel Barata'
+ 'Baldvin Magnusson' 'James West' 'Laura Nagel' 'Kellyn Taylor'
+ 'Silas Too' 'Lauren Hagans' 'Shane Bracken' 'Henry Wynne' 'Alex Phillip'
+ 'Meredith Rizzo' 'Jennifer Gulikers' 'Olivia Baker' 'Chamar Chambers'
+ 'Hideyuki Tanaka' 'Festus Lagat' 'Marco Arop' 'Irvette Van Zyl'
+ 'Jonathan Davis' 'Mateusz Borkowski' 'Michael Somers' 'Charles Wheeler'
+ 'Eilish Mccolgan' 'Jennifer Nesbitt' 'Kendra Coleman' 'Rebecca Bassett'
+ 'Parul Chaudhary' 'Sheila Chepkirui' 'Madeleine Kelly' 'Invida Mauriņa'
+ 'Jaxson Hoey' 'Emily Mackay' 'Mahadi Abdi Ali' 'Kyle Langford'
+ 'Ermias Girma' 'Hicham Ouladha' 'Levi Taylor' 'Peter Herzog'
+ 'Melissa Tanaka' 'Joseph Deng' 'Stephen Evans' 'Matthias Kyburz'
+ 'Dennis Kipkurui' 'Gladys Chepngetich' 'Rob Mcmanus' 'Ziad Audah'
+ 'Ludovic Le Meur' 'Carter Fitzgerald' 'James Corrigan' 'Ryu Takaku'
+ 'Christian Noble' 'Koen Naert' 'Yassin Bouih' 'Cristhian Zamora'
+ 'Yolanda Ngarambe' 'Rachel Smith' 'Mekdes Woldu' 'Travis Mahoney'
+ 'Sarah Billings' 'Osama Zoghlami' 'Christian Patzka' 'Abby Nichols'
+ 'Haftom Welday' 'Eliott Crestan' 'Paulo Roberto Paula' 'Jan Badia'
+ 'Rory Leonard' 'Samuel Tanner' 'Henry Fisher' 'Émile Toupin'
+ 'Marissa Damink' 'Dina Aleksandrova' 'Athanas Kioko' 'Kate Grace'
+ 'Caden Norris' 'Andrew Coscoran' 'Nathan Martin' 'Naoki Aiba'
+ 'Lauren Hall' 'Ruben Verheyden' 'Tebello Ramakongoana'
+ 'Raphael Pallitsch' 'Peter Lynch' 'Carlee Hansen' 'Remyo Tielsema'
+ 'Ignacio Erario' 'Ben Nagel' 'Reed Fischer' 'Svetlana Aplachkina'
+ 'Adam Clarke' 'Ellie Baker' 'Tom Dodd' 'Olivier Desmeules'
+ 'Madison Neuner' 'Kayley Delay' 'Wes Ferguson' 'Carmen Graves'
+ 'Ben Preisner' 'Etienne Daguinos' 'Jane Bareikis' 'Liam Cashin'
+ 'John Gay' 'Olivia Markezich' 'Florence Caron' 'Youssef Benzamia'
+ 'Logan Measner' 'Ellis Cross' 'Ryan Clarke' 'Hazem Miawad' 'Tyler Wirth'
+ 'Rebecca Mehra' 'Duncan Perrillat' 'Sam Mcentee' 'Aidan Ryan'
+ 'Gracelyn Larkin' 'Alexis Miellet' 'Josh Izewski' 'Lucas Nieuweboer'
+ 'Davis Bove' 'Waleed Suliman' 'Lauren Ryan' 'Cj Singleton'
+ 'Camden Gilmore' 'Allie Buchalski' 'Ruken Tek' 'Mark Pearce'
+ 'Nico Boketta' 'Yuki Tsutsumi' 'William Battershill' 'Maël Gouyette'
+ 'Salim Keddar' 'Clayton Murphy' 'Savannah Shaw' 'Kelvin Kipyego'
+ 'Samuel Austin' 'Jennifer Randall' 'Bethwel Kibet' 'Hendrik Pfeiffer'
+ 'Brenda Jepchirchir' 'Yusuke Nishiyama' 'Jorge Castelblanco'
+ 'Vanessa Wilson' 'Andrew Butchart' 'Jolanda Kallabis' 'Allie Wilson'
+ 'Craig Engels' 'Brian Kiptum' 'Amanda Vestri' 'Jack Rayner'
+ 'Charlotte Purdue' 'Andrew Casey' 'Michaela Meyer' 'Lucy Reid'
+ 'Max Davies' 'Collins Kemboi' 'Daniel Arce' 'Laura Priego'
+ 'Michaela Oosthuizen' 'Federico Riva' 'Ahmed Ouhda']
+2025-02-04 13:16:50,053 - INFO - 
+Filtered DataFrame shape: (1428, 16)
+2025-02-04 13:16:50,065 - INFO - 
+Grouped data for target athletes:
+2025-02-04 13:16:50,066 - INFO - 
+Adam Fogg:
+2025-02-04 13:16:50,066 - INFO -   Athlete Name             Type  Distance (km)  Time (min)
+0    Adam Fogg              Run    4246.355833    17956.78
+1    Adam Fogg  StandUpPaddling       1.464499       48.12
+2025-02-04 13:16:50,091 - INFO - 
+Adam Fogg:
+2025-02-04 13:16:50,091 - INFO -   Athlete Name             Type  Distance (km)  Time (min)
+0    Adam Fogg              Run    4246.355833    17956.78
+1    Adam Fogg  StandUpPaddling       1.464499       48.12
+2025-02-04 13:16:50,106 - INFO - 
+Jp Flavin:
+2025-02-04 13:16:50,107 - INFO -   Athlete Name  Type  Distance (km)  Time (min)
+2    Jp Flavin   Run    6282.806289    24022.31
+3    Jp Flavin  Walk       3.170400       42.15
+2025-02-04 13:16:50,116 - INFO - 
+Thomas Bridger:
+2025-02-04 13:16:50,116 - INFO -      Athlete Name     Type  Distance (km)  Time (min)
+4  Thomas Bridger     Ride     218.580559      300.18
+5  Thomas Bridger      Run    3359.194603    14757.71
+6  Thomas Bridger     Swim    1579.762540        0.00
+7  Thomas Bridger  Workout      19.312080        0.00
+2025-02-04 13:16:50,141 - INFO - Updating athlete metadata...
+2025-02-04 13:16:50,141 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-04 13:16:50,141 - INFO - 
+Updating Adam Fogg:
+2025-02-04 13:16:50,143 - INFO - 
+Updating Jp Flavin:
+2025-02-04 13:16:50,145 - ERROR - Error updating databases: index 0 is out of bounds for axis 0 with size 0
+2025-02-04 13:16:50,155 - ERROR - Failed to update databases
+2025-02-04 13:16:50,155 - ERROR - Data processing failed
+2025-02-04 13:41:32,594 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:41:32,595 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:41:32,595 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:41:32,596 - INFO - Created backup: ../data/metadata/backup/20250204_134132_cleaned_athlete_metadata.csv
+2025-02-04 13:41:32,624 - INFO - Created backup: ../data/metadata/backup/20250204_134132_indiv_activities_full.csv
+2025-02-04 13:41:32,625 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:41:32,625 - INFO - ====== WebDriver manager ======
+2025-02-04 13:41:32,925 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:41:33,048 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:41:33,163 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:41:35,885 - INFO - WebDriver initialized successfully
+2025-02-04 13:41:35,886 - INFO - Attempting to login to Strava
+2025-02-04 13:41:42,926 - INFO - Clicked login button
+2025-02-04 13:41:43,126 - INFO - Entered username
+2025-02-04 13:41:53,211 - ERROR - Error entering password: Password field not found
+2025-02-04 13:41:53,212 - INFO - Waiting 20 seconds for human intervention...
+2025-02-04 13:42:23,422 - INFO - Login successful - getting-started element found
+2025-02-04 13:46:44,682 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_134644.csv
+2025-02-04 13:46:44,769 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_134644.csv
+2025-02-04 13:46:44,779 - INFO - 
+Processing data for Adam FOGG
+2025-02-04 13:46:44,903 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:46:44,941 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:46:44,951 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:46:44,966 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:46:44,981 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:46:44,995 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 13:46:44,996 - INFO - 
+Processing data for JP FLAVIN
+2025-02-04 13:46:45,004 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 13:46:45,016 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 13:46:45,027 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 13:46:45,027 - INFO - 
+Processing data for Thomas BRIDGER
+2025-02-04 13:46:45,040 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 13:46:45,048 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 13:46:45,056 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 13:46:45,073 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_134645.csv
+2025-02-04 13:46:45,092 - INFO - Found 106 new activities
+2025-02-04 13:46:45,368 - INFO - Test completed, browser closed
+2025-02-04 13:46:45,666 - INFO - Cleaning activity data...
+2025-02-04 13:46:46,051 - INFO - Converting Time to minutes...
+2025-02-04 13:46:46,064 - INFO - Data cleaning completed successfully
+2025-02-04 13:46:46,064 - INFO - Processed 106 activities
+2025-02-04 13:46:46,076 - INFO - 
+New activities to be appended:
+2025-02-04 13:46:46,077 - INFO - 
+Adam Fogg:
+2025-02-04 13:46:46,077 - INFO - Number of activities: 54
+2025-02-04 13:46:46,077 - INFO - 
+Activity details:
+2025-02-04 13:46:46,077 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 65.0min | Activity ID: 12870333382
+2025-02-04 13:46:46,077 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38.05min | Activity ID: 12926051737
+2025-02-04 13:46:46,077 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6.57min | Activity ID: 12926095410
+2025-02-04 13:46:46,078 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11.7min | Activity ID: 12925881967
+2025-02-04 13:46:46,078 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28.23min | Activity ID: 12923672127
+2025-02-04 13:46:46,078 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6.03min | Activity ID: 12923773748
+2025-02-04 13:46:46,078 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14.77min | Activity ID: 12923274130
+2025-02-04 13:46:46,078 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 66.0min | Activity ID: 12915951067
+2025-02-04 13:46:46,078 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30.68min | Activity ID: 12909987404
+2025-02-04 13:46:46,078 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54.25min | Activity ID: 12907788200
+2025-02-04 13:46:46,078 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 92.0min | Activity ID: 12901183815
+2025-02-04 13:46:46,078 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 60.0min | Activity ID: 12885728247
+2025-02-04 13:46:46,078 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7.48min | Activity ID: 12880014547
+2025-02-04 13:46:46,078 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42.87min | Activity ID: 12880014807
+2025-02-04 13:46:46,078 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11.83min | Activity ID: 12879618610
+2025-02-04 13:46:46,078 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8.57min | Activity ID: 12877045264
+2025-02-04 13:46:46,079 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35.52min | Activity ID: 12876885003
+2025-02-04 13:46:46,079 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12.2min | Activity ID: 12876449210
+2025-02-04 13:46:46,079 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 105.0min | Activity ID: 12973767043
+2025-02-04 13:46:46,079 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 70.0min | Activity ID: 12967103146
+2025-02-04 13:46:46,079 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30.07min | Activity ID: 12952139845
+2025-02-04 13:46:46,079 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23.62min | Activity ID: 12951856847
+2025-02-04 13:46:46,079 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22.23min | Activity ID: 12951387848
+2025-02-04 13:46:46,079 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45.72min | Activity ID: 12945672612
+2025-02-04 13:46:46,079 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39.97min | Activity ID: 12940880470
+2025-02-04 13:46:46,079 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20.95min | Activity ID: 12936572573
+2025-02-04 13:46:46,079 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 90.0min | Activity ID: 12930582356
+2025-02-04 13:46:46,079 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 65.0min | Activity ID: 12870333382
+2025-02-04 13:46:46,079 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38.05min | Activity ID: 12926051737
+2025-02-04 13:46:46,080 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6.57min | Activity ID: 12926095410
+2025-02-04 13:46:46,080 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11.7min | Activity ID: 12925881967
+2025-02-04 13:46:46,080 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28.23min | Activity ID: 12923672127
+2025-02-04 13:46:46,080 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6.03min | Activity ID: 12923773748
+2025-02-04 13:46:46,080 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14.77min | Activity ID: 12923274130
+2025-02-04 13:46:46,080 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 66.0min | Activity ID: 12915951067
+2025-02-04 13:46:46,080 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30.68min | Activity ID: 12909987404
+2025-02-04 13:46:46,080 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54.25min | Activity ID: 12907788200
+2025-02-04 13:46:46,080 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 92.0min | Activity ID: 12901183815
+2025-02-04 13:46:46,080 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 60.0min | Activity ID: 12885728247
+2025-02-04 13:46:46,080 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7.48min | Activity ID: 12880014547
+2025-02-04 13:46:46,081 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42.87min | Activity ID: 12880014807
+2025-02-04 13:46:46,081 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11.83min | Activity ID: 12879618610
+2025-02-04 13:46:46,081 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8.57min | Activity ID: 12877045264
+2025-02-04 13:46:46,081 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35.52min | Activity ID: 12876885003
+2025-02-04 13:46:46,081 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12.2min | Activity ID: 12876449210
+2025-02-04 13:46:46,081 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 105.0min | Activity ID: 12973767043
+2025-02-04 13:46:46,081 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 70.0min | Activity ID: 12967103146
+2025-02-04 13:46:46,081 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30.07min | Activity ID: 12952139845
+2025-02-04 13:46:46,081 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23.62min | Activity ID: 12951856847
+2025-02-04 13:46:46,081 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22.23min | Activity ID: 12951387848
+2025-02-04 13:46:46,082 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45.72min | Activity ID: 12945672612
+2025-02-04 13:46:46,082 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39.97min | Activity ID: 12940880470
+2025-02-04 13:46:46,082 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20.95min | Activity ID: 12936572573
+2025-02-04 13:46:46,082 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 90.0min | Activity ID: 12930582356
+2025-02-04 13:46:46,082 - INFO - 
+Jp Flavin:
+2025-02-04 13:46:46,082 - INFO - Number of activities: 21
+2025-02-04 13:46:46,082 - INFO - 
+Activity details:
+2025-02-04 13:46:46,082 - INFO - - 2024-11-17 13:07:05+00:00 | Run | Distance: 22.55km | Time: 88.0min | Activity ID: 12922570248
+2025-02-04 13:46:46,083 - INFO - - 2024-11-16 19:59:45+00:00 | Run | Distance: 8.06km | Time: 28.77min | Activity ID: 12916663432
+2025-02-04 13:46:46,083 - INFO - - 2024-11-16 13:10:50+00:00 | Run | Distance: 16.12km | Time: 64.0min | Activity ID: 12914126083
+2025-02-04 13:46:46,083 - INFO - - 2024-11-15 13:05:50+00:00 | Run | Distance: 28.98km | Time: 100.0min | Activity ID: 12906835028
+2025-02-04 13:46:46,083 - INFO - - 2024-11-14 13:02:01+00:00 | Run | Distance: 22.55km | Time: 91.0min | Activity ID: 12899386644
+2025-02-04 13:46:46,083 - INFO - - 2024-11-13 21:17:23+00:00 | Run | Distance: 8.06km | Time: 31.0min | Activity ID: 12894899018
+2025-02-04 13:46:46,083 - INFO - - 2024-11-13 13:03:16+00:00 | Run | Distance: 16.62km | Time: 66.0min | Activity ID: 12891616015
+2025-02-04 13:46:46,083 - INFO - - 2024-11-12 12:38:22+00:00 | Run | Distance: 19.63km | Time: 79.0min | Activity ID: 12883821228
+2025-02-04 13:46:46,083 - INFO - - 2024-11-11 22:08:24+00:00 | Run | Distance: 7.32km | Time: 28.43min | Activity ID: 12879250291
+2025-02-04 13:46:46,083 - INFO - - 2024-11-11 13:02:07+00:00 | Run | Distance: 16.11km | Time: 62.0min | Activity ID: 12875607734
+2025-02-04 13:46:46,083 - INFO - - 2024-11-24 19:01:08+00:00 | Run | Distance: 9.74km | Time: 37.8min | Activity ID: 12975510533
+2025-02-04 13:46:46,083 - INFO - - 2024-11-24 13:02:37+00:00 | Run | Distance: 16.16km | Time: 65.0min | Activity ID: 12973302657
+2025-02-04 13:46:46,083 - INFO - - 2024-11-23 21:19:35+00:00 | Run | Distance: 9.68km | Time: 37.18min | Activity ID: 12968159727
+2025-02-04 13:46:46,083 - INFO - - 2024-11-23 13:01:41+00:00 | Run | Distance: 16.13km | Time: 62.0min | Activity ID: 12965435714
+2025-02-04 13:46:46,084 - INFO - - 2024-11-22 12:26:10+00:00 | Run | Distance: 25.76km | Time: 96.0min | Activity ID: 12958496550
+2025-02-04 13:46:46,084 - INFO - - 2024-11-21 21:29:27+00:00 | Run | Distance: 9.75km | Time: 38.7min | Activity ID: 12954470972
+2025-02-04 13:46:46,084 - INFO - - 2024-11-21 13:03:55+00:00 | Run | Distance: 16.11km | Time: 64.0min | Activity ID: 12951633346
+2025-02-04 13:46:46,084 - INFO - - 2024-11-20 13:02:39+00:00 | Run | Distance: 22.55km | Time: 87.0min | Activity ID: 12944405945
+2025-02-04 13:46:46,084 - INFO - - 2024-11-19 22:06:42+00:00 | Run | Distance: 8.57km | Time: 33.65min | Activity ID: 12940039906
+2025-02-04 13:46:46,084 - INFO - - 2024-11-19 13:03:41+00:00 | Run | Distance: 16.26km | Time: 65.0min | Activity ID: 12936638688
+2025-02-04 13:46:46,084 - INFO - - 2024-11-18 12:26:54+00:00 | Run | Distance: 19.07km | Time: 73.0min | Activity ID: 12929201403
+2025-02-04 13:46:46,084 - INFO - 
+Thomas Bridger:
+2025-02-04 13:46:46,084 - INFO - Number of activities: 19
+2025-02-04 13:46:46,084 - INFO - 
+Activity details:
+2025-02-04 13:46:46,084 - INFO - - 2024-11-14 17:03:09+00:00 | Run | Distance: 1.61km | Time: 7.3min | Activity ID: 12900315585
+2025-02-04 13:46:46,085 - INFO - - 2024-11-14 15:35:15+00:00 | Run | Distance: 19.32km | Time: 74.0min | Activity ID: 12900315661
+2025-02-04 13:46:46,085 - INFO - - 2024-11-13 17:34:46+00:00 | Run | Distance: 4.02km | Time: 19.97min | Activity ID: 12893178428
+2025-02-04 13:46:46,085 - INFO - - 2024-11-13 16:31:55+00:00 | Run | Distance: 11.54km | Time: 44.77min | Activity ID: 12892862446
+2025-02-04 13:46:46,085 - INFO - - 2024-11-13 15:56:57+00:00 | Run | Distance: 4.02km | Time: 18.47min | Activity ID: 12892392129
+2025-02-04 13:46:46,085 - INFO - - 2024-11-13 10:39:06+00:00 | Run | Distance: 6.52km | Time: 30.0min | Activity ID: 12890325132
+2025-02-04 13:46:46,085 - INFO - - 2024-11-12 18:19:26+00:00 | Run | Distance: 14.48km | Time: 69.0min | Activity ID: 12886140804
+2025-02-04 13:46:46,085 - INFO - - 2024-11-12 09:46:54+00:00 | Swim | Distance: 1.0km | Time: 0.0min | Activity ID: 12882339111
+2025-02-04 13:46:46,085 - INFO - - 2024-11-11 17:03:04+00:00 | Run | Distance: 20.43km | Time: 80.0min | Activity ID: 12876897005
+2025-02-04 13:46:46,085 - INFO - - 2024-11-23 14:43:44+00:00 | Run | Distance: 3.91km | Time: 20.3min | Activity ID: 12965770670
+2025-02-04 13:46:46,085 - INFO - - 2024-11-23 12:53:52+00:00 | Run | Distance: 2.8km | Time: 14.17min | Activity ID: 12964888055
+2025-02-04 13:46:46,085 - INFO - - 2024-11-23 09:06:45+00:00 | Run | Distance: 1.98km | Time: 10.03min | Activity ID: 12963010643
+2025-02-04 13:46:46,085 - INFO - - 2024-11-22 12:07:43+00:00 | Run | Distance: 6.46km | Time: 30.12min | Activity ID: 12957900175
+2025-02-04 13:46:46,085 - INFO - - 2024-11-20 13:51:11+00:00 | Run | Distance: 9.92km | Time: 42.93min | Activity ID: 12944416209
+2025-02-04 13:46:46,086 - INFO - - 2024-11-19 16:59:58+00:00 | Run | Distance: 3.22km | Time: 15.58min | Activity ID: 12938929048
+2025-02-04 13:46:46,086 - INFO - - 2024-11-19 16:07:01+00:00 | Run | Distance: 7.2km | Time: 38.12min | Activity ID: 12938929118
+2025-02-04 13:46:46,086 - INFO - - 2024-11-19 15:30:39+00:00 | Run | Distance: 3.08km | Time: 13.68min | Activity ID: 12938928889
+2025-02-04 13:46:46,086 - INFO - - 2024-11-19 11:19:25+00:00 | Run | Distance: 4.83km | Time: 23.23min | Activity ID: 12935651187
+2025-02-04 13:46:46,086 - INFO - - 2024-11-18 17:45:50+00:00 | Run | Distance: 11.28km | Time: 52.8min | Activity ID: 12931026023
+2025-02-04 13:46:46,089 - INFO - 
+Successfully added 94 new activities
+2025-02-04 13:46:46,109 - INFO - Calculating athlete metrics...
+2025-02-04 13:46:46,109 - INFO - 
+Input DataFrame shape: (120397, 16)
+2025-02-04 13:46:46,114 - INFO - Target Athlete IDs: [4928335]
+2025-02-04 13:46:46,132 - INFO - 
+Filtered DataFrame shape: (384, 16)
+2025-02-04 13:46:46,133 - INFO - Activities found for athletes: ['JP Flavin' 'Jp Flavin']
+2025-02-04 13:46:46,140 - INFO - 
+Grouped data for target athletes:
+2025-02-04 13:46:46,140 - INFO - 
+JP FLAVIN (ID: 4928335):
+2025-02-04 13:46:46,140 - INFO -    Athlete ID  Type  Distance (km)  Time (min)
+0     4928335   Run    6282.806289    24022.31
+1     4928335  Walk       3.170400       42.15
+2025-02-04 13:46:46,155 - ERROR - Error updating databases: 'Athlete ID' is both an index level and a column label, which is ambiguous.
+2025-02-04 13:46:46,164 - ERROR - Failed to update databases
+2025-02-04 13:46:46,164 - ERROR - Data processing failed
+2025-02-04 13:51:24,255 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:51:24,255 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:51:24,255 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:51:24,257 - INFO - Created backup: ../data/metadata/backup/20250204_135124_cleaned_athlete_metadata.csv
+2025-02-04 13:51:24,278 - INFO - Created backup: ../data/metadata/backup/20250204_135124_indiv_activities_full.csv
+2025-02-04 13:51:24,278 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:51:24,278 - INFO - ====== WebDriver manager ======
+2025-02-04 13:51:24,545 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:51:24,693 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:51:24,837 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:51:27,299 - INFO - WebDriver initialized successfully
+2025-02-04 13:51:27,301 - INFO - Attempting to login to Strava
+2025-02-04 13:51:35,467 - INFO - Clicked login button
+2025-02-04 13:51:35,665 - INFO - Entered username
+2025-02-04 13:51:45,875 - INFO - Entered password
+2025-02-04 13:52:06,347 - ERROR - Login verification timed out
+2025-02-04 13:52:06,348 - INFO - Waiting 20 seconds for final human intervention...
+2025-02-04 13:52:21,014 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119f73e20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f14836aa1a1764d630ee3d6725476a0a
+2025-02-04 13:52:21,017 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119f92b80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f14836aa1a1764d630ee3d6725476a0a
+2025-02-04 13:52:21,018 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119f92d90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f14836aa1a1764d630ee3d6725476a0a
+2025-02-04 13:52:21,025 - INFO - Test completed, browser closed
+2025-02-04 13:52:42,656 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 13:52:42,657 - INFO - Starting data processing for weeks 45-47
+2025-02-04 13:52:42,657 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 13:52:42,658 - INFO - Created backup: ../data/metadata/backup/20250204_135242_cleaned_athlete_metadata.csv
+2025-02-04 13:52:42,692 - INFO - Created backup: ../data/metadata/backup/20250204_135242_indiv_activities_full.csv
+2025-02-04 13:52:42,692 - INFO - Initializing Chrome WebDriver
+2025-02-04 13:52:42,693 - INFO - ====== WebDriver manager ======
+2025-02-04 13:52:42,908 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:52:43,008 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 13:52:43,104 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 13:52:46,147 - INFO - WebDriver initialized successfully
+2025-02-04 13:52:46,148 - INFO - Attempting to login to Strava
+2025-02-04 13:52:54,357 - INFO - Clicked login button
+2025-02-04 13:52:54,551 - INFO - Entered username
+2025-02-04 13:53:04,745 - INFO - Entered password
+2025-02-04 13:53:16,738 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /session/206aeaf301e8e15650179c3638a995e0
+2025-02-04 13:53:16,741 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a11caf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/206aeaf301e8e15650179c3638a995e0
+2025-02-04 13:53:16,742 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a11ca30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/206aeaf301e8e15650179c3638a995e0
+2025-02-04 13:53:16,753 - INFO - Test completed, browser closed
+2025-02-04 14:01:41,749 - INFO - Cleaning activity data...
+2025-02-04 14:01:42,036 - INFO - Converting Time to minutes...
+2025-02-04 14:01:42,046 - INFO - Data cleaning completed successfully
+2025-02-04 14:01:42,046 - INFO - Processed 133 activities
+2025-02-04 14:01:42,083 - INFO - Cleaning activity data...
+2025-02-04 14:01:42,378 - INFO - Converting Time to minutes...
+2025-02-04 14:01:42,384 - INFO - Data cleaning completed successfully
+2025-02-04 14:01:42,384 - INFO - Processed 133 activities
+2025-02-04 14:01:42,414 - INFO - Calculating athlete metrics...
+2025-02-04 14:01:42,414 - INFO - 
+Input DataFrame shape: (133, 16)
+2025-02-04 14:01:42,418 - INFO - Target Athlete IDs: [4928335]
+2025-02-04 14:01:42,419 - INFO - 
+Filtered DataFrame shape: (18, 16)
+2025-02-04 14:01:42,420 - INFO - Activities found for athletes: ['Jp Flavin']
+2025-02-04 14:01:42,423 - INFO - 
+Grouped data for target athletes:
+2025-02-04 14:01:42,424 - INFO - 
+JP FLAVIN (ID: 4928335):
+2025-02-04 14:01:42,424 - INFO -    Athlete ID Type  Distance (km)  Time (min)
+0     4928335  Run         292.41     1131.33
+2025-02-04 14:01:42,455 - INFO - Cleaning activity data...
+2025-02-04 14:01:42,755 - INFO - Converting Time to minutes...
+2025-02-04 14:01:42,780 - INFO - Data cleaning completed successfully
+2025-02-04 14:01:42,781 - INFO - Processed 133 activities
+2025-02-04 14:01:42,809 - INFO - Calculating athlete metrics...
+2025-02-04 14:01:42,809 - INFO - 
+Input DataFrame shape: (133, 16)
+2025-02-04 14:01:42,812 - INFO - Target Athlete IDs: [4928335]
+2025-02-04 14:01:42,813 - INFO - 
+Filtered DataFrame shape: (18, 16)
+2025-02-04 14:01:42,813 - INFO - Activities found for athletes: ['Jp Flavin']
+2025-02-04 14:01:42,815 - INFO - 
+Grouped data for target athletes:
+2025-02-04 14:01:42,815 - INFO - 
+JP FLAVIN (ID: 4928335):
+2025-02-04 14:01:42,815 - INFO -    Athlete ID Type  Distance (km)  Time (min)
+0     4928335  Run         292.41     1131.33
+2025-02-04 14:01:42,831 - INFO - Updating athlete metadata...
+2025-02-04 14:01:42,831 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-04 14:01:42,832 - INFO - 
+Updating JP FLAVIN (ID: 4928335):
+2025-02-04 14:01:42,836 - INFO - Starting data processing for weeks 45-47
+2025-02-04 14:01:42,836 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 14:01:42,838 - INFO - Created backup: ../data/metadata/backup/20250204_140142_cleaned_athlete_metadata.csv
+2025-02-04 14:01:42,851 - INFO - Created backup: ../data/metadata/backup/20250204_140142_indiv_activities_full.csv
+2025-02-04 14:01:42,851 - INFO - Initializing Chrome WebDriver
+2025-02-04 14:01:42,851 - INFO - ====== WebDriver manager ======
+2025-02-04 14:01:43,080 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 14:01:43,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 14:01:43,292 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 14:01:46,433 - INFO - WebDriver initialized successfully
+2025-02-04 14:01:46,434 - INFO - Attempting to login to Strava
+2025-02-04 14:01:52,219 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x118abd9a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4556e53e681194f75af7244c10f9dedb
+2025-02-04 14:01:52,222 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x118ac0430>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4556e53e681194f75af7244c10f9dedb
+2025-02-04 14:01:52,223 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x118ac04c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4556e53e681194f75af7244c10f9dedb
+2025-02-04 14:01:52,231 - INFO - Test completed, browser closed
+2025-02-04 14:16:40,663 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 14:16:40,664 - INFO - Starting data processing for weeks 45-47
+2025-02-04 14:16:40,664 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 14:16:40,665 - INFO - Created backup: ../data/metadata/backup/20250204_141640_cleaned_athlete_metadata.csv
+2025-02-04 14:16:40,685 - INFO - Created backup: ../data/metadata/backup/20250204_141640_indiv_activities_full.csv
+2025-02-04 14:16:40,685 - INFO - Initializing Chrome WebDriver
+2025-02-04 14:16:40,685 - INFO - ====== WebDriver manager ======
+2025-02-04 14:16:40,905 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 14:16:41,038 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 14:16:41,146 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 14:16:43,188 - INFO - WebDriver initialized successfully
+2025-02-04 14:16:43,207 - INFO - Attempting to login to Strava
+2025-02-04 14:16:50,458 - INFO - Clicked login button
+2025-02-04 14:16:50,683 - INFO - Entered username
+2025-02-04 14:17:00,881 - INFO - Entered password
+2025-02-04 14:17:22,561 - INFO - Login successful - getting-started element found
+2025-02-04 14:21:12,342 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_142112.csv
+2025-02-04 14:21:12,459 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_142112.csv
+2025-02-04 14:21:12,476 - INFO - 
+Processing data for Adam FOGG
+2025-02-04 14:21:12,806 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:21:12,824 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:21:12,837 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:21:12,896 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:21:12,910 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:21:12,920 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:21:12,921 - INFO - 
+Processing data for JP FLAVIN
+2025-02-04 14:21:12,928 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 14:21:12,939 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 14:21:12,952 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 14:21:12,953 - INFO - 
+Processing data for Thomas BRIDGER
+2025-02-04 14:21:12,963 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 14:21:12,969 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 14:21:12,976 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_142112.csv
+2025-02-04 14:21:12,994 - INFO - Found 99 new activities
+2025-02-04 14:21:13,329 - INFO - Test completed, browser closed
+2025-02-04 14:21:14,106 - INFO - Cleaning activity data...
+2025-02-04 14:21:14,690 - INFO - Converting Time to minutes...
+2025-02-04 14:21:14,703 - INFO - Data cleaning completed successfully
+2025-02-04 14:21:14,703 - INFO - Processed 99 activities
+2025-02-04 14:21:14,715 - INFO - 
+New activities to be appended:
+2025-02-04 14:21:14,716 - INFO - 
+Adam Fogg:
+2025-02-04 14:21:14,716 - INFO - Number of activities: 54
+2025-02-04 14:21:14,716 - INFO - 
+Activity details:
+2025-02-04 14:21:14,716 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 65.0min | Activity ID: 12870333382
+2025-02-04 14:21:14,717 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38.05min | Activity ID: 12926051737
+2025-02-04 14:21:14,717 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6.57min | Activity ID: 12926095410
+2025-02-04 14:21:14,717 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11.7min | Activity ID: 12925881967
+2025-02-04 14:21:14,717 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28.23min | Activity ID: 12923672127
+2025-02-04 14:21:14,717 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6.03min | Activity ID: 12923773748
+2025-02-04 14:21:14,717 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14.77min | Activity ID: 12923274130
+2025-02-04 14:21:14,718 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 66.0min | Activity ID: 12915951067
+2025-02-04 14:21:14,718 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30.68min | Activity ID: 12909987404
+2025-02-04 14:21:14,718 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54.25min | Activity ID: 12907788200
+2025-02-04 14:21:14,718 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 92.0min | Activity ID: 12901183815
+2025-02-04 14:21:14,718 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 60.0min | Activity ID: 12885728247
+2025-02-04 14:21:14,718 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7.48min | Activity ID: 12880014547
+2025-02-04 14:21:14,718 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42.87min | Activity ID: 12880014807
+2025-02-04 14:21:14,718 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11.83min | Activity ID: 12879618610
+2025-02-04 14:21:14,718 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8.57min | Activity ID: 12877045264
+2025-02-04 14:21:14,718 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35.52min | Activity ID: 12876885003
+2025-02-04 14:21:14,718 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12.2min | Activity ID: 12876449210
+2025-02-04 14:21:14,719 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 105.0min | Activity ID: 12973767043
+2025-02-04 14:21:14,719 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 70.0min | Activity ID: 12967103146
+2025-02-04 14:21:14,719 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30.07min | Activity ID: 12952139845
+2025-02-04 14:21:14,719 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23.62min | Activity ID: 12951856847
+2025-02-04 14:21:14,719 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22.23min | Activity ID: 12951387848
+2025-02-04 14:21:14,719 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45.72min | Activity ID: 12945672612
+2025-02-04 14:21:14,719 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39.97min | Activity ID: 12940880470
+2025-02-04 14:21:14,719 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20.95min | Activity ID: 12936572573
+2025-02-04 14:21:14,719 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 90.0min | Activity ID: 12930582356
+2025-02-04 14:21:14,719 - INFO - - 2024-11-10 16:57:44+00:00 | Run | Distance: 14.51km | Time: 65.0min | Activity ID: 12870333382
+2025-02-04 14:21:14,720 - INFO - - 2024-11-17 23:59:23+00:00 | Run | Distance: 10.94km | Time: 38.05min | Activity ID: 12926051737
+2025-02-04 14:21:14,720 - INFO - - 2024-11-18 00:47:02+00:00 | Run | Distance: 1.02km | Time: 6.57min | Activity ID: 12926095410
+2025-02-04 14:21:14,720 - INFO - - 2024-11-17 23:25:29+00:00 | Run | Distance: 2.5km | Time: 11.7min | Activity ID: 12925881967
+2025-02-04 14:21:14,720 - INFO - - 2024-11-17 16:20:34+00:00 | Run | Distance: 8.35km | Time: 28.23min | Activity ID: 12923672127
+2025-02-04 14:21:14,720 - INFO - - 2024-11-17 16:56:54+00:00 | Run | Distance: 1.31km | Time: 6.03min | Activity ID: 12923773748
+2025-02-04 14:21:14,720 - INFO - - 2024-11-17 15:43:14+00:00 | Run | Distance: 2.78km | Time: 14.77min | Activity ID: 12923274130
+2025-02-04 14:21:14,720 - INFO - - 2024-11-16 17:03:34+00:00 | Run | Distance: 14.53km | Time: 66.0min | Activity ID: 12915951067
+2025-02-04 14:21:14,720 - INFO - - 2024-11-16 00:05:54+00:00 | Run | Distance: 6.52km | Time: 30.68min | Activity ID: 12909987404
+2025-02-04 14:21:14,720 - INFO - - 2024-11-15 16:42:01+00:00 | Run | Distance: 12.92km | Time: 54.25min | Activity ID: 12907788200
+2025-02-04 14:21:14,720 - INFO - - 2024-11-14 17:27:20+00:00 | Run | Distance: 24.16km | Time: 92.0min | Activity ID: 12901183815
+2025-02-04 14:21:14,720 - INFO - - 2024-11-12 17:22:55+00:00 | Run | Distance: 12.34km | Time: 60.0min | Activity ID: 12885728247
+2025-02-04 14:21:14,720 - INFO - - 2024-11-12 00:47:02+00:00 | Run | Distance: 1.24km | Time: 7.48min | Activity ID: 12880014547
+2025-02-04 14:21:14,721 - INFO - - 2024-11-11 23:52:19+00:00 | Run | Distance: 12.4km | Time: 42.87min | Activity ID: 12880014807
+2025-02-04 14:21:14,721 - INFO - - 2024-11-11 23:15:43+00:00 | Run | Distance: 2.51km | Time: 11.83min | Activity ID: 12879618610
+2025-02-04 14:21:14,721 - INFO - - 2024-11-11 17:12:56+00:00 | Run | Distance: 1.62km | Time: 8.57min | Activity ID: 12877045264
+2025-02-04 14:21:14,721 - INFO - - 2024-11-11 16:25:01+00:00 | Run | Distance: 10.34km | Time: 35.52min | Activity ID: 12876885003
+2025-02-04 14:21:14,721 - INFO - - 2024-11-11 15:51:01+00:00 | Run | Distance: 2.54km | Time: 12.2min | Activity ID: 12876449210
+2025-02-04 14:21:14,721 - INFO - - 2024-11-24 13:38:13+00:00 | Run | Distance: 29.03km | Time: 105.0min | Activity ID: 12973767043
+2025-02-04 14:21:14,721 - INFO - - 2024-11-23 17:04:00+00:00 | Run | Distance: 16.2km | Time: 70.0min | Activity ID: 12967103146
+2025-02-04 14:21:14,721 - INFO - - 2024-11-21 15:14:19+00:00 | Run | Distance: 6.77km | Time: 30.07min | Activity ID: 12952139845
+2025-02-04 14:21:14,721 - INFO - - 2024-11-21 14:16:57+00:00 | Run | Distance: 8.2km | Time: 23.62min | Activity ID: 12951856847
+2025-02-04 14:21:14,722 - INFO - - 2024-11-21 13:03:45+00:00 | Run | Distance: 4.62km | Time: 22.23min | Activity ID: 12951387848
+2025-02-04 14:21:14,722 - INFO - - 2024-11-20 16:35:53+00:00 | Run | Distance: 10.05km | Time: 45.72min | Activity ID: 12945672612
+2025-02-04 14:21:14,722 - INFO - - 2024-11-20 00:30:48+00:00 | Run | Distance: 7.95km | Time: 39.97min | Activity ID: 12940880470
+2025-02-04 14:21:14,722 - INFO - - 2024-11-19 13:41:00+00:00 | Run | Distance: 4.23km | Time: 20.95min | Activity ID: 12936572573
+2025-02-04 14:21:14,722 - INFO - - 2024-11-18 16:23:02+00:00 | Run | Distance: 19.61km | Time: 90.0min | Activity ID: 12930582356
+2025-02-04 14:21:14,722 - INFO - 
+Jp Flavin:
+2025-02-04 14:21:14,723 - INFO - Number of activities: 21
+2025-02-04 14:21:14,723 - INFO - 
+Activity details:
+2025-02-04 14:21:14,723 - INFO - - 2024-11-17 13:07:05+00:00 | Run | Distance: 22.55km | Time: 88.0min | Activity ID: 12922570248
+2025-02-04 14:21:14,723 - INFO - - 2024-11-16 19:59:45+00:00 | Run | Distance: 8.06km | Time: 28.77min | Activity ID: 12916663432
+2025-02-04 14:21:14,723 - INFO - - 2024-11-16 13:10:50+00:00 | Run | Distance: 16.12km | Time: 64.0min | Activity ID: 12914126083
+2025-02-04 14:21:14,723 - INFO - - 2024-11-15 13:05:50+00:00 | Run | Distance: 28.98km | Time: 100.0min | Activity ID: 12906835028
+2025-02-04 14:21:14,723 - INFO - - 2024-11-14 13:02:01+00:00 | Run | Distance: 22.55km | Time: 91.0min | Activity ID: 12899386644
+2025-02-04 14:21:14,723 - INFO - - 2024-11-13 21:17:23+00:00 | Run | Distance: 8.06km | Time: 31.0min | Activity ID: 12894899018
+2025-02-04 14:21:14,723 - INFO - - 2024-11-13 13:03:16+00:00 | Run | Distance: 16.62km | Time: 66.0min | Activity ID: 12891616015
+2025-02-04 14:21:14,723 - INFO - - 2024-11-12 12:38:22+00:00 | Run | Distance: 19.63km | Time: 79.0min | Activity ID: 12883821228
+2025-02-04 14:21:14,724 - INFO - - 2024-11-11 22:08:24+00:00 | Run | Distance: 7.32km | Time: 28.43min | Activity ID: 12879250291
+2025-02-04 14:21:14,724 - INFO - - 2024-11-11 13:02:07+00:00 | Run | Distance: 16.11km | Time: 62.0min | Activity ID: 12875607734
+2025-02-04 14:21:14,724 - INFO - - 2024-11-24 19:01:08+00:00 | Run | Distance: 9.74km | Time: 37.8min | Activity ID: 12975510533
+2025-02-04 14:21:14,724 - INFO - - 2024-11-24 13:02:37+00:00 | Run | Distance: 16.16km | Time: 65.0min | Activity ID: 12973302657
+2025-02-04 14:21:14,724 - INFO - - 2024-11-23 21:19:35+00:00 | Run | Distance: 9.68km | Time: 37.18min | Activity ID: 12968159727
+2025-02-04 14:21:14,724 - INFO - - 2024-11-23 13:01:41+00:00 | Run | Distance: 16.13km | Time: 62.0min | Activity ID: 12965435714
+2025-02-04 14:21:14,724 - INFO - - 2024-11-22 12:26:10+00:00 | Run | Distance: 25.76km | Time: 96.0min | Activity ID: 12958496550
+2025-02-04 14:21:14,724 - INFO - - 2024-11-21 21:29:27+00:00 | Run | Distance: 9.75km | Time: 38.7min | Activity ID: 12954470972
+2025-02-04 14:21:14,724 - INFO - - 2024-11-21 13:03:55+00:00 | Run | Distance: 16.11km | Time: 64.0min | Activity ID: 12951633346
+2025-02-04 14:21:14,724 - INFO - - 2024-11-20 13:02:39+00:00 | Run | Distance: 22.55km | Time: 87.0min | Activity ID: 12944405945
+2025-02-04 14:21:14,724 - INFO - - 2024-11-19 22:06:42+00:00 | Run | Distance: 8.57km | Time: 33.65min | Activity ID: 12940039906
+2025-02-04 14:21:14,724 - INFO - - 2024-11-19 13:03:41+00:00 | Run | Distance: 16.26km | Time: 65.0min | Activity ID: 12936638688
+2025-02-04 14:21:14,725 - INFO - - 2024-11-18 12:26:54+00:00 | Run | Distance: 19.07km | Time: 73.0min | Activity ID: 12929201403
+2025-02-04 14:21:14,725 - INFO - 
+Thomas Bridger:
+2025-02-04 14:21:14,725 - INFO - Number of activities: 19
+2025-02-04 14:21:14,725 - INFO - 
+Activity details:
+2025-02-04 14:21:14,725 - INFO - - 2024-11-14 17:03:09+00:00 | Run | Distance: 1.61km | Time: 7.3min | Activity ID: 12900315585
+2025-02-04 14:21:14,726 - INFO - - 2024-11-14 15:35:15+00:00 | Run | Distance: 19.32km | Time: 74.0min | Activity ID: 12900315661
+2025-02-04 14:21:14,726 - INFO - - 2024-11-13 17:34:46+00:00 | Run | Distance: 4.02km | Time: 19.97min | Activity ID: 12893178428
+2025-02-04 14:21:14,726 - INFO - - 2024-11-13 16:31:55+00:00 | Run | Distance: 11.54km | Time: 44.77min | Activity ID: 12892862446
+2025-02-04 14:21:14,726 - INFO - - 2024-11-13 15:56:57+00:00 | Run | Distance: 4.02km | Time: 18.47min | Activity ID: 12892392129
+2025-02-04 14:21:14,726 - INFO - - 2024-11-13 10:39:06+00:00 | Run | Distance: 6.52km | Time: 30.0min | Activity ID: 12890325132
+2025-02-04 14:21:14,726 - INFO - - 2024-11-12 18:19:26+00:00 | Run | Distance: 14.48km | Time: 69.0min | Activity ID: 12886140804
+2025-02-04 14:21:14,726 - INFO - - 2024-11-12 09:46:54+00:00 | Swim | Distance: 1.0km | Time: 0.0min | Activity ID: 12882339111
+2025-02-04 14:21:14,726 - INFO - - 2024-11-11 17:03:04+00:00 | Run | Distance: 20.43km | Time: 80.0min | Activity ID: 12876897005
+2025-02-04 14:21:14,726 - INFO - - 2024-11-23 14:43:44+00:00 | Run | Distance: 3.91km | Time: 20.3min | Activity ID: 12965770670
+2025-02-04 14:21:14,726 - INFO - - 2024-11-23 12:53:52+00:00 | Run | Distance: 2.8km | Time: 14.17min | Activity ID: 12964888055
+2025-02-04 14:21:14,727 - INFO - - 2024-11-23 09:06:45+00:00 | Run | Distance: 1.98km | Time: 10.03min | Activity ID: 12963010643
+2025-02-04 14:21:14,727 - INFO - - 2024-11-22 12:07:43+00:00 | Run | Distance: 6.46km | Time: 30.12min | Activity ID: 12957900175
+2025-02-04 14:21:14,727 - INFO - - 2024-11-20 13:51:11+00:00 | Run | Distance: 9.92km | Time: 42.93min | Activity ID: 12944416209
+2025-02-04 14:21:14,727 - INFO - - 2024-11-19 16:59:58+00:00 | Run | Distance: 3.22km | Time: 15.58min | Activity ID: 12938929048
+2025-02-04 14:21:14,727 - INFO - - 2024-11-19 16:07:01+00:00 | Run | Distance: 7.2km | Time: 38.12min | Activity ID: 12938929118
+2025-02-04 14:21:14,727 - INFO - - 2024-11-19 15:30:39+00:00 | Run | Distance: 3.08km | Time: 13.68min | Activity ID: 12938928889
+2025-02-04 14:21:14,727 - INFO - - 2024-11-19 11:19:25+00:00 | Run | Distance: 4.83km | Time: 23.23min | Activity ID: 12935651187
+2025-02-04 14:21:14,727 - INFO - - 2024-11-18 17:45:50+00:00 | Run | Distance: 11.28km | Time: 52.8min | Activity ID: 12931026023
+2025-02-04 14:21:14,731 - INFO - 
+Successfully added 94 new activities
+2025-02-04 14:21:14,753 - INFO - Calculating athlete metrics...
+2025-02-04 14:21:14,753 - INFO - 
+Input DataFrame shape: (120397, 16)
+2025-02-04 14:21:14,758 - INFO - Target Athlete IDs: [4928335]
+2025-02-04 14:21:14,775 - INFO - 
+Filtered DataFrame shape: (384, 16)
+2025-02-04 14:21:14,775 - INFO - Activities found for athletes: ['JP Flavin' 'Jp Flavin']
+2025-02-04 14:21:14,783 - INFO - 
+Grouped data for target athletes:
+2025-02-04 14:21:14,784 - INFO - 
+JP FLAVIN (ID: 4928335):
+2025-02-04 14:21:14,784 - INFO -    Athlete ID  Type  Distance (km)  Time (min)
+0     4928335   Run    6282.806289    24022.31
+1     4928335  Walk       3.170400       42.15
+2025-02-04 14:21:14,818 - INFO - Updating athlete metadata...
+2025-02-04 14:21:14,818 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-04 14:21:14,819 - INFO - 
+Updating JP FLAVIN (ID: 4928335):
+2025-02-04 14:21:14,831 - INFO - Updated athlete metrics in metadata
+2025-02-04 14:21:14,939 - INFO - Updated weeks scraped in master database
+2025-02-04 14:21:14,958 - INFO - Successfully updated all databases
+2025-02-04 14:21:14,959 - INFO - Data processing completed successfully
+2025-02-04 14:21:18,147 - ERROR - Pipeline error: name 'logger' is not defined
+2025-02-04 14:39:46,976 - INFO - Starting data pipeline for weeks 45-47
+2025-02-04 14:39:46,977 - INFO - Starting data processing for weeks 45-47
+2025-02-04 14:39:46,977 - INFO - Starting data comparison for weeks 45-47
+2025-02-04 14:39:46,978 - INFO - Created backup: ../data/metadata/backup/20250204_143946_cleaned_athlete_metadata.csv
+2025-02-04 14:39:46,993 - INFO - Created backup: ../data/metadata/backup/20250204_143946_indiv_activities_full.csv
+2025-02-04 14:39:46,993 - INFO - Initializing Chrome WebDriver
+2025-02-04 14:39:46,993 - INFO - ====== WebDriver manager ======
+2025-02-04 14:39:47,290 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 14:39:47,482 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-04 14:39:47,595 - INFO - Driver [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159/chromedriver-mac-arm64/chromedriver] found in cache
+2025-02-04 14:39:50,822 - INFO - WebDriver initialized successfully
+2025-02-04 14:39:50,823 - INFO - Attempting to login to Strava
+2025-02-04 14:39:59,621 - INFO - Clicked login button
+2025-02-04 14:39:59,857 - INFO - Entered username
+2025-02-04 14:40:10,036 - INFO - Entered password
+2025-02-04 14:40:30,307 - ERROR - Login verification timed out
+2025-02-04 14:40:30,309 - INFO - Waiting 20 seconds for final human intervention...
+2025-02-04 14:40:50,326 - INFO - Login successful after human intervention
+2025-02-04 14:44:36,293 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_144436.csv
+2025-02-04 14:44:36,378 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_144436.csv
+2025-02-04 14:44:36,384 - INFO - 
+Processing data for Adam FOGG
+2025-02-04 14:44:36,486 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:44:36,543 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:44:36,552 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:44:36,563 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:44:36,577 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:44:36,586 - INFO - Successfully processed activities for Adam FOGG
+2025-02-04 14:44:36,586 - INFO - 
+Processing data for JP FLAVIN
+2025-02-04 14:44:36,595 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 14:44:36,611 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 14:44:36,622 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-04 14:44:36,622 - INFO - 
+Processing data for Thomas BRIDGER
+2025-02-04 14:44:36,635 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 14:44:36,643 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 14:44:36,649 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-04 14:44:36,655 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-47_20250204_144436.csv
+2025-02-04 14:44:36,670 - INFO - Found 106 new activities
+2025-02-04 14:44:36,928 - INFO - Test completed, browser closed
+2025-02-04 14:44:37,223 - INFO - Cleaning activity data...
+2025-02-04 14:44:37,591 - INFO - Converting Time to minutes...
+2025-02-04 14:44:37,602 - INFO - Data cleaning completed successfully
+2025-02-04 14:44:37,602 - INFO - Processed 106 activities
+2025-02-04 14:44:37,614 - INFO - 
+New activities to be appended:
+2025-02-04 14:44:37,614 - INFO - 
+Adam Fogg:
+2025-02-04 14:44:37,614 - INFO - Number of activities: 54
+2025-02-04 14:44:37,615 - INFO - 
+Jp Flavin:
+2025-02-04 14:44:37,615 - INFO - Number of activities: 21
+2025-02-04 14:44:37,615 - INFO - 
+Thomas Bridger:
+2025-02-04 14:44:37,615 - INFO - Number of activities: 19
+2025-02-04 14:44:37,616 - INFO - 
+Successfully added 94 new activities
+2025-02-04 14:44:37,638 - INFO - Calculating athlete metrics...
+2025-02-04 14:44:37,639 - INFO - 
+Input DataFrame shape: (120397, 16)
+2025-02-04 14:44:37,644 - INFO - Target Athlete IDs: [4928335]
+2025-02-04 14:44:37,660 - INFO - 
+Filtered DataFrame shape: (384, 16)
+2025-02-04 14:44:37,661 - INFO - Activities found for athletes: ['JP Flavin' 'Jp Flavin']
+2025-02-04 14:44:37,666 - INFO - 
+Grouped data for target athletes:
+2025-02-04 14:44:37,666 - INFO - 
+JP FLAVIN (ID: 4928335):
+2025-02-04 14:44:37,666 - INFO -    Athlete ID  Type  Distance (km)  Time (min)
+0     4928335   Run    6282.806289    24022.31
+1     4928335  Walk       3.170400       42.15
+2025-02-04 14:44:37,687 - INFO - Updating athlete metadata...
+2025-02-04 14:44:37,687 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-04 14:44:37,687 - INFO - 
+Updating JP FLAVIN (ID: 4928335):
+2025-02-04 14:44:37,691 - INFO - Updated athlete metrics in metadata
+2025-02-04 14:44:37,723 - INFO - Updated weeks scraped in master database
+2025-02-04 14:44:37,736 - INFO - Successfully updated all databases
+2025-02-04 14:44:37,737 - INFO - Data processing completed successfully
+2025-02-04 14:44:44,077 - ERROR - Pipeline error: name 'logger' is not defined
+2025-02-04 20:46:09,928 - INFO - Cleaning activity data...
+2025-02-04 20:46:10,247 - INFO - Converting Time to minutes...
+2025-02-04 20:46:10,255 - INFO - Data cleaning completed successfully
+2025-02-04 20:46:10,255 - INFO - Processed 133 activities
+2025-02-04 20:46:10,295 - INFO - Calculating athlete metrics...
+2025-02-04 20:46:10,295 - INFO - 
+Input DataFrame shape: (133, 16)
+2025-02-04 20:46:10,295 - INFO - Target athletes: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-04 20:46:10,296 - INFO - Athletes in activities: ['Adam Fogg' 'Jp Flavin' 'Thomas Bridger']
+2025-02-04 20:46:10,296 - INFO - Athlete IDs in activities: [ 4814818  4928335 45537525]
+2025-02-04 20:46:10,318 - INFO - Target Athlete IDs: [4928335]
+2025-02-04 20:46:10,318 - INFO - 
+Filtered DataFrame shape: (133, 16)
+2025-02-04 20:46:10,318 - INFO - Activities found for athletes: ['Adam Fogg' 'Jp Flavin' 'Thomas Bridger']
+2025-02-04 20:46:10,319 - INFO - 
+Filtered DataFrame shape: (18, 16)
+2025-02-04 20:46:10,320 - INFO - Activities found for athletes: ['Jp Flavin']
+2025-02-04 20:46:10,324 - INFO - 
+Grouped data for target athletes:
+2025-02-04 20:46:10,324 - INFO - 
+JP FLAVIN (ID: 4928335):
+2025-02-04 20:46:10,324 - INFO -    Athlete ID Type  Distance (km)  Time (min)
+0     4928335  Run         292.41     1131.33
+2025-02-04 20:46:10,346 - INFO - Updating athlete metadata...
+2025-02-04 20:46:10,351 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-04 20:46:10,352 - INFO - 
+Processing JP FLAVIN (ID: 4928335):
+2025-02-04 20:46:10,352 - INFO - Current values:
+2025-02-04 20:46:10,352 - INFO -      Total_Run_Distance_km  Avg_Weekly_Run_Mileage_km  ...  Total_Other_Hours  Avg_Run_Pace_min_per_km
+220                6282.81                     139.62  ...                0.0                     3.82
+
+[1 rows x 8 columns]
+2025-02-04 20:46:10,366 - INFO - New values to be updated:
+2025-02-04 20:46:10,366 - INFO - Total_Run_Distance_km        292.41
+Avg_Weekly_Run_Mileage_km       6.5
+Total_Run_Hours               18.86
+Avg_Weekly_Run_Hours           0.42
+Total_Ride_Hours                0.0
+Total_Swim_Hours                0.0
+Total_Other_Hours               0.0
+Avg_Run_Pace_min_per_km        3.87
+Name: 0, dtype: object
+2025-02-04 20:46:10,367 - INFO - Updated Total_Run_Distance_km: 292.41
+2025-02-04 20:46:10,367 - INFO - Updated Avg_Weekly_Run_Mileage_km: 6.5
+2025-02-04 20:46:10,367 - INFO - Updated Total_Run_Hours: 18.86
+2025-02-04 20:46:10,368 - INFO - Updated Avg_Weekly_Run_Hours: 0.42
+2025-02-04 20:46:10,368 - INFO - Updated Total_Ride_Hours: 0.0
+2025-02-04 20:46:10,368 - INFO - Updated Total_Swim_Hours: 0.0
+2025-02-04 20:46:10,368 - INFO - Updated Total_Other_Hours: 0.0
+2025-02-04 20:46:10,368 - INFO - Updated Avg_Run_Pace_min_per_km: 3.87
+2025-02-04 20:46:10,369 - INFO - Updated weeks scraped: 47 -> 49
+2025-02-04 20:57:55,982 - INFO - Cleaning activity data...
+2025-02-04 20:57:56,287 - INFO - Converting Time to minutes...
+2025-02-04 20:57:56,295 - INFO - Data cleaning completed successfully
+2025-02-04 20:57:56,295 - INFO - Processed 133 activities
+2025-02-04 20:57:56,328 - INFO - Calculating athlete metrics...
+2025-02-04 20:57:56,328 - INFO - 
+Input DataFrame shape: (133, 16)
+2025-02-04 20:57:56,328 - INFO - Initial target athletes: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-04 20:57:56,329 - INFO - Initial athletes in activities: ['Adam Fogg' 'Jp Flavin' 'Thomas Bridger']
+2025-02-04 20:57:56,329 - INFO - Initial Athlete IDs in activities: [ 4814818  4928335 45537525]
+2025-02-04 20:57:56,340 - INFO - 
+Deduplicated target athletes: ['Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-04 20:57:56,342 - INFO - 
+Target Athlete IDs: [ 4814818.  4928335. 45537525.]
+2025-02-04 20:57:56,343 - INFO - Found athletes: ['Adam FOGG', 'Adam FOGG', 'JP FLAVIN', 'Thomas BRIDGER']
+2025-02-04 20:57:56,343 - INFO - 
+Filtered activities DataFrame shape: (133, 16)
+2025-02-04 20:57:56,343 - INFO - Activities found per athlete:
+2025-02-04 20:57:56,344 - INFO - Adam FOGG (ID: 4814818.0): 80 activities
+2025-02-04 20:57:56,344 - INFO - JP FLAVIN (ID: 4928335.0): 18 activities
+2025-02-04 20:57:56,345 - INFO - Thomas BRIDGER (ID: 45537525.0): 35 activities
+2025-02-04 20:57:56,348 - INFO - 
+Grouped data per athlete:
+2025-02-04 20:57:56,348 - INFO - 
+Adam FOGG (ID: 4814818.0):
+2025-02-04 20:57:56,348 - INFO -    Athlete ID Type  Distance (km)  Time (min)
+0     4814818  Run         755.16     3178.62
+2025-02-04 20:57:56,354 - INFO - 
+JP FLAVIN (ID: 4928335.0):
+2025-02-04 20:57:56,354 - INFO -    Athlete ID Type  Distance (km)  Time (min)
+1     4928335  Run         292.41     1131.33
+2025-02-04 20:57:56,359 - INFO - 
+Thomas BRIDGER (ID: 45537525.0):
+2025-02-04 20:57:56,359 - INFO -    Athlete ID  Type  Distance (km)  Time (min)
+2    45537525   Run          258.2     1135.92
+3    45537525  Swim            1.0        0.00
+2025-02-04 20:57:56,379 - INFO - 
+Final metrics:
+2025-02-04 20:57:56,379 - INFO - 
+Adam FOGG (ID: 4814818):
+2025-02-04 20:57:56,379 - INFO - Total_Run_Distance_km: 755.16
+2025-02-04 20:57:56,379 - INFO - Avg_Weekly_Run_Mileage_km: 16.78
+2025-02-04 20:57:56,379 - INFO - Total_Run_Hours: 52.98
+2025-02-04 20:57:56,379 - INFO - Avg_Weekly_Run_Hours: 1.18
+2025-02-04 20:57:56,379 - INFO - Avg_Run_Pace_min_per_km: 4.21
+2025-02-04 20:57:56,379 - INFO - Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,379 - INFO - Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,379 - INFO - Total_Other_Hours: 0.0
+2025-02-04 20:57:56,379 - INFO - 
+Adam FOGG (ID: 4814818):
+2025-02-04 20:57:56,379 - INFO - Total_Run_Distance_km: 755.16
+2025-02-04 20:57:56,379 - INFO - Avg_Weekly_Run_Mileage_km: 16.78
+2025-02-04 20:57:56,379 - INFO - Total_Run_Hours: 52.98
+2025-02-04 20:57:56,379 - INFO - Avg_Weekly_Run_Hours: 1.18
+2025-02-04 20:57:56,380 - INFO - Avg_Run_Pace_min_per_km: 4.21
+2025-02-04 20:57:56,380 - INFO - Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,380 - INFO - Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,380 - INFO - Total_Other_Hours: 0.0
+2025-02-04 20:57:56,380 - INFO - 
+JP FLAVIN (ID: 4928335):
+2025-02-04 20:57:56,380 - INFO - Total_Run_Distance_km: 292.41
+2025-02-04 20:57:56,380 - INFO - Avg_Weekly_Run_Mileage_km: 6.5
+2025-02-04 20:57:56,380 - INFO - Total_Run_Hours: 18.86
+2025-02-04 20:57:56,380 - INFO - Avg_Weekly_Run_Hours: 0.42
+2025-02-04 20:57:56,380 - INFO - Avg_Run_Pace_min_per_km: 3.87
+2025-02-04 20:57:56,380 - INFO - Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,380 - INFO - Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,380 - INFO - Total_Other_Hours: 0.0
+2025-02-04 20:57:56,380 - INFO - 
+Thomas BRIDGER (ID: 45537525):
+2025-02-04 20:57:56,380 - INFO - Total_Run_Distance_km: 258.2
+2025-02-04 20:57:56,380 - INFO - Avg_Weekly_Run_Mileage_km: 5.74
+2025-02-04 20:57:56,380 - INFO - Total_Run_Hours: 18.93
+2025-02-04 20:57:56,380 - INFO - Avg_Weekly_Run_Hours: 0.42
+2025-02-04 20:57:56,380 - INFO - Avg_Run_Pace_min_per_km: 4.4
+2025-02-04 20:57:56,380 - INFO - Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,381 - INFO - Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,381 - INFO - Total_Other_Hours: 0.0
+2025-02-04 20:57:56,413 - INFO - Updating athlete metadata...
+2025-02-04 20:57:56,418 - INFO - 
+Adding 2 weeks (from week 45 to 47)
+2025-02-04 20:57:56,419 - INFO - 
+Processing Adam FOGG (ID: 4814818):
+2025-02-04 20:57:56,419 - INFO - Current values:
+2025-02-04 20:57:56,420 - INFO -    Total_Run_Distance_km  Avg_Weekly_Run_Mileage_km  ...  Total_Other_Hours  Avg_Run_Pace_min_per_km
+6            3747.975833                  83.288352  ...           0.801944                 4.235855
+
+[1 rows x 8 columns]
+2025-02-04 20:57:56,431 - INFO - New values to be updated:
+2025-02-04 20:57:56,431 - INFO - Total_Run_Distance_km        755.16
+Avg_Weekly_Run_Mileage_km     16.78
+Total_Run_Hours               52.98
+Avg_Weekly_Run_Hours           1.18
+Total_Ride_Hours                0.0
+Total_Swim_Hours                0.0
+Total_Other_Hours               0.0
+Avg_Run_Pace_min_per_km        4.21
+Name: 0, dtype: object
+2025-02-04 20:57:56,432 - INFO - Updated Total_Run_Distance_km: 755.16
+2025-02-04 20:57:56,432 - INFO - Updated Avg_Weekly_Run_Mileage_km: 16.78
+2025-02-04 20:57:56,432 - INFO - Updated Total_Run_Hours: 52.98
+2025-02-04 20:57:56,433 - INFO - Updated Avg_Weekly_Run_Hours: 1.18
+2025-02-04 20:57:56,433 - INFO - Updated Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,433 - INFO - Updated Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,433 - INFO - Updated Total_Other_Hours: 0.0
+2025-02-04 20:57:56,434 - INFO - Updated Avg_Run_Pace_min_per_km: 4.21
+2025-02-04 20:57:56,434 - INFO - Updated weeks scraped: 45 -> 47
+2025-02-04 20:57:56,434 - INFO - 
+Processing Adam FOGG (ID: 4814818):
+2025-02-04 20:57:56,434 - INFO - Current values:
+2025-02-04 20:57:56,435 - INFO -    Total_Run_Distance_km  Avg_Weekly_Run_Mileage_km  ...  Total_Other_Hours  Avg_Run_Pace_min_per_km
+6                 755.16                      16.78  ...                0.0                     4.21
+
+[1 rows x 8 columns]
+2025-02-04 20:57:56,447 - INFO - New values to be updated:
+2025-02-04 20:57:56,447 - INFO - Total_Run_Distance_km        755.16
+Avg_Weekly_Run_Mileage_km     16.78
+Total_Run_Hours               52.98
+Avg_Weekly_Run_Hours           1.18
+Total_Ride_Hours                0.0
+Total_Swim_Hours                0.0
+Total_Other_Hours               0.0
+Avg_Run_Pace_min_per_km        4.21
+Name: 1, dtype: object
+2025-02-04 20:57:56,448 - INFO - Updated Total_Run_Distance_km: 755.16
+2025-02-04 20:57:56,448 - INFO - Updated Avg_Weekly_Run_Mileage_km: 16.78
+2025-02-04 20:57:56,448 - INFO - Updated Total_Run_Hours: 52.98
+2025-02-04 20:57:56,449 - INFO - Updated Avg_Weekly_Run_Hours: 1.18
+2025-02-04 20:57:56,449 - INFO - Updated Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,449 - INFO - Updated Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,449 - INFO - Updated Total_Other_Hours: 0.0
+2025-02-04 20:57:56,450 - INFO - Updated Avg_Run_Pace_min_per_km: 4.21
+2025-02-04 20:57:56,450 - INFO - Updated weeks scraped: 47 -> 49
+2025-02-04 20:57:56,450 - INFO - 
+Processing JP FLAVIN (ID: 4928335):
+2025-02-04 20:57:56,450 - INFO - Current values:
+2025-02-04 20:57:56,451 - INFO -      Total_Run_Distance_km  Avg_Weekly_Run_Mileage_km  ...  Total_Other_Hours  Avg_Run_Pace_min_per_km
+220                6282.81                     139.62  ...                0.0                     3.82
+
+[1 rows x 8 columns]
+2025-02-04 20:57:56,462 - INFO - New values to be updated:
+2025-02-04 20:57:56,463 - INFO - Total_Run_Distance_km        292.41
+Avg_Weekly_Run_Mileage_km       6.5
+Total_Run_Hours               18.86
+Avg_Weekly_Run_Hours           0.42
+Total_Ride_Hours                0.0
+Total_Swim_Hours                0.0
+Total_Other_Hours               0.0
+Avg_Run_Pace_min_per_km        3.87
+Name: 2, dtype: object
+2025-02-04 20:57:56,463 - INFO - Updated Total_Run_Distance_km: 292.41
+2025-02-04 20:57:56,464 - INFO - Updated Avg_Weekly_Run_Mileage_km: 6.5
+2025-02-04 20:57:56,464 - INFO - Updated Total_Run_Hours: 18.86
+2025-02-04 20:57:56,464 - INFO - Updated Avg_Weekly_Run_Hours: 0.42
+2025-02-04 20:57:56,464 - INFO - Updated Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,465 - INFO - Updated Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,465 - INFO - Updated Total_Other_Hours: 0.0
+2025-02-04 20:57:56,465 - INFO - Updated Avg_Run_Pace_min_per_km: 3.87
+2025-02-04 20:57:56,465 - INFO - Updated weeks scraped: 47 -> 49
+2025-02-04 20:57:56,465 - INFO - 
+Processing Thomas BRIDGER (ID: 45537525):
+2025-02-04 20:57:56,466 - INFO - Current values:
+2025-02-04 20:57:56,466 - INFO -      Total_Run_Distance_km  Avg_Weekly_Run_Mileage_km  ...  Total_Other_Hours  Avg_Run_Pace_min_per_km
+419            3222.574603                  71.612769  ...                0.0                 4.391215
+
+[1 rows x 8 columns]
+2025-02-04 20:57:56,477 - INFO - New values to be updated:
+2025-02-04 20:57:56,477 - INFO - Total_Run_Distance_km        258.2
+Avg_Weekly_Run_Mileage_km     5.74
+Total_Run_Hours              18.93
+Avg_Weekly_Run_Hours          0.42
+Total_Ride_Hours               0.0
+Total_Swim_Hours               0.0
+Total_Other_Hours              0.0
+Avg_Run_Pace_min_per_km        4.4
+Name: 3, dtype: object
+2025-02-04 20:57:56,478 - INFO - Updated Total_Run_Distance_km: 258.2
+2025-02-04 20:57:56,478 - INFO - Updated Avg_Weekly_Run_Mileage_km: 5.74
+2025-02-04 20:57:56,478 - INFO - Updated Total_Run_Hours: 18.93
+2025-02-04 20:57:56,478 - INFO - Updated Avg_Weekly_Run_Hours: 0.42
+2025-02-04 20:57:56,479 - INFO - Updated Total_Ride_Hours: 0.0
+2025-02-04 20:57:56,479 - INFO - Updated Total_Swim_Hours: 0.0
+2025-02-04 20:57:56,479 - INFO - Updated Total_Other_Hours: 0.0
+2025-02-04 20:57:56,479 - INFO - Updated Avg_Run_Pace_min_per_km: 4.4
+2025-02-04 20:57:56,480 - INFO - Updated weeks scraped: 45 -> 47
+2025-02-04 21:26:37,946 - ERROR - Error in main execution: '2024 Weeks'
+2025-02-04 21:28:41,275 - INFO - Processing data for 1748 athletes
+2025-02-04 21:28:41,277 - ERROR - Error in process_data: clean_activities_data() missing 1 required positional argument: 'target_athletes'
+2025-02-04 21:28:41,277 - ERROR - Data processing failed
+2025-02-04 21:41:51,804 - INFO - Processing data for 1748 athletes
+2025-02-04 21:41:51,805 - ERROR - Error in main execution: process_data() got an unexpected keyword argument 'target_athletes'
+2025-02-04 21:42:04,928 - INFO - Processing data for 1748 athletes
+2025-02-04 21:42:04,930 - ERROR - Error in process_data: local variable 'target_ids' referenced before assignment
+2025-02-04 21:42:04,930 - ERROR - Data processing failed
+2025-02-04 21:55:57,460 - ERROR - Error in process_data: local variable 'target_ids' referenced before assignment
+2025-02-04 21:55:57,460 - ERROR - Data processing failed
+2025-02-04 21:57:05,488 - INFO - Processing activities for 3 athletes
+2025-02-04 21:57:05,489 - INFO - Athlete IDs being processed: [4814818, 4928335, 45537525]
+2025-02-04 21:57:06,196 - INFO - Converting Time to minutes...
+2025-02-04 21:57:06,210 - INFO - Data cleaning completed successfully
+2025-02-04 21:57:06,210 - INFO - Processed 133 activities
+2025-02-04 21:57:06,560 - INFO - Existing activities: 120303
+2025-02-04 21:57:06,570 - INFO - 
+New activities to be appended:
+2025-02-04 21:57:06,570 - INFO - Adam Fogg: 54 activities
+2025-02-04 21:57:06,571 - INFO - Jp Flavin: 11 activities
+2025-02-04 21:57:06,571 - INFO - Thomas Bridger: 19 activities
+2025-02-04 21:57:06,575 - INFO - Successfully added 84 new activities
+2025-02-04 21:57:06,930 - INFO - Calculating metrics for athlete IDs: [4814818, 4928335, 45537525]
+2025-02-04 21:57:07,025 - INFO - Data processing completed successfully
+2025-02-05 12:03:04,240 - INFO - Calculating metrics for athlete IDs: [4928335]
+2025-02-05 12:51:35,699 - INFO - Starting data pipeline for weeks 45-52
+2025-02-05 12:51:35,700 - INFO - Processing athletes: [4814818, 4928335, 45537525]
+2025-02-05 12:51:35,700 - INFO - Starting data comparison for weeks 45-52
+2025-02-05 12:51:35,701 - INFO - Created backup: ../data/metadata/backup/20250205_125135_cleaned_athlete_metadata.csv
+2025-02-05 12:51:35,711 - INFO - Created backup: ../data/metadata/backup/20250205_125135_indiv_activities_full.csv
+2025-02-05 12:51:35,711 - INFO - Initializing Chrome WebDriver
+2025-02-05 12:51:35,711 - INFO - ====== WebDriver manager ======
+2025-02-05 12:51:35,972 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:51:36,114 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:51:36,225 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:51:36,652 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-05 12:51:36,654 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-05 12:51:36,654 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-05 12:51:36,980 - INFO - Driver downloading response is 200
+2025-02-05 12:51:37,866 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:51:38,291 - INFO - Driver has been saved in cache [/Users/danielching/.wdm/drivers/chromedriver/mac64/132.0.6834.159]
+2025-02-05 12:51:41,157 - INFO - WebDriver initialized successfully
+2025-02-05 12:51:41,158 - INFO - Attempting to login to Strava
+2025-02-05 12:51:52,998 - INFO - Clicked login button
+2025-02-05 12:51:53,608 - INFO - Entered username
+2025-02-05 12:52:04,316 - INFO - Entered password
+2025-02-05 12:52:14,457 - INFO - Login successful - getting-started element found
+2025-02-05 13:04:49,200 - INFO - Saved weekly metadata to ../data/tempdata/metadata_AdamFOGG_to_ThomasBRIDGER_w45-52_20250205_130449.csv
+2025-02-05 13:04:49,723 - INFO - Saved raw JSON data to ../data/tempdata/raw_json_AdamFOGG_to_ThomasBRIDGER_w45-52_20250205_130449.csv
+2025-02-05 13:04:49,729 - INFO - 
+Processing data for Adam FOGG
+2025-02-05 13:04:49,891 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:49,907 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:49,919 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:49,933 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:49,941 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:49,951 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:49,958 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,039 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,070 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,086 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,095 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,137 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,278 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,296 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:50,346 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:51,158 - INFO - Successfully processed activities for Adam FOGG
+2025-02-05 13:04:51,158 - INFO - 
+Processing data for JP FLAVIN
+2025-02-05 13:04:51,171 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,212 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,295 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,360 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,385 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,429 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,561 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,575 - INFO - Successfully processed activities for JP FLAVIN
+2025-02-05 13:04:51,576 - INFO - 
+Processing data for Thomas BRIDGER
+2025-02-05 13:04:51,601 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:51,614 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:52,066 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:52,098 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:52,120 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:52,161 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:52,170 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:52,181 - INFO - Successfully processed activities for Thomas BRIDGER
+2025-02-05 13:04:52,194 - INFO - Saved processed activities to ../data/tempdata/processed_AdamFOGG_to_ThomasBRIDGER_w45-52_20250205_130452.csv
+2025-02-05 13:04:52,215 - INFO - Found 317 new activities
+2025-02-05 13:04:52,968 - INFO - Test completed, browser closed
+2025-02-05 13:04:53,149 - INFO - Saved new activities to ../data/tempdata/processed_activities_w45-52_20250205_130453.csv
+2025-02-05 13:04:53,155 - INFO - Processing activities for 3 athletes
+2025-02-05 13:04:53,155 - INFO - Athlete IDs being processed: [4814818, 4928335, 45537525]
+2025-02-05 13:04:53,507 - INFO - Converting Time to minutes...
+2025-02-05 13:04:53,694 - INFO - Data cleaning completed successfully
+2025-02-05 13:04:53,694 - INFO - Processed 317 activities
+2025-02-05 13:04:54,242 - INFO - Existing activities: 120387
+2025-02-05 13:04:54,248 - INFO - 
+New activities to be appended:
+2025-02-05 13:04:54,249 - INFO - Adam Fogg: 136 activities
+2025-02-05 13:04:54,249 - INFO - Jp Flavin: 59 activities
+2025-02-05 13:04:54,250 - INFO - Thomas Bridger: 77 activities
+2025-02-05 13:04:54,255 - INFO - Successfully added 272 new activities
+2025-02-05 13:04:55,221 - INFO - Calculating metrics for athlete IDs: [4814818, 4928335, 45537525]
+2025-02-05 13:04:55,462 - ERROR - Pipeline error: No module named 'mongodb_init'
+2025-02-05 13:20:47,617 - INFO - Recalculating metrics for athletes: [4814818]
+2025-02-05 13:20:47,983 - INFO - Calculating metrics for athlete IDs: [4814818]
+2025-02-05 13:20:48,099 - INFO - Successfully updated metadata with recalculated metrics

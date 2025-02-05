@@ -46,5 +46,7 @@ Thumbs.db
 problematic_athletes.txt
 scrape_athletes_local.ipynb
 strava-check.py
-strava-scrape.py 
+strava-scrape.py
 strava_collection.log
+old-data-processing.py
+old_test_scraping.py
