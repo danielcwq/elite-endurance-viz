@@ -50,3 +50,5 @@ strava-scrape.py
 strava_collection.log
 old-data-processing.py
 old_test_scraping.py
+
+logs/
