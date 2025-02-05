@@ -1,0 +1,406 @@
+Athlete ID,Athlete Name,Activity ID,Activity Name,Description,Start Date,Elapsed Time,Type,Location,Distance (km),Pace (min/km),Time
+4814818,Adam Fogg,12870333382,Jog,+ speed dev,2024-11-10 16:57:44+00:00,3933,Run,"Coconino County, USA",14.51,4.52,1 h 5 m
+4814818,Adam Fogg,12861966969,Long,,2024-11-09 16:53:13+00:00,5465,Run,"Coconino County, USA",20.73,4.38,1 h 31 m
+4814818,Adam Fogg,12855633715,Hills,3 x (3 x 400) with 200 jog down between reps and full jog down (800) between sets,2024-11-08 23:51:37+00:00,1844,Run,"Coconino County, USA",7.64,4.02,30 m 44 s
+4814818,Adam Fogg,12855729898,Warm Down,,2024-11-09 00:35:37+00:00,499,Run,"Coconino County, USA",1.62,5.12,8 m 19 s
+4814818,Adam Fogg,12855413905,Warm Up,,2024-11-08 23:21:22+00:00,1056,Run,"Coconino County, USA",2.58,5.02,12 m 58 s
+4814818,Adam Fogg,12853288166,3 x 2 Miles,75 sec recovery,2024-11-08 16:24:50+00:00,2043,Run,"Coconino County, USA",10.07,3.38,34 m 3 s
+4814818,Adam Fogg,12853388797,Warm Down,,2024-11-08 17:07:43+00:00,488,Run,"Coconino County, USA",1.62,5.02,8 m 8 s
+4814818,Adam Fogg,12852884378,Warm Up,,2024-11-08 15:44:56+00:00,966,Run,"Coconino County, USA",2.45,4.77,11 m 41 s
+4814818,Adam Fogg,12845998228,Jog,+ speed dev,2024-11-07 16:13:29+00:00,3906,Run,"Coconino County, USA",14.65,4.45,1 h 5 m
+4814818,Adam Fogg,12841187851,Double,Photos from Greyhound Bus Jan Figueroa,2024-11-07 00:05:51+00:00,1826,Run,"Coconino County, USA",6.46,4.7,30 m 26 s
+4814818,Adam Fogg,12838261866,Jog,,2024-11-06 16:22:11+00:00,3397,Run,"Coconino County, USA",13.56,4.17,56 m 37 s
+4814818,Adam Fogg,12830964305,Long Run,,2024-11-05 17:03:20+00:00,6628,Run,"Coconino National Forest, USA",27.55,4.0,1 h 50 m
+4814818,Adam Fogg,12825012070,Double,,2024-11-05 00:10:24+00:00,1900,Run,"Coconino County, USA",6.45,4.82,31 m 4 s
+4814818,Adam Fogg,12822277326,Jog,With Jaziri Damien and John,2024-11-04 16:30:30+00:00,3638,Run,"Coconino County, USA",13.01,4.62,1 h 0 m
+4814818,Adam Fogg,12926051737,20 x 400,100 jog (~30 sec) between reps 2 min jog after every 5th,2024-11-17 23:59:23+00:00,2283,Run,"Navajo County, USA",10.94,3.48,38 m 3 s
+4814818,Adam Fogg,12926095410,Warm Down,,2024-11-18 00:47:02+00:00,394,Run,"Navajo County, USA",1.02,6.42,6 m 34 s
+4814818,Adam Fogg,12925881967,Warm Up,,2024-11-17 23:25:29+00:00,1041,Run,"Navajo County, USA",2.5,4.67,11 m 42 s
+4814818,Adam Fogg,12923672127,3 Miles // 2 Miles,2 min recovery,2024-11-17 16:20:34+00:00,1694,Run,"Coconino County, USA",8.35,3.38,28 m 14 s
+4814818,Adam Fogg,12923773748,Warm Down,,2024-11-17 16:56:54+00:00,362,Run,"Coconino County, USA",1.31,4.6,6 m 2 s
+4814818,Adam Fogg,12923274130,Warm Up,,2024-11-17 15:43:14+00:00,1152,Run,"Coconino County, USA",2.78,5.3,14 m 46 s
+4814818,Adam Fogg,12915951067,Jog,+ speed dev,2024-11-16 17:03:34+00:00,3966,Run,"Coconino County, USA",14.53,4.55,1 h 6 m
+4814818,Adam Fogg,12909987404,Double,,2024-11-16 00:05:54+00:00,1841,Run,"Coconino County, USA",6.52,4.7,30 m 41 s
+4814818,Adam Fogg,12907788200,Jog,,2024-11-15 16:42:01+00:00,3255,Run,"Coconino County, USA",12.92,4.2,54 m 15 s
+4814818,Adam Fogg,12901183815,Long,Didn’t enjoy it for a second 😀,2024-11-14 17:27:20+00:00,5985,Run,"Coconino National Forest, USA",24.16,3.83,1 h 32 m
+4814818,Adam Fogg,12885728247,Recovery,,2024-11-12 17:22:55+00:00,3610,Run,"Coconino County, USA",12.34,4.88,1 h 0 m
+4814818,Adam Fogg,12880014547,Warm Down,,2024-11-12 00:47:02+00:00,449,Run,"Navajo County, USA",1.24,6.02,7 m 29 s
+4814818,Adam Fogg,12880014807,12 x 800,75 sec recovery (200 jog) 2:30 -> 2:18 (~2:23 avg),2024-11-11 23:52:19+00:00,2576,Run,"Navajo County, USA",12.4,3.45,42 m 52 s
+4814818,Adam Fogg,12879618610,Warm Up,,2024-11-11 23:15:43+00:00,1425,Run,"Navajo County, USA",2.51,4.7,11 m 50 s
+4814818,Adam Fogg,12877045264,Warm Down,,2024-11-11 17:12:56+00:00,514,Run,"Coconino County, USA",1.62,5.27,8 m 34 s
+4814818,Adam Fogg,12876885003,6 x Mile,1 min recovery,2024-11-11 16:25:01+00:00,2131,Run,"Coconino County, USA",10.34,3.43,35 m 31 s
+4814818,Adam Fogg,12876449210,Warm Up,,2024-11-11 15:51:01+00:00,972,Run,"Coconino County, USA",2.54,4.8,12 m 12 s
+4814818,Adam Fogg,12973767043,Long,,2024-11-24 13:38:13+00:00,6398,Run,"Torrey C Brown Rail Trail, USA",29.03,3.63,1 h 45 m
+4814818,Adam Fogg,12967103146,Baltimore,Harbaa with Damien and Jan,2024-11-23 17:04:00+00:00,4256,Run,"Baltimore, USA",16.2,4.35,1 h 10 m
+4814818,Adam Fogg,12952139845,Warm Down,Including 10 x 30/30,2024-11-21 15:14:19+00:00,1804,Run,"Austin, USA",6.77,4.43,30 m 4 s
+4814818,Adam Fogg,12951856847,Sound Running XC,"Somewhere in the top 10, brutal but fitter than I expected to be on a flat but rhythm breaking course with quite a few sharp turns. Good day for the team",2024-11-21 14:16:57+00:00,1417,Run,"Austin, USA",8.2,2.88,23 m 37 s
+4814818,Adam Fogg,12951387848,Warm Up,,2024-11-21 13:03:45+00:00,1758,Run,"Austin, USA",4.62,4.82,22 m 14 s
+4814818,Adam Fogg,12945672612,Jog + Strides,,2024-11-20 16:35:53+00:00,3956,Run,"Austin, USA",10.05,4.55,45 m 43 s
+4814818,Adam Fogg,12940880470,Jog,Texas,2024-11-20 00:30:48+00:00,3470,Run,"Austin, USA",7.95,5.03,39 m 58 s
+4814818,Adam Fogg,12936572573,Jog,Texas today ✈️ 😩🦅🇺🇸🤙🏼🔥🤠,2024-11-19 13:41:00+00:00,1257,Run,"Coconino County, USA",4.23,4.95,20 m 57 s
+4814818,Adam Fogg,12930582356,Long,,2024-11-18 16:23:02+00:00,5411,Run,"Coconino County, USA",19.61,4.6,1 h 30 m
+4814818,Adam Fogg,13022121261,Warm Down,,2024-12-01 10:49:11+00:00,919,Run,"Stratford-on-Avon, United Kingdom",3.32,4.62,15 m 19 s
+4814818,Adam Fogg,13022122800,12 x 1k,"1 min recovery, 1:30 after #3, #6 and #9",2024-12-01 09:50:11+00:00,2975,Run,"Stratford-on-Avon, United Kingdom",15.1,3.28,49 m 35 s
+4814818,Adam Fogg,13022121280,Warm Up,,2024-12-01 09:22:03+00:00,1184,Run,"Stratford-on-Avon, United Kingdom",3.47,4.87,16 m 53 s
+4814818,Adam Fogg,13017436118,Shakeout,Back in England,2024-11-30 16:45:04+00:00,1509,Run,"Stratford-on-Avon, United Kingdom",5.32,4.7,25 m 3 s
+4814818,Adam Fogg,13009416441,Jog,"Good group again, out and back + out and back + out and back England tonight😎",2024-11-29 14:13:18+00:00,4456,Run,"Lower Moreland Township, USA",16.37,4.42,1 h 12 m
+4814818,Adam Fogg,13002945598,🦃,"Big group, got drenched😀",2024-11-28 14:22:49+00:00,5964,Run,"Lower Moreland Township, USA",21.02,4.53,1 h 35 m
+4814818,Adam Fogg,12998272002,Warm Down,,2024-11-27 22:22:52+00:00,349,Run,"Lower Moreland Township, USA",1.24,4.67,5 m 49 s
+4814818,Adam Fogg,12998214744,16 x 600,"1:50 -> 1:39 (~ 1:44 avg) 50-60 sec recovery, 3 mins after #8",2024-11-27 21:31:52+00:00,2710,Run,"Lower Moreland Township, USA",13.06,3.45,45 m 6 s
+4814818,Adam Fogg,12997941506,Warm Up,,2024-11-27 21:16:07+00:00,569,Run,"Lower Moreland Township, USA",1.68,4.32,7 m 15 s
+4814818,Adam Fogg,12995057899,Warm Down,,2024-11-27 14:16:53+00:00,556,Run,"Fort McHenry National Monument and Historic Shrine, USA",1.9,4.8,9 m 9 s
+4814818,Adam Fogg,12995057108,3 x 2 Miles,75 sec recovery,2024-11-27 13:34:35+00:00,1996,Run,"Fort McHenry National Monument and Historic Shrine, USA",10.08,3.3,33 m 16 s
+4814818,Adam Fogg,12995057159,Warm Up,,2024-11-27 12:58:00+00:00,1408,Run,"Baltimore, USA",2.68,4.9,13 m 9 s
+4814818,Adam Fogg,12988028463,Jog,+ speed dev,2024-11-26 14:04:07+00:00,4476,Run,"Baltimore, USA",15.61,4.48,1 h 10 m
+4814818,Adam Fogg,12983146690,Double,,2024-11-25 21:49:31+00:00,1803,Run,"Baltimore, USA",6.57,4.57,30 m 3 s
+4814818,Adam Fogg,12980169918,Jog,+ gym,2024-11-25 13:59:54+00:00,3546,Run,"Baltimore, USA",13.16,4.48,59 m 6 s
+4814818,Adam Fogg,13070694957,Jog,+ speed dev,2024-12-08 08:33:39+00:00,4596,Run,"Stratford-on-Avon, United Kingdom",16.48,4.57,1 h 15 m
+4814818,Adam Fogg,13064617129,Treadmill Long,+ gym and sauna,2024-12-07 10:11:27+00:00,5415,Run,,20.26,4.45,1 h 30 m
+4814818,Adam Fogg,13060094625,Warm Down,,2024-12-06 17:02:10+00:00,604,Run,"Coventry, United Kingdom",2.05,4.9,10 m 4 s
+4814818,Adam Fogg,13060093355,4 x (4 x 500),"Set 1 - 1:23 (~67 400 pace) Set 2 - 1:21 (~64/65 400 pace) Set 3 - 1:20 (~64 400 pace) Set 4 - 1:19 (~63/64 400 pace) *45 sec (100m) jog between reps, 2:30 between sets (3:30 after 2nd set)",2024-12-06 16:13:39+00:00,2380,Run,"Coventry, United Kingdom",10.65,3.72,39 m 32 s
+4814818,Adam Fogg,13059638508,Warm Up,,2024-12-06 15:40:04+00:00,956,Run,"Coventry, United Kingdom",2.54,4.47,11 m 24 s
+4814818,Adam Fogg,13057316802,Warm Down,,2024-12-06 09:15:13+00:00,607,Run,,2.02,5.0,10 m 7 s
+4814818,Adam Fogg,13057248690,2 x 3 Miles,5:10/mi (3:13/km) @ 0.5 incline 90 sec walk/jog recovery,2024-12-06 08:36:52+00:00,1979,Run,,9.81,3.37,32 m 59 s
+4814818,Adam Fogg,13057055336,Warm Up,,2024-12-06 08:07:02+00:00,1007,Run,,2.52,4.93,12 m 26 s
+4814818,Adam Fogg,13051508000,Jog,+ speed dev,2024-12-05 10:19:08+00:00,4342,Run,"Stratford-on-Avon, United Kingdom",16.21,4.47,1 h 12 m
+4814818,Adam Fogg,13046482279,Treadmill Double,,2024-12-04 16:45:36+00:00,2112,Run,,7.42,4.75,35 m 12 s
+4814818,Adam Fogg,13043467126,Treadmill,+ gym,2024-12-04 08:06:41+00:00,3621,Run,,12.66,4.77,1 h 0 m
+4814818,Adam Fogg,13036648339,Long,,2024-12-03 09:36:24+00:00,6020,Run,"Stratford-on-Avon, United Kingdom",29.11,3.45,1 h 40 m
+4814818,Adam Fogg,13123040381,Warm Down,,2024-12-15 17:44:07+00:00,313,Run,"Coventry, United Kingdom",1.04,5.0,5 m 13 s
+4814818,Adam Fogg,13123040731,4 x (4 x 500),1:20 -> 1:17 with 75 sec recovery and 3 mins between sets,2024-12-15 16:52:05+00:00,2739,Run,"Coventry, United Kingdom",11.37,3.9,44 m 21 s
+4814818,Adam Fogg,13123040559,Warm Up,,2024-12-15 16:16:56+00:00,932,Run,"Coventry, United Kingdom",2.53,4.42,11 m 10 s
+4814818,Adam Fogg,13119232383,Warm Down,,2024-12-15 10:12:05+00:00,475,Run,"City of London, United Kingdom",1.7,4.6,7 m 51 s
+4814818,Adam Fogg,13119041794,3 x 2 Miles,18.4 / 18.6 / 18.8k/h 5:15 -> 5:08/mi (3:15 -> 3:11/km) All 0.5 incline with 90 sec recovery,2024-12-15 09:24:17+00:00,2112,Run,,10.12,3.48,35 m 12 s
+4814818,Adam Fogg,13118749534,Warm Up,,2024-12-15 08:54:19+00:00,511,Run,"Greater London, United Kingdom",1.67,5.1,8 m 31 s
+4814818,Adam Fogg,13112031856,Greenway with Alex,+ speed dev after 55 mins,2024-12-14 08:18:37+00:00,5753,Run,"Stratford-on-Avon, United Kingdom",16.58,4.4,1 h 12 m
+4814818,Adam Fogg,13108364013,Double,,2024-12-13 17:14:01+00:00,1811,Run,"Stratford-on-Avon, United Kingdom",6.67,4.52,30 m 11 s
+4814818,Adam Fogg,13105783091,Treadmill,+ gym and sauna,2024-12-13 09:30:41+00:00,3625,Run,,13.06,4.63,1 h 0 m
+4814818,Adam Fogg,13099278440,Long,,2024-12-12 09:59:38+00:00,6036,Run,"Stratford-on-Avon, United Kingdom",30.03,3.35,1 h 40 m
+4814818,Adam Fogg,13085103121,Jog,+ gym and sauna,2024-12-10 10:29:31+00:00,4508,Run,"Stratford-on-Avon, United Kingdom",16.19,4.63,1 h 15 m
+4814818,Adam Fogg,13080125355,Warm Down,"31k (19mi) treadmill day, sauna after",2024-12-09 17:33:39+00:00,503,Run,,1.65,5.08,8 m 23 s
+4814818,Adam Fogg,13080037491,12 x 800,All 0.5 incline at 20.6k/h (2:55/km - 2:20 per 800) with 1 min jog recovery at 10k/h,2024-12-09 16:48:50+00:00,2391,Run,,11.94,3.33,39 m 51 s
+4814818,Adam Fogg,13079769468,Warm Up,,2024-12-09 16:23:47+00:00,934,Run,,2.53,4.9,12 m 24 s
+4814818,Adam Fogg,13077413174,Warm Down,,2024-12-09 09:30:04+00:00,612,Run,,2.03,5.02,10 m 12 s
+4814818,Adam Fogg,13077340489,6 x 5 Minutes,"All 0.5 incline, first 3 at 19.3k/h, last 3 at 19.5k/h *60 sec jog recovery at 10k/h",2024-12-09 08:47:34+00:00,2141,Run,,10.58,3.37,35 m 41 s
+4814818,Adam Fogg,13077122737,Warm Up,,2024-12-09 08:13:38+00:00,956,Run,,2.55,4.88,12 m 26 s
+4814818,Adam Fogg,13166783173,Greenway with Miles and Will,,2024-12-22 09:15:16+00:00,4229,Run,"Stratford-on-Avon, United Kingdom",16.57,4.25,1 h 10 m
+4814818,Adam Fogg,13160522591,Long,+ sauna,2024-12-21 09:20:36+00:00,5239,Run,"Stratford-on-Avon, United Kingdom",24.21,3.6,1 h 27 m
+4814818,Adam Fogg,13147662761,Greenway with Miles,+ gym and sauna,2024-12-19 09:32:43+00:00,3938,Run,"Stratford-on-Avon, United Kingdom",16.13,4.07,1 h 5 m
+4814818,Adam Fogg,13143401929,Warm Down,19mi / 31k treadmill day,2024-12-18 17:35:14+00:00,369,Run,,1.22,5.03,6 m 9 s
+4814818,Adam Fogg,13143401472,10 x 1k,4 at 3:00 // 4 at 2:58 // 2 at 2:56 Rounded up to 3 mins for all reps with 1 min jog recovery @ 10k/h,2024-12-18 16:50:39+00:00,2404,Run,,11.76,3.4,40 m 4 s
+4814818,Adam Fogg,13143402070,Warm Up,,2024-12-18 16:26:42+00:00,916,Run,,2.52,4.75,11 m 57 s
+4814818,Adam Fogg,13140500730,Warm Down,,2024-12-18 09:31:13+00:00,631,Run,,2.02,5.2,10 m 31 s
+4814818,Adam Fogg,13140434367,6 x Mile,"All 0.5 incline, rounded to 6 x 5 mins with 75 sec jog recovery @ 10k/h 1 + 2 @ 19.3 // 3 + 4 @ 19.5 // 5 + 6 @ 19.7k/h 3:07 -> 3:03/km (5:00 -> 4:55/mi)",2024-12-18 08:49:30+00:00,2221,Run,,10.78,3.43,37 m 1 s
+4814818,Adam Fogg,13140252617,Warm Up,,2024-12-18 08:27:52+00:00,947,Run,,2.57,4.77,12 m 16 s
+4814818,Adam Fogg,13134150524,Treadmill,+ speed dev and sauna,2024-12-17 11:11:21+00:00,4523,Run,,16.62,4.53,1 h 15 m
+4814818,Adam Fogg,13127658989,Long,+ gym,2024-12-16 12:37:00+00:00,5407,Run,"Stratford-on-Avon, United Kingdom",20.7,4.35,1 h 30 m
+4814818,Adam Fogg,13207641865,Treadmill,+ gym and sauna,2024-12-28 11:27:49+00:00,4227,Run,,16.39,4.3,1 h 10 m
+4814818,Adam Fogg,13202204185,Warm Down,19mi / 31k treadmill day. Sauna after,2024-12-27 17:01:09+00:00,344,Run,,1.06,5.42,5 m 44 s
+4814818,Adam Fogg,13202131443,12 x 800,4 at 20.4 // 4 at 20.6 // 4 at 20.8k/h Ran to 2:20 for all of them to keep timing simple with treadmill. Actual paces 2:21 -> 2:18 (2:19 avg) *1 min jog at 10k/h between reps with 0.5 incline for all,2024-12-27 16:16:14+00:00,2406,Run,,12.03,3.33,40 m 6 s
+4814818,Adam Fogg,13201744782,Warm Up,,2024-12-27 15:51:39+00:00,863,Run,,2.52,4.52,11 m 23 s
+4814818,Adam Fogg,13198849099,Warm Down,,2024-12-27 09:29:36+00:00,648,Run,,2.02,5.35,10 m 48 s
+4814818,Adam Fogg,13198773355,6 x Mile,5:00 for all with 75 sec jog between,2024-12-27 08:47:27+00:00,2233,Run,,10.84,3.43,37 m 13 s
+4814818,Adam Fogg,13198570571,Warm Up,,2024-12-27 08:22:17+00:00,1015,Run,,2.56,4.87,12 m 27 s
+4814818,Adam Fogg,13192120785,Jog,With Charlotte 🚲❤️,2024-12-26 09:35:14+00:00,4045,Run,"Central Bedfordshire, United Kingdom",15.43,4.35,1 h 7 m
+4814818,Adam Fogg,13186600146,Christmas 🎄🎅🏼,With Charlotte on the bike❤️,2024-12-25 10:15:02+00:00,3645,Run,"Central Bedfordshire, United Kingdom",13.69,4.38,1 h 0 m
+4814818,Adam Fogg,13180410550,Jog,,2024-12-24 10:06:14+00:00,4815,Run,"Stratford-on-Avon, United Kingdom",17.74,4.52,1 h 20 m
+4814818,Adam Fogg,13173524184,Warm Down,,2024-12-23 10:58:02+00:00,933,Run,"Coventry, United Kingdom",3.1,4.98,15 m 28 s
+4814818,Adam Fogg,13173318760,2k // 1k // 6 x 600 // 2 x Mile,"6:11 / 2:59 1:38/1:38/1:37/1:36/1:33/1:33 4:49 / 4:36 Varied recovery but 75 sec between 2k/1k, approx 3 mins between sets and 90 sec between 600s and miles",2024-12-23 10:01:26+00:00,2734,Run,"Coventry, United Kingdom",12.25,3.57,43 m 48 s
+4814818,Adam Fogg,13172959164,Warm Up,,2024-12-23 09:17:27+00:00,1626,Run,"Coventry, United Kingdom",4.03,4.35,17 m 34 s
+4814818,Adam Fogg,12870333382,Jog,+ speed dev,2024-11-10 16:57:44+00:00,3933,Run,"Coconino County, USA",14.51,4.52,1 h 5 m
+4814818,Adam Fogg,12861966969,Long,,2024-11-09 16:53:13+00:00,5465,Run,"Coconino County, USA",20.73,4.38,1 h 31 m
+4814818,Adam Fogg,12855633715,Hills,3 x (3 x 400) with 200 jog down between reps and full jog down (800) between sets,2024-11-08 23:51:37+00:00,1844,Run,"Coconino County, USA",7.64,4.02,30 m 44 s
+4814818,Adam Fogg,12855729898,Warm Down,,2024-11-09 00:35:37+00:00,499,Run,"Coconino County, USA",1.62,5.12,8 m 19 s
+4814818,Adam Fogg,12855413905,Warm Up,,2024-11-08 23:21:22+00:00,1056,Run,"Coconino County, USA",2.58,5.02,12 m 58 s
+4814818,Adam Fogg,12853288166,3 x 2 Miles,75 sec recovery,2024-11-08 16:24:50+00:00,2043,Run,"Coconino County, USA",10.07,3.38,34 m 3 s
+4814818,Adam Fogg,12853388797,Warm Down,,2024-11-08 17:07:43+00:00,488,Run,"Coconino County, USA",1.62,5.02,8 m 8 s
+4814818,Adam Fogg,12852884378,Warm Up,,2024-11-08 15:44:56+00:00,966,Run,"Coconino County, USA",2.45,4.77,11 m 41 s
+4814818,Adam Fogg,12845998228,Jog,+ speed dev,2024-11-07 16:13:29+00:00,3906,Run,"Coconino County, USA",14.65,4.45,1 h 5 m
+4814818,Adam Fogg,12841187851,Double,Photos from Greyhound Bus Jan Figueroa,2024-11-07 00:05:51+00:00,1826,Run,"Coconino County, USA",6.46,4.7,30 m 26 s
+4814818,Adam Fogg,12838261866,Jog,,2024-11-06 16:22:11+00:00,3397,Run,"Coconino County, USA",13.56,4.17,56 m 37 s
+4814818,Adam Fogg,12830964305,Long Run,,2024-11-05 17:03:20+00:00,6628,Run,"Coconino National Forest, USA",27.55,4.0,1 h 50 m
+4814818,Adam Fogg,12825012070,Double,,2024-11-05 00:10:24+00:00,1900,Run,"Coconino County, USA",6.45,4.82,31 m 4 s
+4814818,Adam Fogg,12822277326,Jog,With Jaziri Damien and John,2024-11-04 16:30:30+00:00,3638,Run,"Coconino County, USA",13.01,4.62,1 h 0 m
+4814818,Adam Fogg,12926051737,20 x 400,100 jog (~30 sec) between reps 2 min jog after every 5th,2024-11-17 23:59:23+00:00,2283,Run,"Navajo County, USA",10.94,3.48,38 m 3 s
+4814818,Adam Fogg,12926095410,Warm Down,,2024-11-18 00:47:02+00:00,394,Run,"Navajo County, USA",1.02,6.42,6 m 34 s
+4814818,Adam Fogg,12925881967,Warm Up,,2024-11-17 23:25:29+00:00,1041,Run,"Navajo County, USA",2.5,4.67,11 m 42 s
+4814818,Adam Fogg,12923672127,3 Miles // 2 Miles,2 min recovery,2024-11-17 16:20:34+00:00,1694,Run,"Coconino County, USA",8.35,3.38,28 m 14 s
+4814818,Adam Fogg,12923773748,Warm Down,,2024-11-17 16:56:54+00:00,362,Run,"Coconino County, USA",1.31,4.6,6 m 2 s
+4814818,Adam Fogg,12923274130,Warm Up,,2024-11-17 15:43:14+00:00,1152,Run,"Coconino County, USA",2.78,5.3,14 m 46 s
+4814818,Adam Fogg,12915951067,Jog,+ speed dev,2024-11-16 17:03:34+00:00,3966,Run,"Coconino County, USA",14.53,4.55,1 h 6 m
+4814818,Adam Fogg,12909987404,Double,,2024-11-16 00:05:54+00:00,1841,Run,"Coconino County, USA",6.52,4.7,30 m 41 s
+4814818,Adam Fogg,12907788200,Jog,,2024-11-15 16:42:01+00:00,3255,Run,"Coconino County, USA",12.92,4.2,54 m 15 s
+4814818,Adam Fogg,12901183815,Long,Didn’t enjoy it for a second 😀,2024-11-14 17:27:20+00:00,5985,Run,"Coconino National Forest, USA",24.16,3.83,1 h 32 m
+4814818,Adam Fogg,12885728247,Recovery,,2024-11-12 17:22:55+00:00,3610,Run,"Coconino County, USA",12.34,4.88,1 h 0 m
+4814818,Adam Fogg,12880014547,Warm Down,,2024-11-12 00:47:02+00:00,449,Run,"Navajo County, USA",1.24,6.02,7 m 29 s
+4814818,Adam Fogg,12880014807,12 x 800,75 sec recovery (200 jog) 2:30 -> 2:18 (~2:23 avg),2024-11-11 23:52:19+00:00,2576,Run,"Navajo County, USA",12.4,3.45,42 m 52 s
+4814818,Adam Fogg,12879618610,Warm Up,,2024-11-11 23:15:43+00:00,1425,Run,"Navajo County, USA",2.51,4.7,11 m 50 s
+4814818,Adam Fogg,12877045264,Warm Down,,2024-11-11 17:12:56+00:00,514,Run,"Coconino County, USA",1.62,5.27,8 m 34 s
+4814818,Adam Fogg,12876885003,6 x Mile,1 min recovery,2024-11-11 16:25:01+00:00,2131,Run,"Coconino County, USA",10.34,3.43,35 m 31 s
+4814818,Adam Fogg,12876449210,Warm Up,,2024-11-11 15:51:01+00:00,972,Run,"Coconino County, USA",2.54,4.8,12 m 12 s
+4814818,Adam Fogg,12973767043,Long,,2024-11-24 13:38:13+00:00,6398,Run,"Torrey C Brown Rail Trail, USA",29.03,3.63,1 h 45 m
+4814818,Adam Fogg,12967103146,Baltimore,Harbaa with Damien and Jan,2024-11-23 17:04:00+00:00,4256,Run,"Baltimore, USA",16.2,4.35,1 h 10 m
+4814818,Adam Fogg,12952139845,Warm Down,Including 10 x 30/30,2024-11-21 15:14:19+00:00,1804,Run,"Austin, USA",6.77,4.43,30 m 4 s
+4814818,Adam Fogg,12951856847,Sound Running XC,"Somewhere in the top 10, brutal but fitter than I expected to be on a flat but rhythm breaking course with quite a few sharp turns. Good day for the team",2024-11-21 14:16:57+00:00,1417,Run,"Austin, USA",8.2,2.88,23 m 37 s
+4814818,Adam Fogg,12951387848,Warm Up,,2024-11-21 13:03:45+00:00,1758,Run,"Austin, USA",4.62,4.82,22 m 14 s
+4814818,Adam Fogg,12945672612,Jog + Strides,,2024-11-20 16:35:53+00:00,3956,Run,"Austin, USA",10.05,4.55,45 m 43 s
+4814818,Adam Fogg,12940880470,Jog,Texas,2024-11-20 00:30:48+00:00,3470,Run,"Austin, USA",7.95,5.03,39 m 58 s
+4814818,Adam Fogg,12936572573,Jog,Texas today ✈️ 😩🦅🇺🇸🤙🏼🔥🤠,2024-11-19 13:41:00+00:00,1257,Run,"Coconino County, USA",4.23,4.95,20 m 57 s
+4814818,Adam Fogg,12930582356,Long,,2024-11-18 16:23:02+00:00,5411,Run,"Coconino County, USA",19.61,4.6,1 h 30 m
+4814818,Adam Fogg,13022121261,Warm Down,,2024-12-01 10:49:11+00:00,919,Run,"Stratford-on-Avon, United Kingdom",3.32,4.62,15 m 19 s
+4814818,Adam Fogg,13022122800,12 x 1k,"1 min recovery, 1:30 after #3, #6 and #9",2024-12-01 09:50:11+00:00,2975,Run,"Stratford-on-Avon, United Kingdom",15.1,3.28,49 m 35 s
+4814818,Adam Fogg,13022121280,Warm Up,,2024-12-01 09:22:03+00:00,1184,Run,"Stratford-on-Avon, United Kingdom",3.47,4.87,16 m 53 s
+4814818,Adam Fogg,13017436118,Shakeout,Back in England,2024-11-30 16:45:04+00:00,1509,Run,"Stratford-on-Avon, United Kingdom",5.32,4.7,25 m 3 s
+4814818,Adam Fogg,13009416441,Jog,"Good group again, out and back + out and back + out and back England tonight😎",2024-11-29 14:13:18+00:00,4456,Run,"Lower Moreland Township, USA",16.37,4.42,1 h 12 m
+4814818,Adam Fogg,13002945598,🦃,"Big group, got drenched😀",2024-11-28 14:22:49+00:00,5964,Run,"Lower Moreland Township, USA",21.02,4.53,1 h 35 m
+4814818,Adam Fogg,12998272002,Warm Down,,2024-11-27 22:22:52+00:00,349,Run,"Lower Moreland Township, USA",1.24,4.67,5 m 49 s
+4814818,Adam Fogg,12998214744,16 x 600,"1:50 -> 1:39 (~ 1:44 avg) 50-60 sec recovery, 3 mins after #8",2024-11-27 21:31:52+00:00,2710,Run,"Lower Moreland Township, USA",13.06,3.45,45 m 6 s
+4814818,Adam Fogg,12997941506,Warm Up,,2024-11-27 21:16:07+00:00,569,Run,"Lower Moreland Township, USA",1.68,4.32,7 m 15 s
+4814818,Adam Fogg,12995057899,Warm Down,,2024-11-27 14:16:53+00:00,556,Run,"Fort McHenry National Monument and Historic Shrine, USA",1.9,4.8,9 m 9 s
+4814818,Adam Fogg,12995057108,3 x 2 Miles,75 sec recovery,2024-11-27 13:34:35+00:00,1996,Run,"Fort McHenry National Monument and Historic Shrine, USA",10.08,3.3,33 m 16 s
+4814818,Adam Fogg,12995057159,Warm Up,,2024-11-27 12:58:00+00:00,1408,Run,"Baltimore, USA",2.68,4.9,13 m 9 s
+4814818,Adam Fogg,12988028463,Jog,+ speed dev,2024-11-26 14:04:07+00:00,4476,Run,"Baltimore, USA",15.61,4.48,1 h 10 m
+4814818,Adam Fogg,12983146690,Double,,2024-11-25 21:49:31+00:00,1803,Run,"Baltimore, USA",6.57,4.57,30 m 3 s
+4814818,Adam Fogg,12980169918,Jog,+ gym,2024-11-25 13:59:54+00:00,3546,Run,"Baltimore, USA",13.16,4.48,59 m 6 s
+4814818,Adam Fogg,13070694957,Jog,+ speed dev,2024-12-08 08:33:39+00:00,4596,Run,"Stratford-on-Avon, United Kingdom",16.48,4.57,1 h 15 m
+4814818,Adam Fogg,13064617129,Treadmill Long,+ gym and sauna,2024-12-07 10:11:27+00:00,5415,Run,,20.26,4.45,1 h 30 m
+4814818,Adam Fogg,13060094625,Warm Down,,2024-12-06 17:02:10+00:00,604,Run,"Coventry, United Kingdom",2.05,4.9,10 m 4 s
+4814818,Adam Fogg,13060093355,4 x (4 x 500),"Set 1 - 1:23 (~67 400 pace) Set 2 - 1:21 (~64/65 400 pace) Set 3 - 1:20 (~64 400 pace) Set 4 - 1:19 (~63/64 400 pace) *45 sec (100m) jog between reps, 2:30 between sets (3:30 after 2nd set)",2024-12-06 16:13:39+00:00,2380,Run,"Coventry, United Kingdom",10.65,3.72,39 m 32 s
+4814818,Adam Fogg,13059638508,Warm Up,,2024-12-06 15:40:04+00:00,956,Run,"Coventry, United Kingdom",2.54,4.47,11 m 24 s
+4814818,Adam Fogg,13057316802,Warm Down,,2024-12-06 09:15:13+00:00,607,Run,,2.02,5.0,10 m 7 s
+4814818,Adam Fogg,13057248690,2 x 3 Miles,5:10/mi (3:13/km) @ 0.5 incline 90 sec walk/jog recovery,2024-12-06 08:36:52+00:00,1979,Run,,9.81,3.37,32 m 59 s
+4814818,Adam Fogg,13057055336,Warm Up,,2024-12-06 08:07:02+00:00,1007,Run,,2.52,4.93,12 m 26 s
+4814818,Adam Fogg,13051508000,Jog,+ speed dev,2024-12-05 10:19:08+00:00,4342,Run,"Stratford-on-Avon, United Kingdom",16.21,4.47,1 h 12 m
+4814818,Adam Fogg,13046482279,Treadmill Double,,2024-12-04 16:45:36+00:00,2112,Run,,7.42,4.75,35 m 12 s
+4814818,Adam Fogg,13043467126,Treadmill,+ gym,2024-12-04 08:06:41+00:00,3621,Run,,12.66,4.77,1 h 0 m
+4814818,Adam Fogg,13036648339,Long,,2024-12-03 09:36:24+00:00,6020,Run,"Stratford-on-Avon, United Kingdom",29.11,3.45,1 h 40 m
+4814818,Adam Fogg,13123040381,Warm Down,,2024-12-15 17:44:07+00:00,313,Run,"Coventry, United Kingdom",1.04,5.0,5 m 13 s
+4814818,Adam Fogg,13123040731,4 x (4 x 500),1:20 -> 1:17 with 75 sec recovery and 3 mins between sets,2024-12-15 16:52:05+00:00,2739,Run,"Coventry, United Kingdom",11.37,3.9,44 m 21 s
+4814818,Adam Fogg,13123040559,Warm Up,,2024-12-15 16:16:56+00:00,932,Run,"Coventry, United Kingdom",2.53,4.42,11 m 10 s
+4814818,Adam Fogg,13119232383,Warm Down,,2024-12-15 10:12:05+00:00,475,Run,"City of London, United Kingdom",1.7,4.6,7 m 51 s
+4814818,Adam Fogg,13119041794,3 x 2 Miles,18.4 / 18.6 / 18.8k/h 5:15 -> 5:08/mi (3:15 -> 3:11/km) All 0.5 incline with 90 sec recovery,2024-12-15 09:24:17+00:00,2112,Run,,10.12,3.48,35 m 12 s
+4814818,Adam Fogg,13118749534,Warm Up,,2024-12-15 08:54:19+00:00,511,Run,"Greater London, United Kingdom",1.67,5.1,8 m 31 s
+4814818,Adam Fogg,13112031856,Greenway with Alex,+ speed dev after 55 mins,2024-12-14 08:18:37+00:00,5753,Run,"Stratford-on-Avon, United Kingdom",16.58,4.4,1 h 12 m
+4814818,Adam Fogg,13108364013,Double,,2024-12-13 17:14:01+00:00,1811,Run,"Stratford-on-Avon, United Kingdom",6.67,4.52,30 m 11 s
+4814818,Adam Fogg,13105783091,Treadmill,+ gym and sauna,2024-12-13 09:30:41+00:00,3625,Run,,13.06,4.63,1 h 0 m
+4814818,Adam Fogg,13099278440,Long,,2024-12-12 09:59:38+00:00,6036,Run,"Stratford-on-Avon, United Kingdom",30.03,3.35,1 h 40 m
+4814818,Adam Fogg,13085103121,Jog,+ gym and sauna,2024-12-10 10:29:31+00:00,4508,Run,"Stratford-on-Avon, United Kingdom",16.19,4.63,1 h 15 m
+4814818,Adam Fogg,13080125355,Warm Down,"31k (19mi) treadmill day, sauna after",2024-12-09 17:33:39+00:00,503,Run,,1.65,5.08,8 m 23 s
+4814818,Adam Fogg,13080037491,12 x 800,All 0.5 incline at 20.6k/h (2:55/km - 2:20 per 800) with 1 min jog recovery at 10k/h,2024-12-09 16:48:50+00:00,2391,Run,,11.94,3.33,39 m 51 s
+4814818,Adam Fogg,13079769468,Warm Up,,2024-12-09 16:23:47+00:00,934,Run,,2.53,4.9,12 m 24 s
+4814818,Adam Fogg,13077413174,Warm Down,,2024-12-09 09:30:04+00:00,612,Run,,2.03,5.02,10 m 12 s
+4814818,Adam Fogg,13077340489,6 x 5 Minutes,"All 0.5 incline, first 3 at 19.3k/h, last 3 at 19.5k/h *60 sec jog recovery at 10k/h",2024-12-09 08:47:34+00:00,2141,Run,,10.58,3.37,35 m 41 s
+4814818,Adam Fogg,13077122737,Warm Up,,2024-12-09 08:13:38+00:00,956,Run,,2.55,4.88,12 m 26 s
+4814818,Adam Fogg,13166783173,Greenway with Miles and Will,,2024-12-22 09:15:16+00:00,4229,Run,"Stratford-on-Avon, United Kingdom",16.57,4.25,1 h 10 m
+4814818,Adam Fogg,13160522591,Long,+ sauna,2024-12-21 09:20:36+00:00,5239,Run,"Stratford-on-Avon, United Kingdom",24.21,3.6,1 h 27 m
+4814818,Adam Fogg,13147662761,Greenway with Miles,+ gym and sauna,2024-12-19 09:32:43+00:00,3938,Run,"Stratford-on-Avon, United Kingdom",16.13,4.07,1 h 5 m
+4814818,Adam Fogg,13143401929,Warm Down,19mi / 31k treadmill day,2024-12-18 17:35:14+00:00,369,Run,,1.22,5.03,6 m 9 s
+4814818,Adam Fogg,13143401472,10 x 1k,4 at 3:00 // 4 at 2:58 // 2 at 2:56 Rounded up to 3 mins for all reps with 1 min jog recovery @ 10k/h,2024-12-18 16:50:39+00:00,2404,Run,,11.76,3.4,40 m 4 s
+4814818,Adam Fogg,13143402070,Warm Up,,2024-12-18 16:26:42+00:00,916,Run,,2.52,4.75,11 m 57 s
+4814818,Adam Fogg,13140500730,Warm Down,,2024-12-18 09:31:13+00:00,631,Run,,2.02,5.2,10 m 31 s
+4814818,Adam Fogg,13140434367,6 x Mile,"All 0.5 incline, rounded to 6 x 5 mins with 75 sec jog recovery @ 10k/h 1 + 2 @ 19.3 // 3 + 4 @ 19.5 // 5 + 6 @ 19.7k/h 3:07 -> 3:03/km (5:00 -> 4:55/mi)",2024-12-18 08:49:30+00:00,2221,Run,,10.78,3.43,37 m 1 s
+4814818,Adam Fogg,13140252617,Warm Up,,2024-12-18 08:27:52+00:00,947,Run,,2.57,4.77,12 m 16 s
+4814818,Adam Fogg,13134150524,Treadmill,+ speed dev and sauna,2024-12-17 11:11:21+00:00,4523,Run,,16.62,4.53,1 h 15 m
+4814818,Adam Fogg,13127658989,Long,+ gym,2024-12-16 12:37:00+00:00,5407,Run,"Stratford-on-Avon, United Kingdom",20.7,4.35,1 h 30 m
+4814818,Adam Fogg,13207641865,Treadmill,+ gym and sauna,2024-12-28 11:27:49+00:00,4227,Run,,16.39,4.3,1 h 10 m
+4814818,Adam Fogg,13202204185,Warm Down,19mi / 31k treadmill day. Sauna after,2024-12-27 17:01:09+00:00,344,Run,,1.06,5.42,5 m 44 s
+4814818,Adam Fogg,13202131443,12 x 800,4 at 20.4 // 4 at 20.6 // 4 at 20.8k/h Ran to 2:20 for all of them to keep timing simple with treadmill. Actual paces 2:21 -> 2:18 (2:19 avg) *1 min jog at 10k/h between reps with 0.5 incline for all,2024-12-27 16:16:14+00:00,2406,Run,,12.03,3.33,40 m 6 s
+4814818,Adam Fogg,13201744782,Warm Up,,2024-12-27 15:51:39+00:00,863,Run,,2.52,4.52,11 m 23 s
+4814818,Adam Fogg,13198849099,Warm Down,,2024-12-27 09:29:36+00:00,648,Run,,2.02,5.35,10 m 48 s
+4814818,Adam Fogg,13198773355,6 x Mile,5:00 for all with 75 sec jog between,2024-12-27 08:47:27+00:00,2233,Run,,10.84,3.43,37 m 13 s
+4814818,Adam Fogg,13198570571,Warm Up,,2024-12-27 08:22:17+00:00,1015,Run,,2.56,4.87,12 m 27 s
+4814818,Adam Fogg,13192120785,Jog,With Charlotte 🚲❤️,2024-12-26 09:35:14+00:00,4045,Run,"Central Bedfordshire, United Kingdom",15.43,4.35,1 h 7 m
+4814818,Adam Fogg,13186600146,Christmas 🎄🎅🏼,With Charlotte on the bike❤️,2024-12-25 10:15:02+00:00,3645,Run,"Central Bedfordshire, United Kingdom",13.69,4.38,1 h 0 m
+4814818,Adam Fogg,13180410550,Jog,,2024-12-24 10:06:14+00:00,4815,Run,"Stratford-on-Avon, United Kingdom",17.74,4.52,1 h 20 m
+4814818,Adam Fogg,13173524184,Warm Down,,2024-12-23 10:58:02+00:00,933,Run,"Coventry, United Kingdom",3.1,4.98,15 m 28 s
+4814818,Adam Fogg,13173318760,2k // 1k // 6 x 600 // 2 x Mile,"6:11 / 2:59 1:38/1:38/1:37/1:36/1:33/1:33 4:49 / 4:36 Varied recovery but 75 sec between 2k/1k, approx 3 mins between sets and 90 sec between 600s and miles",2024-12-23 10:01:26+00:00,2734,Run,"Coventry, United Kingdom",12.25,3.57,43 m 48 s
+4814818,Adam Fogg,13172959164,Warm Up,,2024-12-23 09:17:27+00:00,1626,Run,"Coventry, United Kingdom",4.03,4.35,17 m 34 s
+4928335,JP Flavin,12868575757,Muddy buddies,,2024-11-10 13:04:05+00:00,4814,Run,"Lake Orion, USA",19.33,4.03,1 h 18 m
+4928335,JP Flavin,12860006131,Nice surprise,"2x3 @ 5:00, 4:50, 4:40 4:54, 4:51, 4:46 4:58, 4:46. 4:41 Fun one with the kiddos",2024-11-09 12:26:18+00:00,6483,Run,"Washington Charter Township, USA",20.92,3.62,1 h 15 m
+4928335,JP Flavin,12852164031,G’s of all time,,2024-11-08 13:02:49+00:00,4011,Run,"Rochester Hills, USA",16.13,4.0,1 h 4 m
+4928335,JP Flavin,12844855654,Waddled,,2024-11-07 13:03:42+00:00,4313,Run,"Rochester, USA",16.11,3.98,1 h 4 m
+4928335,JP Flavin,12837093817,Rusty,"4x 600,1k on grass (1:47, 2:56) (1:45, 2:55) (1:43, 2:53) (1:42, 2:52) Going to be so sadly sore tomorrow",2024-11-06 12:41:26+00:00,6057,Run,"Rochester Hills, USA",17.94,3.93,1 h 10 m
+4928335,JP Flavin,12828761672,Don’t lick the swingset,,2024-11-05 13:01:26+00:00,3953,Run,"Oakland Charter Township, USA",16.1,3.78,1 h 1 m
+4928335,JP Flavin,12820803836,Time to force the fitness,,2024-11-04 13:02:03+00:00,3681,Run,"Rochester, USA",16.1,3.73,1 h 0 m
+4928335,JP Flavin,12922570248,I’m tired grandpa,,2024-11-17 13:07:05+00:00,5516,Run,"Lake Orion, USA",22.55,3.93,1 h 28 m
+4928335,JP Flavin,12916663432,Dumb and silly,,2024-11-16 19:59:45+00:00,1759,Run,"Rochester, USA",8.06,3.57,28 m 46 s
+4928335,JP Flavin,12914126083,Whiny midwest emo Saturday morning,,2024-11-16 13:10:50+00:00,4250,Run,"Pontiac, USA",16.12,3.98,1 h 4 m
+4928335,JP Flavin,12906835028,Fart the clown,Running like Art is behind me,2024-11-15 13:05:50+00:00,6399,Run,"Rochester, USA",28.98,3.47,1 h 40 m
+4928335,JP Flavin,12899386644,Singing goo goo dolls in the rain,Running is so romantic,2024-11-14 13:02:01+00:00,5881,Run,"Rochester Hills, USA",22.55,4.05,1 h 31 m
+4928335,JP Flavin,12894899018,WFH rules,,2024-11-13 21:17:23+00:00,1878,Run,"Rochester, USA",8.06,3.85,31 m 0 s
+4928335,JP Flavin,12891616015,What’s in that barrel,,2024-11-13 13:03:16+00:00,4251,Run,"Rochester, USA",16.62,3.98,1 h 6 m
+4928335,JP Flavin,12883821228,Grass is demoralizing,"4xmile, 600 (4:45~4:37), 1:43’s Tough but good one",2024-11-12 12:38:22+00:00,6925,Run,"Rochester Hills, USA",19.63,4.03,1 h 19 m
+4928335,JP Flavin,12879250291,Racing the sunset,Don’t have many more wins,2024-11-11 22:08:24+00:00,1744,Run,"Bloomfield Hills, USA",7.32,3.88,28 m 26 s
+4928335,JP Flavin,12875607734,Cowboy blues,🦅,2024-11-11 13:02:07+00:00,3930,Run,"Rochester, USA",16.11,3.88,1 h 2 m
+4928335,JP Flavin,12975510533,Graveyard loop,"Anyone know of a turkey trot in TR, asking for a friend",2024-11-24 19:01:08+00:00,2268,Run,"Rochester, USA",9.74,3.88,37 m 48 s
+4928335,JP Flavin,12973302657,Chaos,,2024-11-24 13:02:37+00:00,4185,Run,"Oakland Charter Township, USA",16.16,4.07,1 h 5 m
+4928335,JP Flavin,12968159727,I’m in your mind,,2024-11-23 21:19:35+00:00,2265,Run,"Rochester, USA",9.68,3.83,37 m 11 s
+4928335,JP Flavin,12965435714,Rodeo clown,,2024-11-23 13:01:41+00:00,3737,Run,"Washington Charter Township, USA",16.13,3.87,1 h 2 m
+4928335,JP Flavin,12958496550,Icky icky,"4x2 mile @ 5:00, -5 each rep 10:02 (5:02, 5:00) 9:44 (4:52, 4:52) 9:44 (4:51, 4:53) 9:20 (4:40, 4:40) Wind was either a hero or a villain depending on the direction of the rep",2024-11-22 12:26:10+00:00,7591,Run,"Washington Charter Township, USA",25.76,3.75,1 h 36 m
+4928335,JP Flavin,12954470972,Light upon the lake,,2024-11-21 21:29:27+00:00,2338,Run,"Bloomfield Hills, USA",9.75,3.97,38 m 42 s
+4928335,JP Flavin,12951633346,Goodbye sun,I’m begging this app to please stop updating and making it unusable,2024-11-21 13:03:55+00:00,4191,Run,"Rochester Hills, USA",16.11,4.02,1 h 4 m
+4928335,JP Flavin,12944405945,Nobody higher,,2024-11-20 13:02:39+00:00,5580,Run,"Rochester, USA",22.55,3.88,1 h 27 m
+4928335,JP Flavin,12940039906,Light hunting,Either a headlamp or the treadmill is in my future and I want to deal with neither,2024-11-19 22:06:42+00:00,2024,Run,"Bloomfield Hills, USA",8.57,3.92,33 m 39 s
+4928335,JP Flavin,12936638688,Ring ring,,2024-11-19 13:03:41+00:00,4107,Run,"Rochester, USA",16.26,4.02,1 h 5 m
+4928335,JP Flavin,12929201403,Ring around the rosey,10x800,2024-11-18 12:26:54+00:00,6244,Run,"Rochester Hills, USA",19.07,3.87,1 h 13 m
+4928335,JP Flavin,13024200459,Rivers and roads,,2024-12-01 13:19:15+00:00,5913,Run,"Berkeley Township, USA",22.55,4.25,1 h 35 m
+4928335,JP Flavin,13018766383,Another dollar in the cookie jar,,2024-11-30 21:12:55+00:00,2089,Run,"Berkeley Township, USA",8.14,4.28,34 m 49 s
+4928335,JP Flavin,13016792300,Y’all mind if I roll this pork,,2024-11-30 14:16:56+00:00,5125,Run,"Howell Township, USA",20.94,3.87,1 h 20 m
+4928335,JP Flavin,13011516204,Back and forth,Running at the reservoir tomorrow if anyone wants to tag along,2024-11-29 21:09:15+00:00,2409,Run,"Berkeley Township, USA",9.69,4.08,39 m 35 s
+4928335,JP Flavin,13009785436,Small shoulders,TR hates being safe for runners,2024-11-29 14:56:58+00:00,4985,Run,"Toms River, USA",19.33,4.13,1 h 19 m
+4928335,JP Flavin,13002467773,Gobble Wobble,Lots of random mileage with a 14:40 in there. Fun day. I may hit 100+ miles with less than 1k vert for the week.,2024-11-28 12:28:50+00:00,8941,Run,"Stafford Township, USA",22.98,3.83,1 h 28 m
+4928335,JP Flavin,12995081745,Loop de loop,,2024-11-27 12:21:06+00:00,7132,Run,"Ann Arbor, USA",22.54,4.1,1 h 32 m
+4928335,JP Flavin,12990891532,Rose Pink Cadillac spotted,,2024-11-26 21:42:20+00:00,2419,Run,"Bloomfield Hills, USA",9.66,4.12,39 m 48 s
+4928335,JP Flavin,12987576359,Kung powed,,2024-11-26 13:03:15+00:00,5342,Run,"Rochester, USA",19.32,4.12,1 h 19 m
+4928335,JP Flavin,12979966627,Tender,"2 mile @ 9:28 (4:44, 4:44) 10x400 @ 70~68 2 mile @ 9:21 (4:35, 4:46)",2024-11-25 12:27:17+00:00,6945,Run,"Washington Charter Township, USA",23.03,3.92,1 h 30 m
+4928335,JP Flavin,13075352732,Crazy what 2 days off will do,,2024-12-08 21:01:46+00:00,2200,Run,"Rochester, USA",9.81,3.58,35 m 5 s
+4928335,JP Flavin,13072863207,Toasty one,,2024-12-08 13:05:10+00:00,4709,Run,"Lake Orion, USA",19.32,3.93,1 h 16 m
+4928335,JP Flavin,13065914826,The haters said I couldn’t,But here I am,2024-12-07 13:12:05+00:00,5052,Run,"Rochester, USA",19.33,4.07,1 h 18 m
+4928335,JP Flavin,13052055553,Slip and spilled,Womp womp,2024-12-05 12:29:54+00:00,1451,Run,"Rochester Hills, USA",2.44,4.65,11 m 24 s
+4928335,JP Flavin,13045575638,2 cold 2 laugh,,2024-12-04 13:06:15+00:00,4146,Run,"Washington Charter Township, USA",16.13,4.05,1 h 5 m
+4928335,JP Flavin,13041153091,🤐,I don’t think Spotify wrapped should come out until the end of December,2024-12-03 21:43:48+00:00,2358,Run,"Bloomfield Hills, USA",9.84,3.93,38 m 41 s
+4928335,JP Flavin,13037805374,Ice beard szn,,2024-12-03 13:06:37+00:00,4423,Run,"Rochester, USA",16.11,4.0,1 h 4 m
+4928335,JP Flavin,13030626878,Fueled by nuggies,Glad my legs feel their best after driving 12 hours. This sport is so dumb,2024-12-02 13:03:31+00:00,6222,Run,"Washington Charter Township, USA",28.98,3.45,1 h 40 m
+4928335,JP Flavin,13116841829,Club XC - 37th,Brutally muddy to the point where I fell twice. Embarrassing as hell but I guess finishing this high up is a win lol. Would’ve been fun to compete but I guess playing catchup will have to do,2024-12-14 22:09:19+00:00,1939,Run,,10.0,3.23,32 m 19 s
+4928335,JP Flavin,13116816358,CD,,2024-12-14 21:56:28+00:00,2018,Run,"University Place, USA",6.47,4.8,31 m 8 s
+4928335,JP Flavin,13116814955,Wu,,2024-12-14 20:05:19+00:00,1102,Run,"University Place, USA",4.05,4.13,16 m 45 s
+4928335,JP Flavin,13114977738,Quakeout,,2024-12-14 16:15:15+00:00,615,Run,"Pierce County, USA",2.32,4.35,10 m 6 s
+4928335,JP Flavin,13109409155,Anyone wanna mud wrestle,,2024-12-13 20:18:23+00:00,3276,Run,"University Place, USA",10.8,3.93,42 m 28 s
+4928335,JP Flavin,13103812942,Misty,Son of Father John,2024-12-13 00:06:28+00:00,1774,Run,"Summit, USA",6.52,4.0,26 m 4 s
+4928335,JP Flavin,13102087050,Saw a seal,And then he sang Kiss from a Rose to me,2024-12-12 18:21:45+00:00,3326,Run,"Tacoma, USA",12.94,3.93,50 m 50 s
+4928335,JP Flavin,13094083091,Trying out for the Mariners this weekend,,2024-12-11 15:32:22+00:00,4289,Run,"Seattle, USA",16.13,4.08,1 h 5 m
+4928335,JP Flavin,13086015534,Spin spin spin,"If you’re racing club xc and you’re reading this I need you to understand that you stand no chance. I’m too fast, too powerful. You may as well give up",2024-12-10 12:25:41+00:00,6306,Run,"Rochester Hills, USA",20.54,3.88,1 h 19 m
+4928335,JP Flavin,13079037694,Wet and wild,,2024-12-09 13:05:31+00:00,5101,Run,"Rochester, USA",19.33,4.03,1 h 18 m
+4928335,JP Flavin,13168835190,Stay frosty,4x2; splits below Bad Oh no Decent Salvaged the day,2024-12-22 12:27:03+00:00,7696,Run,"Washington Charter Township, USA",25.44,3.92,1 h 39 m
+4928335,JP Flavin,13164005629,Warm thoughts,,2024-12-21 20:14:36+00:00,2428,Run,"Rochester Hills, USA",9.67,3.98,38 m 33 s
+4928335,JP Flavin,13161856488,No slips,,2024-12-21 13:02:32+00:00,5241,Run,"Rochester, USA",19.35,4.22,1 h 21 m
+4928335,JP Flavin,13155418036,Winter wonderland,,2024-12-20 13:05:59+00:00,5972,Run,"Washington Charter Township, USA",20.78,4.22,1 h 27 m
+4928335,JP Flavin,13151672795,Only a couple good things about running in the dark,Can’t see how nasty a porta potty is,2024-12-19 21:57:59+00:00,2480,Run,"Bloomfield Hills, USA",9.85,4.0,39 m 29 s
+4928335,JP Flavin,13148907413,Grunge twee Thursday morning,,2024-12-19 13:02:49+00:00,5009,Run,"Rochester, USA",19.33,3.98,1 h 16 m
+4928335,JP Flavin,13142362941,Rippity doo da,,2024-12-18 13:05:17+00:00,6307,Run,"Washington Charter Township, USA",29.01,3.37,1 h 37 m
+4928335,JP Flavin,13138121585,All hail the worms,,2024-12-17 21:46:13+00:00,2329,Run,"Bloomfield Hills, USA",9.7,4.0,38 m 46 s
+4928335,JP Flavin,13134909741,Scorpion vs plague doctor,,2024-12-17 13:03:36+00:00,4717,Run,"Rochester Hills, USA",19.32,3.92,1 h 15 m
+4928335,JP Flavin,13130640550,Embraced the mist,,2024-12-16 21:35:13+00:00,2335,Run,"Bloomfield Hills, USA",9.93,3.92,38 m 55 s
+4928335,JP Flavin,13127838071,Back in town,,2024-12-16 13:04:10+00:00,5258,Run,"Rochester, USA",19.33,4.08,1 h 18 m
+4928335,JP Flavin,13216423745,"Rain, pouring,",,2024-12-29 12:38:08+00:00,6077,Run,"Asheville, USA",22.58,4.18,1 h 34 m
+4928335,JP Flavin,13211374906,Cheat code first mile got me rolling,,2024-12-28 20:49:13+00:00,2185,Run,"Buncombe County, USA",9.68,3.63,35 m 13 s
+4928335,JP Flavin,13209933025,More uphill adventuring,,2024-12-28 15:22:24+00:00,5382,Run,"Asheville, USA",19.35,4.18,1 h 20 m
+4928335,JP Flavin,13203714736,Moofasa,,2024-12-27 21:06:49+00:00,2352,Run,"Buncombe County, USA",9.67,4.02,38 m 52 s
+4928335,JP Flavin,13201343332,Light upon the lake,OG’s know,2024-12-27 13:51:34+00:00,4600,Run,"Haywood County, USA",19.33,3.83,1 h 14 m
+4928335,JP Flavin,13194805223,Gravel gnome,5x1.5 @ 7:00 Toughie but good one,2024-12-26 14:22:47+00:00,6483,Run,"Buncombe County, USA",25.79,3.53,1 h 31 m
+4928335,JP Flavin,13188929783,Jingling along,,2024-12-25 16:44:47+00:00,5798,Run,"Buncombe County, USA",22.55,4.17,1 h 33 m
+4928335,JP Flavin,13184010389,Hellboy on Christmas Eve,Getting into the holiday spirit,2024-12-24 20:24:21+00:00,2326,Run,"Buncombe County, USA",9.7,3.97,38 m 32 s
+4928335,JP Flavin,13182452483,Terra nova ya,,2024-12-24 14:14:37+00:00,5384,Run,"Asheville, USA",19.33,4.17,1 h 20 m
+4928335,JP Flavin,13175422298,Adventuring,& armpit chafing & getting chased by dogs,2024-12-23 14:44:44+00:00,5318,Run,"Henderson County, USA",22.56,3.67,1 h 22 m
+45537525,Thomas Bridger,12866672030,Group long run,,2024-11-10 09:37:43+00:00,6063,Run,"Birmingham, United Kingdom",19.44,4.5,1 h 27 m
+45537525,Thomas Bridger,12860868786,CD,,2024-11-09 15:22:17+00:00,1175,Run,"West Northamptonshire, United Kingdom",3.72,,18 m 26 s
+45537525,Thomas Bridger,12860342874,Brum league xc,4th,2024-11-09 14:31:53+00:00,1810,Run,"West Northamptonshire, United Kingdom",9.61,,30 m 10 s
+45537525,Thomas Bridger,12859849542,Afternoon Run,,2024-11-09 13:43:15+00:00,1677,Run,"West Northamptonshire, United Kingdom",3.28,4.97,16 m 18 s
+45537525,Thomas Bridger,12857681679,Shakeout,,2024-11-09 09:45:03+00:00,942,Run,"Birmingham, United Kingdom",3.32,4.72,15 m 42 s
+45537525,Thomas Bridger,12851379282,Shakeout and strides,,2024-11-08 11:36:33+00:00,2121,Run,"Birmingham, United Kingdom",7.23,4.63,33 m 27 s
+45537525,Thomas Bridger,12845392434,Morning Run,90+5,2024-11-07 07:43:23+00:00,1416,Run,"Égat, France",4.91,,23 m 32 s
+45537525,Thomas Bridger,12838996846,Double,Was planning the last run in font to be at the plateau but ruined by Dr Hui's problem sheet due at 7,2024-11-06 18:05:55+00:00,2487,Run,"Égat, France",8.05,5.07,40 m 49 s
+45537525,Thomas Bridger,12835799458,CD,,2024-11-06 10:30:24+00:00,1420,Run,"Font-Romeu-Odeillo-Via, France",4.01,5.3,21 m 17 s
+45537525,Thomas Bridger,12835798648,"4*1k, 2*600, 1k, 600, 5*200",,2024-11-06 09:25:51+00:00,2622,Run,"Font-Romeu-Odeillo-Via, France",10.14,4.28,43 m 27 s
+45537525,Thomas Bridger,12835792529,WU,,2024-11-06 08:28:02+00:00,1928,Run,"Font-Romeu-Odeillo-Via, France",4.05,4.68,19 m 0 s
+45537525,Thomas Bridger,12826966044,Sub 7 average for Fin's birthday treat,,2024-11-05 08:24:06+00:00,4022,Run,"Bolquère, France",14.49,4.32,1 h 2 m
+45537525,Thomas Bridger,12822156599,Double,And strides,2024-11-04 16:22:32+00:00,3095,Run,"Bolquère, France",8.73,4.55,39 m 47 s
+45537525,Thomas Bridger,12819754268,CD,,2024-11-04 10:30:03+00:00,1260,Run,"Font-Romeu-Odeillo-Via, France",3.88,5.05,19 m 38 s
+45537525,Thomas Bridger,12819753292,7* mile tempo,"5.15, 5.10, 5.10 (2.4mmol), 5.01, 5.05, 5.00 (2.9mmol), 4.58",2024-11-04 09:31:44+00:00,2783,Run,"Font-Romeu-Odeillo-Via, France",12.7,3.3,41 m 50 s
+45537525,Thomas Bridger,12819753352,WU,,2024-11-04 08:39:18+00:00,1593,Run,"Font-Romeu-Odeillo-Via, France",4.02,4.73,19 m 5 s
+45537525,Thomas Bridger,12900315585,CD,Post mac,2024-11-14 17:03:09+00:00,443,Run,"Birmingham, United Kingdom",1.61,,7 m 18 s
+45537525,Thomas Bridger,12900315661,Progression,Tempoo in the mac💩,2024-11-14 15:35:15+00:00,5157,Run,"Birmingham, United Kingdom",19.32,3.85,1 h 14 m
+45537525,Thomas Bridger,12893178428,CD,,2024-11-13 17:34:46+00:00,1395,Run,"Birmingham, United Kingdom",4.02,4.95,19 m 58 s
+45537525,Thomas Bridger,12892862446,"2*90s, 3*8 tempo, 3*1",,2024-11-13 16:31:55+00:00,2763,Run,"Birmingham, United Kingdom",11.54,3.88,44 m 46 s
+45537525,Thomas Bridger,12892392129,WU,,2024-11-13 15:56:57+00:00,1269,Run,"Birmingham, United Kingdom",4.02,4.58,18 m 28 s
+45537525,Thomas Bridger,12890325132,Shakeout,With Ross,2024-11-13 10:39:06+00:00,1885,Run,"Birmingham, United Kingdom",6.52,4.6,30 m 0 s
+45537525,Thomas Bridger,12886140804,Group run,,2024-11-12 18:19:26+00:00,5108,Run,"Birmingham, United Kingdom",14.48,4.78,1 h 9 m
+45537525,Thomas Bridger,12882339111,Morning Swim,,2024-11-12 09:46:54+00:00,1790,Swim,,1.0,,1:46 /100m
+45537525,Thomas Bridger,12876897005,Lab testing,"WU, submax, V02 max, CD",2024-11-11 17:03:04+00:00,4800,Run,,20.43,3.92,1 h 20 m
+45537525,Thomas Bridger,12965770670,Afternoon Run,,2024-11-23 14:43:44+00:00,1552,Run,"Liverpool, United Kingdom",3.91,5.18,20 m 18 s
+45537525,Thomas Bridger,12964888055,Lunch Run,,2024-11-23 12:53:52+00:00,1301,Run,"Liverpool, United Kingdom",2.8,5.05,14 m 10 s
+45537525,Thomas Bridger,12963010643,Shakeout,,2024-11-23 09:06:45+00:00,609,Run,"Liverpool, United Kingdom",1.98,5.07,10 m 2 s
+45537525,Thomas Bridger,12957900175,Shakeout and strides,Howler of a map,2024-11-22 12:07:43+00:00,2580,Run,"Birmingham, United Kingdom",6.46,4.67,30 m 7 s
+45537525,Thomas Bridger,12944416209,6,,2024-11-20 13:51:11+00:00,2719,Run,"Birmingham, United Kingdom",9.92,4.33,42 m 56 s
+45537525,Thomas Bridger,12938929048,CD,,2024-11-19 16:59:58+00:00,5845,Run,"Birmingham, United Kingdom",3.22,4.83,15 m 35 s
+45537525,Thomas Bridger,12938929118,"Mile T, 8*300, mile T",off big recovery because Harry Fisher is unfit,2024-11-19 16:07:01+00:00,2317,Run,"Birmingham, United Kingdom",7.2,5.28,38 m 7 s
+45537525,Thomas Bridger,12938928889,Afternoon Run,,2024-11-19 15:30:39+00:00,1902,Run,"Birmingham, United Kingdom",3.08,4.43,13 m 41 s
+45537525,Thomas Bridger,12935651187,Shakeout,Dreams of a dry Liverpool rapidly fading,2024-11-19 11:19:25+00:00,1414,Run,"Birmingham, United Kingdom",4.83,4.82,23 m 14 s
+45537525,Thomas Bridger,12931026023,7 and strides,,2024-11-18 17:45:50+00:00,3553,Run,"Birmingham, United Kingdom",11.28,4.68,52 m 48 s
+45537525,Thomas Bridger,13025924229,Swim,8*150 off 25s.,2024-12-01 18:06:52+00:00,1373,Swim,,1.0,,1:37 /100m
+45537525,Thomas Bridger,13022202041,Group run,,2024-12-01 09:37:23+00:00,4883,Run,"Birmingham, United Kingdom",15.01,4.57,1 h 8 m
+45537525,Thomas Bridger,13018353580,Double with Tyler,,2024-11-30 19:34:27+00:00,2343,Run,"Birmingham, United Kingdom",8.09,4.73,38 m 20 s
+45537525,Thomas Bridger,13015280116,CD,,2024-11-30 12:07:43+00:00,1387,Run,"Birmingham, United Kingdom",4.03,4.87,19 m 35 s
+45537525,Thomas Bridger,13014975880,"1,2,3,4,5,5,4,3,2,1 off 90s jog",A slog,2024-11-30 11:06:02+00:00,2612,Run,"Birmingham, United Kingdom",12.68,3.38,42 m 59 s
+45537525,Thomas Bridger,13014975748,WU,,2024-11-30 10:37:06+00:00,1319,Run,"Birmingham, United Kingdom",3.29,4.53,14 m 54 s
+45537525,Thomas Bridger,13001556787,Progressive long run,Rea valley with slight add on...,2024-11-28 11:16:47+00:00,5712,Run,"Birmingham, United Kingdom",24.14,3.78,1 h 31 m
+45537525,Thomas Bridger,12997443191,CD,,2024-11-27 19:36:26+00:00,1606,Run,"Birmingham, United Kingdom",4.03,5.42,21 m 52 s
+45537525,Thomas Bridger,12997443118,"1k T, 12*600 (200j), 1kT",A lot of icy 70s in a Fin sandwich,2024-11-27 18:45:42+00:00,2505,Run,"Birmingham, United Kingdom",11.95,3.32,39 m 36 s
+45537525,Thomas Bridger,12997443173,WU,,2024-11-27 18:07:09+00:00,1644,Run,"Birmingham, United Kingdom",4.03,4.92,19 m 50 s
+45537525,Thomas Bridger,12993580661,Shakeout,,2024-11-27 09:55:24+00:00,1319,Run,"South Cambridgeshire, United Kingdom",4.9,4.48,21 m 59 s
+45537525,Thomas Bridger,12988737207,Easy run,down the river in the dark to get the heart rate up,2024-11-26 16:21:47+00:00,4268,Run,"South Cambridgeshire, United Kingdom",14.48,4.42,1 h 3 m
+45537525,Thomas Bridger,12985910009,Morning Swim,6*200 (30s),2024-11-26 09:15:35+00:00,1391,Swim,,1.0,,1:40 /100m
+45537525,Thomas Bridger,12982274749,Run,,2024-11-25 19:06:21+00:00,2668,Run,"Birmingham, United Kingdom",8.05,4.85,39 m 5 s
+45537525,Thomas Bridger,12979024847,CD,,2024-11-25 11:21:35+00:00,1164,Run,"Birmingham, United Kingdom",2.67,4.9,13 m 6 s
+45537525,Thomas Bridger,12979025560,8*4 Tempo off 1,Wirh Tyler Tyler Bilyard I hope you are happy u can see this,2024-11-25 10:32:41+00:00,2342,Run,"Birmingham, United Kingdom",11.73,3.33,39 m 2 s
+45537525,Thomas Bridger,12979024850,WU,,2024-11-25 10:06:02+00:00,874,Run,"Birmingham, United Kingdom",3.22,4.38,14 m 8 s
+45537525,Thomas Bridger,13074127827,Afternoon Run,Not a step over 80,2024-12-08 16:25:03+00:00,4568,Run,"Birmingham, United Kingdom",15.4,4.72,1 h 12 m
+45537525,Thomas Bridger,13067559852,Double,Above average pre run fuelling,2024-12-07 18:51:42+00:00,2502,Run,"Birmingham, United Kingdom",8.05,4.48,36 m 8 s
+45537525,Thomas Bridger,13065041953,CD,,2024-12-07 12:01:41+00:00,1394,Run,"Birmingham, United Kingdom",3.85,4.8,18 m 30 s
+45537525,Thomas Bridger,13065042455,Tempo and hills,Time at the crease,2024-12-07 11:04:53+00:00,2673,Run,"Birmingham, United Kingdom",10.76,,44 m 33 s
+45537525,Thomas Bridger,13065042072,WU,,2024-12-07 10:36:54+00:00,1491,Run,"Birmingham, United Kingdom",3.96,4.98,19 m 47 s
+45537525,Thomas Bridger,13051629732,Run,run to go and see rawlo and congratulate him on his 1550m pacing job yesterday 👏 Liam Rawlings,2024-12-05 11:53:46+00:00,896,Run,"Birmingham, United Kingdom",1.0,4.78,4 m 47 s
+45537525,Thomas Bridger,13051629860,Progressive long run,,2024-12-05 10:21:24+00:00,5304,Run,"Birmingham, United Kingdom",20.93,3.97,1 h 23 m
+45537525,Thomas Bridger,13047801020,6*mile off lap jog,"4.42,4.43,4.39,4.39,4.38,4.28",2024-12-04 19:05:02+00:00,2278,Run,"Birmingham, United Kingdom",12.07,3.1,37 m 22 s
+45537525,Thomas Bridger,13047800917,CD,Was just too hungry to hit 2 mile,2024-12-04 19:54:19+00:00,1164,Run,"Birmingham, United Kingdom",2.82,5.4,15 m 15 s
+45537525,Thomas Bridger,13047809886,WU,,2024-12-04 18:27:17+00:00,1580,Run,"Birmingham, United Kingdom",4.24,4.57,19 m 24 s
+45537525,Thomas Bridger,13044342250,Shakeout,bit of triangle loop with tomos and sinc,2024-12-04 11:08:29+00:00,1890,Run,"Birmingham, United Kingdom",6.44,4.9,31 m 30 s
+45537525,Thomas Bridger,13040481216,Treadmill,staring competition versus the wall,2024-12-03 19:31:36+00:00,3657,Run,,14.49,4.13,59 m 48 s
+45537525,Thomas Bridger,13032482002,Speed drills,with 4*100 strides (racing will),2024-12-02 18:05:36+00:00,5055,Run,"Birmingham, United Kingdom",8.06,4.87,39 m 10 s
+45537525,Thomas Bridger,13029977554,CD,,2024-12-02 12:41:56+00:00,882,Run,"Birmingham, United Kingdom",3.24,4.28,13 m 55 s
+45537525,Thomas Bridger,13029977595,6*Mile tempo off 60s walk,4.56 average,2024-12-02 12:00:55+00:00,2083,Run,"Birmingham, United Kingdom",10.2,3.4,34 m 43 s
+45537525,Thomas Bridger,13029977561,WU,,2024-12-02 11:35:42+00:00,874,Run,"Birmingham, United Kingdom",3.22,4.33,13 m 57 s
+45537525,Thomas Bridger,13120201108,CD,,2024-12-15 11:21:36+00:00,1717,Run,"Telford and Wrekin, United Kingdom",5.16,4.88,25 m 16 s
+45537525,Thomas Bridger,13119697599,Telford 10k 29.19,14.31 and 14.48 for the 5k splits,2024-12-15 10:15:00+00:00,1761,Run,"Telford and Wrekin, United Kingdom",10.0,2.93,29 m 21 s
+45537525,Thomas Bridger,13118888026,WU,,2024-12-15 09:25:28+00:00,937,Run,"Telford and Wrekin, United Kingdom",3.07,4.8,14 m 45 s
+45537525,Thomas Bridger,13113375806,Shake and strides,,2024-12-14 12:12:59+00:00,2227,Run,"Birmingham, United Kingdom",6.44,4.73,30 m 33 s
+45537525,Thomas Bridger,13099638825,6,,2024-12-12 11:49:24+00:00,2700,Run,"Birmingham, United Kingdom",9.65,4.45,42 m 57 s
+45537525,Thomas Bridger,13095515034,CD,,2024-12-11 19:41:37+00:00,1381,Run,"Birmingham, United Kingdom",3.22,5.12,16 m 30 s
+45537525,Thomas Bridger,13095515041,"4*1k, 5*400 pre Telford",Smart volunteered to take a rep and rawlo managed to shut up for almost an entire rep. Dreamy session,2024-12-11 19:02:37+00:00,1556,Run,"Birmingham, United Kingdom",7.04,3.53,24 m 52 s
+45537525,Thomas Bridger,13095515120,WU,,2024-12-11 18:20:52+00:00,1406,Run,"Birmingham, United Kingdom",3.64,4.83,17 m 38 s
+45537525,Thomas Bridger,13092389755,Shakeout,,2024-12-11 11:34:54+00:00,1302,Run,"Birmingham, United Kingdom",4.83,4.5,21 m 42 s
+45537525,Thomas Bridger,13088075947,Group run,,2024-12-10 18:02:22+00:00,4285,Run,"Birmingham, United Kingdom",9.75,4.58,44 m 47 s
+45537525,Thomas Bridger,13084760230,Swim,7*200 off 30s,2024-12-10 09:20:17+00:00,1677,Swim,,1.0,,1:41 /100m
+45537525,Thomas Bridger,13080954949,Speed drills,3*150,2024-12-09 18:12:51+00:00,4941,Run,"Birmingham, United Kingdom",6.46,4.85,31 m 23 s
+45537525,Thomas Bridger,13078528448,Progression,,2024-12-09 12:19:59+00:00,2291,Run,"Birmingham, United Kingdom",9.66,3.93,37 m 57 s
+45537525,Thomas Bridger,13168735969,Slr,Not 14 unfortunately,2024-12-22 13:04:24+00:00,5994,Run,"South Cambridgeshire, United Kingdom",22.53,4.07,1 h 31 m
+45537525,Thomas Bridger,13163610332,Double,,2024-12-21 18:50:08+00:00,1834,Run,"South Cambridgeshire, United Kingdom",6.44,4.52,29 m 7 s
+45537525,Thomas Bridger,13162071460,"5*(4,3,2) progression off 90s/3 mins","Back to proper recoveries none of this float nonsense 65,46,30 61,45,29 59, 43,28 56,41,26 52,40,26 CD",2024-12-21 14:54:16+00:00,2700,Run,,8.36,5.38,45 m 0 s
+45537525,Thomas Bridger,13162011649,CD,watch died,2024-12-21 12:07:23+00:00,576,Run,"Greater London, United Kingdom",1.73,4.97,8 m 37 s
+45537525,Thomas Bridger,13162011637,WU,,2024-12-21 10:30:43+00:00,946,Run,"Greater London, United Kingdom",3.22,4.58,14 m 45 s
+45537525,Thomas Bridger,13153808535,Turtleheading,,2024-12-20 09:05:57+00:00,3365,Run,"South Cambridgeshire, United Kingdom",13.05,4.18,54 m 34 s
+45537525,Thomas Bridger,13150636345,Double,,2024-12-19 18:52:00+00:00,1839,Run,"South Cambridgeshire, United Kingdom",6.43,4.47,28 m 46 s
+45537525,Thomas Bridger,13148234606,CD,,2024-12-19 12:08:23+00:00,1090,Run,"South Cambridgeshire, United Kingdom",3.21,4.37,14 m 2 s
+45537525,Thomas Bridger,13148234369,Progressive tempo,back in eddington wind tunnel,2024-12-19 11:26:17+00:00,1934,Run,"South Cambridgeshire, United Kingdom",9.65,3.33,32 m 14 s
+45537525,Thomas Bridger,13148234597,WU,,2024-12-19 10:48:54+00:00,1216,Run,"South Cambridgeshire, United Kingdom",3.22,4.57,14 m 43 s
+45537525,Thomas Bridger,13137383138,CD,,2024-12-17 19:22:59+00:00,748,Run,"South Cambridgeshire, United Kingdom",2.71,4.6,12 m 28 s
+45537525,Thomas Bridger,13137383168,"10,7.5,5,2.5 T off 2",,2024-12-17 18:35:19+00:00,1883,Run,"South Cambridgeshire, United Kingdom",8.5,3.43,29 m 7 s
+45537525,Thomas Bridger,13137383151,WU,,2024-12-17 18:07:23+00:00,796,Run,"South Cambridgeshire, United Kingdom",2.75,4.82,13 m 16 s
+45537525,Thomas Bridger,13134502331,Shakeout,,2024-12-17 11:52:57+00:00,1946,Run,"Birmingham, United Kingdom",6.46,4.72,30 m 31 s
+45537525,Thomas Bridger,13129505307,Afternoon Run,A slog,2024-12-16 17:55:45+00:00,4298,Run,"Birmingham, United Kingdom",9.0,4.9,44 m 3 s
+45537525,Thomas Bridger,13216251088,Slr,,2024-12-29 12:16:24+00:00,6223,Run,"Eastleigh, United Kingdom",21.22,4.38,1 h 32 m
+45537525,Thomas Bridger,13210466233,CD,,2024-12-28 12:55:14+00:00,1490,Run,"Greater London, United Kingdom",4.82,4.63,22 m 24 s
+45537525,Thomas Bridger,13210500437,Indoor prep,"6,2,5,3,4,4,4*2 off 90/2 mins 1.32,28,75,43,55,54,27/8s",2024-12-28 12:30:44+00:00,1680,Run,,4.82,5.8,28 m 0 s
+45537525,Thomas Bridger,13210466343,WU,,2024-12-28 11:36:34+00:00,878,Run,"Greater London, United Kingdom",3.22,4.25,13 m 43 s
+45537525,Thomas Bridger,13195759264,Double,Tour de Waterbeach,2024-12-26 18:19:35+00:00,1822,Run,"South Cambridgeshire, United Kingdom",6.71,4.47,30 m 1 s
+45537525,Thomas Bridger,13192850461,CD,,2024-12-26 11:51:44+00:00,906,Run,"Cambridge, United Kingdom",3.21,4.68,15 m 6 s
+45537525,Thomas Bridger,13192850607,"4 progression, 3*1T",Including the Cambridge boxing day 4 miler,2024-12-26 11:02:24+00:00,2594,Run,"Cambridge, United Kingdom",12.1,3.48,42 m 11 s
+45537525,Thomas Bridger,13192851009,WU,,2024-12-26 10:27:25+00:00,1094,Run,"Cambridge, United Kingdom",3.22,4.62,14 m 53 s
+45537525,Thomas Bridger,13189168525,Double with jonty,,2024-12-25 18:58:57+00:00,1862,Run,"South Cambridgeshire, United Kingdom",6.46,4.65,30 m 3 s
+45537525,Thomas Bridger,13186945806,8,Wasn't motivated enough to run on Christmas and run early,2024-12-25 11:05:06+00:00,3728,Run,"South Cambridgeshire, United Kingdom",12.88,4.33,55 m 52 s
+45537525,Thomas Bridger,13183999167,Double,,2024-12-24 20:23:28+00:00,1787,Run,"South Cambridgeshire, United Kingdom",6.44,4.62,29 m 47 s
+45537525,Thomas Bridger,13180907369,CD,,2024-12-24 12:01:51+00:00,1417,Run,"South Cambridgeshire, United Kingdom",4.35,4.78,20 m 50 s
+45537525,Thomas Bridger,13180514268,6*5 tempo off 90s,Scored a screamer in the WU off Thomas Keen 's cross 4.54 average,2024-12-24 10:56:17+00:00,2254,Run,"South Cambridgeshire, United Kingdom",11.23,3.33,37 m 28 s
+45537525,Thomas Bridger,13180514407,WU,,2024-12-24 10:24:42+00:00,853,Run,"South Cambridgeshire, United Kingdom",3.22,4.42,14 m 13 s
+45537525,Thomas Bridger,13176823926,Evening Swim,Watched someone do a 66s doggystyle length in the sub 30s lane. taking the piss 8*200 off 25s,2024-12-23 19:53:02+00:00,1855,Swim,,1.0,,1:40 /100m
+45537525,Thomas Bridger,13174711962,Afternoon Run,Giuliana on domestique duties 🚲,2024-12-23 13:15:49+00:00,4073,Run,"South Cambridgeshire, United Kingdom",14.7,4.45,1 h 5 m
