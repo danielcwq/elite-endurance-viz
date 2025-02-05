@@ -16,6 +16,7 @@ class DatabaseConnection:
     
     def get_athlete_metadata(self, athlete_name: str):
         # Make case-insensitive search
+        athlete_name = athlete_name.strip()
         result = self.db.athlete_metadata.find_one({
             "Competitor": {"$regex": f"^{athlete_name}$", "$options": "i"}
         })
@@ -23,6 +24,7 @@ class DatabaseConnection:
 
     def get_athlete_activities(self, athlete_name: str):
         # Make case-insensitive search
+        athlete_name = athlete_name.strip()
         return list(self.db.activities.find({
             "Athlete Name": {"$regex": f"^{athlete_name}$", "$options": "i"}
         }).sort("Start Date", -1))

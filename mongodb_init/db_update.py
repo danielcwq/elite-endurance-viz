@@ -2,8 +2,16 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import logging
 
 load_dotenv()
+
+logging.basicConfig(
+    filename='../logs/automation.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 def refresh_mongodb_data():
     """Refresh MongoDB collections with latest CSV data"""
@@ -15,32 +23,27 @@ def refresh_mongodb_data():
     try:
         # Update athlete metadata
         athlete_metadata = pd.read_csv('../cleaned_athlete_metadata.csv')
-        print(f"Read {len(athlete_metadata)} records from athlete metadata CSV")
-        
         db['athlete_metadata'].drop()
-        print("Dropped existing athlete metadata collection")
-        
-        athlete_metadata_dict = athlete_metadata.to_dict(orient='records')
-        db['athlete_metadata'].insert_many(athlete_metadata_dict)
-        
-        metadata_count = db['athlete_metadata'].count_documents({})
-        print(f"Successfully uploaded {metadata_count} records to athlete_metadata collection")
+        db['athlete_metadata'].insert_many(athlete_metadata.to_dict(orient='records'))
+        logger.info(f"Uploaded {len(athlete_metadata)} records to athlete_metadata collection")
         
         # Update master IAAF database
         master_iaaf = pd.read_csv('../data/metadata/master_iaaf_database_with_strava.csv')
-        print(f"Read {len(master_iaaf)} records from master IAAF database CSV")
-        
         db['master_iaaf'].drop()
-        print("Dropped existing master IAAF collection")
+        db['master_iaaf'].insert_many(master_iaaf.to_dict(orient='records'))
+        logger.info(f"Uploaded {len(master_iaaf)} records to master_iaaf collection")
         
-        master_iaaf_dict = master_iaaf.to_dict(orient='records')
-        db['master_iaaf'].insert_many(master_iaaf_dict)
+        # Update individual activities
+        activities = pd.read_csv('../indiv_activities_full.csv')
+        db['activities'].drop()
+        db['activities'].insert_many(activities.to_dict(orient='records'))
+        logger.info(f"Uploaded {len(activities)} records to activities collection")
         
-        iaaf_count = db['master_iaaf'].count_documents({})
-        print(f"Successfully uploaded {iaaf_count} records to master_iaaf collection")
+        return True
         
     except Exception as e:
-        print(f"Error refreshing MongoDB data: {str(e)}")
+        logger.error(f"Error refreshing MongoDB data: {str(e)}")
+        return False
     finally:
         client.close()
 
