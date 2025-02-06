@@ -50,10 +50,7 @@ def run_data_pipeline(start_week: int = 45, end_week: int = 47, target_ids: list
         )
         
         if success:
-            # Step 3: Sync with MongoDB
-            from ..mongodb_init.db_update import refresh_mongodb_data
-            refresh_mongodb_data()
-            logger.info("Complete pipeline executed successfully")
+            logger.info("Complete pipeline executed successfully without uploading to db")
             return True
             
         logger.error("Data processing failed")
@@ -65,7 +62,7 @@ def run_data_pipeline(start_week: int = 45, end_week: int = 47, target_ids: list
 
 if __name__ == "__main__":
     # Example usage
-    TARGET_IDS = [4814818, 4928335, 45537525]  # Example athlete IDs
+    TARGET_IDS = [7677443, 7774046, 7814602, 8112897, 8140136, 8483601, 8728583, 8820965, 8841155, 9351341, 9389758, 9559332, 9588583, 9996058, 10175779, 10206606, 10318023, 10444014, 10513706, 10609301, 10799453, 10816005, 10984855, 11157470, 11328161, 11747326, 11799655, 12012236, 12019441, 12527724]
     run_data_pipeline(
         start_week=45, 
         end_week=52, 

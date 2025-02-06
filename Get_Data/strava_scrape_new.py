@@ -454,6 +454,7 @@ def process_activities(json_data, target_athlete_name):
 
     # Initialize a list to store activities
     activities = []
+    processed_activity_ids = set()
 
     # Define the clean_html function
     def clean_html(value):
@@ -506,14 +507,19 @@ def process_activities(json_data, target_athlete_name):
             athlete_data = activity_data.get('athlete', {})
             athlete_name = athlete_data.get('athleteName', '')
             athlete_name_normalized = athlete_name.strip().lower()
+            activity_id = activity_data.get('id')
             print(f"Found individual activity by athlete: '{athlete_name}' (normalized: '{athlete_name_normalized}')")
 
             # Compare the normalized names
             if athlete_name_normalized != target_athlete_name_normalized:
                 print(f"Skipping activity by athlete: '{athlete_name}'")
                 continue
+            if activity_id in processed_activity_ids:
+                print(f"Skipping already processed activity {activity_id}")
+                continue
 
             print(f"Including activity by athlete: '{athlete_name}'")
+            processed_activity_ids.add(activity_id)
             # Extract stats
             stats_list = activity_data.get('stats', [])
             stats = {stat['key']: stat['value'] for stat in stats_list}
@@ -547,6 +553,13 @@ def process_activities(json_data, target_athlete_name):
             activities_list = entry['rowData'].get('activities', [])
             print(f"Found group activity with {len(activities_list)} activities.")
             for act_idx, act in enumerate(activities_list):
+                activity_id = act.get('activity_id')
+                # Check if we've already processed this activity
+                if activity_id in processed_activity_ids:
+                    print(f"Skipping already processed activity {activity_id}")
+                    continue
+                # Add to processed IDs set
+                processed_activity_ids.add(activity_id)
                 athlete_name = act.get('athlete_name', '')
                 athlete_name_normalized = athlete_name.strip().lower()
                 athlete_id = act.get('athlete_id')
@@ -607,64 +620,3 @@ def process_activities(json_data, target_athlete_name):
              'Stat One Subtitle', 'Stat Two Subtitle', 'Stat Three Subtitle'], axis=1, inplace=True)
 
     return df
-
-"""
-
-def test_athlete_scraping(driver, test_size=5, min_activities=0, max_activities=100):
-    #Test function to scrape a small batch of athletes using existing functions.
-    logging.info("Starting test scraping")
-    
-    # Read master database
-    try:
-        df = pd.read_csv('data/metadata/master_iaaf_database_with_strava.csv')
-        logging.info(f"Loaded master database with {len(df)} entries")
-    except Exception as e:
-        logging.error(f"Failed to load master database: {str(e)}")
-        return pd.DataFrame()
-    
-    # Filter athletes
-    test_athletes = df[
-        (df['Profile Visibility'] == 'Public') & 
-        (df['Athlete ID'].notna()) & 
-        (df['Number of Runs'].between(min_activities, max_activities))
-    ].head(test_size)
-    
-    logging.info(f"Selected {len(test_athletes)} athletes for testing")
-    
-    # Use existing consolidate_weekly_data function
-    json_df = consolidate_weekly_data(
-        df=test_athletes,
-        start_week=1,
-        end_week=2  # Limited weeks for testing
-    )
-    
-    if not json_df.empty:
-        # Process each athlete's activities
-        all_processed_activities = []
-        for athlete_name in json_df['Name'].unique():
-            athlete_json_data = json_df[json_df['Name'] == athlete_name]['JSON Data'].iloc[0]
-            try:
-                processed_df = process_activities(
-                    json.loads(athlete_json_data),
-                    athlete_name
-                )
-                if not processed_df.empty:
-                    all_processed_activities.append(processed_df)
-            except Exception as e:
-                logging.error(f"Error processing activities for {athlete_name}: {str(e)}")
-                continue
-        
-        if all_processed_activities:
-            final_df = pd.concat(all_processed_activities, ignore_index=True)
-            
-            # Save test results
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_file = f'test_results_{timestamp}.csv'
-            final_df.to_csv(output_file, index=False)
-            logging.info(f"Saved test results to {output_file}")
-            
-            return final_df
-    
-    logging.info("No activities collected")
-    return pd.DataFrame()
-"""
