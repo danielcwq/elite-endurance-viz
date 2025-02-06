@@ -137,7 +137,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 998.0,13:04.33,Geordie BEAMISH,NZL,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",26 JAN 2024,1246,5000m,M,30 Oct 24,,,,,
 1483.0,2:18:51,Workenesh EDESA,ETH,Osaka (JPN),28 JAN 2024,1245,Full,F,30 Oct 24,,,,,
 1000.0,13:04.62,Benjamin FLANAGAN,CAN,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",26 JAN 2024,1245,5000m,M,30 Oct 24,76551416.0,29.0,0.0,Public,45.0
-1001.0,13:04.75,Jack ROWE,GBR,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",16 FEB 2024,1245,5000m,M,30 Oct 24,2827104.0,2628.0,7.0,Public,45.0
+1001.0,13:04.75,Jack ROWE,GBR,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",16 FEB 2024,1245,5000m,M,30 Oct 24,2827104.0,2628.0,7.0,Public,52.0
 ,30:03,Joy CHEPTOYEK,UGA,Valencia (ESP),14 JAN 2024,1245,10k Road,F,15 Jan 25,,,,,
 ,26:48,Jacob KIPLIMO,UGA,Valencia (ESP),14 JAN 2024,1245,10k Road,M,15 Jan 25,,,,,
 1871.0,2:05:01,Addisu GOBENA,ETH,Dubai (UAE),07 JAN 2024,1244,Full,M,30 Oct 24,,,,,
@@ -247,7 +247,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1496.0,2:20:17,Joyce Chepkemoi TELE,KEN,Ljubljana (SLO),20 OCT 2024,1230,Full,F,30 Oct 24,,,,,
 2.0,1:56.28,Georgia BELL,GBR,"Olympic Stadium, London (GBR)",20 JUL 2024,1230,800m,F,30 Oct 24,25124025.0,751.0,80.0,Public,45.0
 1221.0,1:05:14,Tsigie GEBRESELAMA,ETH,Ras Al Khaimah (UAE),24 FEB 2024,1230,Half,F,30 Oct 24,,,,,
-1010.0,13:08.60,Mike FOPPEN,NED,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",26 JAN 2024,1230,5000m,M,30 Oct 24,4882648.0,1344.0,36.0,Public,45.0
+1010.0,13:08.60,Mike FOPPEN,NED,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",26 JAN 2024,1230,5000m,M,30 Oct 24,4882648.0,1344.0,36.0,Public,52.0
 1268.0,26:57.57,William KINCAID,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1230,10000m,M,30 Oct 24,,,,,
 ,2:04:38,Alphonce Felix SIMBU,TAN,Valencia (ESP),01 DEC 2024,1229,Full,M,15 Jan 25,47309660.0,2.0,,Public,0.0
 ,2:04:40,Tadesse ABRAHAM,SUI,Valencia (ESP),01 DEC 2024,1229,Full,M,15 Jan 25,47539599.0,,,Public,0.0
@@ -367,7 +367,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1913.0,2:06:29,Getaneh MOLLA,ETH,Ljubljana (SLO),20 OCT 2024,1219,Full,M,30 Oct 24,,,,,
 812.0,14:31.64,Nadia BATTOCLETTI,ITA,"Stade de France, Paris (FRA)",05 AUG 2024,1219,5000m,F,30 Oct 24,,,,,
 1513.0,2:21:26,Roza DEREJE,ETH,Toronto (CAN),20 OCT 2024,1219,Full,F,30 Oct 24,,,,,
-781.0,8:08.45,Daniel ARCE,ESP,"Stadion Śląski, Chorzów (POL)",25 AUG 2024,1219,3000m Steeple,M,30 Oct 24,8112897.0,230.0,77.0,Public,45.0
+781.0,8:08.45,Daniel ARCE,ESP,"Stadion Śląski, Chorzów (POL)",25 AUG 2024,1219,3000m Steeple,M,30 Oct 24,8112897.0,230.0,77.0,Public,52.0
 1510.0,2:21:24,Calli HAUGER-THACKERY,GBR,Berlin (GER),29 SEP 2024,1219,Full,F,30 Oct 24,,,,,
 1511.0,2:21:24,Aminet AHMED,ETH,Amsterdam (NED),20 OCT 2024,1219,Full,F,30 Oct 24,,,,,
 ,27:05,Nicholas KIPKORIR,KEN,"Adi-Dassler-Straße 1, Herzogenaurach (GER)",27 APR 2024,1218,10k Road,M,15 Jan 25,67204225.0,,,Public,0.0
@@ -461,7 +461,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1932.0,2:06:54,Daisuke DOI,JPN,Osaka (JPN),25 FEB 2024,1212,Full,M,30 Oct 24,97042106.0,0.0,0.0,Public,45.0
 1935.0,2:06:55,Antenayeh DAGNACHEW,ETH,Dubai (UAE),07 JAN 2024,1212,Full,M,30 Oct 24,,,,,
 1933.0,2:06:54,Kenya SONOTA,JPN,Tokyo (JPN),03 MAR 2024,1212,Full,M,30 Oct 24,,,,,
-16.0,1:43.73,Brandon MILLER,USA,"Hayward Field, Eugene, OR (USA)",28 JUN 2024,1212,800m,M,30 Oct 24,9559332.0,2677.0,106.0,Public,45.0
+16.0,1:43.73,Brandon MILLER,USA,"Hayward Field, Eugene, OR (USA)",28 JUN 2024,1212,800m,M,30 Oct 24,9559332.0,2677.0,106.0,Public,52.0
 1934.0,2:06:54,Elisha ROTICH,KEN,Paris (FRA),07 APR 2024,1212,Full,M,30 Oct 24,59934650.0,0.0,0.0,Public,45.0
 785.0,8:09.91,Avinash Mukund SABLE,IND,"Stade Charléty, Paris (FRA)",07 JUL 2024,1212,3000m Steeple,M,30 Oct 24,,,,,
 17.0,1:43.74,Alex Ngeno KIPNGETICH,KEN,"Nyayo National Stadium, Nairobi (KEN)",15 JUN 2024,1212,800m,M,30 Oct 24,,,,,
@@ -592,7 +592,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 828.0,14:38.62,Karoline Bjerkeli GRØVDAL,NOR,"Stadio Olimpico, Roma (ITA)",07 JUN 2024,1205,5000m,F,30 Oct 24,,,,,
 ,27:13,Dominic Lokinyomo LOBALU,SUI,Valencia (ESP),14 JAN 2024,1205,10k Road,M,15 Jan 25,,,,,
 1236.0,1:06:24,Buze DIRIBA,ETH,"Houston, TX (USA)",14 JAN 2024,1205,Half,F,30 Oct 24,,,,,
-363.0,4:00.23,Sophie O'SULLIVAN,IRL,"Stade de France, Paris (FRA)",06 AUG 2024,1204,1500m,F,30 Oct 24,10444014.0,2086.0,87.0,Public,45.0
+363.0,4:00.23,Sophie O'SULLIVAN,IRL,"Stade de France, Paris (FRA)",06 AUG 2024,1204,1500m,F,30 Oct 24,10444014.0,2086.0,87.0,Public,52.0
 19.0,1:57.70,Habitam ALEMU,ETH,"Le Grand Stade, Marrakech (MAR)",19 MAY 2024,1204,800m,F,30 Oct 24,,,,,
 ,30:47,Senbere TEFERI,ETH,"New York, NY (USA)",08 JUN 2024,1204,10k Road,F,15 Jan 25,,,,,
 1542.0,2:22:52,Visiline JEPKESHO,KEN,Seoul (KOR),17 MAR 2024,1204,Full,F,30 Oct 24,,,,,
@@ -602,7 +602,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1951.0,2:07:23,Dominic NGENO,KEN,Toronto (CAN),20 OCT 2024,1204,Full,M,30 Oct 24,,,,,
 1544.0,2:22:54,Bekelech GUDETA,ETH,Xiamen (CHN),07 JAN 2024,1204,Full,F,30 Oct 24,,,,,
 1543.0,2:22:53,Agnes KEINO,KEN,Frankfurt (GER),27 OCT 2024,1204,Full,F,30 Oct 24,,,,,
-24.0,1:44.04,James PRESTON,NZL,"TSV Stadion, Pfungstadt (GER)",25 MAY 2024,1203,800m,M,30 Oct 24,2988843.0,3592.0,109.0,Public,45.0
+24.0,1:44.04,James PRESTON,NZL,"TSV Stadion, Pfungstadt (GER)",25 MAY 2024,1203,800m,M,30 Oct 24,2988843.0,3592.0,109.0,Public,52.0
 1954.0,2:07:26,Shaohui YANG,CHN,Wuxi (CHN),24 MAR 2024,1203,Full,M,30 Oct 24,,,,,
 1952.0,2:07:25,Kibrom WELDEMICAEL,ERI,Castellón (ESP),25 FEB 2024,1203,Full,M,30 Oct 24,,,,,
 377.0,3:32.93,Justin KIPKOECH,KEN,"Jack Kemp Stadium, Los Angeles, CA (USA)",20 JUL 2024,1203,1500m,M,30 Oct 24,123004351.0,1177.0,0.0,Public,45.0
@@ -693,7 +693,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1241.0,1:06:43,Miriam CHEBET,KEN,Cardiff (GBR),06 OCT 2024,1198,Half,F,30 Oct 24,73218211.0,0.0,0.0,Public,45.0
 383.0,3:33.30,Cameron MYERS,AUS,"The Crest Athletics Centre, Bankstown, Sydney (AUS)",22 FEB 2024,1198,1500m,M,30 Oct 24,6788193.0,0.0,114.0,Public,45.0
 1551.0,2:23:27,Kidsan ALEMA,ETH,Frankfurt (GER),27 OCT 2024,1198,Full,F,30 Oct 24,,,,,
-382.0,3:33.29,Charles PHILIBERT-THIBOUTOT,CAN,"Stade de France, Paris (FRA)",04 AUG 2024,1198,1500m,M,30 Oct 24,7327132.0,882.0,41.0,Public,45.0
+382.0,3:33.29,Charles PHILIBERT-THIBOUTOT,CAN,"Stade de France, Paris (FRA)",04 AUG 2024,1198,1500m,M,30 Oct 24,7327132.0,882.0,41.0,Public,52.0
 1280.0,27:17.46,Jun KASAI,JPN,"Prefectural Shizuoka Stadium, Fukuroi (JPN)",03 MAY 2024,1198,10000m,M,30 Oct 24,119282508.0,0.0,22.0,Public,45.0
 835.0,14:41.99,Winfred YAVI,BRN,"Stade Naimette-Xhovémont, Liège (BEL)",19 JUN 2024,1198,5000m,F,30 Oct 24,,,,,
 1508.0,59:42,Thierry NDIKUMWENAYO,ESP,Valencia (ESP),27 OCT 2024,1198,Half,M,30 Oct 24,,,,,
@@ -750,7 +750,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 27.0,1:58.20,Jazz SHUKLA,CAN,"Complexe Sportif Claude-Robillard, Montréal (CAN)",29 JUN 2024,1195,800m,F,30 Oct 24,19464085.0,821.0,28.0,Private,
 1987.0,2:07:56,Simon KIPKOSGEI,KEN,Berlin (GER),29 SEP 2024,1195,Full,M,30 Oct 24,113125064.0,270.0,0.0,Public,45.0
 26.0,1:58.19,Dorcas EWOI,KEN,"Percy Beard Track, Gainesville, FL (USA)",19 JUL 2024,1195,800m,F,30 Oct 24,,,,,
-794.0,8:13.76,Duncan HAMILTON,USA,"Sports Park Mladost, Zagreb (CRO)",08 SEP 2024,1195,3000m Steeple,M,30 Oct 24,2688671.0,3712.0,92.0,Public,45.0
+794.0,8:13.76,Duncan HAMILTON,USA,"Sports Park Mladost, Zagreb (CRO)",08 SEP 2024,1195,3000m Steeple,M,30 Oct 24,2688671.0,3712.0,92.0,Public,52.0
 1986.0,2:07:56,Brian KIPSANG,KEN,Roma (ITA),17 MAR 2024,1195,Full,M,30 Oct 24,,,,,
 1985.0,2:07:55,Alphonce Felix SIMBU,TAN,Daegu (KOR),07 APR 2024,1195,Full,M,30 Oct 24,47309660.0,2.0,0.0,Public,45.0
 1086.0,30:57.79,Bosena MULATIE,ETH,"Estadio Enrique Lopez Cuenca, Nerja (ESP)",14 JUN 2024,1195,10000m,F,30 Oct 24,,,,,
@@ -777,7 +777,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 29.0,1:58.26,Vivian Chebet KIPROTICH,KEN,"Nyayo National Stadium, Nairobi (KEN)",20 APR 2024,1194,800m,F,30 Oct 24,,,,,
 1989.0,2:07:58,Derese WORKNEH,ETH,Oita (JPN),04 FEB 2024,1194,Full,M,30 Oct 24,,,,,
 795.0,8:13.87,James CORRIGAN,USA,"Franklin Field, Philadelphia, PA (USA)",29 JUN 2024,1194,3000m Steeple,M,30 Oct 24,23763182.0,298.0,0.0,Public,45.0
-796.0,8:14.01,Alexis MIELLET,FRA,"Stadio Olimpico, Roma (ITA)",10 JUN 2024,1194,3000m Steeple,M,30 Oct 24,10816005.0,2210.0,57.0,Public,45.0
+796.0,8:14.01,Alexis MIELLET,FRA,"Stadio Olimpico, Roma (ITA)",10 JUN 2024,1194,3000m Steeple,M,30 Oct 24,10816005.0,2210.0,57.0,Public,52.0
 ,30:59,Gladys KWAMBOKA,KEN,Brasov (ROU),22 SEP 2024,1194,10k Road,F,15 Jan 25,,,,,
 1988.0,2:07:57,Samuel RUSSOM,ERI,Sevilla (ESP),18 FEB 2024,1194,Full,M,30 Oct 24,145287554.0,0.0,0.0,Public,45.0
 1281.0,27:20.05,Shadrack KIPKEMEI,KEN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",27 APR 2024,1194,10000m,M,30 Oct 24,,,,,
@@ -832,7 +832,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1245.0,1:06:58,Joan Chelimo MELLY,ROU,Paris (FRA),03 MAR 2024,1193,Half,F,30 Oct 24,,,,,
 1562.0,2:23:56,Marion KIBOR,KEN,Amsterdam (NED),20 OCT 2024,1193,Full,F,30 Oct 24,,,,,
 1999.0,2:08:01,Timothy KIPKORIR,KEN,Seoul (KOR),17 MAR 2024,1193,Full,M,30 Oct 24,,,,,
-1997.0,2:08:01,Rory LINKLETTER,CAN,Sevilla (ESP),18 FEB 2024,1193,Full,M,30 Oct 24,9351341.0,4271.0,48.0,Public,45.0
+1997.0,2:08:01,Rory LINKLETTER,CAN,Sevilla (ESP),18 FEB 2024,1193,Full,M,30 Oct 24,9351341.0,4271.0,48.0,Public,52.0
 1564.0,2:24:00,Emma BATES,USA,"Chicago, IL (USA)",13 OCT 2024,1193,Full,F,30 Oct 24,38306342.0,1177.0,0.0,Public,45.0
 2000.0,2:08:02,Hailu ZEWDU,ETH,Toronto (CAN),20 OCT 2024,1193,Full,M,30 Oct 24,,,,,
 2010.0,2:08:06,Shohei OTSUKA,JPN,Osaka (JPN),25 FEB 2024,1192,Full,M,30 Oct 24,,,,,
@@ -845,7 +845,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 394.0,3:33.71,Daniel MUNGUTI,KEN,"Nyayo National Stadium, Nairobi (KEN)",20 APR 2024,1192,1500m,M,30 Oct 24,105885127.0,0.0,0.0,Public,45.0
 396.0,3:33.74,Joe WASKOM,USA,"Hayward Field, Eugene, OR (USA)",24 JUN 2024,1192,1500m,M,30 Oct 24,27523899.0,2179.0,2.0,Private,
 397.0,3:33.76,Tshepo TSHITE,RSA,"University of the Western Cape, Cape Town (RSA)",29 APR 2024,1192,1500m,M,30 Oct 24,,,,,
-398.0,3:33.78,Andrew HUNTER,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",20 JUL 2024,1192,1500m,M,30 Oct 24,3315425.0,900.0,1372.0,Public,45.0
+398.0,3:33.78,Andrew HUNTER,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",20 JUL 2024,1192,1500m,M,30 Oct 24,3315425.0,900.0,1372.0,Public,52.0
 2005.0,2:08:04,Philip SESEMANN,GBR,Sevilla (ESP),18 FEB 2024,1192,Full,M,30 Oct 24,,,,,
 663.0,9:20.58,Ceili MCCABE,CAN,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1192,3000m Steeple,F,30 Oct 24,,,,,
 1284.0,27:21.52,Kazuma MAEDA,JPN,"Prefectural Shizuoka Stadium, Fukuroi (JPN)",03 MAY 2024,1192,10000m,M,30 Oct 24,115226520.0,0.0,5.0,Private,
@@ -945,7 +945,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,1:07:11,Gotytom GEBRESLASE,ETH,Al Khobar (KSA),14 DEC 2024,1188,Half,F,15 Jan 25,122178884.0,18.0,,Public,0.0
 1577.0,2:24:29,Gabriella ROOKER,USA,"Chicago, IL (USA)",13 OCT 2024,1188,Full,F,30 Oct 24,49166818.0,1273.0,38.0,Private,
 1251.0,1:07:12,Susan CHEMBAI,KEN,Den Haag (NED),10 MAR 2024,1188,Half,F,30 Oct 24,,,,,
-1090.0,31:05.31,Keira D'AMATO,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1188,10000m,F,30 Oct 24,12019441.0,2772.0,11.0,Public,45.0
+1090.0,31:05.31,Keira D'AMATO,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1188,10000m,F,30 Oct 24,12019441.0,2772.0,11.0,Public,52.0
 38.0,1:58.56,Bendere OBOYA,AUS,"LAZ Wien, Wien (AUT)",22 JUN 2024,1188,800m,F,30 Oct 24,,,,,
 668.0,9:22.36,Stella RUTTO,ROU,"Stadio Olimpico, Roma (ITA)",09 JUN 2024,1188,3000m Steeple,F,30 Oct 24,,,,,
 846.0,14:47.78,Yenawa NBRET,ETH,"Suzhou Olympic Sports Centre, Suzhou (CHN)",27 APR 2024,1187,5000m,F,30 Oct 24,,,,,
@@ -965,7 +965,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 670.0,9:22.77,Lexy HALLADAY,USA,"Hayward Field, Eugene, OR (USA)",27 JUN 2024,1187,3000m Steeple,F,30 Oct 24,,,,,
 2025.0,2:08:22,Timothy KIPCHUMBA,KEN,Padova (ITA),21 APR 2024,1187,Full,M,30 Oct 24,76403278.0,0.0,0.0,Public,45.0
 671.0,9:22.77,Ilona MONONEN,FIN,"Stade de France, Paris (FRA)",04 AUG 2024,1187,3000m Steeple,F,30 Oct 24,,,,,
-1113.0,13:20.17,Charles WHEELER,GBR,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",10 FEB 2024,1187,5000m,M,30 Oct 24,7677443.0,171.0,2585.0,Public,45.0
+1113.0,13:20.17,Charles WHEELER,GBR,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",10 FEB 2024,1187,5000m,M,30 Oct 24,7677443.0,171.0,2585.0,Public,52.0
 1519.0,59:59,Andamlak BELIHU,ETH,Santa Pola (ESP),21 JAN 2024,1187,Half,M,30 Oct 24,,,,,
 40.0,1:44.57,Jose MAITA,VEN,"Estadio Brigido Iriarte, Caracas (VEN)",29 JUN 2024,1187,800m,M,30 Oct 24,85505855.0,0.0,0.0,Public,45.0
 2027.0,2:08:24,Yuta SHIMODA,JPN,Oita (JPN),04 FEB 2024,1187,Full,M,30 Oct 24,5196044.0,0.0,15.0,Public,45.0
@@ -1062,7 +1062,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1093.0,31:09.42,Judy Jepngetich CHEPASKWONY,KEN,"Prefectural Shizuoka Stadium, Fukuroi (JPN)",03 MAY 2024,1184,10000m,F,30 Oct 24,,,,,
 803.0,8:16.04,Nahuel CARABAÑA,AND,"Stade Delort, Marseille (FRA)",22 MAY 2024,1184,3000m Steeple,M,30 Oct 24,,,,,
 413.0,3:34.42,Jye EDWARDS,AUS,"The Crest Athletics Centre, Bankstown, Sydney (AUS)",22 FEB 2024,1183,1500m,M,30 Oct 24,11456723.0,3100.0,6.0,Private,
-46.0,1:44.70,Ryan CLARKE,NED,"Stade de France, Paris (FRA)",08 AUG 2024,1183,800m,M,30 Oct 24,4298711.0,1818.0,6.0,Public,45.0
+46.0,1:44.70,Ryan CLARKE,NED,"Stade de France, Paris (FRA)",08 AUG 2024,1183,800m,M,30 Oct 24,4298711.0,1818.0,6.0,Public,52.0
 412.0,3:34.41,Kieran LUMB,CAN,"Suhaim bin Hamad Stadium, Doha (QAT)",10 MAY 2024,1183,1500m,M,30 Oct 24,5373957.0,542.0,151.0,Private,
 411.0,3:34.39,Dominic Lokinyomo LOBALU,SUI,"Stade Olympique de la Pontaise, Lausanne (SUI)",22 AUG 2024,1183,1500m,M,30 Oct 24,,,,,
 45.0,1:58.84,Athing MU,USA,"Hayward Field, Eugene, OR (USA)",23 JUN 2024,1183,800m,F,30 Oct 24,,,,,
@@ -1073,7 +1073,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1257.0,1:07:26,Melat Yisak KEJETA,GER,Berlin (GER),07 APR 2024,1183,Half,F,30 Oct 24,,,,,
 210.0,1:46.57,Daniel KOTYZA,CZE,"Atletická hala, Ostrava (CZE) (i)",18 FEB 2024,1183,800m,M,30 Oct 24,,,,,
 1598.0,2:24:56,Chloé HERBIET,BEL,Sevilla (ESP),18 FEB 2024,1183,Full,F,30 Oct 24,61582475.0,95.0,0.0,Public,45.0
-,13:21.13,Said MECHAAL,ESP,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",07 DEC 2024,1183,5000m,M,15 Jan 25,5797327.0,430.0,,Public,0.0
+,13:21.13,Said MECHAAL,ESP,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",07 DEC 2024,1183,5000m,M,15 Jan 25,5797327.0,430.0,,Public,7.0
 2048.0,2:08:38,Silas TOO,KEN,Eindhoven (NED),13 OCT 2024,1183,Full,M,30 Oct 24,31658147.0,1757.0,0.0,Public,45.0
 ,27:27,Mohamed ISMAIL,DJI,Valencia (ESP),14 JAN 2024,1183,10k Road,M,15 Jan 25,89449821.0,38.0,,Public,0.0
 2047.0,2:08:38,Dejene DEBELA,ETH,Linz (AUT),07 APR 2024,1183,Full,M,30 Oct 24,,,,,
@@ -1137,7 +1137,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 2056.0,2:08:44,Clayton YOUNG,USA,"Stade de France, Paris (FRA)",10 AUG 2024,1181,Full,M,30 Oct 24,23295862.0,3183.0,28.0,Public,45.0
 1604.0,2:25:10,Natsumi MATSUSHITA,JPN,Osaka (JPN),28 JAN 2024,1181,Full,F,30 Oct 24,,,,,
 1605.0,2:25:10,Lydia Naliaka SIMIYU,KEN,Roma (ITA),17 MAR 2024,1181,Full,F,30 Oct 24,,,,,
-49.0,1:58.97,Kate GRACE,USA,"Hayward Field, Eugene, OR (USA)",23 JUN 2024,1181,800m,F,30 Oct 24,6448444.0,378.0,9.0,Public,45.0
+49.0,1:58.97,Kate GRACE,USA,"Hayward Field, Eugene, OR (USA)",23 JUN 2024,1181,800m,F,30 Oct 24,6448444.0,378.0,9.0,Public,52.0
 419.0,3:34.56,Nico YOUNG,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",04 MAY 2024,1181,1500m,M,30 Oct 24,143032586.0,0.0,1.0,Public,45.0
 1603.0,2:25:08,Cian OLDKNOW,RSA,Sevilla (ESP),18 FEB 2024,1181,Full,F,30 Oct 24,7389459.0,62.0,0.0,Private,
 ,15:03.54,Emily VENTERS,USA,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",07 DEC 2024,1181,5000m,F,15 Jan 25,87246813.0,,,Private,
@@ -1217,10 +1217,10 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,2:07:22,Kenneth KETER,KEN,Shanghai (CHN),01 DEC 2024,1178,Full,M,15 Jan 25,,,,,
 ,2:07:22,Bygeon KIPRONO,KEN,Abu Dhabi (UAE),14 DEC 2024,1178,Full,M,15 Jan 25,,,,,
 809.0,8:17.46,Matthew KOSGEI,KEN,"Estadio Atlético de la VIDENA, Lima (PER)",31 AUG 2024,1178,3000m Steeple,M,30 Oct 24,130817604.0,2.0,0.0,Public,45.0
-1009.0,13:08.57,Andrew HUNTER,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1178,5000m,M,30 Oct 24,3315425.0,900.0,1372.0,Public,45.0
+1009.0,13:08.57,Andrew HUNTER,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1178,5000m,M,30 Oct 24,3315425.0,900.0,1372.0,Public,52.0
 1136.0,13:22.53,Willy FINK,USA,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",26 JAN 2024,1178,5000m,M,30 Oct 24,69657340.0,623.0,16.0,Public,45.0
 1098.0,31:16.01,Janeth Nyiva MUTUNGI,KEN,"Athletic Track, Abashiri (JPN)",10 JUL 2024,1178,10000m,F,30 Oct 24,,,,,
-679.0,9:26.12,Regan YEE,CAN,"Suzhou Olympic Sports Centre, Suzhou (CHN)",27 APR 2024,1178,3000m Steeple,F,30 Oct 24,11328161.0,2749.0,53.0,Public,45.0
+679.0,9:26.12,Regan YEE,CAN,"Suzhou Olympic Sports Centre, Suzhou (CHN)",27 APR 2024,1178,3000m Steeple,F,30 Oct 24,11328161.0,2749.0,53.0,Public,52.0
 423.0,3:34.73,Ermias GIRMA,ETH,"Paavo Nurmen Stadion, Turku (FIN)",18 JUN 2024,1178,1500m,M,30 Oct 24,86185454.0,114.0,0.0,Public,45.0
 619.0,3:38.51,Hugo HAY,FRA,"L'Anneau-Halle d'athlétisme de Metz, Metz (FRA) (i)",03 FEB 2024,1178,1500m,M,30 Oct 24,26908358.0,0.0,0.0,Public,45.0
 1531.0,1:00:13,Vincent MUTAI,KEN,Cardiff (GBR),06 OCT 2024,1178,Half,M,30 Oct 24,91894138.0,75.0,141.0,Public,45.0
@@ -1287,7 +1287,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1014.0,13:09.31,Bob LIKING,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1176,5000m,M,30 Oct 24,,,,,
 2077.0,2:09:02,Abdellah TAGHARRAFET,MAR,Daegu (KOR),07 APR 2024,1176,Full,M,30 Oct 24,,,,,
 430.0,3:34.91,Samuel PRAKEL,USA,"Stadion Allmend, Luzern (SUI)",16 JUL 2024,1176,1500m,M,30 Oct 24,,,,,
-238.0,1:46.80,Samuel AUSTIN,USA,"Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",27 JAN 2024,1176,800m,M,30 Oct 24,8140136.0,263.0,124.0,Public,45.0
+238.0,1:46.80,Samuel AUSTIN,USA,"Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",27 JAN 2024,1176,800m,M,30 Oct 24,8140136.0,263.0,124.0,Public,52.0
 2080.0,2:09:04,Bethwel YEGON,KEN,Buenos Aires (ARG),22 SEP 2024,1176,Full,M,30 Oct 24,,,,,
 1533.0,1:00:15,Hosea KIPLANGAT,UGA,Trento (ITA),06 OCT 2024,1176,Half,M,30 Oct 24,,,,,
 855.0,14:53.57,Whittni MORGAN,USA,"Stade de France, Paris (FRA)",05 AUG 2024,1176,5000m,F,30 Oct 24,,,,,
@@ -1335,14 +1335,14 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 857.0,14:54.16,Birtukan MOLLA,ETH,"LAZ Wien, Wien (AUT)",22 JUN 2024,1174,5000m,F,30 Oct 24,,,,,
 66.0,1:44.99,Brannon KIDDER,USA,"George Mason Stadium, Fairfax, VA (USA)",12 AUG 2024,1174,800m,M,30 Oct 24,,,,,
 856.0,14:54.15,Sarah CHELANGAT,UGA,"Suzhou Olympic Sports Centre, Suzhou (CHN)",27 APR 2024,1174,5000m,F,30 Oct 24,,,,,
-2088.0,2:09:09,Jonathan MELLOR,GBR,Sevilla (ESP),18 FEB 2024,1174,Full,M,30 Oct 24,10984855.0,524.0,1.0,Public,45.0
+2088.0,2:09:09,Jonathan MELLOR,GBR,Sevilla (ESP),18 FEB 2024,1174,Full,M,30 Oct 24,10984855.0,524.0,1.0,Public,52.0
 685.0,9:27.70,Flavie RENOUARD,FRA,"Stade de France, Paris (FRA)",04 AUG 2024,1174,3000m Steeple,F,30 Oct 24,37407311.0,2366.0,222.0,Private,
 1263.0,1:07:52,Edna Ngeringwony KIPLAGAT,KEN,"Houston, TX (USA)",14 JAN 2024,1174,Half,F,30 Oct 24,,,,,
 2093.0,2:09:10,Emmanuel KIPCHUMBA,KEN,Lisboa (POR),06 OCT 2024,1174,Full,M,30 Oct 24,125773985.0,14.0,5.0,Public,45.0
 2089.0,2:09:09,Reuben NARRY,KEN,Roma (ITA),17 MAR 2024,1174,Full,M,30 Oct 24,,,,,
 2094.0,2:09:11,Abebaw DESALEW,ETH,Dubai (UAE),07 JAN 2024,1174,Full,M,30 Oct 24,,,,,
 ,1:07:52,Brillian Jepkorir KIPKOECH,KEN,Al Khobar (KSA),14 DEC 2024,1174,Half,F,15 Jan 25,,,,,
-1536.0,1:00:18,Bastien AUGUSTO,FRA,Valencia (ESP),27 OCT 2024,1174,Half,M,30 Oct 24,6816684.0,810.0,520.0,Public,45.0
+1536.0,1:00:18,Bastien AUGUSTO,FRA,Valencia (ESP),27 OCT 2024,1174,Half,M,30 Oct 24,6816684.0,810.0,520.0,Public,52.0
 1537.0,1:00:19,Solomon KIPCHOGE,KEN,Istanbul (TUR),28 APR 2024,1174,Half,M,30 Oct 24,,,,,
 1535.0,1:00:18,Cosmas Mwangi BOI,KEN,Cardiff (GBR),06 OCT 2024,1174,Half,M,30 Oct 24,,,,,
 2095.0,2:09:11,Masashi NONAKA,JPN,Osaka (JPN),25 FEB 2024,1174,Full,M,30 Oct 24,,,,,
@@ -1436,7 +1436,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 439.0,3:35.24,Luke HOUSER,USA,"Hayward Field, Eugene, OR (USA)",21 JUN 2024,1171,1500m,M,30 Oct 24,33471006.0,1139.0,17.0,Private,
 1270.0,1:07:59,Stella CHESANG,UGA,Gifu (JPN),28 APR 2024,1171,Half,F,30 Oct 24,,,,,
 441.0,3:35.27,Eduardo HERRERA,MEX,"Polideportivo Zorrotza, Bilbao (ESP)",18 JUN 2024,1171,1500m,M,30 Oct 24,22542153.0,80.0,899.0,Public,45.0
-440.0,3:35.25,Bastien AUGUSTO,FRA,"Mestský Stadion, Ostrava (CZE)",28 MAY 2024,1171,1500m,M,30 Oct 24,6816684.0,810.0,520.0,Public,45.0
+440.0,3:35.25,Bastien AUGUSTO,FRA,"Mestský Stadion, Ostrava (CZE)",28 MAY 2024,1171,1500m,M,30 Oct 24,6816684.0,810.0,520.0,Public,52.0
 ,2:07:47,Moses KIBET,KEN,Hangzhou (CHN),03 NOV 2024,1171,Full,M,15 Jan 25,,,,,
 ,2:07:45,Evans CHEBET,KEN,"New York, NY (USA)",03 NOV 2024,1171,Full,M,15 Jan 25,,,,,
 818.0,8:18.95,Rémi SCHYNS,BEL,"Estadio Iberoamericano, Huelva (ESP)",30 APR 2024,1171,3000m Steeple,M,30 Oct 24,23384343.0,1403.0,146.0,Public,45.0
@@ -1469,18 +1469,18 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1104.0,31:25.41,Federica DEL BUONO,ITA,"Stadio Olimpico, Roma (ITA)",11 JUN 2024,1170,10000m,F,30 Oct 24,83840979.0,0.0,0.0,Private,
 1021.0,13:10.75,Parker WOLFE,USA,"Hayward Field, Eugene, OR (USA)",30 JUN 2024,1170,5000m,M,30 Oct 24,48545297.0,3327.0,4.0,Public,45.0
 116.0,2:00.93,Madeleine KELLY,CAN,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",09 FEB 2024,1170,800m,F,30 Oct 24,23741845.0,132.0,0.0,Public,45.0
-443.0,3:35.35,Davis BOVE,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",20 JUL 2024,1170,1500m,M,30 Oct 24,10318023.0,2175.0,901.0,Public,45.0
+443.0,3:35.35,Davis BOVE,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",20 JUL 2024,1170,1500m,M,30 Oct 24,10318023.0,2175.0,901.0,Public,52.0
 2119.0,2:09:26,Asnake DUBRE,ETH,Wuhan (CHN),24 MAR 2024,1170,Full,M,30 Oct 24,,,,,
 74.0,1:45.12,Reece SHARMAN-NEWELL,GBR,"Paula Radcliffe Stadium, Loughborough (GBR)",22 JUN 2024,1170,800m,M,30 Oct 24,63876296.0,1949.0,5.0,Private,
 2116.0,2:09:25,Suguru OSAKO,JPN,"Stade de France, Paris (FRA)",10 AUG 2024,1170,Full,M,30 Oct 24,111739002.0,0.0,0.0,Public,45.0
 72.0,1:45.11,Isaac NADER,POR,"Stade Delort, Marseille (FRA)",22 MAY 2024,1170,800m,M,30 Oct 24,92055776.0,30.0,324.0,Public,45.0
-1272.0,1:08:02,Charlotte PURDUE,GBR,Marugame (JPN),04 FEB 2024,1170,Half,F,30 Oct 24,4483415.0,252.0,3.0,Public,45.0
+1272.0,1:08:02,Charlotte PURDUE,GBR,Marugame (JPN),04 FEB 2024,1170,Half,F,30 Oct 24,4483415.0,252.0,3.0,Public,52.0
 820.0,8:19.26,Ala ZOGHLAMI,ITA,"Sports Park Mladost, Zagreb (CRO)",08 SEP 2024,1170,3000m Steeple,M,30 Oct 24,122736555.0,4.0,74.0,Private,
 1543.0,1:00:25,Abel KIPCHUMBA,KEN,"New York, NY (USA)",17 MAR 2024,1170,Half,M,30 Oct 24,,,,,
 73.0,1:45.11,Simone BARONTINI,ITA,"Zdzisław Krzyszkowiak Stadium, Bydgoszcz (POL)",20 JUN 2024,1170,800m,M,30 Oct 24,97145909.0,0.0,0.0,Public,45.0
 2112.0,2:09:23,Reuben KERIO,KEN,Daegu (KOR),07 APR 2024,1170,Full,M,30 Oct 24,35133039.0,0.0,0.0,Public,45.0
 62.0,1:59.59,Eveliina MÄÄTTÄNEN,FIN,"Olympiastadion, Stockholm (SWE)",02 JUN 2024,1170,800m,F,30 Oct 24,,,,,
-2113.0,2:09:24,Jorge CASTELBLANCO,PAN,Sevilla (ESP),18 FEB 2024,1170,Full,M,30 Oct 24,8728583.0,86.0,1572.0,Public,45.0
+2113.0,2:09:24,Jorge CASTELBLANCO,PAN,Sevilla (ESP),18 FEB 2024,1170,Full,M,30 Oct 24,8728583.0,86.0,1572.0,Public,52.0
 1635.0,2:26:12,Hikari OHNISHI,JPN,Nagoya (JPN),10 MAR 2024,1170,Full,F,30 Oct 24,,,,,
 ,51:14,Sarah CHELANGAT,UGA,"Washington, DC (USA)",07 APR 2024,1170,10M Road,F,15 Jan 25,,,,,
 442.0,3:35.35,Mehmet ÇELİK,TUR,"Boudewijnstadion, Bruxelles (BEL)",26 MAY 2024,1170,1500m,M,30 Oct 24,51815015.0,581.0,0.0,Public,45.0
@@ -1585,7 +1585,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1276.0,1:08:13,Morine Gesare MICHIRA,KEN,Milano (ITA),24 MAR 2024,1167,Half,F,30 Oct 24,,,,,
 1646.0,2:26:34,Mary Zenaida GRANJA,ECU,Sevilla (ESP),18 FEB 2024,1167,Full,F,30 Oct 24,,,,,
 905.0,15:10.19,Jennifer NESBITT,GBR,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",09 FEB 2024,1167,5000m,F,30 Oct 24,53810642.0,160.0,1.0,Public,45.0
-448.0,3:35.52,Samuel TANNER,NZL,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1167,1500m,M,30 Oct 24,3593920.0,683.0,416.0,Public,45.0
+448.0,3:35.52,Samuel TANNER,NZL,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1167,1500m,M,30 Oct 24,3593920.0,683.0,416.0,Public,52.0
 2135.0,2:09:35,Moses KIPTOO,KEN,Wuhan (CHN),24 MAR 2024,1167,Full,M,30 Oct 24,64372125.0,0.0,0.0,Public,45.0
 2134.0,2:09:35,Mateusz KACZOR,POL,Sevilla (ESP),18 FEB 2024,1167,Full,M,30 Oct 24,49840806.0,0.0,0.0,Public,45.0
 824.0,8:20.06,Salaheddine BEN YAZIDE,MAR,"Le Grand Stade, Marrakech (MAR)",19 MAY 2024,1166,3000m Steeple,M,30 Oct 24,,,,,
@@ -1645,7 +1645,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 826.0,8:20.36,Yutaro NIINAE,JPN,"Denka Big Swan Stadium, Niigata (JPN)",29 SEP 2024,1165,3000m Steeple,M,30 Oct 24,,,,,
 1025.0,13:12.20,Eduardo HERRERA,MEX,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1165,5000m,M,30 Oct 24,22542153.0,80.0,899.0,Public,45.0
 2147.0,2:09:44,Moses KIBET,KEN,Daegu (KOR),07 APR 2024,1165,Full,M,30 Oct 24,,,,,
-457.0,4:07.80,Regan YEE,CAN,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",09 FEB 2024,1165,1500m,F,30 Oct 24,11328161.0,2749.0,53.0,Public,45.0
+457.0,4:07.80,Regan YEE,CAN,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",09 FEB 2024,1165,1500m,F,30 Oct 24,11328161.0,2749.0,53.0,Public,52.0
 2141.0,2:09:41,Philemon RONO,KEN,Wuhan (CHN),24 MAR 2024,1165,Full,M,30 Oct 24,,,,,
 ,2:08:06,Gilbert KIBET,KEN,Seoul (KOR),03 NOV 2024,1165,Full,M,15 Jan 25,41123687.0,,,Public,0.0
 1110.0,31:30.95,Tekan BERHE,ETH,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1165,10000m,F,30 Oct 24,,,,,
@@ -1666,7 +1666,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1654.0,2:26:47,Sardana TROFIMOVA,KGZ,"Stade de France, Paris (FRA)",11 AUG 2024,1165,Full,F,30 Oct 24,,,,,
 1653.0,2:26:47,Luz Mery ROJAS,PER,Sevilla (ESP),18 FEB 2024,1165,Full,F,30 Oct 24,121836540.0,0.0,14.0,Public,45.0
 1652.0,2:26:43,Chimdesa KUMSA,ETH,Taiyuan (CHN),22 SEP 2024,1165,Full,F,30 Oct 24,,,,,
-1310.0,27:38.87,Andrew HUNTER,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1165,10000m,M,30 Oct 24,3315425.0,900.0,1372.0,Public,45.0
+1310.0,27:38.87,Andrew HUNTER,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1165,10000m,M,30 Oct 24,3315425.0,900.0,1372.0,Public,52.0
 1309.0,27:38.39,Rory LEONARD,GBR,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1165,10000m,M,30 Oct 24,19686000.0,683.0,2.0,Public,45.0
 1552.0,1:00:32,David Shungeya NEIYIAI,KEN,Marugame (JPN),04 FEB 2024,1165,Half,M,30 Oct 24,,,,,
 ,1:08:21,Shiori YOSHIZONO,JPN,Okayama (JPN),15 DEC 2024,1164,Half,F,15 Jan 25,,,,,
@@ -1709,7 +1709,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 460.0,3:35.81,Melese NBERET,ETH,"Estadio Vallehermoso, Madrid (ESP)",21 JUN 2024,1163,1500m,M,30 Oct 24,,,,,
 463.0,3:35.86,Arthur GERVAIS,FRA,"Stade de Stehelin, Bordeaux (FRA)",19 JUN 2024,1163,1500m,M,30 Oct 24,14187429.0,2516.0,93.0,Public,45.0
 462.0,3:35.84,Morgan BEADLESCOMB,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1163,1500m,M,30 Oct 24,50044591.0,1540.0,0.0,Public,45.0
-833.0,8:20.90,Derek JOHNSON,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1163,3000m Steeple,M,30 Oct 24,8841155.0,520.0,530.0,Public,45.0
+833.0,8:20.90,Derek JOHNSON,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1163,3000m Steeple,M,30 Oct 24,8841155.0,520.0,530.0,Public,52.0
 461.0,3:35.84,Yann SCHRUB,FRA,"Stade Raymond Troussier, Decines (FRA)",04 MAY 2024,1163,1500m,M,30 Oct 24,55087751.0,0.0,0.0,Public,45.0
 1311.0,27:40.02,Efrem GIDEY,IRL,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1163,10000m,M,30 Oct 24,48998044.0,466.0,5.0,Public,45.0
 1663.0,2:26:54,Natsuki OMORI,JPN,Nagoya (JPN),10 MAR 2024,1163,Full,F,30 Oct 24,,,,,
@@ -1722,7 +1722,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 871.0,15:00.18,Esther CHEBET,UGA,"Campo di Atletica, Asti (ITA)",23 MAY 2024,1163,5000m,F,30 Oct 24,,,,,
 832.0,8:20.87,Vidar JOHANSSON,SWE,"Stade Delort, Marseille (FRA)",22 MAY 2024,1163,3000m Steeple,M,30 Oct 24,94926045.0,178.0,0.0,Private,
 831.0,8:20.83,Mark PEARCE,GBR,"Boudewijnstadion, Bruxelles (BEL)",26 MAY 2024,1163,3000m Steeple,M,30 Oct 24,2461878.0,2133.0,114.0,Public,52.0
-830.0,8:20.82,Joey BERRIATUA,USA,"Sports Park Mladost, Zagreb (CRO)",08 SEP 2024,1163,3000m Steeple,M,30 Oct 24,9588583.0,4302.0,73.0,Public,45.0
+830.0,8:20.82,Joey BERRIATUA,USA,"Sports Park Mladost, Zagreb (CRO)",08 SEP 2024,1163,3000m Steeple,M,30 Oct 24,9588583.0,4302.0,73.0,Public,52.0
 72.0,1:59.93,Charlotte PIZZO,FRA,"Stade Josette et Roger Mikulak, Angers (FRA)",29 JUN 2024,1163,800m,F,30 Oct 24,145126923.0,141.0,4.0,Private,
 829.0,8:20.77,Zak SEDDON,GBR,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1163,3000m Steeple,M,30 Oct 24,25621654.0,1446.0,20.0,Private,
 1111.0,31:32.52,Sara HALL,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1163,10000m,F,30 Oct 24,24442277.0,11.0,1045.0,Public,45.0
@@ -1758,7 +1758,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 696.0,9:32.75,Aude CLAVIER,FRA,"Egret Stadium, Xiamen (CHN)",20 APR 2024,1162,3000m Steeple,F,30 Oct 24,57599867.0,507.0,50.0,Private,
 1668.0,2:27:04,Bontu BEKELE,ETH,Madrid (ESP),28 APR 2024,1162,Full,F,30 Oct 24,,,,,
 97.0,1:45.38,Ramon WIPFLI,SUI,"Bungertstadion, Rehlingen (GER)",19 MAY 2024,1162,800m,M,30 Oct 24,,,,,
-309.0,1:47.25,Carter FITZGERALD,USA,"Ashenfelter Indoor Track, State College, PA (USA) (i)",16 FEB 2024,1162,800m,M,30 Oct 24,12527724.0,307.0,10.0,Public,45.0
+309.0,1:47.25,Carter FITZGERALD,USA,"Ashenfelter Indoor Track, State College, PA (USA) (i)",16 FEB 2024,1162,800m,M,30 Oct 24,12527724.0,307.0,10.0,Public,52.0
 2154.0,2:09:52,Gaddisa TAFA DEKEBE,ETH,Madrid (ESP),28 APR 2024,1162,Full,M,30 Oct 24,,,,,
 465.0,3:35.88,Lucas BONS,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1162,1500m,M,30 Oct 24,26662661.0,1879.0,104.0,Public,45.0
 834.0,8:20.91,Travis MAHONEY,USA,"UVA Lanningan Field, Charlottesville, VA (USA)",19 APR 2024,1162,3000m Steeple,M,30 Oct 24,33180931.0,1266.0,41.0,Public,45.0
@@ -1791,7 +1791,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 837.0,8:21.31,Estanislao Nicolas RUIZ,ESP,"Polideportivo Zorrotza, Bilbao (ESP)",18 JUN 2024,1161,3000m Steeple,M,30 Oct 24,,,,,
 1555.0,1:00:38,Cameron LEVINS,CAN,Istanbul (TUR),28 APR 2024,1161,Half,M,30 Oct 24,26743149.0,914.0,0.0,Public,45.0
 2159.0,2:09:56,Kento NISHI,JPN,Osaka (JPN),25 FEB 2024,1161,Full,M,30 Oct 24,15546789.0,595.0,115.0,Private,
-2160.0,2:09:56,Nicolas NAVARRO,FRA,"Stade de France, Paris (FRA)",10 AUG 2024,1161,Full,M,30 Oct 24,2966441.0,4285.0,759.0,Public,45.0
+2160.0,2:09:56,Nicolas NAVARRO,FRA,"Stade de France, Paris (FRA)",10 AUG 2024,1161,Full,M,30 Oct 24,2966441.0,4285.0,759.0,Public,52.0
 2161.0,2:09:57,Leonard KORIR,USA,"Orlando, FL (USA)",03 FEB 2024,1161,Full,M,30 Oct 24,43820165.0,0.0,0.0,Public,45.0
 2162.0,2:09:57,Dominic NYAIRO,KEN,Aveiro (POR),28 APR 2024,1161,Full,M,30 Oct 24,,,,,
 2163.0,2:09:58,Victor KIPLIMO,KEN,Hannover (GER),14 APR 2024,1161,Full,M,30 Oct 24,107990522.0,522.0,0.0,Public,45.0
@@ -1825,7 +1825,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1561.0,1:00:40,Dominic Chemut KIPTARUS,KEN,Lisboa (POR),17 MAR 2024,1160,Half,M,30 Oct 24,,,,,
 1562.0,1:00:40,Wisley KIPKEMOI,KEN,Yangzhou (CHN),31 MAR 2024,1160,Half,M,30 Oct 24,,,,,
 1557.0,1:00:39,Seifu TURA,ETH,Ras Al Khaimah (UAE),24 FEB 2024,1160,Half,M,30 Oct 24,,,,,
-473.0,3:36.09,Robin VAN RIEL,NED,"Centre sportif Bout-du-Monde, Genève (SUI)",22 JUN 2024,1160,1500m,M,30 Oct 24,7320900.0,1531.0,94.0,Public,45.0
+473.0,3:36.09,Robin VAN RIEL,NED,"Centre sportif Bout-du-Monde, Genève (SUI)",22 JUN 2024,1160,1500m,M,30 Oct 24,7320900.0,1531.0,94.0,Public,52.0
 474.0,3:36.09,Joseph WIGFIELD,GBR,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1160,1500m,M,30 Oct 24,,,,,
 1558.0,1:00:39,Charles Mbatha MATATA,KEN,Venlo (NED),24 MAR 2024,1160,Half,M,30 Oct 24,,,,,
 699.0,9:33.54,Anna TROPINA,RUS,"Olympic Stadium, Cheboksary (RUS)",08 JUL 2024,1160,3000m Steeple,F,30 Oct 24,125374715.0,14.0,5.0,Private,
@@ -1853,7 +1853,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 2166.0,2:10:02,Elkanah KIBET,USA,"Orlando, FL (USA)",03 FEB 2024,1160,Full,M,30 Oct 24,56497235.0,0.0,0.0,Public,45.0
 471.0,3:36.08,Fouad MESSAOUDI,MAR,"Cougar Athletic Stadium, Azusa, CA (USA)",13 APR 2024,1160,1500m,M,30 Oct 24,100977122.0,164.0,0.0,Public,45.0
 1320.0,27:41.81,Samson NDIRANGU,KEN,"Egao Kenko Stadium, Kumamoto (JPN)",13 APR 2024,1160,10000m,M,30 Oct 24,64499544.0,0.0,0.0,Public,45.0
-1190.0,13:27.43,Said MECHAAL,ESP,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",10 FEB 2024,1160,5000m,M,30 Oct 24,5797327.0,430.0,0.0,Public,45.0
+1190.0,13:27.43,Said MECHAAL,ESP,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",10 FEB 2024,1160,5000m,M,30 Oct 24,5797327.0,430.0,0.0,Public,7.0
 1319.0,27:41.81,Gulveer SINGH,IND,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1160,10000m,M,30 Oct 24,,,,,
 1318.0,27:41.52,Stephen MUTHINI,KEN,"National Stadium, Tokyo (JPN)",09 MAY 2024,1160,10000m,M,30 Oct 24,,,,,
 926.0,15:13.84,Katie WASSERMAN,USA,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",27 JAN 2024,1160,5000m,F,30 Oct 24,52348096.0,354.0,1.0,Public,45.0
@@ -1898,7 +1898,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1043.0,13:14.01,Yves NIMUBONA,RWA,"Parc des Sports, Maisons-Laffitte (FRA)",06 JUL 2024,1159,5000m,M,30 Oct 24,,,,,
 1322.0,27:42.72,Simon BEDARD,FRA,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1159,10000m,M,30 Oct 24,,,,,
 1564.0,1:00:41,Naoki OTA,JPN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1159,Half,M,30 Oct 24,12856764.0,1313.0,41.0,Public,45.0
-880.0,15:01.84,Regan YEE,CAN,"Dempsey Indoor, Seattle, WA (USA) (i)",23 FEB 2024,1159,5000m,F,30 Oct 24,11328161.0,2749.0,53.0,Public,45.0
+880.0,15:01.84,Regan YEE,CAN,"Dempsey Indoor, Seattle, WA (USA) (i)",23 FEB 2024,1159,5000m,F,30 Oct 24,11328161.0,2749.0,53.0,Public,52.0
 1192.0,13:27.55,Patrick KIPROP,KEN,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",10 FEB 2024,1159,5000m,M,30 Oct 24,75222533.0,971.0,6.0,Public,45.0
 1565.0,1:00:41,Zouhair TALBI,MAR,"New York, NY (USA)",17 MAR 2024,1159,Half,M,30 Oct 24,73380869.0,1233.0,4.0,Public,45.0
 105.0,1:45.49,Thomas MARQUES DE ANDRADE,FRA,"Stedelijke Atletiekpiste, Ninove (BEL)",20 JUL 2024,1159,800m,M,30 Oct 24,146764612.0,0.0,0.0,Public,45.0
@@ -1964,7 +1964,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 417.0,4:06.12,Ellie LEATHER,GBR,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1157,1500m,F,30 Oct 24,1970679.0,0.0,0.0,Private,
 1685.0,2:27:33,Failuna MATANGA,TAN,Hannover (GER),14 APR 2024,1157,Full,F,30 Oct 24,,,,,
 2173.0,2:10:10,Ser-Od BAT-OCHIR,MGL,Osaka (JPN),25 FEB 2024,1157,Full,M,30 Oct 24,,,,,
-2174.0,2:10:10,Stan NIESTEN,NED,Rotterdam (NED),14 APR 2024,1157,Full,M,30 Oct 24,11157470.0,1323.0,549.0,Public,45.0
+2174.0,2:10:10,Stan NIESTEN,NED,Rotterdam (NED),14 APR 2024,1157,Full,M,30 Oct 24,11157470.0,1323.0,549.0,Public,52.0
 2175.0,2:10:10,Tomas Hilifa RAINHOLD,NAM,Durban (RSA),28 APR 2024,1157,Full,M,30 Oct 24,,,,,
 1331.0,27:43.74,Cosmas Mwangi BOI,KEN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",01 JUN 2024,1157,10000m,M,30 Oct 24,,,,,
 2176.0,2:10:12,Takashi ICHIDA,JPN,Tokyo (JPN),03 MAR 2024,1157,Full,M,30 Oct 24,,,,,
@@ -1983,7 +1983,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 484.0,3:36.27,Charles Cheboi SIMOTWO,KEN,"Nyayo National Stadium, Nairobi (KEN)",14 JUN 2024,1157,1500m,M,30 Oct 24,,,,,
 483.0,3:36.25,James GORMLEY,GBR,"Market Street Athletics Track, Bury (GBR)",10 AUG 2024,1157,1500m,M,30 Oct 24,8573597.0,2532.0,105.0,Private,
 89.0,2:00.32,Anita HORVAT,SLO,"Bislett Stadion, Oslo (NOR)",30 MAY 2024,1157,800m,F,30 Oct 24,36882848.0,486.0,1.0,Public,45.0
-88.0,2:00.28,Sophie O'SULLIVAN,IRL,"Stadio G. Teghil, Lignano Sabbiadoro (ITA)",14 JUL 2024,1157,800m,F,30 Oct 24,10444014.0,2086.0,87.0,Public,45.0
+88.0,2:00.28,Sophie O'SULLIVAN,IRL,"Stadio G. Teghil, Lignano Sabbiadoro (ITA)",14 JUL 2024,1157,800m,F,30 Oct 24,10444014.0,2086.0,87.0,Public,52.0
 482.0,3:36.25,Parker WOLFE,USA,"Morris Williams T&F Stadium, Durham, NC (USA)",12 APR 2024,1157,1500m,M,30 Oct 24,48545297.0,3327.0,4.0,Public,45.0
 481.0,3:36.24,Ayanleh Abdi ABDILLAHI,DJI,"Stade Omnisport de JAPOMA, Douala (CMR)",26 JUN 2024,1157,1500m,M,30 Oct 24,,,,,
 480.0,3:36.24,Giovanni FILIPPI,ITA,"Stade Delort, Marseille (FRA)",22 MAY 2024,1157,1500m,M,30 Oct 24,18819249.0,3473.0,50.0,Public,45.0
@@ -2002,7 +2002,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1290.0,1:08:44,Moira STEWARTOVÁ,CZE,Valencia (ESP),27 OCT 2024,1156,Half,F,30 Oct 24,53756376.0,30.0,0.0,Public,45.0
 890.0,15:03.85,Klara LUKAN,SLO,"LAZ Wien, Wien (AUT)",22 JUN 2024,1156,5000m,F,30 Oct 24,97029549.0,0.0,0.0,Public,45.0
 ,2:25:52,Nóra SZABÓ,HUN,Valencia (ESP),01 DEC 2024,1156,Full,F,15 Jan 25,39266342.0,,,Private,
-485.0,3:36.32,Mike FOPPEN,NED,"Stade Delort, Marseille (FRA)",22 MAY 2024,1156,1500m,M,30 Oct 24,4882648.0,1344.0,36.0,Public,45.0
+485.0,3:36.32,Mike FOPPEN,NED,"Stade Delort, Marseille (FRA)",22 MAY 2024,1156,1500m,M,30 Oct 24,4882648.0,1344.0,36.0,Public,52.0
 1575.0,1:00:45,Milkesa MENGESHA,ETH,"Houston, TX (USA)",14 JAN 2024,1156,Half,M,30 Oct 24,,,,,
 1578.0,1:00:46,Ismael KIPRONO,KEN,Zwolle (NED),08 JUN 2024,1156,Half,M,30 Oct 24,,,,,
 420.0,4:06.18,Joceline WIND,SUI,"Mestský Stadion, Ostrava (CZE)",10 SEP 2024,1156,1500m,F,30 Oct 24,,,,,
@@ -2073,7 +2073,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,31:42,Selam FENTE,ETH,Gqeberha (RSA),07 APR 2024,1155,10k Road,F,15 Jan 25,,,,,
 ,27:45,Kibet NDIWA,KEN,Castellón (ESP),25 FEB 2024,1155,10k Road,M,15 Jan 25,,,,,
 1580.0,1:00:47,Tadesse GETAHON,ISR,Copenhagen (DEN),15 SEP 2024,1155,Half,M,30 Oct 24,,,,,
-1207.0,13:28.81,Toby GILLEN,AUS,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",10 FEB 2024,1155,5000m,M,30 Oct 24,7774046.0,2332.0,54.0,Public,45.0
+1207.0,13:28.81,Toby GILLEN,AUS,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",10 FEB 2024,1155,5000m,M,30 Oct 24,7774046.0,2332.0,54.0,Public,52.0
 705.0,9:35.56,Greta KARINAUSKAITĖ,LTU,"Hayward Field, Eugene, OR (USA)",08 JUN 2024,1155,3000m Steeple,F,30 Oct 24,,,,,
 1050.0,13:14.99,Narve Gilje NORDÅS,NOR,"Sandnes Stadion, Sandnes (NOR)",29 JUN 2024,1155,5000m,M,30 Oct 24,12068436.0,820.0,0.0,Private,
 1689.0,2:27:46,Kebebush YISMA,ETH,Chongqing (CHN),24 MAR 2024,1155,Full,F,30 Oct 24,,,,,
@@ -2159,7 +2159,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 892.0,15:05.20,Laura GALVÁN,MEX,"Stade de France, Paris (FRA)",02 AUG 2024,1153,5000m,F,30 Oct 24,3600841.0,5.0,10.0,Public,45.0
 ,15:17.47,Chloe THOMAS,CAN,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",07 DEC 2024,1153,5000m,F,15 Jan 25,26257837.0,,,Private,
 122.0,1:45.66,Ivan PELIZZA,SUI,"Wieslaw Maniak Municipal Athletic Stadium, Szczecin (POL)",28 AUG 2024,1153,800m,M,30 Oct 24,7516857.0,0.0,0.0,Public,45.0
-1693.0,2:27:54,Natasha WODAK,CAN,Toronto (CAN),20 OCT 2024,1153,Full,F,30 Oct 24,7814602.0,3899.0,34.0,Public,45.0
+1693.0,2:27:54,Natasha WODAK,CAN,Toronto (CAN),20 OCT 2024,1153,Full,F,30 Oct 24,7814602.0,3899.0,34.0,Public,52.0
 121.0,1:45.66,Maciej WYDERKA,POL,"Golęcin Stadion, Poznan (POL)",23 JUN 2024,1153,800m,M,30 Oct 24,,,,,
 426.0,4:06.54,Esther MUTHONI,KEN,"Egao Kenko Stadium, Kumamoto (JPN)",13 APR 2024,1153,1500m,F,30 Oct 24,52506831.0,0.0,33.0,Public,45.0
 ,31:44,Faith CHERONO,KEN,Lille (FRA),16 NOV 2024,1153,10k Road,F,15 Jan 25,124688848.0,,,Public,0.0
@@ -2226,7 +2226,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 505.0,3:36.68,Ryoji TATEZAWA,JPN,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1151,1500m,M,30 Oct 24,114820846.0,488.0,0.0,Public,45.0
 2205.0,2:10:32,Pius Dominic ONDORO,KEN,"St. Paul, Minneapolis, MN (USA)",06 OCT 2024,1151,Full,M,30 Oct 24,,,,,
 2208.0,2:10:34,Benson TUNYO,KEN,Sevilla (ESP),18 FEB 2024,1151,Full,M,30 Oct 24,,,,,
-1703.0,2:28:10,Fabienne SCHLUMPF,SUI,"Stade de France, Paris (FRA)",11 AUG 2024,1151,Full,F,30 Oct 24,7018180.0,408.0,10.0,Public,45.0
+1703.0,2:28:10,Fabienne SCHLUMPF,SUI,"Stade de France, Paris (FRA)",11 AUG 2024,1151,Full,F,30 Oct 24,7018180.0,408.0,10.0,Public,52.0
 ,13:29.79,Abdel LAADJEL,IRL,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",07 DEC 2024,1151,5000m,M,15 Jan 25,124071706.0,,,Public,0.0
 ,31:47,Sheila JERUTO,KEN,Laredo (ESP),16 MAR 2024,1151,10k Road,F,15 Jan 25,,,,,
 1704.0,2:28:11,Fancy CHEMUTAI,KEN,Osaka (JPN),25 FEB 2024,1151,Full,F,30 Oct 24,51213022.0,0.0,0.0,Public,45.0
@@ -2241,9 +2241,9 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 99.0,2:00.64,Kristie SCHOFFIELD,USA,"Hayward Field, Eugene, OR (USA)",23 JUN 2024,1151,800m,F,30 Oct 24,141728347.0,0.0,0.0,Public,45.0
 896.0,15:06.42,Hilda CHEBET,KEN,"Cougar Athletic Stadium, Azusa, CA (USA)",12 APR 2024,1151,5000m,F,30 Oct 24,,,,,
 711.0,9:37.19,Anastasiya KRASILNIKOVA,RUS,"Olympic Stadium, Cheboksary (RUS)",08 JUL 2024,1151,3000m Steeple,F,30 Oct 24,,,,,
-506.0,3:36.69,Duncan HAMILTON,USA,"Billy J. Murphy Track and Field Complex, Memphis, TN (USA)",12 JUL 2024,1151,1500m,M,30 Oct 24,2688671.0,3712.0,92.0,Public,45.0
+506.0,3:36.69,Duncan HAMILTON,USA,"Billy J. Murphy Track and Field Complex, Memphis, TN (USA)",12 JUL 2024,1151,1500m,M,30 Oct 24,2688671.0,3712.0,92.0,Public,52.0
 507.0,3:36.72,Salim Abu MAYANJA,UGA,"Stadio G. Teghil, Lignano Sabbiadoro (ITA)",14 JUL 2024,1151,1500m,M,30 Oct 24,,,,,
-1339.0,27:47.60,Dillon MAGGARD,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1151,10000m,M,30 Oct 24,5665278.0,4547.0,46.0,Public,45.0
+1339.0,27:47.60,Dillon MAGGARD,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1151,10000m,M,30 Oct 24,5665278.0,4547.0,46.0,Public,52.0
 433.0,4:06.91,Kate CURRENT,CAN,"Piste Ben Leduc, Montréal (CAN)",21 JUN 2024,1151,1500m,F,30 Oct 24,39397963.0,873.0,111.0,Public,45.0
 1341.0,27:47.86,Alex Chesiro MASAI,KEN,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1151,10000m,M,30 Oct 24,,,,,
 710.0,9:36.91,Shuangshuang XU,CHN,"Kuishan Sports Center, Rizhao (CHN)",30 JUN 2024,1151,3000m Steeple,F,30 Oct 24,12362523.0,0.0,0.0,Public,45.0
@@ -2261,7 +2261,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 130.0,1:45.74,Abdellah MOUZLIB,MAR,"Estadio Enrique Lopez Cuenca, Nerja (ESP)",22 MAY 2024,1151,800m,M,30 Oct 24,,,,,
 131.0,1:45.74,Matthew ERICKSON,CAN,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1151,800m,M,30 Oct 24,61594180.0,24.0,0.0,Public,45.0
 132.0,1:45.74,Renier DE VILLIERS,RSA,"Centro Sportivo Saletti, Nembro (ITA)",19 JUN 2024,1151,800m,M,30 Oct 24,19707201.0,33.0,15.0,Public,45.0
-,2:26:31,Fabienne SCHLUMPF,SUI,"New York, NY (USA)",03 NOV 2024,1150,Full,F,15 Jan 25,7018180.0,386.0,11.0,Public,0.0
+,2:26:31,Fabienne SCHLUMPF,SUI,"New York, NY (USA)",03 NOV 2024,1150,Full,F,15 Jan 25,7018180.0,386.0,11.0,Public,52.0
 101.0,2:00.66,Aurora RYNDA,CAN,"Percy Beard Track, Gainesville, FL (USA)",19 JUL 2024,1150,800m,F,30 Oct 24,,,,,
 102.0,2:00.68,Kimberley FICENEC,CZE,"Stadion Mládeže, Zlín (CZE)",30 JUN 2024,1150,800m,F,30 Oct 24,85129609.0,2.0,0.0,Public,45.0
 103.0,2:00.70,Kelly-Ann BECKFORD,JAM,"Percy Beard Track, Gainesville, FL (USA)",13 APR 2024,1150,800m,F,30 Oct 24,,,,,
@@ -2293,7 +2293,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1067.0,13:16.52,Amos KURGAT,KEN,"Denka Big Swan Stadium, Niigata (JPN)",28 JUN 2024,1150,5000m,M,30 Oct 24,,,,,
 1705.0,2:28:12,Delele CHEKLIE,ETH,Sevilla (ESP),18 FEB 2024,1150,Full,F,30 Oct 24,,,,,
 ,2:26:28,Tejitu SIYUM,ETH,Shanghai (CHN),01 DEC 2024,1150,Full,F,15 Jan 25,,,,,
-,13:30.17,Cole SPROUT,USA,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",07 DEC 2024,1150,5000m,M,15 Jan 25,6296853.0,3274.0,98.0,Public,0.0
+,13:30.17,Cole SPROUT,USA,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",07 DEC 2024,1150,5000m,M,15 Jan 25,6296853.0,3274.0,98.0,Public,7.0
 ,27:48,Vincent Kiprotich KIBET,KEN,Paris (FRA),05 APR 2024,1150,10k Road,M,15 Jan 25,,,,,
 435.0,4:06.96,Dilek KOÇAK,TUR,"Seha Aksoy Atletizm Pisti, Izmir (TUR)",30 JUN 2024,1150,1500m,F,30 Oct 24,60845172.0,0.0,0.0,Public,45.0
 509.0,3:36.78,Joao BUSSOTTI NEVES,ITA,"Fana Stadion, Bergen (NOR)",22 MAY 2024,1150,1500m,M,30 Oct 24,,,,,
@@ -2316,7 +2316,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1598.0,1:00:54,Yuma NISHIZAWA,JPN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1150,Half,M,30 Oct 24,,,,,
 768.0,3:40.50,Samuel CHAPPLE,NED,"Omnisport, Apeldoorn (NED) (i)",18 FEB 2024,1150,1500m,M,30 Oct 24,29184441.0,1556.0,393.0,Public,45.0
 1709.0,2:28:16,Dominique SCOTT,RSA,"Chicago, IL (USA)",13 OCT 2024,1150,Full,F,30 Oct 24,45956931.0,0.0,39.0,Public,45.0
-1708.0,2:28:14,Leslie SEXTON,CAN,"Houston, TX (USA)",14 JAN 2024,1150,Full,F,30 Oct 24,6604642.0,6704.0,60.0,Public,45.0
+1708.0,2:28:14,Leslie SEXTON,CAN,"Houston, TX (USA)",14 JAN 2024,1150,Full,F,30 Oct 24,6604642.0,6704.0,60.0,Public,52.0
 1343.0,27:48.62,Samuel BARATA,POR,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1149,10000m,M,30 Oct 24,13506056.0,6260.0,11.0,Public,45.0
 439.0,4:07.12,Sam BUSH,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",20 JUL 2024,1149,1500m,F,30 Oct 24,87064986.0,503.0,3.0,Private,
 440.0,4:07.15,Lindsey BUTLER,USA,"Hayward Field, Eugene, OR (USA)",27 JUN 2024,1149,1500m,F,30 Oct 24,126356583.0,559.0,179.0,Public,45.0
@@ -2336,7 +2336,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,2:08:57,Daniel MATEO,ESP,Valencia (ESP),01 DEC 2024,1149,Full,M,15 Jan 25,18299758.0,,,Private,
 ,2:08:57,Afewerki BERHANE,ERI,Abu Dhabi (UAE),14 DEC 2024,1149,Full,M,15 Jan 25,,,,,
 ,2:08:58,Joel Kemboi KIMURER,KEN,Chengdu (CHN),27 OCT 2024,1149,Full,M,15 Jan 25,,,,,
-,2:26:37,Lucy REID,GBR,Málaga (ESP),15 DEC 2024,1149,Full,F,15 Jan 25,10609301.0,235.0,160.0,Public,0.0
+,2:26:37,Lucy REID,GBR,Málaga (ESP),15 DEC 2024,1149,Full,F,15 Jan 25,10609301.0,235.0,160.0,Public,7.0
 ,2:26:39,Deshun ZHANG,CHN,Shanghai (CHN),01 DEC 2024,1149,Full,F,15 Jan 25,,,,,
 1344.0,27:48.82,Filimon ABRAHAM,GER,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1149,10000m,M,30 Oct 24,83284242.0,961.0,3.0,Private,
 514.0,3:36.84,Charlie O'DONOVAN,IRL,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1149,1500m,M,30 Oct 24,45789872.0,3370.0,5.0,Public,45.0
@@ -2346,12 +2346,12 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,2:26:36,Kebebush YISMA,ETH,Nanchang (CHN),10 NOV 2024,1149,Full,F,15 Jan 25,,,,,
 ,27:49,Yves NIMUBONA,RWA,Valencia (ESP),14 JAN 2024,1149,10k Road,M,15 Jan 25,,,,,
 1303.0,1:09:03,Dorcas Jepchirchir TUITOEK,KEN,Buenos Aires (ARG),25 AUG 2024,1149,Half,F,30 Oct 24,,,,,
-1240.0,13:30.37,Cole SPROUT,USA,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",26 JAN 2024,1149,5000m,M,30 Oct 24,6296853.0,3161.0,98.0,Public,45.0
+1240.0,13:30.37,Cole SPROUT,USA,"Boston Univ. Track & Tennis Center, Boston, MA (USA) (i)",26 JAN 2024,1149,5000m,M,30 Oct 24,6296853.0,3161.0,98.0,Public,7.0
 1305.0,1:09:04,Jessica STENSON,AUS,"Cricket Ground, Melbourne (AUS)",13 OCT 2024,1149,Half,F,30 Oct 24,19582010.0,1957.0,20.0,Public,45.0
 1304.0,1:09:03,Sayaka SATO,JPN,Copenhagen (DEN),15 SEP 2024,1149,Half,F,30 Oct 24,16763817.0,38.0,65.0,Private,
 897.0,15:07.12,Katelyn TUOHY,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",20 JUL 2024,1149,5000m,F,30 Oct 24,80574626.0,9.0,3.0,Private,
 441.0,4:07.16,Hannah NUTTALL,GBR,"Market Street Athletics Track, Bury (GBR)",10 AUG 2024,1149,1500m,F,30 Oct 24,15610170.0,1930.0,101.0,Public,45.0
-1076.0,13:16.85,Bastien AUGUSTO,FRA,"Cougar Athletic Stadium, Azusa, CA (USA)",12 APR 2024,1149,5000m,M,30 Oct 24,6816684.0,810.0,520.0,Public,45.0
+1076.0,13:16.85,Bastien AUGUSTO,FRA,"Cougar Athletic Stadium, Azusa, CA (USA)",12 APR 2024,1149,5000m,M,30 Oct 24,6816684.0,810.0,520.0,Public,52.0
 853.0,8:23.89,Sebastián MARTOS,ESP,"Polideportivo Zorrotza, Bilbao (ESP)",18 JUN 2024,1149,3000m Steeple,M,30 Oct 24,35212609.0,0.0,10.0,Public,45.0
 854.0,8:24.02,Etson BARROS,POR,"Polideportivo Zorrotza, Bilbao (ESP)",18 JUN 2024,1149,3000m Steeple,M,30 Oct 24,146831169.0,0.0,0.0,Public,45.0
 2213.0,2:10:39,Tristan WOODFINE,CAN,"Houston, TX (USA)",14 JAN 2024,1149,Full,M,30 Oct 24,137110809.0,249.0,0.0,Public,45.0
@@ -2536,7 +2536,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 524.0,3:37.14,Isaac BASTEN,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1145,1500m,M,30 Oct 24,88934444.0,1151.0,6.0,Public,45.0
 523.0,3:37.13,Tom ELMER,SUI,"Bungertstadion, Rehlingen (GER)",19 MAY 2024,1145,1500m,M,30 Oct 24,5089663.0,1398.0,355.0,Public,45.0
 1615.0,1:01:02,Brian KIPYEGON,KEN,"Showa Park, Tachikawa (JPN)",19 OCT 2024,1145,Half,M,30 Oct 24,,,,,
-1613.0,1:01:02,Rory LINKLETTER,CAN,"Houston, TX (USA)",14 JAN 2024,1145,Half,M,30 Oct 24,9351341.0,4271.0,48.0,Public,45.0
+1613.0,1:01:02,Rory LINKLETTER,CAN,"Houston, TX (USA)",14 JAN 2024,1145,Half,M,30 Oct 24,9351341.0,4271.0,48.0,Public,52.0
 1314.0,1:09:14,Tigist GEZAHAGN,ETH,Lisboa (POR),17 MAR 2024,1145,Half,F,30 Oct 24,,,,,
 978.0,15:21.80,Chloe SCRIMGEOUR,USA,"The Track at New Balance, Boston, MA (USA) (i)",08 MAR 2024,1145,5000m,F,30 Oct 24,104290453.0,163.0,0.0,Public,45.0
 1128.0,31:53.76,Kazuna KANETOMO,JPN,"Athletic Track, Abashiri (JPN)",10 JUL 2024,1145,10000m,F,30 Oct 24,,,,,
@@ -2583,7 +2583,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1353.0,27:52.13,Ernest CHERUIYOT,KEN,"Cougar Athletic Stadium, Azusa, CA (USA)",11 APR 2024,1144,10000m,M,30 Oct 24,132585661.0,0.0,0.0,Public,45.0
 154.0,1:45.97,Collins KIPRUTO,KEN,"Nyayo National Stadium, Nairobi (KEN)",15 JUN 2024,1144,800m,M,30 Oct 24,76724706.0,0.0,0.0,Public,45.0
 2252.0,2:11:00,Nathan MARTIN,USA,"Orlando, FL (USA)",03 FEB 2024,1144,Full,M,30 Oct 24,25871837.0,347.0,97.0,Public,45.0
-529.0,3:37.20,Job IJTSMA,NED,"FBK Stadium, Hengelo (NED)",30 JUN 2024,1144,1500m,M,30 Oct 24,10175779.0,2473.0,76.0,Public,45.0
+529.0,3:37.20,Job IJTSMA,NED,"FBK Stadium, Hengelo (NED)",30 JUN 2024,1144,1500m,M,30 Oct 24,10175779.0,2473.0,76.0,Public,52.0
 125.0,2:01.05,Agathe GUILLEMOT,FRA,"Stade des Maradas, Cergy-Pontoise (FRA)",12 MAY 2024,1144,800m,F,30 Oct 24,68764297.0,548.0,48.0,Public,45.0
 1728.0,2:28:48,Anais QUEMENER,FRA,Sevilla (ESP),18 FEB 2024,1144,Full,F,30 Oct 24,25645358.0,2560.0,330.0,Public,45.0
 123.0,2:01.03,Nina VUKOVIĆ,CRO,"Stadio G. Teghil, Lignano Sabbiadoro (ITA)",14 JUL 2024,1144,800m,F,30 Oct 24,85542284.0,0.0,0.0,Public,45.0
@@ -2601,7 +2601,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 156.0,1:45.97,Samuel PIHLSTRÖM,SWE,"AtletiekArena Gaston Roelants Kessel-Lo / Hal 5, Leuven (BEL)",27 JUL 2024,1144,800m,M,30 Oct 24,16817744.0,2667.0,165.0,Public,45.0
 155.0,1:45.97,Mehdi YANOURI,USA,"Stedelijke Atletiekpiste, Ninove (BEL)",20 JUL 2024,1144,800m,M,30 Oct 24,74582488.0,363.0,0.0,Private,
 1317.0,1:09:18,Vivian JEROTICH,KEN,Verona (ITA),11 FEB 2024,1144,Half,F,30 Oct 24,,,,,
-533.0,3:37.26,Dillon MAGGARD,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1144,1500m,M,30 Oct 24,5665278.0,4547.0,46.0,Public,45.0
+533.0,3:37.26,Dillon MAGGARD,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1144,1500m,M,30 Oct 24,5665278.0,4547.0,46.0,Public,52.0
 1129.0,31:54.34,Maggie MONTOYA,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1144,10000m,F,30 Oct 24,43237397.0,0.0,0.0,Public,45.0
 1729.0,2:28:49,Zhixuan LI,CHN,Nagoya (JPN),10 MAR 2024,1144,Full,F,30 Oct 24,130302356.0,0.0,0.0,Public,45.0
 1085.0,13:18.18,James Mwanzia MUTUKU,KEN,"Egao Kenko Stadium, Kumamoto (JPN)",13 APR 2024,1144,5000m,M,30 Oct 24,,,,,
@@ -2643,7 +2643,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1732.0,2:28:55,Rose CHELIMO,BRN,Doha (QAT),16 FEB 2024,1143,Full,F,30 Oct 24,,,,,
 2253.0,2:11:01,Samuel FREIRE,CPV,Sevilla (ESP),18 FEB 2024,1143,Full,M,30 Oct 24,25134407.0,3.0,375.0,Public,45.0
 1090.0,13:18.45,Matthew Kipkoech KIPRUTO,KEN,"Morton Stadium, Santry, Dublin (IRL)",12 JUL 2024,1143,5000m,M,30 Oct 24,,,,,
-866.0,8:25.20,John GAY,CAN,"Cougar Athletic Stadium, Azusa, CA (USA)",11 APR 2024,1143,3000m Steeple,M,30 Oct 24,11799655.0,1859.0,21.0,Public,45.0
+866.0,8:25.20,John GAY,CAN,"Cougar Athletic Stadium, Azusa, CA (USA)",11 APR 2024,1143,3000m Steeple,M,30 Oct 24,11799655.0,1859.0,21.0,Public,52.0
 126.0,2:01.06,Laura PELLICORO,ITA,"Centro Sportivo Saletti, Nembro (ITA)",19 JUN 2024,1143,800m,F,30 Oct 24,,,,,
 127.0,2:01.08,Raevyn ROGERS,USA,"Hayward Field, Eugene, OR (USA)",23 JUN 2024,1143,800m,F,30 Oct 24,,,,,
 1355.0,27:53.26,Ilias FIFA,ESP,"Estadi Municipal La Bòbila, Gavá (ESP)",02 MAR 2024,1142,10000m,M,30 Oct 24,,,,,
@@ -2686,7 +2686,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 162.0,1:46.04,Niels LAROS,NED,"Stadio Comunale, Bellinzona (SUI)",09 SEP 2024,1142,800m,M,30 Oct 24,29900318.0,897.0,15.0,Public,45.0
 128.0,2:01.13,Kate MITCHELL,USA,"Emerson Field, Concord, MA (USA)",08 JUN 2024,1142,800m,F,30 Oct 24,49462685.0,515.0,86.0,Public,45.0
 910.0,15:10.70,Esther GITAHI,KEN,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1142,5000m,F,30 Oct 24,71375573.0,0.0,0.0,Public,45.0
-2259.0,2:11:07,Tom HENDRIKSE,NED,Rotterdam (NED),14 APR 2024,1142,Full,M,30 Oct 24,6579855.0,1806.0,145.0,Public,45.0
+2259.0,2:11:07,Tom HENDRIKSE,NED,Rotterdam (NED),14 APR 2024,1142,Full,M,30 Oct 24,6579855.0,1806.0,145.0,Public,52.0
 2258.0,2:11:07,John Nzau MWANGANGI,KEN,Buri Ram (THA),27 JAN 2024,1142,Full,M,30 Oct 24,,,,,
 2257.0,2:11:06,Andualem BELAY,ETH,Lanzhou (CHN),26 MAY 2024,1142,Full,M,30 Oct 24,,,,,
 2256.0,2:11:06,Philip KOECH,KEN,Riyadh (KSA),10 FEB 2024,1142,Full,M,30 Oct 24,23559110.0,2.0,0.0,Public,45.0
@@ -2717,7 +2717,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,2:01.20,Alison ANDREWS-PAUL,NZL,"Stadio Quercia, Rovereto (ITA)",03 SEP 2024,1141,800m,F,15 Jan 25,,,,,
 134.0,2:01.20,Alison ANDREWS-PAUL,NZL,"Stadio Quercia, Rovereto (ITA)",31 AUG 2024,1141,800m,F,30 Oct 24,47869432.0,291.0,116.0,Public,45.0
 133.0,2:01.20,Sabrina SOUTHERLAND,USA,"Hayward Field, Eugene, OR (USA)",23 JUN 2024,1141,800m,F,30 Oct 24,,,,,
-1096.0,13:18.85,Yoann KOWAL,FRA,"Parc des Sports, Maisons-Laffitte (FRA)",06 JUL 2024,1141,5000m,M,30 Oct 24,8483601.0,741.0,19.0,Public,45.0
+1096.0,13:18.85,Yoann KOWAL,FRA,"Parc des Sports, Maisons-Laffitte (FRA)",06 JUL 2024,1141,5000m,M,30 Oct 24,8483601.0,741.0,19.0,Public,52.0
 ,31:58,Águeda MARQUÉS,ESP,Valencia (ESP),14 JAN 2024,1141,10k Road,F,15 Jan 25,58946158.0,98.0,20.0,Public,0.0
 ,27:54,Robert Kiprop KOECH,KEN,Paderborn (GER),30 MAR 2024,1141,10k Road,M,15 Jan 25,,,,,
 ,31:58,Dakotah LINDWURM,USA,"New York, NY (USA)",08 JUN 2024,1141,10k Road,F,15 Jan 25,111020647.0,,,Public,0.0
@@ -2727,7 +2727,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 469.0,4:08.15,Lauren RYAN,AUS,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1141,1500m,F,30 Oct 24,12805279.0,2159.0,43.0,Public,45.0
 2263.0,2:11:09,Boniface KIMUTAI,KEN,Chongqing (CHN),24 MAR 2024,1141,Full,M,30 Oct 24,90667504.0,0.0,0.0,Public,45.0
 1133.0,31:57.65,Sophie WALLIS,GBR,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1141,10000m,F,30 Oct 24,9048570.0,875.0,422.0,Private,
-2262.0,2:11:09,Josh IZEWSKI,USA,"Orlando, FL (USA)",03 FEB 2024,1141,Full,M,30 Oct 24,10799453.0,2186.0,119.0,Public,45.0
+2262.0,2:11:09,Josh IZEWSKI,USA,"Orlando, FL (USA)",03 FEB 2024,1141,Full,M,30 Oct 24,10799453.0,2186.0,119.0,Public,52.0
 2264.0,2:11:11,Shoya TAKAHASHI,JPN,Osaka (JPN),25 FEB 2024,1141,Full,M,30 Oct 24,105845341.0,0.0,240.0,Public,45.0
 1742.0,2:29:12,Betty CHEPKORIR,KEN,Madrid (ESP),28 APR 2024,1141,Full,F,30 Oct 24,83498883.0,21.0,0.0,Public,45.0
 465.0,4:08.09,Knight ACIRU,UGA,"Stade Omnisport de JAPOMA, Douala (CMR)",26 JUN 2024,1141,1500m,F,30 Oct 24,,,,,
@@ -2751,7 +2751,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 723.0,9:41.68,Tatsiana SHABANAVA,BLR,"Olympic Stadium, Cheboksary (RUS)",08 JUL 2024,1140,3000m Steeple,F,30 Oct 24,,,,,
 1104.0,13:19.33,Johnathan RENIEWICKI,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1140,5000m,M,30 Oct 24,,,,,
 1327.0,1:09:31,Diane VAN ES,NED,Barcelona (ESP),11 FEB 2024,1140,Half,F,30 Oct 24,43526652.0,37.0,0.0,Public,45.0
-1360.0,27:54.66,Charles PHILIBERT-THIBOUTOT,CAN,"Cougar Athletic Stadium, Azusa, CA (USA)",11 APR 2024,1140,10000m,M,30 Oct 24,7327132.0,882.0,41.0,Public,45.0
+1360.0,27:54.66,Charles PHILIBERT-THIBOUTOT,CAN,"Cougar Athletic Stadium, Azusa, CA (USA)",11 APR 2024,1140,10000m,M,30 Oct 24,7327132.0,882.0,41.0,Public,52.0
 1325.0,1:09:29,Rediet DANIEL,ETH,Poznan (POL),14 APR 2024,1140,Half,F,30 Oct 24,,,,,
 1746.0,2:29:17,Savannah BERRY,USA,"Orlando, FL (USA)",03 FEB 2024,1140,Full,F,30 Oct 24,23078070.0,2875.0,269.0,Public,45.0
 1747.0,2:29:18,Ying LU,CHN,Wuxi (CHN),24 MAR 2024,1140,Full,F,30 Oct 24,25056837.0,523.0,0.0,Private,
@@ -2766,7 +2766,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,27:55,Mao AKO,TAN,"Kings Park Athletics Stadium, Durban (RSA)",07 JUL 2024,1140,10k Road,M,15 Jan 25,,,,,
 1328.0,1:09:31,Hilda KIPTUM,KEN,"Atletiekstadium Gentbrugge, Gentbrugge (BEL)",10 MAR 2024,1140,Half,F,30 Oct 24,,,,,
 ,31:59,Abbie DONNELLY,GBR,Valencia (ESP),14 JAN 2024,1140,10k Road,F,15 Jan 25,35097901.0,,,Private,
-,48:30,Keira D'AMATO,USA,"Jacksonville, FL (USA)",02 MAR 2024,1140,15k Road,F,15 Jan 25,12019441.0,2801.0,32.0,Public,0.0
+,48:30,Keira D'AMATO,USA,"Jacksonville, FL (USA)",02 MAR 2024,1140,15k Road,F,15 Jan 25,12019441.0,2801.0,32.0,Public,52.0
 546.0,3:37.51,Emil DANIELSSON,SWE,"Sollentunavallen, Sollentuna (SWE)",16 JUN 2024,1140,1500m,M,30 Oct 24,14003386.0,5227.0,97.0,Public,45.0
 1743.0,2:29:15,Mhairi MACLENNAN,GBR,London (GBR),21 APR 2024,1140,Full,F,30 Oct 24,12924055.0,3275.0,95.0,Private,
 547.0,3:37.55,Giuseppe GRAVANTE,ITA,"Stadio G. Teghil, Lignano Sabbiadoro (ITA)",14 JUL 2024,1140,1500m,M,30 Oct 24,11581437.0,0.0,855.0,Public,45.0
@@ -2788,7 +2788,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 170.0,1:46.12,Hazem MIAWAD,EGY,"Dean A. Hayes Track and Soccer Stadium, Murfreesboro, TN (USA)",01 JUN 2024,1140,800m,M,30 Oct 24,49509743.0,1816.0,32.0,Public,45.0
 471.0,4:08.27,Laura GALVÁN,MEX,"Keskusurheilukenttä, Joensuu (FIN)",20 JUL 2024,1140,1500m,F,30 Oct 24,3600841.0,5.0,10.0,Public,45.0
 470.0,4:08.23,Micaela DEGENERO,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1140,1500m,F,30 Oct 24,53588607.0,4.0,4.0,Private,
-1359.0,27:54.55,Jack ROWE,GBR,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1140,10000m,M,30 Oct 24,2827104.0,2628.0,7.0,Public,45.0
+1359.0,27:54.55,Jack ROWE,GBR,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1140,10000m,M,30 Oct 24,2827104.0,2628.0,7.0,Public,52.0
 916.0,15:12.48,Emily INFELD,USA,"Hayward Field, Eugene, OR (USA)",25 MAY 2024,1139,5000m,F,30 Oct 24,,,,,
 1631.0,1:01:11,Tsubasa ICHIYAMA,JPN,Marugame (JPN),04 FEB 2024,1139,Half,M,30 Oct 24,,,,,
 139.0,2:01.32,Yolanda NGARAMBE,SWE,"Olympiastadion, Stockholm (SWE)",02 JUN 2024,1139,800m,F,30 Oct 24,101704901.0,285.0,47.0,Public,45.0
@@ -2833,7 +2833,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 725.0,9:41.8h,Milkitu MULETA,ETH,"Stadium, Hawassa (ETH)",04 JUL 2024,1139,3000m Steeple,F,30 Oct 24,,,,,
 1136.0,32:00.08,Mikuni YADA,JPN,"Prefectural Shizuoka Stadium, Fukuroi (JPN)",03 MAY 2024,1139,10000m,F,30 Oct 24,,,,,
 875.0,8:26.21,Mohamed Ibrahim JRIDI,TUN,"Stade Delort, Marseille (FRA)",22 MAY 2024,1139,3000m Steeple,M,30 Oct 24,,,,,
-172.0,1:46.14,Samuel TANNER,NZL,"Nga Puna Wai Sports Hub, Christchurch (NZL)",24 FEB 2024,1139,800m,M,30 Oct 24,3593920.0,683.0,416.0,Public,45.0
+172.0,1:46.14,Samuel TANNER,NZL,"Nga Puna Wai Sports Hub, Christchurch (NZL)",24 FEB 2024,1139,800m,M,30 Oct 24,3593920.0,683.0,416.0,Public,52.0
 173.0,1:46.15,Marius PROBST,GER,"Carl-Kaufmann-Stadion, Karlsruhe (GER)",11 MAY 2024,1139,800m,M,30 Oct 24,30575335.0,325.0,101.0,Private,
 ,32:01,Soukaina ATANANE,MAR,Langueux (FRA),15 JUN 2024,1138,10k Road,F,15 Jan 25,,,,,
 1333.0,1:09:35,Roza DEREJE,ETH,Larne (GBR),25 AUG 2024,1138,Half,F,30 Oct 24,,,,,
@@ -2868,7 +2868,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1640.0,1:01:13,Abraham AKOPESHA,KEN,"Atletiekstadium Gentbrugge, Gentbrugge (BEL)",10 MAR 2024,1138,Half,M,30 Oct 24,,,,,
 174.0,1:46.16,Samuel PRAKEL,USA,"Stedelijke Atletiekpiste, Ninove (BEL)",20 JUL 2024,1138,800m,M,30 Oct 24,,,,,
 175.0,1:46.17,Darius SMALLWOOD,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1138,800m,M,30 Oct 24,,,,,
-176.0,1:46.18,Kyle LANGFORD,GBR,"Drake Stadium, Los Angeles, CA (USA)",18 MAY 2024,1138,800m,M,30 Oct 24,3943693.0,115.0,530.0,Public,45.0
+176.0,1:46.18,Kyle LANGFORD,GBR,"Drake Stadium, Los Angeles, CA (USA)",18 MAY 2024,1138,800m,M,30 Oct 24,3943693.0,115.0,530.0,Public,52.0
 559.0,3:37.69,Abdirahman Saeed HASSAN,QAT,"Suhaim bin Hamad Stadium, Doha (QAT)",10 MAY 2024,1138,1500m,M,30 Oct 24,,,,,
 1639.0,1:01:13,Tomoya OGIKUBO,JPN,Marugame (JPN),04 FEB 2024,1138,Half,M,30 Oct 24,,,,,
 1634.0,1:01:12,Berehanu TSEGU,ETH,Santa Pola (ESP),21 JAN 2024,1138,Half,M,30 Oct 24,,,,,
@@ -2998,7 +2998,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1115.0,13:20.29,Samson NDIRANGU,KEN,"Municipal Stadium, Kitami (JPN)",06 JUL 2024,1136,5000m,M,30 Oct 24,64499544.0,0.0,0.0,Public,45.0
 925.0,15:13.83,Emily LIPARI,USA,"Dempsey Indoor, Seattle, WA (USA) (i)",23 FEB 2024,1136,5000m,F,30 Oct 24,,,,,
 575.0,3:37.82,Tanner MAIER,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1136,1500m,M,30 Oct 24,28193745.0,2996.0,112.0,Public,45.0
-1116.0,13:20.34,Baldvin MAGNUSSON,ISL,"Estadio Iberoamericano, Huelva (ESP)",30 APR 2024,1136,5000m,M,30 Oct 24,3672145.0,5524.0,267.0,Public,45.0
+1116.0,13:20.34,Baldvin MAGNUSSON,ISL,"Estadio Iberoamericano, Huelva (ESP)",30 APR 2024,1136,5000m,M,30 Oct 24,3672145.0,5524.0,267.0,Public,52.0
 ,2:03.04,Vera BERTEMES-HOFFMANN,LUX,"Coque Sport Center, Luxembourg (LUX) (i)",18 FEB 2024,1136,800m,F,15 Jan 25,,,,,
 1117.0,13:20.37,Avinash Mukund SABLE,IND,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1136,5000m,M,30 Oct 24,,,,,
 154.0,2:01.50,Julia CHEROT,FRA,"Stade Omnisports Schlossberg, Forbach (FRA)",26 MAY 2024,1136,800m,F,30 Oct 24,133044643.0,0.0,0.0,Public,45.0
@@ -3118,7 +3118,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 162.0,2:01.62,Berenice CLEYET-MERLE,FRA,"Stade Raymond Troussier, Decines (FRA)",04 MAY 2024,1133,800m,F,30 Oct 24,47005372.0,2166.0,141.0,Public,45.0
 ,48:44,Emily DURGIN,USA,"Jacksonville, FL (USA)",02 MAR 2024,1133,15k Road,F,15 Jan 25,107194000.0,,,Public,0.0
 ,32:07,Meraf BAHTA,SWE,Valencia (ESP),14 JAN 2024,1133,10k Road,F,15 Jan 25,,,,,
-,27:59,Mike FOPPEN,NED,Castellón (ESP),25 FEB 2024,1133,10k Road,M,15 Jan 25,4882648.0,1360.0,35.0,Public,0.0
+,27:59,Mike FOPPEN,NED,Castellón (ESP),25 FEB 2024,1133,10k Road,M,15 Jan 25,4882648.0,1360.0,35.0,Public,52.0
 168.0,2:01.67,Sofia ENNAOUI,POL,"Stadion Śląski, Chorzów (POL)",18 MAY 2024,1133,800m,F,30 Oct 24,,,,,
 ,27:59,Francesco GUERRA,ITA,Lille (FRA),16 NOV 2024,1133,10k Road,M,15 Jan 25,33535900.0,2677.0,,Public,0.0
 166.0,2:01.66,Judy Jepkoech KOSGEI,KEN,"Percy Beard Track, Gainesville, FL (USA)",30 MAR 2024,1133,800m,F,30 Oct 24,,,,,
@@ -3314,7 +3314,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 176.0,2:01.88,Hongjiao WU,CHN,"Kuishan Sports Center, Rizhao (CHN)",30 JUN 2024,1129,800m,F,30 Oct 24,,,,,
 1363.0,1:10:03,Nancy JEPLETING,KEN,Napoli (ITA),25 FEB 2024,1129,Half,F,30 Oct 24,,,,,
 514.0,4:09.65,Sadie SARGENT,USA,"Clyde Hart Track & Field Stadium, Waco, TX (USA)",11 MAY 2024,1129,1500m,F,30 Oct 24,66787115.0,18.0,4.0,Public,45.0
-1670.0,1:01:27,Brett ROBINSON,AUS,Marugame (JPN),04 FEB 2024,1129,Half,M,30 Oct 24,6193172.0,3641.0,126.0,Public,45.0
+1670.0,1:01:27,Brett ROBINSON,AUS,Marugame (JPN),04 FEB 2024,1129,Half,M,30 Oct 24,6193172.0,3641.0,126.0,Public,52.0
 1358.0,1:10:01,Jacqueline GAUGHAN,USA,"Houston, TX (USA)",14 JAN 2024,1129,Half,F,30 Oct 24,97783620.0,0.0,0.0,Public,45.0
 1359.0,1:10:01,Sofía SEGURA,ESP,Barcelona (ESP),11 FEB 2024,1129,Half,F,30 Oct 24,100625166.0,3.0,45.0,Public,45.0
 1671.0,1:01:27,Robert Kiprop KOECH,KEN,Berlin (GER),07 APR 2024,1129,Half,M,30 Oct 24,,,,,
@@ -3324,7 +3324,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 2324.0,2:11:55,Ashenafi NEGESE,ETH,Dublin (IRL),27 OCT 2024,1129,Full,M,30 Oct 24,,,,,
 608.0,3:38.35,Kamar ETIANG,KEN,"Campo di Atletica, Asti (ITA)",23 MAY 2024,1129,1500m,M,30 Oct 24,,,,,
 ,32:11,Emma Grace HURLEY,USA,"New York, NY (USA)",08 JUN 2024,1129,10k Road,F,15 Jan 25,50043240.0,2113.0,3.0,Public,0.0
-1360.0,1:10:01,Fabienne SCHLUMPF,SUI,"Stadio Olimpico, Roma (ITA)",09 JUN 2024,1129,Half,F,30 Oct 24,7018180.0,408.0,10.0,Public,45.0
+1360.0,1:10:01,Fabienne SCHLUMPF,SUI,"Stadio Olimpico, Roma (ITA)",09 JUN 2024,1129,Half,F,30 Oct 24,7018180.0,408.0,10.0,Public,52.0
 1361.0,1:10:02,Aberu AYANA,ETH,Yangzhou (CHN),31 MAR 2024,1129,Half,F,30 Oct 24,,,,,
 1376.0,28:01.90,Kartik KUMAR,IND,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1129,10000m,M,30 Oct 24,24943543.0,111.0,0.0,Public,45.0
 ,9:46.15,Balemlay SHUMET,ETH,"MKO Abiola National Stadium, Abuja (NGR)",27 NOV 2024,1129,3000m Steeple,F,15 Jan 25,,,,,
@@ -3398,12 +3398,12 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 185.0,2:01.99,Déborah RODRÍGUEZ,URU,"Woodside Stadium, Watford (GBR)",08 JUN 2024,1127,800m,F,30 Oct 24,149147297.0,2.0,0.0,Public,45.0
 615.0,3:38.49,Turi MIRKANA,ETH,"Dubai Police Club Stadium, Dubai (UAE)",03 MAY 2024,1127,1500m,M,30 Oct 24,,,,,
 1784.0,2:30:34,Misaki ICHIDA,JPN,Osaka (JPN),25 FEB 2024,1127,Full,F,30 Oct 24,,,,,
-1140.0,13:22.94,Dillon MAGGARD,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1127,5000m,M,30 Oct 24,5665278.0,4547.0,46.0,Public,45.0
+1140.0,13:22.94,Dillon MAGGARD,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1127,5000m,M,30 Oct 24,5665278.0,4547.0,46.0,Public,52.0
 617.0,3:38.49,Camden GILMORE,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1127,1500m,M,30 Oct 24,39909333.0,2153.0,28.0,Public,45.0
 2329.0,2:12:01,Tesema MIDEGISO,ETH,Wuhan (CHN),24 MAR 2024,1127,Full,M,30 Oct 24,,,,,
 1680.0,1:01:30,Nganga Joseph WAWERU,KEN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1127,Half,M,30 Oct 24,,,,,
 947.0,15:18.48,Alma Delia CORTES,MEX,"Swangard Stadium, Burnaby (CAN)",15 JUN 2024,1127,5000m,F,30 Oct 24,,,,,
-618.0,3:38.50,Derek JOHNSON,USA,"Emerson Field, Concord, MA (USA)",08 JUN 2024,1127,1500m,M,30 Oct 24,8841155.0,520.0,530.0,Public,45.0
+618.0,3:38.50,Derek JOHNSON,USA,"Emerson Field, Concord, MA (USA)",08 JUN 2024,1127,1500m,M,30 Oct 24,8841155.0,520.0,530.0,Public,52.0
 620.0,3:38.51,Masresha COSTA,ITA,"Campo Comunale, Modena (ITA)",01 MAY 2024,1127,1500m,M,30 Oct 24,82874308.0,634.0,10.0,Private,
 1380.0,28:02.84,Keijiro MOGI,JPN,"Athletic Track, Abashiri (JPN)",10 JUL 2024,1127,10000m,M,30 Oct 24,,,,,
 948.0,15:18.54,Agate CAUNE,LAT,"Carl-Kaufmann-Stadion, Karlsruhe (GER)",11 MAY 2024,1127,5000m,F,30 Oct 24,95918663.0,2.0,0.0,Private,
@@ -3455,7 +3455,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1685.0,1:01:31,Mike Kiptum BOIT,KEN,Porto (POR),15 SEP 2024,1126,Half,M,30 Oct 24,,,,,
 ,2:10:15,Olika ADUGNA,ETH,Beijing (CHN),03 NOV 2024,1126,Full,M,15 Jan 25,,,,,
 ,2:10:15,Abdelkarim BEN ZAHRA,MAR,Nanchang (CHN),10 NOV 2024,1126,Full,M,15 Jan 25,,,,,
-623.0,3:38.57,Jack ROWE,GBR,"Stadion Śląski, Chorzów (POL)",18 MAY 2024,1126,1500m,M,30 Oct 24,2827104.0,2628.0,7.0,Public,45.0
+623.0,3:38.57,Jack ROWE,GBR,"Stadion Śląski, Chorzów (POL)",18 MAY 2024,1126,1500m,M,30 Oct 24,2827104.0,2628.0,7.0,Public,52.0
 ,52:45,Caroline Makandi GITONGA,KEN,Amsterdam (NED),22 SEP 2024,1126,10M Road,F,15 Jan 25,,,,,
 211.0,1:46.57,Robin OESTER,SUI,"TSV Stadion, Pfungstadt (GER)",14 AUG 2024,1126,800m,M,30 Oct 24,47414877.0,527.0,3.0,Public,45.0
 ,1:10:11,Veronicah Nyaruai WANJIRU,KEN,Ravenna (ITA),10 NOV 2024,1126,Half,F,15 Jan 25,,,,,
@@ -3552,7 +3552,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 961.0,15:19.88,Lyubov DUBROVSKAYA,RUS,"Kalininets Stadium, Yekaterinburg (RUS)",15 AUG 2024,1125,5000m,F,30 Oct 24,,,,,
 962.0,15:19.93,Sarah WANJIRU,KEN,"Aoba Park Athletic Field, Chitose (JPN)",20 JUL 2024,1125,5000m,F,30 Oct 24,141271079.0,0.0,0.0,Public,45.0
 1386.0,28:04.54,Hiroki YAMANAKA,JPN,"National Stadium, Tokyo (JPN)",09 MAY 2024,1125,10000m,M,30 Oct 24,131575250.0,0.0,0.0,Public,45.0
-963.0,15:20.02,Kristine Eikrem ENGESET,NOR,"Stadio Olimpico, Roma (ITA)",07 JUN 2024,1125,5000m,F,30 Oct 24,12012236.0,1389.0,7.0,Public,45.0
+963.0,15:20.02,Kristine Eikrem ENGESET,NOR,"Stadio Olimpico, Roma (ITA)",07 JUN 2024,1125,5000m,F,30 Oct 24,12012236.0,1389.0,7.0,Public,52.0
 1385.0,28:04.36,Samuel CHELANGA,USA,"Hayward Field, Eugene, OR (USA)",21 JUN 2024,1125,10000m,M,30 Oct 24,90214809.0,0.0,0.0,Public,45.0
 1144.0,13:23.61,Anthony CAMERIERI,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1125,5000m,M,30 Oct 24,37392546.0,2735.0,589.0,Public,45.0
 2340.0,2:12:09,Shuho DAIROKUNO,JPN,Tokyo (JPN),03 MAR 2024,1125,Full,M,30 Oct 24,,,,,
@@ -3567,7 +3567,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1692.0,1:01:34,Yemane HAILESELASSIE,ERI,"Houston, TX (USA)",14 JAN 2024,1124,Half,M,30 Oct 24,,,,,
 1695.0,1:01:34,Emmanuel ROUDOLFF,FRA,Valencia (ESP),27 OCT 2024,1124,Half,M,30 Oct 24,,,,,
 964.0,15:20.11,Georgie GRGEC,NZL,"Wimbledon Park Athletics Track, London (GBR)",03 AUG 2024,1124,5000m,F,30 Oct 24,18114045.0,1776.0,608.0,Private,
-1694.0,1:01:34,Koen NAERT,BEL,"Atletiekstadium Gentbrugge, Gentbrugge (BEL)",10 MAR 2024,1124,Half,M,30 Oct 24,2770994.0,291.0,0.0,Public,45.0
+1694.0,1:01:34,Koen NAERT,BEL,"Atletiekstadium Gentbrugge, Gentbrugge (BEL)",10 MAR 2024,1124,Half,M,30 Oct 24,2770994.0,291.0,0.0,Public,52.0
 534.0,4:10.34,Yazmine WRIGHT,USA,"Dean A. Hayes Track and Soccer Stadium, Murfreesboro, TN (USA)",01 JUN 2024,1124,1500m,F,30 Oct 24,44564763.0,852.0,1.0,Public,45.0
 197.0,2:02.17,Sylivia Chematui CHESEBE,KEN,"Nyayo National Stadium, Nairobi (KEN)",14 JUN 2024,1124,800m,F,30 Oct 24,,,,,
 616.0,4:12.95,Sofia THØGERSEN,DEN,"Atletická hala, Ostrava (CZE) (i)",30 JAN 2024,1124,1500m,F,30 Oct 24,,,,,
@@ -3612,14 +3612,14 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,2:29:15,Sofia CAMACHO,USA,Valencia (ESP),01 DEC 2024,1124,Full,F,15 Jan 25,18896435.0,1785.0,189.0,Public,0.0
 ,28:05.07,Josphat Ledama KISAISA,KEN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",09 NOV 2024,1124,10000m,M,15 Jan 25,,,,,
 ,28:05.03,Tatsuya IYODA,JPN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",01 DEC 2024,1124,10000m,M,15 Jan 25,,,,,
-,1:06:25,Keira D'AMATO,USA,"New Haven, CT (USA)",02 SEP 2024,1124,20k Road,F,15 Jan 25,12019441.0,2801.0,32.0,Public,0.0
+,1:06:25,Keira D'AMATO,USA,"New Haven, CT (USA)",02 SEP 2024,1124,20k Road,F,15 Jan 25,12019441.0,2801.0,32.0,Public,52.0
 ,32:17,Yenewa NIBRET,ETH,Addis Abeba (ETH),17 NOV 2024,1124,10k Road,F,15 Jan 25,,,,,
 1391.0,28:04.93,Victor KIMUTAI,KEN,"National Stadium, Tokyo (JPN)",09 MAY 2024,1124,10000m,M,30 Oct 24,81506583.0,1242.0,2.0,Public,45.0
 896.0,8:29.62,Lawrence Kemboi KIPSANG,KEN,"Nyayo National Stadium, Nairobi (KEN)",20 APR 2024,1124,3000m Steeple,M,30 Oct 24,,,,,
 1800.0,2:30:53,Marina KOVALYOVA,RUS,"Luzhniki Stadion, Moskva (RUS)",13 OCT 2024,1124,Full,F,30 Oct 24,86167726.0,0.0,0.0,Public,45.0
 1801.0,2:30:54,Kristina HENDEL,GER,"Houston, TX (USA)",14 JAN 2024,1124,Full,F,30 Oct 24,59060047.0,2472.0,173.0,Public,45.0
 966.0,15:20.48,Sheila JEBET,KEN,"Campo di Atletica, Asti (ITA)",23 MAY 2024,1124,5000m,F,30 Oct 24,140028982.0,0.0,0.0,Public,45.0
-1390.0,28:04.89,Charles WHEELER,GBR,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1124,10000m,M,30 Oct 24,7677443.0,171.0,2585.0,Public,45.0
+1390.0,28:04.89,Charles WHEELER,GBR,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1124,10000m,M,30 Oct 24,7677443.0,171.0,2585.0,Public,52.0
 1389.0,28:04.78,Jonas RAESS,SUI,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1124,10000m,M,30 Oct 24,,,,,
 198.0,2:02.18,Vanessa SCAUNET,BEL,"Boudewijnstadion, Bruxelles (BEL)",30 JUN 2024,1124,800m,F,30 Oct 24,,,,,
 895.0,8:29.58,Rob MCMANUS,USA,"Cougar Athletic Stadium, Azusa, CA (USA)",11 APR 2024,1124,3000m Steeple,M,30 Oct 24,19061864.0,315.0,53.0,Public,45.0
@@ -3664,7 +3664,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 639.0,3:38.77,Matthew RAMSDEN,AUS,"The Crest Athletics Centre, Bankstown, Sydney (AUS)",22 FEB 2024,1123,1500m,M,30 Oct 24,7781937.0,22.0,0.0,Public,45.0
 638.0,3:38.75,Keisuke MORITA,JPN,"Yanmar Stadium Nagai, Osaka (JPN)",12 MAY 2024,1123,1500m,M,30 Oct 24,19212375.0,0.0,1587.0,Private,
 1805.0,2:31:01,Linying WANG,CHN,Wuxi (CHN),24 MAR 2024,1123,Full,F,30 Oct 24,,,,,
-637.0,3:38.74,Alex MELLOY,GBR,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1123,1500m,M,30 Oct 24,9996058.0,2024.0,61.0,Public,45.0
+637.0,3:38.74,Alex MELLOY,GBR,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1123,1500m,M,30 Oct 24,9996058.0,2024.0,61.0,Public,52.0
 636.0,3:38.74,Josphat KIPKIRUI,KEN,"Nyayo National Stadium, Nairobi (KEN)",22 MAY 2024,1123,1500m,M,30 Oct 24,,,,,
 1153.0,13:24.08,Casey CLINGER,USA,"Cougar Athletic Stadium, Azusa, CA (USA)",12 APR 2024,1123,5000m,M,30 Oct 24,72281425.0,7.0,1.0,Public,45.0
 1152.0,13:24.06,Shunsuke YOSHII,JPN,"Municipal Stadium, Hiroshima (JPN)",29 APR 2024,1123,5000m,M,30 Oct 24,,,,,
@@ -3765,7 +3765,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1163.0,13:24.53,Daniel KINYANJUI,KEN,"FBK Stadium, Hengelo (NED)",07 JUL 2024,1121,5000m,M,30 Oct 24,126353137.0,0.0,0.0,Public,45.0
 ,28:07,Nadeel WILDSCHUTT,RSA,"Kings Park Athletics Stadium, Durban (RSA)",07 JUL 2024,1121,10k Road,M,15 Jan 25,,,,,
 226.0,1:46.74,Marc TORTELL,GER,"TSV Stadion, Pfungstadt (GER)",19 JUN 2024,1121,800m,M,30 Oct 24,23093206.0,642.0,3.0,Public,45.0
-904.0,8:30.19,Liam CASHIN,AUS,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1121,3000m Steeple,M,30 Oct 24,10206606.0,3367.0,36.0,Public,45.0
+904.0,8:30.19,Liam CASHIN,AUS,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1121,3000m Steeple,M,30 Oct 24,10206606.0,3367.0,36.0,Public,52.0
 ,1:10:26,Fantaye BELAYNEH,ETH,"Boston, MA (USA)",10 NOV 2024,1121,Half,F,15 Jan 25,,,,,
 ,1:10:25,Faith CHEPKOECH,KEN,Casablanca (MAR),27 OCT 2024,1121,Half,F,15 Jan 25,141743296.0,,,Private,
 1702.0,1:01:38,Dejen TESFALEM,ERI,Marugame (JPN),04 FEB 2024,1121,Half,M,30 Oct 24,,,,,
@@ -3890,7 +3890,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 211.0,2:02.42,Malin Ingeborg NYFORS,NOR,"Morton Stadium, Santry, Dublin (IRL)",12 JUL 2024,1119,800m,F,30 Oct 24,112145544.0,0.0,0.0,Public,45.0
 760.0,9:50.30,Sharon CHEPKEMOI,KEN,"Estadio Atlético de la VIDENA, Lima (PER)",29 AUG 2024,1119,3000m Steeple,F,30 Oct 24,112094419.0,5.0,0.0,Public,45.0
 236.0,1:46.79,Brian KIPTUM,KEN,"Emory Woodruff Physical Education Center, Atlanta, GA (USA)",08 JUN 2024,1119,800m,M,30 Oct 24,48092419.0,79.0,0.0,Public,45.0
-1388.0,1:10:30,Lucy REID,GBR,Sevilla (ESP),28 JAN 2024,1119,Half,F,30 Oct 24,10609301.0,233.0,160.0,Public,45.0
+1388.0,1:10:30,Lucy REID,GBR,Sevilla (ESP),28 JAN 2024,1119,Half,F,30 Oct 24,10609301.0,233.0,160.0,Public,7.0
 983.0,15:22.95,Leanne POMPEANI,AUS,"LAZ Wien, Wien (AUT)",22 JUN 2024,1119,5000m,F,30 Oct 24,35656671.0,4016.0,230.0,Private,
 553.0,4:11.02,Carlee HANSEN,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1119,1500m,F,30 Oct 24,25386511.0,3044.0,10.0,Public,45.0
 237.0,1:46.79,Collin DYLLA,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1119,800m,M,30 Oct 24,26463833.0,3298.0,19.0,Private,
@@ -3898,7 +3898,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1716.0,1:01:42,Demoz BEKELE,ETH,Yangzhou (CHN),31 MAR 2024,1119,Half,M,30 Oct 24,,,,,
 1710.0,1:01:41,Taira OMORI,JPN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1119,Half,M,30 Oct 24,,,,,
 213.0,2:02.46,Aaliyah MILLER,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1119,800m,F,30 Oct 24,42186430.0,0.0,12.0,Public,45.0
-910.0,8:30.70,Yoann KOWAL,FRA,"Parc des Sports C. Ehrmann, Nice (FRA)",15 JUN 2024,1119,3000m Steeple,M,30 Oct 24,8483601.0,741.0,19.0,Public,45.0
+910.0,8:30.70,Yoann KOWAL,FRA,"Parc des Sports C. Ehrmann, Nice (FRA)",15 JUN 2024,1119,3000m Steeple,M,30 Oct 24,8483601.0,741.0,19.0,Public,52.0
 1712.0,1:01:42,Wataru TOCHIGI,JPN,Osaka (JPN),28 JAN 2024,1119,Half,M,30 Oct 24,,,,,
 551.0,4:10.92,Alice SEGUIN,FRA,"Stedelijke Atletiekpiste, Ninove (BEL)",20 JUL 2024,1119,1500m,F,30 Oct 24,24622186.0,164.0,106.0,Private,
 1714.0,1:01:42,Kazuya NISHIYAMA,JPN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1119,Half,M,30 Oct 24,37296072.0,2.0,49.0,Public,45.0
@@ -3914,7 +3914,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 653.0,3:39.08,Rick VAN RIEL,NED,"Uniwersytetu Warmińsko-Mazurskiego, Olsztyn (POL)",01 SEP 2024,1119,1500m,M,30 Oct 24,45461045.0,498.0,136.0,Private,
 2378.0,2:12:32,Kira MIGITA,JPN,Nobeoka (JPN),11 FEB 2024,1119,Full,M,30 Oct 24,,,,,
 2372.0,2:12:29,Abel MUTAI,KEN,Aveiro (POR),28 APR 2024,1119,Full,M,30 Oct 24,,,,,
-655.0,3:39.10,Yoann KOWAL,FRA,"Stade de Stehelin, Bordeaux (FRA)",19 JUN 2024,1119,1500m,M,30 Oct 24,8483601.0,741.0,19.0,Public,45.0
+655.0,3:39.10,Yoann KOWAL,FRA,"Stade de Stehelin, Bordeaux (FRA)",19 JUN 2024,1119,1500m,M,30 Oct 24,8483601.0,741.0,19.0,Public,52.0
 1817.0,2:31:24,Bizuager ADERRA,ETH,Castellón (ESP),25 FEB 2024,1119,Full,F,30 Oct 24,,,,,
 240.0,1:46.81,Abdirahman Saeed HASSAN,QAT,"Pista atletismo Fuente de la Niña, Guadalajara (ESP)",23 JUN 2024,1119,800m,M,30 Oct 24,,,,,
 ,28:08.40,Tatsuya MARUYAMA,JPN,"Kamiyugi Park Athletic Stadium, Hachioji (JPN)",23 NOV 2024,1119,10000m,M,15 Jan 25,15834066.0,,,Public,0.0
@@ -4121,7 +4121,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1829.0,2:31:42,Aynalem KASSAHUN,ETH,Genève (SUI),05 MAY 2024,1116,Full,F,30 Oct 24,,,,,
 259.0,1:46.92,Cole LINDHORST,USA,"John McDonnell Field, Fayetteville, AR (USA)",24 MAY 2024,1116,800m,M,30 Oct 24,12343239.0,613.0,10.0,Private,
 1828.0,2:31:40,Celestine KWACHUWAI,KEN,Poznan (POL),13 OCT 2024,1116,Full,F,30 Oct 24,,,,,
-2397.0,2:12:42,Remyo TIELSEMA,NED,Berlin (GER),29 SEP 2024,1116,Full,M,30 Oct 24,7075179.0,3042.0,75.0,Public,45.0
+2397.0,2:12:42,Remyo TIELSEMA,NED,Berlin (GER),29 SEP 2024,1116,Full,M,30 Oct 24,7075179.0,3042.0,75.0,Public,52.0
 227.0,2:02.59,Veronika SADEK,SLO,"Polisportivo Comunale, San Vito al Tagliamento (ITA)",02 JUN 2024,1116,800m,F,30 Oct 24,52160022.0,570.0,8.0,Public,45.0
 666.0,3:39.27,Corentin LE CLEZIO,FRA,"Wieslaw Maniak Municipal Athletic Stadium, Szczecin (POL)",28 AUG 2024,1116,1500m,M,30 Oct 24,23682243.0,470.0,6.0,Public,45.0
 1415.0,28:10.29,Evans Keitany KIPTUM,KEN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",22 SEP 2024,1116,10000m,M,30 Oct 24,,,,,
@@ -4242,7 +4242,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1409.0,1:10:47,Fionnuala MCCORMACK,IRL,Cardiff (GBR),06 OCT 2024,1114,Half,F,30 Oct 24,,,,,
 568.0,4:11.62,Saki KATAGIHARA,JPN,"Denka Big Swan Stadium, Niigata (JPN)",28 JUN 2024,1114,1500m,F,30 Oct 24,,,,,
 569.0,4:11.65,Rebekah GREENE,NZL,"Newtown Park Stadium, Wellington (NZL)",17 MAR 2024,1114,1500m,F,30 Oct 24,1848964.0,29.0,20.0,Public,45.0
-681.0,3:39.46,Eric AVILA,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1114,1500m,M,30 Oct 24,7059429.0,3004.0,66.0,Public,45.0
+681.0,3:39.46,Eric AVILA,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1114,1500m,M,30 Oct 24,7059429.0,3004.0,66.0,Public,52.0
 ,49:21,Cynthia JEROTICH,KEN,"Utica, NY (USA)",14 JUL 2024,1114,15k Road,F,15 Jan 25,,,,,
 ,49:21,Enyish MENGIE,ETH,Nijmegen (NED),17 NOV 2024,1114,15k Road,F,15 Jan 25,,,,,
 ,49:22,Fionnuala MCCORMACK,IRL,Nijmegen (NED),17 NOV 2024,1114,15k Road,F,15 Jan 25,,,,,
@@ -4332,7 +4332,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,28:12,Tadesse GETAHON,ISR,Valencia (ESP),14 JAN 2024,1113,10k Road,M,15 Jan 25,,,,,
 ,28:12,Hailemaryam KIROS,ETH,Paris (FRA),05 APR 2024,1113,10k Road,M,15 Jan 25,,,,,
 ,32:30,Helene SVANE,DEN,Århus (DEN),20 APR 2024,1113,10k Road,F,15 Jan 25,,,,,
-,43:19,Mike FOPPEN,NED,Nijmegen (NED),17 NOV 2024,1113,15k Road,M,15 Jan 25,4882648.0,1360.0,35.0,Public,0.0
+,43:19,Mike FOPPEN,NED,Nijmegen (NED),17 NOV 2024,1113,15k Road,M,15 Jan 25,4882648.0,1360.0,35.0,Public,52.0
 ,46:38,Andrew COLLEY,USA,"Washington, DC (USA)",07 APR 2024,1113,10M Road,M,15 Jan 25,,,,,
 ,4:11.77,Jaylah HANCOCK-CAMERON,AUS,"Hagenauer Reserve, Box Hill, Melbourne (AUS)",19 DEC 2024,1113,1500m,F,15 Jan 25,,,,,
 ,15:25.90,Nanaka IZAWA,JPN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",09 NOV 2024,1113,5000m,F,15 Jan 25,,,,,
@@ -4370,7 +4370,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 691.0,3:39.58,Tyler WIRTH,USA,"Kentner Stadium Wake Forest University, Winston Salem, NC (USA)",19 APR 2024,1112,1500m,M,30 Oct 24,49103935.0,1815.0,76.0,Public,45.0
 249.0,2:02.82,Veera MATTILA,FIN,"Raatin Stadion, Oulu (FIN)",17 AUG 2024,1112,800m,F,30 Oct 24,22476840.0,0.0,0.0,Public,45.0
 1187.0,13:27.28,Yuichiro NISHIKAWA,JPN,"Aoba Park Athletic Field, Chitose (JPN)",20 JUL 2024,1112,5000m,M,30 Oct 24,28934783.0,746.0,138.0,Public,45.0
-579.0,4:11.92,Kate GRACE,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1112,1500m,F,30 Oct 24,6448444.0,378.0,9.0,Public,45.0
+579.0,4:11.92,Kate GRACE,USA,"Drake Stadium, Los Angeles, CA (USA)",17 MAY 2024,1112,1500m,F,30 Oct 24,6448444.0,378.0,9.0,Public,52.0
 1181.0,32:30.31,Katie IZZO,USA,"Hayward Field, Eugene, OR (USA)",29 JUN 2024,1112,10000m,F,30 Oct 24,55907773.0,246.0,10.0,Public,45.0
 252.0,2:02.86,Bailey GOGGANS,USA,"Percy Beard Track, Gainesville, FL (USA)",13 APR 2024,1112,800m,F,30 Oct 24,41446833.0,144.0,3.0,Public,45.0
 1845.0,2:32:07,Elizeba CHERONO,NED,Enschede (NED),21 APR 2024,1112,Full,F,30 Oct 24,116947820.0,146.0,0.0,Private,
@@ -4539,7 +4539,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,13:28,Matthew Kipkoech KIPRUTO,KEN,Barcelona (ESP),31 DEC 2024,1109,5k Road,M,15 Jan 25,,,,,
 ,32:34,Aynadis MEBRATU,ETH,Hobart (AUS),18 FEB 2024,1109,10k Road,F,15 Jan 25,,,,,
 ,32:34,Poppy TANK,GBR,Valencia (ESP),14 JAN 2024,1109,10k Road,F,15 Jan 25,,,,,
-,13:28,Mike FOPPEN,NED,Nijmegen (NED),20 APR 2024,1109,5k Road,M,15 Jan 25,4882648.0,1360.0,35.0,Public,0.0
+,13:28,Mike FOPPEN,NED,Nijmegen (NED),20 APR 2024,1109,5k Road,M,15 Jan 25,4882648.0,1360.0,35.0,Public,52.0
 ,13:28,Pierrik JOCTEUR-MONROZIER,FRA,Barcelona (ESP),31 DEC 2024,1109,5k Road,M,15 Jan 25,,,,,
 ,43:23,Rui AOKI,JPN,Nijmegen (NED),17 NOV 2024,1109,15k Road,M,15 Jan 25,122992835.0,,,Private,
 ,43:23,Yemane HAILESELASSIE,ERI,"Utica, NY (USA)",14 JUL 2024,1109,15k Road,M,15 Jan 25,,,,,
@@ -4550,7 +4550,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1011.0,15:28.08,ANKITA,IND,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1109,5000m,F,30 Oct 24,85694729.0,0.0,4.0,Public,45.0
 1776.0,1:01:57,Cleophas KIBET,KEN,Madrid (ESP),07 APR 2024,1109,Half,M,30 Oct 24,,,,,
 1775.0,1:01:57,Ciren ZHAXI,CHN,Meishan (CHN),25 FEB 2024,1109,Half,M,30 Oct 24,,,,,
-705.0,3:39.80,Max DAVIES,CAN,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1109,1500m,M,30 Oct 24,5181205.0,233.0,54.0,Public,45.0
+705.0,3:39.80,Max DAVIES,CAN,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1109,1500m,M,30 Oct 24,5181205.0,233.0,54.0,Public,52.0
 1777.0,1:01:57,Abraham KIPYATICH,KEN,Istanbul (TUR),28 APR 2024,1109,Half,M,30 Oct 24,,,,,
 1186.0,32:33.73,Annie RODENFELS,USA,"JSerra Catholic HS, San Juan Capistrano, CA (USA)",16 MAR 2024,1109,10000m,F,30 Oct 24,15124771.0,4692.0,44.0,Public,45.0
 ,2:30:55,Lily PARTRIDGE,GBR,"New York, NY (USA)",03 NOV 2024,1109,Full,F,15 Jan 25,,,,,
@@ -4587,7 +4587,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1195.0,13:27.96,Dennis KIPRUTO,KEN,"Municipal Stadium, Kitami (JPN)",06 JUL 2024,1109,5000m,M,30 Oct 24,112774892.0,599.0,68.0,Public,45.0
 1426.0,1:11:01,Miriam DATTKE,GER,Berlin (GER),07 APR 2024,1109,Half,F,30 Oct 24,,,,,
 590.0,4:12.25,Natoya GOULE-TOPPIN,JAM,"Franklin Field, Philadelphia, PA (USA)",27 APR 2024,1109,1500m,F,30 Oct 24,,,,,
-707.0,3:39.81,Bruno PIERRU,FRA,"Sportcentrum Wembley, Kortrijk (BEL)",13 JUL 2024,1109,1500m,M,30 Oct 24,3875855.0,1641.0,36.0,Public,45.0
+707.0,3:39.81,Bruno PIERRU,FRA,"Sportcentrum Wembley, Kortrijk (BEL)",13 JUL 2024,1109,1500m,M,30 Oct 24,3875855.0,1641.0,36.0,Public,52.0
 708.0,3:39.82,Alex SALAS,ESP,"Pistes d'atletisme Gaetà Huguet, Castellón (ESP)",22 MAY 2024,1109,1500m,M,30 Oct 24,2642458.0,2.0,558.0,Public,45.0
 709.0,3:39.82,Clement TOUATI,FRA,"AtletiekArena Gaston Roelants Kessel-Lo / Hal 5, Leuven (BEL)",27 JUL 2024,1109,1500m,M,30 Oct 24,29097227.0,391.0,7.0,Private,
 ,43:24,Matthew KIPLIMO,KEN,Nijmegen (NED),17 NOV 2024,1108,15k Road,M,15 Jan 25,,,,,
@@ -4652,7 +4652,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,13:28.43,Akira AKASAKI,JPN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",30 NOV 2024,1108,5000m,M,15 Jan 25,,,,,
 ,28:15.24,Naoki OTA,JPN,"Kamiyugi Park Athletic Stadium, Hachioji (JPN)",23 NOV 2024,1108,10000m,M,15 Jan 25,12856764.0,1326.0,41.0,Public,0.0
 715.0,3:39.90,Simon SUNDSTRÖM,SWE,"Bislett Stadion, Oslo (NOR)",27 AUG 2024,1108,1500m,M,30 Oct 24,35993768.0,2539.0,14.0,Private,
-714.0,3:39.90,Baldvin MAGNUSSON,ISL,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1108,1500m,M,30 Oct 24,3672145.0,5524.0,267.0,Public,45.0
+714.0,3:39.90,Baldvin MAGNUSSON,ISL,"Tooting Bec Athletics Track, London (GBR)",24 JUL 2024,1108,1500m,M,30 Oct 24,3672145.0,5524.0,267.0,Public,52.0
 713.0,3:39.90,Jean-Simon DESGAGNÉS,CAN,"Piste Ben Leduc, Montréal (CAN)",21 JUN 2024,1108,1500m,M,30 Oct 24,20297898.0,950.0,3.0,Public,45.0
 712.0,3:39.88,Andrzej KOWALCZYK,POL,"Stadion Śląski, Chorzów (POL)",18 MAY 2024,1108,1500m,M,30 Oct 24,22549433.0,1469.0,2872.0,Private,
 ,28:15.52,Haruka ONODERA,JPN,"Kamiyugi Park Athletic Stadium, Hachioji (JPN)",23 NOV 2024,1108,10000m,M,15 Jan 25,122999053.0,11.0,,Public,0.0
@@ -4697,7 +4697,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1444.0,28:16.00,Suguru OSAKO,JPN,"Mt. Hood Community College, Gresham, OR (USA)",08 JUN 2024,1107,10000m,M,30 Oct 24,111739002.0,0.0,0.0,Public,45.0
 1445.0,28:16.20,Shogo NAKAMURA,JPN,"Athletic Track, Abashiri (JPN)",10 JUL 2024,1107,10000m,M,30 Oct 24,32294430.0,802.0,32.0,Public,45.0
 1446.0,28:16.32,Rui AOKI,JPN,"National Stadium, Tokyo (JPN)",09 MAY 2024,1107,10000m,M,30 Oct 24,122992835.0,0.0,0.0,Private,
-1447.0,28:16.49,Austin VANCIL,USA,"Cobb Track and Angell Field, Palo Alto, CA (USA)",29 MAR 2024,1107,10000m,M,30 Oct 24,6906691.0,2477.0,123.0,Public,45.0
+1447.0,28:16.49,Austin VANCIL,USA,"Cobb Track and Angell Field, Palo Alto, CA (USA)",29 MAR 2024,1107,10000m,M,30 Oct 24,6906691.0,2477.0,123.0,Public,52.0
 275.0,2:03.15,Aviwe HOBOLOSHE,RSA,"Msunduzi Athletics Stadium, Pietermaritzburg (RSA)",20 APR 2024,1107,800m,F,30 Oct 24,,,,,
 276.0,2:03.15,Addy TOWNSEND,CAN,"Complexe Sportif Claude-Robillard, Montréal (CAN)",29 JUN 2024,1107,800m,F,30 Oct 24,95547154.0,7.0,3.0,Private,
 599.0,4:12.53,Lauren FREELAND,USA,"Un. of Kentucky Outdoor Track Facility, Lexington, KY (USA)",25 MAY 2024,1107,1500m,F,30 Oct 24,70734958.0,30.0,0.0,Public,45.0
@@ -4714,7 +4714,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1794.0,1:02:01,Tomohiro FUJIMURA,JPN,Osaka (JPN),28 JAN 2024,1107,Half,M,30 Oct 24,16739596.0,0.0,2.0,Public,45.0
 1795.0,1:02:01,Elias Kipchumba MAIYO,KEN,Sevilla (ESP),28 JAN 2024,1107,Half,M,30 Oct 24,,,,,
 273.0,2:03.11,Twinkle CHAUDHARY,IND,"Dubai Police Club Stadium, Dubai (UAE)",03 MAY 2024,1107,800m,F,30 Oct 24,113929372.0,0.0,0.0,Public,45.0
-1793.0,1:02:00,Tom ANDERSON,GBR,Valencia (ESP),27 OCT 2024,1107,Half,M,30 Oct 24,11747326.0,4729.0,26.0,Public,45.0
+1793.0,1:02:00,Tom ANDERSON,GBR,Valencia (ESP),27 OCT 2024,1107,Half,M,30 Oct 24,11747326.0,4729.0,26.0,Public,52.0
 2447.0,2:13:14,Peter KWEMOI,KEN,Nairobi (KEN),27 OCT 2024,1107,Full,M,30 Oct 24,,,,,
 ,32:37,Matea PARLOV KOŠTRO,CRO,Castellón (ESP),25 FEB 2024,1107,10k Road,F,15 Jan 25,,,,,
 ,32:37,Mercy CHELANGAT,KEN,"Boston, MA (USA)",23 JUN 2024,1107,10k Road,F,15 Jan 25,,,,,
@@ -4740,7 +4740,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,1:02:01,Edward GODDARD,AUS,Ageo (JPN),17 NOV 2024,1107,Half,M,15 Jan 25,,,,,
 1194.0,32:36.64,Veerle BAKKER,NED,"Atletiekbaan Brakkenstein, Nijmegen (NED)",18 MAY 2024,1107,10000m,F,30 Oct 24,26080027.0,16.0,188.0,Private,
 1195.0,32:36.77,Anastasia MARINAKOU,GRE,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1107,10000m,F,30 Oct 24,133474377.0,348.0,4.0,Private,
-,32:36,Kristine Eikrem ENGESET,NOR,Valencia (ESP),14 JAN 2024,1107,10k Road,F,15 Jan 25,12012236.0,1384.0,7.0,Public,0.0
+,32:36,Kristine Eikrem ENGESET,NOR,Valencia (ESP),14 JAN 2024,1107,10k Road,F,15 Jan 25,12012236.0,1384.0,7.0,Public,52.0
 ,2:11:16,Colin BENNIE,USA,"New York, NY (USA)",03 NOV 2024,1107,Full,M,15 Jan 25,32464862.0,4106.0,2.0,Public,0.0
 1196.0,32:36.97,Yasna PETROVA,BUL,"Cobb Track and Angell Field, Palo Alto, CA (USA)",29 MAR 2024,1107,10000m,F,30 Oct 24,146778869.0,483.0,3.0,Private,
 1204.0,13:28.67,Taishi ITO,JPN,"Municipal Stadium, Hiroshima (JPN)",29 APR 2024,1107,5000m,M,30 Oct 24,,,,,
@@ -4830,7 +4830,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 2454.0,2:13:21,Richard ROP,KEN,Nairobi (KEN),27 OCT 2024,1105,Full,M,30 Oct 24,4151166.0,1162.0,815.0,Public,45.0
 1454.0,28:17.63,Takuya HANYU,JPN,"Hoshigadai Stadium, Tajimi (JPN)",05 OCT 2024,1105,10000m,M,30 Oct 24,,,,,
 1199.0,32:38.73,Silke JONKMAN,NED,"Stadio Olimpico, Roma (ITA)",11 JUN 2024,1105,10000m,F,30 Oct 24,23254495.0,1639.0,143.0,Public,45.0
-1456.0,28:17.69,Cole SPROUT,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1105,10000m,M,30 Oct 24,6296853.0,3161.0,98.0,Public,45.0
+1456.0,28:17.69,Cole SPROUT,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1105,10000m,M,30 Oct 24,6296853.0,3161.0,98.0,Public,7.0
 1024.0,15:30.18,Anna ARNAUDO,ITA,"Campo Comunale, Modena (ITA)",01 MAY 2024,1105,5000m,F,30 Oct 24,15507941.0,0.0,0.0,Public,45.0
 606.0,4:12.73,Anna WORKMAN,CAN,"Paul Derr TF Facility, Raleigh, NC (USA)",29 MAR 2024,1105,1500m,F,30 Oct 24,71018900.0,1034.0,56.0,Private,
 1025.0,15:30.28,Eva DIETERICH,GER,"Eintracht-Stadion, Braunschweig (GER)",28 JUN 2024,1105,5000m,F,30 Oct 24,9903035.0,0.0,1.0,Public,45.0
@@ -4868,7 +4868,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1455.0,28:17.66,Ryan JOHNSON,USA,"Jack Kemp Stadium, Los Angeles, CA (USA)",11 MAY 2024,1105,10000m,M,30 Oct 24,8520328.0,12.0,2204.0,Public,45.0
 295.0,2:03.26,Yuri NISHIDA,JPN,"Todoroki Stadium, Kawasaki (JPN)",22 SEP 2024,1105,800m,F,30 Oct 24,33754354.0,0.0,0.0,Public,45.0
 733.0,3:40.10,Mohamed REDA,ESP,"Sportcentrum Wembley, Kortrijk (BEL)",13 JUL 2024,1105,1500m,M,30 Oct 24,26014313.0,810.0,0.0,Public,45.0
-734.0,3:40.11,Brandon MILLER,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1105,1500m,M,30 Oct 24,9559332.0,2677.0,106.0,Public,45.0
+734.0,3:40.11,Brandon MILLER,USA,"Lincoln HS, Portland, OR (USA)",09 JUN 2024,1105,1500m,M,30 Oct 24,9559332.0,2677.0,106.0,Public,52.0
 735.0,3:40.12,Benjamin REYNOLDS,GBR,"Bracknell Leisure Centre, Bracknell (GBR)",19 JUN 2024,1105,1500m,M,30 Oct 24,656988.0,146.0,2385.0,Private,
 290.0,2:03.24,Alli BOOKIN-NOSBISCH,USA,"Percy Beard Track, Gainesville, FL (USA)",30 MAR 2024,1105,800m,F,30 Oct 24,,,,,
 1867.0,2:32:52,Alemtsehay ASEFA,ETH,Riyadh (KSA),10 FEB 2024,1105,Full,F,30 Oct 24,,,,,
@@ -4887,7 +4887,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,1:02:03,Kieran LUMB,CAN,"Boston, MA (USA)",10 NOV 2024,1105,Half,M,15 Jan 25,5373957.0,,,Private,
 1814.0,1:02:03,Pablo SÁNCHEZ,ESP,Valencia (ESP),27 OCT 2024,1105,Half,M,30 Oct 24,61212790.0,873.0,0.0,Public,45.0
 286.0,2:03.22,Avery PEARSON,CAN,"Foote Field, Edmonton (CAN)",13 JUN 2024,1105,800m,F,30 Oct 24,106218983.0,0.0,4.0,Public,45.0
-731.0,3:40.09,Alexis MIELLET,FRA,"Stade Jacques Forestier, Aix-les-Bains (FRA)",12 MAY 2024,1105,1500m,M,30 Oct 24,10816005.0,2210.0,57.0,Public,45.0
+731.0,3:40.09,Alexis MIELLET,FRA,"Stade Jacques Forestier, Aix-les-Bains (FRA)",12 MAY 2024,1105,1500m,M,30 Oct 24,10816005.0,2210.0,57.0,Public,52.0
 609.0,4:12.78,Abby NICHOLS,USA,"Meredith College, Raleigh, NC (USA)",02 AUG 2024,1105,1500m,F,30 Oct 24,49240561.0,1248.0,0.0,Public,45.0
 1812.0,1:02:03,Sikiyas MISGANAW,ETH,Lisboa (POR),17 MAR 2024,1105,Half,M,30 Oct 24,,,,,
 1811.0,1:02:03,Fuminori SHIMO,JPN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1105,Half,M,30 Oct 24,20990775.0,234.0,451.0,Private,
@@ -4919,7 +4919,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1220.0,13:29.54,Rory LEONARD,GBR,"Millennium Arena, Battersea Park, London (GBR)",26 APR 2024,1104,5000m,M,30 Oct 24,19686000.0,683.0,2.0,Public,45.0
 1219.0,13:29.52,Zachary FACIONI,AUS,"Nishishina Athletic Stadium, Nobeoka (JPN)",04 MAY 2024,1104,5000m,M,30 Oct 24,,,,,
 1218.0,13:29.49,Kirami Collin YEGO,KEN,"Cougar Athletic Stadium, Azusa, CA (USA)",12 APR 2024,1104,5000m,M,30 Oct 24,73487204.0,388.0,0.0,Public,45.0
-1217.0,13:29.47,Daniel ARCE,ESP,"Estadio Iberoamericano, Huelva (ESP)",30 APR 2024,1104,5000m,M,30 Oct 24,8112897.0,230.0,77.0,Public,45.0
+1217.0,13:29.47,Daniel ARCE,ESP,"Estadio Iberoamericano, Huelva (ESP)",30 APR 2024,1104,5000m,M,30 Oct 24,8112897.0,230.0,77.0,Public,52.0
 1216.0,13:29.37,Shu HASEGAWA,JPN,"Municipal Stadium, Hiroshima (JPN)",29 APR 2024,1104,5000m,M,30 Oct 24,24805643.0,785.0,90.0,Public,45.0
 1215.0,13:29.35,Nganga Joseph WAWERU,KEN,"Egao Kenko Stadium, Kumamoto (JPN)",13 APR 2024,1104,5000m,M,30 Oct 24,,,,,
 1214.0,13:29.32,Victor Kipruto TOGOM,KEN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",29 SEP 2024,1104,5000m,M,30 Oct 24,,,,,
@@ -4933,7 +4933,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1462.0,28:17.99,Jesús RAMOS,ESP,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1104,10000m,M,30 Oct 24,18796052.0,5.0,396.0,Public,45.0
 741.0,3:40.20,Shane STREICH,USA,"Paul Derr TF Facility, Raleigh, NC (USA)",28 MAR 2024,1104,1500m,M,30 Oct 24,61783860.0,2750.0,3.0,Public,45.0
 ,46:48,Tatsuya FURUKAWA,JPN,Kumamoto (JPN),01 DEC 2024,1104,10M Road,M,15 Jan 25,51828038.0,264.0,941.0,Public,0.0
-745.0,3:40.22,James HANSEN,AUS,"AIS Athletics Track, Canberra (AUS)",02 MAR 2024,1104,1500m,M,30 Oct 24,2911356.0,3542.0,1.0,Public,45.0
+745.0,3:40.22,James HANSEN,AUS,"AIS Athletics Track, Canberra (AUS)",02 MAR 2024,1104,1500m,M,30 Oct 24,2911356.0,3542.0,1.0,Public,52.0
 744.0,3:40.21,Miguel MOREIRA,POR,"Kimpisen yleisurheilukenttä, Lappeenranta (FIN)",17 JUL 2024,1104,1500m,M,30 Oct 24,5376540.0,80.0,731.0,Public,45.0
 743.0,3:40.20,Stanislav UGRIN,RUS,"Olympic Stadium, Cheboksary (RUS)",09 JUL 2024,1104,1500m,M,30 Oct 24,,,,,
 742.0,3:40.20,Ali Idow HASSAN,SOM,"Dubai Police Club Stadium, Dubai (UAE)",03 MAY 2024,1104,1500m,M,30 Oct 24,116233616.0,0.0,0.0,Public,45.0
@@ -4999,7 +4999,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1467.0,28:19.01,Vincent CHIRCHIR,KEN,"Cobb Track and Angell Field, Palo Alto, CA (USA)",29 MAR 2024,1103,10000m,M,30 Oct 24,,,,,
 1228.0,13:29.88,Shunya KIKUCHI,JPN,"NITTAIDAI Athletic Stadium, Yokohama (JPN)",01 JUN 2024,1103,5000m,M,30 Oct 24,115414294.0,1039.0,0.0,Private,
 1828.0,1:02:07,Hiroto KUNIYASU,JPN,Marugame (JPN),04 FEB 2024,1103,Half,M,30 Oct 24,,,,,
-1224.0,13:29.78,Florian LE PALLEC,FRA,"Cougar Athletic Stadium, Azusa, CA (USA)",12 APR 2024,1103,5000m,M,30 Oct 24,9389758.0,3720.0,68.0,Public,45.0
+1224.0,13:29.78,Florian LE PALLEC,FRA,"Cougar Athletic Stadium, Azusa, CA (USA)",12 APR 2024,1103,5000m,M,30 Oct 24,9389758.0,3720.0,68.0,Public,52.0
 1225.0,13:29.79,Hillary BOR,USA,"Sportcity Regional Arena, Manchester (GBR)",25 MAY 2024,1103,5000m,M,30 Oct 24,42586045.0,0.0,166.0,Private,
 1832.0,1:02:07,Kelvin KIBIWOTT,KEN,Venlo (NED),24 MAR 2024,1103,Half,M,30 Oct 24,93971069.0,0.0,0.0,Public,45.0
 938.0,8:34.40,Altobeli SILVA,BRA,"Boudewijnstadion, Bruxelles (BEL)",26 MAY 2024,1103,3000m Steeple,M,30 Oct 24,,,,,
@@ -5087,7 +5087,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 941.0,8:34.56,Tom Erling KÅRBØ,NOR,"Boudewijnstadion, Bruxelles (BEL)",26 MAY 2024,1102,3000m Steeple,M,30 Oct 24,,,,,
 629.0,4:13.22,Carla SWEENEY,IRL,"Market Street Athletics Track, Bury (GBR)",10 AUG 2024,1102,1500m,F,30 Oct 24,13243473.0,93.0,0.0,Public,45.0
 626.0,4:13.15,Gladys CHEPNGETICH,KEN,"Geroge C. Griffin Track, Atlanta, GA (USA)",11 MAY 2024,1102,1500m,F,30 Oct 24,120754520.0,315.0,1.0,Public,45.0
-1875.0,2:33:10,Marcella HERZOG,NED,Rotterdam (NED),14 APR 2024,1102,Full,F,30 Oct 24,8820965.0,2496.0,356.0,Public,45.0
+1875.0,2:33:10,Marcella HERZOG,NED,Rotterdam (NED),14 APR 2024,1102,Full,F,30 Oct 24,8820965.0,2496.0,356.0,Public,52.0
 1873.0,2:33:06,Truphena CHEPCHIRCHIR,KEN,Hong Kong (HKG),21 JAN 2024,1102,Full,F,30 Oct 24,,,,,
 1872.0,2:33:05,Adanech MEKONNEN,ETH,Padova (ITA),21 APR 2024,1102,Full,F,30 Oct 24,,,,,
 939.0,8:34.48,Nabil SEBBAR,ESP,"Estadio Enrique Lopez Cuenca, Nerja (ESP)",22 MAY 2024,1102,3000m Steeple,M,30 Oct 24,,,,,
@@ -5105,7 +5105,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1230.0,13:29.90,Kiseki SHIOZAWA,JPN,"Denka Big Swan Stadium, Niigata (JPN)",28 JUN 2024,1102,5000m,M,30 Oct 24,,,,,
 1229.0,13:29.89,Axel Vang CHRISTENSEN,DEN,"Boudewijnstadion, Bruxelles (BEL)",25 MAY 2024,1102,5000m,M,30 Oct 24,,,,,
 1454.0,1:11:21,Tristin VAN ORD,USA,"Houston, TX (USA)",14 JAN 2024,1102,Half,F,30 Oct 24,23693449.0,3754.0,34.0,Private,
-1455.0,1:11:21,Natasha WODAK,CAN,Gold Coast (AUS),06 JUL 2024,1102,Half,F,30 Oct 24,7814602.0,3899.0,34.0,Public,45.0
+1455.0,1:11:21,Natasha WODAK,CAN,Gold Coast (AUS),06 JUL 2024,1102,Half,F,30 Oct 24,7814602.0,3899.0,34.0,Public,52.0
 1456.0,1:11:22,Elisa PALMERO,ITA,"Stadio Olimpico, Roma (ITA)",09 JUN 2024,1102,Half,F,30 Oct 24,,,,,
 1471.0,28:19.67,Jake RITTER,USA,"Mt. Hood Community College, Gresham, OR (USA)",08 JUN 2024,1102,10000m,M,30 Oct 24,23718316.0,4258.0,38.0,Public,45.0
 940.0,8:34.53,Siboniso SOLDAKA,RSA,"Stade Naimette-Xhovémont, Liège (BEL)",19 JUN 2024,1102,3000m Steeple,M,30 Oct 24,,,,,
@@ -5133,7 +5133,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 ,13:30,Dejene WEYFEN,ETH,Nijmegen (NED),20 APR 2024,1102,5k Road,M,15 Jan 25,,,,,
 798.0,9:57.29,Shirley LANG,SUI,"Stadion Buchholz, Uster (SUI)",24 MAY 2024,1102,3000m Steeple,F,30 Oct 24,32302074.0,727.0,0.0,Private,
 323.0,1:47.38,Ben NAGEL,USA,"Dean A. Hayes Track and Soccer Stadium, Murfreesboro, TN (USA)",01 JUN 2024,1102,800m,M,30 Oct 24,32496631.0,4162.0,508.0,Public,45.0
-325.0,1:47.39,Stephen EVANS,CAN,"Alumni Stadium, Guelph (CAN)",04 JUN 2024,1102,800m,M,30 Oct 24,3941512.0,1450.0,36.0,Public,45.0
+325.0,1:47.39,Stephen EVANS,CAN,"Alumni Stadium, Guelph (CAN)",04 JUN 2024,1102,800m,M,30 Oct 24,3941512.0,1450.0,36.0,Public,52.0
 2474.0,2:13:34,Abdu ASSEN,ETH,Padova (ITA),21 APR 2024,1102,Full,M,30 Oct 24,,,,,
 ,1:02:08,Vinicent Nyamongo NYAGEO,KEN,Berlin (GER),07 APR 2024,1102,Half,M,15 Jan 25,,,,,
 1470.0,28:19.58,Chio NISHIKAWA,JPN,"Athletic Track, Abashiri (JPN)",10 JUL 2024,1102,10000m,M,30 Oct 24,,,,,
@@ -5153,7 +5153,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 332.0,1:47.41,Andrew CASEY,USA,"John McDonnell Field, Fayetteville, AR (USA)",24 MAY 2024,1101,800m,M,30 Oct 24,95191578.0,244.0,0.0,Public,45.0
 333.0,1:47.41,Zalen NELSON,TTO,"Emerson Field, Concord, MA (USA)",08 JUN 2024,1101,800m,M,30 Oct 24,60178349.0,1910.0,8.0,Public,45.0
 334.0,1:47.41,Abraham GUEM,SSD,"Athletics Stadium, Setagaya, Tokyo (JPN)",27 JUL 2024,1101,800m,M,30 Oct 24,,,,,
-761.0,3:40.43,Joe EWING,GBR,"Paul Derr TF Facility, Raleigh, NC (USA)",28 MAR 2024,1101,1500m,M,30 Oct 24,10513706.0,1228.0,68.0,Public,45.0
+761.0,3:40.43,Joe EWING,GBR,"Paul Derr TF Facility, Raleigh, NC (USA)",28 MAR 2024,1101,1500m,M,30 Oct 24,10513706.0,1228.0,68.0,Public,52.0
 337.0,1:47.42,Kevin VIEZEE,NED,"FBK Stadium, Hengelo (NED)",29 JUN 2024,1101,800m,M,30 Oct 24,20688835.0,1568.0,119.0,Public,45.0
 338.0,1:47.43,Christian JACKSON,USA,"Dean A. Hayes Track and Soccer Stadium, Murfreesboro, TN (USA)",01 JUN 2024,1101,800m,M,30 Oct 24,81890092.0,491.0,56.0,Public,45.0
 339.0,1:47.43,Alex PINTADO,ESP,"Altamira estadioa, Ordizia (ESP)",22 JUN 2024,1101,800m,M,30 Oct 24,123289185.0,203.0,0.0,Public,45.0
@@ -5230,7 +5230,7 @@ Unnamed: 0,Mark,Competitor,Nat,Location,Date,Results Score,Discipline,Gender,Dat
 1843.0,1:02:09,Kyohei ODA,JPN,Marugame (JPN),04 FEB 2024,1101,Half,M,30 Oct 24,45118113.0,0.0,0.0,Public,45.0
 1845.0,1:02:09,Koki MARUYAMA,JPN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1101,Half,M,30 Oct 24,,,,,
 1847.0,1:02:09,Suldan HASSAN,SWE,"Stadio Olimpico, Roma (ITA)",09 JUN 2024,1101,Half,M,30 Oct 24,35998624.0,49.0,0.0,Public,45.0
-1846.0,1:02:09,Stan NIESTEN,NED,"Atletiekstadium Gentbrugge, Gentbrugge (BEL)",10 MAR 2024,1101,Half,M,30 Oct 24,11157470.0,1323.0,549.0,Public,45.0
+1846.0,1:02:09,Stan NIESTEN,NED,"Atletiekstadium Gentbrugge, Gentbrugge (BEL)",10 MAR 2024,1101,Half,M,30 Oct 24,11157470.0,1323.0,549.0,Public,52.0
 1208.0,32:43.28,Georgie GRGEC,NZL,"Parliament Hill Fields Athletics Track, London (GBR)",18 MAY 2024,1101,10000m,F,30 Oct 24,18114045.0,1776.0,608.0,Private,
 1844.0,1:02:09,Shuhei YAMAMOTO,JPN,"Ishin Me-Life Stadium, Yamaguchi (JPN)",11 FEB 2024,1101,Half,M,30 Oct 24,42631475.0,2516.0,437.0,Public,45.0
 340.0,1:47.44,Ryan ELSTON,GBR,"Birmingham University Athletics Track, Birmingham (GBR)",15 MAY 2024,1100,800m,M,30 Oct 24,24411013.0,2553.0,50.0,Public,45.0
