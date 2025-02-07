@@ -202,6 +202,7 @@ def _init_country_coordinates():
 app, rt = fast_app(
     use_sessions=False,
     hdrs=(
+        Link(rel = 'stylesheet', href = 'https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css'),
@@ -288,106 +289,276 @@ def get_analytics_script(measurement_id: str = 'G-TFWZT8GQTN') -> Script:
 
 @rt("/")
 def get():
-    country_coordinates = _init_country_coordinates()
     athletes_data = mongo_to_json_serializable(list(db.db.athlete_metadata.find({})))
-    for athlete in athletes_data:
-        country_code = athlete.get('Nat')
-        if country_code in country_coordinates:
-            athlete['latitude'] = country_coordinates[country_code]['lat']
-            athlete['longitude'] = country_coordinates[country_code]['lng']
-
-    return Titled("Elite Runners Database",
+    total_athletes = len(athletes_data)
+    total_countries = len(set(athlete['Nat'] for athlete in athletes_data))
+    return (
         get_analytics_script(),
         Style("""
-            /* Reset defaults */
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
+            /* Only custom styles that Pico doesn't provide */
+            .site-title {
+                text-align: center;
+                margin: var(--typography-spacing-vertical) 0;
             }
 
-            body { 
-                margin: 0; 
-                padding: 0; 
-                font-family: system-ui, -apple-system, sans-serif;
-                background: #f8fafc;
-                color: #1e293b;
-                line-height: 1.5;
-                min-height: 100vh;
+            .search-container {
+                max-width: 800px;
+                margin: 0 auto;
+                position: relative; 
+            }
+
+            /* Search results styling - minimal custom CSS */
+            .search-results {
+                position: absolute;
+                top: 100%;         /* Position below the search container */
+                left: 0;
+                right: 0;          /* Stretch to container width */
+                max-height: 300px;
+                overflow-y: auto;
+                background: var(--card-background-color);
+                border: var(--border-width) solid var(--card-border-color);
+                border-radius: var(--border-radius);
+                margin-top: 0.5rem;
+                box-shadow: var(--card-box-shadow);
+                display: none;
+                z-index: 1000;     /* Ensure it appears above other content */
+            }
+
+            .search-results.active {
+                display: block;
+            }
+
+            /* Make search result items more compact */
+            .search-results article {
+                padding: var(--spacing-small);  /* Use Pico's small spacing */
+                margin: 0;  /* Remove default article margins */
+                border-bottom: var(--border-width) solid var(--card-border-color);
+            }
+
+            .search-results article:last-child {
+                border-bottom: none;
+            }
+
+            .search-results article:hover {
+                background: var(--card-sectionning-background-color);
+            }
+
+            /* Hide map button on mobile */
+            @media (max-width: 576px) {
+                .map-view-btn {
+                    display: none;
+                }
+            }
+            .stats-container {
+                max-width: 800px;
+                margin: 2rem auto 0;
+            }
+
+            /* Toggle buttons container */
+            .toggle-container {
                 display: flex;
-                flex-direction: column;
+                gap: var(--spacing);
+                margin-bottom: var(--spacing);
             }
 
-            .header {
-                background: white;
-                padding: 1.5rem;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            /* Hide sections by default */
+            .section {
+                display: none;
             }
 
-            h1 { 
-                font-size: 2rem;
-                font-weight: 600;
-                margin: 0;
+            .section.active {
+                display: block;
             }
-
-            .subtitle {
-                color: #64748b;
-                margin-top: 0.25rem;
-            }
-
-            /* Remove container padding */
-            .container {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-            }
-
-            /* Make map container fill available space */
-            .map-container {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                background: white;
-            }
-
-            /* Remove map borders and make it fill container */
-            #map { 
-                flex: 1;
-                width: 100%;
-                border: none;
-                border-radius: 0;
-            }
-
-            /* Leaflet specific fixes */
-            .leaflet-container {
-                width: 100%;
-                height: 100%;
-                border-radius: 0;
-            }
-        """),Main(
+        """),
+        Main(
+            Header(
+                H1("Elite Runners Database", cls="site-title"),
+                cls="container-fluid"
+            ),
             Div(
-                P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks, IAAF data pulled end Sept). Best viewed on a computer.", cls="subtitle"),
-                P("Elite runners are arbitrarily given a cutoff of >= 1100 IAAF points.", cls="subtitle"),
-                P(
-                    "View the source code on ", 
-                    A("GitHub", 
-                      href="https://github.com/danielcwq/elite-endurance-viz/", 
-                      target="_blank"
+                Div(
+                    Div(
+                        # Add id to search input
+                        Input(
+                            type="search", 
+                            placeholder="Search athletes...",
+                            id="athlete-search",
+                            cls="search-input"
+                        ),
+                        Button(
+                            "Map View", 
+                            cls="map-view-btn contrast",
+                            style="width: auto;"
+                        ),
+                        # Add container for search results
+                        Div(cls="search-results", id="search-results"),
+                        cls="grid"
                     ),
-                    cls="subtitle"
+                    cls="search-container"
                 ),
-                P(
-                    "Some athletes' training data might be inaccurate due to exact name matches on Strava accounts, am working on that!", cls="subtitle"
-                ),
-                cls="header"
+                cls="container"
             ),
+                Script(f"""
+                // Get the athletes data from backend
+                const athletes = {json.dumps(athletes_data, cls = MongoJSONEncoder)};
+                
+                // Get DOM elements
+                const searchInput = document.getElementById('athlete-search');
+                const searchResults = document.getElementById('search-results');
+                
+                // Debounce function to limit how often we search
+                function debounce(func, wait) {{
+                    let timeout;
+                    return function executedFunction(...args) {{
+                        const later = () => {{
+                            clearTimeout(timeout);
+                            func(...args);
+                        }};
+                        clearTimeout(timeout);
+                        timeout = setTimeout(later, wait);
+                    }};
+                }}
+                
+                // Search function
+                const performSearch = debounce((query) => {{
+                    // Clear results if query is empty
+                    if (!query) {{
+                        searchResults.innerHTML = '';
+                        searchResults.classList.remove('active');
+                        return;
+                    }}
+                    
+                    // Filter athletes based on name
+                    const filteredAthletes = athletes
+                        .filter(athlete => 
+                            athlete['Athlete Name'].toLowerCase().includes(query.toLowerCase())
+                        )
+                        .slice(0, 10);  // Limit to 10 results
+                    
+                    // Create results HTML using Pico classes
+                    const resultsHTML = filteredAthletes.length 
+                        ? filteredAthletes
+                            .map(athlete => `
+                                <article>
+                                    <a href="/athlete/${{encodeURIComponent(athlete.Competitor)}}" 
+                                    style="text-decoration: none;">
+                                        <div style="margin: 0;">
+                                            <strong>${{athlete['Athlete Name']}}</strong>
+                                            <small style="display: block; color: var(--muted-color);">
+                                                ${{athlete.Nat}} • ${{athlete.Discipline}}
+                                            </small>
+                                        </div>
+                                    </a>
+                                </article>
+                            `)
+                            .join('')
+                        : '<article><p>No athletes found</p></article>';
+                    
+                    // Update results
+                    searchResults.innerHTML = resultsHTML;
+                    searchResults.classList.add('active');
+                }}, 300);  // 300ms debounce
+                
+                // Add event listeners
+                searchInput.addEventListener('input', (e) => performSearch(e.target.value));
+                
+                // Close results when clicking outside
+                document.addEventListener('click', (e) => {{
+                    if (!searchResults.contains(e.target) && e.target !== searchInput) {{
+                        searchResults.classList.remove('active');
+                    }}
+                }});
+                
+                // Prevent clicks within results from closing
+                searchResults.addEventListener('click', (e) => {{
+                    e.stopPropagation();
+                }});
+            """),
             Div(
-                Div(id="map"),
-                cls="map-container"
+                Div(
+                    Article(
+                        # Move toggle buttons inside the Article
+                        Div(
+                            Button(
+                                "Stats", 
+                                id="stats-btn",
+                                cls="outline",
+                                onclick="toggleSection('stats')"
+                            ),
+                            Button(
+                                "About", 
+                                id="about-btn",
+                                cls="outline",
+                                onclick="toggleSection('about')"
+                            ),
+                            cls="toggle-container"
+                        ),
+                        # Stats section
+                        Div(
+                            Div(
+                                Article(
+                                    H3("Total Athletes"),
+                                    P(str(total_athletes), cls="stats-value"),
+                                    cls="stats-card"
+                                ),
+                                Article(
+                                    H3("Total Countries"),
+                                    P(str(total_countries), cls="stats-value"),
+                                    cls="stats-card"
+                                ),
+                                cls="grid"
+                            ),
+                            id="stats-section",
+                            cls="section active"
+                        ),
+                        # About section
+                        Div(
+                            H3("About this project"),
+                            P("""
+                                A visualisation of elite runners' training metadata based on 
+                                2024 public Strava data (limited to the first 45 weeks, 
+                                IAAF data pulled end Sept).
+                            """),
+                            P("""
+                                Elite runners are arbitrarily given a cutoff of >= 1100 
+                                IAAF points.
+                            """),
+                            P(
+                                "View the source code on ", 
+                                A("GitHub", 
+                                href="https://github.com/yourusername/your-repo-name", 
+                                target="_blank"
+                                )
+                            ),
+                            P("""
+                                Some athletes' training data might be inaccurate due to 
+                                exact name matches on Strava accounts.
+                            """),
+                            id="about-section",
+                            cls="section"
+                        ),
+                        
+                    ),
+                    cls="stats-container"
+                ),
+                cls="container"
             ),
-            cls="container"
-        ),
-        Script(create_map_script(athletes_data))
+            Script("""
+            function toggleSection(section) {
+                // Update buttons
+                document.getElementById('stats-btn').classList.toggle('outline', section !== 'stats');
+                document.getElementById('about-btn').classList.toggle('outline', section !== 'about');
+                
+                // Update sections
+                document.getElementById('stats-section').classList.toggle('active', section === 'stats');
+                document.getElementById('about-section').classList.toggle('active', section === 'about');
+            }
+
+            // Initialize with Stats active
+            toggleSection('stats');
+        """)
+            
+        )
     )
 
 @rt("/athlete/{name}")
@@ -395,12 +566,10 @@ def get_athlete(name: str):
     # URL decode the name parameter
     decoded_name = unquote(name)
     
-    # === CHANGED: Get athlete data from MongoDB straight from there no API routing ===
     athlete = db.get_athlete_metadata(decoded_name)
     if not athlete:
         return "Athlete not found", 404
     
-    # === CHANGED: Get activities from MongoDB ===
     athlete_activities = db.get_athlete_activities(decoded_name)
     
     athlete_strava_id = athlete_activities[0].get('Athlete ID') if athlete_activities else None
@@ -413,150 +582,64 @@ def get_athlete(name: str):
     return Titled(f"{decoded_name} - Elite Runners Database",
         get_analytics_script(),
         Style("""
-            .container {
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 2rem;
-            }
-              
+            /* Custom styles on top of Pico */
             .event-times {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-                gap: 1rem;
-                margin: 1.5rem 0;
+                gap: var(--spacing);
+                margin: var(--spacing) 0;
             }
 
             .event-card {
-                background: #f8fafc;
-                padding: 1rem;
-                border-radius: 0.5rem;
-                border: 1px solid #e2e8f0;
+                background: var(--card-background-color);
+                padding: var(--spacing);
+                border-radius: var(--border-radius);
+                border: var(--border-width) solid var(--card-border-color);
             }
 
             .event-name {
                 font-weight: 600;
-                color: #1e293b;
-                margin-bottom: 0.5rem;
+                color: var(--color);
+                margin-bottom: var(--spacing);
             }
 
             .event-time {
-                color: #64748b;
+                color: var(--muted-color);
                 font-size: 0.9rem;
             }
-              
+
             .athlete-stats {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                gap: 1rem;
-                margin: 2rem 0;
+                margin: var(--spacing) 0;
             }
             
             .stat-card {
-                background: white;
-                padding: 1.5rem;
-                border-radius: 0.5rem;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                background: var(--card-background-color);
+                padding: var(--spacing);
+                border-radius: var(--border-radius);
+                box-shadow: var(--card-box-shadow);
             }
             
             .stat-value {
                 font-size: 1.5rem;
                 font-weight: 600;
-                color: #1e293b;
+                color: var(--color);
             }
             
             .stat-label {
                 font-size: 0.875rem;
-                color: #64748b;
-                margin-top: 0.5rem;
+                color: var(--muted-color);
+                margin-top: calc(var(--spacing) * 0.5);
             }
-            
-            .activities-table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-top: 2rem;
-            }
-            
-            .activities-table th,
-            .activities-table td {
-                padding: 0.75rem;
-                text-align: left;
-                border-bottom: 1px solid #e2e8f0;
-            }
-            
-            .activities-table th {
-                background: #f8fafc;
-                font-weight: 600;
-            }
-            
+
             .back-link {
                 display: inline-block;
-                margin-bottom: 2rem;
-                color: #3b82f6;
+                margin-bottom: var(--spacing);
+                color: var(--primary);
                 text-decoration: none;
             }
             
             .back-link:hover {
                 text-decoration: underline;
-            }
-
-            .activity-cell {
-                position: relative;
-            }
-
-            .activity-name {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-            }
-
-            .dropdown-trigger {
-                cursor: pointer;
-                padding: 2px 5px;
-                border-radius: 3px;
-                background: #f0f0f0;
-                font-size: 12px;
-            }
-
-            .description-box {
-                display: none;
-                position: absolute;
-                left: 0;
-                top: 100%;
-                background: white;
-                padding: 1rem;
-                border-radius: 0.5rem;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                z-index: 1000;
-                min-width: 200px;
-                max-width: 400px;
-                white-space: pre-wrap;
-                margin-top: 0.5rem;
-                border: 1px solid #e2e8f0;
-            }
-
-            .show-description {
-                display: block !important;
-            }
-             .strava-link {
-                color: inherit;
-                text-decoration: none;
-            }
-
-            .strava-link:hover {
-                color: #FC4C02;  /* Strava orange */
-                text-decoration: underline;
-            }
-
-            .athlete-header {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-            }
-
-            .strava-icon {
-                width: 24px;
-                height: 24px;
-                vertical-align: middle;
             }
         """),
         Script("""
@@ -594,17 +677,7 @@ def get_athlete(name: str):
                     ) if athlete_strava_id else decoded_name,
                     cls="athlete-header"
                 ),
-                P(f"Nationality: {athlete['Nat']}"),
-                H2("Seasons Bests"),
-                Div(
-                    *[Div(
-                        Div(event, cls="event-name"),
-                        Div(time, cls="event-time"),
-                        cls="event-card"
-                    ) for event, time in event_times],
-                    cls="event-times"
-                ),
-                H2("Training Stats"),
+                # Stats section using Pico's grid
                 Div(
                     Div(
                         Div(f"{athlete.get('Total_Run_Distance_km', 0):.2f} km", cls="stat-value"),
@@ -626,7 +699,7 @@ def get_athlete(name: str):
                         Div("Average Pace", cls="stat-label"),
                         cls="stat-card"
                     ),
-                    cls="athlete-stats"
+                    cls="grid athlete-stats"
                 ),
                 H2("Recent Activities"),
                 Table(
