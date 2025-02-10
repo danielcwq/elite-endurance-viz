@@ -6,7 +6,7 @@ Previously, this was done in the lead up to the Paris Olympics. Please check out
 
 Strava is a great tool for posting workouts and seeing workouts of what other people have done. However, what if we want to keep track of elite athletes only, and the workouts that they have completed? 
 
-Strava doesn’t offer a manual way for this — sports fanatics would have to find their favourite elite by searching through the search bar manually, and then scroll to see his or her workout. 
+Strava doesn’t offer an automated way for this — sports fanatics would have to find their favourite elite by searching through the search bar manually, and then scroll to see his or her workout. 
 
 Elite endurance visualisation aims to present all elite athletes’ workouts in a synchronised dashboard, allowing amateurs to learn from the best: by seeing the whole approach that elites take, beyond individual “miracle” workouts. 
 
