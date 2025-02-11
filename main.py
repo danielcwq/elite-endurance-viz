@@ -9,6 +9,31 @@ from utils.helpers import mongo_to_json_serializable, MongoJSONEncoder
 
 from datetime import datetime
 
+def parse_latest_log_stats():
+    try:
+        with open('logs/automation.log', 'r') as f:
+            lines = f.readlines()
+            
+        # Get the last timestamp (first part of the last line)
+        latest_update = lines[-1].split(' - ')[0]
+        latest_update = latest_update.split(',')[0] + ' (GMT +8)'
+        # Get the last activities count
+        for line in reversed(lines):
+            if 'Uploaded' in line and 'activities collection' in line:
+                activities_count = int(line.split('Uploaded ')[1].split(' records')[0])
+                break
+                
+        return {
+            'last_updated': latest_update,
+            'total_activities': activities_count
+        }
+    except Exception as e:
+        print(f"Error parsing log file: {e}")
+        return {
+            'last_updated': 'Unknown',
+            'total_activities': 0
+        }
+
 def format_date(date_str):
     """Format date string into readable format"""
     if not date_str:
@@ -202,6 +227,7 @@ def _init_country_coordinates():
 app, rt = fast_app(
     use_sessions=False,
     hdrs=(
+        Link(rel = 'stylesheet', href = 'https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css'),
         Link(rel='stylesheet', href='https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css'),
@@ -288,106 +314,315 @@ def get_analytics_script(measurement_id: str = 'G-TFWZT8GQTN') -> Script:
 
 @rt("/")
 def get():
-    country_coordinates = _init_country_coordinates()
     athletes_data = mongo_to_json_serializable(list(db.db.athlete_metadata.find({})))
+    total_athletes = len(athletes_data)
+    total_countries = len(set(athlete['Nat'] for athlete in athletes_data))
+    log_stats = parse_latest_log_stats()
+    country_coords = _init_country_coordinates()
     for athlete in athletes_data:
         country_code = athlete.get('Nat')
-        if country_code in country_coordinates:
-            athlete['latitude'] = country_coordinates[country_code]['lat']
-            athlete['longitude'] = country_coordinates[country_code]['lng']
-
-    return Titled("Elite Runners Database",
+        if country_code and country_code in country_coords:
+            athlete['latitude'] = country_coords[country_code]['lat']
+            athlete['longitude'] = country_coords[country_code]['lng']
+    return (
         get_analytics_script(),
         Style("""
-            /* Reset defaults */
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
+            /* Only custom styles that Pico doesn't provide */
+            .site-title {
+                text-align: center;
+                margin: var(--typography-spacing-vertical) 0;
             }
 
-            body { 
-                margin: 0; 
-                padding: 0; 
-                font-family: system-ui, -apple-system, sans-serif;
-                background: #f8fafc;
-                color: #1e293b;
-                line-height: 1.5;
-                min-height: 100vh;
+            .search-container {
+                max-width: 800px;
+                margin: 0 auto;
+                position: relative; 
+            }
+
+            /* Search results styling - minimal custom CSS */
+            .search-results {
+                position: absolute;
+                top: 100%;         /* Position below the search container */
+                left: 0;
+                right: 0;          /* Stretch to container width */
+                max-height: 300px;
+                overflow-y: auto;
+                background: var(--card-background-color);
+                border: var(--border-width) solid var(--card-border-color);
+                border-radius: var(--border-radius);
+                margin-top: 0.5rem;
+                box-shadow: var(--card-box-shadow);
+                display: none;
+                z-index: 1000;     /* Ensure it appears above other content */
+            }
+
+            .search-results.active {
+                display: block;
+            }
+
+            /* Make search result items more compact */
+            .search-results article {
+                padding: var(--spacing-small);  /* Use Pico's small spacing */
+                margin: 0;  /* Remove default article margins */
+                border-bottom: var(--border-width) solid var(--card-border-color);
+            }
+
+            .search-results article:last-child {
+                border-bottom: none;
+            }
+
+            .search-results article:hover {
+                background: var(--card-sectionning-background-color);
+            }
+
+            /* Hide map button on mobile */
+            @media (max-width: 576px) {
+                .map-view-btn {
+                    display: none;
+                }
+            }
+            .stats-container {
+                max-width: 800px;
+                margin: 2rem auto 0;
+            }
+
+            /* Toggle buttons container */
+            .toggle-container {
                 display: flex;
-                flex-direction: column;
+                gap: var(--spacing);
+                margin-bottom: var(--spacing);
             }
 
-            .header {
-                background: white;
-                padding: 1.5rem;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            /* Hide sections by default */
+            .section {
+                display: none;
             }
 
-            h1 { 
-                font-size: 2rem;
-                font-weight: 600;
-                margin: 0;
+            .section.active {
+                display: block;
             }
-
-            .subtitle {
-                color: #64748b;
-                margin-top: 0.25rem;
-            }
-
-            /* Remove container padding */
-            .container {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-            }
-
-            /* Make map container fill available space */
-            .map-container {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                background: white;
-            }
-
-            /* Remove map borders and make it fill container */
-            #map { 
-                flex: 1;
-                width: 100%;
-                border: none;
-                border-radius: 0;
-            }
-
-            /* Leaflet specific fixes */
-            .leaflet-container {
-                width: 100%;
-                height: 100%;
-                border-radius: 0;
-            }
-        """),Main(
+        """),
+        Main(
+            Header(
+                H1("Elite Runners Database", cls="site-title"),
+                cls="container-fluid"
+            ),
             Div(
-                P("A visualisation of elite runners' training metadata based on 2024 public Strava data (limited to the first 45 weeks, IAAF data pulled end Sept). Best viewed on a computer.", cls="subtitle"),
-                P("Elite runners are arbitrarily given a cutoff of >= 1100 IAAF points.", cls="subtitle"),
-                P(
-                    "View the source code on ", 
-                    A("GitHub", 
-                      href="https://github.com/danielcwq/elite-endurance-viz/", 
-                      target="_blank"
+                Div(
+                    Div(
+                        # Add id to search input
+                        Input(
+                            type="search", 
+                            placeholder="Search athletes...",
+                            id="athlete-search",
+                            cls="search-input"
+                        ),
+                        Button(
+                            "Map View", 
+                            cls="map-view-btn contrast",
+                            style="width: auto;"
+                        ),
+                        Div(cls="search-results", id="search-results"),
+                        cls="grid"
                     ),
-                    cls="subtitle"
+                    cls="search-container"
                 ),
-                P(
-                    "Some athletes' training data might be inaccurate due to exact name matches on Strava accounts, am working on that!", cls="subtitle"
+                Div(
+                    id = "map",
+                    style="height: 400px; width: 100%; display: none; margin: var(--spacing) 0;"
                 ),
-                cls="header"
+                cls="container"
             ),
+                Script(f"""
+                // Get DOM elements
+                const searchInput = document.getElementById('athlete-search');
+                const searchResults = document.getElementById('search-results');
+                const mapBtn = document.querySelector('.map-view-btn');
+                const mapContainer = document.getElementById('map');
+                
+                // Initialize data first
+                var athletes = {json.dumps(athletes_data, cls=MongoJSONEncoder)};
+                
+                // Map state tracking
+                let mapInitialized = false;
+                
+                // Debounce function for search
+                function debounce(func, wait) {{
+                    let timeout;
+                    return function executedFunction(...args) {{
+                        const later = () => {{
+                            clearTimeout(timeout);
+                            func(...args);
+                        }};
+                        clearTimeout(timeout);
+                        timeout = setTimeout(later, wait);
+                    }};
+                }}
+                
+                // Search functionality
+                const performSearch = debounce((query) => {{
+                    if (!query) {{
+                        searchResults.innerHTML = '';
+                        searchResults.classList.remove('active');
+                        return;
+                    }}
+                    
+                    const filteredAthletes = athletes  // Now athletes is defined before this is called
+                        .filter(athlete => 
+                            athlete['Athlete Name'].toLowerCase().includes(query.toLowerCase())
+                        )
+                        .slice(0, 10);
+                    
+                    const resultsHTML = filteredAthletes.length 
+                        ? filteredAthletes
+                            .map(athlete => `
+                                <article>
+                                    <a href="/athlete/${{encodeURIComponent(athlete.Competitor)}}" 
+                                    style="text-decoration: none;">
+                                        <div style="margin: 0;">
+                                            <strong>${{athlete['Athlete Name']}}</strong>
+                                            <small style="display: block; color: var(--muted-color);">
+                                                ${{athlete.Nat}} • ${{athlete.Discipline}}
+                                            </small>
+                                        </div>
+                                    </a>
+                                </article>
+                            `)
+                            .join('')
+                        : '<article><p>No athletes found</p></article>';
+                    
+                    searchResults.innerHTML = resultsHTML;
+                    searchResults.classList.add('active');
+                }}, 300);
+                
+                // Map toggle functionality
+                mapBtn.addEventListener('click', function() {{
+                    const isMapVisible = mapContainer.style.display !== 'none';
+                    mapContainer.style.display = isMapVisible ? 'none' : 'block';
+                    
+                    // Initialize map on first show
+                    if (!isMapVisible && !mapInitialized) {{
+                        mapInitialized = true;
+                        {create_map_script(athletes_data)}
+                    }}
+                }});
+                
+                // Search event listeners
+                searchInput.addEventListener('input', (e) => performSearch(e.target.value));
+                
+                // Close results when clicking outside
+                document.addEventListener('click', (e) => {{
+                    if (!searchResults.contains(e.target) && e.target !== searchInput) {{
+                        searchResults.classList.remove('active');
+                    }}
+                }});
+                
+                // Prevent clicks within results from closing
+                searchResults.addEventListener('click', (e) => {{
+                    e.stopPropagation();
+                }});
+            """),
             Div(
-                Div(id="map"),
-                cls="map-container"
+                Div(
+                    Article(
+                        # Toggle buttons inside the Article
+                        Div(
+                            Button(
+                                "Stats", 
+                                id="stats-btn",
+                                cls="outline",
+                                onclick="toggleSection('stats')"
+                            ),
+                            Button(
+                                "About", 
+                                id="about-btn",
+                                cls="outline",
+                                onclick="toggleSection('about')"
+                            ),
+                            cls="toggle-container"
+                        ),
+                        # Stats section
+                        Div(
+                            Div(
+                                Div(
+                                    P("Total Athletes: ", style="margin: 0; display: inline;"),
+                                    P(str(total_athletes), 
+                                    style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
+                                ),
+                                Div(
+                                    P("Total Countries: ", style="margin: 0; display: inline;"),
+                                    P(str(total_countries), 
+                                    style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
+                                    style="margin-top: var(--spacing);"
+                                ),
+                                Div(
+                                P("Total Activities: ", style="margin: 0; display: inline;"),
+                                P(f"{log_stats['total_activities']:,}", 
+                                  style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
+                                style="margin-top: var(--spacing);"
+                                ),
+                                Div(
+                                    P("Last Updated: ", style="margin: 0; display: inline;"),
+                                    P(log_stats['last_updated'], 
+                                    style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
+                                    style="margin-top: var(--spacing);"
+                                ),
+                            ),
+                            id="stats-section",
+                            cls="section active"
+                        ),
+                        # About section
+                        Div(
+                            H3("About this project"),
+                            Ul(
+                                Li("""
+                                    A visualisation of elite runners' training metadata based on 
+                                    2024 public Strava data.
+                                """),
+                                Li("""
+                                    Elite runners are arbitrarily given a cutoff of >= 1100 
+                                    IAAF points.
+                                """),
+                                Li("""
+                                    Some athletes' training data might be inaccurate due to exact name matches on Strava accounts, am working on that!
+                                   """),
+                                Li(
+                                    "Source code ",
+                                    A(
+                                        "here",
+                                        href="https://github.com/danielcwq/elite-endurance-viz",
+                                        target="_blank",
+                                        style="text-decoration: none;"
+                                    )
+                                ),
+                                style="list-style-type: disc; padding-left: var(--spacing);"  # Using Pico's spacing variable
+                            ),
+                            id="about-section",
+                            cls="section"
+                        ),
+                        style="padding: var(--spacing); background: var(--card-background-color); border-radius: var(--border-radius);"
+                    ),
+                    cls="stats-container",
+                    style="margin-top: var(--spacing);"
+                ),
+                cls="container"
             ),
-            cls="container"
-        ),
-        Script(create_map_script(athletes_data))
+            Script("""
+            function toggleSection(section) {
+                // Update buttons
+                document.getElementById('stats-btn').classList.toggle('outline', section !== 'stats');
+                document.getElementById('about-btn').classList.toggle('outline', section !== 'about');
+                
+                // Update sections
+                document.getElementById('stats-section').classList.toggle('active', section === 'stats');
+                document.getElementById('about-section').classList.toggle('active', section === 'about');
+            }
+
+            // Initialize with Stats active
+            toggleSection('stats');
+        """)
+            
+        )
     )
 
 @rt("/athlete/{name}")
@@ -395,12 +630,10 @@ def get_athlete(name: str):
     # URL decode the name parameter
     decoded_name = unquote(name)
     
-    # === CHANGED: Get athlete data from MongoDB straight from there no API routing ===
     athlete = db.get_athlete_metadata(decoded_name)
     if not athlete:
         return "Athlete not found", 404
     
-    # === CHANGED: Get activities from MongoDB ===
     athlete_activities = db.get_athlete_activities(decoded_name)
     
     athlete_strava_id = athlete_activities[0].get('Athlete ID') if athlete_activities else None
@@ -413,85 +646,59 @@ def get_athlete(name: str):
     return Titled(f"{decoded_name} - Elite Runners Database",
         get_analytics_script(),
         Style("""
-            .container {
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 2rem;
-            }
-              
+            /* Custom styles on top of Pico */
             .event-times {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-                gap: 1rem;
-                margin: 1.5rem 0;
+                gap: var(--spacing);
+                margin: var(--spacing) 0;
             }
 
             .event-card {
-                background: #f8fafc;
-                padding: 1rem;
-                border-radius: 0.5rem;
-                border: 1px solid #e2e8f0;
+                background: var(--card-background-color);
+                padding: var(--spacing);
+                border-radius: var(--border-radius);
+                border: var(--border-width) solid var(--card-border-color);
             }
 
             .event-name {
                 font-weight: 600;
-                color: #1e293b;
-                margin-bottom: 0.5rem;
+                color: var(--color);
+                margin-bottom: var(--spacing);
             }
 
             .event-time {
-                color: #64748b;
+                color: var(--muted-color);
                 font-size: 0.9rem;
             }
-              
+
             .athlete-stats {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                gap: 1rem;
-                margin: 2rem 0;
+                margin: var(--spacing) 0;
             }
             
             .stat-card {
-                background: white;
-                padding: 1.5rem;
-                border-radius: 0.5rem;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                background: var(--card-background-color);
+                padding: var(--spacing);
+                border-radius: var(--border-radius);
+                box-shadow: var(--card-box-shadow);
             }
             
             .stat-value {
                 font-size: 1.5rem;
                 font-weight: 600;
-                color: #1e293b;
+                color: var(--color);
             }
             
             .stat-label {
                 font-size: 0.875rem;
-                color: #64748b;
-                margin-top: 0.5rem;
+                color: var(--muted-color);
+                margin-top: calc(var(--spacing) * 0.5);
             }
-            
-            .activities-table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-top: 2rem;
-            }
-            
-            .activities-table th,
-            .activities-table td {
-                padding: 0.75rem;
-                text-align: left;
-                border-bottom: 1px solid #e2e8f0;
-            }
-            
-            .activities-table th {
-                background: #f8fafc;
-                font-weight: 600;
-            }
-            
+
             .back-link {
                 display: inline-block;
-                margin-bottom: 2rem;
-                color: #3b82f6;
+                margin-bottom: var(--spacing);
+                color: var(--primary);
                 text-decoration: none;
             }
             
@@ -499,69 +706,27 @@ def get_athlete(name: str):
                 text-decoration: underline;
             }
 
-            .activity-cell {
-                position: relative;
-            }
-
-            .activity-name {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-            }
-
-            .dropdown-trigger {
-                cursor: pointer;
-                padding: 2px 5px;
-                border-radius: 3px;
-                background: #f0f0f0;
-                font-size: 12px;
-            }
-
             .description-box {
-                display: none;
-                position: absolute;
-                left: 0;
-                top: 100%;
-                background: white;
-                padding: 1rem;
-                border-radius: 0.5rem;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                z-index: 1000;
-                min-width: 200px;
-                max-width: 400px;
-                white-space: pre-wrap;
-                margin-top: 0.5rem;
-                border: 1px solid #e2e8f0;
+                display: none;  /* Hide by default */
+                margin-top: var(--spacing);
+                padding: var(--spacing);
+                background: var(--card-sectionning-background-color);
+                border-radius: var(--border-radius);
             }
 
-            .show-description {
-                display: block !important;
-            }
-             .strava-link {
-                color: inherit;
-                text-decoration: none;
+            .description-box.show-description {
+                display: block;  /* Show when class is added */
             }
 
-            .strava-link:hover {
-                color: #FC4C02;  /* Strava orange */
-                text-decoration: underline;
-            }
-
-            .athlete-header {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-            }
-
-            .strava-icon {
-                width: 24px;
-                height: 24px;
-                vertical-align: middle;
+            /* Style for clickable emoji */
+            .activity-emoji {
+                cursor: pointer;
+                user-select: none;
             }
         """),
         Script("""
             function toggleDescription(event, id) {
-                event.stopPropagation();
+                event.stopPropagation();  // Prevent event bubbling
                 const descBox = document.getElementById('desc-' + id);
                 
                 // Close all other open descriptions
@@ -594,17 +759,7 @@ def get_athlete(name: str):
                     ) if athlete_strava_id else decoded_name,
                     cls="athlete-header"
                 ),
-                P(f"Nationality: {athlete['Nat']}"),
-                H2("Seasons Bests"),
-                Div(
-                    *[Div(
-                        Div(event, cls="event-name"),
-                        Div(time, cls="event-time"),
-                        cls="event-card"
-                    ) for event, time in event_times],
-                    cls="event-times"
-                ),
-                H2("Training Stats"),
+                # Stats section using Pico's grid
                 Div(
                     Div(
                         Div(f"{athlete.get('Total_Run_Distance_km', 0):.2f} km", cls="stat-value"),
@@ -626,7 +781,7 @@ def get_athlete(name: str):
                         Div("Average Pace", cls="stat-label"),
                         cls="stat-card"
                     ),
-                    cls="athlete-stats"
+                    cls="grid athlete-stats"
                 ),
                 H2("Recent Activities"),
                 Table(
@@ -650,7 +805,7 @@ def get_athlete(name: str):
                                         target="_blank"
                                     ) if row.get('Activity ID') else row.get('Activity Name'),
                                     # Fix: Check if description exists and is a string before using strip()
-                                    Span("🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
+                                    Span(" 🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
                                     if isinstance(row.get('Description'), str) and row.get('Description', '').strip() else "",
                                     cls="activity-name"
                                 ),
