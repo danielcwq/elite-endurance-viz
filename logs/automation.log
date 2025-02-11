@@ -40,3 +40,10 @@
 2025-02-09 07:44:08,737 - INFO - Uploaded 460 records to athlete_metadata collection
 2025-02-09 07:44:13,815 - INFO - Uploaded 5305 records to master_iaaf collection
 2025-02-09 07:44:48,243 - INFO - Uploaded 144398 records to activities collection
+2025-02-11 15:41:16,720 - INFO - Uploaded 460 records to athlete_metadata collection
+2025-02-11 15:41:24,973 - INFO - Uploaded 5305 records to master_iaaf collection
+2025-02-11 15:42:29,929 - INFO - Uploaded 147070 records to activities collection
+2025-02-11 15:42:29,931 - ERROR - Error refreshing MongoDB data: module 'datetime' has no attribute 'now'
+2025-02-11 15:45:39,484 - INFO - Uploaded 460 records to athlete_metadata collection
+2025-02-11 15:45:47,376 - INFO - Uploaded 5305 records to master_iaaf collection
+2025-02-11 15:47:50,687 - INFO - Uploaded 147070 records to activities collection

@@ -11,24 +11,23 @@ from datetime import datetime
 
 def parse_latest_log_stats():
     try:
-        with open('logs/automation.log', 'r') as f:
-            lines = f.readlines()
-            
-        # Get the last timestamp (first part of the last line)
-        latest_update = lines[-1].split(' - ')[0]
-        latest_update = latest_update.split(',')[0] + ' (GMT +8)'
-        # Get the last activities count
-        for line in reversed(lines):
-            if 'Uploaded' in line and 'activities collection' in line:
-                activities_count = int(line.split('Uploaded ')[1].split(' records')[0])
-                break
-                
+        # Get the latest log entry from MongoDB
+        latest_log = db.db.update_logs.find_one(
+            sort=[('timestamp', -1)]  # Sort by timestamp descending
+        )
+        
+        if latest_log:
+            return {
+                'last_updated': latest_log['timestamp'].strftime('%Y-%m-%d %H:%M:%S') + ' (GMT +8)',
+                'total_activities': latest_log['activities_count']
+            }
+        
         return {
-            'last_updated': latest_update,
-            'total_activities': activities_count
+            'last_updated': 'Unknown',
+            'total_activities': 0
         }
     except Exception as e:
-        print(f"Error parsing log file: {e}")
+        print(f"Error parsing MongoDB log: {e}")
         return {
             'last_updated': 'Unknown',
             'total_activities': 0

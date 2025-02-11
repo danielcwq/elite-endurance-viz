@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 import logging
+from datetime import datetime
 
 load_dotenv()
 
@@ -38,6 +39,14 @@ def refresh_mongodb_data():
         db['activities'].drop()
         db['activities'].insert_many(activities.to_dict(orient='records'))
         logger.info(f"Uploaded {len(activities)} records to activities collection")
+
+        log_entry = {
+            'timestamp': datetime.now(),
+            'athlete_metadata_count': len(athlete_metadata),
+            'master_iaaf_count': len(master_iaaf),
+            'activities_count': len(activities)
+        }
+        db['update_logs'].insert_one(log_entry)
         
         return True
         
