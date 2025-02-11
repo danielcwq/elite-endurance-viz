@@ -9,6 +9,31 @@ from utils.helpers import mongo_to_json_serializable, MongoJSONEncoder
 
 from datetime import datetime
 
+def parse_latest_log_stats():
+    try:
+        with open('logs/automation.log', 'r') as f:
+            lines = f.readlines()
+            
+        # Get the last timestamp (first part of the last line)
+        latest_update = lines[-1].split(' - ')[0]
+        latest_update = latest_update.split(',')[0] + ' (GMT +8)'
+        # Get the last activities count
+        for line in reversed(lines):
+            if 'Uploaded' in line and 'activities collection' in line:
+                activities_count = int(line.split('Uploaded ')[1].split(' records')[0])
+                break
+                
+        return {
+            'last_updated': latest_update,
+            'total_activities': activities_count
+        }
+    except Exception as e:
+        print(f"Error parsing log file: {e}")
+        return {
+            'last_updated': 'Unknown',
+            'total_activities': 0
+        }
+
 def format_date(date_str):
     """Format date string into readable format"""
     if not date_str:
@@ -292,6 +317,13 @@ def get():
     athletes_data = mongo_to_json_serializable(list(db.db.athlete_metadata.find({})))
     total_athletes = len(athletes_data)
     total_countries = len(set(athlete['Nat'] for athlete in athletes_data))
+    log_stats = parse_latest_log_stats()
+    country_coords = _init_country_coordinates()
+    for athlete in athletes_data:
+        country_code = athlete.get('Nat')
+        if country_code and country_code in country_coords:
+            athlete['latitude'] = country_coords[country_code]['lat']
+            athlete['longitude'] = country_coords[country_code]['lng']
     return (
         get_analytics_script(),
         Style("""
@@ -390,23 +422,31 @@ def get():
                             cls="map-view-btn contrast",
                             style="width: auto;"
                         ),
-                        # Add container for search results
                         Div(cls="search-results", id="search-results"),
                         cls="grid"
                     ),
                     cls="search-container"
                 ),
+                Div(
+                    id = "map",
+                    style="height: 400px; width: 100%; display: none; margin: var(--spacing) 0;"
+                ),
                 cls="container"
             ),
                 Script(f"""
-                // Get the athletes data from backend
-                const athletes = {json.dumps(athletes_data, cls = MongoJSONEncoder)};
-                
                 // Get DOM elements
                 const searchInput = document.getElementById('athlete-search');
                 const searchResults = document.getElementById('search-results');
+                const mapBtn = document.querySelector('.map-view-btn');
+                const mapContainer = document.getElementById('map');
                 
-                // Debounce function to limit how often we search
+                // Initialize data first
+                var athletes = {json.dumps(athletes_data, cls=MongoJSONEncoder)};
+                
+                // Map state tracking
+                let mapInitialized = false;
+                
+                // Debounce function for search
                 function debounce(func, wait) {{
                     let timeout;
                     return function executedFunction(...args) {{
@@ -419,23 +459,20 @@ def get():
                     }};
                 }}
                 
-                // Search function
+                // Search functionality
                 const performSearch = debounce((query) => {{
-                    // Clear results if query is empty
                     if (!query) {{
                         searchResults.innerHTML = '';
                         searchResults.classList.remove('active');
                         return;
                     }}
                     
-                    // Filter athletes based on name
-                    const filteredAthletes = athletes
+                    const filteredAthletes = athletes  // Now athletes is defined before this is called
                         .filter(athlete => 
                             athlete['Athlete Name'].toLowerCase().includes(query.toLowerCase())
                         )
-                        .slice(0, 10);  // Limit to 10 results
+                        .slice(0, 10);
                     
-                    // Create results HTML using Pico classes
                     const resultsHTML = filteredAthletes.length 
                         ? filteredAthletes
                             .map(athlete => `
@@ -454,12 +491,23 @@ def get():
                             .join('')
                         : '<article><p>No athletes found</p></article>';
                     
-                    // Update results
                     searchResults.innerHTML = resultsHTML;
                     searchResults.classList.add('active');
-                }}, 300);  // 300ms debounce
+                }}, 300);
                 
-                // Add event listeners
+                // Map toggle functionality
+                mapBtn.addEventListener('click', function() {{
+                    const isMapVisible = mapContainer.style.display !== 'none';
+                    mapContainer.style.display = isMapVisible ? 'none' : 'block';
+                    
+                    // Initialize map on first show
+                    if (!isMapVisible && !mapInitialized) {{
+                        mapInitialized = true;
+                        {create_map_script(athletes_data)}
+                    }}
+                }});
+                
+                // Search event listeners
                 searchInput.addEventListener('input', (e) => performSearch(e.target.value));
                 
                 // Close results when clicking outside
@@ -477,7 +525,7 @@ def get():
             Div(
                 Div(
                     Article(
-                        # Move toggle buttons inside the Article
+                        # Toggle buttons inside the Article
                         Div(
                             Button(
                                 "Stats", 
@@ -496,17 +544,29 @@ def get():
                         # Stats section
                         Div(
                             Div(
-                                Article(
-                                    H3("Total Athletes"),
-                                    P(str(total_athletes), cls="stats-value"),
-                                    cls="stats-card"
+                                Div(
+                                    P("Total Athletes: ", style="margin: 0; display: inline;"),
+                                    P(str(total_athletes), 
+                                    style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
                                 ),
-                                Article(
-                                    H3("Total Countries"),
-                                    P(str(total_countries), cls="stats-value"),
-                                    cls="stats-card"
+                                Div(
+                                    P("Total Countries: ", style="margin: 0; display: inline;"),
+                                    P(str(total_countries), 
+                                    style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
+                                    style="margin-top: var(--spacing);"
                                 ),
-                                cls="grid"
+                                Div(
+                                P("Total Activities: ", style="margin: 0; display: inline;"),
+                                P(f"{log_stats['total_activities']:,}", 
+                                  style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
+                                style="margin-top: var(--spacing);"
+                                ),
+                                Div(
+                                    P("Last Updated: ", style="margin: 0; display: inline;"),
+                                    P(log_stats['last_updated'], 
+                                    style="font-family: var(--font-family-monospace); margin: 0; display: inline;"),
+                                    style="margin-top: var(--spacing);"
+                                ),
                             ),
                             id="stats-section",
                             cls="section active"
@@ -514,32 +574,36 @@ def get():
                         # About section
                         Div(
                             H3("About this project"),
-                            P("""
-                                A visualisation of elite runners' training metadata based on 
-                                2024 public Strava data (limited to the first 45 weeks, 
-                                IAAF data pulled end Sept).
-                            """),
-                            P("""
-                                Elite runners are arbitrarily given a cutoff of >= 1100 
-                                IAAF points.
-                            """),
-                            P(
-                                "View the source code on ", 
-                                A("GitHub", 
-                                href="https://github.com/yourusername/your-repo-name", 
-                                target="_blank"
-                                )
+                            Ul(
+                                Li("""
+                                    A visualisation of elite runners' training metadata based on 
+                                    2024 public Strava data.
+                                """),
+                                Li("""
+                                    Elite runners are arbitrarily given a cutoff of >= 1100 
+                                    IAAF points.
+                                """),
+                                Li("""
+                                    Some athletes' training data might be inaccurate due to exact name matches on Strava accounts, am working on that!
+                                   """),
+                                Li(
+                                    "Source code ",
+                                    A(
+                                        "here",
+                                        href="https://github.com/danielcwq/elite-endurance-viz",
+                                        target="_blank",
+                                        style="text-decoration: none;"
+                                    )
+                                ),
+                                style="list-style-type: disc; padding-left: var(--spacing);"  # Using Pico's spacing variable
                             ),
-                            P("""
-                                Some athletes' training data might be inaccurate due to 
-                                exact name matches on Strava accounts.
-                            """),
                             id="about-section",
                             cls="section"
                         ),
-                        
+                        style="padding: var(--spacing); background: var(--card-background-color); border-radius: var(--border-radius);"
                     ),
-                    cls="stats-container"
+                    cls="stats-container",
+                    style="margin-top: var(--spacing);"
                 ),
                 cls="container"
             ),
@@ -641,10 +705,28 @@ def get_athlete(name: str):
             .back-link:hover {
                 text-decoration: underline;
             }
+
+            .description-box {
+                display: none;  /* Hide by default */
+                margin-top: var(--spacing);
+                padding: var(--spacing);
+                background: var(--card-sectionning-background-color);
+                border-radius: var(--border-radius);
+            }
+
+            .description-box.show-description {
+                display: block;  /* Show when class is added */
+            }
+
+            /* Style for clickable emoji */
+            .activity-emoji {
+                cursor: pointer;
+                user-select: none;
+            }
         """),
         Script("""
             function toggleDescription(event, id) {
-                event.stopPropagation();
+                event.stopPropagation();  // Prevent event bubbling
                 const descBox = document.getElementById('desc-' + id);
                 
                 // Close all other open descriptions
@@ -723,7 +805,7 @@ def get_athlete(name: str):
                                         target="_blank"
                                     ) if row.get('Activity ID') else row.get('Activity Name'),
                                     # Fix: Check if description exists and is a string before using strip()
-                                    Span("🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
+                                    Span(" 🔽", cls="dropdown-trigger", onclick=f"toggleDescription(event, {i})")
                                     if isinstance(row.get('Description'), str) and row.get('Description', '').strip() else "",
                                     cls="activity-name"
                                 ),
