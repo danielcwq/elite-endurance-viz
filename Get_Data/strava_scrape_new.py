@@ -68,6 +68,39 @@ def web_driver():
     except Exception as e:
         logging.error(f"Failed to initialize WebDriver: {str(e)}")
         raise
+def login_strava_manual(driver):
+    """
+    Allow manual login to Strava and verify the login was successful.
+    Returns True if successful, False otherwise.
+    """
+    try:
+        logging.info("Starting manual login process")
+        driver.get("https://www.strava.com/")
+        
+        # Setup wait
+        wait = WebDriverWait(driver, 300)  # 5 minute timeout for manual login
+        
+        # Wait for either success or error condition
+        try:
+            wait.until(lambda driver: 
+                len(driver.find_elements(By.CLASS_NAME, "getting-started")) > 0 or 
+                len(driver.find_elements(By.CLASS_NAME, "error")) > 0
+            )
+            
+            if len(driver.find_elements(By.CLASS_NAME, "getting-started")) > 0:
+                logging.info("Manual login successful - getting-started element found")
+                return True
+            else:
+                logging.error("Login failed - error element found")
+                return False
+                
+        except Exception as e:
+            logging.error(f"Login verification timed out: {str(e)}")
+            return False
+
+    except Exception as e:
+        logging.error(f"Manual login process failed: {str(e)}")
+        return False
 
 def login_strava(driver, username=None, password=None):
     """

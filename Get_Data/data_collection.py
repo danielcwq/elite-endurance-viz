@@ -44,8 +44,8 @@ def get_athletes_with_week45_only() -> list:
         week45_athletes = metadata_df[metadata_df['2024 Weeks Scraped'] == 45]['Athlete ID'].tolist()
         week45_athletes.sort()
         
-        # Split into groups of 10
-        athlete_groups = [week45_athletes[i:i + 10] for i in range(0, len(week45_athletes), 10)]
+        # Split into groups of 30
+        athlete_groups = [week45_athletes[i:i + 60] for i in range(0, len(week45_athletes), 60)]
         
         # Log batch information
         batch_logger.info(f"Found {len(week45_athletes)} athletes with only week 45 scraped")

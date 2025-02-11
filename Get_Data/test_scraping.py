@@ -1,7 +1,7 @@
 import pandas as pd
 import shutil
 import logging
-from strava_scrape_new import consolidate_weekly_data, web_driver, login_strava, setup_logging, process_activities
+from strava_scrape_new import consolidate_weekly_data, web_driver, login_strava, setup_logging, process_activities, login_strava_manual
 import json
 import os 
 from datetime import datetime
@@ -56,7 +56,7 @@ def check_data_updates(start_week: int = 45, end_week: int = 47, specific_ids: l
     
     try:
         # Login to Strava
-        if not login_strava(driver):
+        if not login_strava_manual(driver):
             logger.error("Failed to login to Strava")
             return None, None
             
