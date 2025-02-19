@@ -594,6 +594,15 @@ def get():
                                         style="text-decoration: none;"
                                     )
                                 ),
+                                Li(
+                                    "Built by ",
+                                    A(
+                                        "Daniel Ching",
+                                        href="https://danielching.me",
+                                        target="_blank",
+                                        style="text-decoration: none;"
+                                    )
+                                ),
                                 style="list-style-type: disc; padding-left: var(--spacing);"  # Using Pico's spacing variable
                             ),
                             id="about-section",
