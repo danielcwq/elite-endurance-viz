@@ -246,7 +246,6 @@ db = DatabaseConnection.get_instance()
 
 
 def create_map_script(athletes_data: list) -> str:
-    
     return f"""
         var map = L.map('map').setView([0, 0], 2);
         L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
@@ -273,18 +272,25 @@ def create_map_script(athletes_data: list) -> str:
         Object.keys(locationGroups).forEach(function(key) {{
             var athletes = locationGroups[key];
             var [lat, lng] = key.split(',');
-            var popupContent = '<div style="max-height: 200px; overflow-y: auto;">' +
-                '<h3>' + athletes[0].Nat + '</h3>' +
-                '<p>Athletes: ' + athletes.length + '</p>' +
-                '<ul>' +
+            var popupContent = '<div style="max-height: 200px; overflow-y: auto; font-size: 11px;">' +  // Reduced base font size
+                '<h3 style="font-size: 12px; margin: 0 0 4px 0;">' + athletes[0].Nat + '</h3>' +  // Further reduced h3
+                '<p style="margin: 0 0 4px 0; font-size: 10px;">Athletes: ' + athletes.length + '</p>' +  // Smaller count text
+                '<ul style="margin: 0; padding-left: 12px; font-size: 10px;">' +  // Smaller list font
                 athletes.map(function(a) {{
-                    return '<li><a href="/athlete/' + encodeURIComponent(a.Competitor) + '">' + 
-                           a['Athlete Name'] + '</a> (' + a.Discipline + ')</li>';
+                    return '<li style="margin-bottom: 2px;">' +  // Reduced margin
+                           '<a href="/athlete/' + encodeURIComponent(a.Competitor) + 
+                           '" style="text-decoration: none; font-size: 10px;">' +  // Explicit font size for names
+                           a['Athlete Name'] + 
+                           '</a> ' +
+                           '<span style="color: #666; font-size: 9px;">(' + a.Discipline + ')</span></li>';  // Even smaller discipline text
                 }}).join('') +
                 '</ul></div>';
             
             L.marker([parseFloat(lat), parseFloat(lng)])
-             .bindPopup(popupContent)
+             .bindPopup(popupContent, {{
+                maxWidth: 200,  // Reduced popup width
+                autoPanPadding: [50, 50]
+             }})
              .addTo(markers);
         }});
 
@@ -295,7 +301,6 @@ def create_map_script(athletes_data: list) -> str:
             markers.options.maxClusterRadius = currentZoom < 5 ? 30 : 10;
             markers.refreshClusters();
         }});
-        
     """
 def get_analytics_script(measurement_id: str = 'G-TFWZT8GQTN') -> Script:
     return Script("""
