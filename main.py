@@ -736,6 +736,30 @@ def get_athlete(name: str):
                 cursor: pointer;
                 user-select: none;
             }
+              .event-times {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: var(--spacing);
+                margin: var(--spacing) 0;
+            }
+
+            .event-card {
+                background: var(--card-background-color);
+                padding: var(--spacing);
+                border-radius: var(--border-radius);
+                border: var(--border-width) solid var(--card-border-color);
+            }
+
+            .event-name {
+                font-weight: 600;
+                color: var(--color);
+                margin-bottom: var(--spacing-small);
+            }
+
+            .event-time {
+                color: var(--muted-color);
+                font-size: 0.9rem;
+            }
         """),
         Script("""
             function toggleDescription(event, id) {
@@ -772,7 +796,17 @@ def get_athlete(name: str):
                     ) if athlete_strava_id else decoded_name,
                     cls="athlete-header"
                 ),
+                H2("2024 Season's Best Times"),
+                Div(
+                    *[Div(
+                        Div(discipline, cls="event-name"),
+                        Div(mark, cls="event-time"),
+                        cls="event-card"
+                    ) for discipline, mark in event_times],
+                    cls="event-times"
+                ) if event_times else P("No season's best times available"),
                 # Stats section using Pico's grid
+                H2("Training Stats"),
                 Div(
                     Div(
                         Div(f"{athlete.get('Total_Run_Distance_km', 0):.2f} km", cls="stat-value"),
