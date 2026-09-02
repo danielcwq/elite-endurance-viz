@@ -6,11 +6,13 @@ import gzip
 import json
 import tempfile
 import unittest
+from unittest.mock import patch
 from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
 from bson.json_util import CANONICAL_JSON_OPTIONS, dumps
+from pymongo.errors import NetworkTimeout
 
 from scripts import snapshot_2024
 
@@ -120,6 +122,53 @@ class SnapshotToolTests(unittest.TestCase):
 
             self.assertEqual(result["row_count"], 1)
             self.assertEqual(result["read_error"], "")
+
+    def test_mongo_export_resumes_after_transient_cursor_timeout(self) -> None:
+        class FakeCursor:
+            def __init__(self, rows, fail_after_first=False):
+                self.rows = rows
+                self.fail_after_first = fail_after_first
+
+            def sort(self, *_):
+                return self
+
+            def batch_size(self, *_):
+                return self
+
+            def __iter__(self):
+                for index, row in enumerate(self.rows):
+                    if self.fail_after_first and index == 1:
+                        raise NetworkTimeout("fixture timeout")
+                    yield row
+
+            def close(self):
+                return None
+
+        class FakeCollection:
+            name = "fixture"
+
+            def __init__(self):
+                self.calls = []
+
+            def find(self, query):
+                self.calls.append(query)
+                if len(self.calls) == 1:
+                    return FakeCursor([{"_id": 1, "value": "a"}, {"_id": 2, "value": "b"}], True)
+                return FakeCursor([{"_id": 2, "value": "b"}, {"_id": 3, "value": "c"}])
+
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "fixture.jsonl.gz"
+            collection = FakeCollection()
+            with patch("scripts.snapshot_2024.time.sleep"):
+                row_count, _ = snapshot_2024.export_collection(
+                    collection, path, batch_size=1, max_retries=1
+                )
+            with gzip.open(path, "rt", encoding="utf-8") as handle:
+                ids = [json.loads(line)["_id"]["$numberInt"] for line in handle]
+
+        self.assertEqual(row_count, 3)
+        self.assertEqual(ids, ["1", "2", "3"])
+        self.assertEqual(collection.calls[1], {"_id": {"$gt": 1}})
 
 
 if __name__ == "__main__":

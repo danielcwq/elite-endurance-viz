@@ -15,6 +15,7 @@ import stat
 import subprocess
 import sys
 import tempfile
+import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -214,29 +215,63 @@ def bson_type(value: Any) -> str:
     return type(value).__name__
 
 
-def export_collection(collection: Any, output_path: Path) -> tuple[int, list[str]]:
+def export_collection(
+    collection: Any,
+    output_path: Path,
+    batch_size: int = 100,
+    max_retries: int = 20,
+) -> tuple[int, list[str]]:
     from bson.json_util import CANONICAL_JSON_OPTIONS, dumps
     from pymongo import ASCENDING
+    from pymongo.errors import AutoReconnect, CursorNotFound, ExecutionTimeout, NetworkTimeout
 
     row_count = 0
+    retry_count = 0
+    last_id = None
     observed_types: dict[str, set[str]] = defaultdict(set)
+    retryable = (AutoReconnect, CursorNotFound, ExecutionTimeout, NetworkTimeout)
     with output_path.open("xb") as raw_handle:
         with gzip.GzipFile(fileobj=raw_handle, mode="wb", mtime=0) as gzip_handle:
             with io.TextIOWrapper(gzip_handle, encoding="utf-8", newline="\n") as text_handle:
-                cursor = collection.find({}).sort("_id", ASCENDING).batch_size(1000)
-                for document in cursor:
-                    for key, value in document.items():
-                        observed_types[key].add(bson_type(value))
-                    text_handle.write(
-                        dumps(
-                            document,
-                            json_options=CANONICAL_JSON_OPTIONS,
-                            sort_keys=True,
-                            separators=(",", ":"),
+                while True:
+                    query = {} if last_id is None else {"_id": {"$gt": last_id}}
+                    cursor = collection.find(query).sort("_id", ASCENDING).batch_size(batch_size)
+                    try:
+                        for document in cursor:
+                            for key, value in document.items():
+                                observed_types[key].add(bson_type(value))
+                            text_handle.write(
+                                dumps(
+                                    document,
+                                    json_options=CANONICAL_JSON_OPTIONS,
+                                    sort_keys=True,
+                                    separators=(",", ":"),
+                                )
+                            )
+                            text_handle.write("\n")
+                            row_count += 1
+                            last_id = document["_id"]
+                            if row_count % 10_000 == 0:
+                                text_handle.flush()
+                                print(
+                                    f"Exported {row_count:,} rows from {collection.name}",
+                                    flush=True,
+                                )
+                    except retryable as exc:
+                        retry_count += 1
+                        if retry_count > max_retries:
+                            raise
+                        text_handle.flush()
+                        print(
+                            f"Retrying {collection.name} after {type(exc).__name__} "
+                            f"({retry_count}/{max_retries}); {row_count:,} rows preserved",
+                            flush=True,
                         )
-                    )
-                    text_handle.write("\n")
-                    row_count += 1
+                        time.sleep(min(2 * retry_count, 10))
+                        continue
+                    finally:
+                        cursor.close()
+                    break
     schema = [
         f"{key}:{'|'.join(sorted(types))}"
         for key, types in sorted(observed_types.items())
@@ -253,6 +288,8 @@ def export_mongo(args: argparse.Namespace) -> int:
         raise RuntimeError("Install requirements before exporting MongoDB") from exc
 
     load_dotenv(ROOT / ".env")
+    if args.batch_size <= 0 or args.max_retries < 0:
+        raise ValueError("batch-size must be positive and max-retries cannot be negative")
     uri = os.getenv("MONGO_URI")
     if not uri:
         raise RuntimeError("MONGO_URI is not configured")
@@ -285,7 +322,12 @@ def export_mongo(args: argparse.Namespace) -> int:
 
         for name in EXPECTED_MONGO_COLLECTIONS:
             output_path = temp_dir / f"{name}.jsonl.gz"
-            row_count, schema = export_collection(database[name], output_path)
+            row_count, schema = export_collection(
+                database[name],
+                output_path,
+                batch_size=args.batch_size,
+                max_retries=args.max_retries,
+            )
             rows.append(
                 {
                     "source_file": f"data/raw/2024/mongodb/{snapshot_name}/{output_path.name}",
@@ -546,6 +588,8 @@ def build_parser() -> argparse.ArgumentParser:
     export.add_argument("--output-root", type=Path, default=DEFAULT_MONGO_ROOT)
     export.add_argument("--manifest-dir", type=Path, default=DEFAULT_MANIFEST_DIR)
     export.add_argument("--timeout-ms", type=int, default=15_000)
+    export.add_argument("--batch-size", type=int, default=100)
+    export.add_argument("--max-retries", type=int, default=20)
     export.add_argument("--generated-at", type=parsed_datetime)
     export.set_defaults(func=export_mongo)
 
