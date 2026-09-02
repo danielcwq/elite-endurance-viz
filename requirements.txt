@@ -3,6 +3,7 @@ beautifulsoup4==4.12.3
 certifi==2024.8.30
 click==8.1.7
 dnspython==1.16.0
+duckdb==1.5.5
 fastcore==1.7.23
 fastlite==0.0.13
 h11==0.14.0
@@ -16,6 +17,7 @@ oauthlib==3.2.2
 packaging==24.2
 pandas==2.2.3
 pymongo==4.10.1
+pyarrow==25.0.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-fasthtml==0.10.1

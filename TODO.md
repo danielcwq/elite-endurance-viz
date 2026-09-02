@@ -94,16 +94,16 @@ data/
 
 ## P0.3 Canonical data model
 
-- [ ] [PARTIAL] Define an `athletes` table. `cleaned_athlete_metadata.csv` currently mixes identity, performance strings, aggregates, and processing state.
-- [ ] [PARTIAL] Define `athlete_external_accounts`. Strava IDs exist, but there is no provider-aware mapping table or uniqueness enforcement.
-- [ ] [PARTIAL] Define `performances_2024`. The performance-grain CSV exists but dates, IDs, and marks remain weakly typed.
-- [ ] [PARTIAL] Define `activities_2024`. The activity-grain CSV exists but contains duplicates, legacy columns, weak types, and out-of-window records.
-- [ ] [PARTIAL] Define `weekly_training_2024`. Weekly scrape artifacts and statistics exist, but the current merged file is heavily duplicated and not the application source.
-- [ ] Define `data_coverage_2024`.
-- [ ] Define `import_manifest`.
-- [ ] Define `quarantined_records` with reason codes and original-source references.
-- [ ] [VERIFY] Choose the curated analytical engine. Recommended initial choice: Parquet plus DuckDB for reproducible transformations; the production serving database can be decided separately.
-- [ ] Document primary keys, foreign keys, nullability, units, and uniqueness rules.
+- [x] Define an `athletes` table that separates canonical identity from source attributes and derived metrics.
+- [x] Define provider-aware `athlete_external_accounts` with uniqueness enforcement on `(provider, external_account_id)`.
+- [x] Define strongly typed `performances_2024` with a 2024 date constraint and natural-field uniqueness.
+- [x] Define strongly typed, one-row-per-Strava-ID `activities_2024` with canonical units and identity foreign keys.
+- [x] Define one-row-per-athlete-week `weekly_training_2024` with sport-specific counts, distances, and durations.
+- [x] Define `data_coverage_2024` with explicit observed, missing, and unknown states.
+- [x] Define `import_manifest` linked to a canonical build.
+- [x] Define `quarantined_records` with reason codes, original JSON, and source references.
+- [x] Choose Parquet plus DuckDB for the canonical analytical engine; PostgreSQL remains a possible downstream serving layer.
+- [x] Document and test primary keys, foreign keys, nullability, units, and uniqueness rules in [`schema/2024.sql`](schema/2024.sql) and the [`2024 data dictionary`](docs/data-dictionary-2024.md).
 
 ## P0.4 Canonical athlete identity
 
