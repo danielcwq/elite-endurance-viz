@@ -67,6 +67,8 @@ CREATE TABLE performances_2024 (
     location VARCHAR,
     nationality_code VARCHAR CHECK (nationality_code IS NULL OR length(nationality_code) = 3),
     gender VARCHAR NOT NULL CHECK (gender IN ('female', 'male', 'other', 'unknown')),
+    is_season_best BOOLEAN NOT NULL,
+    is_primary_discipline BOOLEAN NOT NULL,
     source_file VARCHAR NOT NULL,
     source_row_number UBIGINT NOT NULL,
     UNIQUE (athlete_id, discipline, mark_text, performance_date, location)
@@ -93,6 +95,9 @@ CREATE TABLE activities_2024 (
         pace_seconds_per_kilometer IS NULL OR pace_seconds_per_kilometer > 0
     ),
     location VARCHAR,
+    quality_status VARCHAR NOT NULL CHECK (quality_status IN ('valid', 'warning')),
+    quality_flags VARCHAR[] NOT NULL,
+    exclusion_reason VARCHAR,
     source_file VARCHAR NOT NULL,
     source_row_number UBIGINT NOT NULL,
     FOREIGN KEY (provider, external_account_id)
@@ -129,7 +134,7 @@ CREATE TABLE weekly_training_2024 (
     ride_distance_meters DOUBLE NOT NULL CHECK (ride_distance_meters >= 0),
     ride_duration_seconds DOUBLE NOT NULL CHECK (ride_duration_seconds >= 0),
     swim_count UINTEGER NOT NULL,
-    swim_distance_meters DOUBLE NOT NULL CHECK (swim_distance_meters >= 0),
+    swim_distance_meters DOUBLE CHECK (swim_distance_meters IS NULL OR swim_distance_meters >= 0),
     swim_duration_seconds DOUBLE NOT NULL CHECK (swim_duration_seconds >= 0),
     other_count UINTEGER NOT NULL,
     other_duration_seconds DOUBLE NOT NULL CHECK (other_duration_seconds >= 0),

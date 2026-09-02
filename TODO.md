@@ -107,49 +107,49 @@ data/
 
 ## P0.4 Canonical athlete identity
 
-- [ ] Generate an immutable internal athlete ID that is independent of Strava and display names.
-- [ ] [PARTIAL] Preserve official World Athletics names separately from Strava display names. Both fields exist today, but they are joined and queried by name.
-- [ ] [PARTIAL] Create a provider-aware mapping from internal athlete ID to Strava athlete ID. Existing mapping logic in [`adhoc-processing.py`](adhoc-processing.py) uses normalized names and fills unmatched IDs with zero.
-- [ ] Resolve Jack Rayner and Mario García Romo, whose metadata currently uses athlete ID `0`.
-- [ ] Resolve activity-side IDs for Jack Rayner, Mario García Romo, Kevin Robertson, and Wes Ferguson that are absent from current athlete metadata.
-- [ ] Resolve the six competitors mapped to multiple Strava IDs: Jason Pointeau, Jessica McClain, Margaux Sieracki, Maureen Koster, Zhixuan Li, and Águeda Marqués.
-- [ ] Normalize whitespace, capitalization, accents, and known aliases for matching only—not as permanent identifiers.
-- [ ] Quarantine ambiguous mappings rather than selecting one by filename or row order.
-- [ ] Add uniqueness tests for `(provider, external_account_id)`.
-- [ ] Add referential-integrity tests from activities and performances to athletes.
+- [x] Generate and persist 3,609 opaque internal UUIDs in [`athlete_registry_2024.csv`](data/reference/athlete_registry_2024.csv), independent of Strava IDs and mutable names.
+- [x] Preserve official World Athletics names separately from observed Strava display names.
+- [x] Create 462 provider-aware, evidence-bearing mappings in [`athlete_external_accounts_2024.csv`](data/reference/athlete_external_accounts_2024.csv).
+- [x] Resolve Jack Rayner and Mario García Romo's zero metadata IDs to observed Strava accounts `1478217` and `125052191`.
+- [x] Resolve activity-side accounts absent from metadata for Jack Rayner, Mario García Romo, Kevin Robertson, and Wes Ferguson.
+- [x] Resolve the six legacy multi-ID competitors by excluding unauthoritative performance-processing IDs with no corroborating activity or cleaned-metadata evidence.
+- [x] Normalize whitespace, capitalization, accents, and aliases for matching only—not as permanent identifiers.
+- [x] Quarantine unresolved activity accounts rather than selecting one by file order, activity volume, or visibility.
+- [x] Add uniqueness tests for `(provider, external_account_id)`.
+- [x] Add referential-integrity constraints and transformation tests from activities and performances to athletes.
 
 ## P0.5 Activity cleaning and deduplication
 
-- [ ] Filter the curated activity table to the canonical 2024 window.
-- [ ] [PARTIAL] Deduplicate on Strava `Activity ID`. Existing code rejects IDs already present in the prior CSV, but duplicates within a new concatenated batch survive.
-- [ ] Separate exact duplicate groups from conflicting duplicate groups.
-- [ ] Resolve conflicting duplicates using documented completeness and provenance rules.
-- [ ] Quarantine conflicts involving athlete, timestamp, distance, duration, or activity type.
-- [ ] Remove `Serial` from the canonical model; it is unique but contains gaps and has no source meaning.
-- [ ] [PARTIAL] Parse `Start Date` to a typed UTC timestamp. The notebook parses timestamps, but the final CSV and Mongo documents store strings.
-- [ ] [PARTIAL] Normalize distance units. Min/mile and min/km conversion logic exists, but it is notebook-driven and retains redundant legacy columns.
-- [ ] Separate elapsed time, moving time, and display time where source data permits.
-- [ ] Preserve raw source values beside curated values or through source-record references.
-- [ ] Stop coercing unknown values to `0`; use null plus a quality reason.
-- [ ] [PARTIAL] Normalize activity types using one shared taxonomy across batch processing, weekly aggregation, and serving.
-- [ ] Include `Run`, `TrailRun`, and `VirtualRun` according to the documented run-category rule.
-- [ ] Include `Ride`, `VirtualRide`, mountain bike, e-bike, and related activities according to the documented ride-category rule.
-- [ ] Flag, rather than silently delete, suspicious distance, time, and pace values.
-- [ ] Add `quality_status`, `quality_flags`, and `exclusion_reason` fields.
-- [ ] Recalculate duplicate inflation by athlete and store it in the audit report.
+- [x] Filter the curated activity table to the canonical 2024 UTC window; 37 boundary rows are quarantined.
+- [x] Deduplicate within the complete input on Strava `Activity ID`, removing 9,592 duplicate extras.
+- [x] Separate 7,117 exact duplicate groups, 73 equivalent rounding/location groups, and true core conflicts.
+- [x] Resolve equivalent duplicates using documented completeness, numeric-precision, and source-row rules.
+- [x] Quarantine conflicts involving athlete, timestamp, distance, duration, or activity type; the current source has zero such duplicate groups.
+- [x] Remove `Serial` from the canonical model while retaining source row references.
+- [x] Parse `Start Date` into typed UTC timestamps and derive Monday `week_start_utc` dates.
+- [x] Normalize trustworthy run and ride distances to meters; suppress legacy swim distances because the scraper discarded their source units.
+- [x] Separate elapsed and moving time where the source permits and retain null when it does not.
+- [x] Preserve every excluded or duplicate raw source row and the retained row's source reference.
+- [x] Stop coercing unknown canonical values to `0`; use null plus explicit quality flags.
+- [x] Normalize activity types with the shared P0.1 taxonomy used by curation and downstream aggregation.
+- [x] Include `Run`, `TrailRun`, and `VirtualRun` in the documented run category.
+- [x] Include ride, virtual ride, mountain bike, e-bike, and gravel activities in the documented ride category.
+- [x] Flag or quarantine suspicious distance, time, and pace values; 23 impossible measurement rows are quarantined.
+- [x] Add `quality_status`, `quality_flags`, and `exclusion_reason` fields.
+- [x] Recalculate duplicate inflation for all 462 observed accounts in the [`curated observation audit`](data/manifests/curated_observation_audit_2024.json).
 
 ## P0.6 Normalize 2024 performances
 
 - [x] Preserve one row per World Athletics performance in [`data/metadata/master_iaaf_database_with_strava.csv`](data/metadata/master_iaaf_database_with_strava.csv).
 - [x] Preserve raw mark, discipline, date, location, nationality, gender, and World Athletics result score.
 - [x] Generate a natural performance identifier in [`Get_Data/iaaf.py`](Get_Data/iaaf.py), based on competitor, discipline, mark, and date.
-- [ ] Remove the legacy `Unnamed: 0` pseudo-identifier from the canonical model.
-- [ ] Parse performance dates into a typed date.
-- [ ] Preserve the raw mark string and parse comparable marks into seconds where the discipline permits.
-- [ ] Link every curated performance to the canonical internal athlete ID or quarantine it.
-- [ ] Define a deterministic primary-2024-discipline rule, preferably using the highest 2024 World Athletics score with documented tie-breaking.
-- [ ] Define the 2024 season-best performance per athlete and discipline.
-- [ ] Enforce natural uniqueness on athlete, discipline, mark, date, and venue/source.
+- [x] Remove the legacy `Unnamed: 0` pseudo-identifier from the canonical model.
+- [x] Parse all performance dates into typed 2024 dates.
+- [x] Preserve raw mark strings and parse all supported time marks—including hand-timing suffixes—into seconds.
+- [x] Link all 5,305 curated performances to canonical athlete UUIDs; unresolved rows would be quarantined.
+- [x] Define primary 2024 discipline by highest result score, then discipline performance count, then canonical discipline name.
+- [x] Define and materialize 2024 season-best performance flags per athlete and discipline.
+- [x] Enforce natural uniqueness on athlete, discipline, mark, date, and venue/source.
 - [ ] Replace pipe-delimited `Mark` and `Discipline` fields in athlete metadata with queries against performance rows.
 - [ ] Correct the three known cases where pipe-delimited mark counts and discipline counts do not align.
 

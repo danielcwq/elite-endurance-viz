@@ -49,11 +49,17 @@ One row per provider account. `(provider, external_account_id)` is the primary k
 
 One row per public World Athletics performance in 2024. The source mark is always retained as `mark_text`; parsed time and distance marks occupy separate nullable columns. The natural performance fields are unique within an athlete. Dates are strongly typed and constrained to 2024.
 
+`is_season_best` identifies the minimum parsed time for an athlete and discipline, retaining tied bests. Primary discipline is selected by highest 2024 World Athletics result score, then the most performances in that discipline, then canonical discipline name ascending. `is_primary_discipline` is true on all of the athlete's rows in that discipline.
+
 ### `activities_2024`
 
 One row per unique Strava activity starting in the canonical 2024 UTC window. The source Strava activity ID is the primary key. Source activity type is preserved and a normalized four-value category is added.
 
 Canonical measurements are meters, seconds, UTC timestamps, and seconds per kilometer. Negative measurements are rejected. `moving_seconds` remains null where the legacy source does not distinguish it from elapsed or activity time.
+
+Legacy swim distances are null in the first canonical release. The scraper discarded each displayed unit before storing its numeric value, so values may represent meters, yards, miles, or already-converted kilometers. Swim duration remains usable; distance can be restored only from raw payloads that preserve units.
+
+`quality_status` is `valid` or `warning`; `quality_flags` names retained limitations such as missing moving time or suppressed swim units. Excluded observations live in `quarantined_records` with `exclusion_reason`, so a curated row normally has a null exclusion reason.
 
 `week_start_utc` is the Monday date containing `start_at_utc`. This intentionally gives every athlete one comparison boundary; it does not claim to reproduce Strava's athlete-local calendar near midnight.
 
@@ -63,7 +69,7 @@ One row per athlete and UTC week. Observation status is `observed`, `missing`, o
 
 ### `weekly_training_2024`
 
-One row per athlete and UTC week, joined one-to-one with coverage. It stores activity counts, active days, and sport-specific distances and durations. Zero-valued totals are valid only alongside explicit observation status; consumers must not silently coalesce missing coverage to observed inactivity.
+One row per athlete and UTC week, joined one-to-one with coverage. It stores activity counts, active days, and sport-specific distances and durations. Swim distance remains null while legacy source units are ambiguous. Zero-valued totals are valid only alongside explicit observation status; consumers must not silently coalesce missing coverage to observed inactivity.
 
 ### `athlete_summary_2024`
 

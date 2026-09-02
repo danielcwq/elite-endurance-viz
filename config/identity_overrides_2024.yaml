@@ -1,0 +1,20 @@
+version: 1
+
+# Mario's cleaned metadata row lost its joined World Athletics fields. The
+# repository still contains the full identity and 2024 performance evidence in
+# combined_df_strava_oct_public - updated - 4.csv and the OLY24 men's inputs.
+additional_athletes:
+  - metadata_display_name: "MARIO GARCÍA ROMO"
+    official_name: "Mario García Romo"
+    nationality_code: "ESP"
+    gender: "male"
+    identity_source: "repository_override"
+    evidence:
+      - "combined_df_strava_oct_public - updated - 4.csv"
+      - "OLY24 Pred/complex/df_oly_distance_formatted_men.csv"
+
+policies:
+  - "World Athletics performance rows may identify athletes but their legacy Athlete ID processing column is never authoritative for Strava account identity."
+  - "A nonzero ID in cleaned athlete metadata is accepted only when activity display names are consistent with that metadata identity."
+  - "An activity-side account absent from metadata may be linked only by one unambiguous normalized metadata display or official name."
+  - "Ambiguous mappings are quarantined; activity count, file order, and profile visibility never break identity ties."

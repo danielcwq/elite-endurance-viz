@@ -1,0 +1,126 @@
+{
+  "generated_at_utc": "2026-09-02T14:42:10Z",
+  "athlete_count": 3609,
+  "world_athletics_identity_count": 3608,
+  "repository_override_identity_count": 1,
+  "external_account_count": 462,
+  "unresolved_activity_account_count": 0,
+  "zero_id_resolutions": [
+    {
+      "metadata_display_name": "JACK RAYNER",
+      "resolved_external_account_ids": [
+        "1478217"
+      ]
+    },
+    {
+      "metadata_display_name": "MARIO GARCÍA ROMO",
+      "resolved_external_account_ids": [
+        "125052191"
+      ]
+    }
+  ],
+  "activity_accounts_absent_metadata": [
+    {
+      "external_account_id": "1478217",
+      "provider_display_name": "Jack Rayner",
+      "official_name": "Jack Rayner"
+    },
+    {
+      "external_account_id": "22482034",
+      "provider_display_name": "Kevin Robertson",
+      "official_name": "Kevin Robertson"
+    },
+    {
+      "external_account_id": "81086643",
+      "provider_display_name": "Wes Ferguson",
+      "official_name": "Wes Ferguson"
+    },
+    {
+      "external_account_id": "125052191",
+      "provider_display_name": "Mario García Romo",
+      "official_name": "Mario García Romo"
+    }
+  ],
+  "discarded_multi_id_performance_candidates": [
+    {
+      "official_name": "Águeda MARQUÉS",
+      "legacy_candidate_ids": [
+        "11997629",
+        "58946158"
+      ],
+      "resolution": "ignored_performance_processing_fields"
+    },
+    {
+      "official_name": "Jason POINTEAU",
+      "legacy_candidate_ids": [
+        "39251089",
+        "97727449"
+      ],
+      "resolution": "ignored_performance_processing_fields"
+    },
+    {
+      "official_name": "Jessica MCCLAIN",
+      "legacy_candidate_ids": [
+        "63048626",
+        "124832249"
+      ],
+      "resolution": "ignored_performance_processing_fields"
+    },
+    {
+      "official_name": "Margaux SIERACKI",
+      "legacy_candidate_ids": [
+        "47778991",
+        "155268999"
+      ],
+      "resolution": "ignored_performance_processing_fields"
+    },
+    {
+      "official_name": "Maureen KOSTER",
+      "legacy_candidate_ids": [
+        "10802845",
+        "111683040"
+      ],
+      "resolution": "ignored_performance_processing_fields"
+    },
+    {
+      "official_name": "Zhixuan LI",
+      "legacy_candidate_ids": [
+        "130302356",
+        "154051792"
+      ],
+      "resolution": "ignored_performance_processing_fields"
+    }
+  ],
+  "nationality_conflicts": [
+    {
+      "official_name": "Helen BEKELE",
+      "nationality_candidates": [
+        "ETH",
+        "SUI"
+      ],
+      "canonical_nationality": null
+    },
+    {
+      "official_name": "Jamal Abdelmaji EISA MOHAMMED",
+      "nationality_candidates": [
+        "ART",
+        "EOR"
+      ],
+      "canonical_nationality": null
+    },
+    {
+      "official_name": "Shadrack KIPCHIRCHIR",
+      "nationality_candidates": [
+        "KEN",
+        "USA"
+      ],
+      "canonical_nationality": null
+    }
+  ],
+  "policies": [
+    "World Athletics performance rows may identify athletes but their legacy Athlete ID processing column is never authoritative for Strava account identity.",
+    "A nonzero ID in cleaned athlete metadata is accepted only when activity display names are consistent with that metadata identity.",
+    "An activity-side account absent from metadata may be linked only by one unambiguous normalized metadata display or official name.",
+    "Ambiguous mappings are quarantined; activity count, file order, and profile visibility never break identity ties."
+  ]
+}

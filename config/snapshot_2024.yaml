@@ -33,6 +33,16 @@ activity_categories:
   Other:
     default: true
 
+activity_validation:
+  duplicate_distance_absolute_tolerance_meters: 20
+  duplicate_distance_relative_tolerance: 0.005
+  moving_elapsed_absolute_tolerance_seconds: 5
+  moving_elapsed_relative_tolerance: 0.01
+  maximum_elapsed_seconds: 604800
+  maximum_run_distance_meters: 500000
+  maximum_ride_distance_meters: 1000000
+  legacy_swim_distance_policy: null_until_source_units_recovered
+
 weeks:
   observed_week: A successful athlete-week collection record exists, whether or not an activity was returned.
   active_week: At least one included public activity starts in the athlete-week.
