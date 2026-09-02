@@ -206,7 +206,7 @@ Grain: one canonical athlete by one 2024 calendar week.
 
 ## P0.10 Automated data-quality tests
 
-- [x] Replace manual print/debug checks with 25 assertion-based unit, transformation, schema, quality, and serving tests; historical `Get_Data/test_*.py` files are provenance-only.
+- [x] Replace manual print/debug checks with 26 assertion-based unit, transformation, schema, quality, and serving tests; historical `Get_Data/test_*.py` files are provenance-only.
 - [x] Fail on duplicate curated activity IDs.
 - [x] Fail on duplicate provider/external-athlete IDs.
 - [x] Fail on broken athlete foreign keys.

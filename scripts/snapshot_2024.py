@@ -372,7 +372,7 @@ def export_mongo(args: argparse.Namespace) -> int:
         raise RuntimeError(
             f"MongoDB export failed ({type(exc).__name__}); verify Atlas cluster health and network access"
         ) from None
-    except Exception:
+    except BaseException:
         shutil.rmtree(temp_dir, ignore_errors=True)
         raise
     finally:
