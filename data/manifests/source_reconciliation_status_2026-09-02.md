@@ -15,7 +15,7 @@ The current legacy activity candidate contains 147,070 rows, 137,478 unique acti
 
 ## MongoDB sources
 
-The export command was attempted against the configured Atlas cluster on 2026-09-02. Atlas did not present a usable connection: attempts encountered no selectable primary and network/TLS timeouts. A later retry reached collection export setup but the activities cursor produced no bytes for more than 90 seconds; the attempt was terminated and its empty temporary file removed. No partial export was retained.
+The export command was attempted against the configured Atlas cluster on 2026-09-02. Atlas did not present a consistently usable connection: attempts encountered no selectable primary and network/TLS timeouts. A longer retry reached the activities cursor and transferred roughly 4,700 documents before Atlas raised `NetworkTimeout`. The exporter removed the incomplete temporary payload. No partial export was retained.
 
 The following figures are historical audit observations from 2026-08-31, not a current immutable export:
 
