@@ -109,7 +109,7 @@ data/
 
 - [x] Generate and persist 3,609 opaque internal UUIDs in [`athlete_registry_2024.csv`](data/reference/athlete_registry_2024.csv), independent of Strava IDs and mutable names.
 - [x] Preserve official World Athletics names separately from observed Strava display names.
-- [x] Create 462 provider-aware, evidence-bearing mappings in [`athlete_external_accounts_2024.csv`](data/reference/athlete_external_accounts_2024.csv).
+- [x] Create 678 provider-aware, evidence-bearing mappings in [`athlete_external_accounts_2024.csv`](data/reference/athlete_external_accounts_2024.csv), including 216 accounts found only in weekly evidence without regenerating athlete UUIDs.
 - [x] Resolve Jack Rayner and Mario García Romo's zero metadata IDs to observed Strava accounts `1478217` and `125052191`.
 - [x] Resolve activity-side accounts absent from metadata for Jack Rayner, Mario García Romo, Kevin Robertson, and Wes Ferguson.
 - [x] Resolve the six legacy multi-ID competitors by excluding unauthoritative performance-processing IDs with no corroborating activity or cleaned-metadata evidence.
@@ -136,7 +136,7 @@ data/
 - [x] Include ride, virtual ride, mountain bike, e-bike, and gravel activities in the documented ride category.
 - [x] Flag or quarantine suspicious distance, time, and pace values; 23 impossible measurement rows are quarantined.
 - [x] Add `quality_status`, `quality_flags`, and `exclusion_reason` fields.
-- [x] Recalculate duplicate inflation for all 462 observed accounts in the [`curated observation audit`](data/manifests/curated_observation_audit_2024.json).
+- [x] Recalculate duplicate inflation for all 462 activity-observed accounts in the [`curated observation audit`](data/manifests/curated_observation_audit_2024.json).
 
 ## P0.6 Normalize 2024 performances
 
@@ -155,54 +155,54 @@ data/
 
 ## P0.7 Coverage model
 
-- [ ] [PARTIAL] Calculate first and last observed activity dates. The data supports this, but it is not materialized or displayed.
-- [ ] [PARTIAL] Calculate observed weeks. `2024 Weeks Scraped` exists, but values represent manual processing state rather than verified calendar coverage.
-- [ ] Calculate active weeks separately from observed weeks.
-- [ ] Distinguish an observed zero-activity week from an unobserved/missing week.
-- [ ] Detect likely collection gaps and partially processed athlete ranges.
-- [ ] Calculate unique activities per athlete-week after deduplication.
-- [ ] [PARTIAL] Reuse the existing consistency prototype as a reference, not as the final coverage definition.
-- [ ] Create a coverage score with documented components.
-- [ ] Create human-readable coverage statuses such as `high`, `moderate`, `low`, and `insufficient`.
-- [ ] [VERIFY] Select cohort inclusion thresholds only after auditing the coverage distribution.
-- [ ] Keep low-coverage athletes discoverable but exclude them from default cohort claims.
+- [x] Calculate first and last observed activity dates.
+- [x] Calculate observed weeks from account-week collection evidence rather than the manual `2024 Weeks Scraped` field.
+- [x] Calculate active weeks separately from observed weeks.
+- [x] Distinguish an observed zero-activity week from an unobserved/missing week.
+- [x] Detect likely collection gaps and partially processed athlete ranges.
+- [x] Calculate unique activities per athlete-week after deduplication.
+- [x] Reuse the existing consistency prototype as a reference, not as the final coverage definition.
+- [x] Create a coverage score with documented components.
+- [x] Create human-readable `high`, `moderate`, `low`, `insufficient`, and `unknown` statuses.
+- [x] Select the default threshold after auditing the distribution: high/moderate (score >=75) includes 585 athletes.
+- [x] Keep low-coverage athletes discoverable but exclude them from default cohort claims.
 
 ## P0.8 Weekly analytical table
 
 Grain: one canonical athlete by one 2024 calendar week.
 
-- [ ] [PARTIAL] Materialize unique `(athlete_id, week_start)` rows. Weekly metadata exists, but 30,075 current rows are duplicate athlete-week extras.
-- [ ] Calculate run distance and duration.
-- [ ] Calculate unique run count.
-- [ ] Calculate active days.
-- [ ] Calculate double-session days.
-- [ ] Calculate longest run.
-- [ ] Calculate long-run share.
-- [ ] Calculate ride duration.
-- [ ] Calculate swim duration.
-- [ ] Calculate strength count and duration where available.
-- [ ] Calculate other cross-training duration.
-- [ ] Calculate total observed training duration.
-- [ ] Calculate cross-training share.
-- [ ] Attach week-level coverage status.
-- [ ] Calculate four-week rolling metrics with explicit handling of missing weeks.
-- [ ] Calculate week-over-week change.
-- [ ] Reconcile every weekly total to the curated activity table.
+- [x] Materialize 191,277 unique `(athlete_id, week_start)` rows across 3,609 athletes and 53 UTC week buckets.
+- [x] Calculate run distance and duration.
+- [x] Calculate unique run count.
+- [x] Calculate active days.
+- [x] Calculate double-session days.
+- [x] Calculate longest run.
+- [x] Calculate long-run share.
+- [x] Calculate ride duration.
+- [x] Calculate swim duration.
+- [x] Calculate strength count and duration where available.
+- [x] Calculate other cross-training duration.
+- [x] Calculate total observed training duration.
+- [x] Calculate cross-training share.
+- [x] Attach week-level coverage status.
+- [x] Calculate four-week rolling metrics only when all four weeks are complete-enough.
+- [x] Calculate week-over-week change only across adjacent complete-enough weeks.
+- [x] Reconcile every weekly total to the curated activity table.
 
 ## P0.9 Athlete summary metrics
 
-- [ ] [PARTIAL] Recalculate total 2024 run distance and hours from deduplicated activities. Existing totals are available but include duplicate inflation.
-- [ ] Replace ambiguous “average weekly mileage” with explicitly named observed-week and/or calendar-week measures.
-- [ ] Calculate median weekly distance.
-- [ ] Calculate peak week.
-- [ ] Calculate peak four-week average.
-- [ ] Calculate weekly variation and consistency.
-- [ ] Calculate active-day frequency.
-- [ ] Calculate long-run profile.
-- [ ] Calculate cross-training composition.
-- [ ] [PARTIAL] Review average pace. The current weighted calculation exists, but the source time semantics and anomalous values are not sufficiently controlled.
-- [ ] Attach window, denominator, coverage, and dataset version to every public metric.
-- [ ] Reconcile aggregate values against both weekly and activity-grain tables.
+- [x] Recalculate total 2024 run distance and hours from deduplicated activities.
+- [x] Replace ambiguous “average weekly mileage” with explicit observed-week and 366/7 calendar-week measures.
+- [x] Calculate median weekly distance.
+- [x] Calculate peak week.
+- [x] Calculate peak four-week average.
+- [x] Calculate weekly variation and consistency.
+- [x] Calculate active-day frequency.
+- [x] Calculate long-run profile.
+- [x] Calculate cross-training composition.
+- [x] Review average pace and calculate it from canonical run distance plus moving-time-with-elapsed-fallback semantics.
+- [x] Attach window, denominator, coverage, and dataset version to every public metric.
+- [x] Reconcile aggregate values against both weekly and activity-grain tables.
 
 ## P0.10 Automated data-quality tests
 

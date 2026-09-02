@@ -24,6 +24,7 @@ DEFAULT_METADATA = ROOT / "cleaned_athlete_metadata.csv"
 DEFAULT_ACTIVITIES = ROOT / "indiv_activities_full.csv"
 DEFAULT_OVERRIDES = ROOT / "config" / "identity_overrides_2024.yaml"
 DEFAULT_OUTPUT_DIR = ROOT / "data" / "reference"
+DEFAULT_WEEKLY_DIR = ROOT / "data" / "raw_data"
 
 
 def normalize_name(value: Any) -> str:
@@ -79,6 +80,110 @@ def load_overrides(path: Path) -> dict[str, Any]:
     if payload.get("version") != 1:
         raise ValueError(f"Unsupported identity override version in {path}")
     return payload
+
+
+def load_weekly_account_evidence(directory: Path) -> pd.DataFrame:
+    frames: list[pd.DataFrame] = []
+    for path in sorted(directory.glob("*.csv")):
+        if "indiv_activities" in path.name:
+            continue
+        frame = pd.read_csv(path, low_memory=False)
+        if not {"Athlete ID", "Name", "Week Number"}.issubset(frame.columns):
+            continue
+        frame = frame[["Athlete ID", "Name"]].copy()
+        frame["source_file"] = path.relative_to(ROOT).as_posix()
+        frame["source_row_number"] = frame.index + 2
+        frames.append(frame)
+    if not frames:
+        return pd.DataFrame(
+            columns=["Athlete ID", "Name", "source_file", "source_row_number"]
+        )
+    return pd.concat(frames, ignore_index=True)
+
+
+def extend_accounts_with_weekly_evidence(
+    athletes: pd.DataFrame,
+    accounts: pd.DataFrame,
+    weekly_evidence: pd.DataFrame,
+) -> tuple[pd.DataFrame, dict[str, Any]]:
+    extended = accounts.copy()
+    key_to_athlete = athletes.set_index("official_name_normalized")["athlete_id"].to_dict()
+    account_to_athlete = extended.set_index("external_account_id")["athlete_id"].to_dict()
+    working = weekly_evidence.copy().reset_index(drop=True)
+    working["_external_id"] = working["Athlete ID"].map(normalize_external_id)
+    working["_name_key"] = working["Name"].map(normalize_name)
+    additions: list[dict[str, Any]] = []
+    authoritative_alias_conflicts: list[dict[str, Any]] = []
+    unresolved: list[dict[str, Any]] = []
+
+    for external_id, group in working[working["_external_id"].notna()].groupby(
+        "_external_id", sort=True
+    ):
+        names = Counter(
+            str(value).strip()
+            for value in group["Name"]
+            if not pd.isna(value) and str(value).strip()
+        )
+        provider_display_name = sorted(
+            names, key=lambda value: (-names[value], value.casefold(), value)
+        )[0]
+        name_keys = {normalize_name(name) for name in names}
+        candidate_ids = {key_to_athlete[key] for key in name_keys if key in key_to_athlete}
+        if external_id in account_to_athlete:
+            authoritative_id = account_to_athlete[external_id]
+            conflicting_ids = candidate_ids - {authoritative_id}
+            if conflicting_ids:
+                authoritative_alias_conflicts.append(
+                    {
+                        "external_account_id": external_id,
+                        "weekly_display_names": sorted(names),
+                        "authoritative_athlete_id": authoritative_id,
+                        "conflicting_name_match_athlete_ids": sorted(conflicting_ids),
+                        "resolution": "preserved_activity_or_cleaned_metadata_mapping",
+                    }
+                )
+            continue
+        if len(candidate_ids) != 1:
+            unresolved.append(
+                {
+                    "external_account_id": external_id,
+                    "weekly_display_names": sorted(names),
+                    "candidate_athlete_ids": sorted(candidate_ids),
+                }
+            )
+            continue
+        athlete_id = next(iter(candidate_ids))
+        source = group.sort_values(
+            ["source_file", "source_row_number"], kind="stable"
+        ).iloc[0]
+        additions.append(
+            {
+                "provider": "strava",
+                "external_account_id": external_id,
+                "athlete_id": athlete_id,
+                "provider_display_name": provider_display_name,
+                "match_method": "exact_normalized_weekly_name",
+                "match_status": "resolved",
+                "source_file": source["source_file"],
+                "source_row_number": int(source["source_row_number"]),
+            }
+        )
+
+    if unresolved:
+        raise ValueError(f"Unresolved weekly-only external accounts: {unresolved}")
+    if additions:
+        extended = pd.concat([extended, pd.DataFrame(additions)], ignore_index=True)
+    extended = extended.sort_values(
+        ["provider", "external_account_id"], kind="stable"
+    ).reset_index(drop=True)
+    if extended.duplicated(["provider", "external_account_id"]).any():
+        raise ValueError("Weekly extension created duplicate external accounts")
+    audit = {
+        "weekly_only_accounts_added": len(additions),
+        "authoritative_weekly_alias_conflicts": authoritative_alias_conflicts,
+        "unresolved_weekly_account_count": 0,
+    }
+    return extended, audit
 
 
 def make_athlete_candidates(
@@ -404,6 +509,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--metadata", type=Path, default=DEFAULT_METADATA)
     parser.add_argument("--activities", type=Path, default=DEFAULT_ACTIVITIES)
     parser.add_argument("--overrides", type=Path, default=DEFAULT_OVERRIDES)
+    parser.add_argument("--weekly-dir", type=Path, default=DEFAULT_WEEKLY_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     return parser
 
@@ -425,6 +531,13 @@ def main() -> int:
             load_overrides(args.overrides),
             datetime.now(timezone.utc),
         )
+        accounts, weekly_audit = extend_accounts_with_weekly_evidence(
+            athletes,
+            accounts,
+            load_weekly_account_evidence(args.weekly_dir),
+        )
+        report.update(weekly_audit)
+        report["external_account_count"] = len(accounts)
         write_outputs(athletes, accounts, report, args.output_dir)
     except (FileExistsError, OSError, ValueError, KeyError) as exc:
         print(f"error: {exc}", file=sys.stderr)

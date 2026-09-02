@@ -3,7 +3,7 @@
   "athlete_count": 3609,
   "world_athletics_identity_count": 3608,
   "repository_override_identity_count": 1,
-  "external_account_count": 462,
+  "external_account_count": 678,
   "unresolved_activity_account_count": 0,
   "zero_id_resolutions": [
     {
@@ -122,5 +122,21 @@
     "A nonzero ID in cleaned athlete metadata is accepted only when activity display names are consistent with that metadata identity.",
     "An activity-side account absent from metadata may be linked only by one unambiguous normalized metadata display or official name.",
     "Ambiguous mappings are quarantined; activity count, file order, and profile visibility never break identity ties."
-  ]
+  ],
+  "weekly_only_accounts_added": 216,
+  "authoritative_weekly_alias_conflicts": [
+    {
+      "external_account_id": "125052191",
+      "weekly_display_names": [
+        "Mario GARCÍA",
+        "Mario GARCÍA Romo"
+      ],
+      "authoritative_athlete_id": "1322be7f-8ea8-4e17-8474-db9f0358ceac",
+      "conflicting_name_match_athlete_ids": [
+        "c00ab815-e2c1-4c96-926d-a3e98e235015"
+      ],
+      "resolution": "preserved_activity_or_cleaned_metadata_mapping"
+    }
+  ],
+  "unresolved_weekly_account_count": 0
 }

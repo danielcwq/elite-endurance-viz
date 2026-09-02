@@ -1,0 +1,39 @@
+{
+  "athlete_summary_rows": 3609,
+  "code_version": "e2075956c6da3ab77ef967968c40e4de7250fca3",
+  "coverage_rows": 191277,
+  "coverage_status_distribution": {
+    "high": 501,
+    "low": 91,
+    "moderate": 84,
+    "unknown": 2933
+  },
+  "coverage_thresholds": {
+    "default_cohort_minimum": 75,
+    "evidence_consistency_weight": 0.3,
+    "high_minimum": 90,
+    "low_minimum": 50,
+    "moderate_minimum": 75,
+    "observed_breadth_weight": 0.7
+  },
+  "dataset": "enduranceviz-2024",
+  "default_cohort_eligible_athletes": 585,
+  "generated_at_utc": "2026-09-02T15:18:54Z",
+  "missing_weeks_with_observed_activities": 7,
+  "observed_zero_activity_weeks": 17427,
+  "reconciliation": {
+    "activity_count_reconciles": true,
+    "activity_run_distance_meters": 1165818609.826,
+    "activity_unique_count": 137418,
+    "run_distance_max_absolute_difference_meters": 2.384185791015625e-07,
+    "summary_activity_count": 137418,
+    "summary_run_distance_meters": 1165818609.826,
+    "weekly_activity_count": 137418,
+    "weekly_run_distance_meters": 1165818609.8259997
+  },
+  "selected_account_week_evidence_rows": 33365,
+  "source_evidence_rows": 38207,
+  "specification_version": "1.0.0",
+  "weekly_evidence_policy": "Weekly summary rows establish observation coverage only; all training metrics are recalculated from canonical deduplicated activities.",
+  "weekly_rows": 191277
+}

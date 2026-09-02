@@ -6,7 +6,11 @@ from datetime import datetime, timezone
 
 import pandas as pd
 
-from scripts.build_identity_registry import build_registries, normalize_name
+from scripts.build_identity_registry import (
+    build_registries,
+    extend_accounts_with_weekly_evidence,
+    normalize_name,
+)
 
 
 class IdentityRegistryTests(unittest.TestCase):
@@ -86,6 +90,56 @@ class IdentityRegistryTests(unittest.TestCase):
         ]
         self.assertEqual(jack_accounts.nunique(), 1)
         self.assertEqual(report["unresolved_activity_account_count"], 0)
+
+    def test_weekly_only_account_extends_registry_without_reassigning_existing_id(self) -> None:
+        athletes = pd.DataFrame(
+            [
+                {"athlete_id": "athlete-1", "official_name_normalized": "runnerone"},
+                {"athlete_id": "athlete-2", "official_name_normalized": "mariogarcia"},
+            ]
+        )
+        accounts = pd.DataFrame(
+            [
+                {
+                    "provider": "strava",
+                    "external_account_id": "10",
+                    "athlete_id": "athlete-1",
+                    "provider_display_name": "Runner One",
+                    "match_method": "metadata_external_id",
+                    "match_status": "resolved",
+                    "source_file": "metadata.csv",
+                    "source_row_number": 2,
+                }
+            ]
+        )
+        weekly = pd.DataFrame(
+            [
+                {
+                    "Athlete ID": 10,
+                    "Name": "Mario Garcia",
+                    "source_file": "weekly.csv",
+                    "source_row_number": 2,
+                },
+                {
+                    "Athlete ID": 20,
+                    "Name": "Mario Garcia",
+                    "source_file": "weekly.csv",
+                    "source_row_number": 3,
+                },
+            ]
+        )
+        extended, audit = extend_accounts_with_weekly_evidence(athletes, accounts, weekly)
+        self.assertEqual(len(extended), 2)
+        self.assertEqual(
+            extended.set_index("external_account_id").loc["10", "athlete_id"],
+            "athlete-1",
+        )
+        self.assertEqual(
+            extended.set_index("external_account_id").loc["20", "athlete_id"],
+            "athlete-2",
+        )
+        self.assertEqual(audit["weekly_only_accounts_added"], 1)
+        self.assertEqual(len(audit["authoritative_weekly_alias_conflicts"]), 1)
 
 
 if __name__ == "__main__":

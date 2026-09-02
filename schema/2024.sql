@@ -112,9 +112,15 @@ CREATE TABLE data_coverage_2024 (
     ),
     is_active_week BOOLEAN NOT NULL,
     is_complete_enough_week BOOLEAN NOT NULL,
+    is_partial_window BOOLEAN NOT NULL,
+    unique_activity_count UINTEGER NOT NULL,
+    coverage_status VARCHAR NOT NULL CHECK (
+        coverage_status IN ('complete', 'observed_with_warning', 'missing', 'unknown', 'partial_window')
+    ),
     collection_completed_at_utc TIMESTAMPTZ,
     collection_error_code VARCHAR,
     evidence_source VARCHAR,
+    evidence_source_count UINTEGER NOT NULL,
     PRIMARY KEY (athlete_id, week_start_utc)
 );
 
@@ -124,20 +130,41 @@ CREATE TABLE weekly_training_2024 (
     observation_status VARCHAR NOT NULL CHECK (
         observation_status IN ('observed', 'missing', 'unknown')
     ),
-    activity_count UINTEGER NOT NULL,
-    active_days UINTEGER NOT NULL CHECK (active_days <= 7),
-    run_count UINTEGER NOT NULL,
-    run_distance_meters DOUBLE NOT NULL CHECK (run_distance_meters >= 0),
-    run_duration_seconds DOUBLE NOT NULL CHECK (run_duration_seconds >= 0),
+    coverage_status VARCHAR NOT NULL,
+    is_complete_enough_week BOOLEAN NOT NULL,
+    activity_count UINTEGER,
+    active_days UINTEGER CHECK (active_days IS NULL OR active_days <= 7),
+    double_session_days UINTEGER CHECK (double_session_days IS NULL OR double_session_days <= 7),
+    run_count UINTEGER,
+    run_distance_meters DOUBLE CHECK (run_distance_meters IS NULL OR run_distance_meters >= 0),
+    run_duration_seconds DOUBLE CHECK (run_duration_seconds IS NULL OR run_duration_seconds >= 0),
     longest_run_meters DOUBLE CHECK (longest_run_meters IS NULL OR longest_run_meters >= 0),
-    ride_count UINTEGER NOT NULL,
-    ride_distance_meters DOUBLE NOT NULL CHECK (ride_distance_meters >= 0),
-    ride_duration_seconds DOUBLE NOT NULL CHECK (ride_duration_seconds >= 0),
-    swim_count UINTEGER NOT NULL,
+    long_run_share DOUBLE CHECK (long_run_share IS NULL OR long_run_share BETWEEN 0 AND 1),
+    ride_count UINTEGER,
+    ride_distance_meters DOUBLE CHECK (ride_distance_meters IS NULL OR ride_distance_meters >= 0),
+    ride_duration_seconds DOUBLE CHECK (ride_duration_seconds IS NULL OR ride_duration_seconds >= 0),
+    swim_count UINTEGER,
     swim_distance_meters DOUBLE CHECK (swim_distance_meters IS NULL OR swim_distance_meters >= 0),
-    swim_duration_seconds DOUBLE NOT NULL CHECK (swim_duration_seconds >= 0),
-    other_count UINTEGER NOT NULL,
-    other_duration_seconds DOUBLE NOT NULL CHECK (other_duration_seconds >= 0),
+    swim_duration_seconds DOUBLE CHECK (swim_duration_seconds IS NULL OR swim_duration_seconds >= 0),
+    strength_count UINTEGER,
+    strength_duration_seconds DOUBLE CHECK (strength_duration_seconds IS NULL OR strength_duration_seconds >= 0),
+    other_count UINTEGER,
+    other_cross_training_duration_seconds DOUBLE CHECK (
+        other_cross_training_duration_seconds IS NULL OR other_cross_training_duration_seconds >= 0
+    ),
+    total_training_duration_seconds DOUBLE CHECK (
+        total_training_duration_seconds IS NULL OR total_training_duration_seconds >= 0
+    ),
+    cross_training_share DOUBLE CHECK (cross_training_share IS NULL OR cross_training_share BETWEEN 0 AND 1),
+    rolling_4w_observed_weeks UINTEGER NOT NULL CHECK (rolling_4w_observed_weeks <= 4),
+    rolling_4w_run_distance_meters DOUBLE CHECK (
+        rolling_4w_run_distance_meters IS NULL OR rolling_4w_run_distance_meters >= 0
+    ),
+    rolling_4w_average_run_distance_meters DOUBLE CHECK (
+        rolling_4w_average_run_distance_meters IS NULL OR rolling_4w_average_run_distance_meters >= 0
+    ),
+    week_over_week_run_distance_change_meters DOUBLE,
+    week_over_week_run_distance_change_fraction DOUBLE,
     PRIMARY KEY (athlete_id, week_start_utc),
     FOREIGN KEY (athlete_id, week_start_utc)
         REFERENCES data_coverage_2024(athlete_id, week_start_utc)
@@ -146,19 +173,47 @@ CREATE TABLE weekly_training_2024 (
 CREATE TABLE athlete_summary_2024 (
     athlete_id UUID PRIMARY KEY REFERENCES athletes(athlete_id),
     coverage_status VARCHAR NOT NULL CHECK (
-        coverage_status IN ('complete', 'partial', 'insufficient', 'unknown')
+        coverage_status IN ('high', 'moderate', 'low', 'insufficient', 'unknown')
     ),
+    coverage_score DOUBLE NOT NULL CHECK (coverage_score BETWEEN 0 AND 100),
+    default_cohort_eligible BOOLEAN NOT NULL,
     observed_weeks UINTEGER NOT NULL,
+    missing_weeks UINTEGER NOT NULL,
     active_weeks UINTEGER NOT NULL,
     complete_enough_weeks UINTEGER NOT NULL,
+    collection_gap_weeks UINTEGER NOT NULL,
+    first_activity_at_utc TIMESTAMPTZ,
+    last_activity_at_utc TIMESTAMPTZ,
     total_activity_count UINTEGER NOT NULL,
+    total_run_count UINTEGER NOT NULL,
     total_run_distance_meters DOUBLE NOT NULL CHECK (total_run_distance_meters >= 0),
     total_run_duration_seconds DOUBLE NOT NULL CHECK (total_run_duration_seconds >= 0),
     average_run_distance_per_observed_week_meters DOUBLE,
+    average_run_distance_per_calendar_week_meters DOUBLE NOT NULL,
     average_run_duration_per_observed_week_seconds DOUBLE,
     median_weekly_run_distance_meters DOUBLE,
+    peak_weekly_run_distance_meters DOUBLE,
+    peak_four_week_average_run_distance_meters DOUBLE,
     weekly_run_distance_stddev_meters DOUBLE,
+    weekly_run_distance_cv DOUBLE,
+    weekly_run_distance_consistency_score DOUBLE,
+    total_active_days UINTEGER NOT NULL,
+    active_day_frequency_per_observed_week DOUBLE,
     longest_run_meters DOUBLE,
+    median_longest_run_meters DOUBLE,
+    average_long_run_share DOUBLE,
+    total_ride_duration_seconds DOUBLE NOT NULL,
+    total_swim_duration_seconds DOUBLE NOT NULL,
+    total_strength_duration_seconds DOUBLE NOT NULL,
+    total_other_cross_training_duration_seconds DOUBLE NOT NULL,
+    total_training_duration_seconds DOUBLE NOT NULL,
+    cross_training_share DOUBLE,
+    weighted_run_pace_seconds_per_kilometer DOUBLE,
+    metric_window_start_utc TIMESTAMPTZ NOT NULL,
+    metric_window_end_exclusive_utc TIMESTAMPTZ NOT NULL,
+    weekly_average_denominator VARCHAR NOT NULL,
+    dataset_name VARCHAR NOT NULL,
+    dataset_version VARCHAR NOT NULL,
     computed_at_utc TIMESTAMPTZ NOT NULL
 );
 

@@ -65,15 +65,23 @@ Legacy swim distances are null in the first canonical release. The scraper disca
 
 ### `data_coverage_2024`
 
-One row per athlete and UTC week. Observation status is `observed`, `missing`, or `unknown`; missing collection evidence must never become a numeric zero. Activity presence determines `is_active_week`, while successful post-week collection without errors determines completeness.
+One row per athlete and UTC week, including the partial week beginning December 30. Observation status is `observed`, `missing`, or `unknown`; missing collection evidence must never become a numeric zero. Activity presence determines `is_active_week`. `unique_activity_count` is recalculated from canonical activities. Coverage warnings identify conflicting source rows, requested-week/date-range mismatches, and weekly-summary/activity contradictions.
+
+The 2024 raw and temporary weekly summary CSVs are used only as evidence that collection was attempted. Their distance and time totals are never used as analytical measurements. When several rows exist for one account-week, a dated temporary recovery file wins over a raw batch row and the conflict remains flagged.
 
 ### `weekly_training_2024`
 
-One row per athlete and UTC week, joined one-to-one with coverage. It stores activity counts, active days, and sport-specific distances and durations. Swim distance remains null while legacy source units are ambiguous. Zero-valued totals are valid only alongside explicit observation status; consumers must not silently coalesce missing coverage to observed inactivity.
+One row per athlete and UTC week, joined one-to-one with coverage. It stores unique activity counts, active and double-session days, longest-run share, sport-specific duration, strength and other cross-training, total duration, and cross-training share. Long-run share is the longest run divided by the week's total run distance. Swim distance remains null while legacy source units are ambiguous.
+
+An observed inactive week has numeric zeros. An inactive missing or unknown week has null metrics. A week containing canonical activities retains those known metrics even if its collection coverage is missing. Four-week metrics require four consecutive `complete-enough` full weeks; week-over-week changes require both adjacent weeks to be complete-enough, and fractional change is null when the prior week is zero.
 
 ### `athlete_summary_2024`
 
-One row per athlete derived from canonical weekly data. Weekly averages use the documented observed-week denominator. Coverage counts and status travel with all headline totals so the application can communicate uncertainty.
+One row per athlete derived from canonical weekly and activity data. It includes first/last activity timestamps, explicit observed-week and 366/7 calendar-week averages, variation, consistency, long-run, active-day, cross-training, and weighted pace measures.
+
+Coverage score is 70% observed breadth (`observed full weeks / 52`) and 30% evidence consistency (`complete-enough / observed`). The audited thresholds are high at 90, moderate at 75, low at 50, and insufficient below 50; no collection evidence is `unknown`. The default comparison cohort includes high and moderate coverage (585 athletes in the current snapshot). Low-coverage and unknown athletes remain queryable.
+
+The weighted run pace uses effective duration (moving time when available, otherwise elapsed time) divided by canonical run distance. Every summary carries the half-open metric window, dataset name/version, coverage status, and an explicit weekly denominator description.
 
 ## Storage contract
 

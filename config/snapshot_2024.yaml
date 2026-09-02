@@ -53,6 +53,26 @@ source_scope:
   statement: The snapshot contains publicly observable Strava activities and public World Athletics results; it is not a complete training history.
   zero_activity_policy: Never infer zero training from a missing collection observation.
 
+analytics:
+  full_calendar_weeks: 52
+  partial_week_start_utc: "2024-12-30"
+  coverage_score:
+    observed_breadth_weight: 0.7
+    evidence_consistency_weight: 0.3
+    high_minimum: 90
+    moderate_minimum: 75
+    low_minimum: 50
+    default_cohort_minimum: 75
+  strength_activity_types:
+    - WeightTraining
+    - HighIntensityIntervalTraining
+    - Crossfit
+    - Workout
+    - Pilates
+  rolling_window_weeks: 4
+  rolling_missing_policy: Require four complete-enough weeks; otherwise the rolling value is null.
+  long_run_share_definition: Longest run distance divided by total run distance in the athlete-week.
+
 expected_mongodb_collections:
   - activities
   - athlete_metadata
