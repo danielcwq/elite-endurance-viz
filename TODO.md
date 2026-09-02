@@ -1,6 +1,6 @@
 # EnduranceViz 2024 Snapshot Roadmap
 
-Last repository audit: 2026-08-31
+Last repository audit: 2026-09-02
 
 ## Scope
 
@@ -17,6 +17,7 @@ Matching 2024 and 2025 performances is explicitly **not** a P0 requirement and i
 - `[x]` — implemented and usable in the current repository.
 - `[ ] [PARTIAL]` — meaningful work or an artifact exists, but it does not yet satisfy the roadmap requirement.
 - `[ ] [VERIFY]` — requires a product or methodology decision before implementation.
+- `[ ] [BLOCKED]` — implementation is ready, but an unavailable external source prevents completion.
 - `[ ]` — not implemented or no evidence was found in the repository.
 
 “Partial” is intentionally conservative. Notebook experiments and one-off scripts count as useful prior work, but not as complete when they are not reproducible, tested, or connected to the serving application.
@@ -61,23 +62,23 @@ These findings explain why existing prototypes are marked partial rather than co
 
 ## P0.1 Snapshot contract
 
-- [ ] [PARTIAL] Define the canonical window as `2024-01-01 00:00:00 UTC` through `2024-12-31 23:59:59 UTC`. The scraper hardcodes 2024, but the current activity table includes 11 runs from 2023 and 23 runs from 2025.
-- [ ] [VERIFY] Decide whether an activity crossing midnight belongs to the year/week of its start timestamp.
-- [ ] Define canonical internal units: meters, seconds, and UTC timestamps.
-- [ ] [PARTIAL] Define normalized activity categories. A notebook maps `VirtualRide` to `Ride` and all non-run/ride/swim activities to `Other`, but the incremental metric pipeline does not reuse that logic.
-- [ ] Define “observed week,” “active week,” “missing week,” and “complete-enough week.”
-- [ ] State that the snapshot represents publicly observed Strava activity rather than complete training history.
-- [ ] Publish these decisions as a versioned dataset specification.
+- [x] Define the canonical half-open window as `2024-01-01T00:00:00Z` through, but excluding, `2025-01-01T00:00:00Z` in [`config/snapshot_2024.yaml`](config/snapshot_2024.yaml). The audited legacy table contains 12 activities from 2023 and 25 from 2025.
+- [x] Assign an activity crossing midnight or a boundary to the year/week of its UTC start timestamp.
+- [x] Define canonical internal units: meters, seconds, UTC timestamps, and seconds per kilometer.
+- [x] Define normalized `Run`, `Ride`, `Swim`, and `Other` categories while preserving the raw Strava type.
+- [x] Define “observed week,” “active week,” “missing week,” and “complete-enough week” without treating missing observations as zero training.
+- [x] State that the snapshot represents publicly observed Strava activity rather than complete training history.
+- [x] Publish these decisions in the versioned [`2024 dataset specification`](docs/data-specification-2024-v1.md).
 
 ## P0.2 Preserve and reconcile existing data
 
-- [ ] Export the four live Mongo collections into a dated, immutable snapshot.
-- [ ] [PARTIAL] Preserve the current repository CSVs as raw inputs. Timestamped backups exist, but there is no declared immutable release or manifest.
-- [ ] Reconcile the 3,550 production-only activity rows with the repository snapshot.
-- [ ] Generate a manifest containing source file, checksum, row count, schema signature, extraction time, and source system.
-- [ ] Ensure the raw snapshot is never modified by cleaning code.
-- [ ] Separate raw, staging, curated, derived, manifest, and quarantine outputs.
-- [ ] [VERIFY] Decide whether large raw JSON payloads remain in Git, move to release/object storage, or are retained only through checksums and archived bundles.
+- [ ] [BLOCKED] Export the four live Mongo collections into a dated, immutable snapshot. The read-only exporter exists, but Atlas had no usable primary/network connection on 2026-09-02; see [`source reconciliation status`](data/manifests/source_reconciliation_status_2026-09-02.md).
+- [x] Preserve the 291 current repository CSVs as immutable Git inputs with file-level SHA-256 checksums in [`repository_csv_snapshot_2026-09-02.csv`](data/manifests/repository_csv_snapshot_2026-09-02.csv).
+- [ ] [BLOCKED] Reconcile the previously observed 3,550 production-only activity rows with the repository snapshot. The tested reconciliation command is ready and awaits the Mongo export.
+- [ ] [PARTIAL] Generate manifests containing source file, checksum, row count, schema signature, extraction time, and source system. The repository manifest is complete; the Mongo manifest awaits a successful export.
+- [x] Ensure raw snapshot exports are never modified by cleaning code: the exporter is write-once and makes completed payloads read-only.
+- [x] Separate raw, staging, curated, derived, manifest, and quarantine outputs and document their write policies in [`data/README.md`](data/README.md).
+- [x] Keep generated raw JSON out of Git; commit checksums/manifests and retain payload bundles in versioned object storage or redundant offline storage.
 
 Suggested structure:
 

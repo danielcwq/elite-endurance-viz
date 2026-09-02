@@ -1,0 +1,23 @@
+{
+  "dataset": "enduranceviz-2024",
+  "distinct_schema_count": 27,
+  "extraction_time_utc": "2026-09-02T14:22:14Z",
+  "file_count": 291,
+  "files_with_read_errors": 0,
+  "manifest_file": "data/manifests/repository_csv_snapshot_2026-09-02.csv",
+  "source_commit": "5ddf0bcab97acb177ae237363585f80ce58988f9",
+  "source_role_counts": {
+    "analysis_output": 5,
+    "backup": 75,
+    "curated_candidate": 20,
+    "raw": 131,
+    "temporary": 60
+  },
+  "source_system_counts": {
+    "strava": 156,
+    "unknown_legacy": 82,
+    "world_athletics": 53
+  },
+  "specification_version": "1.0.0",
+  "total_bytes": 1371610676
+}

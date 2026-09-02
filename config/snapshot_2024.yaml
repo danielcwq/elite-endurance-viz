@@ -1,0 +1,50 @@
+dataset:
+  name: enduranceviz-2024
+  specification_version: 1.0.0
+  description: Publicly observable training and performance data for elite endurance athletes in 2024.
+
+window:
+  start_inclusive_utc: "2024-01-01T00:00:00Z"
+  end_exclusive_utc: "2025-01-01T00:00:00Z"
+  activity_assignment: start_timestamp
+  week_start_day: Monday
+  week_timezone: UTC
+
+units:
+  distance: meter
+  duration: second
+  timestamp: UTC
+  pace: seconds_per_kilometer
+
+activity_categories:
+  Run:
+    - Run
+    - TrailRun
+    - VirtualRun
+  Ride:
+    - Ride
+    - VirtualRide
+    - MountainBikeRide
+    - EMountainBikeRide
+    - EBikeRide
+    - GravelRide
+  Swim:
+    - Swim
+  Other:
+    default: true
+
+weeks:
+  observed_week: A successful athlete-week collection record exists, whether or not an activity was returned.
+  active_week: At least one included public activity starts in the athlete-week.
+  missing_week: No successful athlete-week collection record exists; absence of activities alone is not evidence of zero training.
+  complete_enough_week: The week is observed, spans seven days entirely inside the snapshot window, was collected after it ended, and has no collection or parsing error.
+
+source_scope:
+  statement: The snapshot contains publicly observable Strava activities and public World Athletics results; it is not a complete training history.
+  zero_activity_policy: Never infer zero training from a missing collection observation.
+
+expected_mongodb_collections:
+  - activities
+  - athlete_metadata
+  - master_iaaf
+  - update_logs
