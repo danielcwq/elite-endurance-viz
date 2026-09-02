@@ -146,7 +146,7 @@ def homepage():
             H2("What the numbers mean"),
             P(
                 "Observed-zero weeks are distinct from missing weeks. Weekly and athlete totals are "
-                "recalculated from 137,418 deduplicated activities; old CSV summary totals are not served."
+                "recalculated from 139,887 deduplicated activities; old CSV summary totals are not served."
             ),
             P(A("Dataset methods and limitations", href="https://github.com/danielcwq/elite-endurance-viz/blob/p0-2024-data-foundation/docs/data-specification-2024-v1.md")),
             cls="container",

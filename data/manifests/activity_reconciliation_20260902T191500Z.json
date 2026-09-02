@@ -1,0 +1,24 @@
+{
+  "comparison": {
+    "mongodb_only_unique_activity_ids": 2471,
+    "repository_only_unique_activity_ids": 0,
+    "shared_unique_activity_ids": 137478
+  },
+  "dataset": "enduranceviz-2024",
+  "generated_at_utc": "2026-09-02T19:15:00Z",
+  "mongodb": {
+    "duplicate_extra_rows": 10671,
+    "rows_with_activity_id": 150620,
+    "unique_activity_ids": 139949
+  },
+  "mongodb_only_ids_file": "data/manifests/activity_reconciliation_20260902T191500Z_mongodb_only.csv",
+  "mongodb_source": "data/raw/2024/mongodb/20260902T190000Z/activities.jsonl.gz",
+  "repository": {
+    "duplicate_extra_rows": 9592,
+    "rows_with_activity_id": 147070,
+    "unique_activity_ids": 137478
+  },
+  "repository_only_ids_file": "data/manifests/activity_reconciliation_20260902T191500Z_repository_only.csv",
+  "repository_source": "indiv_activities_full.csv",
+  "specification_version": "1.0.0"
+}

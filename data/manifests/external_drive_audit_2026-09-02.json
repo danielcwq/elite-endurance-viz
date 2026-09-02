@@ -1,0 +1,41 @@
+{
+  "conclusion": "The offline backup contributes no activity ID inside the canonical 2024 window that is absent from the repository source. It does not contain a MongoDB collection export, so it cannot reconcile the historical production-only observation.",
+  "csv_inventory": {
+    "distinct_schema_count": 27,
+    "file_count": 598,
+    "row_width_mismatch_count": 19,
+    "row_width_mismatch_file_count": 3,
+    "unique_sha256_count": 209
+  },
+  "dataset": "enduranceviz-2024",
+  "direct_activity_comparison": {
+    "external_only_2024_unique_activity_ids": 0,
+    "external_only_by_start_year": {
+      "2025": 12
+    },
+    "external_only_unique_activity_ids": 12,
+    "external_unique_activity_ids": 122809,
+    "repository_unique_activity_ids": 137478,
+    "unique_activity_shaped_file_hashes": 88
+  },
+  "generated_at_utc": "2026-09-02T18:00:00Z",
+  "manifest_file": "data/manifests/external_drive_csv_snapshot_2026-09-02.csv",
+  "mongo_export_search": {
+    "candidate_count": 0,
+    "candidate_files": [],
+    "complete_four_collection_snapshot_found": false
+  },
+  "raw_json_comparison": {
+    "external_2024_ids_absent_from_repository_activity_csv": 0,
+    "external_ids_absent_from_repository_activity_csv": 12,
+    "external_ids_absent_from_repository_by_start_year": {
+      "2025": 12
+    },
+    "external_ids_absent_from_repository_raw_json": 0,
+    "external_target_athlete_activity_ids": 2982,
+    "external_unique_file_hashes": 15,
+    "hashes_already_in_repository": 13
+  },
+  "source_root_label": "elite-endurance-viz",
+  "specification_version": "1.0.0"
+}

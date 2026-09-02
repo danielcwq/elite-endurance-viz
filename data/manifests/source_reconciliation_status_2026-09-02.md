@@ -1,40 +1,65 @@
 # Source reconciliation status — 2026-09-02
 
-## Repository sources
+## Outcome
 
-The repository CSV inventory completed successfully at commit `5ddf0bcab97acb177ae237363585f80ce58988f9`:
+Source reconciliation is complete. The canonical 2024 build combines the untouched legacy repository activity CSV with a separate immutable supplement recovered from the sealed production snapshot.
 
-- 291 tracked CSVs;
-- 1,371,610,676 bytes;
-- 27 distinct header schemas;
-- 0 parse failures after allowing the oversized raw-JSON fields present in 22 files.
+- Full Mongo snapshot: `data/raw/2024/mongodb/20260902T190000Z` (ignored by Git, read-only, and copied to redundant external storage).
+- Snapshot manifest: [`mongodb_snapshot_20260902T190000Z.csv`](mongodb_snapshot_20260902T190000Z.csv).
+- Activity reconciliation: [`activity_reconciliation_20260902T191500Z.json`](activity_reconciliation_20260902T191500Z.json).
+- Rebuildable supplement: [`production_only_activities.csv`](../raw/2024/reconciled/20260902T190000Z/production_only_activities.csv).
+- Supplement manifest: [`mongodb_activity_supplement_20260902T190000Z.csv`](mongodb_activity_supplement_20260902T190000Z.csv).
 
-See [`repository_csv_snapshot_2026-09-02.csv`](repository_csv_snapshot_2026-09-02.csv) for file-level checksums and [`repository_csv_snapshot_2026-09-02.json`](repository_csv_snapshot_2026-09-02.json) for the summary.
+Checksums for every copied full-snapshot payload matched the committed manifest.
 
-The current legacy activity candidate contains 147,070 rows, 137,478 unique activity IDs, and 9,592 duplicate extras. Its UTC start timestamps include 12 rows from 2023, 147,033 from 2024, and 25 from 2025. See [`local_activity_audit_2026-09-02.json`](local_activity_audit_2026-09-02.json).
+## Repository and production comparison
 
-## MongoDB sources
+The original repository activity source contains 147,070 rows, 137,478 unique activity IDs, and 9,592 duplicate extras. Production contains 150,620 rows, 139,949 unique IDs, and 10,671 duplicate extras.
 
-The export command was attempted against the configured Atlas cluster on 2026-09-02. Atlas did not present a consistently usable connection: attempts encountered no selectable primary and network/TLS timeouts. A longer retry reached the activities cursor and transferred roughly 4,700 documents before Atlas raised `NetworkTimeout`. The exporter was then upgraded to resume by ordered `_id` after transient cursor failures. A live verification successfully resumed, but transferred only 600 of roughly 150,620 historical activity documents in about four minutes before the run was stopped; this throughput is not a practical snapshot path. Interrupted/incomplete payloads were removed and no partial export was retained.
+The ID reconciliation is exact:
 
-An immutable ID-only reconciliation exporter was also added. Atlas successfully returned the projected `_id` and `Activity ID` fields, but a 1,000-row batch sustained only about 2,000 IDs per network timeout; a 10,000-row batch returned zero rows before timeout. The tested tool can eventually resume through this, but the measured hour-plus extraction is inferior to recovering the offline snapshot from the external drive.
+- 137,478 IDs occur in both sources;
+- zero IDs occur only in the repository;
+- 2,471 IDs occur only in production;
+- those production-only IDs account for 3,550 rows and 1,079 duplicate extras.
 
-The following figures are historical audit observations from 2026-08-31, not a current immutable export:
+Every production-only row starts between `2024-11-04T03:12:34Z` and `2024-12-30T00:36:04Z`. All 43 associated Strava accounts already resolve to persistent athlete UUIDs. No duplicate group has a core conflict. After the standard validation rules, 2,469 recovered unique activities enter `activities_2024`; two are quarantined for invalid or inconsistent duration. The resulting canonical table contains 139,887 activities.
 
-- 150,620 activity documents;
-- 139,949 unique activity IDs;
-- 10,671 duplicate extras;
-- 3,550 activity rows observed in production but absent from the repository activity CSV.
+## Mongo snapshot
 
-These figures must not be treated as reconciled until a successful export is manifested.
+All four expected collections were exported:
 
-## Unblocking sequence
+| Collection | Documents | Compressed bytes |
+| --- | ---: | ---: |
+| `activities` | 150,620 | 9,767,745 |
+| `athlete_metadata` | 460 | 31,978 |
+| `master_iaaf` | 5,305 | 257,891 |
+| `update_logs` | 2 | 222 |
 
-1. Confirm that the Atlas cluster is running and has a primary, and that the current IP/network is allowed.
-2. Prefer mounting the offline external-drive snapshot. If it is unavailable, run `.venv/bin/python scripts/snapshot_2024.py export-mongo` on a stable network.
-3. Copy the resulting timestamped raw directory to durable storage and verify it against its committed SHA-256 manifest.
-4. If only reconciliation is immediately possible, run `.venv/bin/python scripts/snapshot_2024.py export-mongo-activity-ids` and use its `activities_ids.jsonl.gz` payload.
-5. Run `.venv/bin/python scripts/snapshot_2024.py reconcile-activities --mongo-activities <activities-or-activities_ids.jsonl.gz>`.
-6. Review repository-only and Mongo-only ID reports before promoting either source into staging.
+Initial attempts with one long-lived sorted Atlas cursor suffered repeated network timeouts. The final exporter first inventories `_id`, then retrieves deterministic 1,000-document partitions and verifies that each requested ID is returned exactly once. This completed without partial payloads and preserves every document, including activity duplicates.
 
-The exporter refuses to overwrite an existing snapshot, removes incomplete temporary exports, and makes a completed snapshot read-only.
+## External-drive audit
+
+The mounted offline backup was scanned read-only before using Atlas. The committed [`external-drive audit`](external_drive_audit_2026-09-02.json) and [`CSV manifest`](external_drive_csv_snapshot_2026-09-02.csv) cover 598 candidate CSV files, 209 unique hashes, and 27 schemas.
+
+The drive contains February 2025 repository/data backups rather than a Mongo/BSON/JSONL collection export. Its raw JSON activity evidence is a subset of the current repository evidence. The only 12 drive-only activity IDs are January–February 2025 Thomas Bridger activities, outside the canonical 2024 window. Three backup CSVs contain 19 row-width mismatches, including a headerless/glued tail; none contributes a repository-missing 2024 ID.
+
+## Reproduction
+
+The full payload is not required for ordinary builds. The small reconciled supplement is committed, manifested, and configured in `config/snapshot_2024.yaml`, so a new developer can rebuild without Mongo credentials:
+
+```bash
+.venv/bin/python scripts/pipeline_2024.py build
+```
+
+To repeat the source procedure from a newly exported payload:
+
+```bash
+.venv/bin/python scripts/snapshot_2024.py reconcile-activities \
+  --mongo-activities data/raw/2024/mongodb/<snapshot>/activities.jsonl.gz
+
+.venv/bin/python scripts/snapshot_2024.py extract-mongo-activity-supplement \
+  --mongo-activities data/raw/2024/mongodb/<snapshot>/activities.jsonl.gz
+```
+
+Both snapshot and supplement writers refuse to overwrite immutable outputs.

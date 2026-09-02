@@ -1,11 +1,11 @@
 {
   "athlete_summary_rows": 3609,
-  "code_version": "e6fe9de9c058a374cadeded4e98df8d00277a417",
+  "code_version": "4739f64dfb669d492eb37893eebb5dfcd313b122",
   "coverage_rows": 191277,
   "coverage_status_distribution": {
-    "high": 501,
+    "high": 499,
     "low": 91,
-    "moderate": 84,
+    "moderate": 86,
     "unknown": 2933
   },
   "coverage_thresholds": {
@@ -18,18 +18,18 @@
   },
   "dataset": "enduranceviz-2024",
   "default_cohort_eligible_athletes": 585,
-  "generated_at_utc": "2026-09-02T15:45:21Z",
-  "missing_weeks_with_observed_activities": 7,
-  "observed_zero_activity_weeks": 17427,
+  "generated_at_utc": "2026-09-02T22:58:06Z",
+  "missing_weeks_with_observed_activities": 245,
+  "observed_zero_activity_weeks": 17423,
   "reconciliation": {
     "activity_count_reconciles": true,
-    "activity_run_distance_meters": 1165818609.826,
-    "activity_unique_count": 137418,
-    "run_distance_max_absolute_difference_meters": 2.384185791015625e-07,
-    "summary_activity_count": 137418,
-    "summary_run_distance_meters": 1165818609.826,
-    "weekly_activity_count": 137418,
-    "weekly_run_distance_meters": 1165818609.8259997
+    "activity_run_distance_meters": 1184622339.8260002,
+    "activity_unique_count": 139887,
+    "run_distance_max_absolute_difference_meters": 4.76837158203125e-07,
+    "summary_activity_count": 139887,
+    "summary_run_distance_meters": 1184622339.826,
+    "weekly_activity_count": 139887,
+    "weekly_run_distance_meters": 1184622339.8259997
   },
   "selected_account_week_evidence_rows": 33365,
   "source_evidence_rows": 38207,

@@ -4,6 +4,7 @@
 
 ```text
 tracked repository CSVs ── checksums ──> immutable source manifest
+sealed Mongo snapshot ── ID reconciliation ──> production-only activity supplement
           │
           ├── World Athletics performance rows ──> performances_2024
           │                                           │
@@ -11,7 +12,7 @@ tracked repository CSVs ── checksums ──> immutable source manifest
           │                                           │
           │                                    external accounts
           │                                           │
-          ├── raw activity rows ── deduplicate/validate ──> activities_2024
+          ├── legacy + supplemental activity rows ── deduplicate/validate ──> activities_2024
           │                                                    │
           └── weekly scrape rows ── coverage evidence ──> data_coverage_2024
                                                                │
@@ -80,11 +81,11 @@ Every public athlete summary carries the half-open window, observed-week denomin
 - Strength and cross-training categories depend on public Strava activity types and do not measure unposted gym work.
 - The 1,100 World Athletics result-score threshold shaped source selection and is not a universal definition of elite status.
 - Observational comparisons cannot establish causality or prescribe training.
-- The historical Mongo export still has 3,550 production-only activity IDs awaiting recovery; the canonical release is explicitly based on the manifested repository snapshot until that external source is accessible.
+- The Mongo snapshot is a one-time historical export, not a current feed. Its 3,550 repository-missing rows represent 2,471 unique activity IDs from November 4 through December 30, 2024; 2,469 pass canonical validation and two remain quarantined. No post-snapshot production changes are represented.
 
 ## Authoritative versus provenance-only files
 
-Authoritative inputs are the manifested tracked CSV snapshot, the persistent reference registries, the snapshot contract, discipline mapping, and identity overrides. Authoritative generated tables are the current Parquet/DuckDB outputs rebuilt from those inputs; committed audit JSON and the quality report describe them.
+Authoritative inputs are the manifested tracked CSV snapshot, the manifested Mongo reconciliation supplement, the persistent reference registries, the snapshot contract, discipline mapping, and identity overrides. The complete Mongo payload is retained in redundant offline storage and verified by `mongodb_snapshot_20260902T190000Z.csv`; it is not queried by the application. Authoritative generated tables are the current Parquet/DuckDB outputs rebuilt from the committed inputs; committed audit JSON and the quality report describe them.
 
 `Get_Data/*.ipynb`, `OLY24 Pred/`, `data/metadata/athlete_statistics.csv`, legacy weekly aggregate columns, Mongo helper/test scripts, timestamped backups, and raw/temp processing batches are provenance-only. They may explain history but must not be queried as current analytical truth.
 

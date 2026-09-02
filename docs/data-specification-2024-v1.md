@@ -67,9 +67,9 @@ data/
 └── quarantine/2024/ records excluded with explicit reason codes
 ```
 
-Raw payloads are write-once. Cleaning code reads raw files and writes to staging or later layers. The existing tracked CSVs are preserved by Git plus the repository CSV manifest; they are not duplicated into `data/raw/2024`.
+Raw payloads are write-once. Cleaning code reads raw files and writes to staging or later layers. The existing tracked CSVs are preserved by Git plus the repository CSV manifest; they are not duplicated into `data/raw/2024`. The repository-missing activity rows recovered from Mongo are stored as a separate, immutable reconciliation CSV so the legacy activity file remains untouched and every build uses explicit source provenance.
 
-MongoDB exports are stored locally under a timestamped `data/raw/2024/mongodb/` directory and are ignored by Git. Their small manifests are committed. A completed export is made read-only. Large payloads should ultimately be copied to versioned object storage or redundant offline storage using their manifest checksums.
+MongoDB exports are stored locally under a timestamped `data/raw/2024/mongodb/` directory and are ignored by Git. Their small manifests are committed. A completed export is made read-only and copied to redundant offline storage using its manifest checksums. The small, manifested production-only reconciliation CSV is committed because it is required for credential-free rebuilding.
 
 ## Versioning rules
 

@@ -10,12 +10,12 @@ This is a fixed historical snapshot—not a live training tracker and not a clai
 - Athletes: 3,609 World Athletics identities
 - Resolved Strava accounts: 678
 - Canonical performances: 5,305
-- Canonical activities: 137,418 after removing 9,592 duplicate extras and quarantining invalid rows
-- Default coverage-qualified cohort: 585 athletes (501 high, 84 moderate)
+- Canonical activities: 139,887 after removing 10,671 duplicate extras and quarantining 62 invalid/window rows
+- Default coverage-qualified cohort: 585 athletes (499 high, 86 moderate)
 - Canonical engine: Parquet plus DuckDB
 - Dataset specification: `1.0.0`
 
-The old Mongo collections, notebooks, and CSV summary columns are not the analytical source of truth. They remain provenance artifacts.
+The live Mongo collections, notebooks, and CSV summary columns are not the analytical source of truth. A sealed Mongo export was reconciled once; its 3,550 repository-missing rows are retained as a manifested supplemental input, while the application serves only rebuilt canonical tables.
 
 ## Rebuild locally
 

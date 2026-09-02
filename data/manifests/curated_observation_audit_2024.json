@@ -1,9 +1,9 @@
 {
   "activities": {
     "conflicting_duplicate_groups": 0,
-    "curated_rows": 137418,
-    "curated_unique_activity_ids": 137418,
-    "dropped_duplicate_rows": 9592,
+    "curated_rows": 139887,
+    "curated_unique_activity_ids": 139887,
+    "dropped_duplicate_rows": 10671,
     "duplicate_inflation_by_athlete": [
       {
         "athlete_id": "76c4e79f-e592-4ccb-bd15-edb4e00ddf5b",
@@ -2625,10 +2625,10 @@
       },
       {
         "athlete_id": "7670db0f-b078-4697-84d9-1bccab7c85ff",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 117,
         "external_account_id": "60155357",
-        "raw_rows": 723,
-        "unique_activity_ids": 723
+        "raw_rows": 957,
+        "unique_activity_ids": 840
       },
       {
         "athlete_id": "b073aa1f-3ebb-4289-98da-e837fc19b725",
@@ -2646,24 +2646,24 @@
       },
       {
         "athlete_id": "15c4a1fc-267b-46da-af39-3764e1ff7cb3",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 172,
         "external_account_id": "60508941",
-        "raw_rows": 196,
-        "unique_activity_ids": 196
+        "raw_rows": 454,
+        "unique_activity_ids": 282
       },
       {
         "athlete_id": "59e29e27-51e0-4de2-82c4-4e30f4e8ae87",
         "duplicate_extra_rows": 0,
         "external_account_id": "61174400",
-        "raw_rows": 317,
-        "unique_activity_ids": 317
+        "raw_rows": 346,
+        "unique_activity_ids": 346
       },
       {
         "athlete_id": "1c432806-76db-41bf-a04a-bd37727dc5b0",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 104,
         "external_account_id": "61783860",
-        "raw_rows": 624,
-        "unique_activity_ids": 624
+        "raw_rows": 832,
+        "unique_activity_ids": 728
       },
       {
         "athlete_id": "c6182aa7-e7c8-4369-903c-1dab8124a2bf",
@@ -2676,8 +2676,8 @@
         "athlete_id": "8c95702c-3358-4307-b3ca-29c52e2da1bb",
         "duplicate_extra_rows": 0,
         "external_account_id": "61941233",
-        "raw_rows": 409,
-        "unique_activity_ids": 409
+        "raw_rows": 514,
+        "unique_activity_ids": 514
       },
       {
         "athlete_id": "dc2b60e1-48bb-4c98-a943-0526792a5ac4",
@@ -2688,24 +2688,24 @@
       },
       {
         "athlete_id": "c91e7d9d-c5b1-49d7-b810-5bf8957f94b3",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 124,
         "external_account_id": "63449551",
-        "raw_rows": 400,
-        "unique_activity_ids": 400
+        "raw_rows": 586,
+        "unique_activity_ids": 462
       },
       {
         "athlete_id": "f87ed156-900c-4043-934c-f142f61b77a5",
         "duplicate_extra_rows": 0,
         "external_account_id": "64218328",
-        "raw_rows": 507,
-        "unique_activity_ids": 507
+        "raw_rows": 542,
+        "unique_activity_ids": 542
       },
       {
         "athlete_id": "026036e5-00e2-4a3d-a309-142117b998d3",
         "duplicate_extra_rows": 0,
         "external_account_id": "64360338",
-        "raw_rows": 315,
-        "unique_activity_ids": 315
+        "raw_rows": 370,
+        "unique_activity_ids": 370
       },
       {
         "athlete_id": "c39fbb4c-f6c4-4511-9dc4-0ebf730ae3fa",
@@ -2732,15 +2732,15 @@
         "athlete_id": "622fcdfe-8968-4452-a01f-05f05abe6d1f",
         "duplicate_extra_rows": 0,
         "external_account_id": "66783639",
-        "raw_rows": 332,
-        "unique_activity_ids": 332
+        "raw_rows": 414,
+        "unique_activity_ids": 414
       },
       {
         "athlete_id": "696821ce-3848-476f-bc83-2054d6a14d81",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 99,
         "external_account_id": "67065684",
-        "raw_rows": 425,
-        "unique_activity_ids": 425
+        "raw_rows": 623,
+        "unique_activity_ids": 524
       },
       {
         "athlete_id": "a6cee0f8-48c7-4bd5-8352-ec8fd19ac57d",
@@ -2751,10 +2751,10 @@
       },
       {
         "athlete_id": "73d35dad-cf09-414b-8933-c614d55e948c",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 16,
         "external_account_id": "68238567",
-        "raw_rows": 140,
-        "unique_activity_ids": 140
+        "raw_rows": 172,
+        "unique_activity_ids": 156
       },
       {
         "athlete_id": "a6812f2b-20a9-46d2-983e-5a667281287a",
@@ -2774,15 +2774,15 @@
         "athlete_id": "f8f60a68-23a9-45cf-bf47-713ef1522794",
         "duplicate_extra_rows": 0,
         "external_account_id": "69143721",
-        "raw_rows": 136,
-        "unique_activity_ids": 136
+        "raw_rows": 244,
+        "unique_activity_ids": 244
       },
       {
         "athlete_id": "561c6b2e-df79-4435-bcf4-b4c4f1994c77",
         "duplicate_extra_rows": 0,
         "external_account_id": "69562064",
-        "raw_rows": 741,
-        "unique_activity_ids": 741
+        "raw_rows": 894,
+        "unique_activity_ids": 894
       },
       {
         "athlete_id": "90058055-ced9-4c04-bb76-fb88f91d1ca7",
@@ -2823,8 +2823,8 @@
         "athlete_id": "12403ac1-e986-46ea-b5aa-eee2213e483f",
         "duplicate_extra_rows": 0,
         "external_account_id": "71517556",
-        "raw_rows": 198,
-        "unique_activity_ids": 198
+        "raw_rows": 249,
+        "unique_activity_ids": 249
       },
       {
         "athlete_id": "212d2bbe-a55f-4d03-9517-93d22912a75a",
@@ -2851,36 +2851,36 @@
         "athlete_id": "67addba1-977a-400b-8317-58fbace72689",
         "duplicate_extra_rows": 0,
         "external_account_id": "73487204",
-        "raw_rows": 3,
-        "unique_activity_ids": 3
+        "raw_rows": 6,
+        "unique_activity_ids": 6
       },
       {
         "athlete_id": "d92f496b-1357-4d00-8021-e365d79fa27d",
         "duplicate_extra_rows": 0,
         "external_account_id": "73659831",
-        "raw_rows": 393,
-        "unique_activity_ids": 393
+        "raw_rows": 432,
+        "unique_activity_ids": 432
       },
       {
         "athlete_id": "76e00b5b-ddcf-47eb-9bec-06efbc10fea8",
         "duplicate_extra_rows": 0,
         "external_account_id": "74184450",
-        "raw_rows": 279,
-        "unique_activity_ids": 279
+        "raw_rows": 282,
+        "unique_activity_ids": 282
       },
       {
         "athlete_id": "44388438-1873-4d73-bdb4-bcfb2b97dee7",
         "duplicate_extra_rows": 0,
         "external_account_id": "74286940",
-        "raw_rows": 2,
-        "unique_activity_ids": 2
+        "raw_rows": 7,
+        "unique_activity_ids": 7
       },
       {
         "athlete_id": "62383d1e-3681-4b9d-a51f-b008ca17bb98",
         "duplicate_extra_rows": 0,
         "external_account_id": "74338147",
-        "raw_rows": 407,
-        "unique_activity_ids": 407
+        "raw_rows": 452,
+        "unique_activity_ids": 452
       },
       {
         "athlete_id": "8e8ce01d-0589-4ae4-9189-ea58e9370b3c",
@@ -2891,10 +2891,10 @@
       },
       {
         "athlete_id": "3f2526c1-75da-4752-9344-ac90da9ca04a",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 14,
         "external_account_id": "75222533",
-        "raw_rows": 70,
-        "unique_activity_ids": 70
+        "raw_rows": 91,
+        "unique_activity_ids": 77
       },
       {
         "athlete_id": "e1ac05a6-8a16-4641-9e38-8318a376e492",
@@ -2914,8 +2914,8 @@
         "athlete_id": "6398a51e-9d17-487b-847c-2de3d894631f",
         "duplicate_extra_rows": 0,
         "external_account_id": "77830180",
-        "raw_rows": 563,
-        "unique_activity_ids": 563
+        "raw_rows": 647,
+        "unique_activity_ids": 647
       },
       {
         "athlete_id": "c621b439-5280-4431-9629-66ea4369760b",
@@ -2928,15 +2928,15 @@
         "athlete_id": "26bea13e-b325-4a31-8721-c1af1be04011",
         "duplicate_extra_rows": 0,
         "external_account_id": "78680893",
-        "raw_rows": 486,
-        "unique_activity_ids": 486
+        "raw_rows": 579,
+        "unique_activity_ids": 579
       },
       {
         "athlete_id": "30842c02-b3e6-47c1-b0f1-dd7ad65cd852",
         "duplicate_extra_rows": 0,
         "external_account_id": "79030752",
-        "raw_rows": 655,
-        "unique_activity_ids": 655
+        "raw_rows": 774,
+        "unique_activity_ids": 774
       },
       {
         "athlete_id": "0a024422-4ffa-4aed-8353-52ad419eec62",
@@ -2961,38 +2961,38 @@
       },
       {
         "athlete_id": "fc0e46c7-34f6-4f5f-8cda-37fbcd7ffb10",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 13,
         "external_account_id": "81506583",
-        "raw_rows": 220,
-        "unique_activity_ids": 220
+        "raw_rows": 246,
+        "unique_activity_ids": 233
       },
       {
         "athlete_id": "9bd07a43-b314-4d7d-9194-5fbc53ff7d0c",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 33,
         "external_account_id": "81785282",
-        "raw_rows": 109,
-        "unique_activity_ids": 109
+        "raw_rows": 175,
+        "unique_activity_ids": 142
       },
       {
         "athlete_id": "4983e59c-87e5-4a87-84ac-b64f6d875346",
         "duplicate_extra_rows": 0,
         "external_account_id": "81890092",
-        "raw_rows": 74,
-        "unique_activity_ids": 74
+        "raw_rows": 82,
+        "unique_activity_ids": 82
       },
       {
         "athlete_id": "d4e18e59-aa0c-4937-81be-03be50a7807f",
         "duplicate_extra_rows": 0,
         "external_account_id": "82013388",
-        "raw_rows": 293,
-        "unique_activity_ids": 293
+        "raw_rows": 373,
+        "unique_activity_ids": 373
       },
       {
         "athlete_id": "7c940927-7f46-4f06-995f-1182fdba0ca5",
         "duplicate_extra_rows": 0,
         "external_account_id": "82077769",
-        "raw_rows": 718,
-        "unique_activity_ids": 718
+        "raw_rows": 817,
+        "unique_activity_ids": 817
       },
       {
         "athlete_id": "a23a79bf-0dfb-4afa-b152-73eacfe93cd3",
@@ -3010,17 +3010,17 @@
       },
       {
         "athlete_id": "eb58a103-b19b-4781-b346-f9aaa8570c7d",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 32,
         "external_account_id": "83232940",
-        "raw_rows": 411,
-        "unique_activity_ids": 411
+        "raw_rows": 475,
+        "unique_activity_ids": 443
       },
       {
         "athlete_id": "36c3463f-fe53-4eaf-8197-8add3d650684",
         "duplicate_extra_rows": 0,
         "external_account_id": "83372861",
-        "raw_rows": 233,
-        "unique_activity_ids": 233
+        "raw_rows": 345,
+        "unique_activity_ids": 345
       },
       {
         "athlete_id": "fb329afa-395e-49f1-a8b5-d913131f7624",
@@ -3031,17 +3031,17 @@
       },
       {
         "athlete_id": "ae70fef1-8622-41a9-aebb-05aefb0558bc",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 3,
         "external_account_id": "86185454",
-        "raw_rows": 13,
-        "unique_activity_ids": 13
+        "raw_rows": 19,
+        "unique_activity_ids": 16
       },
       {
         "athlete_id": "fe6ec2fd-63d1-40ae-98ee-c40f64885804",
         "duplicate_extra_rows": 0,
         "external_account_id": "86896701",
-        "raw_rows": 52,
-        "unique_activity_ids": 52
+        "raw_rows": 62,
+        "unique_activity_ids": 62
       },
       {
         "athlete_id": "074bee87-4036-4ff2-b6b1-36745a50bba9",
@@ -3052,10 +3052,10 @@
       },
       {
         "athlete_id": "4d618668-e489-46a7-b538-91a7ba1a4e59",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 56,
         "external_account_id": "87287379",
-        "raw_rows": 307,
-        "unique_activity_ids": 307
+        "raw_rows": 419,
+        "unique_activity_ids": 363
       },
       {
         "athlete_id": "ab37f5ce-cfca-4f17-8775-692c8da59fa6",
@@ -3082,15 +3082,15 @@
         "athlete_id": "fc52ab4a-8d57-45cf-a798-1eac2f04e3d9",
         "duplicate_extra_rows": 0,
         "external_account_id": "89025421",
-        "raw_rows": 437,
-        "unique_activity_ids": 437
+        "raw_rows": 498,
+        "unique_activity_ids": 498
       },
       {
         "athlete_id": "f9f83120-1a94-4c9f-92c7-cdfe341ef509",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 246,
         "external_account_id": "89621357",
-        "raw_rows": 884,
-        "unique_activity_ids": 884
+        "raw_rows": 1253,
+        "unique_activity_ids": 1007
       },
       {
         "athlete_id": "011c785a-314c-46d8-a88f-9245df288315",
@@ -3103,22 +3103,22 @@
         "athlete_id": "1158ced8-9651-4d21-b7ff-34e829171b24",
         "duplicate_extra_rows": 0,
         "external_account_id": "91049781",
-        "raw_rows": 98,
-        "unique_activity_ids": 98
+        "raw_rows": 190,
+        "unique_activity_ids": 190
       },
       {
         "athlete_id": "9d6972c1-309b-4b21-a78e-dbe0a3a85cb3",
         "duplicate_extra_rows": 0,
         "external_account_id": "93170673",
-        "raw_rows": 45,
-        "unique_activity_ids": 45
+        "raw_rows": 50,
+        "unique_activity_ids": 50
       },
       {
         "athlete_id": "0665f1c7-5f2a-45d3-9166-466b4e2e1738",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 3,
         "external_account_id": "93495409",
-        "raw_rows": 33,
-        "unique_activity_ids": 33
+        "raw_rows": 39,
+        "unique_activity_ids": 36
       },
       {
         "athlete_id": "73b0df14-0e48-49c5-89cd-ab0929c51d25",
@@ -3159,8 +3159,8 @@
         "athlete_id": "9d45274f-ea09-4c2e-84e3-54c25565791b",
         "duplicate_extra_rows": 0,
         "external_account_id": "95191578",
-        "raw_rows": 36,
-        "unique_activity_ids": 36
+        "raw_rows": 38,
+        "unique_activity_ids": 38
       },
       {
         "athlete_id": "465ecabd-3d80-41c3-8c94-64d3e43768af",
@@ -3180,15 +3180,15 @@
         "athlete_id": "27a54c2c-3b31-4f2d-8076-86233cd4ab89",
         "duplicate_extra_rows": 0,
         "external_account_id": "95919245",
-        "raw_rows": 67,
-        "unique_activity_ids": 67
+        "raw_rows": 136,
+        "unique_activity_ids": 136
       },
       {
         "athlete_id": "0ce2f235-6798-4216-91fc-b3e3c3531a50",
         "duplicate_extra_rows": 0,
         "external_account_id": "98279354",
-        "raw_rows": 28,
-        "unique_activity_ids": 28
+        "raw_rows": 95,
+        "unique_activity_ids": 95
       },
       {
         "athlete_id": "3d28bd2f-7418-4988-9872-3ee2508b696c",
@@ -3208,15 +3208,15 @@
         "athlete_id": "b86a8206-c91e-4b38-ba6e-e1886db6dbbf",
         "duplicate_extra_rows": 0,
         "external_account_id": "99038751",
-        "raw_rows": 38,
-        "unique_activity_ids": 38
+        "raw_rows": 94,
+        "unique_activity_ids": 94
       },
       {
         "athlete_id": "e38af8c9-6142-4d8b-80dc-362213b128da",
-        "duplicate_extra_rows": 0,
+        "duplicate_extra_rows": 47,
         "external_account_id": "99220051",
-        "raw_rows": 147,
-        "unique_activity_ids": 147
+        "raw_rows": 241,
+        "unique_activity_ids": 194
       },
       {
         "athlete_id": "66e3215a-3257-451e-957e-2c5c5aaa436e",
@@ -3241,21 +3241,25 @@
       }
     ],
     "equivalent_duplicate_groups": 73,
-    "exact_duplicate_groups": 7117,
-    "input_rows": 147070,
-    "input_unique_activity_ids": 137478,
-    "quarantine_rows": 9652,
-    "source_file": "indiv_activities_full.csv",
-    "swim_distance_values_suppressed_due_to_ambiguous_units": 1270,
+    "exact_duplicate_groups": 7918,
+    "input_rows": 150620,
+    "input_unique_activity_ids": 139949,
+    "quarantine_rows": 10733,
+    "source_file": "multiple_manifested_sources",
+    "source_files": [
+      "data/raw/2024/reconciled/20260902T190000Z/production_only_activities.csv",
+      "indiv_activities_full.csv"
+    ],
+    "swim_distance_values_suppressed_due_to_ambiguous_units": 1313,
     "validation_exclusions": {
       "IMPOSSIBLE_RUN_DISTANCE": 1,
-      "INVALID_ELAPSED_DURATION": 9,
-      "MOVING_TIME_EXCEEDS_ELAPSED": 13,
+      "INVALID_ELAPSED_DURATION": 10,
+      "MOVING_TIME_EXCEEDS_ELAPSED": 14,
       "OUTSIDE_SNAPSHOT_WINDOW": 37
     }
   },
   "dataset": "enduranceviz-2024",
-  "generated_at_utc": "2026-09-02T14:56:08Z",
+  "generated_at_utc": "2026-09-02T22:56:40Z",
   "performances": {
     "curated_athletes": 3608,
     "curated_rows": 5305,
@@ -3295,5 +3299,5 @@
     "source_file": "data/metadata/master_iaaf_database_with_strava.csv"
   },
   "specification_version": "1.0.0",
-  "total_quarantine_rows": 9652
+  "total_quarantine_rows": 10733
 }

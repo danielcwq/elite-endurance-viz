@@ -43,7 +43,7 @@ These findings explain why existing prototypes are marked partial rather than co
 - The repository contains 291 tracked CSVs with 27 distinct schemas.
 - The local activity file contains 147,070 rows but only 137,478 unique activity IDs.
 - The live Mongo collection contains 150,620 rows but only 139,949 unique activity IDs.
-- Production contains 3,550 activity rows that are absent from the checked-in canonical CSV.
+- Production contained 3,550 activity rows (2,471 unique IDs) absent from the legacy repository CSV; they are now manifested, reconciled, and included as a separate immutable supplement.
 - The live headline activity count is inflated by 10,671 duplicate rows.
 - The metadata has 460 rows but only 458 unique, valid, nonzero athlete IDs.
 - Four activity-side athlete IDs are absent from athlete metadata.
@@ -72,10 +72,10 @@ These findings explain why existing prototypes are marked partial rather than co
 
 ## P0.2 Preserve and reconcile existing data
 
-- [ ] [BLOCKED] Export the four live Mongo collections into a dated, immutable snapshot. The read-only exporter exists, but Atlas had no usable primary/network connection on 2026-09-02; see [`source reconciliation status`](data/manifests/source_reconciliation_status_2026-09-02.md).
+- [x] Export all four live Mongo collections into the dated, immutable `20260902T190000Z` snapshot, verify its manifest, and retain a checksum-matched redundant copy offline; see [`source reconciliation status`](data/manifests/source_reconciliation_status_2026-09-02.md).
 - [x] Preserve the 291 current repository CSVs as immutable Git inputs with file-level SHA-256 checksums in [`repository_csv_snapshot_2026-09-02.csv`](data/manifests/repository_csv_snapshot_2026-09-02.csv).
-- [ ] [BLOCKED] Reconcile the previously observed 3,550 production-only activity rows with the repository snapshot. The tested reconciliation command is ready and awaits the Mongo export.
-- [ ] [PARTIAL] Generate manifests containing source file, checksum, row count, schema signature, extraction time, and source system. The repository manifest is complete; the Mongo manifest awaits a successful export.
+- [x] Reconcile the 3,550 production-only rows (2,471 unique IDs), confirm all 43 accounts resolve, and promote them as an immutable supplemental build input without modifying the legacy CSV.
+- [x] Generate repository, external-drive, Mongo snapshot, reconciliation, and supplemental-source manifests containing source file, checksum, row count, schema signature, extraction time, and source system.
 - [x] Ensure raw snapshot exports are never modified by cleaning code: the exporter is write-once and makes completed payloads read-only.
 - [x] Separate raw, staging, curated, derived, manifest, and quarantine outputs and document their write policies in [`data/README.md`](data/README.md).
 - [x] Keep generated raw JSON out of Git; commit checksums/manifests and retain payload bundles in versioned object storage or redundant offline storage.
@@ -121,8 +121,8 @@ data/
 ## P0.5 Activity cleaning and deduplication
 
 - [x] Filter the curated activity table to the canonical 2024 UTC window; 37 boundary rows are quarantined.
-- [x] Deduplicate within the complete input on Strava `Activity ID`, removing 9,592 duplicate extras.
-- [x] Separate 7,117 exact duplicate groups, 73 equivalent rounding/location groups, and true core conflicts.
+- [x] Deduplicate within the complete input on Strava `Activity ID`, removing 10,671 duplicate extras.
+- [x] Separate 7,918 exact duplicate groups, 73 equivalent rounding/location groups, and true core conflicts.
 - [x] Resolve equivalent duplicates using documented completeness, numeric-precision, and source-row rules.
 - [x] Quarantine conflicts involving athlete, timestamp, distance, duration, or activity type; the current source has zero such duplicate groups.
 - [x] Remove `Serial` from the canonical model while retaining source row references.
@@ -134,7 +134,7 @@ data/
 - [x] Normalize activity types with the shared P0.1 taxonomy used by curation and downstream aggregation.
 - [x] Include `Run`, `TrailRun`, and `VirtualRun` in the documented run category.
 - [x] Include ride, virtual ride, mountain bike, e-bike, and gravel activities in the documented ride category.
-- [x] Flag or quarantine suspicious distance, time, and pace values; 23 impossible measurement rows are quarantined.
+- [x] Flag or quarantine suspicious distance, time, and pace values; 25 invalid measurement rows are quarantined.
 - [x] Add `quality_status`, `quality_flags`, and `exclusion_reason` fields.
 - [x] Recalculate duplicate inflation for all 462 activity-observed accounts in the [`curated observation audit`](data/manifests/curated_observation_audit_2024.json).
 
@@ -206,7 +206,7 @@ Grain: one canonical athlete by one 2024 calendar week.
 
 ## P0.10 Automated data-quality tests
 
-- [x] Replace manual print/debug checks with 26 assertion-based unit, transformation, schema, quality, and serving tests; historical `Get_Data/test_*.py` files are provenance-only.
+- [x] Replace manual print/debug checks with 31 assertion-based unit, transformation, schema, quality, source-export, and serving tests; historical `Get_Data/test_*.py` files are provenance-only.
 - [x] Fail on duplicate curated activity IDs.
 - [x] Fail on duplicate provider/external-athlete IDs.
 - [x] Fail on broken athlete foreign keys.
@@ -483,4 +483,4 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - **P1:** approximately 90–150 focused engineering/analytics hours.
 - **Combined:** approximately 170–280 hours, or roughly 4.5–7 full-time weeks.
 
-The largest uncertainties are identity conflict resolution, production/repository reconciliation, and interpreting time/pace fields. The main opportunities for reuse are the existing World Athletics collection code, Strava activity parser, conversion helpers, weekly consistency prototype, FastHTML routes, and the earlier Olympic analytical notebooks.
+The remaining analytical uncertainties are identity interpretation at the margins and mixed time/pace semantics; production/repository reconciliation is complete. The main opportunities for reuse are the existing World Athletics collection code, Strava activity parser, conversion helpers, weekly consistency prototype, FastHTML routes, and the earlier Olympic analytical notebooks.

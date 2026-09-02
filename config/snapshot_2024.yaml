@@ -52,6 +52,12 @@ weeks:
 source_scope:
   statement: The snapshot contains publicly observable Strava activities and public World Athletics results; it is not a complete training history.
   zero_activity_policy: Never infer zero training from a missing collection observation.
+  activity_files:
+    - indiv_activities_full.csv
+    - data/raw/2024/reconciled/20260902T190000Z/production_only_activities.csv
+  manifest_files:
+    - data/manifests/repository_csv_snapshot_2026-09-02.csv
+    - data/manifests/mongodb_activity_supplement_20260902T190000Z.csv
 
 analytics:
   full_calendar_weeks: 52
@@ -77,7 +83,7 @@ quality_baseline:
   athlete_rows: 3609
   external_account_rows: 678
   performance_rows: 5305
-  activity_rows: 137418
+  activity_rows: 139887
   coverage_rows: 191277
   weekly_rows: 191277
   minimum_default_cohort_athletes: 585
