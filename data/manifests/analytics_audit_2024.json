@@ -1,6 +1,6 @@
 {
   "athlete_summary_rows": 3609,
-  "code_version": "e2075956c6da3ab77ef967968c40e4de7250fca3",
+  "code_version": "e6fe9de9c058a374cadeded4e98df8d00277a417",
   "coverage_rows": 191277,
   "coverage_status_distribution": {
     "high": 501,
@@ -18,7 +18,7 @@
   },
   "dataset": "enduranceviz-2024",
   "default_cohort_eligible_athletes": 585,
-  "generated_at_utc": "2026-09-02T15:18:54Z",
+  "generated_at_utc": "2026-09-02T15:45:21Z",
   "missing_weeks_with_observed_activities": 7,
   "observed_zero_activity_weeks": 17427,
   "reconciliation": {
