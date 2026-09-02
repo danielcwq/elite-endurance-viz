@@ -17,6 +17,8 @@ The current legacy activity candidate contains 147,070 rows, 137,478 unique acti
 
 The export command was attempted against the configured Atlas cluster on 2026-09-02. Atlas did not present a consistently usable connection: attempts encountered no selectable primary and network/TLS timeouts. A longer retry reached the activities cursor and transferred roughly 4,700 documents before Atlas raised `NetworkTimeout`. The exporter was then upgraded to resume by ordered `_id` after transient cursor failures. A live verification successfully resumed, but transferred only 600 of roughly 150,620 historical activity documents in about four minutes before the run was stopped; this throughput is not a practical snapshot path. Interrupted/incomplete payloads were removed and no partial export was retained.
 
+An immutable ID-only reconciliation exporter was also added. Atlas successfully returned the projected `_id` and `Activity ID` fields, but a 1,000-row batch sustained only about 2,000 IDs per network timeout; a 10,000-row batch returned zero rows before timeout. The tested tool can eventually resume through this, but the measured hour-plus extraction is inferior to recovering the offline snapshot from the external drive.
+
 The following figures are historical audit observations from 2026-08-31, not a current immutable export:
 
 - 150,620 activity documents;
@@ -29,9 +31,10 @@ These figures must not be treated as reconciled until a successful export is man
 ## Unblocking sequence
 
 1. Confirm that the Atlas cluster is running and has a primary, and that the current IP/network is allowed.
-2. Run `.venv/bin/python scripts/snapshot_2024.py export-mongo`.
+2. Prefer mounting the offline external-drive snapshot. If it is unavailable, run `.venv/bin/python scripts/snapshot_2024.py export-mongo` on a stable network.
 3. Copy the resulting timestamped raw directory to durable storage and verify it against its committed SHA-256 manifest.
-4. Run `.venv/bin/python scripts/snapshot_2024.py reconcile-activities --mongo-activities <activities.jsonl.gz>`.
-5. Review repository-only and Mongo-only ID reports before promoting either source into staging.
+4. If only reconciliation is immediately possible, run `.venv/bin/python scripts/snapshot_2024.py export-mongo-activity-ids` and use its `activities_ids.jsonl.gz` payload.
+5. Run `.venv/bin/python scripts/snapshot_2024.py reconcile-activities --mongo-activities <activities-or-activities_ids.jsonl.gz>`.
+6. Review repository-only and Mongo-only ID reports before promoting either source into staging.
 
 The exporter refuses to overwrite an existing snapshot, removes incomplete temporary exports, and makes a completed snapshot read-only.
