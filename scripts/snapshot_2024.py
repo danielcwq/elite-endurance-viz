@@ -26,13 +26,37 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST_DIR = ROOT / "data" / "manifests"
 DEFAULT_MONGO_ROOT = ROOT / "data" / "raw" / "2024" / "mongodb"
 DEFAULT_MONGO_ID_ROOT = ROOT / "data" / "raw" / "2024" / "mongodb_activity_ids"
+DEFAULT_RECONCILED_ROOT = ROOT / "data" / "raw" / "2024" / "reconciled"
 DEFAULT_ACTIVITY_CSV = ROOT / "indiv_activities_full.csv"
+DEFAULT_RAW_JSON_ROOT = ROOT / "data" / "tempdata"
 EXPECTED_MONGO_COLLECTIONS = (
     "activities",
     "athlete_metadata",
     "master_iaaf",
     "update_logs",
 )
+LEGACY_PROCESSED_ACTIVITY_COLUMNS = (
+    "Athlete ID",
+    "Athlete Name",
+    "Activity ID",
+    "Activity Name",
+    "Description",
+    "Start Date",
+    "Elapsed Time",
+    "Type",
+    "Location",
+    "Distance (km)",
+    "Pace (min/km)",
+    "Time",
+)
+EXTERNAL_SCAN_EXCLUDED_PARTS = {
+    ".git",
+    ".venv",
+    "__pycache__",
+    "env",
+    "site-packages",
+    "venv",
+}
 MANIFEST_FIELDS = (
     "source_file",
     "sha256",
@@ -157,6 +181,321 @@ def inspect_csv(path: Path, extracted_at: str, commit: str) -> dict[str, Any]:
         "source_commit": commit,
         "read_error": read_error,
     }
+
+
+def external_csv_paths(source_root: Path) -> list[Path]:
+    """Return user-data CSVs while excluding copied runtimes and macOS sidecars."""
+    paths = []
+    for path in source_root.rglob("*.csv"):
+        relative = path.relative_to(source_root)
+        if path.name.startswith("._"):
+            continue
+        if EXTERNAL_SCAN_EXCLUDED_PARTS.intersection(relative.parts):
+            continue
+        paths.append(path)
+    return sorted(paths)
+
+
+def inspect_external_csv(
+    path: Path,
+    source_root: Path,
+    extracted_at: str,
+) -> tuple[dict[str, Any], int, list[str]]:
+    """Inspect an offline CSV and report malformed row widths as a read error."""
+    columns: list[str] = []
+    row_count = 0
+    mismatched_rows = 0
+    read_error = ""
+    try:
+        with path.open("r", encoding="utf-8-sig", errors="replace", newline="") as handle:
+            reader = csv.reader(handle)
+            columns = next(reader, [])
+            for row in reader:
+                row_count += 1
+                mismatched_rows += len(row) != len(columns)
+    except (csv.Error, OSError) as exc:
+        read_error = f"{type(exc).__name__}: {exc}"
+    if mismatched_rows:
+        suffix = f"row_width_mismatch:{mismatched_rows}"
+        read_error = f"{read_error};{suffix}".strip(";")
+
+    relative = path.relative_to(source_root).as_posix()
+    source_system, source_role = classify_source(path, columns)
+    return (
+        {
+            "source_file": f"external-drive/{relative}",
+            "sha256": sha256_file(path),
+            "byte_count": path.stat().st_size,
+            "row_count": row_count,
+            "schema_signature": schema_signature(columns),
+            "schema_columns_json": json.dumps(
+                columns, ensure_ascii=False, separators=(",", ":")
+            ),
+            "extraction_time_utc": extracted_at,
+            "source_system": source_system,
+            "source_role": source_role,
+            "source_commit": "external-offline-backup",
+            "read_error": read_error,
+        },
+        mismatched_rows,
+        columns,
+    )
+
+
+def normalized_name(value: Any) -> str:
+    return " ".join(str(value or "").strip().casefold().split())
+
+
+def activity_record(row: list[str], columns: Iterable[str]) -> dict[str, str] | None:
+    values = {column: row[index] for index, column in enumerate(columns) if index < len(row)}
+    activity_id = normalize_activity_id(values.get("Activity ID"))
+    if activity_id is None:
+        return None
+    return {
+        "activity_id": activity_id,
+        "athlete_id": (values.get("Athlete ID") or "").strip(),
+        "start_date": (values.get("Start Date") or "").strip(),
+        "activity_type": (values.get("Type") or "").strip(),
+    }
+
+
+def activity_records_from_csv(path: Path) -> dict[str, dict[str, str]]:
+    """Read activity IDs, including the known headerless 12-column backup tail."""
+    records: dict[str, dict[str, str]] = {}
+    with path.open("r", encoding="utf-8-sig", errors="replace", newline="") as handle:
+        reader = csv.reader(handle)
+        columns = next(reader, [])
+        if not {"Activity ID", "Start Date"}.issubset(columns):
+            return records
+        for row in reader:
+            candidate_rows: list[tuple[list[str], Iterable[str]]] = [(row, columns)]
+            # One legacy backup silently appends processed 12-column rows after a
+            # 16-column table. Its boundary also glues a 15-column row to the
+            # first processed row. Recover both records without trusting the file
+            # as a clean tabular source.
+            if len(columns) != len(LEGACY_PROCESSED_ACTIVITY_COLUMNS):
+                looks_processed = (
+                    len(row) == len(LEGACY_PROCESSED_ACTIVITY_COLUMNS)
+                    and len(row) > 1
+                    and not row[1].strip().isdigit()
+                )
+                if looks_processed:
+                    candidate_rows = [(row, LEGACY_PROCESSED_ACTIVITY_COLUMNS)]
+                elif len(row) > len(columns):
+                    tail = row[-len(LEGACY_PROCESSED_ACTIVITY_COLUMNS) :]
+                    if len(tail) > 1 and not tail[1].strip().isdigit():
+                        candidate_rows.append((tail, LEGACY_PROCESSED_ACTIVITY_COLUMNS))
+            for candidate, candidate_columns in candidate_rows:
+                record = activity_record(candidate, candidate_columns)
+                if record is not None:
+                    records[record["activity_id"]] = record
+    return records
+
+
+def raw_json_activity_records(path: Path) -> dict[str, dict[str, str]]:
+    """Mirror the legacy target-athlete filter without exposing activity text."""
+    records: dict[str, dict[str, str]] = {}
+    with path.open("r", encoding="utf-8-sig", errors="replace", newline="") as handle:
+        for row in csv.DictReader(handle):
+            payload = json.loads(row.get("JSON Data") or "")
+            target_name = normalized_name(row.get("Name"))
+            entries = payload.get("preFetchedEntries")
+            if entries is None:
+                entries = payload.get("appContext", {}).get("preFetchedEntries", [])
+            for entry in entries or []:
+                if "activity" in entry:
+                    activity = entry.get("activity") or {}
+                    athlete = activity.get("athlete") or {}
+                    if normalized_name(athlete.get("athleteName")) != target_name:
+                        continue
+                    record = {
+                        "activity_id": normalize_activity_id(activity.get("id")) or "",
+                        "athlete_id": str(
+                            athlete.get("athleteId") or row.get("Athlete ID") or ""
+                        ),
+                        "start_date": str(activity.get("startDate") or ""),
+                        "activity_type": str(activity.get("type") or ""),
+                    }
+                    if record["activity_id"]:
+                        records[record["activity_id"]] = record
+                elif (entry.get("rowData") or {}).get("entity") == "GroupActivity":
+                    for activity in entry["rowData"].get("activities") or []:
+                        if normalized_name(activity.get("athlete_name")) != target_name:
+                            continue
+                        record = {
+                            "activity_id": normalize_activity_id(
+                                activity.get("activity_id")
+                            )
+                            or "",
+                            "athlete_id": str(
+                                activity.get("athlete_id") or row.get("Athlete ID") or ""
+                            ),
+                            "start_date": str(activity.get("start_date") or ""),
+                            "activity_type": str(activity.get("type") or ""),
+                        }
+                        if record["activity_id"]:
+                            records[record["activity_id"]] = record
+    return records
+
+
+def record_year(record: dict[str, str]) -> str:
+    value = record.get("start_date", "")
+    try:
+        return str(datetime.fromisoformat(value.replace("Z", "+00:00")).year)
+    except ValueError:
+        return "unparseable"
+
+
+def audit_external_drive(args: argparse.Namespace) -> int:
+    """Manifest an offline backup and compare its activity evidence read-only."""
+    generated = args.generated_at or utc_now()
+    stamp = generated.date().isoformat()
+    manifest = args.manifest or DEFAULT_MANIFEST_DIR / f"external_drive_csv_snapshot_{stamp}.csv"
+    output = args.output or DEFAULT_MANIFEST_DIR / f"external_drive_audit_{stamp}.json"
+    refuse_overwrite(manifest)
+    refuse_overwrite(output)
+    if not args.source_root.is_dir():
+        raise ValueError(f"External source root does not exist: {args.source_root}")
+
+    extracted_at = iso_utc(generated)
+    paths = external_csv_paths(args.source_root)
+    manifest_rows: list[dict[str, Any]] = []
+    metadata: dict[Path, tuple[str, list[str]]] = {}
+    mismatched_file_count = 0
+    mismatched_row_count = 0
+    for path in paths:
+        row, mismatches, columns = inspect_external_csv(
+            path, args.source_root, extracted_at
+        )
+        manifest_rows.append(row)
+        metadata[path] = (row["sha256"], columns)
+        mismatched_file_count += bool(mismatches)
+        mismatched_row_count += mismatches
+    write_csv_manifest(manifest, manifest_rows)
+
+    unique_by_hash: dict[str, tuple[Path, list[str]]] = {}
+    for path, (digest, columns) in metadata.items():
+        unique_by_hash.setdefault(digest, (path, columns))
+
+    drive_activity_records: dict[str, dict[str, str]] = {}
+    activity_hash_count = 0
+    drive_raw_records: dict[str, dict[str, str]] = {}
+    drive_raw_hashes: set[str] = set()
+    for digest, (path, columns) in unique_by_hash.items():
+        if {"Activity ID", "Start Date"}.issubset(columns):
+            activity_hash_count += 1
+            drive_activity_records.update(activity_records_from_csv(path))
+        if "raw_json_" in path.name.lower() and "JSON Data" in columns:
+            drive_raw_hashes.add(digest)
+            drive_raw_records.update(raw_json_activity_records(path))
+
+    repository_ids = set(csv_activity_ids(args.repository_activities))
+    drive_only = set(drive_activity_records) - repository_ids
+    drive_only_by_year = Counter(record_year(drive_activity_records[key]) for key in drive_only)
+
+    repository_raw_hashes: set[str] = set()
+    repository_raw_records: dict[str, dict[str, str]] = {}
+    if args.repository_raw_root.is_dir():
+        for path in sorted(args.repository_raw_root.glob("raw_json_*.csv")):
+            repository_raw_hashes.add(sha256_file(path))
+            repository_raw_records.update(raw_json_activity_records(path))
+
+    raw_drive_only = set(drive_raw_records) - repository_ids
+    raw_drive_only_by_year = Counter(record_year(drive_raw_records[key]) for key in raw_drive_only)
+    candidate_suffixes = {
+        ".archive",
+        ".bson",
+        ".jsonl",
+        ".ndjson",
+        ".tar",
+        ".tgz",
+        ".zip",
+        ".7z",
+    }
+    expected_json_names = {
+        "activities.json",
+        "athlete_metadata.json",
+        "master_iaaf.json",
+        "update_logs.json",
+    }
+    export_candidates = []
+    export_candidate_names: set[str] = set()
+    for path in args.source_root.rglob("*"):
+        if not path.is_file():
+            continue
+        relative = path.relative_to(args.source_root)
+        if EXTERNAL_SCAN_EXCLUDED_PARTS.intersection(relative.parts):
+            continue
+        lower_name = path.name.lower()
+        if (
+            path.suffix.lower() in candidate_suffixes
+            or lower_name.endswith((".jsonl.gz", ".ndjson.gz", ".tar.gz"))
+            or lower_name in expected_json_names
+        ):
+            export_candidates.append(relative.as_posix())
+            export_candidate_names.add(lower_name.split(".", 1)[0])
+
+    payload = {
+        "dataset": "enduranceviz-2024",
+        "specification_version": "1.0.0",
+        "generated_at_utc": extracted_at,
+        "source_root_label": args.source_root.name,
+        "manifest_file": relative_to_root(manifest),
+        "csv_inventory": {
+            "file_count": len(paths),
+            "unique_sha256_count": len(unique_by_hash),
+            "distinct_schema_count": len(
+                {row["schema_signature"] for row in manifest_rows}
+            ),
+            "row_width_mismatch_file_count": mismatched_file_count,
+            "row_width_mismatch_count": mismatched_row_count,
+        },
+        "direct_activity_comparison": {
+            "unique_activity_shaped_file_hashes": activity_hash_count,
+            "external_unique_activity_ids": len(drive_activity_records),
+            "repository_unique_activity_ids": len(repository_ids),
+            "external_only_unique_activity_ids": len(drive_only),
+            "external_only_by_start_year": dict(sorted(drive_only_by_year.items())),
+            "external_only_2024_unique_activity_ids": drive_only_by_year.get("2024", 0),
+        },
+        "raw_json_comparison": {
+            "external_unique_file_hashes": len(drive_raw_hashes),
+            "hashes_already_in_repository": len(
+                drive_raw_hashes & repository_raw_hashes
+            ),
+            "external_target_athlete_activity_ids": len(drive_raw_records),
+            "external_ids_absent_from_repository_raw_json": len(
+                set(drive_raw_records) - set(repository_raw_records)
+            ),
+            "external_ids_absent_from_repository_activity_csv": len(raw_drive_only),
+            "external_ids_absent_from_repository_by_start_year": dict(
+                sorted(raw_drive_only_by_year.items())
+            ),
+            "external_2024_ids_absent_from_repository_activity_csv": (
+                raw_drive_only_by_year.get("2024", 0)
+            ),
+        },
+        "mongo_export_search": {
+            "candidate_count": len(export_candidates),
+            "candidate_files": sorted(export_candidates),
+            "complete_four_collection_snapshot_found": set(
+                EXPECTED_MONGO_COLLECTIONS
+            ).issubset(export_candidate_names),
+        },
+        "conclusion": (
+            "The offline backup contributes no activity ID inside the canonical 2024 "
+            "window that is absent from the repository source. It does not contain a "
+            "MongoDB collection export, so it cannot reconcile the historical "
+            "production-only observation."
+        ),
+    }
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("x", encoding="utf-8") as handle:
+        json.dump(payload, handle, indent=2, sort_keys=True)
+        handle.write("\n")
+    print(f"Wrote {len(manifest_rows)} entries to {relative_to_root(manifest)}")
+    print(f"Wrote offline-source audit to {relative_to_root(output)}")
+    return 0
 
 
 def write_csv_manifest(path: Path, rows: Iterable[dict[str, Any]]) -> None:
@@ -285,6 +624,92 @@ def export_collection(
     return row_count, schema
 
 
+def export_collection_partitioned(
+    collection: Any,
+    output_path: Path,
+    chunk_size: int = 1000,
+    max_retries: int = 20,
+) -> tuple[int, list[str]]:
+    """Export by bounded `_id` queries when a long-lived Atlas cursor is unstable."""
+    from bson.json_util import CANONICAL_JSON_OPTIONS, dumps
+    from pymongo.errors import AutoReconnect, CursorNotFound, ExecutionTimeout, NetworkTimeout
+
+    if chunk_size <= 0 or max_retries < 0:
+        raise ValueError("chunk-size must be positive and max-retries cannot be negative")
+    retryable = (AutoReconnect, CursorNotFound, ExecutionTimeout, NetworkTimeout)
+    identifiers = sorted(
+        collection.distinct("_id", maxTimeMS=90_000), key=lambda value: str(value)
+    )
+    observed_types: dict[str, set[str]] = defaultdict(set)
+    row_count = 0
+    with output_path.open("xb") as raw_handle:
+        with gzip.GzipFile(fileobj=raw_handle, mode="wb", mtime=0) as gzip_handle:
+            with io.TextIOWrapper(gzip_handle, encoding="utf-8", newline="\n") as text_handle:
+                for offset in range(0, len(identifiers), chunk_size):
+                    chunk = identifiers[offset : offset + chunk_size]
+                    retry_count = 0
+                    while True:
+                        try:
+                            documents = list(
+                                collection.find({"_id": {"$in": chunk}}).batch_size(
+                                    max(100, len(chunk))
+                                )
+                            )
+                            break
+                        except retryable as exc:
+                            retry_count += 1
+                            if retry_count > max_retries:
+                                raise
+                            print(
+                                f"Retrying {collection.name} chunk after "
+                                f"{type(exc).__name__} ({retry_count}/{max_retries}); "
+                                f"{row_count:,} rows preserved",
+                                flush=True,
+                            )
+                            time.sleep(min(2 * retry_count, 10))
+
+                    returned_ids = {document.get("_id") for document in documents}
+                    if returned_ids != set(chunk) or len(documents) != len(chunk):
+                        raise RuntimeError(
+                            f"Incomplete partition for {collection.name}: requested "
+                            f"{len(chunk)} unique _id values and received "
+                            f"{len(returned_ids)} across {len(documents)} documents"
+                        )
+                    for document in sorted(
+                        documents, key=lambda value: str(value.get("_id"))
+                    ):
+                        for key, value in document.items():
+                            observed_types[key].add(bson_type(value))
+                        text_handle.write(
+                            dumps(
+                                document,
+                                json_options=CANONICAL_JSON_OPTIONS,
+                                sort_keys=True,
+                                separators=(",", ":"),
+                            )
+                        )
+                        text_handle.write("\n")
+                        row_count += 1
+                    if row_count % 10_000 < len(chunk) or row_count == len(identifiers):
+                        text_handle.flush()
+                        print(
+                            f"Exported {row_count:,}/{len(identifiers):,} rows from "
+                            f"{collection.name}",
+                            flush=True,
+                        )
+
+    if row_count != len(identifiers):
+        raise RuntimeError(
+            f"Export count mismatch for {collection.name}: "
+            f"expected {len(identifiers)}, wrote {row_count}"
+        )
+    schema = [
+        f"{key}:{'|'.join(sorted(types))}"
+        for key, types in sorted(observed_types.items())
+    ]
+    return row_count, schema
+
+
 def export_mongo(args: argparse.Namespace) -> int:
     try:
         from dotenv import load_dotenv
@@ -328,10 +753,10 @@ def export_mongo(args: argparse.Namespace) -> int:
 
         for name in EXPECTED_MONGO_COLLECTIONS:
             output_path = temp_dir / f"{name}.jsonl.gz"
-            row_count, schema = export_collection(
+            row_count, schema = export_collection_partitioned(
                 database[name],
                 output_path,
-                batch_size=args.batch_size,
+                chunk_size=args.batch_size,
                 max_retries=args.max_retries,
             )
             rows.append(
@@ -600,6 +1025,97 @@ def reconcile_activities(args: argparse.Namespace) -> int:
     return 0
 
 
+def extract_mongo_activity_supplement(args: argparse.Namespace) -> int:
+    """Promote Mongo-only activity rows as a manifested, immutable CSV input."""
+    from bson.json_util import loads
+
+    generated = args.generated_at or utc_now()
+    snapshot_label = args.mongo_activities.parent.name
+    output = args.output or (
+        DEFAULT_RECONCILED_ROOT / snapshot_label / "production_only_activities.csv"
+    )
+    manifest = args.manifest or (
+        DEFAULT_MANIFEST_DIR / f"mongodb_activity_supplement_{snapshot_label}.csv"
+    )
+    refuse_overwrite(output)
+    refuse_overwrite(manifest)
+
+    with args.repository_activities.open(
+        "r", encoding="utf-8-sig", errors="replace", newline=""
+    ) as handle:
+        columns = next(csv.reader(handle), [])
+    required = {"Athlete ID", "Activity ID", "Start Date", "Type"}
+    if not required.issubset(columns):
+        raise ValueError(
+            f"Repository activity schema lacks required columns: {sorted(required - set(columns))}"
+        )
+    repository_ids = set(csv_activity_ids(args.repository_activities))
+
+    documents: list[dict[str, Any]] = []
+    seen_ids: set[str] = set()
+    source_rows = 0
+    handle_context = (
+        gzip.open(args.mongo_activities, "rt", encoding="utf-8")
+        if args.mongo_activities.suffix == ".gz"
+        else args.mongo_activities.open("r", encoding="utf-8")
+    )
+    with handle_context as handle:
+        for line in handle:
+            if not line.strip():
+                continue
+            document = loads(line)
+            activity_id = normalize_activity_id(document.get("Activity ID"))
+            if activity_id is None or activity_id in repository_ids:
+                continue
+            source_rows += 1
+            seen_ids.add(activity_id)
+            documents.append(document)
+
+    documents.sort(
+        key=lambda document: (
+            normalize_activity_id(document.get("Activity ID")) or "",
+            str(document.get("_id", "")),
+        )
+    )
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("x", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=columns,
+            extrasaction="ignore",
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        writer.writerows(documents)
+
+    extracted_at = iso_utc(generated)
+    write_csv_manifest(
+        manifest,
+        [
+            {
+                "source_file": relative_to_root(output),
+                "sha256": sha256_file(output),
+                "byte_count": output.stat().st_size,
+                "row_count": source_rows,
+                "schema_signature": schema_signature(columns),
+                "schema_columns_json": json.dumps(columns, separators=(",", ":")),
+                "extraction_time_utc": extracted_at,
+                "source_system": f"mongodb_reconciliation:{snapshot_label}/activities",
+                "source_role": "immutable_reconciliation_input",
+                "source_commit": current_commit(),
+                "read_error": "",
+            }
+        ],
+    )
+    output.chmod(stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
+    print(
+        f"Wrote {source_rows:,} Mongo-only rows ({len(seen_ids):,} unique IDs) "
+        f"to {relative_to_root(output)}"
+    )
+    print(f"Wrote supplement manifest to {relative_to_root(manifest)}")
+    return 0
+
+
 def audit_local_activities(args: argparse.Namespace) -> int:
     generated = args.generated_at or utc_now()
     stamp = generated.date().isoformat()
@@ -694,6 +1210,18 @@ def build_parser() -> argparse.ArgumentParser:
     audit.add_argument("--generated-at", type=parsed_datetime)
     audit.set_defaults(func=audit_local_activities)
 
+    external = subparsers.add_parser(
+        "audit-external-drive",
+        help="Manifest and compare an offline EnduranceViz backup read-only",
+    )
+    external.add_argument("--source-root", type=Path, required=True)
+    external.add_argument("--repository-activities", type=Path, default=DEFAULT_ACTIVITY_CSV)
+    external.add_argument("--repository-raw-root", type=Path, default=DEFAULT_RAW_JSON_ROOT)
+    external.add_argument("--manifest", type=Path)
+    external.add_argument("--output", type=Path)
+    external.add_argument("--generated-at", type=parsed_datetime)
+    external.set_defaults(func=audit_external_drive)
+
     export = subparsers.add_parser(
         "export-mongo", help="Export the four production MongoDB collections once"
     )
@@ -727,6 +1255,19 @@ def build_parser() -> argparse.ArgumentParser:
     reconcile.add_argument("--report", type=Path)
     reconcile.add_argument("--generated-at", type=parsed_datetime)
     reconcile.set_defaults(func=reconcile_activities)
+
+    supplement = subparsers.add_parser(
+        "extract-mongo-activity-supplement",
+        help="Write Mongo-only activities as an immutable canonical-build input",
+    )
+    supplement.add_argument("--mongo-activities", type=Path, required=True)
+    supplement.add_argument(
+        "--repository-activities", type=Path, default=DEFAULT_ACTIVITY_CSV
+    )
+    supplement.add_argument("--output", type=Path)
+    supplement.add_argument("--manifest", type=Path)
+    supplement.add_argument("--generated-at", type=parsed_datetime)
+    supplement.set_defaults(func=extract_mongo_activity_supplement)
     return parser
 
 

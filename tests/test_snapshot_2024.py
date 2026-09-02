@@ -99,6 +99,58 @@ class SnapshotToolTests(unittest.TestCase):
             self.assertEqual(payload["comparison"]["repository_only_unique_activity_ids"], 1)
             self.assertEqual(payload["comparison"]["mongodb_only_unique_activity_ids"], 1)
 
+    def test_mongo_supplement_preserves_only_repository_missing_rows(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            temp_path = Path(temp)
+            repository_csv = temp_path / "activities.csv"
+            mongo_jsonl = temp_path / "activities.jsonl.gz"
+            output = temp_path / "supplement.csv"
+            manifest = temp_path / "manifest.csv"
+            columns = ["Athlete ID", "Activity ID", "Start Date", "Type"]
+            with repository_csv.open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=columns)
+                writer.writeheader()
+                writer.writerow(
+                    {
+                        "Athlete ID": "10",
+                        "Activity ID": "1",
+                        "Start Date": "2024-01-01T00:00:00Z",
+                        "Type": "Run",
+                    }
+                )
+            with gzip.open(mongo_jsonl, "wt", encoding="utf-8") as handle:
+                for mongo_id, activity_id in ((1, "1"), (2, "2"), (3, "2")):
+                    handle.write(
+                        dumps(
+                            {
+                                "_id": mongo_id,
+                                "Athlete ID": "10",
+                                "Activity ID": activity_id,
+                                "Start Date": "2024-01-02T00:00:00Z",
+                                "Type": "Run",
+                            },
+                            json_options=CANONICAL_JSON_OPTIONS,
+                        )
+                    )
+                    handle.write("\n")
+            args = argparse.Namespace(
+                repository_activities=repository_csv,
+                mongo_activities=mongo_jsonl,
+                output=output,
+                manifest=manifest,
+                generated_at=datetime(2026, 9, 2, tzinfo=timezone.utc),
+            )
+
+            self.assertEqual(snapshot_2024.extract_mongo_activity_supplement(args), 0)
+            with output.open(encoding="utf-8", newline="") as handle:
+                rows = list(csv.DictReader(handle))
+            with manifest.open(encoding="utf-8", newline="") as handle:
+                manifest_row = next(csv.DictReader(handle))
+
+            self.assertEqual(len(rows), 2)
+            self.assertEqual({row["Activity ID"] for row in rows}, {"2"})
+            self.assertEqual(manifest_row["row_count"], "2")
+
     def test_manifest_outputs_are_immutable(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp) / "manifest.csv"
@@ -122,6 +174,110 @@ class SnapshotToolTests(unittest.TestCase):
 
             self.assertEqual(result["row_count"], 1)
             self.assertEqual(result["read_error"], "")
+
+    def test_external_activity_reader_recovers_headerless_and_glued_tail(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "mixed.csv"
+            old_columns = [
+                "Serial",
+                "Athlete ID",
+                "Athlete Name",
+                "Activity ID",
+                "Activity Name",
+                "Description",
+                "Start Date",
+                "Elapsed Time",
+                "Type",
+                "Location",
+                "Pace (min/mi)",
+                "Pace (min/km)",
+                "Time (min)",
+                "Distance (km)",
+                "Activity Time (s)",
+                "Time",
+            ]
+            old_row = [
+                "1",
+                "10",
+                "Runner One",
+                "100",
+                "Run",
+                "",
+                "2024-01-01T00:00:00Z",
+                "60",
+                "Run",
+                "",
+                "",
+                "5",
+                "1",
+                "1",
+                "60",
+            ]
+            processed_row = [
+                "20",
+                "Runner Two",
+                "200",
+                "Run",
+                "",
+                "2025-01-01T00:00:00Z",
+                "60",
+                "Run",
+                "",
+                "1",
+                "5",
+                "1m",
+            ]
+            with path.open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.writer(handle)
+                writer.writerow(old_columns)
+                writer.writerow(old_row + processed_row)
+                writer.writerow(processed_row)
+
+            records = snapshot_2024.activity_records_from_csv(path)
+
+            self.assertEqual(set(records), {"100", "200"})
+            self.assertEqual(records["100"]["start_date"], "2024-01-01T00:00:00Z")
+            self.assertEqual(records["200"]["start_date"], "2025-01-01T00:00:00Z")
+
+    def test_raw_json_reader_keeps_only_target_athlete(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "raw_json_fixture.csv"
+            payload = {
+                "preFetchedEntries": [
+                    {
+                        "activity": {
+                            "id": 100,
+                            "startDate": "2024-01-01T00:00:00Z",
+                            "type": "Run",
+                            "athlete": {"athleteId": 10, "athleteName": "Runner One"},
+                        }
+                    },
+                    {
+                        "activity": {
+                            "id": 999,
+                            "startDate": "2024-01-02T00:00:00Z",
+                            "type": "Run",
+                            "athlete": {"athleteId": 99, "athleteName": "Someone Else"},
+                        }
+                    },
+                ]
+            }
+            with path.open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(
+                    handle, fieldnames=["Athlete ID", "Name", "JSON Data"]
+                )
+                writer.writeheader()
+                writer.writerow(
+                    {
+                        "Athlete ID": "10",
+                        "Name": " runner one ",
+                        "JSON Data": json.dumps(payload),
+                    }
+                )
+
+            records = snapshot_2024.raw_json_activity_records(path)
+
+            self.assertEqual(set(records), {"100"})
 
     def test_mongo_export_resumes_after_transient_cursor_timeout(self) -> None:
         class FakeCursor:
@@ -169,6 +325,53 @@ class SnapshotToolTests(unittest.TestCase):
         self.assertEqual(row_count, 3)
         self.assertEqual(ids, ["1", "2", "3"])
         self.assertEqual(collection.calls[1], ({"_id": {"$gt": 1}}, None))
+
+    def test_partitioned_export_uses_bounded_id_queries(self) -> None:
+        class FakeCursor:
+            def __init__(self, rows):
+                self.rows = rows
+
+            def batch_size(self, *_):
+                return self
+
+            def __iter__(self):
+                return iter(self.rows)
+
+        class FakeCollection:
+            name = "fixture"
+
+            def __init__(self):
+                self.documents = [
+                    {"_id": 3, "value": "c"},
+                    {"_id": 1, "value": "a"},
+                    {"_id": 2, "value": "b"},
+                ]
+                self.queries = []
+
+            def distinct(self, key, **_):
+                self.asserted_key = key
+                return [document[key] for document in self.documents]
+
+            def find(self, query):
+                self.queries.append(query)
+                ids = set(query["_id"]["$in"])
+                return FakeCursor(
+                    [document for document in self.documents if document["_id"] in ids]
+                )
+
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "fixture.jsonl.gz"
+            collection = FakeCollection()
+            row_count, _ = snapshot_2024.export_collection_partitioned(
+                collection, path, chunk_size=2
+            )
+            with gzip.open(path, "rt", encoding="utf-8") as handle:
+                ids = [json.loads(line)["_id"]["$numberInt"] for line in handle]
+
+        self.assertEqual(row_count, 3)
+        self.assertEqual(ids, ["1", "2", "3"])
+        self.assertEqual(collection.asserted_key, "_id")
+        self.assertEqual(len(collection.queries), 2)
 
 
 if __name__ == "__main__":

@@ -162,7 +162,10 @@ def canonicalize_activities(
     source_file: str = "indiv_activities_full.csv",
 ) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Any]]:
     working = raw.copy().reset_index(drop=True)
-    working["_source_row_number"] = working.index + 2
+    if "_source_row_number" not in working:
+        working["_source_row_number"] = working.index + 2
+    if "_source_file" not in working:
+        working["_source_file"] = source_file
     working["_activity_id"] = working["Activity ID"].map(normalize_external_id)
     working["_external_account_id"] = working["Athlete ID"].map(normalize_external_id)
     account_map = accounts.set_index("external_account_id")["athlete_id"].to_dict()
@@ -193,7 +196,13 @@ def canonicalize_activities(
         if activity_id is None or pd.isna(activity_id):
             for _, row in group.iterrows():
                 quarantine.append(
-                    quarantine_row("activity", source_file, row, "MISSING_ACTIVITY_ID", "Activity ID is null")
+                    quarantine_row(
+                        "activity",
+                        str(row["_source_file"]),
+                        row,
+                        "MISSING_ACTIVITY_ID",
+                        "Activity ID is null",
+                    )
                 )
             continue
 
@@ -216,13 +225,19 @@ def canonicalize_activities(
             for _, row in group.iterrows():
                 quarantine.append(
                     quarantine_row(
-                        "activity", source_file, row, "CONFLICTING_ACTIVITY_DUPLICATE", detail
+                        "activity",
+                        str(row["_source_file"]),
+                        row,
+                        "CONFLICTING_ACTIVITY_DUPLICATE",
+                        detail,
                     )
                 )
             continue
 
         comparison_columns = [
-            column for column in raw.columns if column != "Serial"
+            column
+            for column in raw.columns
+            if column != "Serial" and not str(column).startswith("_")
         ]
         exact = len(group[comparison_columns].fillna("<NULL>").drop_duplicates()) == 1
         group_kind = "exact" if exact else "equivalent"
@@ -237,7 +252,7 @@ def canonicalize_activities(
             quarantine.append(
                 quarantine_row(
                     "activity",
-                    source_file,
+                    str(row["_source_file"]),
                     row,
                     reason_code,
                     f"Retained source row {int(group.loc[selected_index, '_source_row_number'])}",
@@ -253,7 +268,11 @@ def canonicalize_activities(
         if pd.isna(timestamp):
             quarantine.append(
                 quarantine_row(
-                    "activity", source_file, row, "INVALID_START_TIMESTAMP", "Start Date is not UTC-parseable"
+                    "activity",
+                    str(row["_source_file"]),
+                    row,
+                    "INVALID_START_TIMESTAMP",
+                    "Start Date is not UTC-parseable",
                 )
             )
             validation_counts["INVALID_START_TIMESTAMP"] += 1
@@ -261,7 +280,11 @@ def canonicalize_activities(
         if not (pd.Timestamp("2024-01-01", tz="UTC") <= timestamp < pd.Timestamp("2025-01-01", tz="UTC")):
             quarantine.append(
                 quarantine_row(
-                    "activity", source_file, row, "OUTSIDE_SNAPSHOT_WINDOW", str(timestamp)
+                    "activity",
+                    str(row["_source_file"]),
+                    row,
+                    "OUTSIDE_SNAPSHOT_WINDOW",
+                    str(timestamp),
                 )
             )
             validation_counts["OUTSIDE_SNAPSHOT_WINDOW"] += 1
@@ -273,7 +296,7 @@ def canonicalize_activities(
             quarantine.append(
                 quarantine_row(
                     "activity",
-                    source_file,
+                    str(row["_source_file"]),
                     row,
                     "UNRESOLVED_EXTERNAL_ACCOUNT",
                     f"Strava account {external_account_id} is not in the persistent registry",
@@ -285,7 +308,13 @@ def canonicalize_activities(
         raw_type = None if pd.isna(row.get("Type")) else str(row.get("Type")).strip()
         if not raw_type:
             quarantine.append(
-                quarantine_row("activity", source_file, row, "MISSING_ACTIVITY_TYPE", "Type is empty")
+                quarantine_row(
+                    "activity",
+                    str(row["_source_file"]),
+                    row,
+                    "MISSING_ACTIVITY_TYPE",
+                    "Type is empty",
+                )
             )
             validation_counts["MISSING_ACTIVITY_TYPE"] += 1
             continue
@@ -296,7 +325,7 @@ def canonicalize_activities(
             quarantine.append(
                 quarantine_row(
                     "activity",
-                    source_file,
+                    str(row["_source_file"]),
                     row,
                     "INVALID_ELAPSED_DURATION",
                     f"Elapsed seconds: {row.get('Elapsed Time')}",
@@ -318,7 +347,7 @@ def canonicalize_activities(
                 quarantine.append(
                     quarantine_row(
                         "activity",
-                        source_file,
+                        str(row["_source_file"]),
                         row,
                         "MOVING_TIME_EXCEEDS_ELAPSED",
                         f"Moving {moving_seconds}s exceeds elapsed {elapsed_seconds}s",
@@ -339,7 +368,7 @@ def canonicalize_activities(
                 quarantine.append(
                     quarantine_row(
                         "activity",
-                        source_file,
+                        str(row["_source_file"]),
                         row,
                         "IMPOSSIBLE_RUN_DISTANCE",
                         f"Distance meters: {distance_meters}",
@@ -352,7 +381,7 @@ def canonicalize_activities(
                 quarantine.append(
                     quarantine_row(
                         "activity",
-                        source_file,
+                        str(row["_source_file"]),
                         row,
                         "IMPOSSIBLE_RIDE_DISTANCE",
                         f"Distance meters: {distance_meters}",
@@ -396,7 +425,7 @@ def canonicalize_activities(
                 "quality_status": "warning" if quality_flags else "valid",
                 "quality_flags": quality_flags,
                 "exclusion_reason": None,
-                "source_file": source_file,
+                "source_file": str(row["_source_file"]),
                 "source_row_number": int(row["_source_row_number"]),
             }
         )
@@ -407,8 +436,10 @@ def canonicalize_activities(
     quarantine_frame = pd.DataFrame(quarantine, columns=QUARANTINE_COLUMNS).sort_values(
         ["source_row_number", "reason_code"], kind="stable"
     ).reset_index(drop=True)
+    source_files = sorted(str(value) for value in working["_source_file"].dropna().unique())
     report = {
-        "source_file": source_file,
+        "source_file": source_files[0] if len(source_files) == 1 else "multiple_manifested_sources",
+        "source_files": source_files,
         "input_rows": len(raw),
         "input_unique_activity_ids": int(working["_activity_id"].nunique()),
         "exact_duplicate_groups": duplicate_group_counts["exact"],

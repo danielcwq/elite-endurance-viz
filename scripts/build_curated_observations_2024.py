@@ -50,7 +50,27 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
         args.accounts,
         dtype={"athlete_id": str, "external_account_id": str},
     )
-    raw_activities = pd.read_csv(args.raw_activities, low_memory=False)
+    configured_activity_paths = [
+        ROOT / relative for relative in contract["source_scope"]["activity_files"]
+    ]
+    requested_activity_paths = args.raw_activities
+    if requested_activity_paths is None:
+        activity_paths = configured_activity_paths
+    elif isinstance(requested_activity_paths, Path):
+        activity_paths = [requested_activity_paths]
+    else:
+        activity_paths = requested_activity_paths
+    activity_frames = []
+    for path in activity_paths:
+        frame = pd.read_csv(path, low_memory=False)
+        try:
+            source_file = path.resolve().relative_to(ROOT.resolve()).as_posix()
+        except ValueError:
+            source_file = str(path.resolve())
+        frame["_source_file"] = source_file
+        frame["_source_row_number"] = frame.index + 2
+        activity_frames.append(frame)
+    raw_activities = pd.concat(activity_frames, ignore_index=True)
     raw_performances = pd.read_csv(args.raw_performances, low_memory=False)
 
     activities, activity_quarantine, activity_report = canonicalize_activities(
@@ -99,7 +119,12 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=ROOT / "data" / "reference" / "athlete_external_accounts_2024.csv",
     )
-    parser.add_argument("--raw-activities", type=Path, default=ROOT / "indiv_activities_full.csv")
+    parser.add_argument(
+        "--raw-activities",
+        type=Path,
+        action="append",
+        help="Activity CSV input; repeat to supply multiple sources (defaults to contract)",
+    )
     parser.add_argument(
         "--raw-performances",
         type=Path,

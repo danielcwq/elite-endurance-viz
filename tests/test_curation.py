@@ -99,6 +99,20 @@ class ActivityCurationTests(unittest.TestCase):
         self.assertIn("AMBIGUOUS_SWIM_DISTANCE_UNITS", curated.iloc[0]["quality_flags"])
         self.assertEqual(report["swim_distance_values_suppressed_due_to_ambiguous_units"], 1)
 
+    def test_multiple_inputs_retain_row_level_source_provenance(self) -> None:
+        first = activity_row(**{"Activity ID": 1})
+        first.update({"_source_file": "first.csv", "_source_row_number": 20})
+        second = activity_row(**{"Activity ID": 2})
+        second.update({"_source_file": "second.csv", "_source_row_number": 30})
+
+        curated, _, report = canonicalize_activities(
+            pd.DataFrame([first, second]), self.accounts, VALIDATION
+        )
+
+        self.assertEqual(set(curated["source_file"]), {"first.csv", "second.csv"})
+        self.assertEqual(set(curated["source_row_number"]), {20, 30})
+        self.assertEqual(report["source_files"], ["first.csv", "second.csv"])
+
 
 class PerformanceCurationTests(unittest.TestCase):
     def test_mark_parser_supports_hand_timing_suffix(self) -> None:
