@@ -49,7 +49,12 @@ def populate(args: argparse.Namespace) -> dict[str, object]:
     try:
         athletes = pd.read_csv(args.athletes, dtype=str)
         accounts = pd.read_csv(args.accounts, dtype={"athlete_id": str, "external_account_id": str})
-        manifest = pd.read_csv(args.manifest)
+        manifest_paths = args.manifest or [
+            ROOT / relative for relative in contract["source_scope"]["manifest_files"]
+        ]
+        manifest = pd.concat(
+            [pd.read_csv(path) for path in manifest_paths], ignore_index=True
+        )
         quarantine = pd.read_parquet(args.quarantine)
         for name, frame in (("athlete_input", athletes), ("account_input", accounts)):
             connection.register(name, frame)
@@ -197,7 +202,12 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--contract", type=Path, default=ROOT / "config/snapshot_2024.yaml")
     result.add_argument("--athletes", type=Path, default=ROOT / "data/reference/athlete_registry_2024.csv")
     result.add_argument("--accounts", type=Path, default=ROOT / "data/reference/athlete_external_accounts_2024.csv")
-    result.add_argument("--manifest", type=Path, default=ROOT / "data/manifests/repository_csv_snapshot_2026-09-02.csv")
+    result.add_argument(
+        "--manifest",
+        type=Path,
+        action="append",
+        help="Source manifest; repeat to supply multiple manifests (defaults to contract)",
+    )
     result.add_argument("--curated", type=Path, default=ROOT / "data/curated/2024")
     result.add_argument("--quarantine", type=Path, default=ROOT / "data/quarantine/2024/quarantined_observations_2024.parquet")
     result.add_argument("--database", type=Path, default=ROOT / "data/derived/2024/enduranceviz_2024.duckdb")
