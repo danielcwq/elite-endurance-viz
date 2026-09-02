@@ -150,8 +150,8 @@ data/
 - [x] Define primary 2024 discipline by highest result score, then discipline performance count, then canonical discipline name.
 - [x] Define and materialize 2024 season-best performance flags per athlete and discipline.
 - [x] Enforce natural uniqueness on athlete, discipline, mark, date, and venue/source.
-- [ ] Replace pipe-delimited `Mark` and `Discipline` fields in athlete metadata with queries against performance rows.
-- [ ] Correct the three known cases where pipe-delimited mark counts and discipline counts do not align.
+- [x] Replace pipe-delimited `Mark` and `Discipline` fields in athlete metadata with canonical season-best performance queries.
+- [x] Eliminate the three known mark/discipline count misalignments by serving one-row-per-performance data rather than zipping legacy strings.
 
 ## P0.7 Coverage model
 
@@ -206,34 +206,34 @@ Grain: one canonical athlete by one 2024 calendar week.
 
 ## P0.10 Automated data-quality tests
 
-- [ ] [PARTIAL] Convert the existing manual scripts under `Get_Data/test_*.py` into assertion-based tests. They currently print/debug, write files, and include outdated calls.
-- [ ] Fail on duplicate curated activity IDs.
-- [ ] Fail on duplicate provider/external-athlete IDs.
-- [ ] Fail on broken athlete foreign keys.
-- [ ] Fail on unparseable required timestamps.
-- [ ] Fail on curated activities outside the snapshot window.
-- [ ] Fail on negative distance or duration.
-- [ ] Fail on inconsistent canonical units.
-- [ ] Fail on duplicate athlete-week keys.
-- [ ] Fail when weekly totals do not reconcile with activities.
-- [ ] Fail when athlete summaries do not reconcile with weekly totals.
-- [ ] Fail on mismatched performance mark/discipline representations.
-- [ ] Detect unexpected row-count or coverage regressions.
-- [ ] Produce a human-readable data-quality report for each dataset build.
-- [ ] Add a small fixture dataset containing known duplicates, identity conflicts, missing weeks, and invalid measurements.
+- [x] Replace manual print/debug checks with 25 assertion-based unit, transformation, schema, quality, and serving tests; historical `Get_Data/test_*.py` files are provenance-only.
+- [x] Fail on duplicate curated activity IDs.
+- [x] Fail on duplicate provider/external-athlete IDs.
+- [x] Fail on broken athlete foreign keys.
+- [x] Fail on unparseable required timestamps.
+- [x] Fail on curated activities outside the snapshot window.
+- [x] Fail on negative distance or duration.
+- [x] Fail on inconsistent canonical units.
+- [x] Fail on duplicate athlete-week keys.
+- [x] Fail when weekly totals do not reconcile with activities.
+- [x] Fail when athlete summaries do not reconcile with weekly totals.
+- [x] Fail on mismatched performance mark/discipline representations.
+- [x] Detect unexpected row-count or coverage regressions against the versioned baseline.
+- [x] Produce JSON and human-readable data-quality reports for each dataset build.
+- [x] Add small in-memory fixtures containing known duplicates, identity conflicts, missing weeks, invalid measurements, and reconciliation drift.
 
 ## P0.11 Reproducible pipeline
 
-- [ ] [PARTIAL] Extract production transformations from notebooks into tested Python modules or SQL. The logic exists, but execution order and working directories are manual.
-- [ ] Create one command to build curated data from the immutable raw snapshot.
-- [ ] Create one command to validate the curated snapshot.
-- [ ] Create one command to populate a local serving database.
-- [ ] Pin all required dependencies, including dependencies currently imported but absent from `requirements.txt`.
-- [ ] Make the build idempotent.
-- [ ] Remove dependence on current working directory for file resolution.
-- [ ] Record dataset version, code version, source manifest, and build time.
-- [ ] Ensure a new developer can rebuild the snapshot without production or Strava credentials.
-- [ ] Keep historical notebooks as research/provenance artifacts while removing them from the required production path.
+- [x] Extract production transformations from notebooks into tested Python modules and SQL.
+- [x] Create one command to build curated data from the manifested repository snapshot.
+- [x] Create one command to validate the curated snapshot.
+- [x] Create one command to populate a local serving database.
+- [x] Pin all required runtime dependencies in `requirements.txt`.
+- [x] Make generated table writes and serving-database replacement idempotent and atomic.
+- [x] Remove dependence on the caller's current working directory.
+- [x] Record dataset version, code version, source manifest, build ID, and build time.
+- [x] Ensure a new developer can rebuild the snapshot without production or Strava credentials.
+- [x] Keep historical notebooks as research/provenance artifacts while removing them from the required production path.
 
 ## P0.12 Serving and backend correctness
 
@@ -241,45 +241,45 @@ Grain: one canonical athlete by one 2024 calendar week.
 - [x] Connect to the `elite_endurance` Mongo database.
 - [x] Display athlete metadata and activities.
 - [x] Record and display Mongo update-log counts and timestamps.
-- [ ] Route and query athletes by internal athlete ID or a stable slug.
-- [ ] Replace case-insensitive name-regex joins with ID joins.
-- [ ] Add a unique index on the source activity ID.
-- [ ] Add an index on athlete ID and start timestamp descending.
-- [ ] Add an index or canonical lookup for athlete slug/ID.
-- [ ] Add activity pagination or incremental loading, initially 30–50 rows.
-- [ ] Add field projections so detail pages retrieve only displayed data.
-- [ ] Cache public homepage and summary responses.
-- [ ] Stop embedding all 460 athlete documents in homepage HTML.
-- [ ] Replace drop-and-rebuild Mongo refreshes with an atomic/versioned swap if Mongo remains the serving database.
-- [ ] Prevent [`mongodb_init/db_upload.py`](mongodb_init/db_upload.py) from blindly appending duplicate copies.
-- [ ] Correct displayed athlete, country, and activity counts.
-- [ ] Display `2024 Snapshot`, dataset version, build date, and coverage prominently.
-- [ ] [VERIFY] Decide whether Mongo remains the serving database or is replaced by PostgreSQL after the curated model is stable.
+- [x] Route and query athletes by persistent internal athlete UUID.
+- [x] Replace case-insensitive name-regex joins with ID joins.
+- [x] Enforce uniqueness on source activity ID through the canonical primary key.
+- [x] Add an index on athlete ID and start timestamp.
+- [x] Use the athlete UUID primary key as the canonical indexed lookup.
+- [x] Add 30-row activity pagination with a hard maximum of 50.
+- [x] Add field projections so detail pages retrieve only displayed data.
+- [x] Cache public homepage, snapshot, directory, and athlete-summary reads.
+- [x] Replace the embedded athlete-document payload with a server-side projected search endpoint and on-demand map endpoint.
+- [x] Replace Mongo refreshes with atomic local DuckDB file replacement; Mongo is not the canonical serving database.
+- [x] Disable [`mongodb_init/db_upload.py`](mongodb_init/db_upload.py) so it cannot append duplicate copies.
+- [x] Correct displayed athlete, country, account, and deduplicated activity counts.
+- [x] Display `2024 Snapshot`, dataset version, build date, and coverage prominently.
+- [x] Select DuckDB for the fixed local snapshot; defer PostgreSQL until measured concurrent deployment demand justifies it.
 
 ## P0.13 Documentation
 
-- [ ] [PARTIAL] Rewrite the root [`README.md`](README.md) around the 2024 snapshot scope. The existing README explains the original motivation and collection idea, but not the current architecture or dataset limitations.
-- [ ] Publish a data dictionary.
-- [ ] Publish a source-to-curated lineage diagram.
-- [ ] Publish metric definitions.
-- [ ] Publish identity-resolution rules.
-- [ ] Publish deduplication and conflict-resolution rules.
-- [ ] Publish known limitations and public-posting bias.
-- [ ] Publish snapshot build instructions.
-- [ ] Include an example quality report.
-- [ ] Document which legacy artifacts are provenance-only and which files remain authoritative.
+- [x] Rewrite the root [`README.md`](README.md) around the fixed 2024 snapshot scope and current architecture.
+- [x] Publish a data dictionary.
+- [x] Publish a source-to-curated lineage diagram.
+- [x] Publish metric definitions.
+- [x] Publish identity-resolution rules.
+- [x] Publish deduplication and conflict-resolution rules.
+- [x] Publish known limitations and public-posting bias.
+- [x] Publish snapshot build instructions.
+- [x] Include an example passing quality report.
+- [x] Document which legacy artifacts are provenance-only and which files remain authoritative.
 
 ## P0 exit criteria
 
-- [ ] Every curated activity has one unique source activity ID.
-- [ ] Every curated activity and performance references one canonical athlete or is quarantined.
-- [ ] Weekly totals reconcile with curated activities.
-- [ ] Athlete summaries reconcile with weekly totals.
-- [ ] The 2024 snapshot rebuilds from immutable inputs with one documented command.
-- [ ] Automated tests and the quality report pass.
-- [ ] The site displays accurate deduplicated counts and honest coverage.
-- [ ] Athlete activity queries are indexed and paginated.
-- [ ] Nothing on the site implies that the snapshot is current live training data.
+- [x] Every curated activity has one unique source activity ID.
+- [x] Every curated activity and performance references one canonical athlete or is quarantined.
+- [x] Weekly totals reconcile with curated activities.
+- [x] Athlete summaries reconcile with weekly totals.
+- [x] The repository-backed 2024 snapshot rebuilds from manifested inputs with one documented command.
+- [x] Automated tests and the 16-check quality report pass.
+- [x] The local canonical site displays accurate deduplicated counts and honest coverage.
+- [x] Athlete activity queries are indexed and paginated.
+- [x] Nothing in the canonical application implies that the snapshot is current live training data.
 
 ---
 

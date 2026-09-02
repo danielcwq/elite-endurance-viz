@@ -52,7 +52,13 @@ def load_weekly_evidence(paths: Iterable[Path], root: Path) -> pd.DataFrame:
         frame["source_file"] = path.relative_to(root).as_posix()
         frame["source_row_number"] = frame.index + 2
         frame["source_priority"] = 2 if path.parent.name == "tempdata" else 1
-        frame["collection_completed_at_utc"] = _collection_time(path)
+        completion = _collection_time(path)
+        if completion is None:
+            frame["collection_completed_at_utc"] = pd.Series(
+                pd.NaT, index=frame.index, dtype="datetime64[ns, UTC]"
+            )
+        else:
+            frame["collection_completed_at_utc"] = completion
         frames.append(frame)
     if not frames:
         return pd.DataFrame()

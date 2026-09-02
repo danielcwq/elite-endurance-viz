@@ -73,6 +73,15 @@ analytics:
   rolling_missing_policy: Require four complete-enough weeks; otherwise the rolling value is null.
   long_run_share_definition: Longest run distance divided by total run distance in the athlete-week.
 
+quality_baseline:
+  athlete_rows: 3609
+  external_account_rows: 678
+  performance_rows: 5305
+  activity_rows: 137418
+  coverage_rows: 191277
+  weekly_rows: 191277
+  minimum_default_cohort_athletes: 585
+
 expected_mongodb_collections:
   - activities
   - athlete_metadata
