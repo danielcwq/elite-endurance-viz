@@ -25,6 +25,7 @@ from typing import Any, Iterable, Iterator
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST_DIR = ROOT / "data" / "manifests"
 DEFAULT_MONGO_ROOT = ROOT / "data" / "raw" / "2024" / "mongodb"
+DEFAULT_MONGO_ID_ROOT = ROOT / "data" / "raw" / "2024" / "mongodb_activity_ids"
 DEFAULT_ACTIVITY_CSV = ROOT / "indiv_activities_full.csv"
 EXPECTED_MONGO_COLLECTIONS = (
     "activities",
@@ -220,6 +221,7 @@ def export_collection(
     output_path: Path,
     batch_size: int = 100,
     max_retries: int = 20,
+    projection: dict[str, int] | None = None,
 ) -> tuple[int, list[str]]:
     from bson.json_util import CANONICAL_JSON_OPTIONS, dumps
     from pymongo import ASCENDING
@@ -235,7 +237,11 @@ def export_collection(
             with io.TextIOWrapper(gzip_handle, encoding="utf-8", newline="\n") as text_handle:
                 while True:
                     query = {} if last_id is None else {"_id": {"$gt": last_id}}
-                    cursor = collection.find(query).sort("_id", ASCENDING).batch_size(batch_size)
+                    cursor = (
+                        collection.find(query, projection=projection)
+                        .sort("_id", ASCENDING)
+                        .batch_size(batch_size)
+                    )
                     try:
                         for document in cursor:
                             for key, value in document.items():
@@ -379,6 +385,113 @@ def export_mongo(args: argparse.Namespace) -> int:
         client.close()
 
     print(f"Exported MongoDB snapshot to {relative_to_root(final_dir)}")
+    print(f"Wrote manifest to {relative_to_root(manifest_path)}")
+    return 0
+
+
+def export_mongo_activity_ids(args: argparse.Namespace) -> int:
+    """Create an immutable projection sufficient for activity-ID reconciliation."""
+    try:
+        from dotenv import load_dotenv
+        from pymongo import MongoClient
+        from pymongo.errors import PyMongoError
+    except ImportError as exc:
+        raise RuntimeError("Install requirements before exporting MongoDB") from exc
+
+    load_dotenv(ROOT / ".env")
+    if args.batch_size <= 0 or args.max_retries < 0:
+        raise ValueError("batch-size must be positive and max-retries cannot be negative")
+    uri = os.getenv("MONGO_URI")
+    if not uri:
+        raise RuntimeError("MONGO_URI is not configured")
+
+    generated = args.generated_at or utc_now()
+    snapshot_name = compact_utc(generated)
+    final_dir = args.output_root / snapshot_name
+    manifest_path = args.manifest_dir / f"mongodb_activity_ids_{snapshot_name}.csv"
+    refuse_overwrite(final_dir)
+    refuse_overwrite(manifest_path)
+    args.output_root.mkdir(parents=True, exist_ok=True)
+    args.manifest_dir.mkdir(parents=True, exist_ok=True)
+    temp_dir = Path(tempfile.mkdtemp(prefix=f".{snapshot_name}-", dir=args.output_root))
+
+    client = MongoClient(
+        uri,
+        serverSelectionTimeoutMS=args.timeout_ms,
+        connectTimeoutMS=args.timeout_ms,
+        socketTimeoutMS=max(args.timeout_ms, 60_000),
+    )
+    try:
+        client.admin.command("ping")
+        database = client[args.database]
+        if "activities" not in set(database.list_collection_names()):
+            raise RuntimeError("MongoDB activities collection is missing")
+        output_path = temp_dir / "activities_ids.jsonl.gz"
+        row_count, schema = export_collection(
+            database["activities"],
+            output_path,
+            batch_size=args.batch_size,
+            max_retries=args.max_retries,
+            projection={"_id": 1, "Activity ID": 1},
+        )
+        extracted_at = iso_utc(generated)
+        marker = {
+            "dataset": "enduranceviz-2024",
+            "specification_version": "1.0.0",
+            "database": args.database,
+            "extraction_time_utc": extracted_at,
+            "projection": ["_id", "Activity ID"],
+            "purpose": "activity_id_reconciliation_only",
+            "row_count": row_count,
+        }
+        with (temp_dir / "SNAPSHOT.json").open("x", encoding="utf-8") as handle:
+            json.dump(marker, handle, indent=2, sort_keys=True)
+            handle.write("\n")
+        temp_dir.rename(final_dir)
+        write_csv_manifest(
+            manifest_path,
+            [
+                {
+                    "source_file": (
+                        f"data/raw/2024/mongodb_activity_ids/{snapshot_name}/"
+                        "activities_ids.jsonl.gz"
+                    ),
+                    "sha256": sha256_file(final_dir / output_path.name),
+                    "byte_count": (final_dir / output_path.name).stat().st_size,
+                    "row_count": row_count,
+                    "schema_signature": schema_signature(schema),
+                    "schema_columns_json": json.dumps(schema, separators=(",", ":")),
+                    "extraction_time_utc": extracted_at,
+                    "source_system": f"mongodb:{args.database}/activities",
+                    "source_role": "reconciliation_extract",
+                    "source_commit": current_commit(),
+                    "read_error": "",
+                }
+            ],
+        )
+        for path in final_dir.iterdir():
+            path.chmod(stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
+        final_dir.chmod(
+            stat.S_IRUSR
+            | stat.S_IXUSR
+            | stat.S_IRGRP
+            | stat.S_IXGRP
+            | stat.S_IROTH
+            | stat.S_IXOTH
+        )
+    except PyMongoError as exc:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+        raise RuntimeError(
+            f"MongoDB activity-ID export failed ({type(exc).__name__}); "
+            "verify Atlas cluster health and network access"
+        ) from None
+    except BaseException:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+        raise
+    finally:
+        client.close()
+
+    print(f"Exported MongoDB activity IDs to {relative_to_root(final_dir)}")
     print(f"Wrote manifest to {relative_to_root(manifest_path)}")
     return 0
 
@@ -592,6 +705,19 @@ def build_parser() -> argparse.ArgumentParser:
     export.add_argument("--max-retries", type=int, default=20)
     export.add_argument("--generated-at", type=parsed_datetime)
     export.set_defaults(func=export_mongo)
+
+    export_ids = subparsers.add_parser(
+        "export-mongo-activity-ids",
+        help="Export only Mongo _id and Activity ID fields for source reconciliation",
+    )
+    export_ids.add_argument("--database", default="elite_endurance")
+    export_ids.add_argument("--output-root", type=Path, default=DEFAULT_MONGO_ID_ROOT)
+    export_ids.add_argument("--manifest-dir", type=Path, default=DEFAULT_MANIFEST_DIR)
+    export_ids.add_argument("--timeout-ms", type=int, default=15_000)
+    export_ids.add_argument("--batch-size", type=int, default=1000)
+    export_ids.add_argument("--max-retries", type=int, default=20)
+    export_ids.add_argument("--generated-at", type=parsed_datetime)
+    export_ids.set_defaults(func=export_mongo_activity_ids)
 
     reconcile = subparsers.add_parser(
         "reconcile-activities", help="Compare repository and Mongo activity IDs"

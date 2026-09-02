@@ -59,6 +59,7 @@ batch_collection.log
 
 # Generated 2024 snapshot data. Commit manifests and documentation, not payloads.
 /data/raw/2024/mongodb/*/
+/data/raw/2024/mongodb_activity_ids/*/
 /data/staging/**
 !/data/staging/README.md
 /data/curated/2024/**

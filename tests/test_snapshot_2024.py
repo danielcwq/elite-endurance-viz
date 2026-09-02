@@ -150,8 +150,8 @@ class SnapshotToolTests(unittest.TestCase):
             def __init__(self):
                 self.calls = []
 
-            def find(self, query):
-                self.calls.append(query)
+            def find(self, query, projection=None):
+                self.calls.append((query, projection))
                 if len(self.calls) == 1:
                     return FakeCursor([{"_id": 1, "value": "a"}, {"_id": 2, "value": "b"}], True)
                 return FakeCursor([{"_id": 2, "value": "b"}, {"_id": 3, "value": "c"}])
@@ -168,7 +168,7 @@ class SnapshotToolTests(unittest.TestCase):
 
         self.assertEqual(row_count, 3)
         self.assertEqual(ids, ["1", "2", "3"])
-        self.assertEqual(collection.calls[1], {"_id": {"$gt": 1}})
+        self.assertEqual(collection.calls[1], ({"_id": {"$gt": 1}}, None))
 
 
 if __name__ == "__main__":
