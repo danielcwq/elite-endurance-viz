@@ -289,7 +289,7 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 
 ## P1.1 Analytical question and cohorts
 
-- [ ] Frame the primary question: “How did publicly observable 2024 training patterns differ across elite running disciplines and performance levels?”
+- [ ] [PARTIAL] Frame the primary question: first approved comparison is observed 2024 training in 800m versus 1500m. The broader performance-level question remains pending.
 - [ ] [PARTIAL] Reuse the existing 1,100 World Athletics point threshold, but document why it was chosen and how it affects selection.
 - [ ] Define event groups such as middle distance, track distance, road distance, and marathon.
 - [ ] Use the P0 primary-discipline rule to assign each athlete to a default cohort.
@@ -300,7 +300,7 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] Publish inclusion, exclusion, and low-coverage counts.
 - [ ] Predefine analysis questions and metrics before interpreting results.
 
-Decision checkpoint: agree on the first event comparison with Daniel before implementing analytical cohort groupings. Existing P0 categories are source metadata, not an approved P1 analysis design. Performance bands and sex stratification remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
+Decision checkpoint: 800m versus 1500m is approved. Agree on usable-week inclusion (P0 score alone versus an additional 26/39-week floor), sex stratification, and initial metrics before calculating comparative training outcomes. Performance bands remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
 
 ## P1.2 Athlete training fingerprint
 

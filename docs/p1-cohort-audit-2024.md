@@ -6,11 +6,40 @@ Reproduce: `.venv/bin/python scripts/audit_cohorts_2024.py`
 
 This is planning evidence, not a finalized analysis protocol. No training outcomes are compared here.
 
+Daniel selected 800m versus 1500m as the first comparison. Readiness tables use the existing P0 eligibility and usable-week flags; these are reference counts pending approval of the analysis protocol. A usable week has collection evidence with no recorded contradiction and is a full calendar week. This does not guarantee that all training was publicly posted. Missing and warning weeks are not imputed. Rolling windows require four consecutive usable weeks under P0 rules.
+
 Registry: **3,609** unique athletes. P0 coverage-eligible: **585**. Eligible with an assigned primary event: **584**. Excluded by coverage: **3,024**. Coverage-eligible but missing an event: **1**.
 
 Counts use one directory row per athlete and the existing P0 primary-event assignment. Eligible means the stored P0 high/moderate coverage flag; it does not establish representativeness or complete training capture. Recorded sex comes from the existing source classification.
 
 Score bands below are provisional 50-point bins for inspecting sample sizes. They are not approved performance tiers. Scores use the maximum results score within the assigned primary discipline. The source performances have already been selected at 1,100 points or above; this dataset alone cannot estimate what was excluded below that threshold.
+
+## Selected comparison: 800m versus 1500m — coverage readiness
+
+| event | recorded sex | athletes | minimum usable weeks | candidate 26 week floor | candidate 39 week floor | median usable weeks | maximum usable weeks | warning athlete weeks | minimum rolling windows |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1500m | female | 44 | 12 | 43 | 39 | 49.0 | 52 | 129 | 6 |
+| 1500m | male | 109 | 13 | 107 | 103 | 49.0 | 52 | 381 | 6 |
+| 800m | female | 32 | 13 | 30 | 27 | 49.5 | 52 | 134 | 6 |
+| 800m | male | 76 | 9 | 73 | 69 | 48.0 | 52 | 288 | 4 |
+
+## Selected comparison: run measurement availability in usable weeks
+
+| event | recorded sex | run activities | missing distance | zero distance | missing duration | warning activities |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1500m | female | 3773 | 0 | 0 | 0 | 41 |
+| 1500m | male | 23696 | 8 | 0 | 0 | 285 |
+| 800m | female | 4526 | 1 | 0 | 0 | 73 |
+| 800m | male | 15328 | 15 | 0 | 0 | 231 |
+
+## Selected comparison: athletes with performances in both events
+
+| assigned event | recorded sex | eligible athletes with both events |
+| --- | --- | --- |
+| 1500m | female | 17 |
+| 1500m | male | 23 |
+| 800m | female | 6 |
+| 800m | male | 10 |
 
 ## Coverage inventory
 

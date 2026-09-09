@@ -13,6 +13,53 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def audit(database: Path) -> str:
     sections = [
+        ("Selected comparison: 800m versus 1500m — coverage readiness", """
+            WITH per_athlete AS (
+                SELECT d.athlete_id, d.primary_discipline, d.gender,
+                       count(*) FILTER (WHERE w.is_complete_enough_week) AS usable_weeks,
+                       count(*) FILTER (WHERE w.coverage_status = 'observed_with_warning') AS warning_weeks,
+                       count(*) FILTER (WHERE w.rolling_4w_average_run_distance_meters IS NOT NULL) AS rolling_windows
+                FROM athlete_directory_2024 d
+                JOIN weekly_training_2024 w USING (athlete_id)
+                WHERE d.default_cohort_eligible AND d.primary_discipline IN ('800m', '1500m')
+                GROUP BY d.athlete_id, d.primary_discipline, d.gender
+            )
+            SELECT primary_discipline AS event, gender AS recorded_sex,
+                   count(*) AS athletes, min(usable_weeks) AS minimum_usable_weeks,
+                   count(*) FILTER (WHERE usable_weeks >= 26) AS candidate_26_week_floor,
+                   count(*) FILTER (WHERE usable_weeks >= 39) AS candidate_39_week_floor,
+                   median(usable_weeks) AS median_usable_weeks,
+                   max(usable_weeks) AS maximum_usable_weeks,
+                   sum(warning_weeks) AS warning_athlete_weeks,
+                   min(rolling_windows) AS minimum_rolling_windows
+            FROM per_athlete GROUP BY 1,2 ORDER BY 1,2
+        """),
+        ("Selected comparison: run measurement availability in usable weeks", """
+            SELECT d.primary_discipline AS event, d.gender AS recorded_sex,
+                   count(*) AS run_activities,
+                   count(*) FILTER (WHERE a.distance_meters IS NULL) AS missing_distance,
+                   count(*) FILTER (WHERE a.distance_meters = 0) AS zero_distance,
+                   count(*) FILTER (WHERE coalesce(a.moving_seconds, a.elapsed_seconds) IS NULL) AS missing_duration,
+                   count(*) FILTER (WHERE a.quality_status = 'warning') AS warning_activities
+            FROM athlete_directory_2024 d
+            JOIN activities_2024 a USING (athlete_id)
+            JOIN weekly_training_2024 w ON w.athlete_id = a.athlete_id AND w.week_start_utc = a.week_start_utc
+            WHERE d.default_cohort_eligible AND d.primary_discipline IN ('800m', '1500m')
+                  AND w.is_complete_enough_week AND a.activity_category = 'Run'
+            GROUP BY 1,2 ORDER BY 1,2
+        """),
+        ("Selected comparison: athletes with performances in both events", """
+            WITH both_events AS (
+                SELECT athlete_id FROM performances_2024
+                WHERE discipline IN ('800m', '1500m') GROUP BY athlete_id
+                HAVING count(DISTINCT discipline) = 2
+            )
+            SELECT d.primary_discipline AS assigned_event, d.gender AS recorded_sex,
+                   count(*) AS eligible_athletes_with_both_events
+            FROM athlete_directory_2024 d JOIN both_events USING (athlete_id)
+            WHERE d.default_cohort_eligible AND d.primary_discipline IN ('800m', '1500m')
+            GROUP BY 1,2 ORDER BY 1,2
+        """),
         ("Coverage inventory", """
             SELECT coalesce(coverage_status, 'missing summary') AS coverage,
                    count(*) AS athletes,
@@ -67,6 +114,11 @@ def audit(database: Path) -> str:
             f"Database SHA-256: `{hashlib.sha256(database.read_bytes()).hexdigest()}`", "",
             "Reproduce: `.venv/bin/python scripts/audit_cohorts_2024.py`", "",
             "This is planning evidence, not a finalized analysis protocol. No training outcomes are compared here.", "",
+            "Daniel selected 800m versus 1500m as the first comparison. Readiness tables use the existing "
+            "P0 eligibility and usable-week flags; these are reference counts pending approval of the analysis protocol. "
+            "A usable week has collection evidence with no recorded contradiction and is a full calendar week. "
+            "This does not guarantee that all training was publicly posted. Missing and warning weeks are not imputed. "
+            "Rolling windows require four consecutive usable weeks under P0 rules.", "",
             f"Registry: **{total:,}** unique athletes. P0 coverage-eligible: **{eligible:,}**. "
             f"Eligible with an assigned primary event: **{assigned:,}**. "
             f"Excluded by coverage: **{total - eligible:,}**. "
