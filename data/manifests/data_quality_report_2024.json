@@ -1,0 +1,90 @@
+{
+  "check_count": 16,
+  "checks": [
+    {
+      "detail": "139887 unique IDs across 139887 rows",
+      "name": "unique_activity_ids",
+      "status": "pass"
+    },
+    {
+      "detail": "678 unique provider/account keys across 678 rows",
+      "name": "unique_external_accounts",
+      "status": "pass"
+    },
+    {
+      "detail": "Every activity athlete_id resolves to athletes",
+      "name": "activity_athlete_foreign_keys",
+      "status": "pass"
+    },
+    {
+      "detail": "Every activity provider/account pair resolves to athlete_external_accounts",
+      "name": "activity_account_foreign_keys",
+      "status": "pass"
+    },
+    {
+      "detail": "Every performance athlete_id resolves to athletes",
+      "name": "performance_athlete_foreign_keys",
+      "status": "pass"
+    },
+    {
+      "detail": "0 unparseable activity timestamps",
+      "name": "required_timestamps_parse",
+      "status": "pass"
+    },
+    {
+      "detail": "All activity starts are inside the half-open 2024 UTC window",
+      "name": "activity_snapshot_window",
+      "status": "pass"
+    },
+    {
+      "detail": "{'distance_meters': 0, 'elapsed_seconds': 0, 'moving_seconds': 0}",
+      "name": "nonnegative_activity_measurements",
+      "status": "pass"
+    },
+    {
+      "detail": "Canonical categories are valid, swim distance is suppressed, and pace has positive distance",
+      "name": "canonical_units_and_categories",
+      "status": "pass"
+    },
+    {
+      "detail": "191277 unique coverage athlete-weeks",
+      "name": "unique_coverage_keys",
+      "status": "pass"
+    },
+    {
+      "detail": "191277 unique analytical athlete-weeks",
+      "name": "unique_weekly_keys",
+      "status": "pass"
+    },
+    {
+      "detail": "Coverage and weekly tables have identical keys",
+      "name": "coverage_weekly_key_alignment",
+      "status": "pass"
+    },
+    {
+      "detail": "Inactive missing/unknown weeks retain null analytical values",
+      "name": "missing_is_not_zero",
+      "status": "pass"
+    },
+    {
+      "detail": "{'activity_run_distance_meters': 1184622339.8260002, 'weekly_run_distance_meters': 1184622339.8259997, 'summary_run_distance_meters': 1184622339.826, 'run_distance_max_absolute_difference_meters': 4.76837158203125e-07, 'activity_unique_count': 139887, 'weekly_activity_count': 139887, 'summary_activity_count': 139887, 'activity_count_reconciles': True}",
+      "name": "activity_weekly_summary_reconciliation",
+      "status": "pass"
+    },
+    {
+      "detail": "Canonical performance rows contain one discipline and mark per row",
+      "name": "normalized_performance_representation",
+      "status": "pass"
+    },
+    {
+      "detail": "actual={'athlete_rows': 3609, 'external_account_rows': 678, 'performance_rows': 5305, 'activity_rows': 139887, 'coverage_rows': 191277, 'weekly_rows': 191277}, expected={'athlete_rows': 3609, 'external_account_rows': 678, 'performance_rows': 5305, 'activity_rows': 139887, 'coverage_rows': 191277, 'weekly_rows': 191277, 'minimum_default_cohort_athletes': 585}, default_cohort=585",
+      "name": "row_count_and_coverage_regression",
+      "status": "pass"
+    }
+  ],
+  "dataset": "enduranceviz-2024",
+  "failure_count": 0,
+  "generated_at_utc": "2026-09-09T01:43:40Z",
+  "specification_version": "1.0.0",
+  "status": "pass"
+}

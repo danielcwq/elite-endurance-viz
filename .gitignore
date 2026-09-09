@@ -56,3 +56,15 @@ strava_login.log
 iaaf_update.log
 new_log.log
 batch_collection.log
+
+# Generated 2024 snapshot data. Commit manifests and documentation, not payloads.
+/data/raw/2024/mongodb/*/
+/data/raw/2024/mongodb_activity_ids/*/
+/data/staging/**
+!/data/staging/README.md
+/data/curated/2024/**
+!/data/curated/2024/README.md
+/data/derived/2024/**
+!/data/derived/2024/README.md
+/data/quarantine/2024/**
+!/data/quarantine/2024/README.md

@@ -1,0 +1,18 @@
+{
+  "build_id": "1049e947-759c-54b6-aba6-4e4ed876457b",
+  "completed_at_utc": "2026-09-09T01:43:38Z",
+  "counts": {
+    "activities_2024": 139887,
+    "athlete_external_accounts": 678,
+    "athlete_summary_2024": 3609,
+    "athletes": 3609,
+    "import_manifest": 292,
+    "performances_2024": 5305,
+    "quarantined_records": 10733,
+    "weekly_training_2024": 191277
+  },
+  "database": "data/derived/2024/enduranceviz_2024.duckdb",
+  "dataset": "enduranceviz-2024",
+  "source_commit": "85a5564921ca8f20c6a5c88285ab17dd07a0beeb",
+  "specification_version": "1.0.0"
+}

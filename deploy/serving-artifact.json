@@ -1,0 +1,9 @@
+{
+  "artifact": "enduranceviz_2024.duckdb",
+  "bytes": 70266880,
+  "packaged_at_utc": "2026-09-09T01:43:39.826349+00:00",
+  "sha256": "047931ce47ea65940011137109b81b73248abd8f4bff33ca54d3c355ed8a970c",
+  "specification_version": "1.0.0",
+  "dataset_completed_at_utc": "2026-09-08T21:43:38-04:00",
+  "source_commit": "85a5564921ca8f20c6a5c88285ab17dd07a0beeb"
+}

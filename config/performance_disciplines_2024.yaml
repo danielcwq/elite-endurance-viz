@@ -1,0 +1,46 @@
+version: 1
+
+primary_discipline_rule:
+  order:
+    - highest_2024_results_score
+    - most_2024_performances_in_discipline
+    - canonical_discipline_name_ascending
+  note: All ties are deterministic. Primary discipline is descriptive and does not discard other performances.
+
+disciplines:
+  800m:
+    canonical_name: 800m
+    group: middle_distance
+  1500m:
+    canonical_name: 1500m
+    group: middle_distance
+  3000m Steeple:
+    canonical_name: 3000m Steeplechase
+    group: track_distance
+  5000m:
+    canonical_name: 5000m
+    group: track_distance
+  10000m:
+    canonical_name: 10000m
+    group: track_distance
+  5k Road:
+    canonical_name: 5 km Road
+    group: road_distance
+  10k Road:
+    canonical_name: 10 km Road
+    group: road_distance
+  10M Road:
+    canonical_name: 10 Mile Road
+    group: road_distance
+  15k Road:
+    canonical_name: 15 km Road
+    group: road_distance
+  20k Road:
+    canonical_name: 20 km Road
+    group: road_distance
+  Half:
+    canonical_name: Half Marathon
+    group: road_distance
+  Full:
+    canonical_name: Marathon
+    group: road_distance

@@ -1,0 +1,95 @@
+dataset:
+  name: enduranceviz-2024
+  specification_version: 1.0.0
+  description: Publicly observable training and performance data for elite endurance athletes in 2024.
+
+window:
+  start_inclusive_utc: "2024-01-01T00:00:00Z"
+  end_exclusive_utc: "2025-01-01T00:00:00Z"
+  activity_assignment: start_timestamp
+  week_start_day: Monday
+  week_timezone: UTC
+
+units:
+  distance: meter
+  duration: second
+  timestamp: UTC
+  pace: seconds_per_kilometer
+
+activity_categories:
+  Run:
+    - Run
+    - TrailRun
+    - VirtualRun
+  Ride:
+    - Ride
+    - VirtualRide
+    - MountainBikeRide
+    - EMountainBikeRide
+    - EBikeRide
+    - GravelRide
+  Swim:
+    - Swim
+  Other:
+    default: true
+
+activity_validation:
+  duplicate_distance_absolute_tolerance_meters: 20
+  duplicate_distance_relative_tolerance: 0.005
+  moving_elapsed_absolute_tolerance_seconds: 5
+  moving_elapsed_relative_tolerance: 0.01
+  maximum_elapsed_seconds: 604800
+  maximum_run_distance_meters: 500000
+  maximum_ride_distance_meters: 1000000
+  legacy_swim_distance_policy: null_until_source_units_recovered
+
+weeks:
+  observed_week: A successful athlete-week collection record exists, whether or not an activity was returned.
+  active_week: At least one included public activity starts in the athlete-week.
+  missing_week: No successful athlete-week collection record exists; absence of activities alone is not evidence of zero training.
+  complete_enough_week: The week is observed, spans seven days entirely inside the snapshot window, was collected after it ended, and has no collection or parsing error.
+
+source_scope:
+  statement: The snapshot contains publicly observable Strava activities and public World Athletics results; it is not a complete training history.
+  zero_activity_policy: Never infer zero training from a missing collection observation.
+  activity_files:
+    - indiv_activities_full.csv
+    - data/raw/2024/reconciled/20260902T190000Z/production_only_activities.csv
+  manifest_files:
+    - data/manifests/repository_csv_snapshot_2026-09-02.csv
+    - data/manifests/mongodb_activity_supplement_20260902T190000Z.csv
+
+analytics:
+  full_calendar_weeks: 52
+  partial_week_start_utc: "2024-12-30"
+  coverage_score:
+    observed_breadth_weight: 0.7
+    evidence_consistency_weight: 0.3
+    high_minimum: 90
+    moderate_minimum: 75
+    low_minimum: 50
+    default_cohort_minimum: 75
+  strength_activity_types:
+    - WeightTraining
+    - HighIntensityIntervalTraining
+    - Crossfit
+    - Workout
+    - Pilates
+  rolling_window_weeks: 4
+  rolling_missing_policy: Require four complete-enough weeks; otherwise the rolling value is null.
+  long_run_share_definition: Longest run distance divided by total run distance in the athlete-week.
+
+quality_baseline:
+  athlete_rows: 3609
+  external_account_rows: 678
+  performance_rows: 5305
+  activity_rows: 139887
+  coverage_rows: 191277
+  weekly_rows: 191277
+  minimum_default_cohort_athletes: 585
+
+expected_mongodb_collections:
+  - activities
+  - athlete_metadata
+  - master_iaaf
+  - update_logs

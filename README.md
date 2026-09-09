@@ -1,31 +1,61 @@
-This is an effort to map out and visualise elite endurance athletes' race (and training) performances. 
+# EnduranceViz: the 2024 snapshot
 
-Previously, this was done in the lead up to the Paris Olympics. Please check out OLY24 Pred and README-OLY.md for more details.
+EnduranceViz is a reproducible study of publicly observable 2024 training among elite endurance runners. It combines public World Athletics results with public Strava activities, resolves both to stable internal athlete IDs, and serves coverage-aware metrics from a canonical analytical model.
 
-### The Problem
+This is a fixed historical snapshot—not a live training tracker and not a claim to represent anyone's complete training history.
 
-Strava is a great tool for posting workouts and seeing workouts of what other people have done. However, what if we want to keep track of elite athletes only, and the workouts that they have completed? 
+## Current dataset
 
-Strava doesn’t offer an automated way for this — sports fanatics would have to find their favourite elite by searching through the search bar manually, and then scroll to see his or her workout. 
+- Window: `2024-01-01T00:00:00Z` through, but excluding, `2025-01-01T00:00:00Z`
+- Athletes: 3,609 World Athletics identities
+- Resolved Strava accounts: 678
+- Canonical performances: 5,305
+- Canonical activities: 139,887 after removing 10,671 duplicate extras and quarantining 62 invalid/window rows
+- Default coverage-qualified cohort: 585 athletes (499 high, 86 moderate)
+- Canonical engine: Parquet plus DuckDB
+- Dataset specification: `1.0.0`
 
-Elite endurance visualisation aims to present all elite athletes’ workouts in a synchronised dashboard, allowing amateurs to learn from the best: by seeing the whole approach that elites take, beyond individual “miracle” workouts. 
+The live Mongo collections, notebooks, and CSV summary columns are not the analytical source of truth. A sealed Mongo export was reconciled once; its 3,550 repository-missing rows are retained as a manifested supplemental input, while the application serves only rebuilt canonical tables.
 
-This repo consists of Jupyter notebooks and CSV files. You can access the webapp [here](https://elite-endurance-viz.vercel.app/). Suggestions are welcome!
+## Rebuild locally
 
-### The Pipeline
+Python 3.12 is recommended.
 
-1. Getting Elites 
-    1. Right now, my focus is on *distance running*. The way that we can do this for distance runners is to utilise IAAF scorings to determine what kind of effort is considered “elite”. For the purposes of collecting more data rather than lesser data, we will be setting the threshold at an arbitrary 1100 IAAF points. 
-        1. Further given that there were no major track races from end OLY to now, we should be focusing on road races. Will not update the list of athletes from 800m to 10k, but will combine the code into scrape_athletes_master. 
-        2. In addition, the shorter the distance gets, the more important form training plays a role (as compared to longer distances where mileage is king). So we steer away from any sprint events from 100-400m. 
-    2. Previously, when I’d obtained the results from IAAF, they had a cutoff of late Aug ‘24. As a result, we would want to make sure to constantly update our list, or have some way to constantly check back on new results. New cutoff would be 29 Oct ‘24, without repeated athletes. 
-        1. In the production code, need to ensure that there are constant checks with IAAF, preferably every week. (to do for VM) 
-        2. Indoor performances are rated higher than outdoor performances while the raw running capabilities 
-2. Getting Elites’ Training Data.
-    1. If there is no public data available for a majority of athletes, then we would have to expand that boundary from 1100 IAAF points to lower, perhaps 1000 IAAF points. 
-    2. The main means through which we will get data from is from publicly available workouts through Strava. 
-        1. Once the list of athletes have been retrieved in (1), we need to check how many athletes actually have (a) accounts on strava, (b) public accounts that we can get the workout information from and (c) as a post-processing step acknowledging that not all of these athletes post regularly. 
-3. Grabbing athletes’ workouts (what we’ve all been waiting for)
-    1. Grab athlete ID 
-    2. Process JSON to extract workout metadata and ID 
-    3. Loop into each workout ID to extract lap data, HR (if available), power (if available) and other high-granularity variables
+```bash
+uv venv --python 3.12
+uv pip install --python .venv/bin/python -r requirements-pipeline.txt
+.venv/bin/python scripts/pipeline_2024.py build
+.venv/bin/python scripts/package_serving_artifact.py
+```
+
+Standard `python3 -m venv .venv` plus `.venv/bin/python -m pip install -r requirements-pipeline.txt` is equivalent when the Python installation bundles `pip`. `requirements.txt` deliberately contains only web-runtime dependencies so Vercel does not package the analytics toolchain.
+
+That one command rebuilds curated observations, coverage-aware weekly and athlete tables, a quality report, and the atomic local serving database at `data/derived/2024/enduranceviz_2024.duckdb`. It needs no production, MongoDB, World Athletics, or Strava credentials because the repository inputs are already snapshotted and manifested.
+
+Run individual stages when iterating:
+
+```bash
+.venv/bin/python scripts/pipeline_2024.py validate
+.venv/bin/python scripts/pipeline_2024.py serve
+.venv/bin/python main.py
+```
+
+The application queries DuckDB read-only. It prefers the locally rebuilt file under `data/derived/2024/`, then falls back to the checksummed copy under `deploy/`. Set `ENDURANCEVIZ_DB_PATH` to use an equivalent built artifact elsewhere.
+
+The `data/` deployment guardrail remains intact: `.vercelignore` excludes the entire raw, staged, curated, and derived tree. Only the immutable serving database and its checksum manifest are allowlisted into the Vercel function from `deploy/`.
+
+## Data model and methods
+
+- [2024 dataset specification](docs/data-specification-2024-v1.md)
+- [Data dictionary](docs/data-dictionary-2024.md)
+- [Methods, lineage, and limitations](docs/methodology-2024.md)
+- [Example passing quality report](docs/example-data-quality-report-2024.md)
+- [P0/P1 roadmap](TODO.md)
+
+## Public application behavior
+
+Athletes are routed and joined by persistent UUID, not by display name. Search is server-side, activity pages retrieve at most 30 projected rows at a time, and public counts come from canonical deduplicated tables. Every profile displays snapshot version, build date, coverage score/status, and explicit observed-week versus calendar-week metrics.
+
+## Historical work
+
+`OLY24 Pred/`, `README-OLY.md`, and the notebooks under `Get_Data/` preserve the original Olympic prediction and data-collection research. They are useful precedent, but none is required to rebuild or serve the 2024 snapshot.
