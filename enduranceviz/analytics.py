@@ -129,7 +129,11 @@ def build_coverage(
     accounts: pd.DataFrame,
     activities: pd.DataFrame,
     selected_evidence: pd.DataFrame,
+    *,
+    empty_policy: str = "legacy_v1",
 ) -> pd.DataFrame:
+    if empty_policy not in {"legacy_v1", "unknown"}:
+        raise ValueError(f"Unknown empty-record policy: {empty_policy}")
     account_to_athlete = accounts.set_index("external_account_id")["athlete_id"].to_dict()
     evidence = selected_evidence.copy()
     evidence["athlete_id"] = evidence["external_account_id"].map(account_to_athlete)
@@ -158,6 +162,11 @@ def build_coverage(
                 if not no_data and not activity_count:
                     errors.add("SUMMARY_ACTIVITY_CONTRADICTION")
                 observation_status = "observed"
+                if empty_policy == "unknown" and no_data:
+                    # The historical collector emitted this row on exceptions as
+                    # well as empty results. Its existence cannot prove success.
+                    observation_status = "unknown"
+                    errors.add("AMBIGUOUS_LEGACY_NO_DATA")
                 source = "|".join(sorted(group["evidence_source"].unique()))
                 completed = pd.to_datetime(
                     group["collection_completed_at_utc"], utc=True, errors="coerce"
@@ -210,6 +219,8 @@ def build_weekly_training(
     activities: pd.DataFrame,
     strength_types: set[str],
     rolling_window_weeks: int = 4,
+    *,
+    synthesize_observed_zeros: bool = True,
 ) -> pd.DataFrame:
     activity = activities.copy()
     activity["effective_duration"] = _duration(activity)
@@ -265,7 +276,7 @@ def build_weekly_training(
     for row in coverage.to_dict("records"):
         key = (row["athlete_id"], row["week_start_utc"])
         metrics = aggregated.get(key)
-        if metrics is None and row["observation_status"] == "observed":
+        if metrics is None and row["observation_status"] == "observed" and synthesize_observed_zeros:
             metrics = {column: 0 if column in count_columns or column not in {"longest_run_meters", "long_run_share", "swim_distance_meters", "cross_training_share"} else None for column in metric_columns}
         output = {
             "athlete_id": row["athlete_id"],

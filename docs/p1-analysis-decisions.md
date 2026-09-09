@@ -38,6 +38,8 @@ Historical candidate floors (withdrawn; retained here to explain the earlier dis
 
 Withdrawn after discussion: 26 and 39 were fractions of a year, not evidence-derived thresholds. We have not selected an annual training question, and P0's week score confuses ambiguous empty collections with successful observations. These floors should not drive P1 inclusion. The [collection/posting audit](p1-observability-audit-2024.md) now considers every athlete assigned to the two events, with no coverage cutoff.
 
+Clarification: there is no requirement to choose any fraction of a year. Decide the study question and time window first, then evaluate the observations needed for that question. The current collection correction needs no analytical cutoff or athlete-exclusion decision.
+
 The readiness audit also finds 24 runs with missing distance within usable weeks. Existing P0 weekly aggregation fills missing run distance with zero. A P1 volume measure should mark affected athlete-weeks as incomplete for distance, or explicitly label their totals as lower bounds; do not treat these as complete distance measurements. Counts above precede metric-specific exclusions. Activity counts may still be usable when distance is unavailable.
 
 Earlier protocol suggestions, also not approved and pending the evidence audit:
@@ -61,4 +63,4 @@ Earlier protocol suggestions, also not approved and pending the evidence audit:
 
 The read-only P1 evidence layer distinguishes ambiguous empty records, activity-backed records, source warnings, activities without weekly records, and no evidence. It retains actual activities irrespective of source-warning status. It does not infer true training completeness, posting intentions, or cohort eligibility. A no-run count is a count of stored records, not zero training.
 
-The first event pair is approved; production data, deployed UI, performance tiers, and analytical inclusion policies have not been changed for P1. The P0 pipeline still needs a separately validated ambiguous-zero correction before its weekly summaries can be reused as P1 analytical truth.
+The first event pair is approved; production data, deployed UI, performance tiers, and analytical inclusion policies have not been changed for P1. An [opt-in correction is locally verified](p1-evidence-correction-2024.md) with `scripts/build_p1_evidence_2024.py`; it rebuilds only local, Git-ignored weekly evidence and metrics. It does not replace the packaged P0 database or recompute annual summaries/cohort eligibility. Neither the old summaries nor this draft's retained metric formulas are approved P1 comparison measures.
