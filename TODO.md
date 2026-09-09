@@ -310,19 +310,19 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 ## P1.2 Athlete training fingerprint
 
 - [ ] [PARTIAL] Reuse the existing athlete profile route, search, season-best display, summary cards, and activity table as the shell.
-- [ ] Add a 2024 weekly volume timeline.
+- [x] Add a 2024 recorded-week running-distance timeline on athlete profiles, with missing measurements, source warnings, and the partial final week visible; verified locally on the P1 branch.
 - [ ] Add four-week rolling volume.
-- [ ] Add weekly run-frequency distribution.
+- [ ] [PARTIAL] Add weekly run-frequency distribution: Run-record count timeline and athlete median implemented; distribution view remains pending. Records are not labeled training sessions.
 - [ ] Add longest-run timeline and long-run share.
 - [ ] Add cross-training composition.
-- [ ] [PARTIAL] Add active days and double-session frequency: recorded UTC running days implemented and tested in the P1 metric layer; UI and a defensible session definition remain pending. Multiple Run records on one day do not establish double sessions.
+- [ ] [PARTIAL] Add active days and double-session frequency: recorded UTC running days implemented, tested, and shown in a profile timeline. A defensible session definition remains pending. Multiple Run records on one day do not establish double sessions.
 - [ ] Add consistency and variability measures.
 - [ ] Identify peak observed training periods.
-- [ ] Display structured 2024 season-best performances.
+- [x] Display structured 2024 season-best performances; existing canonical season-best cards are retained and browser-verified on the updated profile.
 - [ ] Display coverage and confidence beside every profile.
 - [ ] Add date and activity-category filters.
 - [ ] Add shareable chart state or stable filtered URLs.
-- [ ] Ensure missing data renders as missing, not zero.
+- [ ] [PARTIAL] Ensure missing data renders as missing, not zero: new profile timelines, medians, and no-record states verified; apply the invariant to remaining P1 metrics as they are added.
 
 ## P1.3 Cohort comparison
 

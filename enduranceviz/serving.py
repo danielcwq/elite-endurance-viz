@@ -9,6 +9,8 @@ from typing import Any
 
 import duckdb
 
+from enduranceviz.recorded_training import RECORDED_WEEK_METRICS_SQL
+
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL_DATABASE = ROOT / "data/derived/2024/enduranceviz_2024.duckdb"
@@ -190,3 +192,18 @@ class ServingRepository:
             "has_previous": page > 1,
             "has_next": has_next,
         }
+
+    @lru_cache(maxsize=128)
+    def recorded_weeks(self, athlete_id: str) -> tuple[dict[str, Any], ...]:
+        """53 bounded rows from actual records, scoped before metric aggregation."""
+        return tuple(self._query(
+            f"""WITH activities_2024 AS (
+                SELECT athlete_id, week_start_utc, activity_category, distance_meters, start_at_utc
+                FROM main.activities_2024 WHERE athlete_id=try_cast(? AS UUID)
+            ), data_coverage_2024 AS (
+                SELECT athlete_id, week_start_utc, is_partial_window, coverage_status,
+                    collection_error_code, evidence_source, observation_status
+                FROM main.data_coverage_2024 WHERE athlete_id=try_cast(? AS UUID)
+            ) SELECT * FROM ({RECORDED_WEEK_METRICS_SQL}) ORDER BY week_start_utc""",
+            [athlete_id, athlete_id],
+        ))

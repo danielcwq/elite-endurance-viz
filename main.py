@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from functools import lru_cache
 
 from fasthtml.common import *
@@ -11,6 +11,7 @@ from starlette.responses import JSONResponse, PlainTextResponse
 
 from enduranceviz.geography import COUNTRY_CENTROIDS, NON_GEOGRAPHIC_CODES
 from enduranceviz.serving import ServingRepository
+from enduranceviz.training_profile import TRAINING_PROFILE_CSS, training_section
 
 
 repository = ServingRepository()
@@ -20,6 +21,7 @@ app, rt = fast_app(
     # which is incompatible with Vercel's read-only function filesystem.
     secret_key=os.getenv("ENDURANCEVIZ_SESSION_SECRET", "enduranceviz-2024-read-only-snapshot"),
     hdrs=(
+        Style(TRAINING_PROFILE_CSS),
         Link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"),
         Link(
             rel="stylesheet",
@@ -105,6 +107,8 @@ def format_timestamp(value) -> str:
         return "Unknown"
     if isinstance(value, str):
         value = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if value.tzinfo is not None:
+        value = value.astimezone(timezone.utc)
     return value.strftime("%Y-%m-%d %H:%M UTC")
 
 
@@ -451,12 +455,13 @@ def get_athlete(athlete_id: str, page: int = 1):
     performances = repository.season_bests(athlete_id)
     activity_page = repository.activities(athlete_id, page=page, page_size=30)
     accounts = repository.external_accounts(athlete_id)
+    weeks = repository.recorded_weeks(athlete_id)
     strava = next((row for row in accounts if row["provider"] == "strava"), None)
     display_name = athlete["display_name"] or athlete["official_name"]
     previous_link = f"/athlete/{athlete_id}?page={page - 1}"
     next_link = f"/athlete/{athlete_id}?page={page + 1}"
-    return Titled(
-        f"{display_name} — EnduranceViz 2024",
+    return (
+        Title(f"{display_name} — EnduranceViz 2024"),
         Main(
             A("← Athlete search", href="/"),
             snapshot_banner(stats),
@@ -466,9 +471,7 @@ def get_athlete(athlete_id: str, page: int = 1):
             ),
             P(
                 f"{athlete['nationality_code'] or 'Nationality unknown'} · "
-                f"{athlete['primary_discipline'] or 'No primary 2024 discipline'} · "
-                f"{athlete['coverage_status'] or 'unknown'} coverage "
-                f"({athlete['coverage_score'] or 0:.1f}/100, {athlete['observed_weeks'] or 0} observed full weeks)",
+                f"{athlete['primary_discipline'] or 'No primary 2024 discipline'}",
                 cls="muted",
             ),
             H2("2024 season bests"),
@@ -484,21 +487,7 @@ def get_athlete(athlete_id: str, page: int = 1):
                 ],
                 cls="season-grid",
             ) if performances else P("No canonical 2024 performance rows."),
-            H2("Coverage-aware training summary"),
-            Div(
-                Div(Strong(format_metric(athlete["total_run_distance_meters"], 1000, " km")), Span("total run distance"), cls="metric"),
-                Div(Strong(format_metric(athlete["total_run_duration_seconds"], 3600, " h")), Span("total run duration"), cls="metric"),
-                Div(Strong(format_metric(athlete["average_run_distance_per_observed_week_meters"], 1000, " km")), Span("per observed week"), cls="metric"),
-                Div(Strong(format_metric(athlete["average_run_distance_per_calendar_week_meters"], 1000, " km")), Span("per 366/7 calendar week"), cls="metric"),
-                Div(Strong(format_metric(athlete["weighted_run_pace_seconds_per_kilometer"], 60, " min/km", 2)), Span("weighted public-run pace"), cls="metric"),
-                Div(Strong(f"{athlete['total_activity_count'] or 0:,}"), Span("unique activities"), cls="metric"),
-                cls="metric-grid",
-            ),
-            P(
-                "Metrics cover 2024-01-01T00:00:00Z through (but not including) 2025-01-01T00:00:00Z. "
-                "Missing collection is never interpreted as zero training.",
-                cls="muted",
-            ),
+            training_section(weeks),
             H2("2024 activities"),
             Div(
                 Table(
