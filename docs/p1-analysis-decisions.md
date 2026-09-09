@@ -52,6 +52,10 @@ Earlier protocol suggestions, also not approved and pending the evidence audit:
 
 ## Later checkpoints
 
+The [source and calendar audit](p1-source-conflicts-2024.md) traced all 611 conflicting full athlete-week keys in the chosen events. Most pair `No Data` with another summary; some contain the wrong date range, and some differ in displayed totals. No source warnings were silently cleared. Across all event-assigned athletes, 84 in 800m and 119 in 1500m have any stored 2024 Run. This is an observation inventory, not an eligible sample for a study. Monthly counts and gaps are documented without year-fraction filters.
+
+Next human checkpoint: choose the emphasis of the first comparison. A weekly-running-volume/run-frequency question needs a definition of which observed weeks can support those totals. A recorded-session-characteristics question has different measurement requirements and does not require an annual observation floor. These answer different questions; neither should be selected solely because it retains more athletes. The recommended starting question for the existing P1 training-fingerprint roadmap is weekly running volume and run frequency, with session-level exploration retained as supporting context. This recommendation is not yet approved.
+
 - Decide whether comparisons are primarily separated by recorded sex; show denominators for both either way. Half marathon has only six eligible female athletes.
 - Approve performance tier definitions. The audit's 50-point bands are sample-size diagnostics only; choose fixed bands, quantiles, or continuous scores before interpreting training differences.
 - Agree how to handle small cohorts, and distinguish descriptive summaries from inferential comparisons. Do not invent a universal sample-size threshold.

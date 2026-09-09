@@ -304,7 +304,8 @@ Decision checkpoint: 800m versus 1500m is approved. The 26/39-week proposal is w
 
 - [x] Add a reproducible [collection/posting audit](docs/p1-observability-audit-2024.md) that distinguishes ambiguous empty records from actual activity evidence and does not filter by P0 coverage eligibility.
 - [ ] [PARTIAL] Correct the legacy `No Data` interpretation: opt-in pipeline correction, regression tests, and [versioned local rebuild verified](docs/p1-evidence-correction-2024.md). Integration into P1 analytical serving remains pending; released P0 metrics remain unchanged.
-- [ ] Reconcile contradictory weekly source records and inspect activity calendars before proposing analytical inclusion rules.
+- [ ] [PARTIAL] Reconcile contradictory weekly source records: [all 611 conflict keys traced](docs/p1-source-conflicts-2024.md) for the selected events, with date errors, missing/positive disagreements, and differing totals separated. Actual activities retained; no unsupported source winner selected.
+- [x] Inspect month-by-month posting counts and within-year gaps for all 800m/1500m athletes without P0 eligibility filtering; see [source and calendar audit](docs/p1-source-conflicts-2024.md).
 
 ## P1.2 Athlete training fingerprint
 
