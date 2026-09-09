@@ -36,6 +36,15 @@ app, rt = fast_app(
             """
             :root { --max-width: 1120px; }
             body { padding-bottom: 4rem; }
+            .home-page { padding-top: 2rem; padding-bottom: 1rem; }
+            .home-brand { margin: 0 0 1.5rem; font-weight: 700; font-size: 1.1rem; }
+            .home-page h1 { margin: 1.5rem 0 .75rem; font-size: clamp(1.8rem, 4vw, 2.5rem); line-height: 1.15; max-width: 800px; }
+            .home-intro { max-width: 700px; margin-bottom: 1.25rem; }
+            .home-page h2 { margin: 2rem 0 1rem; font-size: 1.35rem; }
+            .home-page .metric { border-color: #cbd5df; }
+            .home-page .metric span { font-size: .875rem; }
+            .home-note { max-width: 800px; }
+            .home-page .map-panel h2 { margin-top: 0; }
             .snapshot-banner { background: #eef6ff; border: 1px solid #b9d7f5; padding: .75rem 1rem; border-radius: .5rem; }
             .explorer-controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .75rem; max-width: 920px; align-items: start; }
             .search-wrap { position: relative; min-width: 0; }
@@ -72,6 +81,8 @@ app, rt = fast_app(
               .map-details { max-height: none; }
             }
             @media (prefers-color-scheme: dark) {
+              .muted { color: #9cabb8; }
+              .home-page .metric { border-color: #394956; background: #13202a; }
               .snapshot-banner { background: #102b43; border-color: #28628f; }
               .search-results { background: #18232d; border-color: #394956; }
               .search-results a { border-color: #394956; }
@@ -173,15 +184,16 @@ def snapshot_metadata():
 @lru_cache(maxsize=1)
 def homepage():
     stats = repository.snapshot_stats()
-    return Titled(
-        "EnduranceViz — 2024 Snapshot",
+    return (
+        Title("EnduranceViz — 2024 Snapshot"),
         Main(
+            P("EnduranceViz", cls="home-brand"),
             snapshot_banner(stats),
             H1("Elite endurance training, observed in 2024"),
             P(
-                "Search the canonical athlete registry. Results and training summaries are "
-                "linked by stable internal IDs rather than athlete-name joins.",
-                cls="muted",
+                "Explore elite runners, their 2024 performances, and publicly observed training. "
+                "Search for an athlete or browse the map by nationality.",
+                cls="muted home-intro",
             ),
             Div(
                 Div(
@@ -384,21 +396,23 @@ def homepage():
                 countrySelect.addEventListener('change', () => showCountry(countrySelect.value));
                 """
             ),
-            H2("Snapshot inventory"),
+            H2("Inside the 2024 snapshot"),
             Div(
                 Div(Strong(f"{stats['athlete_count']:,}"), Span("athletes"), cls="metric"),
-                Div(Strong(f"{stats['strava_account_count']:,}"), Span("resolved Strava accounts"), cls="metric"),
+                Div(Strong(f"{stats['strava_account_count']:,}"), Span("linked Strava accounts"), cls="metric"),
                 Div(Strong(f"{stats['activity_count']:,}"), Span("unique 2024 activities"), cls="metric"),
-                Div(Strong(f"{stats['country_count']:,}"), Span("nationality codes"), cls="metric"),
+                Div(Strong(f"{stats['country_count']:,}"), Span("nationality / affiliation codes"), cls="metric"),
                 cls="metric-grid",
             ),
             H2("What the numbers mean"),
             P(
-                "Observed-zero weeks are distinct from missing weeks. Weekly and athlete totals are "
-                "recalculated from 139,887 deduplicated activities; old CSV summary totals are not served."
+                "Training coverage varies by athlete. A week with no collected data does not mean "
+                "an athlete did no training. Totals include unique activities observed in 2024; "
+                "they may not represent an athlete’s complete training history.",
+                cls="home-note muted",
             ),
             P(A("Dataset methods and limitations", href="https://github.com/danielcwq/elite-endurance-viz/blob/p0-2024-data-foundation/docs/data-specification-2024-v1.md")),
-            cls="container",
+            cls="container home-page",
         ),
     )
 
