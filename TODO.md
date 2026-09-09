@@ -289,7 +289,7 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 
 ## P1.1 Analytical question and cohorts
 
-- [ ] [PARTIAL] Frame the primary question: first approved comparison is observed 2024 training in 800m versus 1500m. The broader performance-level question remains pending.
+- [ ] [PARTIAL] Frame the primary question: approved event ladder leads with 800m versus 5000m, with 1500m context, 10000m extension, separate steeplechase, and cautious half-marathon exploration. The performance-level question remains pending.
 - [ ] [PARTIAL] Reuse the existing 1,100 World Athletics point threshold, but document why it was chosen and how it affects selection.
 - [ ] Define event groups such as middle distance, track distance, road distance, and marathon.
 - [ ] Use the P0 primary-discipline rule to assign each athlete to a default cohort.
@@ -300,7 +300,7 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] Publish inclusion, exclusion, and low-coverage counts.
 - [ ] Predefine analysis questions and metrics before interpreting results.
 
-Decision checkpoint: 800m versus 1500m is approved. The 26/39-week proposal is withdrawn. First audit collection reliability and posting patterns across all athletes in the selected events; then agree on the comparison window, inclusion, sex stratification, and metrics. Performance bands remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
+Decision checkpoint: the broader event ladder and exploratory recorded-week distance/frequency view are approved, with separate recorded-sex groups and one median summary per athlete. The 26/39-week proposal remains withdrawn. Final inclusion, inference, and performance bands remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
 
 - [x] Add a reproducible [collection/posting audit](docs/p1-observability-audit-2024.md) that distinguishes ambiguous empty records from actual activity evidence and does not filter by P0 coverage eligibility.
 - [ ] [PARTIAL] Correct the legacy `No Data` interpretation: opt-in pipeline correction, regression tests, and [versioned local rebuild verified](docs/p1-evidence-correction-2024.md). Integration into P1 analytical serving remains pending; released P0 metrics remain unchanged.
@@ -348,6 +348,7 @@ Decision checkpoint: 800m versus 1500m is approved. The 26/39-week proposal is w
   - Are 2024 performance tiers associated with different observed training patterns?
 - [ ] Write hypotheses before calculating final comparisons.
 - [ ] Produce cohort descriptive statistics.
+- [x] Produce the approved [exploratory recorded-week summaries](docs/p1-exploratory-training-2024.md), with separate sex groups, athlete-level weighting, measurement-specific denominators, and local distribution figures. Final study statistics remain pending above.
 - [ ] Visualize distributions, not just means.
 - [ ] Report uncertainty intervals and effect sizes.
 - [ ] Stratify or control for data coverage.

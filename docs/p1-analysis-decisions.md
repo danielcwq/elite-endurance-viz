@@ -1,6 +1,6 @@
 # P1 analysis decisions
 
-Status: first event comparison approved; annual-week cutoffs withdrawn. Audit collection evidence and posting patterns before proposing an inclusion protocol.
+Status: broader event-comparison plan approved; exploratory analysis resumed. Annual-week cutoffs remain withdrawn. Final inclusion and inference policies are not approved.
 
 ## Scope already agreed
 
@@ -22,6 +22,21 @@ Alternative: use broad groups for the initial study (middle distance, track dist
 
 Approved on 2026-09-09: Daniel accepted 800m versus 1500m as the first comparison. The initial question is how their publicly observed 2024 training patterns differ. Approval selects the two events; it does not approve new coverage thresholds, sex pooling, performance tiers, or statistical hypotheses.
 
+Updated on 2026-09-09: Daniel proposed a broader event ladder and then approved resuming analysis. The main comparison is now 800m versus 5000m; 1500m supplies context, 5000m versus 10000m extends the track comparison, steeplechase remains separate, and half marathon is a cautious extension. Do not pool steeplechase with 5000m or track 10000m with road 10 km. The study question is how publicly observed running volume, frequency, and session characteristics vary across these event specializations. This supersedes the earlier 800m/1500m-only starting plan.
+
+### First exploratory calculation, specified before inspecting training differences
+
+This is an exploratory description, not a confirmatory hypothesis test or a finalized study protocol. The event ladder and permission to begin are approved. Daniel also explicitly approved separate women's/men's panels, one median summary per athlete over recorded-running weeks, and visible posting coverage. The calculation definitions below were disclosed before inspecting training differences:
+
+- Retain the existing primary-event assignment, one row per athlete, and show recorded-sex groups separately rather than pooling them.
+- Count stored Run records. For weekly distance, sum recorded run distances only when every stored run in that week has a finite, nonnegative distance. Otherwise leave the whole-week distance unavailable and expose the measurement count. A recorded zero distance remains zero; a missing distance does not.
+- Summarize full Monday–Sunday UTC weeks with at least one recorded Run. These are **recorded-running-week** summaries, not a typical training week or annual training estimate. December 30–31 remains in annual record counts but not full-week summaries.
+- Within each athlete, calculate the median recorded-week run count and median measurement-complete recorded-week distance. Then show the distribution of those athlete summaries, giving each contributing athlete one entry. Frequency and distance may have different denominators; show both.
+- Apply no minimum annual run/week count and no P0 coverage eligibility filter. Retain source-warning weeks with real activities, count them separately, and do not interpret the absence of a warning as complete capture.
+- Report contributing athletes and weeks alongside the values. No p-values, confidence intervals, rankings, performance tiers, causal claims, or headline findings are approved by this exploratory pass.
+
+The main limitation is explicit: conditioning on recorded-running weeks, and on available distance measurements, can select different portions of different athletes' training. These summaries are for inspecting the data and refining the study, not asserting population differences in complete training.
+
 ## Superseded proposal: usable-week inclusion
 
 The selected comparison has 261 athletes under the P0 high/moderate coverage flag. The score combines 70% observed-week breadth with 30% usable/observed-week consistency. An observed week may carry a warning, so a score of 75 is not equivalent to 39 usable weeks. In this comparison the minimum is nine usable weeks, despite a median of 48–49.5 within the event/sex cells.
@@ -42,7 +57,7 @@ Clarification: there is no requirement to choose any fraction of a year. Decide 
 
 The readiness audit also finds 24 runs with missing distance within usable weeks. Existing P0 weekly aggregation fills missing run distance with zero. A P1 volume measure should mark affected athlete-weeks as incomplete for distance, or explicitly label their totals as lower bounds; do not treat these as complete distance measurements. Counts above precede metric-specific exclusions. Activity counts may still be usable when distance is unavailable.
 
-Earlier protocol suggestions, also not approved and pending the evidence audit:
+Historical protocol suggestions (superseded wherever the approved exploratory definitions above differ):
 
 - Show women and men in separate comparison panels (32/76 for 800m and 44/109 for 1500m before the additional floor), using the recorded source classification.
 - Start with each athlete's median weekly run distance and run-session count over usable full weeks. Give every athlete equal weight in cohort distributions rather than pooling all athlete-weeks.
@@ -54,9 +69,9 @@ Earlier protocol suggestions, also not approved and pending the evidence audit:
 
 The [source and calendar audit](p1-source-conflicts-2024.md) traced all 611 conflicting full athlete-week keys in the chosen events. Most pair `No Data` with another summary; some contain the wrong date range, and some differ in displayed totals. No source warnings were silently cleared. Across all event-assigned athletes, 84 in 800m and 119 in 1500m have any stored 2024 Run. This is an observation inventory, not an eligible sample for a study. Monthly counts and gaps are documented without year-fraction filters.
 
-Next human checkpoint: choose the emphasis of the first comparison. A weekly-running-volume/run-frequency question needs a definition of which observed weeks can support those totals. A recorded-session-characteristics question has different measurement requirements and does not require an annual observation floor. These answer different questions; neither should be selected solely because it retains more athletes. The recommended starting question for the existing P1 training-fingerprint roadmap is weekly running volume and run frequency, with session-level exploration retained as supporting context. This recommendation is not yet approved.
+The earlier focus checkpoint is superseded by approval of the broader event ladder and exploratory analysis above. Next, review the provisional recorded-week summaries and settle the final comparison estimand, inclusion policy, and presentation before publishing study conclusions. No annual-week cutoff is presumed.
 
-- Decide whether comparisons are primarily separated by recorded sex; show denominators for both either way. Half marathon has only six eligible female athletes.
+- Recorded-sex separation is approved for the exploratory view. Do not introduce pooled comparisons without revisiting that choice. Half marathon currently has three female contributors with recorded runs, not the six suggested by the legacy P0 eligibility count.
 - Approve performance tier definitions. The audit's 50-point bands are sample-size diagnostics only; choose fixed bands, quantiles, or continuous scores before interpreting training differences.
 - Agree how to handle small cohorts, and distinguish descriptive summaries from inferential comparisons. Do not invent a universal sample-size threshold.
 - Choose inclusion appropriate to the agreed question after the collection/posting audit; P0 eligibility is a historical diagnostic only.
@@ -67,4 +82,4 @@ Next human checkpoint: choose the emphasis of the first comparison. A weekly-run
 
 The read-only P1 evidence layer distinguishes ambiguous empty records, activity-backed records, source warnings, activities without weekly records, and no evidence. It retains actual activities irrespective of source-warning status. It does not infer true training completeness, posting intentions, or cohort eligibility. A no-run count is a count of stored records, not zero training.
 
-The first event pair is approved; production data, deployed UI, performance tiers, and analytical inclusion policies have not been changed for P1. An [opt-in correction is locally verified](p1-evidence-correction-2024.md) with `scripts/build_p1_evidence_2024.py`; it rebuilds only local, Git-ignored weekly evidence and metrics. It does not replace the packaged P0 database or recompute annual summaries/cohort eligibility. Neither the old summaries nor this draft's retained metric formulas are approved P1 comparison measures.
+The event ladder and exploratory view are approved; production data, deployed UI, performance tiers, and final analytical inclusion policies have not been changed for P1. An [opt-in correction is locally verified](p1-evidence-correction-2024.md) with `scripts/build_p1_evidence_2024.py`; it rebuilds only local, Git-ignored weekly evidence and metrics. It does not replace the packaged P0 database or recompute annual summaries/cohort eligibility. The [new exploratory calculation](p1-exploratory-training-2024.md) uses actual activity records, not P0 synthetic zeros or its annual summary formulas, and adds explicit distance-measurement completeness.
