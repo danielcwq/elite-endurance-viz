@@ -295,10 +295,12 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] Use the P0 primary-discipline rule to assign each athlete to a default cohort.
 - [ ] Define World Athletics score bands.
 - [ ] Use P0 coverage thresholds for default inclusion.
-- [ ] Audit cohort sizes before selecting comparisons.
-- [ ] Ensure one athlete appears only once in a single cohort analysis.
+- [x] Audit cohort sizes before selecting comparisons; see [initial P1 cohort audit](docs/p1-cohort-audit-2024.md) for event, recorded-sex, coverage, and provisional score-band counts.
+- [ ] [PARTIAL] Ensure one athlete appears only once in a single cohort analysis. The initial audit verifies unique directory IDs and one primary discipline; apply this invariant to subsequent analysis views.
 - [ ] Publish inclusion, exclusion, and low-coverage counts.
 - [ ] Predefine analysis questions and metrics before interpreting results.
+
+Decision checkpoint: agree on the first event comparison with Daniel before implementing analytical cohort groupings. Existing P0 categories are source metadata, not an approved P1 analysis design. Performance bands and sex stratification remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
 
 ## P1.2 Athlete training fingerprint
 
