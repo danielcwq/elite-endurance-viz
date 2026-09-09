@@ -42,6 +42,25 @@ class ServingRepository:
             columns = [description[0] for description in cursor.description]
             return [dict(zip(columns, row)) for row in cursor.fetchall()]
 
+    def health_metadata(self) -> dict[str, Any] | None:
+        """Fresh read-only readiness probe, deliberately outside all caches."""
+        rows = self._query('''
+            SELECT specification_version AS dataset_version, completed_at_utc AS build_time,
+                   status,
+                   EXISTS(SELECT 1 FROM athlete_directory_2024 LIMIT 1) AS has_athletes,
+                   EXISTS(SELECT 1 FROM activities_2024 LIMIT 1) AS has_activities,
+                   EXISTS(SELECT 1 FROM data_coverage_2024 LIMIT 1) AS has_coverage
+            FROM dataset_builds ORDER BY started_at_utc DESC, completed_at_utc DESC NULLS LAST
+            LIMIT 1
+        ''')
+        if not rows:
+            return None
+        row = rows[0]
+        if (row['status'] != 'succeeded' or not row['build_time'] or not row['dataset_version']
+                or not all(row[key] for key in ('has_athletes', 'has_activities', 'has_coverage'))):
+            return None
+        return {'dataset_version': row['dataset_version'], 'build_time': row['build_time']}
+
     @lru_cache(maxsize=1)
     def snapshot_stats(self) -> dict[str, Any]:
         return self._query(

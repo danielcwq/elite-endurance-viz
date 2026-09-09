@@ -37,6 +37,8 @@ The packaged-data check reuses the 16 P0 quality assertions and independently re
 
 GitHub Actions runs the same tests and packaged-data checks on P1/main pushes and pull requests. Its token is read-only; it has no deployment or external-database steps. See [developer checks and CI](docs/p1-developer-checks.md) for scope and limitations.
 
+On the P1 branch, `/health` probes the snapshot read-only and returns 200/503. Structured request logs include route patterns, status, duration, and request IDs, without raw request URLs or athlete data. `make run` disables the separate Uvicorn access log. See [operational observability](docs/p1-operational-observability.md) for the failure behavior and infrastructure-log boundary.
+
 ## Rebuild the P0 snapshot locally
 
 Python 3.12 is recommended.

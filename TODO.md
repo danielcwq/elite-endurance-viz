@@ -402,7 +402,7 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 - [ ] Publish before-and-after database-query measurements.
 - [ ] Publish before-and-after payload-size and page-latency measurements.
 - [ ] Run a permitted staging load test and publish the methodology and results.
-- [ ] Add structured logging and an application health endpoint.
+- [x] Add structured logging and an application health endpoint: read-only `/health` readiness, privacy-limited JSON request events, request IDs, and regression tests for failures/streaming/redaction; see [operational observability](docs/p1-operational-observability.md). Implemented on P1, not deployed to production.
 - [ ] Handle missing, excluded, low-coverage, and empty-cohort states intentionally.
 - [ ] Rewrite the README as a technical and analytical case study.
 - [ ] Add screenshots or a short demo walkthrough.

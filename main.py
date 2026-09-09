@@ -3,21 +3,26 @@
 from __future__ import annotations
 
 import os
+import duckdb
 from datetime import datetime, timezone
 from functools import lru_cache
 
 from fasthtml.common import *
 from starlette.responses import JSONResponse, PlainTextResponse
+from starlette.middleware import Middleware
 
 from enduranceviz.geography import COUNTRY_CENTROIDS, NON_GEOGRAPHIC_CODES
 from enduranceviz.activity_filters import ACTIVITY_FILTER_CSS, ActivityFilters, activity_filter_form
 from enduranceviz.serving import ServingRepository
 from enduranceviz.training_profile import TRAINING_PROFILE_CSS, training_section
+from enduranceviz.operations import RequestLogMiddleware
+from enduranceviz.recorded_training import POLICY_VERSION
 
 
 repository = ServingRepository()
 
 app, rt = fast_app(
+    middleware=[Middleware(RequestLogMiddleware)],
     # FastHTML otherwise writes a generated key to .sesskey during import,
     # which is incompatible with Vercel's read-only function filesystem.
     secret_key=os.getenv("ENDURANCEVIZ_SESSION_SECRET", "enduranceviz-2024-read-only-snapshot"),
@@ -102,6 +107,22 @@ app, rt = fast_app(
 # Keep FastHTML's ``app, rt`` construction for local development while exposing
 # an explicit ASGI application for the deployment runtime.
 application = app
+
+
+@rt('/health', methods=['GET'])
+def health():
+    try:
+        metadata = repository.health_metadata()
+    except (OSError, duckdb.Error):
+        metadata = None
+    if metadata is None:
+        return JSONResponse({'status': 'unavailable', 'component': 'snapshot'},
+                            status_code=503, headers={'Cache-Control': 'no-store'})
+    return JSONResponse({
+        'status': 'ok', 'dataset_version': metadata['dataset_version'],
+        'dataset_built_at_utc': metadata['build_time'].astimezone(timezone.utc).isoformat(),
+        'analytics_policy': POLICY_VERSION,
+    }, headers={'Cache-Control': 'no-store'})
 
 
 def format_timestamp(value) -> str:

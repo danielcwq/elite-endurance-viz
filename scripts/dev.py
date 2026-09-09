@@ -59,7 +59,7 @@ def main():
                 if args.command == 'check':
                     run([VENV_PYTHON, 'scripts/check_serving_2024.py'])
             else:
-                run([VENV_PYTHON, '-m', 'uvicorn', 'main:app', '--host', '127.0.0.1', '--port', '8000'])
+                run([VENV_PYTHON, '-m', 'uvicorn', 'main:app', '--host', '127.0.0.1', '--port', '8000', '--no-access-log'])
     except (RuntimeError, OSError, subprocess.CalledProcessError) as exc:
         print(f'error: {exc}', file=sys.stderr)
         return 1
