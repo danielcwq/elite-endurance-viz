@@ -26,8 +26,6 @@ def audit(database: Path) -> str:
             )
             SELECT primary_discipline AS event, gender AS recorded_sex,
                    count(*) AS athletes, min(usable_weeks) AS minimum_usable_weeks,
-                   count(*) FILTER (WHERE usable_weeks >= 26) AS candidate_26_week_floor,
-                   count(*) FILTER (WHERE usable_weeks >= 39) AS candidate_39_week_floor,
                    median(usable_weeks) AS median_usable_weeks,
                    max(usable_weeks) AS maximum_usable_weeks,
                    sum(warning_weeks) AS warning_athlete_weeks,
@@ -114,6 +112,8 @@ def audit(database: Path) -> str:
             f"Database SHA-256: `{hashlib.sha256(database.read_bytes()).hexdigest()}`", "",
             "Reproduce: `.venv/bin/python scripts/audit_cohorts_2024.py`", "",
             "This is planning evidence, not a finalized analysis protocol. No training outcomes are compared here.", "",
+            "The proposed 26/39-week cutoffs have been withdrawn. This report describes legacy P0 flags only; "
+            "see p1-observability-audit-2024.md for the collection/posting audit across all selected-event athletes.", "",
             "Daniel selected 800m versus 1500m as the first comparison. Readiness tables use the existing "
             "P0 eligibility and usable-week flags; these are reference counts pending approval of the analysis protocol. "
             "A usable week has collection evidence with no recorded contradiction and is a full calendar week. "

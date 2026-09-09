@@ -300,7 +300,11 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] Publish inclusion, exclusion, and low-coverage counts.
 - [ ] Predefine analysis questions and metrics before interpreting results.
 
-Decision checkpoint: 800m versus 1500m is approved. Agree on usable-week inclusion (P0 score alone versus an additional 26/39-week floor), sex stratification, and initial metrics before calculating comparative training outcomes. Performance bands remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
+Decision checkpoint: 800m versus 1500m is approved. The 26/39-week proposal is withdrawn. First audit collection reliability and posting patterns across all athletes in the selected events; then agree on the comparison window, inclusion, sex stratification, and metrics. Performance bands remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
+
+- [x] Add a reproducible [collection/posting audit](docs/p1-observability-audit-2024.md) that distinguishes ambiguous empty records from actual activity evidence and does not filter by P0 coverage eligibility.
+- [ ] Correct the legacy `No Data` interpretation in the analytical pipeline with regression coverage and a versioned rebuild; the read-only audit does not yet fix deployed metrics.
+- [ ] Reconcile contradictory weekly source records and inspect activity calendars before proposing analytical inclusion rules.
 
 ## P1.2 Athlete training fingerprint
 

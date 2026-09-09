@@ -6,6 +6,8 @@ Reproduce: `.venv/bin/python scripts/audit_cohorts_2024.py`
 
 This is planning evidence, not a finalized analysis protocol. No training outcomes are compared here.
 
+The proposed 26/39-week cutoffs have been withdrawn. This report describes legacy P0 flags only; see p1-observability-audit-2024.md for the collection/posting audit across all selected-event athletes.
+
 Daniel selected 800m versus 1500m as the first comparison. Readiness tables use the existing P0 eligibility and usable-week flags; these are reference counts pending approval of the analysis protocol. A usable week has collection evidence with no recorded contradiction and is a full calendar week. This does not guarantee that all training was publicly posted. Missing and warning weeks are not imputed. Rolling windows require four consecutive usable weeks under P0 rules.
 
 Registry: **3,609** unique athletes. P0 coverage-eligible: **585**. Eligible with an assigned primary event: **584**. Excluded by coverage: **3,024**. Coverage-eligible but missing an event: **1**.
@@ -16,12 +18,12 @@ Score bands below are provisional 50-point bins for inspecting sample sizes. The
 
 ## Selected comparison: 800m versus 1500m — coverage readiness
 
-| event | recorded sex | athletes | minimum usable weeks | candidate 26 week floor | candidate 39 week floor | median usable weeks | maximum usable weeks | warning athlete weeks | minimum rolling windows |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1500m | female | 44 | 12 | 43 | 39 | 49.0 | 52 | 129 | 6 |
-| 1500m | male | 109 | 13 | 107 | 103 | 49.0 | 52 | 381 | 6 |
-| 800m | female | 32 | 13 | 30 | 27 | 49.5 | 52 | 134 | 6 |
-| 800m | male | 76 | 9 | 73 | 69 | 48.0 | 52 | 288 | 4 |
+| event | recorded sex | athletes | minimum usable weeks | median usable weeks | maximum usable weeks | warning athlete weeks | minimum rolling windows |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1500m | female | 44 | 12 | 49.0 | 52 | 129 | 6 |
+| 1500m | male | 109 | 13 | 49.0 | 52 | 381 | 6 |
+| 800m | female | 32 | 13 | 49.5 | 52 | 134 | 6 |
+| 800m | male | 76 | 9 | 48.0 | 52 | 288 | 4 |
 
 ## Selected comparison: run measurement availability in usable weeks
 

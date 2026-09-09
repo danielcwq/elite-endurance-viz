@@ -1,6 +1,6 @@
 # P1 analysis decisions
 
-Status: first event comparison approved; inclusion protocol awaiting discussion. This document records proposals separately from approved analytical choices.
+Status: first event comparison approved; annual-week cutoffs withdrawn. Audit collection evidence and posting patterns before proposing an inclusion protocol.
 
 ## Scope already agreed
 
@@ -22,11 +22,11 @@ Alternative: use broad groups for the initial study (middle distance, track dist
 
 Approved on 2026-09-09: Daniel accepted 800m versus 1500m as the first comparison. The initial question is how their publicly observed 2024 training patterns differ. Approval selects the two events; it does not approve new coverage thresholds, sex pooling, performance tiers, or statistical hypotheses.
 
-## Current decision: usable-week inclusion
+## Superseded proposal: usable-week inclusion
 
 The selected comparison has 261 athletes under the P0 high/moderate coverage flag. The score combines 70% observed-week breadth with 30% usable/observed-week consistency. An observed week may carry a warning, so a score of 75 is not equivalent to 39 usable weeks. In this comparison the minimum is nine usable weeks, despite a median of 48–49.5 within the event/sex cells.
 
-Candidate additional floors (not approved):
+Historical candidate floors (withdrawn; retained here to explain the earlier discussion):
 
 | Event | Recorded sex | P0 eligible | At least 26 usable weeks | At least 39 usable weeks |
 | --- | --- | --- | --- | --- |
@@ -36,11 +36,11 @@ Candidate additional floors (not approved):
 | 1500m | male | 109 | 107 | 103 |
 | Total | | 261 | 253 | 238 |
 
-Recommendation for discussion: use at least 39 usable weeks for the annual comparison, with a 26-week sensitivity analysis. These are pragmatic three-quarter/half-year coverage policies, not statistically validated cutoffs. The tradeoff is annual coverage versus selection and sample size. Usable weeks need not be evenly distributed across seasons; inspect calendar coverage before making seasonal claims.
+Withdrawn after discussion: 26 and 39 were fractions of a year, not evidence-derived thresholds. We have not selected an annual training question, and P0's week score confuses ambiguous empty collections with successful observations. These floors should not drive P1 inclusion. The [collection/posting audit](p1-observability-audit-2024.md) now considers every athlete assigned to the two events, with no coverage cutoff.
 
 The readiness audit also finds 24 runs with missing distance within usable weeks. Existing P0 weekly aggregation fills missing run distance with zero. A P1 volume measure should mark affected athlete-weeks as incomplete for distance, or explicitly label their totals as lower bounds; do not treat these as complete distance measurements. Counts above precede metric-specific exclusions. Activity counts may still be usable when distance is unavailable.
 
-Other proposed protocol choices to discuss together:
+Earlier protocol suggestions, also not approved and pending the evidence audit:
 
 - Show women and men in separate comparison panels (32/76 for 800m and 44/109 for 1500m before the additional floor), using the recorded source classification.
 - Start with each athlete's median weekly run distance and run-session count over usable full weeks. Give every athlete equal weight in cohort distributions rather than pooling all athlete-weeks.
@@ -53,10 +53,12 @@ Other proposed protocol choices to discuss together:
 - Decide whether comparisons are primarily separated by recorded sex; show denominators for both either way. Half marathon has only six eligible female athletes.
 - Approve performance tier definitions. The audit's 50-point bands are sample-size diagnostics only; choose fixed bands, quantiles, or continuous scores before interpreting training differences.
 - Agree how to handle small cohorts, and distinguish descriptive summaries from inferential comparisons. Do not invent a universal sample-size threshold.
-- Retain P0 coverage inclusion as the initial reference and agree on any sensitivity analysis before changing it.
+- Choose inclusion appropriate to the agreed question after the collection/posting audit; P0 eligibility is a historical diagnostic only.
 - Agree hypotheses and the first metrics before calculating final comparisons.
 - Select editorial athletes after establishing those rules, documenting the selection rather than presenting convenient examples as representative.
 
 ## Implementation boundary
 
-Current work is a branch-local audit and planning checkpoint. The first event pair is approved; production data, deployed UI, performance tiers, and analytical inclusion policies have not been changed for P1.
+The read-only P1 evidence layer distinguishes ambiguous empty records, activity-backed records, source warnings, activities without weekly records, and no evidence. It retains actual activities irrespective of source-warning status. It does not infer true training completeness, posting intentions, or cohort eligibility. A no-run count is a count of stored records, not zero training.
+
+The first event pair is approved; production data, deployed UI, performance tiers, and analytical inclusion policies have not been changed for P1. The P0 pipeline still needs a separately validated ambiguous-zero correction before its weekly summaries can be reused as P1 analytical truth.
