@@ -5,11 +5,20 @@ import json
 import unittest
 from pathlib import Path
 
+from starlette.responses import PlainTextResponse
+
+import main
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class DeploymentContractTests(unittest.TestCase):
+    def test_unknown_athlete_is_a_real_not_found_response(self) -> None:
+        response = main.get_athlete("not-a-uuid")
+        self.assertIsInstance(response, PlainTextResponse)
+        self.assertEqual(response.status_code, 404)
+
     def test_data_tree_remains_excluded_from_vercel(self) -> None:
         active_rules = [
             line.strip()

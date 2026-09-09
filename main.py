@@ -7,7 +7,7 @@ from datetime import datetime
 from functools import lru_cache
 
 from fasthtml.common import *
-from starlette.responses import JSONResponse
+from starlette.responses import JSONResponse, PlainTextResponse
 
 from enduranceviz.serving import ServingRepository
 
@@ -191,7 +191,7 @@ def activity_row(row: dict) -> Tr:
 def get_athlete(athlete_id: str, page: int = 1):
     athlete = repository.athlete(athlete_id)
     if athlete is None:
-        return "Athlete not found", 404
+        return PlainTextResponse("Athlete not found", status_code=404)
     stats = repository.snapshot_stats()
     performances = repository.season_bests(athlete_id)
     activity_page = repository.activities(athlete_id, page=page, page_size=30)
