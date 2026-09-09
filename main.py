@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from datetime import datetime
 from functools import lru_cache
 
@@ -14,7 +15,9 @@ from enduranceviz.serving import ServingRepository
 repository = ServingRepository()
 
 app, rt = fast_app(
-    use_sessions=False,
+    # FastHTML otherwise writes a generated key to .sesskey during import,
+    # which is incompatible with Vercel's read-only function filesystem.
+    secret_key=os.getenv("ENDURANCEVIZ_SESSION_SECRET", "enduranceviz-2024-read-only-snapshot"),
     hdrs=(
         Link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"),
         Style(
