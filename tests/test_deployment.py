@@ -5,9 +5,11 @@ import json
 import unittest
 from pathlib import Path
 
+import duckdb
 from starlette.responses import PlainTextResponse
 
 import main
+from enduranceviz.geography import COUNTRY_CENTROIDS, NON_GEOGRAPHIC_CODES
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +37,23 @@ class DeploymentContractTests(unittest.TestCase):
 
         digest = hashlib.sha256(artifact.read_bytes()).hexdigest()
         self.assertEqual(digest, manifest["sha256"])
+
+    def test_map_covers_every_geographic_nationality_code(self) -> None:
+        database = ROOT / "deploy/enduranceviz_2024.duckdb"
+        with duckdb.connect(str(database), read_only=True) as connection:
+            codes = {
+                row[0]
+                for row in connection.execute(
+                    "SELECT DISTINCT nationality_code FROM athletes WHERE nationality_code IS NOT NULL"
+                ).fetchall()
+            }
+        self.assertEqual(codes - set(COUNTRY_CENTROIDS), NON_GEOGRAPHIC_CODES)
+
+    def test_homepage_exposes_lazy_nationality_map(self) -> None:
+        rendered = str(main.homepage())
+        self.assertIn("Explore map", rendered)
+        self.assertIn("country-map", rendered)
+        self.assertIn("/api/map/countries", rendered)
 
 
 if __name__ == "__main__":

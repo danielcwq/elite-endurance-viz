@@ -76,17 +76,46 @@ class ServingRepository:
         )
 
     @lru_cache(maxsize=1)
-    def map_athletes(self) -> tuple[dict[str, Any], ...]:
+    def map_countries(self) -> tuple[dict[str, Any], ...]:
+        """Return compact country-level counts for the map's initial load."""
+        return tuple(
+            self._query(
+                """
+                SELECT nationality_code,
+                       count(*) AS athlete_count,
+                       count(*) FILTER (WHERE total_activity_count > 0) AS observed_athlete_count,
+                       count(*) FILTER (WHERE coverage_status IN ('high', 'moderate'))
+                           AS coverage_qualified_count
+                FROM athlete_directory_2024
+                WHERE nationality_code IS NOT NULL
+                GROUP BY nationality_code
+                ORDER BY athlete_count DESC, nationality_code
+                """
+            )
+        )
+
+    @lru_cache(maxsize=256)
+    def map_country_athletes(self, country_code: str) -> tuple[dict[str, Any], ...]:
+        """Return the roster for one selected nationality code."""
         rows = self._query(
             """
             SELECT athlete_id::VARCHAR AS athlete_id,
                    coalesce(display_name, official_name) AS display_name,
                    nationality_code, primary_discipline, coverage_status
             FROM athlete_directory_2024
-            WHERE nationality_code IS NOT NULL
-            ORDER BY nationality_code, display_name
-            """
+            WHERE nationality_code = ?
+            ORDER BY display_name
+            """,
+            [country_code.strip().upper()],
         )
+        return tuple(rows)
+
+    @lru_cache(maxsize=1)
+    def map_athletes(self) -> tuple[dict[str, Any], ...]:
+        """Retain the original full projection for API compatibility."""
+        rows: list[dict[str, Any]] = []
+        for country in self.map_countries():
+            rows.extend(self.map_country_athletes(country["nationality_code"]))
         return tuple(rows)
 
     @lru_cache(maxsize=4096)

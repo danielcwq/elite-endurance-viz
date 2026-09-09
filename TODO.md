@@ -249,7 +249,7 @@ Grain: one canonical athlete by one 2024 calendar week.
 - [x] Add 30-row activity pagination with a hard maximum of 50.
 - [x] Add field projections so detail pages retrieve only displayed data.
 - [x] Cache public homepage, snapshot, directory, and athlete-summary reads.
-- [x] Replace the embedded athlete-document payload with a server-side projected search endpoint and on-demand map endpoint.
+- [x] Replace the embedded athlete-document payload with server-side projected search and a responsive, lazy-loaded nationality map (compact country summary first; one country roster on selection).
 - [x] Replace Mongo refreshes with atomic local DuckDB file replacement; Mongo is not the canonical serving database.
 - [x] Disable [`mongodb_init/db_upload.py`](mongodb_init/db_upload.py) so it cannot append duplicate copies.
 - [x] Correct displayed athlete, country, account, and deduplicated activity counts.
@@ -361,7 +361,7 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 
 ## P1.6 Homepage and product narrative
 
-- [ ] [PARTIAL] Reuse the current map, search, stats/about toggle, and production deployment where useful.
+- [ ] [PARTIAL] Refine the restored map and search within the final homepage narrative; the responsive nationality explorer and production deployment are already reusable.
 - [ ] Lead with the 2024 study question rather than database counts.
 - [ ] Feature two or three defensible findings.
 - [ ] Provide direct entry into athlete fingerprints and cohort comparison.
