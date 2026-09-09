@@ -2,12 +2,14 @@
 
 from enduranceviz.observability import WEEK_EVIDENCE_SQL
 
-POLICY_VERSION = 'p1-recorded-training-exploratory-v1'
+POLICY_VERSION = 'p1-recorded-training-exploratory-v1.1'
 STUDY_EVENTS = ('800m', '1500m', '3000m Steeplechase', '5000m', '10000m', 'Half Marathon')
 
 RECORDED_WEEK_METRICS_SQL = f"""
 WITH evidence AS ({WEEK_EVIDENCE_SQL}), measurements AS (
     SELECT athlete_id, week_start_utc,
+        count(DISTINCT (start_at_utc AT TIME ZONE 'UTC')::DATE)
+            FILTER (WHERE activity_category = 'Run') AS recorded_run_days,
         count(*) FILTER (WHERE activity_category = 'Run' AND distance_meters IS NULL)
             AS runs_missing_distance,
         count(*) FILTER (WHERE activity_category = 'Run' AND distance_meters IS NOT NULL
@@ -18,6 +20,7 @@ WITH evidence AS ({WEEK_EVIDENCE_SQL}), measurements AS (
 )
 SELECT e.athlete_id, e.week_start_utc, e.is_partial_window, e.evidence_state,
     e.collection_error_code, e.posted_activities, e.posted_runs,
+    coalesce(m.recorded_run_days, 0) AS recorded_run_days,
     coalesce(m.runs_missing_distance, 0) AS runs_missing_distance,
     coalesce(m.runs_invalid_distance, 0) AS runs_invalid_distance,
     m.known_run_distance_meters,
@@ -41,6 +44,8 @@ WITH weeks AS ({RECORDED_WEEK_METRICS_SQL}), summaries AS (
         sum(posted_runs) FILTER (WHERE NOT is_partial_window) AS recorded_runs_full_weeks,
         median(posted_runs) FILTER (WHERE NOT is_partial_window AND posted_runs > 0)
             AS median_recorded_week_run_count,
+        median(recorded_run_days) FILTER (WHERE NOT is_partial_window AND posted_runs > 0)
+            AS median_recorded_week_run_days,
         median(recorded_week_run_distance_meters) FILTER (WHERE NOT is_partial_window)
             AS median_recorded_week_run_distance_meters
     FROM weeks GROUP BY athlete_id

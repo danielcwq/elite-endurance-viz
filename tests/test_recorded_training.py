@@ -24,6 +24,8 @@ class RecordedTrainingTests(unittest.TestCase):
                 ('a','2024-01-01','Run',5000), ('a','2024-01-01','Run',NULL),
                 ('a','2024-01-08','Run',0), ('a','2024-01-15','Run',10000),
                 ('a','2024-12-30','Run',99999), ('b','2024-01-01','Ride',20000);
+            ALTER TABLE activities_2024 ADD COLUMN start_at_utc TIMESTAMPTZ;
+            UPDATE activities_2024 SET start_at_utc=week_start_utc::TIMESTAMPTZ;
             UPDATE data_coverage_2024 SET collection_error_code='SUMMARY_ACTIVITY_CONTRADICTION',
                 coverage_status='observed_with_warning' WHERE athlete_id='a' AND week_start_utc='2024-01-15';
         """)
@@ -48,9 +50,20 @@ class RecordedTrainingTests(unittest.TestCase):
         self.assertEqual(row, (0, None, None))
 
     def test_invalid_distances_keep_run_counts_but_block_weekly_distance(self):
-        self.c.execute("INSERT INTO activities_2024 VALUES ('b','2024-01-08','Run',-10), ('b','2024-01-15','Run','Infinity'::DOUBLE)")
+        self.c.execute("INSERT INTO activities_2024 VALUES ('b','2024-01-08','Run',-10,'2024-01-08'), ('b','2024-01-15','Run','Infinity'::DOUBLE,'2024-01-15')")
         rows = self.c.execute(f"SELECT posted_runs, runs_invalid_distance, recorded_week_run_distance_meters FROM ({RECORDED_WEEK_METRICS_SQL}) WHERE athlete_id='b' AND posted_runs>0").fetchall()
         self.assertEqual(rows, [(1, 1, None), (1, 1, None)])
+
+    def test_multiple_records_on_same_utc_day_count_as_one_recorded_running_day(self):
+        self.c.execute("INSERT INTO activities_2024 VALUES ('a','2024-01-01','Run',1000,'2024-01-02 10:00:00+00')")
+        row = self.c.execute(f"SELECT posted_runs, recorded_run_days FROM ({RECORDED_WEEK_METRICS_SQL}) WHERE athlete_id='a' AND week_start_utc='2024-01-01'").fetchone()
+        self.assertEqual(row,(3,2))
+
+    def test_day_uses_utc_not_connection_timezone(self):
+        self.c.execute("INSERT INTO activities_2024 VALUES ('a','2024-01-01','Run',1000,'2024-01-02 01:00:00+00')")
+        self.c.execute("SET TimeZone='America/Toronto'")
+        row = self.c.execute(f"SELECT recorded_run_days FROM ({RECORDED_WEEK_METRICS_SQL}) WHERE athlete_id='a' AND week_start_utc='2024-01-01'").fetchone()
+        self.assertEqual(row,(2,))
 
 
 if __name__ == '__main__':

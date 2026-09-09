@@ -1,6 +1,6 @@
 # Exploratory recorded-week training comparisons
 
-Calculation policy: `p1-recorded-training-exploratory-v1`. Source database SHA-256: `047931ce47ea65940011137109b81b73248abd8f4bff33ca54d3c355ed8a970c`.
+Calculation policy: `p1-recorded-training-exploratory-v1.1`. Source database SHA-256: `047931ce47ea65940011137109b81b73248abd8f4bff33ca54d3c355ed8a970c`.
 
 Reproduce: `.venv/bin/python scripts/analyze_event_training_2024.py`.
 
@@ -20,6 +20,8 @@ How do publicly observed running distance and run frequency vary across event sp
 These tables describe **weeks with recorded runs**, not all training weeks or a complete year. Each contributing athlete supplies one median. Event/recorded-sex cells then summarize those athlete medians. This exploratory view was approved by Daniel in [P1 analysis decisions](p1-analysis-decisions.md); it is not a finalized inclusion protocol or a confirmatory test.
 
 No annual-week or P0 coverage cutoff is applied. Full weeks are Monday–Sunday UTC; December 30–31 is retained in annual record counts only. Source-warning weeks retain their actual activities. Weekly distance is unavailable when any recorded run lacks a finite, nonnegative distance. Run counts remain usable as record counts. An athlete with no recorded runs remains in the inventory but contributes no running-week summary.
+
+Run records must not be interpreted as independent training sessions: the [record-structure audit](p1-run-record-structure-2024.md) traces separately recorded short efforts and provides recorded running days as a complementary diagnostic. No session grouping has been applied.
 
 ## Contributors and measurement availability
 

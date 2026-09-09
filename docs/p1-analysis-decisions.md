@@ -37,6 +37,12 @@ This is an exploratory description, not a confirmatory hypothesis test or a fina
 
 The main limitation is explicit: conditioning on recorded-running weeks, and on available distance measurements, can select different portions of different athletes' training. These summaries are for inspecting the data and refining the study, not asserting population differences in complete training.
 
+### Recording granularity follow-up
+
+The [run-record audit](p1-run-record-structure-2024.md) inspected the three highest athlete median record counts. Ruken Tek's 39-record weekly median corresponds to six recorded running days; January 5 contains 29 distinct records, many approximately 32 metres long. This is consistent with separately recorded repetitions, not proof of 29 independent sessions. Exact repeated fingerprints were not found, but that does not rule out near-duplicates or overlaps.
+
+Policy v1.1 adds recorded running days (distinct UTC dates with at least one Run) as a complementary diagnostic. It does not change the approved record-count or distance summaries. No short-run exclusion, time-gap clustering, or inferred session count is approved. P0's count-based `double_session_days` must not be presented as validated training-session frequency in P1. A definition of independent sessions is a separate human checkpoint if that measure is pursued.
+
 ## Superseded proposal: usable-week inclusion
 
 The selected comparison has 261 athletes under the P0 high/moderate coverage flag. The score combines 70% observed-week breadth with 30% usable/observed-week consistency. An observed week may carry a warning, so a score of 75 is not equivalent to 39 usable weeks. In this comparison the minimum is nine usable weeks, despite a median of 48–49.5 within the event/sex cells.

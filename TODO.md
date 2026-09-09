@@ -315,7 +315,7 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 - [ ] Add weekly run-frequency distribution.
 - [ ] Add longest-run timeline and long-run share.
 - [ ] Add cross-training composition.
-- [ ] Add active days and double-session frequency.
+- [ ] [PARTIAL] Add active days and double-session frequency: recorded UTC running days implemented and tested in the P1 metric layer; UI and a defensible session definition remain pending. Multiple Run records on one day do not establish double sessions.
 - [ ] Add consistency and variability measures.
 - [ ] Identify peak observed training periods.
 - [ ] Display structured 2024 season-best performances.
@@ -353,6 +353,7 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 - [ ] Report uncertainty intervals and effect sizes.
 - [ ] Stratify or control for data coverage.
 - [ ] Investigate influential outliers and duplicate-related historical distortions.
+- [x] Trace the three highest median Run-record counts and add [recording-granularity diagnostics](docs/p1-run-record-structure-2024.md). No automatic removal or session clustering; overlap/near-duplicate checks remain pending.
 - [ ] Include counterexamples and unsupported hypotheses.
 - [ ] Avoid causal or coaching-prescription claims.
 - [ ] [VERIFY] Decide whether a small explanatory regression adds value; it is optional and must not turn P1 into a prediction-model project.

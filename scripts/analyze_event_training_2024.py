@@ -57,7 +57,11 @@ def analyze(database, figure_data=None):
             'is retained in annual record counts only. Source-warning weeks retain their actual activities. '
             'Weekly distance is unavailable when any recorded run lacks a finite, nonnegative distance. '
             'Run counts remain usable as record counts. An athlete with no recorded runs remains in the inventory '
-            'but contributes no running-week summary.', '', '## Contributors and measurement availability', '']
+            'but contributes no running-week summary.', '',
+            'Run records must not be interpreted as independent training sessions: the '
+            '[record-structure audit](p1-run-record-structure-2024.md) traces separately recorded short efforts '
+            'and provides recorded running days as a complementary diagnostic. No session grouping has been applied.', '',
+            '## Contributors and measurement availability', '']
         lines += table(c, """SELECT primary_discipline AS event, gender AS recorded_sex, count(*) AS registry,
             count(*) FILTER (WHERE recorded_runs_2024>0) AS any_run_2024,
             count(median_recorded_week_run_count) AS frequency_contributors,
