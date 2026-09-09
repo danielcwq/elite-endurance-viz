@@ -26,7 +26,9 @@ def default_database() -> Path:
 class ServingRepository:
     def __init__(self, database: Path | None = None) -> None:
         configured = os.getenv("ENDURANCEVIZ_DB_PATH")
-        self.database = Path(configured).expanduser().resolve() if configured else (database or default_database())
+        # An explicit database (including a test fixture) wins over process-wide
+        # configuration. The application still uses the environment by default.
+        self.database = Path(database or configured or default_database()).expanduser().resolve()
         if not self.database.is_file():
             raise FileNotFoundError(
                 f"Canonical serving database is missing at {self.database}. "

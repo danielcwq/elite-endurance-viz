@@ -393,9 +393,9 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 
 ## P1.8 Engineering portfolio quality
 
-- [ ] Add automated CI for unit tests, data fixtures, and schema/quality checks.
+- [ ] [PARTIAL] Add automated CI for unit tests, data fixtures, and schema/quality checks: GitHub Actions configured; local 79-test suite and 19 read-only artifact checks pass. First hosted run pending verification.
 - [ ] Provide a small non-sensitive seed dataset.
-- [ ] Provide one-command local setup and one-command test execution.
+- [x] Provide one-command local setup and one-command test execution: `make setup`, `make test`, and `make check`, with Python entry-point equivalents and a non-destructive existing-environment policy.
 - [ ] Publish an architecture diagram.
 - [ ] Publish a transformation/data-lineage diagram.
 - [ ] Publish a database or curated-schema diagram.
