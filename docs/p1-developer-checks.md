@@ -29,4 +29,10 @@ The database opens read-only. P1 comparison views are temporary and connection-l
 
 These checks do not establish complete training capture or approve legacy P0 coverage scores for P1 selection. They do not run the full raw-CSV rebuild, contact MongoDB/Strava/World Athletics, perform load testing, or validate the browser visually. The full rebuild remains an explicit separate workflow.
 
-The current test suite still depends on the committed packaged database and one legacy activity CSV for integration/type-inventory tests. Synthetic unit fixtures already exist, but a small standalone non-sensitive demo dataset remains a separate unfinished P1 item. CI creates no new bulk data artifact. Linux CI success is recorded separately from local success; the presence of a workflow file alone is not verification of a passing run.
+The current test suite still depends on the committed packaged database and one legacy activity CSV for integration/type-inventory tests. Synthetic unit fixtures already exist, but a small standalone non-sensitive demo dataset remains a separate unfinished P1 item. CI creates no new bulk data artifact.
+
+## Verified results
+
+On 2026-09-09, `make setup` and `make check` passed locally. Setup was also exercised in a separate fresh directory; the resulting environment independently passed all 79 tests and 19 artifact checks. The packaged database checksum remained unchanged.
+
+The first [hosted Linux run](https://github.com/danielcwq/elite-endurance-viz/actions/runs/34398767117) passed at implementation commit `a5d6c6747b80386c4d350f9b6ca4950ceb106858`: dependency compatibility, 79 tests, 19 artifact checks, and patch whitespace validation. No production deployment was performed. These results verify the implemented checks, not completion of the broader P1 roadmap.
