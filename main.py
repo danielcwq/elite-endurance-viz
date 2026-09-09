@@ -44,6 +44,11 @@ app, rt = fast_app(
     ),
 )
 
+# Vercel's Python entrypoint scanner only recognizes simple top-level names.
+# Keep FastHTML's ``app, rt`` construction for local development while exposing
+# an explicit ASGI application for the deployment runtime.
+application = app
+
 
 def format_timestamp(value) -> str:
     if value is None:

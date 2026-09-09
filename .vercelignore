@@ -1,4 +1,21 @@
+# Canonical data guardrail: never upload raw, staged, curated, or derived data.
 data/
 OLY24 Pred/
 Get_Data/
-.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Local environments, credentials, and collection state.
+.venv/
+.vercel/
+.env*
+.sesskey
+strava_cookies.pkl
+
+# Development and source-only material excluded from the web function.
+tests/
+scripts/
+mongodb_init/
+*.csv
+*.ipynb
+*.jpg
+*.png

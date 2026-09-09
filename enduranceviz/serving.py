@@ -11,17 +11,24 @@ import duckdb
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_DATABASE = ROOT / "data/derived/2024/enduranceviz_2024.duckdb"
+LOCAL_DATABASE = ROOT / "data/derived/2024/enduranceviz_2024.duckdb"
+PACKAGED_DATABASE = ROOT / "deploy/enduranceviz_2024.duckdb"
+
+
+def default_database() -> Path:
+    """Prefer a local rebuild, then the immutable deployment artifact."""
+    return LOCAL_DATABASE if LOCAL_DATABASE.is_file() else PACKAGED_DATABASE
 
 
 class ServingRepository:
     def __init__(self, database: Path | None = None) -> None:
         configured = os.getenv("ENDURANCEVIZ_DB_PATH")
-        self.database = Path(configured).expanduser().resolve() if configured else (database or DEFAULT_DATABASE)
+        self.database = Path(configured).expanduser().resolve() if configured else (database or default_database())
         if not self.database.is_file():
             raise FileNotFoundError(
                 f"Canonical serving database is missing at {self.database}. "
-                "Run `.venv/bin/python scripts/pipeline_2024.py build`."
+                "Run `.venv/bin/python scripts/pipeline_2024.py build` locally or "
+                "package it with `.venv/bin/python scripts/package_serving_artifact.py`."
             )
 
     def _query(self, sql: str, parameters: list[Any] | None = None) -> list[dict[str, Any]]:

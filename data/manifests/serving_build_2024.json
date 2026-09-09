@@ -1,6 +1,6 @@
 {
-  "build_id": "afb3a7a0-732d-52e2-b116-01b2af41b681",
-  "completed_at_utc": "2026-09-02T23:03:17Z",
+  "build_id": "1049e947-759c-54b6-aba6-4e4ed876457b",
+  "completed_at_utc": "2026-09-09T01:43:38Z",
   "counts": {
     "activities_2024": 139887,
     "athlete_external_accounts": 678,
@@ -13,6 +13,6 @@
   },
   "database": "data/derived/2024/enduranceviz_2024.duckdb",
   "dataset": "enduranceviz-2024",
-  "source_commit": "3207bf615b5b6191212d670112a1a85e751040b9",
+  "source_commit": "85a5564921ca8f20c6a5c88285ab17dd07a0beeb",
   "specification_version": "1.0.0"
 }

@@ -23,11 +23,12 @@ Python 3.12 is recommended.
 
 ```bash
 uv venv --python 3.12
-uv pip install --python .venv/bin/python -r requirements.txt
+uv pip install --python .venv/bin/python -r requirements-pipeline.txt
 .venv/bin/python scripts/pipeline_2024.py build
+.venv/bin/python scripts/package_serving_artifact.py
 ```
 
-Standard `python3 -m venv .venv` plus `.venv/bin/python -m pip install -r requirements.txt` is equivalent when the Python installation bundles `pip`.
+Standard `python3 -m venv .venv` plus `.venv/bin/python -m pip install -r requirements-pipeline.txt` is equivalent when the Python installation bundles `pip`. `requirements.txt` deliberately contains only web-runtime dependencies so Vercel does not package the analytics toolchain.
 
 That one command rebuilds curated observations, coverage-aware weekly and athlete tables, a quality report, and the atomic local serving database at `data/derived/2024/enduranceviz_2024.duckdb`. It needs no production, MongoDB, World Athletics, or Strava credentials because the repository inputs are already snapshotted and manifested.
 
@@ -39,7 +40,9 @@ Run individual stages when iterating:
 .venv/bin/python main.py
 ```
 
-The application queries the local DuckDB file read-only. Set `ENDURANCEVIZ_DB_PATH` to use an equivalent built artifact elsewhere. A deployment must build or supply that artifact before importing `main.py`.
+The application queries DuckDB read-only. It prefers the locally rebuilt file under `data/derived/2024/`, then falls back to the checksummed copy under `deploy/`. Set `ENDURANCEVIZ_DB_PATH` to use an equivalent built artifact elsewhere.
+
+The `data/` deployment guardrail remains intact: `.vercelignore` excludes the entire raw, staged, curated, and derived tree. Only the immutable serving database and its checksum manifest are allowlisted into the Vercel function from `deploy/`.
 
 ## Data model and methods
 

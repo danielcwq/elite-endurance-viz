@@ -1,9 +1,16 @@
 {
+    "$schema": "https://openapi.vercel.sh/vercel.json",
     "version": 2,
     "builds": [
         {
             "src": "main.py",
-            "use": "@vercel/python"
+            "use": "@vercel/python",
+            "config": {
+                "includeFiles": [
+                    "deploy/enduranceviz_2024.duckdb",
+                    "deploy/serving-artifact.json"
+                ]
+            }
         }
     ],
     "routes": [
