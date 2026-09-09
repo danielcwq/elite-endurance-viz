@@ -9,6 +9,7 @@ from typing import Any
 
 import duckdb
 
+from enduranceviz.activity_filters import ActivityFilters
 from enduranceviz.recorded_training import RECORDED_WEEK_METRICS_SQL
 
 
@@ -167,22 +168,35 @@ class ServingRepository:
             )
         )
 
-    def activities(self, athlete_id: str, page: int = 1, page_size: int = 30) -> dict[str, Any]:
+    def activities(self, athlete_id: str, page: int = 1, page_size: int = 30,
+                   filters: ActivityFilters | None = None) -> dict[str, Any]:
         page_size = min(max(int(page_size), 1), 50)
         page = max(int(page), 1)
+        predicates = ['athlete_id = try_cast(? AS UUID)']
+        parameters: list[Any] = [athlete_id]
+        if filters is not None:
+            predicates.extend(['start_at_utc >= ?', 'start_at_utc < ?'])
+            parameters.extend(filters.utc_bounds())
+            if filters.category != 'All':
+                predicates.append('activity_category = ?')
+                parameters.append(filters.category)
+        where = ' AND '.join(predicates)
+        total = self._query(f'SELECT count(*) AS n FROM activities_2024 WHERE {where}', parameters)[0]['n']
+        total_pages = max(1, (total + page_size - 1) // page_size)
+        page = min(page, total_pages)
         offset = (page - 1) * page_size
         rows = self._query(
-            """
+            f"""
             SELECT activity_id, activity_name, description, provider_activity_type,
                    activity_category, start_at_utc, distance_meters,
                    elapsed_seconds, moving_seconds, pace_seconds_per_kilometer,
                    location, quality_status, quality_flags
             FROM activities_2024
-            WHERE athlete_id = try_cast(? AS UUID)
+            WHERE {where}
             ORDER BY start_at_utc DESC, activity_id DESC
             LIMIT ? OFFSET ?
             """,
-            [athlete_id, page_size + 1, offset],
+            [*parameters, page_size + 1, offset],
         )
         has_next = len(rows) > page_size
         return {
@@ -191,6 +205,10 @@ class ServingRepository:
             "page_size": page_size,
             "has_previous": page > 1,
             "has_next": has_next,
+            "total": total,
+            "total_pages": total_pages,
+            "first": offset + 1 if total else 0,
+            "last": min(offset + page_size, total),
         }
 
     @lru_cache(maxsize=128)

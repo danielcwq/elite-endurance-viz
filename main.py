@@ -10,6 +10,7 @@ from fasthtml.common import *
 from starlette.responses import JSONResponse, PlainTextResponse
 
 from enduranceviz.geography import COUNTRY_CENTROIDS, NON_GEOGRAPHIC_CODES
+from enduranceviz.activity_filters import ACTIVITY_FILTER_CSS, ActivityFilters, activity_filter_form
 from enduranceviz.serving import ServingRepository
 from enduranceviz.training_profile import TRAINING_PROFILE_CSS, training_section
 
@@ -22,6 +23,7 @@ app, rt = fast_app(
     secret_key=os.getenv("ENDURANCEVIZ_SESSION_SECRET", "enduranceviz-2024-read-only-snapshot"),
     hdrs=(
         Style(TRAINING_PROFILE_CSS),
+        Style(ACTIVITY_FILTER_CSS),
         Link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"),
         Link(
             rel="stylesheet",
@@ -447,19 +449,26 @@ def activity_row(row: dict) -> Tr:
 
 
 @rt("/athlete/{athlete_id}")
-def get_athlete(athlete_id: str, page: int = 1):
+def get_athlete(athlete_id: str, page: str = '1', start: str = '', end: str = '', category: str = 'All'):
     athlete = repository.athlete(athlete_id)
     if athlete is None:
         return PlainTextResponse("Athlete not found", status_code=404)
+    try:
+        filters = ActivityFilters.parse(start, end, category)
+        page_number = int(page)
+        if page_number < 1:
+            raise ValueError('Page must be a positive integer')
+    except ValueError as exc:
+        return PlainTextResponse(f'Invalid activity filters: {exc}. Edit the URL or return to /athlete/{athlete_id}.', status_code=400)
     stats = repository.snapshot_stats()
     performances = repository.season_bests(athlete_id)
-    activity_page = repository.activities(athlete_id, page=page, page_size=30)
+    activity_page = repository.activities(athlete_id, page=page_number, page_size=30, filters=filters)
     accounts = repository.external_accounts(athlete_id)
     weeks = repository.recorded_weeks(athlete_id)
     strava = next((row for row in accounts if row["provider"] == "strava"), None)
     display_name = athlete["display_name"] or athlete["official_name"]
-    previous_link = f"/athlete/{athlete_id}?page={page - 1}"
-    next_link = f"/athlete/{athlete_id}?page={page + 1}"
+    previous_link = filters.url(athlete_id, activity_page['page'] - 1)
+    next_link = filters.url(athlete_id, activity_page['page'] + 1)
     return (
         Title(f"{display_name} — EnduranceViz 2024"),
         Main(
@@ -488,19 +497,29 @@ def get_athlete(athlete_id: str, page: int = 1):
                 cls="season-grid",
             ) if performances else P("No canonical 2024 performance rows."),
             training_section(weeks),
-            H2("2024 activities"),
-            Div(
-                Table(
-                    Thead(Tr(Th("Date (UTC)"), Th("Activity"), Th("Type"), Th("Distance"), Th("Duration"), Th("Pace"))),
-                    Tbody(*[activity_row(row) for row in activity_page["rows"]]),
-                ),
-                cls="table-wrap",
-            ) if activity_page["rows"] else P("No public 2024 activities in the canonical snapshot."),
-            Div(
-                A("← Previous 30", href=previous_link) if activity_page["has_previous"] else Span(""),
-                Span(f"Page {activity_page['page']}"),
-                A("Next 30 →", href=next_link) if activity_page["has_next"] else Span(""),
-                cls="pagination",
+            Section(
+                H2("2024 activities"),
+                *activity_filter_form(athlete_id, filters),
+                P(f"Showing {activity_page['first']:,}–{activity_page['last']:,} of {activity_page['total']:,} matching activity records."
+                  if activity_page['total'] else 'No stored activities match these filters. This does not imply no training.'),
+                Div(
+                    Div(
+                        Table(
+                            Thead(Tr(*[Th(label, scope='col') for label in
+                                       ('Date (UTC)', 'Activity', 'Type', 'Distance', 'Duration', 'Pace')])),
+                            Tbody(*[activity_row(row) for row in activity_page["rows"]]),
+                        ),
+                        cls="activity-table-inner",
+                    ),
+                    cls="table-wrap", tabindex='0', role='region', aria_label='Filtered activity records',
+                ) if activity_page["rows"] else None,
+                Nav(
+                    A("← Previous 30", href=previous_link) if activity_page["has_previous"] else Span(""),
+                    Span(f"Page {activity_page['page']} of {activity_page['total_pages']}"),
+                    A("Next 30 →", href=next_link) if activity_page["has_next"] else Span(""),
+                    cls="pagination", aria_label='Activity pages',
+                ) if activity_page['total'] else None,
+                cls='activity-section', id='activities',
             ),
             cls="container",
         ),

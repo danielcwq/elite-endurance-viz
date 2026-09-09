@@ -320,8 +320,8 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 - [ ] Identify peak observed training periods.
 - [x] Display structured 2024 season-best performances; existing canonical season-best cards are retained and browser-verified on the updated profile.
 - [ ] Display coverage and confidence beside every profile.
-- [ ] Add date and activity-category filters.
-- [ ] Add shareable chart state or stable filtered URLs.
+- [ ] [PARTIAL] Add date and activity-category filters: inclusive UTC dates and Run/Ride/Swim/Other filters implemented for the activity table, with matched counts and empty states. Running timelines remain explicitly full-year; chart-window controls remain pending.
+- [ ] [PARTIAL] Add shareable chart state or stable filtered URLs: activity-table filters and pagination have stable GET URLs; chart-specific state remains pending.
 - [ ] [PARTIAL] Ensure missing data renders as missing, not zero: new profile timelines, medians, and no-record states verified; apply the invariant to remaining P1 metrics as they are added.
 
 ## P1.3 Cohort comparison
