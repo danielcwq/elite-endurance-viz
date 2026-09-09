@@ -293,14 +293,14 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] [PARTIAL] Reuse the existing 1,100 World Athletics point threshold, but document why it was chosen and how it affects selection.
 - [ ] Define event groups such as middle distance, track distance, road distance, and marathon.
 - [ ] Use the P0 primary-discipline rule to assign each athlete to a default cohort.
-- [ ] [PARTIAL] Use continuous World Athletics points within event/recorded-sex groups, approved by Daniel; this replaces score bands. Implement and document the per-athlete score definition and missing-score counts.
+- [x] Use continuous World Athletics points within event/recorded-sex groups, approved by Daniel; highest stored primary-event score per athlete, with missing-score counts and tested one-athlete joins in the [exploratory paired view](docs/p1-performance-training-2024.md). No score bands or fitted model.
 - [ ] Define question-specific inclusion after auditing collection evidence and posting; the P0 coverage thresholds are historical diagnostics, not an approved P1 filter.
 - [x] Audit cohort sizes before selecting comparisons; see [initial P1 cohort audit](docs/p1-cohort-audit-2024.md) for event, recorded-sex, coverage, and provisional score-band counts.
 - [ ] [PARTIAL] Ensure one athlete appears only once in a single cohort analysis. The initial audit verifies unique directory IDs and one primary discipline; apply this invariant to subsequent analysis views.
 - [ ] Publish inclusion, exclusion, and low-coverage counts.
 - [ ] Predefine analysis questions and metrics before interpreting results.
 
-Decision checkpoint: the broader event ladder and exploratory recorded-week distance/frequency view are approved, with separate recorded-sex groups and one median summary per athlete. The 26/39-week proposal remains withdrawn. Final inclusion, inference, and performance bands remain pending. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
+Decision checkpoint: the broader event ladder, exploratory recorded-week distance/frequency view, and continuous within-event/sex performance points are approved. The 26/39-week proposal remains withdrawn. Final inclusion and inference remain pending; performance bands were superseded, not deferred. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
 
 - [x] Add a reproducible [collection/posting audit](docs/p1-observability-audit-2024.md) that distinguishes ambiguous empty records from actual activity evidence and does not filter by P0 coverage eligibility.
 - [ ] [PARTIAL] Correct the legacy `No Data` interpretation: opt-in pipeline correction, regression tests, and [versioned local rebuild verified](docs/p1-evidence-correction-2024.md). Integration into P1 analytical serving remains pending; released P0 metrics remain unchanged.
@@ -345,10 +345,11 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 - [ ] Define three initial questions:
   - How does observed training volume differ by primary event?
   - How does observed training composition differ by event?
-  - Are 2024 performance tiers associated with different observed training patterns?
+  - Within event/recorded-sex groups, how do continuous 2024 performance points relate to recorded training patterns?
 - [ ] Write hypotheses before calculating final comparisons.
 - [ ] Produce cohort descriptive statistics.
 - [x] Produce the approved [exploratory recorded-week summaries](docs/p1-exploratory-training-2024.md), with separate sex groups, athlete-level weighting, measurement-specific denominators, and local distribution figures. Final study statistics remain pending above.
+- [x] Produce an initial [continuous-points scatter exploration](docs/p1-performance-training-2024.md), with one primary-event score per athlete, metric-specific pair counts, and contributing-week colour. No fitted lines or numerical association statistics; final interpretation remains a human checkpoint.
 - [ ] Visualize distributions, not just means.
 - [ ] Report uncertainty intervals and effect sizes.
 - [ ] Stratify or control for data coverage.

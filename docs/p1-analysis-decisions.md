@@ -77,7 +77,9 @@ Historical protocol suggestions (superseded wherever the approved exploratory de
 
 On 2026-09-09, Daniel explicitly selected **continuous World Athletics points within each event and recorded-sex group**, rather than score bands. This approves the representation for descriptive performance-versus-recorded-training association, not prediction, causation, sex pooling, a new eligibility threshold, or an inferential method. It supersedes the proposed score-band decision and the roadmap's performance-tier controls. Any later performance filter should be an explicit continuous score range, not invented tiers.
 
-The next calculation must state its per-athlete score aggregation, missing-score handling, and metric-specific contributor counts before presenting associations. Recorded-week training definitions remain as already approved. No performance comparison was calculated as part of the architecture-documentation change.
+The first calculation uses each athlete's highest non-null stored 2024 result score **within their existing primary event**, disclosed before calculating the pairs. Multiple performances and ties never duplicate an athlete. No other-event fallback is used. Athletes missing a score or the relevant training metric stay in the inventory but do not contribute to that metric's paired plot. The existing recorded-week definitions are unchanged.
+
+Implemented on the P1 branch in the [reproducible continuous-points exploration](p1-performance-training-2024.md), with local distance and Run-record scatterplots, one panel per event/recorded-sex group. Colour encodes metric-contributing weeks on a continuous 1–52 scale, not confidence or inclusion. All 2,297 registry athletes in the selected events have a primary-event score; 361 have paired recorded-week values for each metric, though their distance/frequency week denominators can differ. The remaining 1,936 have no full recorded-running-week summary, not missing scores. No numerical association statistic or fitted line is calculated. These are exploratory views, not published study conclusions or new eligibility policy.
 
 ### Remaining checkpoints
 
