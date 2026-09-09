@@ -293,7 +293,7 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] [PARTIAL] Reuse the existing 1,100 World Athletics point threshold, but document why it was chosen and how it affects selection.
 - [ ] Define event groups such as middle distance, track distance, road distance, and marathon.
 - [ ] Use the P0 primary-discipline rule to assign each athlete to a default cohort.
-- [ ] Define World Athletics score bands.
+- [ ] [PARTIAL] Use continuous World Athletics points within event/recorded-sex groups, approved by Daniel; this replaces score bands. Implement and document the per-athlete score definition and missing-score counts.
 - [ ] Define question-specific inclusion after auditing collection evidence and posting; the P0 coverage thresholds are historical diagnostics, not an approved P1 filter.
 - [x] Audit cohort sizes before selecting comparisons; see [initial P1 cohort audit](docs/p1-cohort-audit-2024.md) for event, recorded-sex, coverage, and provisional score-band counts.
 - [ ] [PARTIAL] Ensure one athlete appears only once in a single cohort analysis. The initial audit verifies unique directory IDs and one primary discipline; apply this invariant to subsequent analysis views.
@@ -334,7 +334,7 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 - [ ] Compare long-run share.
 - [ ] Compare cross-training composition.
 - [ ] Compare consistency.
-- [ ] Allow performance-tier filtering.
+- [ ] Allow continuous World Athletics score-range filtering within event/recorded-sex groups; this replaces performance-tier bands following Daniel's approval.
 - [ ] Warn or suppress inference when cohort size is too small.
 - [ ] Exclude insufficient-coverage athletes by default while making the exclusion visible.
 - [ ] Make cohort definitions and denominators accessible from the comparison view.
@@ -396,9 +396,9 @@ Decision checkpoint: the broader event ladder and exploratory recorded-week dist
 - [x] Add automated CI for unit tests, data fixtures, and schema/quality checks: 79 tests and 19 read-only artifact checks pass locally and in the [verified Linux CI run](https://github.com/danielcwq/elite-endurance-viz/actions/runs/34398767117).
 - [ ] Provide a small non-sensitive seed dataset.
 - [x] Provide one-command local setup and one-command test execution: `make setup`, `make test`, and `make check`, with Python entry-point equivalents and a non-destructive existing-environment policy.
-- [ ] Publish an architecture diagram.
-- [ ] Publish a transformation/data-lineage diagram.
-- [ ] Publish a database or curated-schema diagram.
+- [x] Publish an architecture diagram: [implemented runtime and boundaries](docs/architecture.md), including read-only serving, caching, readiness, and logs.
+- [x] Publish a transformation/data-lineage diagram: [P0 rebuild and separate P1 paths](docs/architecture.md), with registry preparation and packaging explicitly separate.
+- [x] Publish a database or curated-schema diagram: [all ten persisted tables and foreign-key relationships](docs/architecture.md), distinguishing the directory view and schema constraints from pipeline invariants.
 - [ ] Publish before-and-after database-query measurements.
 - [ ] Publish before-and-after payload-size and page-latency measurements.
 - [ ] Run a permitted staging load test and publish the methodology and results.

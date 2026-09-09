@@ -1,6 +1,6 @@
 # P1 analysis decisions
 
-Status: broader event-comparison plan approved; exploratory analysis resumed. Annual-week cutoffs remain withdrawn. Final inclusion and inference policies are not approved.
+Status: broader event-comparison plan and continuous-point performance representation approved; exploratory analysis resumed. Annual-week cutoffs remain withdrawn. Final inclusion and inference policies are not approved.
 
 ## Scope already agreed
 
@@ -73,12 +73,20 @@ Historical protocol suggestions (superseded wherever the approved exploratory de
 
 ## Later checkpoints
 
+### Performance representation approved
+
+On 2026-09-09, Daniel explicitly selected **continuous World Athletics points within each event and recorded-sex group**, rather than score bands. This approves the representation for descriptive performance-versus-recorded-training association, not prediction, causation, sex pooling, a new eligibility threshold, or an inferential method. It supersedes the proposed score-band decision and the roadmap's performance-tier controls. Any later performance filter should be an explicit continuous score range, not invented tiers.
+
+The next calculation must state its per-athlete score aggregation, missing-score handling, and metric-specific contributor counts before presenting associations. Recorded-week training definitions remain as already approved. No performance comparison was calculated as part of the architecture-documentation change.
+
+### Remaining checkpoints
+
 The [source and calendar audit](p1-source-conflicts-2024.md) traced all 611 conflicting full athlete-week keys in the chosen events. Most pair `No Data` with another summary; some contain the wrong date range, and some differ in displayed totals. No source warnings were silently cleared. Across all event-assigned athletes, 84 in 800m and 119 in 1500m have any stored 2024 Run. This is an observation inventory, not an eligible sample for a study. Monthly counts and gaps are documented without year-fraction filters.
 
 The earlier focus checkpoint is superseded by approval of the broader event ladder and exploratory analysis above. Next, review the provisional recorded-week summaries and settle the final comparison estimand, inclusion policy, and presentation before publishing study conclusions. No annual-week cutoff is presumed.
 
 - Recorded-sex separation is approved for the exploratory view. Do not introduce pooled comparisons without revisiting that choice. Half marathon currently has three female contributors with recorded runs, not the six suggested by the legacy P0 eligibility count.
-- Approve performance tier definitions. The audit's 50-point bands are sample-size diagnostics only; choose fixed bands, quantiles, or continuous scores before interpreting training differences.
+- Continuous performance points are now approved. The audit's historical 50-point bands remain sample-size diagnostics, not adopted analysis groups.
 - Agree how to handle small cohorts, and distinguish descriptive summaries from inferential comparisons. Do not invent a universal sample-size threshold.
 - Choose inclusion appropriate to the agreed question after the collection/posting audit; P0 eligibility is a historical diagnostic only.
 - Agree hypotheses and the first metrics before calculating final comparisons.

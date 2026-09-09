@@ -68,6 +68,7 @@ The `data/` deployment guardrail remains intact: `.vercelignore` excludes the en
 
 ## Data model and methods
 
+- [Runtime architecture, data lineage, and schema diagrams](docs/architecture.md)
 - [2024 dataset specification](docs/data-specification-2024-v1.md)
 - [Data dictionary](docs/data-dictionary-2024.md)
 - [Methods, lineage, and limitations](docs/methodology-2024.md)
