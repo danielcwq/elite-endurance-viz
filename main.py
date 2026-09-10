@@ -142,14 +142,16 @@ def format_metric(value, divisor: float = 1, suffix: str = "", decimals: int = 1
 
 
 def snapshot_banner(stats: dict) -> Div:
+    synthetic = str(stats['dataset_version']).startswith('SYNTHETIC-DEMO')
     return Div(
-        Strong("2024 Snapshot"),
+        Strong("Synthetic demo — not real athletes" if synthetic else "2024 Snapshot"),
         " · ",
         Span(f"dataset v{stats['dataset_version']}"),
         " · ",
         Span(f"built {format_timestamp(stats['build_time'])}"),
         Br(),
-        Small("Publicly observed Strava activity, not a complete or current training history."),
+        Small("All athletes, results, and activities here are invented software-test examples." if synthetic
+              else "Publicly observed Strava activity, not a complete or current training history."),
         cls="snapshot-banner",
     )
 

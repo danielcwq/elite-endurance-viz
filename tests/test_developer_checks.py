@@ -59,6 +59,20 @@ class RecordedWeekCheckTests(unittest.TestCase):
 
 
 class DeveloperSetupTests(unittest.TestCase):
+    def test_demo_uses_isolated_database_and_child_environment(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            with patch.object(dev,'ROOT',root), patch.object(dev,'verify_python'), \
+                 patch.object(dev,'run') as run, patch('sys.argv',['dev.py','demo']), \
+                 patch.dict(os.environ,{'ENDURANCEVIZ_DB_PATH':'user-configured-original.duckdb'}):
+                self.assertEqual(dev.main(),0)
+                self.assertEqual(run.call_args_list[0].args[0][1],'scripts/build_demo_2024.py')
+                child_env = run.call_args_list[-1].kwargs['env']
+                self.assertEqual(child_env['ENDURANCEVIZ_DB_PATH'],str(root/'data/derived/2024/demo/synthetic.duckdb'))
+                self.assertEqual(os.environ['ENDURANCEVIZ_DB_PATH'],'user-configured-original.duckdb')
+                self.assertIn('8001',run.call_args_list[-1].args[0])
+                self.assertIn('--no-access-log',run.call_args_list[-1].args[0])
+
     def test_explicit_fixture_database_wins_over_environment(self):
         with tempfile.TemporaryDirectory() as temporary:
             path = Path(temporary) / 'fixture.duckdb'

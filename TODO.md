@@ -395,7 +395,7 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 ## P1.8 Engineering portfolio quality
 
 - [x] Add automated CI for unit tests, data fixtures, and schema/quality checks: 79 tests and 19 read-only artifact checks pass locally and in the [verified Linux CI run](https://github.com/danielcwq/elite-endurance-viz/actions/runs/34398767117).
-- [ ] Provide a small non-sensitive seed dataset.
+- [x] Provide a small non-sensitive seed dataset: [five invented athletes and 55 activities](docs/synthetic-demo.md), generated with the real schema and serving queries via `make seed` / `make demo`; isolated output, synthetic banner, package rejection, and regression tests.
 - [x] Provide one-command local setup and one-command test execution: `make setup`, `make test`, and `make check`, with Python entry-point equivalents and a non-destructive existing-environment policy.
 - [x] Publish an architecture diagram: [implemented runtime and boundaries](docs/architecture.md), including read-only serving, caching, readiness, and logs.
 - [x] Publish a transformation/data-lineage diagram: [P0 rebuild and separate P1 paths](docs/architecture.md), with registry preparation and packaging explicitly separate.

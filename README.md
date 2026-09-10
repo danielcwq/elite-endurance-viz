@@ -39,6 +39,13 @@ GitHub Actions runs the same tests and packaged-data checks on P1/main pushes an
 
 On the P1 branch, `/health` probes the snapshot read-only and returns 200/503. Structured request logs include route patterns, status, duration, and request IDs, without raw request URLs or athlete data. `make run` disables the separate Uvicorn access log. See [operational observability](docs/p1-operational-observability.md) for the failure behavior and infrastructure-log boundary.
 
+For a small demo without reading athlete data, run `make demo` after setup and open
+`http://127.0.0.1:8001`. It uses five entirely invented athletes and 55 activities in
+a separately generated, visibly labelled synthetic database. `make seed` only
+builds that database and refuses existing output files. See [synthetic demo and
+safety boundaries](docs/synthetic-demo.md); the normal snapshot and production
+deployment are unaffected.
+
 ## Rebuild the P0 snapshot locally
 
 Python 3.12 is recommended.

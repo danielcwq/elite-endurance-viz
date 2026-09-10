@@ -14,8 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 VENV_PYTHON = ROOT / '.venv' / ('Scripts/python.exe' if os.name == 'nt' else 'bin/python')
 
 
-def run(command):
-    subprocess.run([str(part) for part in command], cwd=ROOT, check=True)
+def run(command, **kwargs):
+    subprocess.run([str(part) for part in command], cwd=ROOT, check=True, **kwargs)
 
 
 def verify_python():
@@ -47,7 +47,7 @@ def setup():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=('setup', 'test', 'check', 'run'))
+    parser.add_argument('command', choices=('setup', 'test', 'check', 'run', 'seed', 'demo'))
     args = parser.parse_args()
     try:
         if args.command == 'setup':
@@ -58,6 +58,21 @@ def main():
                 run([VENV_PYTHON, '-m', 'unittest', 'discover', '-s', 'tests', '-p', 'test_*.py'])
                 if args.command == 'check':
                     run([VENV_PYTHON, 'scripts/check_serving_2024.py'])
+            elif args.command == 'seed':
+                run([VENV_PYTHON, 'scripts/build_demo_2024.py'])
+            elif args.command == 'demo':
+                database = ROOT / 'data/derived/2024/demo/synthetic.duckdb'
+                if not os.path.lexists(database):
+                    run([VENV_PYTHON, 'scripts/build_demo_2024.py'])
+                # Require the explicit synthetic marker before opening demo mode.
+                run([VENV_PYTHON, '-c',
+                     'import duckdb,sys; c=duckdb.connect(sys.argv[1],read_only=True); '
+                     'v=c.execute("SELECT specification_version FROM dataset_builds").fetchall(); '
+                     'sys.exit(0 if v==[("SYNTHETIC-DEMO-v1",)] else "Not a synthetic demo database")', database])
+                environment = os.environ.copy()
+                environment['ENDURANCEVIZ_DB_PATH'] = str(database)
+                run([VENV_PYTHON, '-m', 'uvicorn', 'main:app', '--host', '127.0.0.1',
+                     '--port', '8001', '--no-access-log'], env=environment)
             else:
                 run([VENV_PYTHON, '-m', 'uvicorn', 'main:app', '--host', '127.0.0.1', '--port', '8000', '--no-access-log'])
     except (RuntimeError, OSError, subprocess.CalledProcessError) as exc:
