@@ -48,10 +48,11 @@ not been tested. Descriptions may be shortened by those services.
 
 ## Still open
 
-- Keyboard traversal and horizontal scrolling need browser QA; resolving chart
-  accessible labels is not a keyboard or screen-reader audit.
-- Mobile layout, screenshot-visible caveats, and external share previews remain
-  separate checks. These tests do not prove those visual behaviours.
+- [A subsequent profile browser pass](p1-responsive-keyboard-qa.md) verifies
+  keyboard scrolling, filters, pagination, and four responsive widths. It does
+  not establish homepage/map coverage or screen-reader accessibility.
+- Screenshot-visible caveats and external share previews remain separate checks.
+  These HTML tests do not prove those visual behaviours.
 - Empty/undersized **cohorts** await the cohort interface and approved inclusion
   decisions; empty athlete profiles are not a substitute for those cases.
 - New charts and later study/editorial pages need their own QA when implemented.

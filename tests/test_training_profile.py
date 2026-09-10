@@ -48,6 +48,10 @@ class TrainingProfileTests(unittest.TestCase):
         soup=BeautifulSoup(html,'html.parser')
         self.assertTrue(all(p.text=='Unavailable' for p in soup.select('.training-value')))
         self.assertEqual(len(soup.select('tbody tr')),53)
+        evidence = soup.select_one('.training-table-scroll')
+        self.assertEqual(evidence['tabindex'],'0')
+        self.assertEqual(evidence['role'],'region')
+        self.assertIn('Weekly recorded running and source evidence',evidence['aria-label'])
 
     def test_source_errors_are_escaped_in_table(self):
         html=to_xml(training_section([week(0,collection_error_code='<script>alert(1)</script>')]))
@@ -88,6 +92,20 @@ class TrainingProfileTests(unittest.TestCase):
         self.assertIn('39.0',soup.select_one('.training-stats').text)
         self.assertNotIn('per 366/7 calendar week',response.text)
         self.assertNotIn('coverage (',response.text)
+
+    def test_profile_scroll_regions_have_explicit_keyboard_and_accessible_contract(self):
+        with TestClient(main.app) as client:
+            response=client.get('/athlete/0d6ef2f6-da6b-4494-b439-89b2bb43f7a3')
+        soup=BeautifulSoup(response.text,'html.parser')
+        regions=soup.select('.training-chart-scroll,.training-table-scroll,.table-wrap')
+        self.assertEqual(len(regions),5)
+        labels=[]
+        for region in regions:
+            self.assertEqual(region['tabindex'],'0')
+            self.assertEqual(region['role'],'region')
+            self.assertTrue(region['aria-label'].strip())
+            labels.append(region['aria-label'])
+        self.assertEqual(len(set(labels)),5)
 
 
 if __name__ == '__main__':

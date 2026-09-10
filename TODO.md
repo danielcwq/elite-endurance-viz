@@ -416,8 +416,8 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 - [x] Test athletes with missing performance metadata and unusual activity types: the real missing-performance case and date-filtered WeightTraining, VirtualRide, and TrailRun records are covered in [profile QA](docs/p1-profile-qa.md).
 - [ ] Test empty and undersized cohorts.
 - [ ] Verify every chart against curated-table queries.
-- [ ] Test mobile and narrow-table behavior.
-- [ ] [PARTIAL] Test keyboard navigation and accessible chart labels: rendered chart labels/descriptions resolve and IDs are unique; browser keyboard traversal remains pending.
+- [ ] [PARTIAL] Test mobile and narrow-table behavior: [profile browser QA](docs/p1-responsive-keyboard-qa.md) at 320/390/768/1280 px verifies containment, readable activity text, and pagination. Homepage/map and future cohort layouts remain to be covered.
+- [ ] [PARTIAL] Test keyboard navigation and accessible chart labels: [profile browser QA](docs/p1-responsive-keyboard-qa.md) verifies charts, tables, disclosures, filter submission, and pagination; labels resolve and IDs are unique. Homepage/map keyboard coverage and screen-reader checks remain pending.
 - [ ] [PARTIAL] Verify page titles and share metadata: homepage/profile head titles, descriptions, Open Graph/Twitter text, escaping, and synthetic noindex are [tested](docs/p1-profile-qa.md); external share rendering and future study/cohort pages remain pending.
 - [ ] Verify stable filtered/shareable URLs.
 - [ ] Validate that missing data never becomes a misleading zero.

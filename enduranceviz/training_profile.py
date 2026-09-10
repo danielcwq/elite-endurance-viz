@@ -41,7 +41,9 @@ TRAINING_PROFILE_CSS = """
 .training-gap-mark { stroke: var(--muted-color); stroke-width: 1.5; }
 .training-zero { fill: var(--chart-accent); }
 .training-profile details { margin-top: 1.5rem; }
+.training-profile summary { min-height: 48px; line-height: 1.5; }
 .training-table-scroll { overflow-x: auto; margin: -.5rem 0; }
+.training-table-scroll:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .training-table-inner { min-width: 100%; display: inline-block; padding: .5rem 0; vertical-align: middle; }
 .training-profile table { width: 100%; font-size: 1rem; font-variant-numeric: tabular-nums; }
 .training-profile th { white-space: nowrap; }
@@ -181,7 +183,8 @@ def training_section(weeks):
                     Td(evidence_label(r), Small(f" · {r['collection_error_code']}" if r['collection_error_code'] else ''),
                        Small(' · Partial week' if r['is_partial_window'] else '')),
                 ) for r in weeks]),
-            ),cls='training-table-inner'), cls='training-table-scroll')),
+            ),cls='training-table-inner'), cls='training-table-scroll', tabindex='0', role='region',
+                aria_label='Weekly recorded running and source evidence. Scroll horizontally to inspect all columns.')),
         Details(Summary('How these metrics are calculated'),
             P('Each full week starts Monday in UTC. The medians use weeks with at least one stored Run. Distance is unavailable if any recorded run has missing or invalid distance. Real recorded zero distances are retained.'),
             P('Run records may include separate warm-ups, repetitions, and cool-downs. Multiple records do not prove multiple sessions. Recorded run days count UTC dates with at least one Run.'),

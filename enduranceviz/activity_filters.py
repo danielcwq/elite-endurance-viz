@@ -59,18 +59,33 @@ ACTIVITY_FILTER_CSS = """
 .activity-filters input, .activity-filters select { margin: .3rem 0 0; min-width: 0; font-size: 1rem; }
 #activities .activity-filters input, #activities .activity-filters select { margin-bottom: 0; height: 3rem; }
 .activity-filter-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; }
-.activity-filter-actions button { width: auto; margin: 0; padding: .3rem .6rem; height: 38px; font-size: .875rem; position: relative; }
+.activity-filter-actions button { width: auto; margin: 0; padding: .3rem .6rem; min-height: 48px; font-size: 1rem; position: relative; }
+.activity-filter-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; min-width: 48px; }
 .activity-filter-actions button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .activity-share { margin: 1rem 0; font-size: 1rem; }
 .activity-section .pagination { flex-wrap: wrap; font-size: 1rem; }
+.activity-section .pagination a { margin: 0; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; }
+.activity-section .table-wrap:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .activity-section th { white-space: nowrap; }
+.activity-section table { font-size: 1rem; min-width: 48rem; }
+.activity-section th, .activity-section td, .activity-section td small { font-size: 1rem; }
+.activity-section td:nth-child(2) { min-width: 24ch; max-width: 42ch; overflow-wrap: anywhere; }
+.activity-section td:not(:nth-child(2)) { white-space: nowrap; }
 .activity-table-inner { min-width: 100%; display: inline-block; vertical-align: middle; padding: .5rem 0; }
 @media (pointer: coarse) {
   .activity-filter-actions .touch-target { position: absolute; top: 50%; left: 50%; width: max(100%,48px); height: max(100%,48px); transform: translate(-50%,-50%); }
 }
+@container (max-width: 599px) {
+  .activity-section .pagination { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: .5rem; }
+  .activity-section .pagination > span { display: none; }
+  .activity-section .pagination a:first-child { grid-column: 1; }
+  .activity-section .pagination a:last-child { grid-column: 2; }
+}
 @container (min-width: 850px) {
   .activity-filters { grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) auto; }
   .activity-filters label, .activity-filters input, .activity-filters select, .activity-share, .activity-section .pagination { font-size: .875rem; }
+  .activity-filter-actions button { min-height: 38px; font-size: .875rem; }
+  .activity-section table, .activity-section th, .activity-section td, .activity-section td small { font-size: .875rem; }
 }
 """
 
