@@ -412,16 +412,16 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 
 ## P1.9 Product QA
 
-- [ ] Test high-, moderate-, low-, and insufficient-coverage athletes.
-- [ ] Test athletes with missing performance metadata and unusual activity types.
+- [x] Test high-, moderate-, low-, and insufficient-coverage athletes: [HTTP profile QA](docs/p1-profile-qa.md) covers all four classes present in the packaged snapshot (including unknown); synthetic data supplies the absent insufficient class.
+- [x] Test athletes with missing performance metadata and unusual activity types: the real missing-performance case and date-filtered WeightTraining, VirtualRide, and TrailRun records are covered in [profile QA](docs/p1-profile-qa.md).
 - [ ] Test empty and undersized cohorts.
 - [ ] Verify every chart against curated-table queries.
 - [ ] Test mobile and narrow-table behavior.
-- [ ] Test keyboard navigation and accessible chart labels.
-- [ ] Verify page titles and share metadata.
+- [ ] [PARTIAL] Test keyboard navigation and accessible chart labels: rendered chart labels/descriptions resolve and IDs are unique; browser keyboard traversal remains pending.
+- [ ] [PARTIAL] Verify page titles and share metadata: homepage/profile head titles, descriptions, Open Graph/Twitter text, escaping, and synthetic noindex are [tested](docs/p1-profile-qa.md); external share rendering and future study/cohort pages remain pending.
 - [ ] Verify stable filtered/shareable URLs.
 - [ ] Validate that missing data never becomes a misleading zero.
-- [ ] Validate that low-coverage warnings remain visible in screenshots and shared views.
+- [ ] [PARTIAL] Validate that low-coverage warnings remain visible in screenshots and shared views: recorded-week counts and source-warning counts are included in profile share metadata; screenshot and external-preview checks remain pending. No new low-coverage cutoff is introduced.
 
 ## P1 exit criteria
 

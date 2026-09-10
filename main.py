@@ -17,6 +17,7 @@ from enduranceviz.serving import ServingRepository
 from enduranceviz.training_profile import TRAINING_PROFILE_CSS, training_section
 from enduranceviz.operations import RequestLogMiddleware
 from enduranceviz.recorded_training import POLICY_VERSION
+from enduranceviz.page_metadata import homepage_metadata, profile_metadata
 
 
 repository = ServingRepository()
@@ -214,7 +215,7 @@ def snapshot_metadata():
 def homepage():
     stats = repository.snapshot_stats()
     return (
-        Title("EnduranceViz — 2024 Snapshot"),
+        *homepage_metadata(stats),
         Main(
             P("EnduranceViz", cls="home-brand"),
             snapshot_banner(stats),
@@ -493,7 +494,7 @@ def get_athlete(athlete_id: str, page: str = '1', start: str = '', end: str = ''
     previous_link = filters.url(athlete_id, activity_page['page'] - 1)
     next_link = filters.url(athlete_id, activity_page['page'] + 1)
     return (
-        Title(f"{display_name} — EnduranceViz 2024"),
+        *profile_metadata(athlete, stats, weeks),
         Main(
             A("← Athlete search", href="/"),
             snapshot_banner(stats),
