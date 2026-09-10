@@ -38,9 +38,13 @@ class ServingRepository:
 
     def _query(self, sql: str, parameters: list[Any] | None = None) -> list[dict[str, Any]]:
         with duckdb.connect(str(self.database), read_only=True) as connection:
-            cursor = connection.execute(sql, parameters or [])
-            columns = [description[0] for description in cursor.description]
-            return [dict(zip(columns, row)) for row in cursor.fetchall()]
+            return self._fetch(connection, sql, parameters)
+
+    @staticmethod
+    def _fetch(connection, sql: str, parameters: list[Any] | None = None) -> list[dict[str, Any]]:
+        cursor = connection.execute(sql, parameters or [])
+        columns = [description[0] for description in cursor.description]
+        return [dict(zip(columns, row)) for row in cursor.fetchall()]
 
     def health_metadata(self) -> dict[str, Any] | None:
         """Fresh read-only readiness probe, deliberately outside all caches."""
@@ -202,23 +206,26 @@ class ServingRepository:
                 predicates.append('activity_category = ?')
                 parameters.append(filters.category)
         where = ' AND '.join(predicates)
-        total = self._query(f'SELECT count(*) AS n FROM activities_2024 WHERE {where}', parameters)[0]['n']
-        total_pages = max(1, (total + page_size - 1) // page_size)
-        page = min(page, total_pages)
-        offset = (page - 1) * page_size
-        rows = self._query(
-            f"""
-            SELECT activity_id, activity_name, description, provider_activity_type,
-                   activity_category, start_at_utc, distance_meters,
-                   elapsed_seconds, moving_seconds, pace_seconds_per_kilometer,
-                   location, quality_status, quality_flags
-            FROM activities_2024
-            WHERE {where}
-            ORDER BY start_at_utc DESC, activity_id DESC
-            LIMIT ? OFFSET ?
-            """,
-            [*parameters, page_size + 1, offset],
-        )
+        # Both reads belong to this request. Share the connection without
+        # retaining a process-global handle or broadening the row projection.
+        with duckdb.connect(str(self.database), read_only=True) as connection:
+            total = self._fetch(connection, f'SELECT count(*) AS n FROM activities_2024 WHERE {where}', parameters)[0]['n']
+            total_pages = max(1, (total + page_size - 1) // page_size)
+            page = min(page, total_pages)
+            offset = (page - 1) * page_size
+            rows = self._fetch(connection,
+                f"""
+                SELECT activity_id, activity_name, description, provider_activity_type,
+                       activity_category, start_at_utc, distance_meters,
+                       elapsed_seconds, moving_seconds, pace_seconds_per_kilometer,
+                       location, quality_status, quality_flags
+                FROM activities_2024
+                WHERE {where}
+                ORDER BY start_at_utc DESC, activity_id DESC
+                LIMIT ? OFFSET ?
+                """,
+                [*parameters, page_size + 1, offset],
+            )
         has_next = len(rows) > page_size
         return {
             "rows": rows[:page_size],

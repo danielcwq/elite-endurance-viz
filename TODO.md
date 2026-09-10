@@ -400,8 +400,8 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 - [x] Publish an architecture diagram: [implemented runtime and boundaries](docs/architecture.md), including read-only serving, caching, readiness, and logs.
 - [x] Publish a transformation/data-lineage diagram: [P0 rebuild and separate P1 paths](docs/architecture.md), with registry preparation and packaging explicitly separate.
 - [x] Publish a database or curated-schema diagram: [all ten persisted tables and foreign-key relationships](docs/architecture.md), distinguishing the directory view and schema constraints from pipeline invariants.
-- [ ] Publish before-and-after database-query measurements.
-- [ ] Publish before-and-after payload-size and page-latency measurements.
+- [x] Publish before-and-after database-query measurements: [paired local activity-pagination benchmarks](docs/p1-serving-performance.md), testing five cases against the committed pre-change repository; one request-local connection replaces two, with equivalent outputs and unchanged read-only access.
+- [ ] [PARTIAL] Publish before-and-after payload-size and page-latency measurements: identical HTML byte counts and warm in-process profile response timings are [measured](docs/p1-serving-performance.md). Browser/network/cold-start measurements remain pending; no production-speed claim is made.
 - [ ] Run a permitted staging load test and publish the methodology and results.
 - [x] Add structured logging and an application health endpoint: read-only `/health` readiness, privacy-limited JSON request events, request IDs, and regression tests for failures/streaming/redaction; see [operational observability](docs/p1-operational-observability.md). Implemented on P1, not deployed to production.
 - [ ] Handle missing, excluded, low-coverage, and empty-cohort states intentionally.

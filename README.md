@@ -73,6 +73,11 @@ The application queries DuckDB read-only. It prefers the locally rebuilt file un
 
 The `data/` deployment guardrail remains intact: `.vercelignore` excludes the entire raw, staged, curated, and derived tree. Only the immutable serving database and its checksum manifest are allowlisted into the Vercel function from `deploy/`.
 
+P1 includes a [reproducible local before/after serving benchmark](docs/p1-serving-performance.md).
+Activity pagination now shares one request-local read-only connection for its
+count and row queries. Five paired cases return identical data and HTML; the report
+separates local query/ASGI timings from still-unmeasured production and browser latency.
+
 ## Data model and methods
 
 - [Runtime architecture, data lineage, and schema diagrams](docs/architecture.md)
