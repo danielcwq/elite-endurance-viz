@@ -83,14 +83,13 @@ Implemented on the P1 branch in the [reproducible continuous-points exploration]
 
 ### Remaining checkpoints
 
-Immediate sequencing question (awaiting Daniel): build a P1-branch interactive
-preview of the already-approved event/sex distributions and continuous-points
-plots, or review sparse-posting cases together before building that interface?
-The proposed preview would retain all metric-available recorded-run contributors,
-show registry/contributor counts and recording breadth, and remain explicitly
-exploratory. It would not approve a final inclusion policy, percentile rankings,
-fitted models, study conclusions, or a production deployment. No answer to this
-question has been inferred from automatic goal continuations.
+On 2026-09-10 Daniel narrowed the finish line to the comparison preview and static
+plots, with no athlete case studies and no further development beyond that review
+package. This resolves the earlier sequencing question. `/compare` retains all
+metric-available contributors, shows registry/contributor counts and recording
+breadth, and remains exploratory. The historical broader P1 checklist is deferred,
+not an automatic continuation queue. No final inclusion policy, percentile
+rankings, fitted models, study conclusions, or production deployment is approved.
 
 The [source and calendar audit](p1-source-conflicts-2024.md) traced all 611 conflicting full athlete-week keys in the chosen events. Most pair `No Data` with another summary; some contain the wrong date range, and some differ in displayed totals. No source warnings were silently cleared. Across all event-assigned athletes, 84 in 800m and 119 in 1500m have any stored 2024 Run. This is an observation inventory, not an eligible sample for a study. Monthly counts and gaps are documented without year-fraction filters.
 
@@ -101,7 +100,7 @@ The earlier focus checkpoint is superseded by approval of the broader event ladd
 - Agree how to handle small cohorts, and distinguish descriptive summaries from inferential comparisons. Do not invent a universal sample-size threshold.
 - Choose inclusion appropriate to the agreed question after the collection/posting audit; P0 eligibility is a historical diagnostic only.
 - Agree hypotheses and the first metrics before calculating final comparisons.
-- Select editorial athletes after establishing those rules, documenting the selection rather than presenting convenient examples as representative.
+- Editorial athlete case studies were removed from scope on 2026-09-10.
 
 ## Implementation boundary
 

@@ -10,7 +10,8 @@ from typing import Any
 import duckdb
 
 from enduranceviz.activity_filters import ActivityFilters
-from enduranceviz.recorded_training import RECORDED_WEEK_METRICS_SQL
+from enduranceviz.recorded_training import RECORDED_WEEK_METRICS_SQL, ATHLETE_RECORDED_TRAINING_SQL, STUDY_EVENTS
+from enduranceviz.performance_training import PERFORMANCE_TRAINING_SQL
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -64,6 +65,18 @@ class ServingRepository:
                 or not all(row[key] for key in ('has_athletes', 'has_activities', 'has_coverage'))):
             return None
         return {'dataset_version': row['dataset_version'], 'build_time': row['build_time']}
+
+    @lru_cache(maxsize=1)
+    def comparison_athletes(self) -> tuple[dict[str, Any], ...]:
+        """Approved exploratory summaries; no P0 eligibility or week cutoff."""
+        return tuple(self._query(f'''
+            WITH recorded_athletes AS ({ATHLETE_RECORDED_TRAINING_SQL}),
+                 scored AS ({PERFORMANCE_TRAINING_SQL})
+            SELECT s.*, coalesce(d.display_name, d.official_name) AS name
+            FROM scored s JOIN athlete_directory_2024 d USING(athlete_id)
+            WHERE s.primary_discipline IN ({','.join('?' for _ in STUDY_EVENTS)})
+            ORDER BY s.primary_discipline, s.gender, name, s.athlete_id
+        ''', list(STUDY_EVENTS)))
 
     @lru_cache(maxsize=1)
     def snapshot_stats(self) -> dict[str, Any]:

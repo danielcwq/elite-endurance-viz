@@ -285,7 +285,25 @@ Grain: one canonical athlete by one 2024 calendar week.
 
 # P1 — Hiring-quality 2024 analytics project
 
-Required P1 scope is descriptive and comparative. Prediction models and 2025 outcome matching remain P2.
+### Scope narrowed by Daniel — 2026-09-10
+
+The current finish line is the approved comparison preview plus the existing static
+plots, followed by Daniel's review. **No athlete case studies and no additional
+development beyond this review package.** Production deployment is not authorized.
+
+- [x] Add `/compare` on the P1 branch: event selectors, distance/Run-record metrics,
+  distribution/continuous-points views, separate recorded-sex panels, counts,
+  contributing weeks, exact-value tables, and stable GET URLs.
+- [x] Retain the three reproducible static plots locally, without committing plot
+  inputs, athlete-level exports, or generated images to GitHub.
+- [ ] Review the comparison preview and static plots with Daniel.
+
+The detailed P1.1–P1.9 checklist below is the **historical broader roadmap, not an
+active development queue or required exit criteria**. Its unchecked work is
+deferred unless Daniel explicitly reopens it. Earlier lift estimates no longer
+describe the narrowed scope. See [review package](docs/p1-comparison-preview.md).
+
+The retained work is descriptive and comparative. Prediction models and 2025 outcome matching remain P2.
 
 ## P1.1 Analytical question and cohorts
 
@@ -362,6 +380,9 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 
 ## P1.5 Editorial case studies
 
+**Removed from scope by Daniel on 2026-09-10.** The old checklist below is retained
+only as historical planning context, not unfinished required work.
+
 - [ ] Select three to five high-coverage athletes across different event groups.
 - [ ] Explain each athlete’s 2024 training fingerprint.
 - [ ] Compare each athlete with an appropriate cohort.
@@ -424,6 +445,9 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 - [ ] [PARTIAL] Validate that low-coverage warnings remain visible in screenshots and shared views: recorded-week counts and source-warning counts are included in profile share metadata; screenshot and external-preview checks remain pending. No new low-coverage cutoff is introduced.
 
 ## P1 exit criteria
+
+**Superseded by the narrowed review-package finish line above.** These were the
+exit criteria for the original, broader hiring-project proposal.
 
 - [ ] The homepage communicates the study question and product value in under one minute.
 - [ ] Every displayed metric has a definition, window, denominator, and coverage status.

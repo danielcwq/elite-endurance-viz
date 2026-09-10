@@ -18,6 +18,7 @@ from enduranceviz.training_profile import TRAINING_PROFILE_CSS, training_section
 from enduranceviz.operations import RequestLogMiddleware
 from enduranceviz.recorded_training import POLICY_VERSION
 from enduranceviz.page_metadata import homepage_metadata, profile_metadata
+from enduranceviz.comparison_preview import comparison_page
 
 
 repository = ServingRepository()
@@ -157,6 +158,14 @@ def snapshot_banner(stats: dict) -> Div:
     )
 
 
+@rt('/compare')
+def compare(first: str = '800m', second: str = '5000m', metric: str = 'distance', view: str = 'distribution'):
+    try:
+        return comparison_page(repository, snapshot_banner, first, second, metric, view)
+    except ValueError as error:
+        return PlainTextResponse(str(error), status_code=400)
+
+
 @rt("/api/athletes/search")
 def athlete_search(q: str = ""):
     if len(q.strip()) < 2:
@@ -220,6 +229,7 @@ def homepage():
             P("EnduranceViz", cls="home-brand"),
             snapshot_banner(stats),
             H1("Elite endurance training, observed in 2024"),
+            P(A("Explore recorded-running comparisons", href="/compare")),
             P(
                 "Explore elite runners, their 2024 performances, and publicly observed training. "
                 "Search for an athlete or browse the map by nationality.",
