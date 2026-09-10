@@ -289,16 +289,16 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 
 ## P1.1 Analytical question and cohorts
 
-- [ ] [PARTIAL] Frame the primary question: approved event ladder leads with 800m versus 5000m, with 1500m context, 10000m extension, separate steeplechase, and cautious half-marathon exploration. The performance-level question remains pending.
+- [ ] [PARTIAL] Frame the primary question: approved event ladder leads with 800m versus 5000m, with 1500m context, 10000m extension, separate steeplechase, and cautious half-marathon exploration. Continuous within-event/sex performance exploration is also approved and implemented; the final study protocol and composition question remain pending.
 - [ ] [PARTIAL] Reuse the existing 1,100 World Athletics point threshold, but document why it was chosen and how it affects selection.
-- [ ] Define event groups such as middle distance, track distance, road distance, and marathon.
-- [ ] Use the P0 primary-discipline rule to assign each athlete to a default cohort.
+- [ ] [PARTIAL] Define event groups: the approved event-specific ladder is implemented in exploration; broader middle/track/road/marathon pooling is not an approved default. Keep steeplechase and road/track distances separate.
+- [ ] [PARTIAL] Use the P0 primary-discipline rule: implemented in both exploratory reports, with one primary event per athlete; applying it in the cohort interface remains pending.
 - [x] Use continuous World Athletics points within event/recorded-sex groups, approved by Daniel; highest stored primary-event score per athlete, with missing-score counts and tested one-athlete joins in the [exploratory paired view](docs/p1-performance-training-2024.md). No score bands or fitted model.
 - [ ] Define question-specific inclusion after auditing collection evidence and posting; the P0 coverage thresholds are historical diagnostics, not an approved P1 filter.
 - [x] Audit cohort sizes before selecting comparisons; see [initial P1 cohort audit](docs/p1-cohort-audit-2024.md) for event, recorded-sex, coverage, and provisional score-band counts.
-- [ ] [PARTIAL] Ensure one athlete appears only once in a single cohort analysis. The initial audit verifies unique directory IDs and one primary discipline; apply this invariant to subsequent analysis views.
-- [ ] Publish inclusion, exclusion, and low-coverage counts.
-- [ ] Predefine analysis questions and metrics before interpreting results.
+- [ ] [PARTIAL] Ensure one athlete appears only once in a single cohort analysis: both exploratory calculations enforce unique athlete summaries, including after the performance join. Apply the invariant to the pending cohort interface too.
+- [ ] [PARTIAL] Publish inclusion, exclusion, and low-coverage counts: exploratory reports expose registry, metric contributors, missing-pair counts, contributing weeks, and source warnings. Final study inclusion/exclusion rules and their web presentation remain pending; P0 coverage labels are not an adopted filter.
+- [ ] [PARTIAL] Predefine analysis questions and metrics before interpreting results: exploratory recorded-week metrics and the per-athlete primary-event score were specified before calculation. Final comparisons, additional metrics, and inference still require decisions.
 
 Decision checkpoint: the broader event ladder, exploratory recorded-week distance/frequency view, and continuous within-event/sex performance points are approved. The 26/39-week proposal remains withdrawn. Final inclusion and inference remain pending; performance bands were superseded, not deferred. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
 
@@ -336,7 +336,7 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 - [ ] Compare consistency.
 - [ ] Allow continuous World Athletics score-range filtering within event/recorded-sex groups; this replaces performance-tier bands following Daniel's approval.
 - [ ] Warn or suppress inference when cohort size is too small.
-- [ ] Exclude insufficient-coverage athletes by default while making the exclusion visible.
+- [ ] [DECISION] Set and visibly explain any final question-specific exclusion rule with Daniel. The original automatic P0 insufficient-coverage exclusion proposal is superseded by the approved exploratory no-cutoff view; do not implement the old flag as a default cohort filter.
 - [ ] Make cohort definitions and denominators accessible from the comparison view.
 
 ## P1.4 Coherent 2024 study
@@ -350,7 +350,7 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 - [ ] Produce cohort descriptive statistics.
 - [x] Produce the approved [exploratory recorded-week summaries](docs/p1-exploratory-training-2024.md), with separate sex groups, athlete-level weighting, measurement-specific denominators, and local distribution figures. Final study statistics remain pending above.
 - [x] Produce an initial [continuous-points scatter exploration](docs/p1-performance-training-2024.md), with one primary-event score per athlete, metric-specific pair counts, and contributing-week colour. No fitted lines or numerical association statistics; final interpretation remains a human checkpoint.
-- [ ] Visualize distributions, not just means.
+- [ ] [PARTIAL] Visualize distributions, not just means: local exploratory figures show individual athlete summaries, medians, and IQRs; an interactive/narrative web presentation remains pending.
 - [ ] Report uncertainty intervals and effect sizes.
 - [ ] Stratify or control for data coverage.
 - [ ] Investigate influential outliers and duplicate-related historical distortions.
@@ -378,7 +378,7 @@ Decision checkpoint: the broader event ladder, exploratory recorded-week distanc
 - [ ] Explain what the snapshot contains and does not contain.
 - [ ] Feature one editorial case study.
 - [ ] Retain dataset counts only as supporting, deduplicated context.
-- [ ] Add a meaningful homepage title, description, and share metadata.
+- [x] Add a meaningful homepage title, description, and share metadata: [factual 2024 snapshot metadata and synthetic-demo identification](docs/p1-profile-qa.md) are implemented and tested on the P1 branch. Final study findings/narrative remain separate work above.
 
 ## P1.7 Methodology and transparency
 

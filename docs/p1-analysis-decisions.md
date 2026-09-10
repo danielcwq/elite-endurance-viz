@@ -83,6 +83,15 @@ Implemented on the P1 branch in the [reproducible continuous-points exploration]
 
 ### Remaining checkpoints
 
+Immediate sequencing question (awaiting Daniel): build a P1-branch interactive
+preview of the already-approved event/sex distributions and continuous-points
+plots, or review sparse-posting cases together before building that interface?
+The proposed preview would retain all metric-available recorded-run contributors,
+show registry/contributor counts and recording breadth, and remain explicitly
+exploratory. It would not approve a final inclusion policy, percentile rankings,
+fitted models, study conclusions, or a production deployment. No answer to this
+question has been inferred from automatic goal continuations.
+
 The [source and calendar audit](p1-source-conflicts-2024.md) traced all 611 conflicting full athlete-week keys in the chosen events. Most pair `No Data` with another summary; some contain the wrong date range, and some differ in displayed totals. No source warnings were silently cleared. Across all event-assigned athletes, 84 in 800m and 119 in 1500m have any stored 2024 Run. This is an observation inventory, not an eligible sample for a study. Monthly counts and gaps are documented without year-fraction filters.
 
 The earlier focus checkpoint is superseded by approval of the broader event ladder and exploratory analysis above. Next, review the provisional recorded-week summaries and settle the final comparison estimand, inclusion policy, and presentation before publishing study conclusions. No annual-week cutoff is presumed.
