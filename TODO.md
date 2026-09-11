@@ -285,23 +285,34 @@ Grain: one canonical athlete by one 2024 calendar week.
 
 # P1 — Hiring-quality 2024 analytics project
 
-### Scope narrowed by Daniel — 2026-09-10
+### Current review scope — 2026-09-10
 
-The current finish line is the approved comparison preview plus the existing static
-plots, followed by Daniel's review. **No athlete case studies and no additional
-development beyond this review package.** Production deployment is not authorized.
+Daniel initially narrowed the finish line to comparison preview plus static plots.
+His subsequent screenshot review explicitly reopened UI work, overlapping charts,
+event-assignment clarification, marathon visibility, and proposed anomaly examples.
+Full editorial case-study development is still not an automatic next step.
+Production deployment is not authorized.
 
 - [x] Add `/compare` on the P1 branch: event selectors, distance/Run-record metrics,
-  distribution/continuous-points views, separate recorded-sex panels, counts,
+  distribution/continuous-points views, distinct recorded-sex series, counts,
   contributing weeks, exact-value tables, and stable GET URLs.
 - [x] Retain the three reproducible static plots locally, without committing plot
   inputs, athlete-level exports, or generated images to GitHub.
+- [x] Replace side-by-side preview panels with a shared-axis overlay, cohort
+  hover/focus highlighting, click-to-pin details, and women/men/both selection.
+- [x] Refresh homepage/navigation/typography while retaining athlete search and map.
+- [x] Explain assigned event and expose stored event/score portfolios; add Marathon
+  to the interactive preview without changing the six-event static analyses.
+- [x] Inventory all 460 athletes with stored activities at `/recordings`; produce
+  a local full audit and proposed anomaly shortlist, including an explicitly
+  unconfirmed identity-link concern. Do not silently change the stored linkage.
 - [ ] Review the comparison preview and static plots with Daniel.
 
 The detailed P1.1–P1.9 checklist below is the **historical broader roadmap, not an
 active development queue or required exit criteria**. Its unchecked work is
 deferred unless Daniel explicitly reopens it. Earlier lift estimates no longer
-describe the narrowed scope. See [review package](docs/p1-comparison-preview.md).
+describe the current scope. See [review package](docs/p1-comparison-preview.md)
+and [UI and recording review](docs/p1-ui-and-recording-review.md).
 
 The retained work is descriptive and comparative. Prediction models and 2025 outcome matching remain P2.
 

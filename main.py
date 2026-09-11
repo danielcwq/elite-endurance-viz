@@ -19,6 +19,9 @@ from enduranceviz.operations import RequestLogMiddleware
 from enduranceviz.recorded_training import POLICY_VERSION
 from enduranceviz.page_metadata import homepage_metadata, profile_metadata
 from enduranceviz.comparison_preview import comparison_page
+from enduranceviz.ui import UI_CSS, FONT_URL, navigation, EVENT_EXPLANATION
+from enduranceviz.recording_inventory import inventory_page
+from enduranceviz.review_notes import IDENTITY_REVIEW_NOTES
 
 
 repository = ServingRepository()
@@ -29,6 +32,7 @@ app, rt = fast_app(
     # which is incompatible with Vercel's read-only function filesystem.
     secret_key=os.getenv("ENDURANCEVIZ_SESSION_SECRET", "enduranceviz-2024-read-only-snapshot"),
     hdrs=(
+        Link(rel='stylesheet', href=FONT_URL),
         Style(TRAINING_PROFILE_CSS),
         Style(ACTIVITY_FILTER_CSS),
         Link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"),
@@ -102,6 +106,7 @@ app, rt = fast_app(
             }
             """
         ),
+        Style(UI_CSS),
     ),
 )
 
@@ -159,11 +164,19 @@ def snapshot_banner(stats: dict) -> Div:
 
 
 @rt('/compare')
-def compare(first: str = '800m', second: str = '5000m', metric: str = 'distance', view: str = 'distribution'):
+def compare(first: str = '800m', second: str = '5000m', metric: str = 'distance', view: str = 'distribution', sex: str = 'both'):
     try:
-        return comparison_page(repository, snapshot_banner, first, second, metric, view)
+        return comparison_page(repository, snapshot_banner, first, second, metric, view, sex)
     except ValueError as error:
         return PlainTextResponse(str(error), status_code=400)
+
+
+@rt('/recordings')
+def recordings(q: str = '', event: str = 'All', sort: str = 'weeks', page: str = '1'):
+    try:
+        return inventory_page(repository,snapshot_banner,q,event,sort,page)
+    except ValueError as error:
+        return PlainTextResponse(str(error),status_code=400)
 
 
 @rt("/api/athletes/search")
@@ -226,15 +239,17 @@ def homepage():
     return (
         *homepage_metadata(stats),
         Main(
-            P("EnduranceViz", cls="home-brand"),
-            snapshot_banner(stats),
-            H1("Elite endurance training, observed in 2024"),
-            P(A("Explore recorded-running comparisons", href="/compare")),
+            navigation('home'),
+            P('The 2024 endurance snapshot', cls='ev-kicker'),
+            H1('Different events. Different running patterns.'),
             P(
-                "Explore elite runners, their 2024 performances, and publicly observed training. "
-                "Search for an athlete or browse the map by nationality.",
+                'Explore what elite athletes recorded—not what we assume they trained. '
+                'Compare events, inspect individual running weeks, and see the evidence behind every number.',
                 cls="muted home-intro",
             ),
+            Div(A('Compare recorded running →', href='/compare', role='button'),
+                A('Browse recorded athletes', href='/recordings'), cls='home-actions'),
+            H2('Find an athlete'),
             Div(
                 Div(
                     Input(
@@ -452,6 +467,7 @@ def homepage():
                 cls="home-note muted",
             ),
             P(A("Dataset methods and limitations", href="https://github.com/danielcwq/elite-endurance-viz/blob/p0-2024-data-foundation/docs/data-specification-2024-v1.md")),
+            snapshot_banner(stats),
             cls="container home-page",
         ),
     )
@@ -506,6 +522,7 @@ def get_athlete(athlete_id: str, page: str = '1', start: str = '', end: str = ''
     return (
         *profile_metadata(athlete, stats, weeks),
         Main(
+            navigation(),
             A("← Athlete search", href="/"),
             snapshot_banner(stats),
             H1(
@@ -514,15 +531,19 @@ def get_athlete(athlete_id: str, page: str = '1', start: str = '', end: str = ''
             ),
             P(
                 f"{athlete['nationality_code'] or 'Nationality unknown'} · "
-                f"{athlete['primary_discipline'] or 'No primary 2024 discipline'}",
+                f"Assigned event: {athlete['primary_discipline'] or 'No primary 2024 discipline'}",
                 cls="muted",
             ),
+            Details(Summary('How this event was assigned'),P(EVENT_EXPLANATION),
+                P(repository.event_assignment(athlete_id) or 'No stored event results.')),
+            P(IDENTITY_REVIEW_NOTES[athlete_id],cls='review-note') if athlete_id in IDENTITY_REVIEW_NOTES else None,
             H2("2024 season bests"),
             Div(
                 *[
                     Div(
                         Strong(row["discipline"]),
                         Div(row["mark_text"]),
+                        Div(f"{row['results_score']} result points" if row['results_score'] is not None else 'Result points unavailable'),
                         Small(f"{row['performance_date']} · {row['location'] or 'venue unavailable'}"),
                         cls="season-card",
                     )

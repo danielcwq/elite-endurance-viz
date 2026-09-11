@@ -4,6 +4,8 @@ from enduranceviz.observability import WEEK_EVIDENCE_SQL
 
 POLICY_VERSION = 'p1-recorded-training-exploratory-v1.1'
 STUDY_EVENTS = ('800m', '1500m', '3000m Steeplechase', '5000m', '10000m', 'Half Marathon')
+# Preview extension requested after the six-event static exploration was frozen.
+PREVIEW_EVENTS = (*STUDY_EVENTS, 'Marathon')
 
 RECORDED_WEEK_METRICS_SQL = f"""
 WITH evidence AS ({WEEK_EVIDENCE_SQL}), measurements AS (

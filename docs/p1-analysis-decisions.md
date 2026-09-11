@@ -8,6 +8,37 @@ Build a descriptive and comparative study of observed 2024 elite-runner training
 
 ## Evidence gathered
 
+### Latest presentation and audit request — 2026-09-10
+
+After reviewing the first preview, Daniel requested overlaid charts with hover
+highlighting and women/men selection, a broader UI refresh, an explanation of
+event assignment and missing marathon comparisons, and proposed anomaly cases.
+This supersedes the earlier stop-development instruction only for this work.
+
+- The preview overlays distinct event/recorded-sex series on a shared axis, not
+  pooled observations or statistics. The sex selector restricts displayed series.
+  Distribution curves are empirical cumulative distributions of the same
+  per-athlete medians, not smoothed density estimates.
+- Marathon is added to the preview: 1,115 assigned registry athletes, 89 with
+  recorded-running-week metrics (29 women, 60 men). The six-event static analysis
+  remains unchanged; its 361 contributors become 450 in the seven-event preview.
+- “Assigned event” replaces language implying a verified main specialty. The rule
+  remains highest stored event result points, then stored result count, then event
+  name alphabetically, with missing points last. Stored alternative events are
+  visible. No assignment or packaged database contents are changed.
+- `/recordings` inventories every athlete with a stored activity (460, including
+  455 with Runs). It is not a complete list of public Strava users or workouts.
+- The proposed shortlist is purposive, not a representative sample or new cohort
+  policy. The linked Kate Mitchell account has a possible identity mismatch;
+  visible review notes retain the existing row without claiming the link is wrong
+  or silently excluding it. Identity validation must precede an athlete case study.
+
+See [the review and candidate questions](p1-ui-and-recording-review.md). No new
+session definition, training-completeness claim, inference, or deployment follows
+from this presentation change.
+
+### Earlier audits
+
 The [reproducible cohort audit](p1-cohort-audit-2024.md) uses the packaged P0 database read-only. It reports aggregate counts, not athlete-level exports. It verifies unique athlete IDs and at most one primary discipline per athlete.
 
 Of 3,609 registry athletes, 585 meet the existing P0 coverage flag; 584 also have a primary event. The 1,100-point source cutoff predates P1 and limits the available population. Its original motivation has not been established by this audit.

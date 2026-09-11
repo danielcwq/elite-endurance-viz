@@ -10,7 +10,7 @@ from typing import Any
 import duckdb
 
 from enduranceviz.activity_filters import ActivityFilters
-from enduranceviz.recorded_training import RECORDED_WEEK_METRICS_SQL, ATHLETE_RECORDED_TRAINING_SQL, STUDY_EVENTS
+from enduranceviz.recorded_training import RECORDED_WEEK_METRICS_SQL, ATHLETE_RECORDED_TRAINING_SQL, PREVIEW_EVENTS
 from enduranceviz.performance_training import PERFORMANCE_TRAINING_SQL
 
 
@@ -67,16 +67,37 @@ class ServingRepository:
         return {'dataset_version': row['dataset_version'], 'build_time': row['build_time']}
 
     @lru_cache(maxsize=1)
-    def comparison_athletes(self) -> tuple[dict[str, Any], ...]:
-        """Approved exploratory summaries; no P0 eligibility or week cutoff."""
+    def recording_summaries(self) -> tuple[dict[str, Any], ...]:
+        """All registry summaries, without inferring complete public capture."""
         return tuple(self._query(f'''
             WITH recorded_athletes AS ({ATHLETE_RECORDED_TRAINING_SQL}),
-                 scored AS ({PERFORMANCE_TRAINING_SQL})
-            SELECT s.*, coalesce(d.display_name, d.official_name) AS name
+                 scored AS ({PERFORMANCE_TRAINING_SQL}),
+                 event_scores AS (
+                    SELECT athlete_id, discipline, max(results_score) AS points,
+                           count(*) AS result_count FROM performances_2024 GROUP BY ALL
+                 ), event_lists AS (
+                    SELECT athlete_id, string_agg(discipline || ': ' || coalesce(points::VARCHAR,'unscored')
+                        || ' pts (' || result_count::VARCHAR || ' results)', '; '
+                        ORDER BY points DESC NULLS LAST, result_count DESC, discipline) AS event_results
+                    FROM event_scores GROUP BY athlete_id
+                 )
+            SELECT s.*, coalesce(d.display_name, d.official_name) AS name, e.event_results
             FROM scored s JOIN athlete_directory_2024 d USING(athlete_id)
-            WHERE s.primary_discipline IN ({','.join('?' for _ in STUDY_EVENTS)})
+            LEFT JOIN event_lists e USING(athlete_id)
             ORDER BY s.primary_discipline, s.gender, name, s.athlete_id
-        ''', list(STUDY_EVENTS)))
+        '''))
+
+    def comparison_athletes(self) -> tuple[dict[str, Any], ...]:
+        """Seven preview events; the original six-event static plots stay frozen."""
+        return tuple(r for r in self.recording_summaries() if r['primary_discipline'] in PREVIEW_EVENTS)
+
+    @lru_cache(maxsize=4096)
+    def event_assignment(self, athlete_id: str) -> str:
+        rows=self._query('''SELECT discipline,max(results_score) AS points,count(*) AS result_count
+            FROM performances_2024 WHERE athlete_id=try_cast(? AS UUID) GROUP BY discipline
+            ORDER BY points DESC NULLS LAST,result_count DESC,discipline''',[athlete_id])
+        return '; '.join(f"{r['discipline']}: {r['points'] if r['points'] is not None else 'unavailable'} points "
+                         f"({r['result_count']} stored results)" for r in rows)
 
     @lru_cache(maxsize=1)
     def snapshot_stats(self) -> dict[str, Any]:
