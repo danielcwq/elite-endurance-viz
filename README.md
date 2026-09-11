@@ -1,8 +1,47 @@
 # EnduranceViz: the 2024 snapshot
 
-EnduranceViz is a reproducible study of publicly observable 2024 training among elite endurance runners. It combines public World Athletics results with public Strava activities, resolves both to stable internal athlete IDs, and serves coverage-aware metrics from a canonical analytical model.
+EnduranceViz is a data-engineering and exploratory-analytics application for publicly observed 2024 running. It combines public World Athletics results with public Strava activities, links them through stable internal athlete IDs, and serves recorded-week comparisons from a reproducible analytical model.
 
 This is a fixed historical snapshot—not a live training tracker and not a claim to represent anyone's complete training history.
+
+[Live application](https://enduranceviz.com) · [Architecture and data flow](docs/architecture.md) · [Comparison methods](docs/p1-comparison-preview.md)
+
+Production follows `main`; changes on a pull-request branch should be reviewed
+using that PR's Vercel preview before merging.
+
+## Explore the application
+
+- Search athlete profiles or browse the nationality map from the homepage.
+- `/compare` overlays two selected events, with women, men, or both displayed as
+  distinct series. Seven events are available, from 800m through Marathon.
+  Hover to highlight a group or athlete; click to pin details and open a profile.
+- Switch between distance and Run-record counts, or compare either metric with
+  continuous World Athletics result points. No fitted model or causal claim.
+- `/recordings` lists all 460 athletes with stored activities, including 455 with
+  Runs, with name/event filters and recording-breadth values.
+
+### How a plotted value is calculated
+
+Deduplicated activities are grouped into full Monday–Sunday UTC weeks. For each
+athlete, distance is summed only for weeks containing Runs whose stored distances
+are all usable. The chart uses the athlete's median across those weeks, then
+compares athletes with equal weight. Run-record counts are calculated separately;
+they are not inferred training-session counts. December 30–31 is excluded from
+weekly comparisons, but retained in annual activity counts.
+
+There is no minimum-week or mileage cutoff. Missing weeks are not zero training.
+The distribution overlay shows the share of athletes at or below each value.
+“Middle 50%” is the 25th–75th percentile range of athlete medians, not a confidence
+interval. “No plotted value” counts registry athletes lacking the selected metric
+or, for the performance view, an assigned-event score.
+
+Assigned event is the event with the highest stored result points, breaking ties
+by stored result count and then event name—not a verified main specialty.
+Profiles expose other stored event results. Account links are not independently
+verified in every case; the known, unconfirmed identity-link concern remains
+flagged on the affected point and profile. Do not present it as a verified athlete
+case study. Legacy zero-distance placeholders, selective posting and collection
+gaps limit interpretation. See [the recording review](docs/p1-ui-and-recording-review.md).
 
 ## Current dataset
 
@@ -93,7 +132,13 @@ Athletes are routed and joined by persistent UUID, not by display name. Search i
 
 On the P1 branch, profiles display recorded-week distance, Run-record counts, and UTC running days with explicit denominators, gaps, source warnings, and snapshot version/build date. Date/category controls filter only the activity table. These replace the legacy P0 profile summary cards and coverage-score headline; the packaged P0 database itself remains unchanged. This describes branch behavior, not a claim that P1 is deployed.
 
-The approved exploratory study leads with 800m versus 5000m, uses separate recorded-sex panels, and gives each athlete one median summary over their recorded-running weeks. No annual-week cutoff, final inclusion rule, performance tier, or inferential claim has been approved. See [analysis decisions](docs/p1-analysis-decisions.md) and the [exploratory report](docs/p1-exploratory-training-2024.md).
+The exploratory comparison defaults to 800m versus 5000m and uses distinct
+recorded-sex series on shared axes, without pooling groups. The existing local
+static plots retain separate panels for the original six events; Marathon is an
+interactive-preview extension. No annual-week cutoff, final inclusion rule,
+performance tier, or inferential claim has been approved. See
+[analysis decisions](docs/p1-analysis-decisions.md) and the
+[exploratory report](docs/p1-exploratory-training-2024.md).
 
 ## Historical work
 

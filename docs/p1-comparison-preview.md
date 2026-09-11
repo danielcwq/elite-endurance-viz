@@ -1,5 +1,16 @@
 # P1 comparison review package
 
+Release preparation authorized on 2026-09-11: shorten the heading to “See the
+differences,” explain the counts and percentile range in plain language, update
+the README, and open a PR with deployed-preview checks. “No plotted value” now
+replaces the ambiguous table heading “Unavailable.” It counts registry athletes
+without the selected chart value, not exclusions for low mileage. “Middle 50%”
+includes metric units and is explicitly the 25th–75th percentile range of athlete
+medians, not a confidence interval, accuracy estimate, or training prescription.
+The calculation, identity-review warning, packaged database, and `data/`
+deployment guardrail are unchanged. Production status is determined by the PR
+and its deployment, not by the historical local-preview notes below.
+
 Daniel's subsequent screenshot review on 2026-09-10 reopened the UI, overlapping
 charts, event-assignment explanation, Marathon visibility, and proposed anomaly
 examples. Full editorial case studies and unfinished items in the old P1 roadmap
@@ -65,7 +76,7 @@ Tests reconcile every original-six-event athlete's values, denominators and
 score with the static-analysis query. Missing values, recorded zero, missing
 scores, duplicate event selection, invalid controls, empty charts, synthetic
 identification, ECDF ties, sex selection and every event/metric/view combination
-are covered. Inventory tests cover all 460 entries, filters, unchanged event
+  are covered. Inventory tests cover all 460 entries, filters, unchanged event
 assignment, read-only audit generation, and retention of the identity-review row.
 
 Browser QA covers cohort isolation, pinned point details, responsive containment,

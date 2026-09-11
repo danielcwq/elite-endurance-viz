@@ -27,6 +27,7 @@ class ComparisonPreviewTests(unittest.TestCase):
         soup = BeautifulSoup(response.text, 'html.parser')
         self.assertEqual(len(soup.select('.comparison-chart .dot')), 138)
         self.assertEqual(len(soup.select('h1')), 1)
+        self.assertEqual(soup.h1.text, 'See the differences')
         self.assertEqual(len(soup.select('.comparison-chart')), 1)
         self.assertEqual(len(soup.select('.cohort-button')), 4)
         self.assertEqual([b['data-series'] for b in soup.select('.cohort-button')],['0','1','2','3'])
@@ -38,6 +39,19 @@ class ComparisonPreviewTests(unittest.TestCase):
         self.assertTrue(all(soup.find(id=label) for s in soup.select('svg[aria-labelledby]') for label in s['aria-labelledby'].split()))
         self.assertEqual(len(soup.select('[role="region"][tabindex="0"][aria-label]')), 3)
         self.assertEqual(soup.select_one('form')['method'], 'get')
+
+    def test_release_definitions_explain_counts_and_spread(self):
+        for view in ('distribution','points'):
+            response=self.get({'view':view})
+            soup=BeautifulSoup(response.text,'html.parser')
+            self.assertIn('No plotted value',soup.text)
+            self.assertIn('Middle 50% (km/week)',soup.text)
+            self.assertIn('25th to 75th percentiles',soup.text)
+            self.assertIn('not a confidence interval, an accuracy estimate',soup.text)
+            self.assertIn('not a count of athletes rejected for low mileage',soup.text)
+            if view=='points':
+                self.assertIn('no stored assigned-event score',soup.text)
+        self.assertIn('Middle 50% (Run records/week)',BeautifulSoup(self.get({'metric':'records'}).text,'html.parser').text)
 
     def test_all_event_metric_view_combinations_and_same_event(self):
         from enduranceviz.recorded_training import PREVIEW_EVENTS
