@@ -9,6 +9,10 @@ from typing import Any
 
 import duckdb
 
+from enduranceviz.activity_filters import ActivityFilters
+from enduranceviz.recorded_training import RECORDED_WEEK_METRICS_SQL, ATHLETE_RECORDED_TRAINING_SQL, PREVIEW_EVENTS
+from enduranceviz.performance_training import PERFORMANCE_TRAINING_SQL
+
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL_DATABASE = ROOT / "data/derived/2024/enduranceviz_2024.duckdb"
@@ -23,7 +27,9 @@ def default_database() -> Path:
 class ServingRepository:
     def __init__(self, database: Path | None = None) -> None:
         configured = os.getenv("ENDURANCEVIZ_DB_PATH")
-        self.database = Path(configured).expanduser().resolve() if configured else (database or default_database())
+        # An explicit database (including a test fixture) wins over process-wide
+        # configuration. The application still uses the environment by default.
+        self.database = Path(database or configured or default_database()).expanduser().resolve()
         if not self.database.is_file():
             raise FileNotFoundError(
                 f"Canonical serving database is missing at {self.database}. "
@@ -33,9 +39,65 @@ class ServingRepository:
 
     def _query(self, sql: str, parameters: list[Any] | None = None) -> list[dict[str, Any]]:
         with duckdb.connect(str(self.database), read_only=True) as connection:
-            cursor = connection.execute(sql, parameters or [])
-            columns = [description[0] for description in cursor.description]
-            return [dict(zip(columns, row)) for row in cursor.fetchall()]
+            return self._fetch(connection, sql, parameters)
+
+    @staticmethod
+    def _fetch(connection, sql: str, parameters: list[Any] | None = None) -> list[dict[str, Any]]:
+        cursor = connection.execute(sql, parameters or [])
+        columns = [description[0] for description in cursor.description]
+        return [dict(zip(columns, row)) for row in cursor.fetchall()]
+
+    def health_metadata(self) -> dict[str, Any] | None:
+        """Fresh read-only readiness probe, deliberately outside all caches."""
+        rows = self._query('''
+            SELECT specification_version AS dataset_version, completed_at_utc AS build_time,
+                   status,
+                   EXISTS(SELECT 1 FROM athlete_directory_2024 LIMIT 1) AS has_athletes,
+                   EXISTS(SELECT 1 FROM activities_2024 LIMIT 1) AS has_activities,
+                   EXISTS(SELECT 1 FROM data_coverage_2024 LIMIT 1) AS has_coverage
+            FROM dataset_builds ORDER BY started_at_utc DESC, completed_at_utc DESC NULLS LAST
+            LIMIT 1
+        ''')
+        if not rows:
+            return None
+        row = rows[0]
+        if (row['status'] != 'succeeded' or not row['build_time'] or not row['dataset_version']
+                or not all(row[key] for key in ('has_athletes', 'has_activities', 'has_coverage'))):
+            return None
+        return {'dataset_version': row['dataset_version'], 'build_time': row['build_time']}
+
+    @lru_cache(maxsize=1)
+    def recording_summaries(self) -> tuple[dict[str, Any], ...]:
+        """All registry summaries, without inferring complete public capture."""
+        return tuple(self._query(f'''
+            WITH recorded_athletes AS ({ATHLETE_RECORDED_TRAINING_SQL}),
+                 scored AS ({PERFORMANCE_TRAINING_SQL}),
+                 event_scores AS (
+                    SELECT athlete_id, discipline, max(results_score) AS points,
+                           count(*) AS result_count FROM performances_2024 GROUP BY ALL
+                 ), event_lists AS (
+                    SELECT athlete_id, string_agg(discipline || ': ' || coalesce(points::VARCHAR,'unscored')
+                        || ' pts (' || result_count::VARCHAR || ' results)', '; '
+                        ORDER BY points DESC NULLS LAST, result_count DESC, discipline) AS event_results
+                    FROM event_scores GROUP BY athlete_id
+                 )
+            SELECT s.*, coalesce(d.display_name, d.official_name) AS name, e.event_results
+            FROM scored s JOIN athlete_directory_2024 d USING(athlete_id)
+            LEFT JOIN event_lists e USING(athlete_id)
+            ORDER BY s.primary_discipline, s.gender, name, s.athlete_id
+        '''))
+
+    def comparison_athletes(self) -> tuple[dict[str, Any], ...]:
+        """Seven preview events; the original six-event static plots stay frozen."""
+        return tuple(r for r in self.recording_summaries() if r['primary_discipline'] in PREVIEW_EVENTS)
+
+    @lru_cache(maxsize=4096)
+    def event_assignment(self, athlete_id: str) -> str:
+        rows=self._query('''SELECT discipline,max(results_score) AS points,count(*) AS result_count
+            FROM performances_2024 WHERE athlete_id=try_cast(? AS UUID) GROUP BY discipline
+            ORDER BY points DESC NULLS LAST,result_count DESC,discipline''',[athlete_id])
+        return '; '.join(f"{r['discipline']}: {r['points'] if r['points'] is not None else 'unavailable'} points "
+                         f"({r['result_count']} stored results)" for r in rows)
 
     @lru_cache(maxsize=1)
     def snapshot_stats(self) -> dict[str, Any]:
@@ -165,23 +227,39 @@ class ServingRepository:
             )
         )
 
-    def activities(self, athlete_id: str, page: int = 1, page_size: int = 30) -> dict[str, Any]:
+    def activities(self, athlete_id: str, page: int = 1, page_size: int = 30,
+                   filters: ActivityFilters | None = None) -> dict[str, Any]:
         page_size = min(max(int(page_size), 1), 50)
         page = max(int(page), 1)
-        offset = (page - 1) * page_size
-        rows = self._query(
-            """
-            SELECT activity_id, activity_name, description, provider_activity_type,
-                   activity_category, start_at_utc, distance_meters,
-                   elapsed_seconds, moving_seconds, pace_seconds_per_kilometer,
-                   location, quality_status, quality_flags
-            FROM activities_2024
-            WHERE athlete_id = try_cast(? AS UUID)
-            ORDER BY start_at_utc DESC, activity_id DESC
-            LIMIT ? OFFSET ?
-            """,
-            [athlete_id, page_size + 1, offset],
-        )
+        predicates = ['athlete_id = try_cast(? AS UUID)']
+        parameters: list[Any] = [athlete_id]
+        if filters is not None:
+            predicates.extend(['start_at_utc >= ?', 'start_at_utc < ?'])
+            parameters.extend(filters.utc_bounds())
+            if filters.category != 'All':
+                predicates.append('activity_category = ?')
+                parameters.append(filters.category)
+        where = ' AND '.join(predicates)
+        # Both reads belong to this request. Share the connection without
+        # retaining a process-global handle or broadening the row projection.
+        with duckdb.connect(str(self.database), read_only=True) as connection:
+            total = self._fetch(connection, f'SELECT count(*) AS n FROM activities_2024 WHERE {where}', parameters)[0]['n']
+            total_pages = max(1, (total + page_size - 1) // page_size)
+            page = min(page, total_pages)
+            offset = (page - 1) * page_size
+            rows = self._fetch(connection,
+                f"""
+                SELECT activity_id, activity_name, description, provider_activity_type,
+                       activity_category, start_at_utc, distance_meters,
+                       elapsed_seconds, moving_seconds, pace_seconds_per_kilometer,
+                       location, quality_status, quality_flags
+                FROM activities_2024
+                WHERE {where}
+                ORDER BY start_at_utc DESC, activity_id DESC
+                LIMIT ? OFFSET ?
+                """,
+                [*parameters, page_size + 1, offset],
+            )
         has_next = len(rows) > page_size
         return {
             "rows": rows[:page_size],
@@ -189,4 +267,23 @@ class ServingRepository:
             "page_size": page_size,
             "has_previous": page > 1,
             "has_next": has_next,
+            "total": total,
+            "total_pages": total_pages,
+            "first": offset + 1 if total else 0,
+            "last": min(offset + page_size, total),
         }
+
+    @lru_cache(maxsize=128)
+    def recorded_weeks(self, athlete_id: str) -> tuple[dict[str, Any], ...]:
+        """53 bounded rows from actual records, scoped before metric aggregation."""
+        return tuple(self._query(
+            f"""WITH activities_2024 AS (
+                SELECT athlete_id, week_start_utc, activity_category, distance_meters, start_at_utc
+                FROM main.activities_2024 WHERE athlete_id=try_cast(? AS UUID)
+            ), data_coverage_2024 AS (
+                SELECT athlete_id, week_start_utc, is_partial_window, coverage_status,
+                    collection_error_code, evidence_source, observation_status
+                FROM main.data_coverage_2024 WHERE athlete_id=try_cast(? AS UUID)
+            ) SELECT * FROM ({RECORDED_WEEK_METRICS_SQL}) ORDER BY week_start_utc""",
+            [athlete_id, athlete_id],
+        ))

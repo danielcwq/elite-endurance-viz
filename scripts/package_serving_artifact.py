@@ -40,6 +40,8 @@ def snapshot_metadata(database: Path) -> dict[str, object]:
         ).fetchone()
         if row is None or row[3] != "succeeded":
             raise RuntimeError("Serving database has no successful dataset build record")
+        if str(row[0]).startswith('SYNTHETIC-DEMO'):
+            raise RuntimeError('Synthetic demo data must not be packaged for production')
         return {
             "specification_version": row[0],
             "dataset_completed_at_utc": row[1].isoformat(),

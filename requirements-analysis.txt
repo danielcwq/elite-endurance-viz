@@ -1,0 +1,3 @@
+# Optional local analysis/figures; not part of the production web runtime.
+-r requirements-pipeline.txt
+matplotlib==3.11.1

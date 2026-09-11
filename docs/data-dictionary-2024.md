@@ -2,6 +2,8 @@
 
 This dictionary describes the canonical DuckDB/Parquet model declared in [`schema/2024.sql`](../schema/2024.sql). Raw source headers remain unchanged in manifested inputs; these names and types apply only after staging and curation.
 
+This is the **P0 v1 persisted model**, not the P1 metric/inclusion policy. Legacy synthetic zeros, coverage scores, and count-based “double-session” fields must not be presented as approved P1 measures. P1 derives separate recorded-week metrics at query time; see [analysis decisions](p1-analysis-decisions.md) and the [complete schema/lineage diagrams](architecture.md).
+
 ## Model relationships
 
 ```text
@@ -23,11 +25,11 @@ athletes ──< athlete_external_accounts
 
 ### `dataset_builds`
 
-One row per attempted canonical build. `build_id` is the lineage key used by manifests and quarantined records. A successful release has `status = 'succeeded'` and a non-null completion timestamp.
+Build metadata keyed by `build_id`, referenced by manifests and quarantined records. The schema permits running/succeeded/failed states, but the current population script writes the successful build to a replacement artifact; it does not preserve an append-only history of failed attempts. A successful release has `status = 'succeeded'` and a non-null completion timestamp.
 
 ### `import_manifest`
 
-One row per physical source file used by a build. It records SHA-256, byte and row counts, schema signature, extraction time, source system, source role, and source commit. `(build_id, source_file, sha256)` is unique.
+One row per physical source file used by a build. It records SHA-256, byte and row counts, schema signature, extraction time, source system, and source role. The source commit is stored on the referenced `dataset_builds` row, not on `import_manifest` itself. `(build_id, source_file, sha256)` is unique.
 
 ### `quarantined_records`
 
@@ -59,7 +61,7 @@ Canonical measurements are meters, seconds, UTC timestamps, and seconds per kilo
 
 Legacy swim distances are null in the first canonical release. The scraper discarded each displayed unit before storing its numeric value, so values may represent meters, yards, miles, or already-converted kilometers. Swim duration remains usable; distance can be restored only from raw payloads that preserve units.
 
-`quality_status` is `valid` or `warning`; `quality_flags` names retained limitations such as missing moving time or suppressed swim units. Excluded observations live in `quarantined_records` with `exclusion_reason`, so a curated row normally has a null exclusion reason.
+`quality_status` is `valid` or `warning`; `quality_flags` names retained limitations such as missing moving time or suppressed swim units. Excluded observations live in `quarantined_records` with `reason_code` and `reason_detail`; a curated activity normally has a null `exclusion_reason`.
 
 `week_start_utc` is the Monday date containing `start_at_utc`. This intentionally gives every athlete one comparison boundary; it does not claim to reproduce Strava's athlete-local calendar near midnight.
 
@@ -85,4 +87,4 @@ The weighted run pace uses effective duration (moving time when available, other
 
 ## Storage contract
 
-DuckDB is the executable constraint and validation engine. Each canonical table is also exported to Parquet for portable analytical use. Generated databases and Parquet files live under `data/curated/2024/` and are reproducible, so they are ignored by Git. PostgreSQL, if introduced for serving, must be loaded from these canonical outputs rather than becoming an independently edited data source.
+DuckDB enforces the executable schema. The five observation/analytical tables are exported to Parquet under `data/curated/2024/`; reference registries remain CSV inputs, and quarantine has a separate Parquet output. The generated serving database lives under `data/derived/2024/`. These generated payloads are Git-ignored, but the explicitly packaged `deploy/enduranceviz_2024.duckdb` and historical source CSVs are tracked. PostgreSQL, if introduced later, should load canonical outputs rather than become an independently edited source.

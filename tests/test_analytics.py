@@ -106,6 +106,57 @@ class CoverageAnalyticsTests(unittest.TestCase):
         self.assertEqual(report["run_distance_max_absolute_difference_meters"], 1_000)
         self.assertTrue(report["activity_count_reconciles"])
 
+    def test_p1_no_data_is_unknown_and_does_not_create_rolling_zeros(self) -> None:
+        evidence = pd.DataFrame([
+            self.evidence_row(week, f"Week {week} - No Data") for week in range(1, 5)
+        ])
+        activities = pd.DataFrame([self.activity(5, 'actual-run', 5000)])
+        coverage = build_coverage(
+            self.athletes, self.accounts, activities, select_weekly_evidence(evidence),
+            empty_policy='unknown',
+        )
+        first_four = coverage.iloc[:4]
+        self.assertTrue(first_four['observation_status'].eq('unknown').all())
+        self.assertFalse(first_four['is_complete_enough_week'].any())
+        weekly = build_weekly_training(coverage, activities, set(), synthesize_observed_zeros=False)
+        self.assertTrue(weekly.iloc[:4]['run_distance_meters'].isna().all())
+        self.assertTrue(weekly.iloc[:4]['rolling_4w_run_distance_meters'].isna().all())
+        self.assertEqual(weekly.iloc[4]['run_distance_meters'], 5000)
+
+    def test_p1_conflicting_no_data_retains_real_activity(self) -> None:
+        evidence = pd.DataFrame([self.evidence_row(1, 'Week 1 - No Data')])
+        activities = pd.DataFrame([self.activity(1, 'actual-run', 5000)])
+        coverage = build_coverage(
+            self.athletes, self.accounts, activities, select_weekly_evidence(evidence),
+            empty_policy='unknown',
+        )
+        self.assertEqual(coverage.iloc[0]['observation_status'], 'unknown')
+        self.assertIn('SUMMARY_ACTIVITY_CONTRADICTION', coverage.iloc[0]['collection_error_code'])
+        self.assertIn('AMBIGUOUS_LEGACY_NO_DATA', coverage.iloc[0]['collection_error_code'])
+        weekly = build_weekly_training(coverage, activities, set(), synthesize_observed_zeros=False)
+        self.assertEqual(weekly.iloc[0]['activity_count'], 1)
+        self.assertEqual(weekly.iloc[0]['run_distance_meters'], 5000)
+
+    def test_p1_summary_without_extracted_activities_does_not_invent_zero(self) -> None:
+        evidence = pd.DataFrame([self.evidence_row(1, 'Activities for 1 Jan 2024 - 7 Jan 2024')])
+        activities = pd.DataFrame([self.activity(2, 'actual-run', 5000)])
+        coverage = build_coverage(
+            self.athletes, self.accounts, activities, select_weekly_evidence(evidence),
+            empty_policy='unknown',
+        )
+        weekly = build_weekly_training(coverage, activities, set(), synthesize_observed_zeros=False)
+        self.assertFalse(coverage.iloc[0]['is_complete_enough_week'])
+        self.assertTrue(pd.isna(weekly.iloc[0]['run_distance_meters']))
+
+    def test_p1_four_positive_consistent_weeks_support_rolling_metric(self) -> None:
+        ranges = ['Activities for 1 Jan 2024 - 7 Jan 2024', 'Activities for 8 Jan 2024 - 14 Jan 2024',
+                  'Activities for 15 Jan 2024 - 21 Jan 2024', 'Activities for 22 Jan 2024 - 28 Jan 2024']
+        evidence = pd.DataFrame([self.evidence_row(i, r) for i, r in enumerate(ranges, 1)])
+        activities = pd.DataFrame([self.activity(i, str(i), 5000) for i in range(1, 5)])
+        coverage = build_coverage(self.athletes, self.accounts, activities, select_weekly_evidence(evidence), empty_policy='unknown')
+        weekly = build_weekly_training(coverage, activities, set(), synthesize_observed_zeros=False)
+        self.assertEqual(weekly.iloc[3]['rolling_4w_run_distance_meters'], 20000)
+
 
 if __name__ == "__main__":
     unittest.main()

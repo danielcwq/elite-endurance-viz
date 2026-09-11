@@ -285,37 +285,73 @@ Grain: one canonical athlete by one 2024 calendar week.
 
 # P1 — Hiring-quality 2024 analytics project
 
-Required P1 scope is descriptive and comparative. Prediction models and 2025 outcome matching remain P2.
+### Current review scope — 2026-09-10
+
+Daniel initially narrowed the finish line to comparison preview plus static plots.
+His subsequent screenshot review explicitly reopened UI work, overlapping charts,
+event-assignment clarification, marathon visibility, and proposed anomaly examples.
+Full editorial case-study development is still not an automatic next step.
+Production deployment is not authorized.
+
+- [x] Add `/compare` on the P1 branch: event selectors, distance/Run-record metrics,
+  distribution/continuous-points views, distinct recorded-sex series, counts,
+  contributing weeks, exact-value tables, and stable GET URLs.
+- [x] Retain the three reproducible static plots locally, without committing plot
+  inputs, athlete-level exports, or generated images to GitHub.
+- [x] Replace side-by-side preview panels with a shared-axis overlay, cohort
+  hover/focus highlighting, click-to-pin details, and women/men/both selection.
+- [x] Refresh homepage/navigation/typography while retaining athlete search and map.
+- [x] Explain assigned event and expose stored event/score portfolios; add Marathon
+  to the interactive preview without changing the six-event static analyses.
+- [x] Inventory all 460 athletes with stored activities at `/recordings`; produce
+  a local full audit and proposed anomaly shortlist, including an explicitly
+  unconfirmed identity-link concern. Do not silently change the stored linkage.
+- [ ] Review the comparison preview and static plots with Daniel.
+
+The detailed P1.1–P1.9 checklist below is the **historical broader roadmap, not an
+active development queue or required exit criteria**. Its unchecked work is
+deferred unless Daniel explicitly reopens it. Earlier lift estimates no longer
+describe the current scope. See [review package](docs/p1-comparison-preview.md)
+and [UI and recording review](docs/p1-ui-and-recording-review.md).
+
+The retained work is descriptive and comparative. Prediction models and 2025 outcome matching remain P2.
 
 ## P1.1 Analytical question and cohorts
 
-- [ ] Frame the primary question: “How did publicly observable 2024 training patterns differ across elite running disciplines and performance levels?”
+- [ ] [PARTIAL] Frame the primary question: approved event ladder leads with 800m versus 5000m, with 1500m context, 10000m extension, separate steeplechase, and cautious half-marathon exploration. Continuous within-event/sex performance exploration is also approved and implemented; the final study protocol and composition question remain pending.
 - [ ] [PARTIAL] Reuse the existing 1,100 World Athletics point threshold, but document why it was chosen and how it affects selection.
-- [ ] Define event groups such as middle distance, track distance, road distance, and marathon.
-- [ ] Use the P0 primary-discipline rule to assign each athlete to a default cohort.
-- [ ] Define World Athletics score bands.
-- [ ] Use P0 coverage thresholds for default inclusion.
-- [ ] Audit cohort sizes before selecting comparisons.
-- [ ] Ensure one athlete appears only once in a single cohort analysis.
-- [ ] Publish inclusion, exclusion, and low-coverage counts.
-- [ ] Predefine analysis questions and metrics before interpreting results.
+- [ ] [PARTIAL] Define event groups: the approved event-specific ladder is implemented in exploration; broader middle/track/road/marathon pooling is not an approved default. Keep steeplechase and road/track distances separate.
+- [ ] [PARTIAL] Use the P0 primary-discipline rule: implemented in both exploratory reports, with one primary event per athlete; applying it in the cohort interface remains pending.
+- [x] Use continuous World Athletics points within event/recorded-sex groups, approved by Daniel; highest stored primary-event score per athlete, with missing-score counts and tested one-athlete joins in the [exploratory paired view](docs/p1-performance-training-2024.md). No score bands or fitted model.
+- [ ] Define question-specific inclusion after auditing collection evidence and posting; the P0 coverage thresholds are historical diagnostics, not an approved P1 filter.
+- [x] Audit cohort sizes before selecting comparisons; see [initial P1 cohort audit](docs/p1-cohort-audit-2024.md) for event, recorded-sex, coverage, and provisional score-band counts.
+- [ ] [PARTIAL] Ensure one athlete appears only once in a single cohort analysis: both exploratory calculations enforce unique athlete summaries, including after the performance join. Apply the invariant to the pending cohort interface too.
+- [ ] [PARTIAL] Publish inclusion, exclusion, and low-coverage counts: exploratory reports expose registry, metric contributors, missing-pair counts, contributing weeks, and source warnings. Final study inclusion/exclusion rules and their web presentation remain pending; P0 coverage labels are not an adopted filter.
+- [ ] [PARTIAL] Predefine analysis questions and metrics before interpreting results: exploratory recorded-week metrics and the per-athlete primary-event score were specified before calculation. Final comparisons, additional metrics, and inference still require decisions.
+
+Decision checkpoint: the broader event ladder, exploratory recorded-week distance/frequency view, and continuous within-event/sex performance points are approved. The 26/39-week proposal remains withdrawn. Final inclusion and inference remain pending; performance bands were superseded, not deferred. See [P1 analysis decisions](docs/p1-analysis-decisions.md).
+
+- [x] Add a reproducible [collection/posting audit](docs/p1-observability-audit-2024.md) that distinguishes ambiguous empty records from actual activity evidence and does not filter by P0 coverage eligibility.
+- [ ] [PARTIAL] Correct the legacy `No Data` interpretation: opt-in pipeline correction, regression tests, and [versioned local rebuild verified](docs/p1-evidence-correction-2024.md). Integration into P1 analytical serving remains pending; released P0 metrics remain unchanged.
+- [ ] [PARTIAL] Reconcile contradictory weekly source records: [all 611 conflict keys traced](docs/p1-source-conflicts-2024.md) for the selected events, with date errors, missing/positive disagreements, and differing totals separated. Actual activities retained; no unsupported source winner selected.
+- [x] Inspect month-by-month posting counts and within-year gaps for all 800m/1500m athletes without P0 eligibility filtering; see [source and calendar audit](docs/p1-source-conflicts-2024.md).
 
 ## P1.2 Athlete training fingerprint
 
 - [ ] [PARTIAL] Reuse the existing athlete profile route, search, season-best display, summary cards, and activity table as the shell.
-- [ ] Add a 2024 weekly volume timeline.
+- [x] Add a 2024 recorded-week running-distance timeline on athlete profiles, with missing measurements, source warnings, and the partial final week visible; verified locally on the P1 branch.
 - [ ] Add four-week rolling volume.
-- [ ] Add weekly run-frequency distribution.
+- [ ] [PARTIAL] Add weekly run-frequency distribution: Run-record count timeline and athlete median implemented; distribution view remains pending. Records are not labeled training sessions.
 - [ ] Add longest-run timeline and long-run share.
 - [ ] Add cross-training composition.
-- [ ] Add active days and double-session frequency.
+- [ ] [PARTIAL] Add active days and double-session frequency: recorded UTC running days implemented, tested, and shown in a profile timeline. A defensible session definition remains pending. Multiple Run records on one day do not establish double sessions.
 - [ ] Add consistency and variability measures.
 - [ ] Identify peak observed training periods.
-- [ ] Display structured 2024 season-best performances.
+- [x] Display structured 2024 season-best performances; existing canonical season-best cards are retained and browser-verified on the updated profile.
 - [ ] Display coverage and confidence beside every profile.
-- [ ] Add date and activity-category filters.
-- [ ] Add shareable chart state or stable filtered URLs.
-- [ ] Ensure missing data renders as missing, not zero.
+- [ ] [PARTIAL] Add date and activity-category filters: inclusive UTC dates and Run/Ride/Swim/Other filters implemented for the activity table, with matched counts and empty states. Running timelines remain explicitly full-year; chart-window controls remain pending.
+- [ ] [PARTIAL] Add shareable chart state or stable filtered URLs: activity-table filters and pagination have stable GET URLs; chart-specific state remains pending.
+- [ ] [PARTIAL] Ensure missing data renders as missing, not zero: new profile timelines, medians, and no-record states verified; apply the invariant to remaining P1 metrics as they are added.
 
 ## P1.3 Cohort comparison
 
@@ -327,9 +363,9 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] Compare long-run share.
 - [ ] Compare cross-training composition.
 - [ ] Compare consistency.
-- [ ] Allow performance-tier filtering.
+- [ ] Allow continuous World Athletics score-range filtering within event/recorded-sex groups; this replaces performance-tier bands following Daniel's approval.
 - [ ] Warn or suppress inference when cohort size is too small.
-- [ ] Exclude insufficient-coverage athletes by default while making the exclusion visible.
+- [ ] [DECISION] Set and visibly explain any final question-specific exclusion rule with Daniel. The original automatic P0 insufficient-coverage exclusion proposal is superseded by the approved exploratory no-cutoff view; do not implement the old flag as a default cohort filter.
 - [ ] Make cohort definitions and denominators accessible from the comparison view.
 
 ## P1.4 Coherent 2024 study
@@ -338,19 +374,25 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] Define three initial questions:
   - How does observed training volume differ by primary event?
   - How does observed training composition differ by event?
-  - Are 2024 performance tiers associated with different observed training patterns?
+  - Within event/recorded-sex groups, how do continuous 2024 performance points relate to recorded training patterns?
 - [ ] Write hypotheses before calculating final comparisons.
 - [ ] Produce cohort descriptive statistics.
-- [ ] Visualize distributions, not just means.
+- [x] Produce the approved [exploratory recorded-week summaries](docs/p1-exploratory-training-2024.md), with separate sex groups, athlete-level weighting, measurement-specific denominators, and local distribution figures. Final study statistics remain pending above.
+- [x] Produce an initial [continuous-points scatter exploration](docs/p1-performance-training-2024.md), with one primary-event score per athlete, metric-specific pair counts, and contributing-week colour. No fitted lines or numerical association statistics; final interpretation remains a human checkpoint.
+- [ ] [PARTIAL] Visualize distributions, not just means: local exploratory figures show individual athlete summaries, medians, and IQRs; an interactive/narrative web presentation remains pending.
 - [ ] Report uncertainty intervals and effect sizes.
 - [ ] Stratify or control for data coverage.
 - [ ] Investigate influential outliers and duplicate-related historical distortions.
+- [x] Trace the three highest median Run-record counts and add [recording-granularity diagnostics](docs/p1-run-record-structure-2024.md). No automatic removal or session clustering; overlap/near-duplicate checks remain pending.
 - [ ] Include counterexamples and unsupported hypotheses.
 - [ ] Avoid causal or coaching-prescription claims.
 - [ ] [VERIFY] Decide whether a small explanatory regression adds value; it is optional and must not turn P1 into a prediction-model project.
 - [ ] Publish the study as a navigable narrative, not only a notebook.
 
 ## P1.5 Editorial case studies
+
+**Removed from scope by Daniel on 2026-09-10.** The old checklist below is retained
+only as historical planning context, not unfinished required work.
 
 - [ ] Select three to five high-coverage athletes across different event groups.
 - [ ] Explain each athlete’s 2024 training fingerprint.
@@ -368,7 +410,7 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 - [ ] Explain what the snapshot contains and does not contain.
 - [ ] Feature one editorial case study.
 - [ ] Retain dataset counts only as supporting, deduplicated context.
-- [ ] Add a meaningful homepage title, description, and share metadata.
+- [x] Add a meaningful homepage title, description, and share metadata: [factual 2024 snapshot metadata and synthetic-demo identification](docs/p1-profile-qa.md) are implemented and tested on the P1 branch. Final study findings/narrative remain separate work above.
 
 ## P1.7 Methodology and transparency
 
@@ -384,16 +426,16 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 
 ## P1.8 Engineering portfolio quality
 
-- [ ] Add automated CI for unit tests, data fixtures, and schema/quality checks.
-- [ ] Provide a small non-sensitive seed dataset.
-- [ ] Provide one-command local setup and one-command test execution.
-- [ ] Publish an architecture diagram.
-- [ ] Publish a transformation/data-lineage diagram.
-- [ ] Publish a database or curated-schema diagram.
-- [ ] Publish before-and-after database-query measurements.
-- [ ] Publish before-and-after payload-size and page-latency measurements.
+- [x] Add automated CI for unit tests, data fixtures, and schema/quality checks: 79 tests and 19 read-only artifact checks pass locally and in the [verified Linux CI run](https://github.com/danielcwq/elite-endurance-viz/actions/runs/34398767117).
+- [x] Provide a small non-sensitive seed dataset: [five invented athletes and 55 activities](docs/synthetic-demo.md), generated with the real schema and serving queries via `make seed` / `make demo`; isolated output, synthetic banner, package rejection, and regression tests.
+- [x] Provide one-command local setup and one-command test execution: `make setup`, `make test`, and `make check`, with Python entry-point equivalents and a non-destructive existing-environment policy.
+- [x] Publish an architecture diagram: [implemented runtime and boundaries](docs/architecture.md), including read-only serving, caching, readiness, and logs.
+- [x] Publish a transformation/data-lineage diagram: [P0 rebuild and separate P1 paths](docs/architecture.md), with registry preparation and packaging explicitly separate.
+- [x] Publish a database or curated-schema diagram: [all ten persisted tables and foreign-key relationships](docs/architecture.md), distinguishing the directory view and schema constraints from pipeline invariants.
+- [x] Publish before-and-after database-query measurements: [paired local activity-pagination benchmarks](docs/p1-serving-performance.md), testing five cases against the committed pre-change repository; one request-local connection replaces two, with equivalent outputs and unchanged read-only access.
+- [ ] [PARTIAL] Publish before-and-after payload-size and page-latency measurements: identical HTML byte counts and warm in-process profile response timings are [measured](docs/p1-serving-performance.md). Browser/network/cold-start measurements remain pending; no production-speed claim is made.
 - [ ] Run a permitted staging load test and publish the methodology and results.
-- [ ] Add structured logging and an application health endpoint.
+- [x] Add structured logging and an application health endpoint: read-only `/health` readiness, privacy-limited JSON request events, request IDs, and regression tests for failures/streaming/redaction; see [operational observability](docs/p1-operational-observability.md). Implemented on P1, not deployed to production.
 - [ ] Handle missing, excluded, low-coverage, and empty-cohort states intentionally.
 - [ ] Rewrite the README as a technical and analytical case study.
 - [ ] Add screenshots or a short demo walkthrough.
@@ -402,18 +444,21 @@ Required P1 scope is descriptive and comparative. Prediction models and 2025 out
 
 ## P1.9 Product QA
 
-- [ ] Test high-, moderate-, low-, and insufficient-coverage athletes.
-- [ ] Test athletes with missing performance metadata and unusual activity types.
+- [x] Test high-, moderate-, low-, and insufficient-coverage athletes: [HTTP profile QA](docs/p1-profile-qa.md) covers all four classes present in the packaged snapshot (including unknown); synthetic data supplies the absent insufficient class.
+- [x] Test athletes with missing performance metadata and unusual activity types: the real missing-performance case and date-filtered WeightTraining, VirtualRide, and TrailRun records are covered in [profile QA](docs/p1-profile-qa.md).
 - [ ] Test empty and undersized cohorts.
 - [ ] Verify every chart against curated-table queries.
-- [ ] Test mobile and narrow-table behavior.
-- [ ] Test keyboard navigation and accessible chart labels.
-- [ ] Verify page titles and share metadata.
+- [ ] [PARTIAL] Test mobile and narrow-table behavior: [profile browser QA](docs/p1-responsive-keyboard-qa.md) at 320/390/768/1280 px verifies containment, readable activity text, and pagination. Homepage/map and future cohort layouts remain to be covered.
+- [ ] [PARTIAL] Test keyboard navigation and accessible chart labels: [profile browser QA](docs/p1-responsive-keyboard-qa.md) verifies charts, tables, disclosures, filter submission, and pagination; labels resolve and IDs are unique. Homepage/map keyboard coverage and screen-reader checks remain pending.
+- [ ] [PARTIAL] Verify page titles and share metadata: homepage/profile head titles, descriptions, Open Graph/Twitter text, escaping, and synthetic noindex are [tested](docs/p1-profile-qa.md); external share rendering and future study/cohort pages remain pending.
 - [ ] Verify stable filtered/shareable URLs.
 - [ ] Validate that missing data never becomes a misleading zero.
-- [ ] Validate that low-coverage warnings remain visible in screenshots and shared views.
+- [ ] [PARTIAL] Validate that low-coverage warnings remain visible in screenshots and shared views: recorded-week counts and source-warning counts are included in profile share metadata; screenshot and external-preview checks remain pending. No new low-coverage cutoff is introduced.
 
 ## P1 exit criteria
+
+**Superseded by the narrowed review-package finish line above.** These were the
+exit criteria for the original, broader hiring-project proposal.
 
 - [ ] The homepage communicates the study question and product value in under one minute.
 - [ ] Every displayed metric has a definition, window, denominator, and coverage status.

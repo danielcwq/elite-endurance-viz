@@ -3,23 +3,38 @@
 from __future__ import annotations
 
 import os
-from datetime import datetime
+import duckdb
+from datetime import datetime, timezone
 from functools import lru_cache
 
 from fasthtml.common import *
 from starlette.responses import JSONResponse, PlainTextResponse
+from starlette.middleware import Middleware
 
 from enduranceviz.geography import COUNTRY_CENTROIDS, NON_GEOGRAPHIC_CODES
+from enduranceviz.activity_filters import ACTIVITY_FILTER_CSS, ActivityFilters, activity_filter_form
 from enduranceviz.serving import ServingRepository
+from enduranceviz.training_profile import TRAINING_PROFILE_CSS, training_section
+from enduranceviz.operations import RequestLogMiddleware
+from enduranceviz.recorded_training import POLICY_VERSION
+from enduranceviz.page_metadata import homepage_metadata, profile_metadata
+from enduranceviz.comparison_preview import comparison_page
+from enduranceviz.ui import UI_CSS, FONT_URL, navigation, EVENT_EXPLANATION
+from enduranceviz.recording_inventory import inventory_page
+from enduranceviz.review_notes import IDENTITY_REVIEW_NOTES
 
 
 repository = ServingRepository()
 
 app, rt = fast_app(
+    middleware=[Middleware(RequestLogMiddleware)],
     # FastHTML otherwise writes a generated key to .sesskey during import,
     # which is incompatible with Vercel's read-only function filesystem.
     secret_key=os.getenv("ENDURANCEVIZ_SESSION_SECRET", "enduranceviz-2024-read-only-snapshot"),
     hdrs=(
+        Link(rel='stylesheet', href=FONT_URL),
+        Style(TRAINING_PROFILE_CSS),
+        Style(ACTIVITY_FILTER_CSS),
         Link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"),
         Link(
             rel="stylesheet",
@@ -91,6 +106,7 @@ app, rt = fast_app(
             }
             """
         ),
+        Style(UI_CSS),
     ),
 )
 
@@ -100,11 +116,29 @@ app, rt = fast_app(
 application = app
 
 
+@rt('/health', methods=['GET'])
+def health():
+    try:
+        metadata = repository.health_metadata()
+    except (OSError, duckdb.Error):
+        metadata = None
+    if metadata is None:
+        return JSONResponse({'status': 'unavailable', 'component': 'snapshot'},
+                            status_code=503, headers={'Cache-Control': 'no-store'})
+    return JSONResponse({
+        'status': 'ok', 'dataset_version': metadata['dataset_version'],
+        'dataset_built_at_utc': metadata['build_time'].astimezone(timezone.utc).isoformat(),
+        'analytics_policy': POLICY_VERSION,
+    }, headers={'Cache-Control': 'no-store'})
+
+
 def format_timestamp(value) -> str:
     if value is None:
         return "Unknown"
     if isinstance(value, str):
         value = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if value.tzinfo is not None:
+        value = value.astimezone(timezone.utc)
     return value.strftime("%Y-%m-%d %H:%M UTC")
 
 
@@ -115,16 +149,34 @@ def format_metric(value, divisor: float = 1, suffix: str = "", decimals: int = 1
 
 
 def snapshot_banner(stats: dict) -> Div:
+    synthetic = str(stats['dataset_version']).startswith('SYNTHETIC-DEMO')
     return Div(
-        Strong("2024 Snapshot"),
+        Strong("Synthetic demo — not real athletes" if synthetic else "2024 Snapshot"),
         " · ",
         Span(f"dataset v{stats['dataset_version']}"),
         " · ",
         Span(f"built {format_timestamp(stats['build_time'])}"),
         Br(),
-        Small("Publicly observed Strava activity, not a complete or current training history."),
+        Small("All athletes, results, and activities here are invented software-test examples." if synthetic
+              else "Publicly observed Strava activity, not a complete or current training history."),
         cls="snapshot-banner",
     )
+
+
+@rt('/compare')
+def compare(first: str = '800m', second: str = '5000m', metric: str = 'distance', view: str = 'distribution', sex: str = 'both'):
+    try:
+        return comparison_page(repository, snapshot_banner, first, second, metric, view, sex)
+    except ValueError as error:
+        return PlainTextResponse(str(error), status_code=400)
+
+
+@rt('/recordings')
+def recordings(q: str = '', event: str = 'All', sort: str = 'weeks', page: str = '1'):
+    try:
+        return inventory_page(repository,snapshot_banner,q,event,sort,page)
+    except ValueError as error:
+        return PlainTextResponse(str(error),status_code=400)
 
 
 @rt("/api/athletes/search")
@@ -185,16 +237,19 @@ def snapshot_metadata():
 def homepage():
     stats = repository.snapshot_stats()
     return (
-        Title("EnduranceViz — 2024 Snapshot"),
+        *homepage_metadata(stats),
         Main(
-            P("EnduranceViz", cls="home-brand"),
-            snapshot_banner(stats),
-            H1("Elite endurance training, observed in 2024"),
+            navigation('home'),
+            P('The 2024 endurance snapshot', cls='ev-kicker'),
+            H1('Different events. Different running patterns.'),
             P(
-                "Explore elite runners, their 2024 performances, and publicly observed training. "
-                "Search for an athlete or browse the map by nationality.",
+                'Explore what elite athletes recorded—not what we assume they trained. '
+                'Compare events, inspect individual running weeks, and see the evidence behind every number.',
                 cls="muted home-intro",
             ),
+            Div(A('Compare recorded running →', href='/compare', role='button'),
+                A('Browse recorded athletes', href='/recordings'), cls='home-actions'),
+            H2('Find an athlete'),
             Div(
                 Div(
                     Input(
@@ -412,6 +467,7 @@ def homepage():
                 cls="home-note muted",
             ),
             P(A("Dataset methods and limitations", href="https://github.com/danielcwq/elite-endurance-viz/blob/p0-2024-data-foundation/docs/data-specification-2024-v1.md")),
+            snapshot_banner(stats),
             cls="container home-page",
         ),
     )
@@ -443,21 +499,30 @@ def activity_row(row: dict) -> Tr:
 
 
 @rt("/athlete/{athlete_id}")
-def get_athlete(athlete_id: str, page: int = 1):
+def get_athlete(athlete_id: str, page: str = '1', start: str = '', end: str = '', category: str = 'All'):
     athlete = repository.athlete(athlete_id)
     if athlete is None:
         return PlainTextResponse("Athlete not found", status_code=404)
+    try:
+        filters = ActivityFilters.parse(start, end, category)
+        page_number = int(page)
+        if page_number < 1:
+            raise ValueError('Page must be a positive integer')
+    except ValueError as exc:
+        return PlainTextResponse(f'Invalid activity filters: {exc}. Edit the URL or return to /athlete/{athlete_id}.', status_code=400)
     stats = repository.snapshot_stats()
     performances = repository.season_bests(athlete_id)
-    activity_page = repository.activities(athlete_id, page=page, page_size=30)
+    activity_page = repository.activities(athlete_id, page=page_number, page_size=30, filters=filters)
     accounts = repository.external_accounts(athlete_id)
+    weeks = repository.recorded_weeks(athlete_id)
     strava = next((row for row in accounts if row["provider"] == "strava"), None)
     display_name = athlete["display_name"] or athlete["official_name"]
-    previous_link = f"/athlete/{athlete_id}?page={page - 1}"
-    next_link = f"/athlete/{athlete_id}?page={page + 1}"
-    return Titled(
-        f"{display_name} — EnduranceViz 2024",
+    previous_link = filters.url(athlete_id, activity_page['page'] - 1)
+    next_link = filters.url(athlete_id, activity_page['page'] + 1)
+    return (
+        *profile_metadata(athlete, stats, weeks),
         Main(
+            navigation(),
             A("← Athlete search", href="/"),
             snapshot_banner(stats),
             H1(
@@ -466,17 +531,19 @@ def get_athlete(athlete_id: str, page: int = 1):
             ),
             P(
                 f"{athlete['nationality_code'] or 'Nationality unknown'} · "
-                f"{athlete['primary_discipline'] or 'No primary 2024 discipline'} · "
-                f"{athlete['coverage_status'] or 'unknown'} coverage "
-                f"({athlete['coverage_score'] or 0:.1f}/100, {athlete['observed_weeks'] or 0} observed full weeks)",
+                f"Assigned event: {athlete['primary_discipline'] or 'No primary 2024 discipline'}",
                 cls="muted",
             ),
+            Details(Summary('How this event was assigned'),P(EVENT_EXPLANATION),
+                P(repository.event_assignment(athlete_id) or 'No stored event results.')),
+            P(IDENTITY_REVIEW_NOTES[athlete_id],cls='review-note') if athlete_id in IDENTITY_REVIEW_NOTES else None,
             H2("2024 season bests"),
             Div(
                 *[
                     Div(
                         Strong(row["discipline"]),
                         Div(row["mark_text"]),
+                        Div(f"{row['results_score']} result points" if row['results_score'] is not None else 'Result points unavailable'),
                         Small(f"{row['performance_date']} · {row['location'] or 'venue unavailable'}"),
                         cls="season-card",
                     )
@@ -484,34 +551,30 @@ def get_athlete(athlete_id: str, page: int = 1):
                 ],
                 cls="season-grid",
             ) if performances else P("No canonical 2024 performance rows."),
-            H2("Coverage-aware training summary"),
-            Div(
-                Div(Strong(format_metric(athlete["total_run_distance_meters"], 1000, " km")), Span("total run distance"), cls="metric"),
-                Div(Strong(format_metric(athlete["total_run_duration_seconds"], 3600, " h")), Span("total run duration"), cls="metric"),
-                Div(Strong(format_metric(athlete["average_run_distance_per_observed_week_meters"], 1000, " km")), Span("per observed week"), cls="metric"),
-                Div(Strong(format_metric(athlete["average_run_distance_per_calendar_week_meters"], 1000, " km")), Span("per 366/7 calendar week"), cls="metric"),
-                Div(Strong(format_metric(athlete["weighted_run_pace_seconds_per_kilometer"], 60, " min/km", 2)), Span("weighted public-run pace"), cls="metric"),
-                Div(Strong(f"{athlete['total_activity_count'] or 0:,}"), Span("unique activities"), cls="metric"),
-                cls="metric-grid",
-            ),
-            P(
-                "Metrics cover 2024-01-01T00:00:00Z through (but not including) 2025-01-01T00:00:00Z. "
-                "Missing collection is never interpreted as zero training.",
-                cls="muted",
-            ),
-            H2("2024 activities"),
-            Div(
-                Table(
-                    Thead(Tr(Th("Date (UTC)"), Th("Activity"), Th("Type"), Th("Distance"), Th("Duration"), Th("Pace"))),
-                    Tbody(*[activity_row(row) for row in activity_page["rows"]]),
-                ),
-                cls="table-wrap",
-            ) if activity_page["rows"] else P("No public 2024 activities in the canonical snapshot."),
-            Div(
-                A("← Previous 30", href=previous_link) if activity_page["has_previous"] else Span(""),
-                Span(f"Page {activity_page['page']}"),
-                A("Next 30 →", href=next_link) if activity_page["has_next"] else Span(""),
-                cls="pagination",
+            training_section(weeks),
+            Section(
+                H2("2024 activities"),
+                *activity_filter_form(athlete_id, filters),
+                P(f"Showing {activity_page['first']:,}–{activity_page['last']:,} of {activity_page['total']:,} matching activity records."
+                  if activity_page['total'] else 'No stored activities match these filters. This does not imply no training.'),
+                Div(
+                    Div(
+                        Table(
+                            Thead(Tr(*[Th(label, scope='col') for label in
+                                       ('Date (UTC)', 'Activity', 'Type', 'Distance', 'Duration', 'Pace')])),
+                            Tbody(*[activity_row(row) for row in activity_page["rows"]]),
+                        ),
+                        cls="activity-table-inner",
+                    ),
+                    cls="table-wrap", tabindex='0', role='region', aria_label='Filtered activity records',
+                ) if activity_page["rows"] else None,
+                Nav(
+                    A("← Previous 30", href=previous_link) if activity_page["has_previous"] else Span(""),
+                    Span(f"Page {activity_page['page']} of {activity_page['total_pages']}"),
+                    A("Next 30 →", href=next_link) if activity_page["has_next"] else Span(""),
+                    cls="pagination", aria_label='Activity pages',
+                ) if activity_page['total'] else None,
+                cls='activity-section', id='activities',
             ),
             cls="container",
         ),

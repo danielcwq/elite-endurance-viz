@@ -1,5 +1,7 @@
 # EnduranceViz 2024 methods, lineage, and limitations
 
+This document describes the **released P0 v1 storage/rebuild contract**. Its legacy `No Data`, coverage-score, and aggregate definitions below are not approved P1 analysis rules. P1 derives measurement-complete recorded-week metrics from actual activities. See [P1 decisions](p1-analysis-decisions.md) and the [runtime, lineage, and schema diagrams](architecture.md) for the current branch's separate calculation path.
+
 ## Source-to-serving lineage
 
 ```text

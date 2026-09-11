@@ -1,0 +1,48 @@
+name: Snapshot and P1 checks
+
+on:
+  push:
+    branches: [main, danielc-p1-2024-analytics]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: snapshot-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+      # Integration tests must not silently use a locally rebuilt database.
+      ENDURANCEVIZ_DB_PATH: ${{ github.workspace }}/deploy/enduranceviz_2024.duckdb
+    steps:
+      - name: Check out this revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+      - name: Set up Python 3.12
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-pipeline.txt
+            requirements-analysis.txt
+      - name: Install test and analysis dependencies
+        run: python -m pip install -r requirements-analysis.txt
+      - name: Check installed dependencies
+        run: python -m pip check
+      - name: Unit, schema, fixture, and HTTP regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Read-only packaged-data and P1 metric checks
+        run: python scripts/check_serving_2024.py
+      - name: Check patch whitespace
+        run: git diff --check HEAD^ HEAD
